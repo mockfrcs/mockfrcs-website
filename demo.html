@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Free Demo</title>
+<meta name="description" content="Try 10 free FRCS Part 1 General Surgery SBA questions from MockFRCS. Answers and explanations included.">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #f7f7f5; color: #1a1a18; line-height: 1.5; }
+.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); background: #fff; }
+.nav-inner { max-width: 720px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.nav-right { display: flex; align-items: center; gap: 12px; }
+.nav-back { font-size: 13px; color: #888; text-decoration: none; display: flex; align-items: center; gap: 4px; }
+.nav-back:hover { color: #1a1a18; }
+.nav-badge { font-size: 12px; font-weight: 500; background: #E6F1FB; color: #185FA5; padding: 4px 12px; border-radius: 20px; }
+.demo-section { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
+.demo-header { text-align: center; margin-bottom: 36px; }
+.demo-header .section-label { font-size: 11px; font-weight: 600; color: #185FA5; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 8px; }
+.demo-header h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 8px; }
+.demo-header p { font-size: 14px; color: #666; }
+.demo-progress { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+.progress-track { flex: 1; height: 4px; background: rgba(0,0,0,0.08); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: #185FA5; border-radius: 2px; transition: width 0.4s ease; }
+.progress-label { font-size: 13px; color: #888; white-space: nowrap; }
+.q-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.04); }
+.q-card-header { padding: 14px 20px; border-bottom: 0.5px solid rgba(0,0,0,0.07); background: #f7f7f5; display: flex; align-items: center; justify-content: space-between; }
+.q-num { font-size: 12px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+.q-topic { font-size: 11px; color: #aaa; }
+.q-body { padding: 20px; }
+.q-stem { font-size: 14px; color: #1a1a18; line-height: 1.7; margin-bottom: 20px; }
+.q-ask { font-size: 14px; font-weight: 600; color: #1a1a18; margin-bottom: 16px; }
+.options { display: flex; flex-direction: column; gap: 8px; }
+.option { display: flex; align-items: flex-start; gap: 12px; padding: 11px 14px; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; cursor: pointer; font-size: 13px; color: #1a1a18; line-height: 1.5; transition: border-color 0.15s, background 0.15s; background: #fff; }
+.option:hover:not(.disabled) { border-color: rgba(0,0,0,0.25); }
+.option.disabled { cursor: default; }
+.option.selected { border: 1.5px solid #185FA5; background: #E6F1FB; color: #0C447C; }
+.option.correct { border: 1.5px solid #3B6D11; background: #EAF3DE; color: #3B6D11; }
+.option.incorrect { border: 1.5px solid #A32D2D; background: #FCEBEB; color: #A32D2D; }
+.opt-letter { width: 24px; height: 24px; border-radius: 50%; border: 0.5px solid rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; flex-shrink: 0; color: #888; }
+.option.selected .opt-letter { background: #185FA5; color: #fff; border-color: #185FA5; }
+.option.correct .opt-letter { background: #3B6D11; color: #fff; border-color: #3B6D11; }
+.option.incorrect .opt-letter { background: #A32D2D; color: #fff; border-color: #A32D2D; }
+.btn-submit { width: 100%; margin-top: 16px; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 0.15s; }
+.btn-submit:hover { background: #0C447C; }
+.btn-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
+.explanation { display: none; margin-top: 16px; padding: 16px; background: #f7f7f5; border-radius: 8px; border-left: 3px solid #185FA5; }
+.explanation.show { display: block; }
+.exp-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.exp-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+.exp-badge.correct { background: #EAF3DE; color: #3B6D11; }
+.exp-badge.incorrect { background: #FCEBEB; color: #A32D2D; }
+.exp-answer { font-size: 12px; color: #888; }
+.exp-text { font-size: 13px; color: #444; line-height: 1.7; }
+.btn-next { width: 100%; margin-top: 12px; background: #1a1a18; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; display: none; transition: background 0.15s; }
+.btn-next.show { display: block; }
+.btn-next:hover { background: #333; }
+.results { display: none; text-align: center; background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 40px 32px; box-shadow: 0 2px 16px rgba(0,0,0,0.04); }
+.results.show { display: block; }
+.results-icon { font-size: 48px; margin-bottom: 16px; }
+.results h2 { font-size: 26px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 8px; }
+.results-score { font-size: 56px; font-weight: 700; letter-spacing: -2px; color: #185FA5; margin: 16px 0 4px; }
+.results-sub { font-size: 14px; color: #888; margin-bottom: 28px; }
+.results-breakdown { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 32px; }
+.rb-card { background: #f7f7f5; border-radius: 8px; padding: 14px; border: 0.5px solid rgba(0,0,0,0.07); }
+.rb-num { font-size: 24px; font-weight: 600; margin-bottom: 4px; }
+.rb-num.green { color: #3B6D11; }
+.rb-num.red { color: #A32D2D; }
+.rb-label { font-size: 12px; color: #888; }
+.results-divider { height: 0.5px; background: rgba(0,0,0,0.08); margin: 28px 0; }
+.results h3 { font-size: 20px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 8px; }
+.results p { font-size: 14px; color: #555; line-height: 1.65; margin-bottom: 20px; }
+.signup-label { font-size: 13px; font-weight: 500; color: #888; margin-bottom: 10px; display: block; }
+.signup-form { display: flex; gap: 8px; max-width: 400px; margin: 0 auto 8px; }
+.signup-form input { flex: 1; padding: 11px 16px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; }
+.signup-form input:focus { border-color: #185FA5; }
+.signup-form input::placeholder { color: #bbb; }
+.signup-form button { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px 20px; font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap; font-family: inherit; transition: background 0.15s; }
+.signup-form button:hover { background: #0C447C; }
+.signup-note { font-size: 12px; color: #bbb; margin-bottom: 20px; display: block; }
+.btn-back { display: inline-flex; align-items: center; gap: 6px; background: transparent; color: #555; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 10px 20px; font-size: 13px; cursor: pointer; text-decoration: none; font-family: inherit; transition: border-color 0.15s; }
+.btn-back:hover { border-color: rgba(0,0,0,0.4); }
+footer { border-top: 0.5px solid rgba(0,0,0,0.08); padding: 20px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; background: #fff; }
+footer p { font-size: 12px; color: #bbb; }
+footer a { font-size: 12px; color: #bbb; text-decoration: none; }
+footer a:hover { color: #555; }
+@media (max-width: 480px) {
+  .demo-header h1 { font-size: 22px; }
+  .signup-form { flex-direction: column; }
+  .signup-form button { width: 100%; }
+  footer { flex-direction: column; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+    <div class="nav-right">
+      <a href="index.html" class="nav-back">&larr; Back</a>
+      <div class="nav-badge">Free Demo</div>
+    </div>
+  </div>
+</nav>
+
+<div class="demo-section">
+  <div class="demo-header">
+    <div class="section-label">Free Demo</div>
+    <h1>10 Sample Questions</h1>
+    <p>FRCS Part 1 General Surgery &middot; SBA format &middot; Answers &amp; explanations after each question</p>
+  </div>
+
+  <div class="demo-progress">
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="progress-label" id="progressLabel">0 / 10</div>
+  </div>
+
+  <div id="questionContainer"></div>
+  <div class="results" id="results"></div>
+</div>
+
+<footer>
+  <p>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</p>
+  <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a>
+</footer>
+
+<script>
+const questions = [
+  { topic: "Vascular Surgery", stem: "A 67-year-old man presents to the emergency department with a 6-hour history of severe central abdominal pain radiating to the back. He is a known hypertensive and smoker. On examination he is haemodynamically unstable with a pulsatile, expansile abdominal mass. CT is unavailable.", ask: "What is the most appropriate immediate management?", options: ["Urgent CT angiography of the abdomen and pelvis", "IV access, crossmatch 6 units, immediate transfer to theatre for open repair", "IV access, commence IV fluids to maintain systolic >120mmHg, arrange urgent CT", "Catheterise, commence IV fluids, refer to vascular surgery for review", "Bedside ultrasound to confirm diagnosis prior to theatre"], correct: 1, explanation: "This is a ruptured abdominal aortic aneurysm (rAAA) until proven otherwise. The triad of severe abdominal/back pain, haemodynamic instability, and a pulsatile expansile mass is classic. CT is unavailable and the patient is unstable — there is no time for further imaging. The target is permissive hypotension (systolic 50-70mmHg), not aggressive fluid resuscitation which worsens coagulopathy. Immediate transfer to theatre is mandatory — mortality increases significantly with any delay." },
+  { topic: "Colorectal Surgery", stem: "A 54-year-old woman is referred to the colorectal clinic with a 3-month history of change in bowel habit and rectal bleeding. Colonoscopy reveals a 3cm adenocarcinoma in the upper rectum. CT staging demonstrates a T3N1M0 lesion with no evidence of distant metastases. MRI pelvis confirms the tumour is 0.5mm from the mesorectal fascia.", ask: "What is the most appropriate initial management?", options: ["Straight to anterior resection — surgery within 2 weeks", "Long course chemoradiotherapy followed by reassessment and surgery", "Short course radiotherapy followed by immediate surgery", "Defunctioning loop ileostomy followed by chemoradiotherapy", "Palliative chemotherapy with FOLFOX regimen"], correct: 1, explanation: "The tumour is 0.5mm from the mesorectal fascia — this is a threatened circumferential resection margin (CRM), defined as tumour within 1mm of the mesorectal fascia on MRI. This is the key indication for neoadjuvant long course chemoradiotherapy (45-50Gy over 5 weeks with concurrent capecitabine) to downstage the tumour before surgery. Short course radiotherapy (5Gy x 5) is used for resectable rectal cancer with a clear CRM. This is potentially curable disease so palliative chemotherapy is not appropriate." },
+  { topic: "Hepatobiliary Surgery", stem: "A 45-year-old woman is referred with a 6-week history of painless jaundice, weight loss, and pale stools. She has no significant past medical history. Examination reveals a palpable, non-tender gallbladder. Bloods show markedly raised bilirubin and ALP with mildly elevated ALT. CT abdomen demonstrates a mass at the head of the pancreas with a dilated common bile duct and pancreatic duct.", ask: "The palpable non-tender gallbladder in this clinical context represents which eponymous sign?", options: ["Charcot's sign", "Courvoisier's sign", "Murphy's sign", "Mirizzi's sign", "Trousseau's sign"], correct: 1, explanation: "This is Courvoisier's sign — a palpable, non-tender gallbladder in obstructive jaundice suggests malignancy rather than gallstones. Chronic gallstone disease causes fibrosis and thickening of the gallbladder wall, preventing distension. A normal gallbladder obstructed by malignancy can distend freely. The CT finding of a dilated common bile duct and pancreatic duct is the double duct sign — another classic finding in pancreatic head malignancy." },
+  { topic: "Colorectal Surgery", stem: "A 70-year-old man undergoes an elective open right hemicolectomy for a T3N0M0 caecal adenocarcinoma. His past medical history includes atrial fibrillation, hypertension and type 2 diabetes. On day 4 post-operatively he develops a fever of 38.4°C, tachycardia of 104bpm and increasing abdominal pain. His CRP has risen from 120 to 310. Examination reveals generalised abdominal tenderness with guarding. CT abdomen with contrast demonstrates free intraperitoneal air and fluid adjacent to the anastomosis.", ask: "What is the most appropriate next step in management?", options: ["IV broad spectrum antibiotics, NBM and CT-guided percutaneous drainage", "Urgent return to theatre for washout, repair or defunctioning", "IV antibiotics, NG tube decompression and repeat CT in 24 hours", "Refer to interventional radiology for urgent angioembolisation", "IV antibiotics and close monitoring on HDU with repeat bloods in 6 hours"], correct: 1, explanation: "This is a Grade C anastomotic leak (Rahbari classification) — free intraperitoneal air and fluid with generalised peritonitis mandates urgent return to theatre. Grade A leaks (radiological only) are managed conservatively. Grade B leaks (clinical but no peritonitis) may be managed with percutaneous drainage. Grade C with peritonitis requires laparotomy — options include washout with primary repair, takedown with end colostomy (Hartmann's), or defunctioning ileostomy. Percutaneous drainage alone is insufficient when there is generalised peritonitis." },
+  { topic: "Breast Surgery", stem: "A 38-year-old woman presents to the breast clinic with a 2cm firm, irregular, non-tender lump in the upper outer quadrant of the right breast. She has no family history of breast cancer. Examination reveals no skin changes, no nipple discharge and no palpable axillary lymphadenopathy. Mammography shows a spiculated mass with microcalcification. Core biopsy confirms invasive ductal carcinoma, ER positive, HER2 negative, grade 2.", ask: "What is the most appropriate surgical management?", options: ["Wide local excision and sentinel lymph node biopsy", "Mastectomy and axillary lymph node clearance", "Wide local excision alone with post-operative radiotherapy", "Mastectomy and sentinel lymph node biopsy", "Neoadjuvant chemotherapy followed by wide local excision"], correct: 0, explanation: "This patient is suitable for breast conserving surgery. The tumour is a single 2cm lesion with no evidence of multifocal disease, and the patient is clinically node negative — making wide local excision and sentinel lymph node biopsy appropriate. Axillary clearance is reserved for sentinel node positive disease, not performed upfront. Mastectomy is not indicated for a single small lesion. Neoadjuvant chemotherapy is typically reserved for larger tumours, HER2 positive or triple negative disease. WLE must always be followed by adjuvant radiotherapy." },
+  { topic: "Vascular Surgery", stem: "A 58-year-old man is referred to the vascular surgery clinic with a 3-month history of pain in his right calf on walking approximately 100 metres, relieved by rest. He is a smoker with a 40 pack year history, hypertensive and has type 2 diabetes. Examination reveals absent right popliteal and pedal pulses. ABPI measurement reveals a right ABPI of 0.55.", ask: "What is the most appropriate initial management?", options: ["Urgent right femoro-popliteal bypass grafting", "Supervised exercise programme, cardiovascular risk factor optimisation and antiplatelet therapy", "Percutaneous transluminal angioplasty of the right superficial femoral artery", "Refer for urgent CT angiography and vascular MDT discussion for revascularisation", "Amputation is likely to be required given the severity of the ABPI"], correct: 1, explanation: "This man has intermittent claudication — pain on walking relieved by rest. Despite absent pulses and an ABPI of 0.55, this is not critical limb ischaemia (which requires rest pain, ulceration or gangrene with ABPI less than 0.5). First line management per NICE NG137 is supervised exercise (2 hours/week for 3 months), antiplatelet therapy (clopidogrel first line), statin, and cardiovascular risk factor optimisation including smoking cessation. Revascularisation is only considered after failure of conservative management." },
+  { topic: "Upper GI Surgery", stem: "A 42-year-old woman presents to the emergency department with a 12-hour history of severe epigastric pain radiating to the back, nausea and vomiting. She drinks approximately 14 units of alcohol per week. Observations: temperature 38.1°C, HR 104bpm, BP 98/62mmHg. Bloods: amylase 1800 U/L, WCC 18, CRP 210, calcium 1.9mmol/L, urea 12mmol/L, glucose 14mmol/L, LDH 650 U/L, albumin 28g/L. ABG shows PaO2 of 7.2kPa on air.", ask: "Using the modified Glasgow (Imrie) scoring system, what is her score and what does it indicate?", options: ["Score of 4 — moderate acute pancreatitis, consider HDU admission", "Score of 5 — severe acute pancreatitis, requires ICU admission", "Score of 6 — severe acute pancreatitis, requires ICU admission", "Score of 7 — severe acute pancreatitis, requires ICU admission", "Score of 3 — moderate acute pancreatitis, observe on surgical ward"], correct: 2, explanation: "The modified Glasgow (Imrie) score uses the PANCREAS mnemonic. Scoring this patient: PaO2 less than 8kPa (7.2) = 1, Age more than 55 = 0, Neutrophils more than 15 (18) = 1, Calcium less than 2mmol/L (1.9) = 1, Renal urea more than 16mmol/L (12) = 0, Enzymes LDH more than 600 U/L (650) = 1, Albumin less than 32g/L (28) = 1, Sugar glucose more than 10mmol/L (14) = 1 — giving a score of 6. A score of 3 or more within 48 hours indicates severe acute pancreatitis requiring ICU level care and aggressive fluid resuscitation." },
+  { topic: "Upper GI Surgery", stem: "A 55-year-old man presents with a 6-month history of dysphagia to solids only, heartburn and 5kg weight loss. He has a 20-year history of gastro-oesophageal reflux disease and is a current smoker. OGD reveals an irregular mucosal lesion at the gastro-oesophageal junction. Biopsies confirm adenocarcinoma. CT staging shows T2N0M0 disease with no distant metastases. PET scan confirms no occult metastatic disease.", ask: "What is the most appropriate management?", options: ["Straight to surgery — Ivor Lewis oesophagectomy", "Definitive chemoradiotherapy with no planned surgery", "Perioperative chemotherapy with FLOT regimen followed by surgery", "Palliative chemotherapy with cisplatin and 5-fluorouracil", "Endoscopic mucosal resection"], correct: 2, explanation: "The FLOT4 trial demonstrated superior overall survival with perioperative FLOT chemotherapy (docetaxel, oxaliplatin, leucovorin, 5-fluorouracil) for resectable oesophagogastric adenocarcinoma. Current UK practice recommends perioperative FLOT for all T2 and above resectable oesophagogastric adenocarcinomas — 4 cycles before and 4 after surgery. Definitive chemoradiotherapy is used for squamous cell carcinoma. Endoscopic mucosal resection is only appropriate for T1a mucosal disease. This is curable disease so palliative chemotherapy is inappropriate." },
+  { topic: "Emergency Surgery", stem: "A 28-year-old man presents with a 24-hour history of periumbilical pain that has migrated to the right iliac fossa. Temperature 37.9°C, HR 98bpm, BP 122/78mmHg. Examination reveals guarding and rebound tenderness at McBurney's point. Alvarado score is 8. WCC 14.5, CRP 85. Urine dipstick is negative.", ask: "What is the most appropriate next step in management?", options: ["CT abdomen and pelvis with contrast prior to any intervention", "Urgent diagnostic laparoscopy", "Laparoscopic appendicectomy without further imaging", "IV antibiotics alone — APPAC trial evidence supports non-operative management", "Ultrasound abdomen to confirm diagnosis before proceeding to theatre"], correct: 2, explanation: "An Alvarado score of 8 indicates probable acute appendicitis and proceeding directly to laparoscopic appendicectomy without further imaging is appropriate. CT is useful in diagnostic uncertainty (score 5-6) but adds unnecessary radiation in a young man with a high clinical score. The APPAC trial showed non-operative management with antibiotics is feasible but has approximately 40% failure rate at 5 years — not the most appropriate management in a fit young patient. Diagnostic laparoscopy implies uncertainty which is not the case here." },
+  { topic: "Urology", stem: "A 62-year-old woman is referred urgently with a 3-week history of painless haematuria. She is an ex-smoker with a 30 pack year history. Urine cytology shows atypical cells. CT urogram demonstrates a 3cm filling defect in the right renal pelvis and a separate 1.5cm lesion within the bladder. Cystoscopy confirms a bladder lesion which is biopsied and confirms urothelial carcinoma.", ask: "Which of the following is the single greatest risk factor for urothelial carcinoma of the bladder?", options: ["Female sex", "Exposure to aromatic amines in the dye and rubber industry", "Cigarette smoking", "Chronic Schistosoma haematobium infection", "Long term cyclophosphamide use"], correct: 2, explanation: "Cigarette smoking is the single greatest risk factor for urothelial carcinoma, accounting for approximately 50% of all bladder cancer cases — smokers have a 2-4x increased risk. Carcinogens are filtered through the kidneys and concentrated in urine, giving prolonged mucosal exposure. Aromatic amine exposure is a significant occupational risk but accounts for far fewer cases. Schistosoma haematobium causes squamous cell carcinoma not urothelial carcinoma. Cyclophosphamide metabolite acrolein is directly urotoxic — mesna is given to reduce this risk." }
+];
+
+const letters = ['A','B','C','D','E'];
+let current = 0, score = 0, answered = false, selectedOption = null;
+
+function renderQuestion() {
+  const q = questions[current];
+  document.getElementById('progressFill').style.width = (current / questions.length * 100) + '%';
+  document.getElementById('progressLabel').textContent = current + ' / ' + questions.length;
+  document.getElementById('questionContainer').innerHTML = `
+    <div class="q-card">
+      <div class="q-card-header">
+        <span class="q-num">Question ${current + 1} of ${questions.length}</span>
+        <span class="q-topic">${q.topic}</span>
+      </div>
+      <div class="q-body">
+        <div class="q-stem">${q.stem}</div>
+        <div class="q-ask">${q.ask}</div>
+        <div class="options">${q.options.map((opt,i) => `<div class="option" id="opt${i}" onclick="selectOption(${i})"><div class="opt-letter">${letters[i]}</div><div>${opt}</div></div>`).join('')}</div>
+        <button class="btn-submit" id="submitBtn" onclick="submitAnswer()" disabled>Confirm answer</button>
+        <div class="explanation" id="explanation"></div>
+        <button class="btn-next" id="nextBtn" onclick="nextQuestion()">${current < questions.length - 1 ? 'Next question &rarr;' : 'See my results &rarr;'}</button>
+      </div>
+    </div>`;
+  answered = false; selectedOption = null;
+}
+
+function selectOption(i) {
+  if (answered) return;
+  selectedOption = i;
+  document.querySelectorAll('.option').forEach((el, idx) => {
+    el.className = 'option' + (idx === i ? ' selected' : '');
+    el.querySelector('.opt-letter').style.cssText = idx === i ? 'background:#185FA5;color:#fff;border-color:#185FA5' : '';
+  });
+  document.getElementById('submitBtn').disabled = false;
+}
+
+function submitAnswer() {
+  if (selectedOption === null || answered) return;
+  answered = true;
+  const q = questions[current];
+  const correct = selectedOption === q.correct;
+  if (correct) score++;
+  document.querySelectorAll('.option').forEach((el, idx) => {
+    el.classList.add('disabled');
+    if (idx === q.correct) { el.className = 'option correct disabled'; el.querySelector('.opt-letter').style.cssText = 'background:#3B6D11;color:#fff;border-color:#3B6D11'; }
+    else if (idx === selectedOption && !correct) { el.className = 'option incorrect disabled'; el.querySelector('.opt-letter').style.cssText = 'background:#A32D2D;color:#fff;border-color:#A32D2D'; }
+    else { el.className = 'option disabled'; el.querySelector('.opt-letter').style.cssText = ''; }
+  });
+  const exp = document.getElementById('explanation');
+  exp.innerHTML = `<div class="exp-header"><span class="exp-badge ${correct ? 'correct' : 'incorrect'}">${correct ? '&#10003; Correct' : '&#10007; Incorrect'}</span>${!correct ? `<span class="exp-answer">Correct answer: ${letters[q.correct]}</span>` : ''}</div><div class="exp-text">${q.explanation}</div>`;
+  exp.classList.add('show');
+  document.getElementById('submitBtn').style.display = 'none';
+  document.getElementById('nextBtn').classList.add('show');
+}
+
+function nextQuestion() {
+  current++;
+  if (current >= questions.length) { showResults(); }
+  else { renderQuestion(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+}
+
+function showResults() {
+  document.getElementById('questionContainer').innerHTML = '';
+  document.getElementById('progressFill').style.width = '100%';
+  document.getElementById('progressLabel').textContent = '10 / 10';
+  const pct = Math.round(score / questions.length * 100);
+  const incorrect = questions.length - score;
+  const emoji = pct >= 70 ? '&#127881;' : pct >= 50 ? '&#128077;' : '&#128218;';
+  const msg = pct >= 70 ? 'Great work — well above the pass mark.' : pct >= 50 ? 'A solid start — keep revising.' : 'Plenty to work on — this is exactly what mock exams are for.';
+  const results = document.getElementById('results');
+  results.innerHTML = `
+    <div class="results-icon">${emoji}</div>
+    <h2>Demo complete</h2>
+    <div class="results-score">${pct}%</div>
+    <div class="results-sub">${score} / ${questions.length} correct &middot; ${msg}</div>
+    <div class="results-breakdown">
+      <div class="rb-card"><div class="rb-num green">${score}</div><div class="rb-label">Correct</div></div>
+      <div class="rb-card"><div class="rb-num red">${incorrect}</div><div class="rb-label">Incorrect</div></div>
+      <div class="rb-card"><div class="rb-num">${pct}%</div><div class="rb-label">Score</div></div>
+    </div>
+    <div class="results-divider"></div>
+    <h3>Ready for the full exams?</h3>
+    <p>MockFRCS launches soon with 5 full mock exams — two timed papers of 120 SBA questions each, written and reviewed by surgeons.</p>
+    <p>Sign up below and we'll email you the moment we go live.</p>
+    <span class="signup-label">Get notified when we launch</span>
+    <form action="https://mockfrcs.us2.list-manage.com/subscribe/post?u=f7ca65907234f835274a65b67&amp;id=9c974c11d8&amp;f_id=004ef4e3f0" method="post" target="_blank" novalidate>
+      <div class="signup-form">
+        <input type="email" name="EMAIL" placeholder="your@email.com" required />
+        <div aria-hidden="true" style="position:absolute;left:-5000px;"><input type="text" name="b_f7ca65907234f835274a65b67_9c974c11d8" tabindex="-1" value=""></div>
+        <button type="submit">Notify me</button>
+      </div>
+    </form>
+    <span class="signup-note">No spam. One email when MockFRCS goes live.</span>
+    <a href="index.html" class="btn-back">&larr; Back to homepage</a>`;
+  results.classList.add('show');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+renderQuestion();
+</script>
+</body>
+</html>
