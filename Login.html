@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In — MockFRCS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #185FA5;
+    --primary-dark: #0f3f72;
+    --primary-light: #e8f1fb;
+    --accent: #d4a017;
+    --text: #1a1f2e;
+    --text-muted: #5a6478;
+    --border: #d4dde8;
+    --white: #ffffff;
+    --danger: #b91c1c;
+    --danger-light: #fef2f2;
+    --success: #1a7a4a;
+    --success-light: #e6f4ed;
+    --neutral: #f4f6f9;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--neutral);
+    color: var(--text);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ── Left Panel ── */
+  .left-panel {
+    background: var(--primary-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .left-panel::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 50% at 20% 80%, rgba(212,160,23,0.12) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 40% at 80% 20%, rgba(255,255,255,0.04) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  /* Subtle grid texture */
+  .left-panel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  .panel-logo {
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    position: relative;
+    z-index: 1;
+  }
+
+  .panel-logo span { color: var(--accent); }
+
+  .panel-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .panel-eyebrow {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  .panel-headline {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.35;
+    margin-bottom: 1.25rem;
+  }
+
+  .panel-headline em {
+    font-style: italic;
+    color: #a8c8f0;
+  }
+
+  .panel-body {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
+    max-width: 340px;
+    margin-bottom: 2rem;
+  }
+
+  .panel-stats {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .panel-stat-value {
+    font-family: 'Lora', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1;
+  }
+
+  .panel-stat-label {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.5);
+    margin-top: 3px;
+  }
+
+  .panel-footer {
+    position: relative;
+    z-index: 1;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* ── Right Panel ── */
+  .right-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--white);
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .form-header { margin-bottom: 2rem; }
+
+  .form-title {
+    font-family: 'Lora', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.35rem;
+    letter-spacing: -0.02em;
+  }
+
+  .form-subtitle {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+
+  .form-subtitle a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .form-subtitle a:hover { text-decoration: underline; }
+
+  /* Alert */
+  .alert {
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 1.25rem;
+    display: none;
+    line-height: 1.5;
+  }
+
+  .alert.show { display: flex; align-items: flex-start; gap: 0.6rem; }
+  .alert-error { background: var(--danger-light); color: var(--danger); border: 1px solid #fca5a5; }
+  .alert-success { background: var(--success-light); color: var(--success); border: 1px solid #6ee7b7; }
+  .alert-info { background: var(--primary-light); color: var(--primary-dark); border: 1px solid #b8d0ec; }
+
+  /* Fields */
+  .field { margin-bottom: 1.1rem; }
+
+  .field-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.45rem;
+  }
+
+  .field-input {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.93rem;
+    color: var(--text);
+    background: var(--white);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    outline: none;
+  }
+
+  .field-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(24, 95, 165, 0.12);
+  }
+
+  .field-input.error { border-color: var(--danger); }
+  .field-input.error:focus { box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.1); }
+
+  .field-hint {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+  }
+
+  .field-error {
+    font-size: 0.75rem;
+    color: var(--danger);
+    margin-top: 0.35rem;
+    display: none;
+  }
+
+  .field-error.show { display: block; }
+
+  /* Password toggle */
+  .field-password-wrap { position: relative; }
+
+  .field-password-wrap .field-input { padding-right: 2.8rem; }
+
+  .toggle-pw {
+    position: absolute;
+    right: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.2rem;
+  }
+
+  /* Forgot */
+  .forgot-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -0.5rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .forgot-link {
+    font-size: 0.8rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .forgot-link:hover { text-decoration: underline; }
+
+  /* Submit button */
+  .btn-submit {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .btn-submit:hover { background: var(--primary-dark); }
+  .btn-submit:active { transform: scale(0.99); }
+  .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+  .spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-top-color: var(--white);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    display: none;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Divider */
+  .divider {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin: 1.25rem 0;
+    position: relative;
+  }
+
+  .divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 2rem);
+    height: 1px;
+    background: var(--border);
+  }
+
+  .divider::before { left: 0; }
+  .divider::after { right: 0; }
+
+  /* Demo access */
+  .btn-demo {
+    width: 100%;
+    padding: 0.72rem;
+    background: var(--white);
+    color: var(--text);
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-demo:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-light); }
+
+  /* Terms note */
+  .terms-note {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .terms-note a { color: var(--primary); text-decoration: none; }
+  .terms-note a:hover { text-decoration: underline; }
+
+  /* Forgot password panel */
+  .forgot-panel { display: none; }
+  .forgot-panel.show { display: block; }
+  .login-panel.hidden { display: none; }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: color 0.15s;
+  }
+
+  .back-link:hover { color: var(--primary); }
+
+  /* Animation */
+  .form-container { animation: fadeUp 0.35s ease; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 800px) {
+    body { grid-template-columns: 1fr; }
+    .left-panel { display: none; }
+    .right-panel { padding: 2rem 1.5rem; background: var(--neutral); }
+    .form-container { background: var(--white); padding: 2rem; border-radius: 14px; border: 1px solid var(--border); }
+  }
+
+  @media (max-width: 400px) {
+    .right-panel { padding: 1.25rem; }
+    .form-container { padding: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Left decorative panel -->
+<div class="left-panel">
+  <a href="index.html" class="panel-logo">Mock<span>FRCS</span></a>
+
+  <div class="panel-content">
+    <p class="panel-eyebrow">FRCS Part 1 · General Surgery</p>
+    <h2 class="panel-headline">Prepare with<br><em>exam-grade</em><br>precision.</h2>
+    <p class="panel-body">
+      SBA questions written to the JCIE standard, with detailed explanations
+      grounded in current guidelines. Practice under timed, exam-realistic conditions.
+    </p>
+    <div class="panel-stats">
+      <div>
+        <div class="panel-stat-value">500+</div>
+        <div class="panel-stat-label">Questions</div>
+      </div>
+      <div>
+        <div class="panel-stat-value">75%</div>
+        <div class="panel-stat-label">Pass Mark</div>
+      </div>
+      <div>
+        <div class="panel-stat-value">8</div>
+        <div class="panel-stat-label">Topic Areas</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-footer">© 2026 MockFRCS · mockfrcs.co.uk</div>
+</div>
+
+<!-- Right form panel -->
+<div class="right-panel">
+  <div class="form-container">
+
+    <!-- ── LOGIN PANEL ── -->
+    <div id="login-panel" class="login-panel">
+
+      <div class="form-header">
+        <h1 class="form-title">Welcome back</h1>
+        <p class="form-subtitle">
+          New here? <a href="signup.html">Create a free account →</a>
+        </p>
+      </div>
+
+      <!-- Confirmation message (from email link) -->
+      <div class="alert alert-success" id="alert-confirmed">
+        <span>✅</span>
+        <span>Email confirmed! You can now sign in.</span>
+      </div>
+
+      <!-- Error alert -->
+      <div class="alert alert-error" id="alert-error">
+        <span>⚠️</span>
+        <span id="alert-error-text">Invalid email or password.</span>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          class="field-input"
+          placeholder="you@example.com"
+          autocomplete="email"
+        >
+        <div class="field-error" id="email-error">Please enter a valid email.</div>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="password">Password</label>
+        <div class="field-password-wrap">
+          <input
+            type="password"
+            id="password"
+            class="field-input"
+            placeholder="Your password"
+            autocomplete="current-password"
+          >
+          <button type="button" class="toggle-pw" onclick="togglePw('password', this)" aria-label="Show password">👁</button>
+        </div>
+      </div>
+
+      <div class="forgot-row">
+        <a class="forgot-link" onclick="showForgot()">Forgot password?</a>
+      </div>
+
+      <button class="btn-submit" id="btn-login" onclick="handleLogin()">
+        <div class="spinner" id="login-spinner"></div>
+        <span id="login-btn-text">Sign In</span>
+      </button>
+
+      <div class="divider">or</div>
+
+      <a href="demo.html" class="btn-demo">
+        🔓 Try 10 free questions — no account needed
+      </a>
+
+      <p class="terms-note">
+        By signing in you agree to our
+        <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+      </p>
+    </div>
+
+    <!-- ── FORGOT PASSWORD PANEL ── -->
+    <div id="forgot-panel" class="forgot-panel">
+      <a class="back-link" onclick="showLogin()">← Back to sign in</a>
+
+      <div class="form-header">
+        <h1 class="form-title">Reset password</h1>
+        <p class="form-subtitle">We'll email you a link to reset your password.</p>
+      </div>
+
+      <div class="alert alert-success" id="alert-reset-sent">
+        <span>📧</span>
+        <span>Check your inbox — we've sent a reset link.</span>
+      </div>
+
+      <div class="alert alert-error" id="alert-reset-error">
+        <span>⚠️</span>
+        <span id="alert-reset-error-text">Something went wrong. Please try again.</span>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="reset-email">Email address</label>
+        <input
+          type="email"
+          id="reset-email"
+          class="field-input"
+          placeholder="you@example.com"
+          autocomplete="email"
+        >
+      </div>
+
+      <button class="btn-submit" id="btn-reset" onclick="handleReset()">
+        <div class="spinner" id="reset-spinner"></div>
+        <span id="reset-btn-text">Send Reset Link</span>
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<script type="module">
+  import { supabase, signIn, resetPassword, getSession } from './js/auth.js';
+
+  // ── Redirect if already logged in ─────────────────────────────
+  (async () => {
+    const session = await getSession();
+    if (session) window.location.href = '/dashboard.html';
+  })();
+
+  // ── Show email confirmed banner ────────────────────────────────
+  if (new URLSearchParams(window.location.search).get('confirmed')) {
+    document.getElementById('alert-confirmed').classList.add('show');
+  }
+
+  // ── Login ──────────────────────────────────────────────────────
+  window.handleLogin = async function () {
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value;
+
+    clearErrors();
+    let valid = true;
+
+    if (!email || !/\S+@\S+\.\S+/.test(email)) {
+      document.getElementById('email').classList.add('error');
+      document.getElementById('email-error').classList.add('show');
+      valid = false;
+    }
+
+    if (!password) {
+      document.getElementById('password').classList.add('error');
+      valid = false;
+    }
+
+    if (!valid) return;
+
+    setLoading('login', true);
+
+    const { data, error } = await signIn(email, password);
+
+    setLoading('login', false);
+
+    if (error) {
+      showError('alert-error', 'alert-error-text', friendlyError(error.message));
+      return;
+    }
+
+    // Check membership and redirect accordingly
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('membership_expires_at')
+      .eq('id', data.user.id)
+      .single();
+
+    const hasActive = profile?.membership_expires_at &&
+      new Date(profile.membership_expires_at) > new Date();
+
+    window.location.href = hasActive ? '/dashboard.html' : '/subscribe.html';
+  };
+
+  // ── Password Reset ─────────────────────────────────────────────
+  window.handleReset = async function () {
+    const email = document.getElementById('reset-email').value.trim();
+    if (!email) return;
+
+    setLoading('reset', true);
+    const { error } = await resetPassword(email);
+    setLoading('reset', false);
+
+    if (error) {
+      showError('alert-reset-error', 'alert-reset-error-text', error.message);
+    } else {
+      document.getElementById('alert-reset-sent').classList.add('show');
+      document.getElementById('btn-reset').disabled = true;
+    }
+  };
+
+  // ── Enter key support ──────────────────────────────────────────
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    if (!document.getElementById('forgot-panel').classList.contains('show')) {
+      handleLogin();
+    } else {
+      handleReset();
+    }
+  });
+
+  // ── Helpers ────────────────────────────────────────────────────
+  window.showForgot = function () {
+    document.getElementById('login-panel').classList.add('hidden');
+    document.getElementById('forgot-panel').classList.add('show');
+  };
+
+  window.showLogin = function () {
+    document.getElementById('login-panel').classList.remove('hidden');
+    document.getElementById('forgot-panel').classList.remove('show');
+  };
+
+  window.togglePw = function (id, btn) {
+    const input = document.getElementById(id);
+    const showing = input.type === 'text';
+    input.type = showing ? 'password' : 'text';
+    btn.textContent = showing ? '👁' : '🙈';
+  };
+
+  function setLoading(which, loading) {
+    const btn = document.getElementById(`btn-${which}`);
+    const spinner = document.getElementById(`${which}-spinner`);
+    const text = document.getElementById(`${which}-btn-text`);
+    btn.disabled = loading;
+    spinner.style.display = loading ? 'block' : 'none';
+    text.textContent = loading
+      ? (which === 'login' ? 'Signing in…' : 'Sending…')
+      : (which === 'login' ? 'Sign In' : 'Send Reset Link');
+  }
+
+  function showError(alertId, textId, msg) {
+    document.getElementById(textId).textContent = msg;
+    document.getElementById(alertId).classList.add('show');
+  }
+
+  function clearErrors() {
+    document.querySelectorAll('.field-input').forEach(i => i.classList.remove('error'));
+    document.querySelectorAll('.field-error').forEach(e => e.classList.remove('show'));
+    document.querySelectorAll('.alert').forEach(a => a.classList.remove('show'));
+  }
+
+  function friendlyError(msg) {
+    if (msg.includes('Invalid login credentials')) return 'Incorrect email or password. Please try again.';
+    if (msg.includes('Email not confirmed')) return 'Please check your inbox and confirm your email first.';
+    if (msg.includes('Too many requests')) return 'Too many attempts. Please wait a moment and try again.';
+    return msg;
+  }
+</script>
+
+</body>
+</html>
