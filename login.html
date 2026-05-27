@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Log In</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
+.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
+.nav-inner { max-width: 480px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.nav-link { font-size: 13px; color: #888; text-decoration: none; }
+.nav-link:hover { color: #1a1a18; }
+.main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 24px; }
+.card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 36px; width: 100%; max-width: 420px; box-shadow: 0 2px 16px rgba(0,0,0,0.05); }
+.card-header { margin-bottom: 28px; }
+.card-header h1 { font-size: 22px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 6px; }
+.card-header p { font-size: 14px; color: #666; }
+.form-group { margin-bottom: 16px; }
+label { display: block; font-size: 13px; font-weight: 500; color: #333; margin-bottom: 6px; }
+input { width: 100%; padding: 11px 14px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; background: #fff; }
+input:focus { border-color: #185FA5; }
+input::placeholder { color: #bbb; }
+.forgot-link { font-size: 12px; color: #888; text-decoration: none; float: right; margin-top: -4px; }
+.forgot-link:hover { color: #185FA5; }
+.btn-submit { width: 100%; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: background 0.15s; margin-top: 8px; }
+.btn-submit:hover { background: #0C447C; }
+.btn-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
+.error-msg { display: none; background: #FCEBEB; color: #A32D2D; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
+.error-msg.show { display: block; }
+.divider { display: flex; align-items: center; gap: 12px; margin: 20px 0; }
+.divider-line { flex: 1; height: 0.5px; background: rgba(0,0,0,0.1); }
+.divider-text { font-size: 12px; color: #bbb; }
+.footer-link { text-align: center; font-size: 13px; color: #888; }
+.footer-link a { color: #185FA5; text-decoration: none; font-weight: 500; }
+.footer-link a:hover { text-decoration: underline; }
+footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+    <a href="signup.html" class="nav-link">No account? Sign up</a>
+  </div>
+</nav>
+
+<main class="main">
+  <div class="card">
+    <div class="card-header">
+      <h1>Log in</h1>
+      <p>Welcome back to MockFRCS</p>
+    </div>
+
+    <div class="error-msg" id="errorMsg"></div>
+
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" id="email" placeholder="your@email.com" />
+    </div>
+    <div class="form-group">
+      <label for="password">
+        Password
+        <a href="reset.html" class="forgot-link">Forgot password?</a>
+      </label>
+      <input type="password" id="password" placeholder="Your password" />
+    </div>
+
+    <button class="btn-submit" id="loginBtn" onclick="handleLogin()">Log in</button>
+
+    <div class="divider">
+      <div class="divider-line"></div>
+      <div class="divider-text">don't have an account?</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <div class="footer-link">
+      <a href="signup.html">Create an account</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 MockFRCS.co.uk &middot; For educational purposes only
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+// Redirect if already logged in
+(async () => {
+  const user = await getUser();
+  if (user) window.location.href = 'dashboard.html';
+})();
+
+async function handleLogin() {
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value;
+  const btn = document.getElementById('loginBtn');
+  const errorMsg = document.getElementById('errorMsg');
+
+  errorMsg.classList.remove('show');
+
+  if (!email || !password) {
+    errorMsg.textContent = 'Please enter your email and password.';
+    errorMsg.classList.add('show');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Logging in...';
+
+  const { data, error } = await db.auth.signInWithPassword({ email, password });
+
+  if (error) {
+    errorMsg.textContent = 'Incorrect email or password. Please try again.';
+    errorMsg.classList.add('show');
+    btn.disabled = false;
+    btn.textContent = 'Log in';
+    return;
+  }
+
+  window.location.href = 'dashboard.html';
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') handleLogin();
+});
+</script>
+</body>
+</html>

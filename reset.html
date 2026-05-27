@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Reset Password</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
+.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
+.nav-inner { max-width: 480px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 24px; }
+.card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 36px; width: 100%; max-width: 420px; box-shadow: 0 2px 16px rgba(0,0,0,0.05); }
+.card-header { margin-bottom: 24px; }
+.card-header h1 { font-size: 22px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 6px; }
+.card-header p { font-size: 14px; color: #666; }
+.form-group { margin-bottom: 16px; }
+label { display: block; font-size: 13px; font-weight: 500; color: #333; margin-bottom: 6px; }
+input { width: 100%; padding: 11px 14px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; }
+input:focus { border-color: #185FA5; }
+input::placeholder { color: #bbb; }
+.btn-submit { width: 100%; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; margin-top: 8px; }
+.btn-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
+.success-msg { display: none; background: #EAF3DE; color: #3B6D11; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
+.success-msg.show { display: block; }
+.error-msg { display: none; background: #FCEBEB; color: #A32D2D; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
+.error-msg.show { display: block; }
+.back-link { display: block; text-align: center; margin-top: 16px; font-size: 13px; color: #888; text-decoration: none; }
+.back-link:hover { color: #185FA5; }
+footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+  </div>
+</nav>
+<main class="main">
+  <div class="card">
+    <div class="card-header">
+      <h1>Reset your password</h1>
+      <p>Enter your email and we'll send you a reset link.</p>
+    </div>
+    <div class="error-msg" id="errorMsg"></div>
+    <div class="success-msg" id="successMsg"></div>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" id="email" placeholder="your@email.com" />
+    </div>
+    <button class="btn-submit" id="resetBtn" onclick="handleReset()">Send reset link</button>
+    <a href="login.html" class="back-link">&larr; Back to login</a>
+  </div>
+</main>
+<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+async function handleReset() {
+  const email = document.getElementById('email').value.trim();
+  const btn = document.getElementById('resetBtn');
+  const errorMsg = document.getElementById('errorMsg');
+  const successMsg = document.getElementById('successMsg');
+  errorMsg.classList.remove('show');
+  successMsg.classList.remove('show');
+  if (!email) { errorMsg.textContent = 'Please enter your email address.'; errorMsg.classList.add('show'); return; }
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+  const { error } = await db.auth.resetPasswordForEmail(email, { redirectTo: 'https://mockfrcs.co.uk/reset-confirm.html' });
+  if (error) { errorMsg.textContent = error.message; errorMsg.classList.add('show'); btn.disabled = false; btn.textContent = 'Send reset link'; return; }
+  successMsg.textContent = 'Reset link sent — check your email inbox.';
+  successMsg.classList.add('show');
+  btn.textContent = 'Sent';
+}
+</script>
+</body>
+</html>
