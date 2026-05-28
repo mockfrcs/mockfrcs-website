@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Exam</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: 100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; height: 100%; display: flex; flex-direction: column; }
+
+/* ── Nav ── */
+.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; position: sticky; top: 0; z-index: 100; }
+.nav-left { display: flex; align-items: center; gap: 14px; }
+.logo { font-size: 16px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.exam-title { font-size: 13px; color: #888; border-left: 0.5px solid rgba(0,0,0,0.12); padding-left: 14px; }
+.nav-right { display: flex; align-items: center; gap: 10px; }
+.timer { background: #185FA5; color: #fff; border-radius: 8px; padding: 7px 14px; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 6px; min-width: 110px; justify-content: center; transition: background 0.3s; }
+.timer.warning { background: #854F0B; }
+.timer.danger { background: #A32D2D; animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.7} }
+.btn-submit-exam { background: transparent; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 7px 14px; font-size: 13px; color: #555; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+.btn-submit-exam:hover { border-color: #A32D2D; color: #A32D2D; }
+
+/* ── Progress ── */
+.progress-bar-wrap { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 10px 20px; flex-shrink: 0; }
+.progress-meta { display: flex; justify-content: space-between; font-size: 12px; color: #888; margin-bottom: 7px; }
+.progress-track { height: 4px; background: rgba(0,0,0,0.08); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: #185FA5; border-radius: 2px; transition: width 0.3s; }
+
+/* ── Body ── */
+.body { display: grid; grid-template-columns: 1fr 220px; flex: 1; overflow: hidden; }
+.main { padding: 20px; overflow-y: auto; }
+.q-label { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; }
+.q-topic { font-size: 11px; color: #aaa; font-weight: 400; text-transform: none; letter-spacing: 0; }
+.q-stem { font-size: 14px; color: #1a1a18; line-height: 1.7; margin-bottom: 20px; background: #fff; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 16px; }
+.q-ask { font-size: 14px; font-weight: 600; color: #1a1a18; margin-bottom: 14px; }
+.options { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.option { display: flex; align-items: flex-start; gap: 12px; padding: 11px 14px; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; cursor: pointer; font-size: 13px; color: #1a1a18; line-height: 1.5; transition: border-color 0.15s, background 0.15s; background: #fff; user-select: none; }
+.option:hover { border-color: rgba(0,0,0,0.25); }
+.option.selected { border: 1.5px solid #185FA5; background: #E6F1FB; color: #0C447C; }
+.opt-letter { width: 24px; height: 24px; border-radius: 50%; border: 0.5px solid rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; flex-shrink: 0; color: #888; transition: all 0.15s; }
+.option.selected .opt-letter { background: #185FA5; color: #fff; border-color: #185FA5; }
+.q-footer { display: flex; justify-content: space-between; align-items: center; }
+.btn-flag { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #888; background: transparent; border: 0.5px solid rgba(0,0,0,0.15); border-radius: 8px; padding: 7px 12px; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+.btn-flag.flagged { color: #854F0B; border-color: #EF9F27; background: #FAEEDA; }
+.nav-btns { display: flex; gap: 8px; }
+.btn-prev { background: #fff; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 8px 16px; font-size: 13px; cursor: pointer; font-family: inherit; }
+.btn-next-q { background: #185FA5; border: none; border-radius: 8px; padding: 8px 16px; font-size: 13px; color: #fff; cursor: pointer; font-family: inherit; font-weight: 500; }
+
+/* ── Sidebar ── */
+.sidebar { background: #fff; border-left: 0.5px solid rgba(0,0,0,0.08); padding: 16px; overflow-y: auto; }
+.sidebar-title { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+.q-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-bottom: 16px; }
+.q-dot { width: 28px; height: 28px; border-radius: 6px; border: 0.5px solid rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; font-size: 10px; color: #888; cursor: pointer; background: #fff; transition: all 0.15s; }
+.q-dot:hover { border-color: #185FA5; }
+.q-dot.answered { background: #E6F1FB; color: #0C447C; border-color: #B5D4F4; }
+.q-dot.current { background: #185FA5; color: #fff; border-color: #185FA5; }
+.q-dot.flagged { background: #FAEEDA; color: #633806; border-color: #FAC775; }
+.q-dot.answered.flagged { background: #FAEEDA; color: #633806; border-color: #FAC775; }
+.legend { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.legend-item { display: flex; align-items: center; gap: 7px; font-size: 11px; color: #888; }
+.legend-dot { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+.sidebar-stats { background: #f7f7f5; border-radius: 8px; padding: 12px; }
+.sidebar-stat { display: flex; justify-content: space-between; font-size: 12px; padding: 5px 0; border-bottom: 0.5px solid rgba(0,0,0,0.07); }
+.sidebar-stat:last-child { border-bottom: none; }
+.sidebar-stat-label { color: #888; }
+.sidebar-stat-val { font-weight: 500; }
+
+/* ── Loading / Error ── */
+.loading-state { display: flex; align-items: center; justify-content: center; flex: 1; flex-direction: column; gap: 12px; color: #888; font-size: 14px; }
+.loading-spinner { width: 32px; height: 32px; border: 2px solid rgba(0,0,0,0.1); border-top-color: #185FA5; border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Submit modal ── */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 200; align-items: center; justify-content: center; }
+.modal-overlay.show { display: flex; }
+.modal { background: #fff; border-radius: 12px; padding: 32px; max-width: 400px; width: 90%; box-shadow: 0 8px 32px rgba(0,0,0,0.15); }
+.modal h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+.modal p { font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 20px; }
+.modal-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 20px; }
+.modal-stat { background: #f7f7f5; border-radius: 8px; padding: 12px; text-align: center; }
+.modal-stat-num { font-size: 20px; font-weight: 600; }
+.modal-stat-label { font-size: 11px; color: #888; margin-top: 2px; }
+.modal-btns { display: flex; gap: 10px; }
+.btn-cancel { flex: 1; background: transparent; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 11px; font-size: 14px; cursor: pointer; font-family: inherit; }
+.btn-confirm-submit { flex: 1; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; }
+
+@media (max-width: 640px) {
+  .body { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .exam-title { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="nav-left">
+    <a href="dashboard.html" class="logo">Mock<span>FRCS</span></a>
+    <span class="exam-title" id="examTitle">Loading...</span>
+  </div>
+  <div class="nav-right">
+    <div class="timer" id="timer">&#9200; 2:15:00</div>
+    <button class="btn-submit-exam" onclick="showSubmitModal()">Submit exam</button>
+  </div>
+</nav>
+
+<!-- Progress -->
+<div class="progress-bar-wrap">
+  <div class="progress-meta">
+    <span id="progressLabel">Question 1 of 120</span>
+    <span id="progressMeta">0 answered &middot; 0 flagged</span>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+</div>
+
+<!-- Loading state -->
+<div class="loading-state" id="loadingState">
+  <div class="loading-spinner"></div>
+  <span>Loading your exam...</span>
+</div>
+
+<!-- Main body -->
+<div class="body" id="examBody" style="display:none">
+  <div class="main" id="mainArea"></div>
+  <div class="sidebar">
+    <div class="sidebar-title">Navigator</div>
+    <div class="q-grid" id="qGrid"></div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#E6F1FB;border:0.5px solid #B5D4F4"></div>Answered</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#185FA5"></div>Current</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#FAEEDA;border:0.5px solid #FAC775"></div>Flagged</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#fff;border:0.5px solid rgba(0,0,0,0.12)"></div>Not answered</div>
+    </div>
+    <div class="sidebar-stats">
+      <div class="sidebar-stat"><span class="sidebar-stat-label">Answered</span><span class="sidebar-stat-val" id="statAnswered">0</span></div>
+      <div class="sidebar-stat"><span class="sidebar-stat-label">Flagged</span><span class="sidebar-stat-val" id="statFlagged" style="color:#854F0B">0</span></div>
+      <div class="sidebar-stat"><span class="sidebar-stat-label">Remaining</span><span class="sidebar-stat-val" id="statRemaining">120</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Submit modal -->
+<div class="modal-overlay" id="submitModal">
+  <div class="modal">
+    <h2>Submit your paper?</h2>
+    <p>Once submitted you cannot return to change your answers. Make sure you are happy to proceed.</p>
+    <div class="modal-stats">
+      <div class="modal-stat"><div class="modal-stat-num" id="modalAnswered">0</div><div class="modal-stat-label">Answered</div></div>
+      <div class="modal-stat"><div class="modal-stat-num" id="modalUnanswered">0</div><div class="modal-stat-label">Unanswered</div></div>
+      <div class="modal-stat"><div class="modal-stat-num" id="modalFlagged">0</div><div class="modal-stat-label">Flagged</div></div>
+    </div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="hideSubmitModal()">Go back</button>
+      <button class="btn-confirm-submit" onclick="submitExam()">Submit paper</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+const letters = ['A','B','C','D','E'];
+let questions = [];
+let answers = {}; // questionId -> selected index
+let flagged = new Set();
+let currentIndex = 0;
+let attemptId = null;
+let timerInterval = null;
+let timeRemaining = 8100; // 2h 15m in seconds
+let examId = null;
+
+// Get exam ID from URL
+const params = new URLSearchParams(window.location.search);
+examId = params.get('exam');
+
+if (!examId) window.location.href = 'dashboard.html';
+
+(async () => {
+  const user = await requireMembership();
+  if (!user) return;
+
+  // Load exam details
+  const { data: exam, error: examError } = await db
+    .from('exams')
+    .select('*')
+    .eq('id', examId)
+    .single();
+
+  if (examError || !exam) { window.location.href = 'dashboard.html'; return; }
+
+  document.getElementById('examTitle').textContent = exam.title;
+  document.title = `MockFRCS — ${exam.title}`;
+  timeRemaining = exam.time_limit_seconds;
+
+  // Check for existing incomplete attempt
+  const { data: existingAttempt } = await db
+    .from('exam_attempts')
+    .select('*')
+    .eq('user_id', user.id)
+    .eq('exam_id', examId)
+    .eq('completed', false)
+    .single();
+
+  if (existingAttempt) {
+    attemptId = existingAttempt.id;
+    timeRemaining = existingAttempt.time_remaining_seconds || exam.time_limit_seconds;
+
+    // Load existing answers
+    const { data: existingAnswers } = await db
+      .from('answers')
+      .select('*')
+      .eq('attempt_id', attemptId);
+
+    if (existingAnswers) {
+      existingAnswers.forEach(a => {
+        if (a.selected_answer !== null) answers[a.question_id] = a.selected_answer;
+        if (a.flagged) flagged.add(a.question_id);
+      });
+    }
+  } else {
+    // Create new attempt
+    const { data: newAttempt, error: attemptError } = await db
+      .from('exam_attempts')
+      .insert({ user_id: user.id, exam_id: examId, total_questions: exam.total_questions })
+      .select()
+      .single();
+
+    if (attemptError) { alert('Error starting exam. Please try again.'); window.location.href = 'dashboard.html'; return; }
+    attemptId = newAttempt.id;
+  }
+
+  // Load questions
+  const { data: qs, error: qError } = await db
+    .from('questions')
+    .select('*')
+    .eq('exam_id', examId)
+    .order('question_number');
+
+  if (qError || !qs || qs.length === 0) {
+    document.getElementById('loadingState').innerHTML = '<p style="color:#A32D2D">No questions found for this exam. Please contact hello@mockfrcs.co.uk</p>';
+    return;
+  }
+
+  questions = qs;
+
+  // Build navigator grid
+  const grid = document.getElementById('qGrid');
+  questions.forEach((q, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'q-dot';
+    dot.id = `dot-${i}`;
+    dot.textContent = i + 1;
+    dot.onclick = () => goToQuestion(i);
+    grid.appendChild(dot);
+  });
+
+  // Start timer
+  startTimer();
+
+  // Render first question
+  renderQuestion(0);
+
+  document.getElementById('loadingState').style.display = 'none';
+  document.getElementById('examBody').style.display = 'grid';
+})();
+
+function startTimer() {
+  updateTimerDisplay();
+  timerInterval = setInterval(async () => {
+    timeRemaining--;
+    updateTimerDisplay();
+
+    // Auto-save time remaining every 60 seconds
+    if (timeRemaining % 60 === 0) {
+      await db.from('exam_attempts').update({ time_remaining_seconds: timeRemaining }).eq('id', attemptId);
+    }
+
+    if (timeRemaining <= 0) {
+      clearInterval(timerInterval);
+      await submitExam(true);
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeRemaining / 3600);
+  const m = Math.floor((timeRemaining % 3600) / 60);
+  const s = timeRemaining % 60;
+  const display = `${h}:${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+  const timerEl = document.getElementById('timer');
+  timerEl.innerHTML = `&#9200; ${display}`;
+  if (timeRemaining <= 300) { timerEl.className = 'timer danger'; }
+  else if (timeRemaining <= 1800) { timerEl.className = 'timer warning'; }
+  else { timerEl.className = 'timer'; }
+}
+
+function renderQuestion(index) {
+  currentIndex = index;
+  const q = questions[index];
+  const selected = answers[q.id] !== undefined ? answers[q.id] : null;
+  const isFlagged = flagged.has(q.id);
+
+  // Update progress
+  const answered = Object.keys(answers).length;
+  const pct = (answered / questions.length) * 100;
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressLabel').textContent = `Question ${index + 1} of ${questions.length}`;
+  document.getElementById('progressMeta').textContent = `${answered} answered · ${flagged.size} flagged`;
+  document.getElementById('statAnswered').textContent = answered;
+  document.getElementById('statFlagged').textContent = flagged.size;
+  document.getElementById('statRemaining').textContent = questions.length - answered;
+
+  // Update navigator dots
+  questions.forEach((qq, i) => {
+    const dot = document.getElementById(`dot-${i}`);
+    dot.className = 'q-dot';
+    if (i === index) dot.classList.add('current');
+    else if (flagged.has(qq.id)) dot.classList.add('flagged');
+    else if (answers[qq.id] !== undefined) dot.classList.add('answered');
+  });
+
+  // Render question
+  const main = document.getElementById('mainArea');
+  main.innerHTML = `
+    <div class="q-label">
+      <span>Question ${index + 1} of ${questions.length}</span>
+      <span class="q-topic">${q.topic}</span>
+    </div>
+    <div class="q-stem">${q.stem}</div>
+    <div class="q-ask">${q.question}</div>
+    <div class="options">
+      ${q.options_array ? q.options_array.map((opt, i) => `
+        <div class="option ${selected === i ? 'selected' : ''}" id="opt-${i}" onclick="selectAnswer(${i})">
+          <div class="opt-letter" style="${selected === i ? 'background:#185FA5;color:#fff;border-color:#185FA5' : ''}">${letters[i]}</div>
+          <div>${opt}</div>
+        </div>`).join('') : [q.option_a, q.option_b, q.option_c, q.option_d, q.option_e].map((opt, i) => `
+        <div class="option ${selected === i ? 'selected' : ''}" id="opt-${i}" onclick="selectAnswer(${i})">
+          <div class="opt-letter" style="${selected === i ? 'background:#185FA5;color:#fff;border-color:#185FA5' : ''}">${letters[i]}</div>
+          <div>${opt}</div>
+        </div>`).join('')}
+    </div>
+    <div class="q-footer">
+      <button class="btn-flag ${isFlagged ? 'flagged' : ''}" id="flagBtn" onclick="toggleFlag()">
+        &#9873; ${isFlagged ? 'Flagged' : 'Flag for review'}
+      </button>
+      <div class="nav-btns">
+        ${index > 0 ? `<button class="btn-prev" onclick="goToQuestion(${index - 1})">&larr; Previous</button>` : ''}
+        ${index < questions.length - 1
+          ? `<button class="btn-next-q" onclick="goToQuestion(${index + 1})">Next &rarr;</button>`
+          : `<button class="btn-next-q" onclick="showSubmitModal()">Submit paper</button>`}
+      </div>
+    </div>`;
+
+  // Scroll to top
+  document.getElementById('mainArea').scrollTop = 0;
+}
+
+async function selectAnswer(optionIndex) {
+  const q = questions[currentIndex];
+  answers[q.id] = optionIndex;
+
+  // Update UI
+  [0,1,2,3,4].forEach(i => {
+    const el = document.getElementById(`opt-${i}`);
+    if (!el) return;
+    if (i === optionIndex) {
+      el.className = 'option selected';
+      el.querySelector('.opt-letter').style.cssText = 'background:#185FA5;color:#fff;border-color:#185FA5';
+    } else {
+      el.className = 'option';
+      el.querySelector('.opt-letter').style.cssText = '';
+    }
+  });
+
+  // Update navigator dot
+  const dot = document.getElementById(`dot-${currentIndex}`);
+  if (dot && !flagged.has(q.id)) {
+    dot.className = 'q-dot answered';
+  }
+
+  // Update stats
+  const answered = Object.keys(answers).length;
+  document.getElementById('statAnswered').textContent = answered;
+  document.getElementById('statRemaining').textContent = questions.length - answered;
+  document.getElementById('progressFill').style.width = (answered / questions.length * 100) + '%';
+  document.getElementById('progressMeta').textContent = `${answered} answered · ${flagged.size} flagged`;
+
+  // Save to Supabase (upsert answer)
+  await db.from('answers').upsert({
+    attempt_id: attemptId,
+    question_id: q.id,
+    selected_answer: optionIndex,
+    flagged: flagged.has(q.id)
+  }, { onConflict: 'attempt_id,question_id' });
+}
+
+async function toggleFlag() {
+  const q = questions[currentIndex];
+  const btn = document.getElementById('flagBtn');
+  if (flagged.has(q.id)) {
+    flagged.delete(q.id);
+    btn.className = 'btn-flag';
+    btn.innerHTML = '&#9873; Flag for review';
+  } else {
+    flagged.add(q.id);
+    btn.className = 'btn-flag flagged';
+    btn.innerHTML = '&#9873; Flagged';
+  }
+
+  // Update dot
+  const dot = document.getElementById(`dot-${currentIndex}`);
+  if (dot) {
+    dot.className = 'q-dot' + (flagged.has(q.id) ? ' flagged' : (answers[q.id] !== undefined ? ' answered' : ''));
+  }
+
+  document.getElementById('statFlagged').textContent = flagged.size;
+  document.getElementById('progressMeta').textContent = `${Object.keys(answers).length} answered · ${flagged.size} flagged`;
+
+  // Save flag state
+  await db.from('answers').upsert({
+    attempt_id: attemptId,
+    question_id: q.id,
+    selected_answer: answers[q.id] !== undefined ? answers[q.id] : null,
+    flagged: flagged.has(q.id)
+  }, { onConflict: 'attempt_id,question_id' });
+}
+
+function goToQuestion(index) {
+  if (index >= 0 && index < questions.length) renderQuestion(index);
+}
+
+function showSubmitModal() {
+  const answered = Object.keys(answers).length;
+  document.getElementById('modalAnswered').textContent = answered;
+  document.getElementById('modalUnanswered').textContent = questions.length - answered;
+  document.getElementById('modalFlagged').textContent = flagged.size;
+  document.getElementById('submitModal').classList.add('show');
+}
+
+function hideSubmitModal() {
+  document.getElementById('submitModal').classList.remove('show');
+}
+
+async function submitExam(autoSubmit = false) {
+  clearInterval(timerInterval);
+  hideSubmitModal();
+
+  // Calculate score
+  let score = 0;
+  questions.forEach(q => {
+    if (answers[q.id] !== undefined && answers[q.id] === q.correct_answer) score++;
+  });
+
+  // Update all answers with is_correct
+  const answerUpdates = questions.map(q => ({
+    attempt_id: attemptId,
+    question_id: q.id,
+    selected_answer: answers[q.id] !== undefined ? answers[q.id] : null,
+    flagged: flagged.has(q.id),
+    is_correct: answers[q.id] !== undefined ? answers[q.id] === q.correct_answer : false
+  }));
+
+  await db.from('answers').upsert(answerUpdates, { onConflict: 'attempt_id,question_id' });
+
+  // Mark attempt as complete
+  await db.from('exam_attempts').update({
+    completed: true,
+    submitted_at: new Date().toISOString(),
+    score: score,
+    time_remaining_seconds: timeRemaining
+  }).eq('id', attemptId);
+
+  // Redirect to results
+  window.location.href = `results.html?attempt=${attemptId}`;
+}
+
+// Warn before leaving
+window.addEventListener('beforeunload', (e) => {
+  e.preventDefault();
+  e.returnValue = '';
+});
+</script>
+</body>
+</html>
