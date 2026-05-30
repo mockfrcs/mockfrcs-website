@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — FRCS Part 1 General Surgery Mock Exams</title>
+<meta name="description" content="Realistic FRCS Part 1 General Surgery mock exams. Five full exams, two timed papers of 120 SBA questions each, written and reviewed by surgeons. Sat from home.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #fff; color: #1a1a18; line-height: 1.5; }
+img { max-width: 100%; }
+a { text-decoration: none; color: inherit; }
+
+/* Tokens */
+:root {
+  --blue: #185FA5; --blue-light: #E6F1FB; --blue-dark: #0C447C;
+  --green: #3B6D11; --green-light: #EAF3DE;
+  --border: rgba(0,0,0,0.1); --border-soft: rgba(0,0,0,0.07);
+  --text-secondary: #555; --text-tertiary: #888;
+  --bg-alt: #f7f7f5; --radius: 10px; --radius-sm: 6px; --radius-pill: 20px;
+}
+
+/* Layout */
+.container { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+
+/* Buttons */
+.btn-primary { background: var(--blue); color: #fff; border: none; border-radius: var(--radius-sm); padding: 9px 20px; font-size: 14px; font-weight: 500; cursor: pointer; display: inline-block; transition: background 0.15s; font-family: inherit; }
+.btn-primary:hover { background: var(--blue-dark); }
+.btn-outline { background: transparent; color: #1a1a18; border: 0.5px solid rgba(0,0,0,0.25); border-radius: var(--radius-sm); padding: 9px 20px; font-size: 14px; cursor: pointer; display: inline-block; transition: border-color 0.15s; font-family: inherit; }
+.btn-outline:hover { border-color: rgba(0,0,0,0.45); }
+.btn-hero { background: var(--blue); color: #fff; border: none; border-radius: var(--radius-sm); padding: 13px 28px; font-size: 15px; font-weight: 500; cursor: pointer; display: inline-block; transition: background 0.15s; font-family: inherit; }
+.btn-hero:hover { background: var(--blue-dark); }
+.btn-hero-outline { background: transparent; color: #1a1a18; border: 0.5px solid rgba(0,0,0,0.25); border-radius: var(--radius-sm); padding: 13px 24px; font-size: 15px; cursor: pointer; display: inline-block; font-family: inherit; }
+.btn-full { width: 100%; text-align: center; padding: 14px; font-size: 15px; }
+
+/* Nav */
+.nav { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 0.5px solid var(--border); }
+.nav-inner { max-width: 980px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; height: 60px; gap: 24px; }
+.nav-logo { font-size: 18px; font-weight: 600; flex-shrink: 0; color: #1a1a18; text-decoration: none; }
+.nav-logo span { color: var(--blue); }
+.nav-links { display: flex; gap: 20px; flex: 1; }
+.nav-links a { font-size: 14px; color: var(--text-secondary); transition: color 0.15s; }
+.nav-links a:hover { color: #1a1a18; }
+.nav-actions { display: flex; gap: 8px; align-items: center; }
+.nav-toggle { display: none; background: none; border: none; font-size: 20px; cursor: pointer; color: #1a1a18; }
+.nav-mobile { display: none; flex-direction: column; gap: 4px; padding: 12px 24px 16px; border-top: 0.5px solid var(--border); }
+.nav-mobile a { font-size: 15px; color: var(--text-secondary); padding: 8px 0; border-bottom: 0.5px solid var(--border-soft); }
+.nav-mobile.open { display: flex; }
+
+/* Hero */
+.hero { padding: 72px 0 56px; text-align: center; border-bottom: 0.5px solid var(--border); }
+.hero-badge { display: inline-block; background: var(--blue-light); color: var(--blue); font-size: 12px; font-weight: 500; padding: 4px 14px; border-radius: var(--radius-pill); margin-bottom: 20px; }
+.hero h1 { font-size: 42px; font-weight: 600; letter-spacing: -0.8px; line-height: 1.15; margin-bottom: 16px; }
+.hero h1 span { color: var(--blue); }
+.hero > .container > p { font-size: 17px; color: var(--text-secondary); max-width: 500px; margin: 0 auto 28px; line-height: 1.65; }
+.hero-actions { display: flex; gap: 12px; justify-content: center; margin-bottom: 48px; flex-wrap: wrap; }
+.hero-stats { display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat-num { font-size: 24px; font-weight: 600; color: #1a1a18; }
+.stat-label { font-size: 12px; color: var(--text-tertiary); margin-top: 3px; }
+
+/* Sections */
+.section { padding: 72px 0; border-bottom: 0.5px solid var(--border); }
+.section-alt { background: var(--bg-alt); }
+.section-label { font-size: 12px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 8px; }
+.section h2 { font-size: 28px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 8px; }
+.section-sub { font-size: 15px; color: var(--text-secondary); margin-bottom: 36px; }
+
+/* How it works steps */
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.step-num { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 10px; }
+.step h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.step p { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+
+/* Features */
+.features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.feature-card { background: #fff; border: 0.5px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.feature-icon { font-size: 22px; margin-bottom: 12px; }
+.feature-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+.feature-card p { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+
+/* Exams */
+.exams-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.exam-card { background: #fff; border: 0.5px solid var(--border); border-radius: var(--radius); padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; }
+.exam-left { display: flex; align-items: center; gap: 14px; }
+.exam-num { width: 36px; height: 36px; border-radius: var(--radius-sm); background: var(--blue-light); color: var(--blue); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; flex-shrink: 0; }
+.exam-info h4 { font-size: 14px; font-weight: 600; }
+.exam-info p { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+.exam-badge { font-size: 11px; background: var(--green-light); color: var(--green); border-radius: var(--radius-pill); padding: 3px 10px; font-weight: 500; }
+
+/* Demo strip */
+.demo-strip { background: var(--blue-light); border: 0.5px solid #B5D4F4; border-radius: var(--radius); padding: 24px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.demo-strip-left h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.demo-strip-left p { font-size: 14px; color: var(--text-secondary); }
+.btn-demo { background: var(--blue); color: #fff; border: none; border-radius: var(--radius-sm); padding: 11px 24px; font-size: 14px; font-weight: 500; cursor: pointer; text-decoration: none; display: inline-block; font-family: inherit; white-space: nowrap; }
+.btn-demo:hover { background: var(--blue-dark); }
+
+/* Pricing */
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 700px; margin: 0 auto; }
+.plan-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: var(--radius); padding: 24px; position: relative; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.plan-card.featured { border: 2px solid var(--blue); box-shadow: 0 4px 20px rgba(24,95,165,0.12); }
+.plan-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--blue); color: #fff; font-size: 11px; font-weight: 600; padding: 4px 14px; border-radius: var(--radius-pill); white-space: nowrap; }
+.plan-name { font-size: 13px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+.plan-price { font-size: 40px; font-weight: 700; letter-spacing: -1.5px; line-height: 1; margin-bottom: 4px; }
+.plan-price sup { font-size: 18px; font-weight: 400; vertical-align: super; }
+.plan-per { font-size: 12px; color: #888; margin-bottom: 20px; }
+.plan-divider { height: 0.5px; background: rgba(0,0,0,0.08); margin-bottom: 16px; }
+.plan-features { list-style: none; margin-bottom: 20px; display: flex; flex-direction: column; gap: 8px; }
+.plan-feature { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: #444; line-height: 1.4; }
+.check { color: #1D9E75; font-weight: 700; font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+.btn-plan { width: 100%; border: none; border-radius: 8px; padding: 12px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+.btn-plan-outline { background: transparent; color: var(--blue); border: 1.5px solid var(--blue); }
+.btn-plan-outline:hover { background: var(--blue-light); }
+.btn-plan-filled { background: var(--blue); color: #fff; }
+.btn-plan-filled:hover { background: var(--blue-dark); }
+
+/* Testimonials */
+.testimonials-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.testimonial { background: #fff; border: 0.5px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.t-stars { color: #BA7517; font-size: 14px; margin-bottom: 10px; }
+.t-text { font-size: 13px; color: #333; line-height: 1.65; margin-bottom: 14px; font-style: italic; }
+.t-author { display: flex; align-items: center; gap: 10px; }
+.t-avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--blue-light); color: var(--blue); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; flex-shrink: 0; }
+.t-name { font-size: 13px; font-weight: 600; }
+.t-role { font-size: 11px; color: var(--text-tertiary); }
+
+/* FAQ */
+.faq-list { max-width: 680px; }
+.faq-item { border-bottom: 0.5px solid var(--border); }
+.faq-q { width: 100%; background: none; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 15px; font-weight: 500; color: #1a1a18; padding: 18px 0; text-align: left; gap: 12px; font-family: inherit; }
+.faq-arrow { font-size: 20px; color: var(--text-tertiary); transition: transform 0.2s; flex-shrink: 0; }
+.faq-item.open .faq-arrow { transform: rotate(90deg); }
+.faq-a { font-size: 14px; color: var(--text-secondary); line-height: 1.7; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s; }
+.faq-item.open .faq-a { max-height: 200px; padding-bottom: 16px; }
+
+/* CTA */
+.cta-section { background: var(--blue); color: #fff; padding: 72px 0; text-align: center; }
+.cta-section h2 { font-size: 30px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 12px; }
+.cta-section p { font-size: 16px; opacity: 0.85; margin-bottom: 28px; }
+.cta-section .btn-hero { background: #fff; color: var(--blue); }
+.cta-section .btn-hero:hover { background: #f0f0ee; }
+
+/* Footer */
+.footer { background: #1a1a18; color: #fff; padding: 28px 0; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.footer-logo { font-size: 16px; font-weight: 600; }
+.footer-logo span { color: #7CB8F0; }
+.footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+.footer-links a { font-size: 13px; color: rgba(255,255,255,0.55); transition: color 0.15s; }
+.footer-links a:hover { color: #fff; }
+.footer-copy { font-size: 12px; color: rgba(255,255,255,0.35); width: 100%; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links, .nav-actions { display: none; }
+  .nav-toggle { display: block; margin-left: auto; }
+  .hero h1 { font-size: 30px; }
+  .hero-stats { gap: 24px; }
+  .steps { grid-template-columns: 1fr 1fr; }
+  .features-grid { grid-template-columns: 1fr 1fr; }
+  .exams-grid { grid-template-columns: 1fr; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .plans { grid-template-columns: 1fr; max-width: 360px; }
+  .section h2 { font-size: 24px; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .demo-strip { flex-direction: column; text-align: center; }
+}
+@media (max-width: 480px) {
+  .hero { padding: 48px 0 40px; }
+  .hero h1 { font-size: 26px; }
+  .steps { grid-template-columns: 1fr; }
+  .features-grid { grid-template-columns: 1fr; }
+  .hero-actions { flex-direction: column; align-items: center; }
+  .section { padding: 48px 0; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="landing.html" class="nav-logo">Mock<span>FRCS</span></a>
+    <div class="nav-links">
+      <a href="about.html">How it works</a>
+      <a href="demo.html">Try free demo</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-actions">
+      <a href="login.html" class="btn-outline">Log in</a>
+      <a href="signup.html" class="btn-primary">Get access</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="about.html">How it works</a>
+    <a href="demo.html">Try free demo</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="login.html">Log in</a>
+    <a href="signup.html" class="btn-primary" style="text-align:center;margin-top:8px;">Get access</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">FRCS Part 1 &middot; General Surgery</div>
+    <h1>The closest thing to<br>sitting the real <span>FRCS</span></h1>
+    <p>Five full mock exams — two papers of 120 SBA questions each — written by surgeons, timed to exam conditions, sat from home.</p>
+    <div class="hero-actions">
+      <a href="signup.html" class="btn-hero">Get access &mdash; from &pound;29.99</a>
+      <a href="about.html" class="btn-hero-outline">How it works</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Full mock exams</div></div>
+      <div class="stat"><div class="stat-num">120</div><div class="stat-label">Questions per paper</div></div>
+      <div class="stat"><div class="stat-num">2h 15m</div><div class="stat-label">Per paper, timed</div></div>
+      <div class="stat"><div class="stat-num">SBA</div><div class="stat-label">Exact exam format</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" id="how-it-works">
+  <div class="container">
+    <div class="section-label">How it works</div>
+    <h2>Exam prep that mirrors the real thing</h2>
+    <p class="section-sub">MockFRCS is built around one goal — making your mock as close to the real exam as possible.</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">01</div><h3>Get access</h3><p>Purchase a membership and get immediate access to all five mock exams from your dashboard.</p></div>
+      <div class="step"><div class="step-num">02</div><h3>Sit a paper</h3><p>Start Paper 1 when you're ready — the 2h 15m timer begins immediately, just like the real exam.</p></div>
+      <div class="step"><div class="step-num">03</div><h3>Review results</h3><p>See your score, pass/fail status, topic breakdown and detailed explanations for every question.</p></div>
+      <div class="step"><div class="step-num">04</div><h3>Track progress</h3><p>Resit papers, compare attempts and watch your score improve across all five exams.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-label">Features</div>
+    <h2>Built for surgical trainees</h2>
+    <p class="section-sub">Every detail designed to replicate the real FRCS Part 1 experience.</p>
+    <div class="features-grid">
+      <div class="feature-card"><div class="feature-icon">&#9200;</div><h3>Timed conditions</h3><p>2h 15m countdown per paper with alerts — no pausing, no extensions, exactly like the real thing.</p></div>
+      <div class="feature-card"><div class="feature-icon">&#128196;</div><h3>SBA format</h3><p>120 single best answer questions per paper, matching the Intercollegiate Board style exactly.</p></div>
+      <div class="feature-card"><div class="feature-icon">&#9999;</div><h3>Surgeon-authored</h3><p>Questions written and reviewed by FRCS-qualified consultants against current guidelines.</p></div>
+      <div class="feature-card"><div class="feature-icon">&#128202;</div><h3>Topic breakdown</h3><p>Performance analysis across colorectal, HPB, vascular, breast, endocrine and more.</p></div>
+      <div class="feature-card"><div class="feature-icon">&#128218;</div><h3>Full explanations</h3><p>Every question comes with detailed reasoning — not just the answer, but why.</p></div>
+      <div class="feature-card"><div class="feature-icon">&#128187;</div><h3>Sit from home</h3><p>No travel, no test centre. Available any time on laptop, tablet or desktop.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXAMS -->
+<section class="section" id="exams">
+  <div class="container">
+    <div class="section-label">Exam library</div>
+    <h2>Five full mock exams included</h2>
+    <p class="section-sub">Each mock exam mirrors the real FRCS Part 1 — two papers, sat separately, under timed conditions.</p>
+    <div class="exams-grid" style="margin-bottom:24px;">
+      <div class="exam-card"><div class="exam-left"><div class="exam-num">01</div><div class="exam-info"><h4>Mock Exam 1</h4><p>Paper 1 &amp; Paper 2 &middot; 120 questions each &middot; 2h 15m per paper</p></div></div><span class="exam-badge">Included</span></div>
+      <div class="exam-card"><div class="exam-left"><div class="exam-num">02</div><div class="exam-info"><h4>Mock Exam 2</h4><p>Paper 1 &amp; Paper 2 &middot; 120 questions each &middot; 2h 15m per paper</p></div></div><span class="exam-badge">Included</span></div>
+      <div class="exam-card"><div class="exam-left"><div class="exam-num">03</div><div class="exam-info"><h4>Mock Exam 3</h4><p>Paper 1 &amp; Paper 2 &middot; 120 questions each &middot; 2h 15m per paper</p></div></div><span class="exam-badge">Included</span></div>
+      <div class="exam-card"><div class="exam-left"><div class="exam-num">04</div><div class="exam-info"><h4>Mock Exam 4</h4><p>Paper 1 &amp; Paper 2 &middot; 120 questions each &middot; 2h 15m per paper</p></div></div><span class="exam-badge">Included</span></div>
+      <div class="exam-card"><div class="exam-left"><div class="exam-num">05</div><div class="exam-info"><h4>Mock Exam 5</h4><p>Paper 1 &amp; Paper 2 &middot; 120 questions each &middot; 2h 15m per paper</p></div></div><span class="exam-badge">Included</span></div>
+      <div class="exam-card" style="background:var(--blue-light);border-color:#B5D4F4;"><div class="exam-left"><div class="exam-num" style="font-size:18px;">&#8721;</div><div class="exam-info"><h4>1,200 questions total</h4><p>10 papers &middot; Full syllabus coverage &middot; Detailed explanations</p></div></div></div>
+    </div>
+
+    <!-- Demo strip -->
+    <div class="demo-strip">
+      <div class="demo-strip-left">
+        <h3>Not sure yet? Try 10 free questions</h3>
+        <p>No sign up required &middot; Answers and explanations included &middot; Get a feel for the question style</p>
+      </div>
+      <a href="demo.html" class="btn-demo">Try free demo &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section section-alt" id="pricing">
+  <div class="container">
+    <div class="section-label">Pricing</div>
+    <h2>Simple, straightforward access</h2>
+    <p class="section-sub">Choose the membership length that suits your revision timeline. Everything included in every plan.</p>
+    <div class="plans">
+      <div class="plan-card">
+        <div class="plan-name">1 Month</div>
+        <div class="plan-price"><sup>&pound;</sup>29.99</div>
+        <div class="plan-per">&pound;29.99 / month</div>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check">&#10003;</span>All 5 mock exams</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>10 papers total</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Full explanations</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Topic breakdown</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Unlimited resits</li>
+        </ul>
+        <a href="signup.html" class="btn-plan btn-plan-outline">Get 1-month access</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">3 Months</div>
+        <div class="plan-price"><sup>&pound;</sup>49.99</div>
+        <div class="plan-per">&pound;16.66 / month</div>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check">&#10003;</span>All 5 mock exams</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>10 papers total</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Full explanations</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Topic breakdown</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Unlimited resits</li>
+        </ul>
+        <a href="signup.html" class="btn-plan btn-plan-outline">Get 3-month access</a>
+      </div>
+      <div class="plan-card featured">
+        <div class="plan-badge">Best value</div>
+        <div class="plan-name">6 Months</div>
+        <div class="plan-price"><sup>&pound;</sup>69.99</div>
+        <div class="plan-per">&pound;11.66 / month</div>
+        <div class="plan-divider"></div>
+        <ul class="plan-features">
+          <li class="plan-feature"><span class="check">&#10003;</span>All 5 mock exams</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>10 papers total</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Full explanations</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Topic breakdown</li>
+          <li class="plan-feature"><span class="check">&#10003;</span>Unlimited resits</li>
+        </ul>
+        <a href="signup.html" class="btn-plan btn-plan-filled">Get 6-month access</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="section-label">Reviews</div>
+    <h2>From candidates who passed</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial"><div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="t-text">"The questions felt extremely close to the real exam in style and difficulty. Using these papers gave me real confidence going in."</p><div class="t-author"><div class="t-avatar">JH</div><div><div class="t-name">James H.</div><div class="t-role">ST5 General Surgery, Leeds</div></div></div></div>
+      <div class="testimonial"><div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="t-text">"Worth every penny. The timed interface forces you to manage your pace, which I hadn't practised properly before. Passed first attempt."</p><div class="t-author"><div class="t-avatar">SR</div><div><div class="t-name">Sunita R.</div><div class="t-role">ST6 General Surgery, Birmingham</div></div></div></div>
+      <div class="testimonial"><div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="t-text">"Much better than random question banks. Having a full paper under real timed conditions is what you actually need before the exam."</p><div class="t-author"><div class="t-avatar">MO</div><div><div class="t-name">Michael O.</div><div class="t-role">ST4 General Surgery, London</div></div></div></div>
+      <div class="testimonial"><div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="t-text">"The explanations after each paper are genuinely useful — not just the answer, but the clinical reasoning. Great for consolidating knowledge."</p><div class="t-author"><div class="t-avatar">LP</div><div><div class="t-name">Laura P.</div><div class="t-role">ST5 General Surgery, Manchester</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-alt" id="faq">
+  <div class="container">
+    <div class="section-label">FAQ</div>
+    <h2>Common questions</h2>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Who are the exams written by? <span class="faq-arrow">&#8250;</span></button><div class="faq-a">All questions are written and reviewed by FRCS-qualified consultant surgeons and checked against current intercollegiate guidelines before publication.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How closely does it match the real exam? <span class="faq-arrow">&#8250;</span></button><div class="faq-a">Each paper contains exactly 120 SBA questions with a 2h 15m timer — identical to the current FRCS Part 1 General Surgery format.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I resit papers? <span class="faq-arrow">&#8250;</span></button><div class="faq-a">Yes — you can resit any paper as many times as you like within your membership period. All your attempt scores are saved so you can track improvement.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What devices can I use? <span class="faq-arrow">&#8250;</span></button><div class="faq-a">MockFRCS works on any modern browser — laptop, desktop or tablet. We recommend a laptop or desktop to best replicate the real exam experience.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is there a refund policy? <span class="faq-arrow">&#8250;</span></button><div class="faq-a">If you haven't started any exams, we offer a full refund within 7 days of purchase. Contact hello@mockfrcs.co.uk and we'll sort it promptly.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to start preparing?</h2>
+    <p>Get access to all five mock exams today and go into your FRCS with real confidence.</p>
+    <a href="signup.html" class="btn-hero">Get access &mdash; from &pound;29.99</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">Mock<span>FRCS</span>.co.uk</div>
+    <div class="footer-links">
+      <a href="about.html">How it works</a>
+      <a href="demo.html">Free demo</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="mailto:hello@mockfrcs.co.uk">Contact</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only &middot; Not affiliated with the Intercollegiate Board or Royal Colleges of Surgeons</div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navMobile').classList.toggle('open');
+});
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+    document.getElementById('navMobile').classList.remove('open');
+  });
+});
+</script>
+
+</body>
+</html>
