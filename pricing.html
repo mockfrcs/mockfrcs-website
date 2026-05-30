@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Get Access</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
+.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
+.nav-inner { max-width: 700px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.nav-link { font-size: 13px; color: #888; text-decoration: none; }
+.nav-link:hover { color: #1a1a18; }
+
+.main { flex: 1; padding: 48px 24px 64px; }
+.page-header { text-align: center; margin-bottom: 40px; }
+.page-label { font-size: 11px; font-weight: 600; color: #185FA5; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 10px; }
+.page-header h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 8px; }
+.page-header p { font-size: 15px; color: #666; }
+
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 700px; margin: 0 auto 40px; }
+
+.plan-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 24px; position: relative; box-shadow: 0 1px 8px rgba(0,0,0,0.04); transition: border-color 0.15s; }
+.plan-card:hover { border-color: rgba(0,0,0,0.2); }
+.plan-card.featured { border: 2px solid #185FA5; box-shadow: 0 4px 20px rgba(24,95,165,0.12); }
+
+.plan-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #185FA5; color: #fff; font-size: 11px; font-weight: 600; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
+
+.plan-name { font-size: 13px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+.plan-price { font-size: 40px; font-weight: 700; letter-spacing: -1.5px; line-height: 1; margin-bottom: 4px; }
+.plan-price sup { font-size: 18px; font-weight: 400; vertical-align: super; }
+.plan-per { font-size: 12px; color: #888; margin-bottom: 20px; }
+.plan-divider { height: 0.5px; background: rgba(0,0,0,0.08); margin-bottom: 16px; }
+.plan-features { list-style: none; margin-bottom: 20px; display: flex; flex-direction: column; gap: 8px; }
+.plan-feature { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: #444; line-height: 1.4; }
+.check { color: #1D9E75; font-weight: 700; font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+.btn-plan { width: 100%; border: none; border-radius: 8px; padding: 12px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+.btn-plan-outline { background: transparent; color: #185FA5; border: 1.5px solid #185FA5; }
+.btn-plan-outline:hover { background: #E6F1FB; }
+.btn-plan-filled { background: #185FA5; color: #fff; }
+.btn-plan-filled:hover { background: #0C447C; }
+
+.features-row { max-width: 700px; margin: 0 auto 32px; background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px 24px; }
+.features-row h3 { font-size: 14px; font-weight: 600; margin-bottom: 14px; }
+.features-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.feature-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #444; }
+.feature-item .check { font-size: 13px; }
+
+.faq-row { max-width: 700px; margin: 0 auto; }
+.faq-row h3 { font-size: 14px; font-weight: 600; margin-bottom: 14px; }
+.faq-item { border-bottom: 0.5px solid rgba(0,0,0,0.08); }
+.faq-q { width: 100%; background: none; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 500; color: #1a1a18; padding: 13px 0; text-align: left; gap: 12px; font-family: inherit; }
+.faq-arrow { font-size: 18px; color: #aaa; transition: transform 0.2s; flex-shrink: 0; }
+.faq-item.open .faq-arrow { transform: rotate(90deg); }
+.faq-a { font-size: 13px; color: #666; line-height: 1.65; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s; }
+.faq-item.open .faq-a { max-height: 200px; padding-bottom: 14px; }
+
+.login-row { text-align: center; margin-top: 28px; font-size: 13px; color: #888; }
+.login-row a { color: #185FA5; text-decoration: none; font-weight: 500; }
+.login-row a:hover { text-decoration: underline; }
+
+footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
+
+@media (max-width: 580px) {
+  .plans { grid-template-columns: 1fr; max-width: 360px; }
+  .plan-card.featured { margin-top: 16px; }
+  .features-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+    <a href="login.html" class="nav-link">Already a member? Log in</a>
+  </div>
+</nav>
+
+<main class="main">
+  <div class="page-header">
+    <div class="page-label">Pricing</div>
+    <h1>Simple, straightforward access</h1>
+    <p>Choose the membership length that suits your revision timeline. All tiers include everything.</p>
+  </div>
+
+  <div class="plans">
+
+    <!-- 1 Month -->
+    <div class="plan-card">
+      <div class="plan-name">1 Month</div>
+      <div class="plan-price"><sup>&pound;</sup>29.99</div>
+      <div class="plan-per">&pound;29.99 / month</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature"><span class="check">&#10003;</span>All 5 mock exams</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>10 papers total</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Full explanations</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Topic breakdown</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Unlimited resits</li>
+      </ul>
+      <button class="btn-plan btn-plan-outline" onclick="handlePayment('1month')">Get 1-month access</button>
+    </div>
+
+    <!-- 3 Months -->
+    <div class="plan-card">
+      <div class="plan-name">3 Months</div>
+      <div class="plan-price"><sup>&pound;</sup>49.99</div>
+      <div class="plan-per">&pound;16.66 / month</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature"><span class="check">&#10003;</span>All 5 mock exams</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>10 papers total</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Full explanations</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Topic breakdown</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Unlimited resits</li>
+      </ul>
+      <button class="btn-plan btn-plan-outline" onclick="handlePayment('3month')">Get 3-month access</button>
+    </div>
+
+    <!-- 6 Months — Featured -->
+    <div class="plan-card featured">
+      <div class="plan-badge">Best value</div>
+      <div class="plan-name">6 Months</div>
+      <div class="plan-price"><sup>&pound;</sup>69.99</div>
+      <div class="plan-per">&pound;11.66 / month</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature"><span class="check">&#10003;</span>All 5 mock exams</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>10 papers total</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Full explanations</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Topic breakdown</li>
+        <li class="plan-feature"><span class="check">&#10003;</span>Unlimited resits</li>
+      </ul>
+      <button class="btn-plan btn-plan-filled" onclick="handlePayment('6month')">Get 6-month access</button>
+    </div>
+
+  </div>
+
+  <div class="features-row">
+    <h3>Everything included in every plan</h3>
+    <div class="features-grid">
+      <div class="feature-item"><span class="check">&#10003;</span>5 full mock exams (10 papers)</div>
+      <div class="feature-item"><span class="check">&#10003;</span>120 SBA questions per paper</div>
+      <div class="feature-item"><span class="check">&#10003;</span>2h 15m timed conditions</div>
+      <div class="feature-item"><span class="check">&#10003;</span>Surgeon-authored &amp; reviewed</div>
+      <div class="feature-item"><span class="check">&#10003;</span>Detailed answer explanations</div>
+      <div class="feature-item"><span class="check">&#10003;</span>Topic performance breakdown</div>
+      <div class="feature-item"><span class="check">&#10003;</span>Unlimited resits on any paper</div>
+      <div class="feature-item"><span class="check">&#10003;</span>Access on any device</div>
+    </div>
+  </div>
+
+  <div class="faq-row">
+    <h3>Common questions</h3>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Can I resit the same paper more than once? <span class="faq-arrow">&#8250;</span></button>
+      <div class="faq-a">Yes — you can resit any paper as many times as you like within your membership period. Your results from each attempt are saved so you can track your improvement over time.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">What happens when my membership expires? <span class="faq-arrow">&#8250;</span></button>
+      <div class="faq-a">Your access ends at the end of your membership period. You can purchase a new membership at any time to regain full access.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Is there a refund policy? <span class="faq-arrow">&#8250;</span></button>
+      <div class="faq-a">If you haven't started any exams, we offer a full refund within 7 days of purchase. Contact hello@mockfrcs.co.uk and we'll sort it promptly.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Is payment secure? <span class="faq-arrow">&#8250;</span></button>
+      <div class="faq-a">Yes — all payments are processed securely via Stripe. MockFRCS never stores your card details.</div>
+    </div>
+  </div>
+
+  <div class="login-row">
+    Already have an account? <a href="login.html">Log in here</a>
+  </div>
+</main>
+
+<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+async function handlePayment(tier) {
+  // Stripe checkout will go here once Stripe is set up
+  // Placeholder for now
+  alert('Stripe payment coming soon — ' + tier + ' selected.');
+}
+
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+</body>
+</html>
