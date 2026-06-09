@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Admin</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
+.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
+.nav-inner { max-width: 700px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.admin-badge { font-size: 12px; font-weight: 500; background: #FCEBEB; color: #A32D2D; padding: 4px 12px; border-radius: 20px; }
+.main { flex: 1; max-width: 700px; margin: 0 auto; padding: 40px 24px; width: 100%; }
+.page-header { margin-bottom: 32px; }
+.page-header h1 { font-size: 24px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 6px; }
+.page-header p { font-size: 14px; color: #666; }
+.card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.card h2 { font-size: 15px; font-weight: 600; margin-bottom: 16px; }
+.form-row { display: flex; gap: 10px; margin-bottom: 12px; }
+.form-row input, .form-group input, .form-group select { flex: 1; padding: 10px 14px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; }
+.form-row input:focus, .form-group input:focus, .form-group select:focus { border-color: #185FA5; }
+.form-group { margin-bottom: 12px; }
+.form-group label { display: block; font-size: 12px; font-weight: 500; color: #888; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+.btn-primary { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; white-space: nowrap; transition: background 0.15s; }
+.btn-primary:hover { background: #0C447C; }
+.btn-primary:disabled { background: rgba(0,0,0,0.15); cursor: default; }
+.btn-danger { background: #A32D2D; color: #fff; border: none; border-radius: 8px; padding: 8px 16px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; transition: background 0.15s; }
+.btn-danger:hover { background: #7a1f1f; }
+.success-msg { background: #EAF3DE; color: #3B6D11; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; display: none; }
+.success-msg.show { display: block; }
+.error-msg { background: #FCEBEB; color: #A32D2D; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; display: none; }
+.error-msg.show { display: block; }
+.members-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.members-table th { text-align: left; font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; padding: 8px 12px; border-bottom: 0.5px solid rgba(0,0,0,0.1); }
+.members-table td { padding: 10px 12px; border-bottom: 0.5px solid rgba(0,0,0,0.06); vertical-align: middle; }
+.members-table tr:last-child td { border-bottom: none; }
+.status-badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 20px; }
+.status-badge.active { background: #EAF3DE; color: #3B6D11; }
+.status-badge.expired { background: #FCEBEB; color: #A32D2D; }
+.counter { background: #E6F1FB; border-radius: 10px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.counter-num { font-size: 32px; font-weight: 700; color: #185FA5; letter-spacing: -1px; }
+.counter-label { font-size: 13px; color: #555; }
+.counter-sub { font-size: 12px; color: #888; margin-top: 2px; }
+footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="dashboard.html" class="logo">Mock<span>FRCS</span></a>
+    <div class="admin-badge">Admin only</div>
+  </div>
+</nav>
+
+<main class="main">
+  <div class="page-header">
+    <h1>Admin panel</h1>
+    <p>Grant and manage membership access</p>
+  </div>
+
+  <!-- Early access counter -->
+  <div class="counter">
+    <div>
+      <div class="counter-label">Early access slots used</div>
+      <div class="counter-sub">Limit: 30 users</div>
+    </div>
+    <div class="counter-num" id="slotCount">— / 30</div>
+  </div>
+
+  <!-- Grant access -->
+  <div class="card">
+    <h2>Grant membership access</h2>
+    <div class="success-msg" id="successMsg"></div>
+    <div class="error-msg" id="errorMsg"></div>
+    <div class="form-group">
+      <label>Email address</label>
+      <input type="email" id="grantEmail" placeholder="candidate@email.com" />
+    </div>
+    <div class="form-group">
+      <label>Membership duration</label>
+      <select id="grantDuration">
+        <option value="1">1 month</option>
+        <option value="3" selected>3 months</option>
+        <option value="6">6 months</option>
+      </select>
+    </div>
+    <button class="btn-primary" id="grantBtn" onclick="grantAccess()">Grant access</button>
+  </div>
+
+  <!-- Active members -->
+  <div class="card">
+    <h2>Active memberships</h2>
+    <div id="membersLoading" style="font-size:13px;color:#888;">Loading...</div>
+    <table class="members-table" id="membersTable" style="display:none">
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Expires</th>
+          <th>Status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="membersBody"></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>&copy; 2026 MockFRCS.co.uk &middot; Admin panel</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+// Admin email — only this account can access this page
+const ADMIN_EMAIL = 'hello@mockfrcs.co.uk';
+
+(async () => {
+  const user = await requireAuth();
+  if (!user || user.email !== ADMIN_EMAIL) {
+    window.location.href = 'dashboard.html';
+    return;
+  }
+  loadMembers();
+})();
+
+async function loadMembers() {
+  const { data: memberships } = await db
+    .from('memberships')
+    .select('*, profiles(email)')
+    .order('created_at', { ascending: false });
+
+  const tbody = document.getElementById('membersBody');
+  const activeCount = memberships ? memberships.filter(m => m.active && new Date(m.expires_at) > new Date()).length : 0;
+  document.getElementById('slotCount').textContent = `${activeCount} / 30`;
+
+  if (!memberships || memberships.length === 0) {
+    document.getElementById('membersLoading').textContent = 'No memberships yet.';
+    return;
+  }
+
+  document.getElementById('membersLoading').style.display = 'none';
+  document.getElementById('membersTable').style.display = 'table';
+
+  tbody.innerHTML = memberships.map(m => {
+    const expiry = new Date(m.expires_at);
+    const active = m.active && expiry > new Date();
+    const expiryStr = expiry.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    const email = m.profiles ? m.profiles.email : m.user_id;
+    return `<tr>
+      <td>${email}</td>
+      <td>${expiryStr}</td>
+      <td><span class="status-badge ${active ? 'active' : 'expired'}">${active ? 'Active' : 'Expired'}</span></td>
+      <td><button class="btn-danger" onclick="revokeAccess('${m.id}')">Revoke</button></td>
+    </tr>`;
+  }).join('');
+}
+
+async function grantAccess() {
+  const email = document.getElementById('grantEmail').value.trim();
+  const months = parseInt(document.getElementById('grantDuration').value);
+  const btn = document.getElementById('grantBtn');
+  const successMsg = document.getElementById('successMsg');
+  const errorMsg = document.getElementById('errorMsg');
+
+  successMsg.classList.remove('show');
+  errorMsg.classList.remove('show');
+
+  if (!email) {
+    errorMsg.textContent = 'Please enter an email address.';
+    errorMsg.classList.add('show');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Granting access...';
+
+  // Look up user by email in profiles table
+  const { data: profile, error: profileError } = await db
+    .from('profiles')
+    .select('id')
+    .eq('email', email)
+    .single();
+
+  if (profileError || !profile) {
+    errorMsg.textContent = `No account found for ${email}. They need to sign up first at mockfrcs.co.uk/signup.html`;
+    errorMsg.classList.add('show');
+    btn.disabled = false;
+    btn.textContent = 'Grant access';
+    return;
+  }
+
+  // Calculate expiry
+  const expires = new Date();
+  expires.setMonth(expires.getMonth() + months);
+
+  // Upsert membership
+  const { error: memberError } = await db
+    .from('memberships')
+    .upsert({
+      user_id: profile.id,
+      expires_at: expires.toISOString(),
+      active: true
+    }, { onConflict: 'user_id' });
+
+  if (memberError) {
+    errorMsg.textContent = 'Error granting access: ' + memberError.message;
+    errorMsg.classList.add('show');
+    btn.disabled = false;
+    btn.textContent = 'Grant access';
+    return;
+  }
+
+  successMsg.textContent = `✓ ${months}-month access granted to ${email} (expires ${expires.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })})`;
+  successMsg.classList.add('show');
+  document.getElementById('grantEmail').value = '';
+  btn.disabled = false;
+  btn.textContent = 'Grant access';
+  loadMembers();
+}
+
+async function revokeAccess(membershipId) {
+  if (!confirm('Revoke this membership?')) return;
+  await db.from('memberships').update({ active: false }).eq('id', membershipId);
+  loadMembers();
+}
+</script>
+</body>
+</html>

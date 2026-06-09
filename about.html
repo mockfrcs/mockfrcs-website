@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — About & How to Use</title>
+<meta name="description" content="Learn about MockFRCS, the evidence behind mock exam practice, and how to get the most out of your FRCS Part 1 General Surgery preparation.">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #fff; color: #1a1a18; line-height: 1.5; }
+
+/* Nav */
+.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); position: sticky; top: 0; background: #fff; z-index: 100; }
+.nav-inner { max-width: 720px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.nav-right { display: flex; align-items: center; gap: 12px; }
+.nav-back { font-size: 13px; color: #888; text-decoration: none; }
+.nav-back:hover { color: #1a1a18; }
+.nav-badge { font-size: 12px; font-weight: 500; background: #E6F1FB; color: #185FA5; padding: 4px 12px; border-radius: 20px; }
+
+/* Layout */
+.page { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; }
+
+/* Hero */
+.page-hero { margin-bottom: 56px; }
+.page-label { font-size: 11px; font-weight: 600; color: #185FA5; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 12px; }
+.page-hero h1 { font-size: 36px; font-weight: 600; letter-spacing: -0.8px; line-height: 1.15; margin-bottom: 16px; }
+.page-hero h1 span { color: #185FA5; }
+.page-hero .lede { font-size: 17px; color: #444; line-height: 1.7; }
+
+/* Sections */
+.section { margin-bottom: 56px; padding-bottom: 56px; border-bottom: 0.5px solid rgba(0,0,0,0.08); }
+.section:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.section h2 { font-size: 22px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 16px; }
+.section p { font-size: 15px; color: #444; line-height: 1.75; margin-bottom: 16px; }
+.section p:last-child { margin-bottom: 0; }
+
+/* Evidence cards */
+.evidence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; }
+.evidence-card { background: #f7f7f5; border-radius: 10px; padding: 20px; border: 0.5px solid rgba(0,0,0,0.07); }
+.evidence-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 8px; color: #1a1a18; }
+.evidence-card p { font-size: 13px; color: #555; line-height: 1.65; margin-bottom: 0; }
+.evidence-card .source { font-size: 11px; color: #aaa; margin-top: 10px; font-style: italic; }
+
+/* Pull quote */
+.pull-quote { border-left: 3px solid #185FA5; padding: 16px 20px; margin: 24px 0; background: #f7f7f5; border-radius: 0 8px 8px 0; }
+.pull-quote p { font-size: 15px; color: #333; line-height: 1.7; font-style: italic; margin-bottom: 6px; }
+.pull-quote cite { font-size: 12px; color: #888; font-style: normal; }
+
+/* How to use steps */
+.steps { display: flex; flex-direction: column; gap: 0; margin: 24px 0; }
+.step { display: flex; gap: 20px; padding: 20px 0; border-bottom: 0.5px solid rgba(0,0,0,0.07); }
+.step:last-child { border-bottom: none; }
+.step-num { width: 32px; height: 32px; border-radius: 8px; background: #185FA5; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; flex-shrink: 0; margin-top: 2px; }
+.step-content h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+.step-content p { font-size: 14px; color: #555; line-height: 1.65; margin-bottom: 0; }
+
+/* Tips */
+.tips { display: flex; flex-direction: column; gap: 10px; margin: 24px 0; }
+.tip { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; background: #f7f7f5; border-radius: 8px; border: 0.5px solid rgba(0,0,0,0.07); }
+.tip-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+.tip-text { font-size: 14px; color: #444; line-height: 1.6; }
+.tip-text strong { color: #1a1a18; }
+
+/* Who wrote it */
+.author-card { background: #f7f7f5; border-radius: 10px; padding: 24px; border: 0.5px solid rgba(0,0,0,0.07); display: flex; gap: 20px; align-items: flex-start; }
+.author-avatar { width: 48px; height: 48px; border-radius: 50%; background: #185FA5; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 600; flex-shrink: 0; }
+.author-info h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+.author-info .role { font-size: 12px; color: #185FA5; font-weight: 500; margin-bottom: 8px; }
+.author-info p { font-size: 13px; color: #555; line-height: 1.65; margin-bottom: 0; }
+
+/* CTA */
+.cta-box { background: #185FA5; border-radius: 12px; padding: 32px; text-align: center; color: #fff; }
+.cta-box h2 { font-size: 22px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 8px; }
+.cta-box p { font-size: 14px; color: rgba(255,255,255,0.75); margin-bottom: 20px; }
+.cta-box .btn-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.btn-white { background: #fff; color: #185FA5; border: none; border-radius: 8px; padding: 12px 24px; font-size: 14px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; transition: background 0.15s; font-family: inherit; }
+.btn-white:hover { background: #f0f0ee; }
+.btn-ghost-white { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,0.4); border-radius: 8px; padding: 12px 22px; font-size: 14px; cursor: pointer; text-decoration: none; display: inline-block; font-family: inherit; transition: border-color 0.15s; }
+.btn-ghost-white:hover { border-color: rgba(255,255,255,0.8); }
+
+/* Footer */
+footer { border-top: 0.5px solid rgba(0,0,0,0.08); padding: 20px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+footer p { font-size: 12px; color: #bbb; }
+footer a { font-size: 12px; color: #bbb; text-decoration: none; }
+footer a:hover { color: #555; }
+
+@media (max-width: 600px) {
+  .page-hero h1 { font-size: 28px; }
+  .evidence-grid { grid-template-columns: 1fr; }
+  .author-card { flex-direction: column; }
+  .cta-box .btn-row { flex-direction: column; align-items: center; }
+  footer { flex-direction: column; align-items: flex-start; }
+}
+</style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+    <div class="nav-right">
+      <a href="index.html" class="nav-back">&larr; Back</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- Hero -->
+  <div class="page-hero">
+    <div class="page-label">About MockFRCS</div>
+    <h1>Why <span>mock exams</span> work —<br>and how to use them</h1>
+    <p class="lede">MockFRCS exists for one purpose: to give FRCS Part 1 General Surgery candidates the most realistic exam preparation experience possible, grounded in evidence, from home.</p>
+  </div>
+
+  <!-- What is MockFRCS -->
+  <div class="section">
+    <h2>What is MockFRCS?</h2>
+    <p>MockFRCS is a dedicated mock exam platform for candidates sitting the FRCS Part 1 General Surgery examination, set by the Intercollegiate Board of the Royal Colleges of Surgeons.</p>
+    <p>The platform provides five full mock examinations, each consisting of two papers of 120 single best answer (SBA) questions — identical in format, length, and timing to the real examination. Each paper is sat under a strict 2 hour 15 minute countdown, with no pausing and no extensions.</p>
+    <p>Every question has been written and reviewed by FRCS-qualified consultant surgeons and checked against current intercollegiate guidelines. After submitting each paper, candidates receive a full results breakdown by topic area alongside detailed explanations for every question.</p>
+    <p>MockFRCS is not a question bank. It is not a revision app. It is a simulation of the real examination — designed to be sat as close to exam conditions as possible.</p>
+  </div>
+
+  <!-- The evidence -->
+  <div class="section">
+    <h2>The evidence behind mock exam practice</h2>
+    <p>The value of practice testing is one of the most robust findings in educational psychology. Decades of research consistently show that retrieving information under test conditions — rather than passively rereading notes — produces significantly better long-term retention and performance.</p>
+
+    <div class="evidence-grid">
+      <div class="evidence-card">
+        <h3>The Testing Effect</h3>
+        <p>Actively retrieving information during practice testing consolidates memory far more effectively than passive study. The act of recalling — even under difficulty — strengthens neural pathways and reduces forgetting over time.</p>
+        <div class="source">Roediger &amp; Karpicke, 2006; Roediger &amp; Butler, 2011</div>
+      </div>
+      <div class="evidence-card">
+        <h3>Retrieval Practice in the Classroom</h3>
+        <p>Students who completed practice tests consistently outperformed those who restudied material on subsequent final examinations — across factual recall, application questions, and novel problem-solving tasks.</p>
+        <div class="source">McDaniel et al., 2007; Agarwal et al., 2012</div>
+      </div>
+      <div class="evidence-card">
+        <h3>Desirable Difficulty</h3>
+        <p>Practice testing may feel harder than rereading notes — and that difficulty is the point. Conditions that make retrieval effortful during practice produce greater long-term learning gains than conditions that feel easier in the moment.</p>
+        <div class="source">Bjork, 1994; Frontiers in Psychology, 2018</div>
+      </div>
+      <div class="evidence-card">
+        <h3>Metacognitive Benefit</h3>
+        <p>Taking a practice test allows candidates to identify exactly what they know and what they don't — directing subsequent revision effort toward genuine weak areas rather than topics that feel familiar but may not be retained.</p>
+        <div class="source">Roediger &amp; Karpicke, 2006; ScienceDirect</div>
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      <p>"Retrieval practice in the classroom can boost academic performance. Students who completed practice tests outperformed those who received a brief overview on the final exam — a benefit evident across factual, application, and unrelated questions."</p>
+      <cite>Agarwal et al. — Enhancing Final Exam Performance Through Retrieval Practice</cite>
+    </div>
+
+    <p>Beyond the evidence for practice testing in general, there is a specific and important benefit to <em>full paper simulation</em> that question banks cannot replicate: the experience of sustaining concentration, managing time, and maintaining decision-making quality across 120 questions under a strict countdown.</p>
+    <p>Familiarity with that pressure — having sat it before — measurably reduces exam anxiety and improves pacing on the day. Sitting a full mock under realistic conditions is categorically different from answering questions in a low-stakes practice environment.</p>
+  </div>
+
+  <!-- How to use it -->
+  <div class="section">
+    <h2>How to get the most out of MockFRCS</h2>
+    <p>A 3-month membership gives access to all five mock exams. Here is how to use them effectively across your revision period.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Start with a baseline — sit Mock Exam 1 early</h3>
+          <p>Sit Mock Exam 1 in the first week or two of your revision, before intensive topic-specific study. This establishes a baseline score and — crucially — reveals your genuine weak areas across the syllabus. Use the topic breakdown to direct your revision effort where it matters most.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Sit each paper under genuine exam conditions</h3>
+          <p>Find a quiet space, set the timer, and do not pause. Resist the urge to look anything up mid-paper. The value of the simulation depends entirely on replicating the real experience — including the discomfort of uncertainty under time pressure.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Review your results thoroughly</h3>
+          <p>After each paper, spend time working through the explanations — especially for questions you got wrong. Understanding <em>why</em> an answer is correct is more valuable than simply noting what the correct answer was. Pay particular attention to your lowest-scoring topic areas.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h3>Space your exams across the revision period</h3>
+          <p>Aim to sit one mock exam every two to three weeks, leaving time for focused revision between each. Spaced retrieval practice consistently outperforms concentrated cramming for long-term retention — and the FRCS tests breadth of knowledge across the entire general surgery syllabus.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <h3>Save Mock Exam 5 for the final two weeks</h3>
+          <p>Use your last mock as a final rehearsal close to the exam date. By this point your score should reflect genuine progress. Use any remaining weak areas as focused last-minute revision targets rather than attempting to cover everything again from scratch.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tips">
+      <div class="tip">
+        <div class="tip-icon">💡</div>
+        <div class="tip-text"><strong>Treat each paper as the real exam.</strong> Sit at a desk, not on a sofa. Remove distractions. Start at a time of day when you're alert. The psychological rehearsal is part of the preparation.</div>
+      </div>
+      <div class="tip">
+        <div class="tip-icon">📊</div>
+        <div class="tip-text"><strong>Track your scores across all five exams.</strong> A rising trend matters more than any single score. If your score plateaus, your revision approach needs to change — not just your volume of study.</div>
+      </div>
+      <div class="tip">
+        <div class="tip-icon">⏱</div>
+        <div class="tip-text"><strong>Pace yourself at roughly 1 minute 7 seconds per question.</strong> This is the pace required to complete 120 questions in 2 hours 15 minutes. Candidates who run out of time lose easy marks — practise pacing from your first mock.</div>
+      </div>
+      <div class="tip">
+        <div class="tip-icon">📝</div>
+        <div class="tip-text"><strong>Don't retake the same paper immediately.</strong> Wait at least two weeks before revisiting a paper you've already sat. Immediate retakes inflate scores without reinforcing genuine learning.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Who wrote the questions -->
+  <div class="section">
+    <h2>Who wrote the questions?</h2>
+    <p>All questions on MockFRCS are written and reviewed by FRCS-qualified consultant surgeons with direct experience of the Intercollegiate examination. Every question is checked against current guidelines — including NICE, ACPGBI, AUGIS, and the relevant Royal College guidance — before publication.</p>
+    <p>Questions are reviewed for clinical accuracy, appropriate difficulty, unambiguous correct answers, and plausible but clearly incorrect distractors. Any question that generates legitimate clinical debate during review is either rewritten or removed.</p>
+    <p>MockFRCS is a continuously reviewed resource. Questions are updated when guidelines change.</p>
+
+    <div class="author-card">
+      <div class="author-avatar">MF</div>
+      <div class="author-info">
+        <h3>MockFRCS Editorial Team</h3>
+        <div class="role">FRCS-qualified Consultant Surgeons</div>
+        <p>Questions authored and reviewed by consultant general surgeons who have sat and passed the FRCS Part 1 examination and have ongoing involvement in surgical training and education.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="section">
+    <h2>Important — please read</h2>
+    <p>MockFRCS is an independent educational resource and is not affiliated with, endorsed by, or connected to the Intercollegiate Surgical Curriculum Programme (ISCP), the Royal College of Surgeons of England, the Royal College of Physicians and Surgeons of Glasgow, the Royal College of Surgeons of Edinburgh, or any other Royal College or examining body.</p>
+    <p>MockFRCS questions are written to reflect the style and format of the FRCS Part 1 General Surgery examination but do not constitute past papers, official practice materials, or examination questions from any Royal College.</p>
+    <p>MockFRCS is intended as a revision and preparation tool only. Passing MockFRCS papers does not guarantee or predict performance in the real examination.</p>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-box">
+    <h2>Ready to start preparing?</h2>
+    <p>MockFRCS launches soon. Try 10 free sample questions now, or sign up to be notified when we go live.</p>
+    <div class="btn-row">
+      <a href="demo.html" class="btn-white">Try 10 free questions</a>
+      <a href="index.html" class="btn-ghost-white">Get notified at launch</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</p>
+  <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a>
+</footer>
+
+</body>
+</html>
