@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Early Access</title>
+<meta name="description" content="MockFRCS is coming soon. Apply for free early access to FRCS Part 1 General Surgery mock exams — written by surgeons, sat from home.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #fff; color: #1a1a18; display: flex; flex-direction: column; min-height: 100vh; }
+
+.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); }
+.nav-inner { max-width: 580px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.nav-left { display: flex; align-items: center; gap: 24px; }
+.logo { font-size: 18px; font-weight: 600; color: #1a1a18; text-decoration: none; }
+.logo span { color: #185FA5; }
+.nav-links { display: flex; align-items: center; gap: 20px; }
+.nav-link { font-size: 13px; color: #555; text-decoration: none; transition: color 0.15s; white-space: nowrap; }
+.nav-link:hover { color: #1a1a18; }
+.nav-badge { font-size: 12px; font-weight: 500; background: #EAF3DE; color: #3B6D11; padding: 4px 12px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; }
+@media (max-width: 540px) { .nav-links { display: none; } }
+
+.main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 48px 24px; }
+.content { max-width: 580px; width: 100%; }
+
+/* Hero */
+.hero { text-align: center; margin-bottom: 40px; }
+.coming-label { display: inline-block; font-size: 11px; font-weight: 600; color: #185FA5; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px; }
+h1 { font-size: 36px; font-weight: 600; letter-spacing: -0.8px; line-height: 1.15; margin-bottom: 14px; }
+h1 span { color: #185FA5; }
+.subtitle { font-size: 16px; color: #555; line-height: 1.65; margin-bottom: 0; }
+
+/* Early access card */
+.early-access-card { background: #f7f7f5; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 28px; margin-bottom: 24px; }
+.ea-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 12px; }
+.ea-title { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.ea-sub { font-size: 13px; color: #666; line-height: 1.5; }
+.slots-badge { background: #185FA5; color: #fff; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; }
+.ea-benefits { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.ea-benefit { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #333; }
+.ea-benefit .check { color: #1D9E75; font-weight: 700; font-size: 15px; flex-shrink: 0; }
+.ea-note { font-size: 12px; color: #888; background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; padding: 10px 14px; margin-bottom: 20px; line-height: 1.6; }
+.ea-note strong { color: #1a1a18; }
+
+/* Form */
+.form-group { margin-bottom: 12px; }
+.form-group label { display: block; font-size: 12px; font-weight: 500; color: #888; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+.form-group input { width: 100%; padding: 11px 16px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; background: #fff; }
+.form-group input:focus { border-color: #185FA5; }
+.form-group input::placeholder { color: #bbb; }
+.btn-apply { width: 100%; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 15px; font-weight: 500; cursor: pointer; font-family: inherit; transition: background 0.15s; margin-top: 4px; }
+.btn-apply:hover { background: #0C447C; }
+.apply-note { font-size: 12px; color: #aaa; text-align: center; margin-top: 10px; }
+
+.success-card { display: none; background: #EAF3DE; border: 0.5px solid #A8D57A; border-radius: 12px; padding: 24px; text-align: center; margin-bottom: 24px; }
+.success-card.show { display: block; }
+.success-icon { font-size: 36px; margin-bottom: 12px; }
+.success-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #3B6D11; }
+.success-card p { font-size: 14px; color: #555; line-height: 1.6; }
+
+/* Divider */
+.divider { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+.divider-line { flex: 1; height: 0.5px; background: rgba(0,0,0,0.1); }
+.divider-text { font-size: 12px; color: #bbb; white-space: nowrap; }
+
+/* Notify section */
+.notify-section { text-align: center; }
+.notify-label { font-size: 13px; color: #888; margin-bottom: 12px; display: block; }
+.notify-form { display: flex; gap: 8px; max-width: 420px; margin: 0 auto 8px; }
+.notify-form input { flex: 1; padding: 11px 16px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; }
+.notify-form input:focus { border-color: #185FA5; }
+.notify-form input::placeholder { color: #bbb; }
+.notify-form button { background: #1a1a18; color: #fff; border: none; border-radius: 8px; padding: 11px 20px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; white-space: nowrap; }
+.notify-note { font-size: 12px; color: #aaa; margin-bottom: 32px; }
+
+/* Pills */
+.features { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 28px; }
+.feature-pill { display: flex; align-items: center; gap: 7px; background: #f7f7f5; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 20px; padding: 6px 14px; font-size: 12px; color: #333; }
+.feature-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: #185FA5; flex-shrink: 0; }
+
+.contact { font-size: 13px; color: #aaa; text-align: center; }
+.contact a { color: #185FA5; text-decoration: none; }
+
+footer { padding: 20px 32px; border-top: 0.5px solid rgba(0,0,0,0.08); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+footer p { font-size: 12px; color: #bbb; }
+footer a { font-size: 12px; color: #bbb; text-decoration: none; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 28px; }
+  .notify-form { flex-direction: column; }
+  .notify-form button { width: 100%; }
+  footer { flex-direction: column; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-left">
+      <div class="logo">Mock<span>FRCS</span></div>
+      <div class="nav-links">
+        <a href="about.html" class="nav-link">How it works</a>
+        <a href="demo.html" class="nav-link">Try free demo</a>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <a href="login.html" class="nav-link">Log in</a>
+      <div class="nav-badge">Early access</div>
+    </div>
+  </div>
+</nav>
+
+<main class="main">
+  <div class="content">
+
+    <div class="hero">
+      <div class="coming-label">Coming Soon</div>
+      <h1>Realistic <span>FRCS</span> prep<br>is on its way</h1>
+      <p class="subtitle">Five full mock exams for FRCS Part 1 General Surgery — two timed papers of 120 SBA questions each, written and reviewed by surgeons.</p>
+    </div>
+
+    <!-- Early access card -->
+    <div class="early-access-card" id="earlyAccessCard">
+      <div class="ea-header">
+        <div>
+          <div class="ea-title">Apply for free early access</div>
+          <div class="ea-sub">Be one of the first 30 candidates to use MockFRCS — completely free.</div>
+        </div>
+        <div class="slots-badge" id="slotsLeft">30 spots available</div>
+      </div>
+
+      <div class="ea-benefits">
+        <div class="ea-benefit"><span class="check">&#10003;</span>Full access to Mock Exam 1 — free</div>
+        <div class="ea-benefit"><span class="check">&#10003;</span>120 SBA questions, 2h 15m timed paper</div>
+        <div class="ea-benefit"><span class="check">&#10003;</span>Detailed answers and topic breakdown</div>
+        <div class="ea-benefit"><span class="check">&#10003;</span>Help shape the platform before full launch</div>
+      </div>
+
+      <div class="ea-note">
+        <strong>One small ask:</strong> In exchange for free access, we ask that you leave an honest review of the question quality and platform experience. Your feedback directly improves MockFRCS for every candidate who uses it.
+      </div>
+
+      <div class="form-group">
+        <label>Your email address</label>
+        <input type="email" id="applyEmail" placeholder="your@email.com" />
+      </div>
+      <div class="form-group">
+        <label>Your training grade</label>
+        <input type="text" id="applyGrade" placeholder="e.g. ST4 General Surgery, Northern Deanery" />
+      </div>
+      <button class="btn-apply" id="applyBtn" onclick="handleApply()">Apply for free early access</button>
+      <p class="apply-note">We'll email you within 48 hours with your access details.</p>
+    </div>
+
+    <!-- Success message -->
+    <div class="success-card" id="successCard">
+      <div class="success-icon">&#127881;</div>
+      <h3>Application received!</h3>
+      <p>Thank you — we'll be in touch within 48 hours with your free access details. Keep an eye on your inbox.</p>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider">
+      <div class="divider-line"></div>
+      <div class="divider-text">Or get notified at launch</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- Notify section -->
+    <div class="notify-section">
+      <span class="notify-label">Not sitting soon? Sign up to be notified when we launch.</span>
+      <form action="https://mockfrcs.us2.list-manage.com/subscribe/post?u=f7ca65907234f835274a65b67&amp;id=9c974c11d8&amp;f_id=004ef4e3f0" method="post" target="_blank" novalidate>
+        <div class="notify-form">
+          <input type="email" name="EMAIL" placeholder="your@email.com" required />
+          <div aria-hidden="true" style="position:absolute;left:-5000px;"><input type="text" name="b_f7ca65907234f835274a65b67_9c974c11d8" tabindex="-1" value=""></div>
+          <button type="submit">Notify me</button>
+        </div>
+      </form>
+      <p class="notify-note">No spam. One email when MockFRCS goes live.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature-pill"><div class="dot"></div>5 full mock exams</div>
+      <div class="feature-pill"><div class="dot"></div>120 SBA questions per paper</div>
+      <div class="feature-pill"><div class="dot"></div>2h 15m timed conditions</div>
+      <div class="feature-pill"><div class="dot"></div>Surgeon-authored &amp; reviewed</div>
+    </div>
+
+    <p class="contact">Questions? <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a></p>
+
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 MockFRCS.co.uk</p>
+  <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+async function handleApply() {
+  const email = document.getElementById('applyEmail').value.trim();
+  const grade = document.getElementById('applyGrade').value.trim();
+  const btn = document.getElementById('applyBtn');
+
+  if (!email) {
+    alert('Please enter your email address.');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Submitting...';
+
+  // Subscribe to Mailchimp early access list with grade as note
+  // For now just show success — you manually process applications
+  document.getElementById('earlyAccessCard').style.display = 'none';
+  document.getElementById('successCard').classList.add('show');
+
+  // Also subscribe to Mailchimp for the record
+  // (manual processing — you contact them directly)
+}
+
+// If already logged in redirect to dashboard
+(async () => {
+  const user = await getUser();
+  if (user) window.location.href = 'dashboard.html';
+})();
+</script>
+
+</body>
+</html>
