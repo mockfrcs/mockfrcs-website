@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Results</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
+.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
+.nav-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
+.logo span { color: #185FA5; }
+.nav-right { display: flex; gap: 10px; align-items: center; }
+.btn-dashboard { font-size: 13px; color: #888; text-decoration: none; }
+.btn-dashboard:hover { color: #1a1a18; }
+.btn-next-paper { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 8px 16px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block; }
+.main { max-width: 900px; margin: 0 auto; padding: 40px 24px; width: 100%; flex: 1; }
+.loading { text-align: center; padding: 60px; color: #888; font-size: 14px; }
+
+/* Hero */
+.results-hero { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 28px; margin-bottom: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.results-hero-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 16px; }
+.result-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 20px; margin-bottom: 8px; }
+.result-badge.pass { background: #EAF3DE; color: #3B6D11; }
+.result-badge.fail { background: #FCEBEB; color: #A32D2D; }
+.results-hero h1 { font-size: 22px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 4px; }
+.results-hero .subtitle { font-size: 13px; color: #888; }
+.score-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.score-card { background: #f7f7f5; border-radius: 8px; padding: 14px; }
+.score-label { font-size: 12px; color: #888; margin-bottom: 6px; }
+.score-val { font-size: 26px; font-weight: 600; letter-spacing: -0.5px; }
+.score-val.pass { color: #3B6D11; }
+.score-val.warn { color: #854F0B; }
+.score-sub { font-size: 11px; color: #aaa; margin-top: 2px; }
+
+/* Tabs */
+.tabs { display: flex; border-bottom: 0.5px solid rgba(0,0,0,0.1); background: #fff; margin-bottom: 20px; border-radius: 12px 12px 0 0; overflow: hidden; }
+.tab { font-size: 13px; color: #888; padding: 13px 20px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -0.5px; transition: all 0.15s; }
+.tab.active { color: #185FA5; border-bottom-color: #185FA5; font-weight: 500; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Topic breakdown */
+.topic-section { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.section-heading { font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+.topic-row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 0.5px solid rgba(0,0,0,0.06); }
+.topic-row:last-child { border-bottom: none; }
+.topic-name { font-size: 13px; width: 200px; flex-shrink: 0; }
+.topic-bar-wrap { flex: 1; height: 8px; background: rgba(0,0,0,0.07); border-radius: 4px; overflow: hidden; }
+.topic-bar { height: 100%; border-radius: 4px; }
+.topic-pct { font-size: 13px; font-weight: 500; width: 42px; text-align: right; flex-shrink: 0; }
+.topic-count { font-size: 12px; color: #888; width: 52px; text-align: right; flex-shrink: 0; }
+
+/* Question review */
+.review-section { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.q-review-row { padding: 16px 20px; border-bottom: 0.5px solid rgba(0,0,0,0.06); }
+.q-review-row:last-child { border-bottom: none; }
+.q-review-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 8px; }
+.q-review-num { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0; margin-top: 2px; white-space: nowrap; }
+.q-review-text { font-size: 13px; line-height: 1.5; flex: 1; }
+.correct-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; padding: 3px 9px; border-radius: 20px; flex-shrink: 0; font-weight: 500; }
+.correct-badge.correct { background: #EAF3DE; color: #3B6D11; }
+.correct-badge.incorrect { background: #FCEBEB; color: #A32D2D; }
+.answer-row { display: flex; gap: 16px; font-size: 12px; margin-bottom: 8px; }
+.your-ans { color: #888; }
+.your-ans span { color: #A32D2D; font-weight: 500; }
+.correct-ans { color: #888; }
+.correct-ans span { color: #3B6D11; font-weight: 500; }
+.explanation-box { font-size: 13px; color: #444; line-height: 1.7; background: #f7f7f5; padding: 12px 14px; border-left: 3px solid #185FA5; margin-top: 4px; }
+
+/* Review prompt */
+.review-prompt { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 28px; margin-top: 24px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.rp-header h3 { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+.rp-header p { font-size: 13px; color: #666; line-height: 1.6; margin-bottom: 18px; }
+.rp-stars { display: flex; gap: 6px; margin-bottom: 16px; }
+.rp-star { font-size: 32px; color: rgba(0,0,0,0.12); cursor: pointer; transition: color 0.15s, transform 0.1s; user-select: none; }
+.rp-star:hover { transform: scale(1.15); }
+.rp-star.active { color: #EF9F27; }
+.rp-comment { width: 100%; padding: 12px 14px; font-size: 13px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; resize: vertical; margin-bottom: 12px; line-height: 1.6; }
+.rp-comment:focus { border-color: #185FA5; }
+.rp-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+.rp-input { padding: 10px 14px; font-size: 13px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; }
+.rp-input:focus { border-color: #185FA5; }
+.rp-permission { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; color: #666; line-height: 1.5; margin-bottom: 16px; cursor: pointer; }
+.rp-permission input { margin-top: 2px; flex-shrink: 0; }
+.rp-submit { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px 24px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: background 0.15s; }
+.rp-submit:hover { background: #0C447C; }
+.rp-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
+.rp-thanks { font-size: 14px; color: #3B6D11; font-weight: 500; display: flex; align-items: center; gap: 8px; }
+@media (max-width: 600px) { .rp-fields { grid-template-columns: 1fr; } }
+
+footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
+
+@media (max-width: 600px) {
+  .score-cards { grid-template-columns: repeat(2,1fr); }
+  .topic-name { width: 120px; }
+}
+</style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="dashboard.html" class="logo">Mock<span>FRCS</span></a>
+    <div class="nav-right">
+      <a href="dashboard.html" class="btn-dashboard">&larr; Dashboard</a>
+      <a href="dashboard.html" class="btn-next-paper" id="nextPaperBtn">Back to dashboard</a>
+    </div>
+  </div>
+</nav>
+
+<main class="main">
+  <div id="loadingState" class="loading">Loading your results...</div>
+  <div id="resultsContent" style="display:none">
+
+    <div class="results-hero">
+      <div class="results-hero-top">
+        <div>
+          <div class="result-badge" id="resultBadge">—</div>
+          <h1 id="resultsTitle">Results</h1>
+          <div class="subtitle" id="resultsSubtitle"></div>
+        </div>
+      </div>
+      <div class="score-cards">
+        <div class="score-card"><div class="score-label">Your score</div><div class="score-val" id="scoreVal">—</div><div class="score-sub" id="scoreSub"></div></div>
+        <div class="score-card"><div class="score-label">Pass mark</div><div class="score-val">65%</div><div class="score-sub">estimated</div></div>
+        <div class="score-card"><div class="score-label">Margin</div><div class="score-val" id="marginVal">—</div><div class="score-sub" id="marginSub"></div></div>
+        <div class="score-card"><div class="score-label">Time used</div><div class="score-val warn" id="timeVal">—</div><div class="score-sub" id="timeSub"></div></div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <div class="tab active" onclick="showTab('topics',this)">Topic breakdown</div>
+      <div class="tab" onclick="showTab('review',this)">Question review</div>
+      <div class="tab" onclick="showTab('incorrect',this)">Incorrect only</div>
+    </div>
+
+    <div class="tab-content active" id="tab-topics">
+      <div class="topic-section">
+        <div class="section-heading">Performance by topic</div>
+        <div id="topicBreakdown"></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-review">
+      <div class="review-section" id="allQuestions"></div>
+    </div>
+
+    <div class="tab-content" id="tab-incorrect">
+      <div class="review-section" id="incorrectQuestions"></div>
+    </div>
+
+    <!-- Review prompt -->
+    <div class="review-prompt" id="reviewPrompt" style="display:none">
+      <div class="rp-header">
+        <h3>How was your exam experience?</h3>
+        <p>Your feedback directly shapes MockFRCS — and helps other candidates decide if it's right for them.</p>
+      </div>
+      <div class="rp-stars" id="rpStars">
+        <span class="rp-star" data-val="1">&#9733;</span>
+        <span class="rp-star" data-val="2">&#9733;</span>
+        <span class="rp-star" data-val="3">&#9733;</span>
+        <span class="rp-star" data-val="4">&#9733;</span>
+        <span class="rp-star" data-val="5">&#9733;</span>
+      </div>
+      <textarea class="rp-comment" id="rpComment" placeholder="What did you think of the question quality and exam experience? What could be better?" rows="4"></textarea>
+      <div class="rp-fields">
+        <input type="text" class="rp-input" id="rpName" placeholder="First name + initial (e.g. James H.)" />
+        <input type="text" class="rp-input" id="rpGrade" placeholder="Grade (e.g. ST5 General Surgery)" />
+      </div>
+      <label class="rp-permission">
+        <input type="checkbox" id="rpPermission" />
+        <span>I'm happy for my review to be displayed publicly on MockFRCS with my name and grade</span>
+      </label>
+      <button class="rp-submit" id="rpSubmitBtn" onclick="submitReview()">Submit review</button>
+      <div class="rp-thanks" id="rpThanks" style="display:none">
+        <span>&#10003;</span> Thank you — your review has been submitted!
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+const letters = ['A','B','C','D','E'];
+const PASS_MARK = 0.65;
+
+const params = new URLSearchParams(window.location.search);
+const attemptId = params.get('attempt');
+if (!attemptId) window.location.href = 'dashboard.html';
+
+(async () => {
+  const user = await requireAuth();
+  if (!user) return;
+
+  // Load attempt
+  const { data: attempt } = await db
+    .from('exam_attempts')
+    .select('*')
+    .eq('id', attemptId)
+    .eq('user_id', user.id)
+    .single();
+
+  if (!attempt) { window.location.href = 'dashboard.html'; return; }
+
+  // Load exam
+  const { data: exam } = await db
+    .from('exams')
+    .select('*')
+    .eq('id', attempt.exam_id)
+    .single();
+
+  // Load answers
+  const { data: rawAnswers } = await db
+    .from('answers')
+    .select('*')
+    .eq('attempt_id', attemptId);
+
+  if (!rawAnswers || rawAnswers.length === 0) {
+    document.getElementById('loadingState').innerHTML = '<p style="color:#888;text-align:center;padding:40px">No answers found for this attempt.</p>';
+    return;
+  }
+
+  // Load all questions for this exam
+  const { data: questions } = await db
+    .from('questions')
+    .select('*')
+    .eq('exam_id', attempt.exam_id)
+    .order('question_number');
+
+  if (!questions) return;
+
+  // Merge answers with questions
+  const questionMap = {};
+  questions.forEach(q => { questionMap[q.id] = q; });
+
+  const answers = rawAnswers.map(a => ({
+    ...a,
+    questions: questionMap[a.question_id] || null
+  })).filter(a => a.questions !== null);
+
+  if (!answers.length) return;
+
+  const total = attempt.total_questions;
+  const score = attempt.score || 0;
+  const pct = Math.round(score / total * 100);
+  const passed = pct >= 65;
+  const margin = pct - 65;
+  const timeUsed = exam ? exam.time_limit_seconds - (attempt.time_remaining_seconds || 0) : 0;
+  const timeUsedH = Math.floor(timeUsed / 3600);
+  const timeUsedM = Math.floor((timeUsed % 3600) / 60);
+
+  // Hero
+  document.getElementById('resultsTitle').textContent = `${exam ? exam.title : 'Results'}`;
+  document.getElementById('resultsSubtitle').textContent = `Completed · ${timeUsedH}h ${timeUsedM}m used`;
+
+  const badge = document.getElementById('resultBadge');
+  badge.textContent = passed ? '✓ Pass' : '✗ Below pass mark';
+  badge.className = `result-badge ${passed ? 'pass' : 'fail'}`;
+
+  const scoreEl = document.getElementById('scoreVal');
+  scoreEl.textContent = pct + '%';
+  scoreEl.className = `score-val ${passed ? 'pass' : ''}`;
+  document.getElementById('scoreSub').textContent = `${score} / ${total} correct`;
+
+  const marginEl = document.getElementById('marginVal');
+  marginEl.textContent = (margin >= 0 ? '+' : '') + margin + '%';
+  marginEl.className = `score-val ${margin >= 0 ? 'pass' : ''}`;
+  document.getElementById('marginSub').textContent = margin >= 0 ? `${Math.abs(margin * total / 100 | 0)} marks above pass` : `${Math.abs(margin * total / 100 | 0)} marks below pass`;
+
+  document.getElementById('timeVal').textContent = `${timeUsedH}h ${timeUsedM}m`;
+  document.getElementById('timeSub').textContent = `${attempt.time_remaining_seconds || 0}s remaining`;
+
+  // Topic breakdown
+  const topicMap = {};
+  answers.forEach(a => {
+    if (!a.questions) return;
+    const topic = a.questions.topic;
+    if (!topicMap[topic]) topicMap[topic] = { correct: 0, total: 0 };
+    topicMap[topic].total++;
+    if (a.is_correct) topicMap[topic].correct++;
+  });
+
+  const topicContainer = document.getElementById('topicBreakdown');
+  Object.entries(topicMap).sort((a,b) => b[1].total - a[1].total).forEach(([topic, data]) => {
+    const pctT = Math.round(data.correct / data.total * 100);
+    const color = pctT >= 75 ? '#3B6D11' : pctT >= 65 ? '#185FA5' : '#A32D2D';
+    topicContainer.innerHTML += `
+      <div class="topic-row">
+        <div class="topic-name">${topic}</div>
+        <div class="topic-bar-wrap"><div class="topic-bar" style="width:${pctT}%;background:${color}"></div></div>
+        <div class="topic-pct" style="color:${color}">${pctT}%</div>
+        <div class="topic-count">${data.correct}/${data.total}</div>
+      </div>`;
+  });
+
+  // Question review — sort by question number
+  function buildReviewHTML(questionAnswers) {
+    const sorted = [...questionAnswers].sort((a, b) => {
+      const numA = a.questions ? a.questions.question_number : 0;
+      const numB = b.questions ? b.questions.question_number : 0;
+      return numA - numB;
+    });
+    return sorted.map(a => {
+      if (!a.questions) return '';
+      const q = a.questions;
+      const opts = [q.option_a, q.option_b, q.option_c, q.option_d, q.option_e];
+      const yourAns = a.selected_answer !== null ? `${letters[a.selected_answer]} — ${opts[a.selected_answer]}` : 'Not answered';
+      const correctAns = `${letters[q.correct_answer]} — ${opts[q.correct_answer]}`;
+      return `
+        <div class="q-review-row">
+          <div class="q-review-header">
+            <div class="q-review-num">Q${q.question_number}</div>
+            <div class="q-review-text">${q.stem.length > 200 ? q.stem.substring(0,200) + '...' : q.stem}</div>
+            <div class="correct-badge ${a.is_correct ? 'correct' : 'incorrect'}">${a.is_correct ? '&#10003; Correct' : '&#10007; Incorrect'}</div>
+          </div>
+          <div class="answer-row">
+            <div class="your-ans">Your answer: <span style="color:${a.is_correct ? '#3B6D11' : '#A32D2D'};font-weight:500">${yourAns}</span></div>
+            ${!a.is_correct ? `<div class="correct-ans">Correct: <span>${correctAns}</span></div>` : ''}
+          </div>
+          <div class="explanation-box">${q.explanation}</div>
+        </div>`;
+    }).join('');
+  }
+
+  document.getElementById('allQuestions').innerHTML = buildReviewHTML(answers);
+  document.getElementById('incorrectQuestions').innerHTML = buildReviewHTML(answers.filter(a => !a.is_correct));
+
+  document.getElementById('loadingState').style.display = 'none';
+  document.getElementById('resultsContent').style.display = 'block';
+
+  // Find next paper
+  if (exam) {
+    const { data: allExams } = await db
+      .from('exams')
+      .select('*')
+      .order('exam_number')
+      .order('paper_number');
+
+    if (allExams) {
+      const currentIndex = allExams.findIndex(e => e.id === exam.id);
+      const nextExam = allExams[currentIndex + 1];
+      const nextBtn = document.getElementById('nextPaperBtn');
+      if (nextExam) {
+        nextBtn.textContent = `${nextExam.title} →`;
+        nextBtn.href = `exam.html?exam=${nextExam.id}`;
+      } else {
+        nextBtn.textContent = 'Back to dashboard';
+        nextBtn.href = 'dashboard.html';
+      }
+    }
+  }
+
+  // Show review prompt if user hasn't reviewed yet
+  try {
+    const { data: existingReview } = await db
+      .from('reviews')
+      .select('id')
+      .eq('user_id', user.id)
+      .maybeSingle();
+
+    if (!existingReview) {
+      document.getElementById('reviewPrompt').style.display = 'block';
+      // If they arrived via the dashboard review banner, scroll to the form
+      if (window.location.hash === '#reviewPrompt') {
+        setTimeout(() => document.getElementById('reviewPrompt').scrollIntoView({ behavior: 'smooth' }), 300);
+      }
+    }
+  } catch (e) {
+    // Reviews table may not exist yet — fail silently
+  }
+})();
+
+// Review star rating
+let selectedRating = 0;
+document.querySelectorAll('.rp-star').forEach(star => {
+  star.addEventListener('click', function() {
+    selectedRating = parseInt(this.dataset.val);
+    document.querySelectorAll('.rp-star').forEach(s => {
+      s.classList.toggle('active', parseInt(s.dataset.val) <= selectedRating);
+    });
+  });
+});
+
+async function submitReview() {
+  const comment = document.getElementById('rpComment').value.trim();
+  const name = document.getElementById('rpName').value.trim();
+  const grade = document.getElementById('rpGrade').value.trim();
+  const permission = document.getElementById('rpPermission').checked;
+  const btn = document.getElementById('rpSubmitBtn');
+
+  if (selectedRating === 0) {
+    alert('Please select a star rating.');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Submitting...';
+
+  const { data: { user } } = await db.auth.getUser();
+
+  const { error } = await db.from('reviews').upsert({
+    user_id: user.id,
+    attempt_id: attemptId,
+    rating: selectedRating,
+    comment: comment || null,
+    display_name: name || null,
+    training_grade: grade || null,
+    public_permission: permission
+  }, { onConflict: 'user_id' });
+
+  if (error) {
+    alert('Error submitting review: ' + error.message);
+    btn.disabled = false;
+    btn.textContent = 'Submit review';
+    return;
+  }
+
+  // Hide the form, show thanks
+  document.querySelectorAll('.rp-stars, .rp-comment, .rp-fields, .rp-permission, .rp-submit').forEach(el => el.style.display = 'none');
+  document.getElementById('rpThanks').style.display = 'flex';
+}
+
+function showTab(name, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById(`tab-${name}`).classList.add('active');
+}
+</script>
+</body>
+</html>
