@@ -158,6 +158,16 @@
   .ovsec{padding:0 0 8px}
   .ovwrap{padding:10px}
   .ovwrap svg{width:100%;height:auto;display:block;border-radius:10px}
+  .calc{padding:2px 0}
+  .calc-row{display:flex;align-items:center;gap:10px;padding:8px 4px;border-bottom:1px dashed #e2e8ef;font-size:13.5px}
+  .calc-row:last-of-type{border-bottom:0}
+  .calc-row span{flex:1}
+  .calc-row input[type=checkbox]{width:18px;height:18px;flex:0 0 auto;accent-color:#0e7c86}
+  .calc-row select{font-family:inherit;font-size:13px;padding:6px 8px;border:1px solid #e2e8ef;border-radius:8px;background:#fff}
+  .calc-out{margin-top:12px;background:#e6f3f4;color:#0a5d65;font-weight:650;font-size:15px;padding:11px 12px;border-radius:9px;text-align:center}
+  .calc-note{margin-top:8px;font-size:12px;color:#5b6b7a}
+  .card .spine-tool{background:#6b46c1}
+  .toolcard:hover{border-color:#cbb6ef}
   @media (max-width:480px){
     header.app{padding:12px 14px;gap:8px}
     .logo{width:32px;height:32px;font-size:15px}
@@ -1720,7 +1730,7 @@ const CHARTS =
                 "text": "Sugar — glucose > 10 mmol/L"
               }
             ],
-            "note": "Each scores 1 point (assessed within 48 h). <b>≥ 3 predicts severe</b> pancreatitis — escalate care. A CRP > 150 mg/L at 48 h also suggests severe disease."
+            "note": "Each scores 1 point (assessed within 48 h). ≥ 3 predicts severe pancreatitis — escalate care. A CRP > 150 mg/L at 48 h also suggests severe disease."
           },
           {
             "heading": "Supportive management",
@@ -4135,7 +4145,77 @@ const CHARTS =
 ;
 
 const SEV_ICON = {info:'ℹ︎', routine:'🔵', caution:'🟠', emergency:'🔴'};
-let state = { chartId:null, path:[] };   // chartId null => home
+
+/* standalone score calculators (reached from the home screen, not inside pathways) */
+const CALCULATORS = [
+  { id:'alvarado', short:'Alvarado', name:'Alvarado score — acute appendicitis',
+    items:[
+      {label:'Migratory RIF pain',points:1},{label:'Anorexia',points:1},{label:'Nausea / vomiting',points:1},
+      {label:'Tenderness in the RIF',points:2},{label:'Rebound tenderness',points:1},{label:'Elevated temperature',points:1},
+      {label:'Leukocytosis (WBC > 10)',points:2},{label:'Left shift of neutrophils',points:1}],
+    bands:[{max:4,text:'0–4: appendicitis unlikely'},{max:6,text:'5–6: possible — observe / image'},{max:8,text:'7–8: probable'},{max:10,text:'9–10: very probable'}],
+    note:'An adjunct to clinical judgement, not a substitute.' },
+  { id:'glasgow-imrie', short:'Glasgow–Imrie', name:'Modified Glasgow (Imrie) — pancreatitis severity',
+    items:[
+      {label:'PaO₂ < 8 kPa',points:1},{label:'Age > 55 years',points:1},{label:'Neutrophils — WBC > 15 ×10⁹/L',points:1},
+      {label:'Calcium < 2.0 mmol/L',points:1},{label:'Renal — urea > 16 mmol/L',points:1},{label:'Enzymes — LDH > 600 IU/L',points:1},
+      {label:'Albumin < 32 g/L',points:1},{label:'Sugar — glucose > 10 mmol/L',points:1}],
+    bands:[{max:2,text:'0–2: mild predicted'},{max:8,text:'≥ 3: severe predicted — escalate'}],
+    note:'Assessed within 48 h. ≥ 3 predicts severe pancreatitis; CRP > 150 mg/L at 48 h also suggests severe disease.' },
+  { id:'lrinec', short:'LRINEC', name:'LRINEC score — necrotising fasciitis',
+    items:[
+      {label:'CRP (mg/L)',options:[{label:'< 150',points:0},{label:'≥ 150',points:4}]},
+      {label:'White cell count (×10⁹/L)',options:[{label:'< 15',points:0},{label:'15–25',points:1},{label:'> 25',points:2}]},
+      {label:'Haemoglobin (g/L)',options:[{label:'> 135',points:0},{label:'110–135',points:1},{label:'< 110',points:2}]},
+      {label:'Sodium (mmol/L)',options:[{label:'≥ 135',points:0},{label:'< 135',points:2}]},
+      {label:'Creatinine (µmol/L)',options:[{label:'≤ 141',points:0},{label:'> 141',points:2}]},
+      {label:'Glucose (mmol/L)',options:[{label:'≤ 10',points:0},{label:'> 10',points:1}]}],
+    bands:[{max:5,text:'≤ 5: lower risk — does NOT exclude'},{max:7,text:'6–7: suspicious'},{max:13,text:'≥ 8: high risk'}],
+    note:'An adjunct only — a normal score does not exclude necrotising fasciitis (a clinical diagnosis).' },
+  { id:'gbs', short:'Glasgow–Blatchford', name:'Glasgow–Blatchford score — upper GI bleed',
+    items:[
+      {label:'Blood urea (mmol/L)',options:[{label:'< 6.5',points:0},{label:'6.5–7.9',points:2},{label:'8.0–9.9',points:3},{label:'10.0–24.9',points:4},{label:'≥ 25',points:6}]},
+      {label:'Haemoglobin (g/L)',options:[{label:'Normal (M ≥ 130 / F ≥ 120)',points:0},{label:'120–129 (male)',points:1},{label:'100–119 (female)',points:1},{label:'100–119 (male)',points:3},{label:'< 100',points:6}]},
+      {label:'Systolic BP (mmHg)',options:[{label:'≥ 110',points:0},{label:'100–109',points:1},{label:'90–99',points:2},{label:'< 90',points:3}]},
+      {label:'Pulse ≥ 100 bpm',points:1},
+      {label:'Melaena',points:1},
+      {label:'Syncope',points:2},
+      {label:'Hepatic disease',points:2},
+      {label:'Cardiac failure',points:2}],
+    bands:[{max:0,text:'0: low risk — consider outpatient (NICE)'},{max:5,text:'1–5: admit and assess'},{max:23,text:'≥ 6: high risk — likely transfusion/intervention'}],
+    note:'NICE CG141: a score of 0 (some use ≤ 1) may allow outpatient management. Haemoglobin thresholds are sex-specific.' },
+  { id:'rockall', short:'Rockall', name:'Rockall score — upper GI bleed (full)',
+    items:[
+      {label:'Age',options:[{label:'< 60',points:0},{label:'60–79',points:1},{label:'≥ 80',points:2}]},
+      {label:'Shock',options:[{label:'No shock (HR < 100, SBP ≥ 100)',points:0},{label:'Tachycardia (HR ≥ 100, SBP ≥ 100)',points:1},{label:'Hypotension (SBP < 100)',points:2}]},
+      {label:'Comorbidity',options:[{label:'None major',points:0},{label:'Cardiac / IHD / other major',points:2},{label:'Renal/liver failure or metastatic cancer',points:3}]},
+      {label:'Diagnosis (at endoscopy)',options:[{label:'Mallory-Weiss / no lesion',points:0},{label:'All other diagnoses',points:1},{label:'Upper GI malignancy',points:2}]},
+      {label:'Stigmata of recent haemorrhage',options:[{label:'None / dark spot',points:0},{label:'Blood, adherent clot or visible/spurting vessel',points:2}]}],
+    bands:[{max:2,text:'0–2: low risk'},{max:7,text:'3–7: intermediate risk'},{max:11,text:'≥ 8: high mortality risk'}],
+    note:'Full (post-endoscopy) Rockall 0–11; the pre-endoscopy clinical score uses age, shock and comorbidity only (0–7).' },
+  { id:'oakland', short:'Oakland', name:'Oakland score — lower GI bleed',
+    items:[
+      {label:'Age (years)',options:[{label:'< 40',points:0},{label:'40–69',points:1},{label:'≥ 70',points:2}]},
+      {label:'Sex',options:[{label:'Female',points:0},{label:'Male',points:1}]},
+      {label:'Previous LGIB admission',options:[{label:'No',points:0},{label:'Yes',points:1}]},
+      {label:'Blood on DRE',options:[{label:'No',points:0},{label:'Yes',points:1}]},
+      {label:'Heart rate (bpm)',options:[{label:'< 70',points:0},{label:'70–89',points:1},{label:'90–109',points:2},{label:'≥ 110',points:3}]},
+      {label:'Systolic BP (mmHg)',options:[{label:'≥ 160',points:0},{label:'130–159',points:2},{label:'120–129',points:3},{label:'90–119',points:4},{label:'< 90',points:5}]},
+      {label:'Haemoglobin (g/L)',options:[{label:'≥ 160',points:0},{label:'130–159',points:4},{label:'110–129',points:8},{label:'90–109',points:13},{label:'70–89',points:17},{label:'< 70',points:22}]}],
+    bands:[{max:8,text:'≤ 8: minor — consider outpatient colonoscopy'},{max:35,text:'> 8: major — admit'}],
+    note:'BSG 2019. ≤ 8 identifies low-risk patients potentially suitable for discharge; haemoglobin and systolic BP carry the most weight.' },
+  { id:'truelove-witts', short:'Truelove & Witts', name:'Truelove & Witts — acute severe UC',
+    items:[
+      {label:'≥ 6 bloody stools per day',points:1},
+      {label:'Temperature > 37.8 °C',points:1},
+      {label:'Pulse > 90 bpm',points:1},
+      {label:'Haemoglobin < 105 g/L',points:1},
+      {label:'ESR > 30 mm/h (or CRP > 30)',points:1}],
+    bands:[{max:1,text:'Does not meet severe criteria'},{max:5,text:'Acute severe UC — if ≥ 6 bloody stools/day PLUS ≥ 1 systemic feature'}],
+    note:'A rule, not an additive score: acute severe UC = ≥ 6 bloody stools/day PLUS ≥ 1 systemic feature (fever, tachycardia, anaemia, or raised ESR/CRP).' }
+];
+
+let state = { chartId:null, path:[] };   // chartId null => home; '__calc__' => calculators
 
 const wrap = document.getElementById('wrap');
 const homeBtn = document.getElementById('home-btn');
@@ -4148,7 +4228,16 @@ function chart(){ return CHARTS[state.chartId]; }
 function curNode(){ return chart().nodes[state.path[state.path.length-1]]; }
 function srcByKey(c,k){ return (c.meta.sources||[]).find(s=>s.key===k); }
 
+function calcInner(o){
+  var rows=o.items.map(function(it){ if(it.options){ return '<label class="calc-row calc-choice"><span>'+it.label+'</span><select>'+it.options.map(function(op){return '<option value="'+op.points+'">'+op.label+'</option>';}).join('')+'</select></label>'; } return '<label class="calc-row"><input type="checkbox" data-pts="'+it.points+'"><span>'+it.label+(it.points>1?' (+'+it.points+')':'')+'</span></label>'; }).join('');
+  return '<div class="calc">'+rows+'<div class="calc-out">Score: <b>0</b></div>'+(o.note?'<div class="calc-note">'+o.note+'</div>':'')+'</div>';
+}
+function wireCalcs(scope, list){
+  scope.querySelectorAll('.calc').forEach(function(c,ix){ var bands=(list[ix]&&list[ix].bands)||[]; var out=c.querySelector('.calc-out'); function rc(){ var t=0; c.querySelectorAll('input[type=checkbox]').forEach(function(cb){ if(cb.checked) t+=Number(cb.dataset.pts); }); c.querySelectorAll('select').forEach(function(se){ t+=Number(se.value); }); var band=''; for(var k=0;k<bands.length;k++){ if(t<=bands[k].max){ band=bands[k].text; break; } } if(!band&&bands.length) band=bands[bands.length-1].text; out.innerHTML='Score: <b>'+t+'</b>'+(band?' — '+band:''); } c.querySelectorAll('input,select').forEach(function(el){ el.addEventListener('change',rc); }); rc(); });
+}
+
 function goHome(){ state={chartId:null,path:[]}; render(); }
+function openCalc(){ state={chartId:'__calc__',path:[]}; render(); }
 function openChart(id, nodeId){
   if(!CHARTS[id]) return;
   state={ chartId:id, path:[ nodeId && CHARTS[id].nodes[nodeId] ? nodeId : CHARTS[id].start ] };
@@ -4160,7 +4249,8 @@ function restart(){ state.path=[chart().start]; render(); }
 
 /* ---------- render ---------- */
 function render(){
-  if(!state.chartId){ renderHome(); }
+  if(state.chartId==='__calc__'){ renderCalculators(); }
+  else if(!state.chartId){ renderHome(); }
   else { renderChart(); }
   window.scrollTo({top:0,behavior:'smooth'});
 }
@@ -4182,12 +4272,27 @@ function renderHome(){
       +'<div class="meta-row"><span class="chip">'+m.specialty+'</span><span class="chip">'+n+' steps</span><span class="chip status-'+m.status+'">'+m.status+'</span></div>'
       +'</div><div class="go">›</div></div>';
   }
+  const toolCard='<div class="card toolcard" id="open-calc"><div class="spine spine-tool"></div><div class="cbody"><h3>Score calculators</h3><p class="pres">'+CALCULATORS.map(function(c){return c.short;}).join(' · ')+'</p><div class="meta-row"><span class="chip">'+CALCULATORS.length+' scores</span></div></div><div class="go">›</div></div>';
   wrap.innerHTML='<div class="hero"><h2>Choose a presentation</h2>'
     +'<p>Structured, guideline-referenced walk-throughs for common general-surgical presentations. Start with the acute abdomen for an undifferentiated patient, or jump straight to a focused pathway.</p></div>'
     +(feat.length?'<div class="cards">'+feat.map(id=>cardHTML(id,true)).join('')+'</div>':'')
     +(rest.length?'<p class="section-label">Focused pathways</p><div class="cards">'+rest.map(id=>cardHTML(id,false)).join('')+'</div>':'')
+    +'<p class="section-label">Tools</p><div class="cards">'+toolCard+'</div>'
     +'<p class="launch-note">'+allIds.length+' topics · more coming. Each chart is a separate data file sharing one engine.</p>';
-  wrap.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>openChart(c.dataset.open)));
+  wrap.querySelectorAll('.card[data-open]').forEach(c=>c.addEventListener('click',()=>openChart(c.dataset.open)));
+  var oc=document.getElementById('open-calc'); if(oc) oc.addEventListener('click',openCalc);
+}
+
+function renderCalculators(){
+  homeBtn.classList.remove('hidden');
+  hdrSub.textContent = 'Score calculators';
+  var items=CALCULATORS.map(function(o){ return '<div class="acc-item"><button class="acc-btn" aria-expanded="false">'+o.name+'<span class="chev">▶</span></button><div class="acc-panel hidden">'+calcInner(o)+'</div></div>'; }).join('');
+  wrap.innerHTML='<div class="topic-card"><h2>Score calculators</h2><p class="sub">Common UK general-surgical scores — tap a score to open it. Educational use only; interpret in clinical context.</p></div>'
+    +'<div class="crumbs"><span class="crumb home" id="crumb-home">All topics</span><span class="crumb-sep">›</span><span class="crumb cur">Calculators</span></div>'
+    +'<div class="acc">'+items+'</div>';
+  document.getElementById('crumb-home').addEventListener('click',goHome);
+  wrap.querySelectorAll('.acc-btn').forEach(function(btn){ btn.addEventListener('click',function(){ var exp=btn.getAttribute('aria-expanded')==='true'; btn.setAttribute('aria-expanded',String(!exp)); btn.nextElementSibling.classList.toggle('hidden',exp); }); });
+  wireCalcs(wrap, CALCULATORS);
 }
 
 function sectionHTML(s){
@@ -4201,6 +4306,8 @@ function sectionHTML(s){
     inner=s.items.map(g=>'<div class="grade '+g.tier+'"><span class="lbl">'+g.level+'</span><span class="gt">'+g.text+'</span></div>').join('');
   } else if(s.kind==='alert'){
     inner='<ul>'+s.items.map(i=>'<li>'+i+'</li>').join('')+'</ul>';
+  } else if(s.kind==='calculator'){
+    inner=calcInner(s);
   }
   const isAlert = s.kind==='alert';
   return '<div class="acc-item">'
@@ -4268,6 +4375,7 @@ function renderChart(){
   const wb=wrap.querySelector('#why-btn'); if(wb) wb.addEventListener('click',()=>wrap.querySelector('#why-text').classList.toggle('hidden'));
   const bb=wrap.querySelector('#b-back'); if(bb) bb.addEventListener('click',back);
   const br=wrap.querySelector('#b-restart'); if(br) br.addEventListener('click',restart);
+  wireCalcs(wrap, (node.sections||[]).filter(function(s){return s.kind==='calculator';}));
 }
 
 render();
