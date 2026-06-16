@@ -1,6 +1,6 @@
 /* SurgReg service worker — offline app shell cache.
    Bump CACHE when you publish a new version of the app. */
-const CACHE = 'surgreg-v3';
+const CACHE = 'surgreg-v4';
 const ASSETS = [
   './',
   './index.html',
