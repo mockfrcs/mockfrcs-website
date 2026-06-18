@@ -4275,7 +4275,7 @@ function renderHome(){
       +(isFeat?'<span class="feat-tag">Start here · overarching pathway</span>':'')
       +'<h3>'+m.title+'</h3>'
       +'<p class="pres">'+(m.presentation||'')+'</p>'
-      +'<div class="meta-row"><span class="chip">'+m.specialty+'</span><span class="chip">'+n+' steps</span><span class="chip status-'+m.status+'">'+m.status+'</span></div>'
+      +'<div class="meta-row"><span class="chip">'+n+' steps</span><span class="chip status-'+m.status+'">'+m.status+'</span></div>'
       +'</div><div class="go">›</div></div>';
   }
   const toolCard='<div class="card toolcard" id="open-calc"><div class="spine spine-tool"></div><div class="cbody"><h3>Score calculators</h3><p class="pres">'+CALCULATORS.map(function(c){return c.short;}).join(' · ')+'</p><div class="meta-row"><span class="chip">'+CALCULATORS.length+' scores</span></div></div><div class="go">›</div></div>';
@@ -4325,7 +4325,7 @@ function sectionHTML(s){
 function renderChart(){
   const c = chart();
   homeBtn.classList.remove('hidden');
-  hdrSub.textContent = c.meta.specialty + ' · ' + c.meta.title;
+  hdrSub.textContent = c.meta.title;
 
   let html = '<div class="topic-card"><h2>'+c.meta.title+'</h2>'
     + '<p class="sub">'+(c.meta.summary||'')+'</p></div>';
