@@ -134,7 +134,7 @@ footer a { font-size: 12px; color: #bbb; text-decoration: none; }
 
       <div class="ea-benefits">
         <div class="ea-benefit"><span class="check">&#10003;</span>Full access to Mock Exam 1 — free</div>
-        <div class="ea-benefit"><span class="check">&#10003;</span>120 SBA questions, 2h 15m timed paper</div>
+        <div class="ea-benefit"><span class="check">&#10003;</span>240 SBA questions across two timed papers (2h 15m each)</div>
         <div class="ea-benefit"><span class="check">&#10003;</span>Detailed answers and topic breakdown</div>
         <div class="ea-benefit"><span class="check">&#10003;</span>Help shape the platform before full launch</div>
       </div>
@@ -150,6 +150,10 @@ footer a { font-size: 12px; color: #bbb; text-decoration: none; }
       <div class="form-group">
         <label>Your training grade</label>
         <input type="text" id="applyGrade" placeholder="e.g. ST4 General Surgery, Northern Deanery" />
+      </div>
+      <!-- Honeypot: hidden from humans, bots tend to fill it. Do not remove. -->
+      <div aria-hidden="true" style="position:absolute;left:-5000px;">
+        <input type="text" id="applyHoneypot" tabindex="-1" autocomplete="off" value="" />
       </div>
       <button class="btn-apply" id="applyBtn" onclick="handleApply()">Apply for free early access</button>
       <p class="apply-note">We'll email you within 48 hours with your access details.</p>
@@ -205,23 +209,80 @@ footer a { font-size: 12px; color: #bbb; text-decoration: none; }
 async function handleApply() {
   const email = document.getElementById('applyEmail').value.trim();
   const grade = document.getElementById('applyGrade').value.trim();
+  const honeypot = document.getElementById('applyHoneypot').value;
   const btn = document.getElementById('applyBtn');
 
-  if (!email) {
-    alert('Please enter your email address.');
+  // Basic email validation
+  const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (!emailValid) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+
+  // Honeypot filled = almost certainly a bot. Pretend success, save nothing.
+  if (honeypot) {
+    document.getElementById('earlyAccessCard').style.display = 'none';
+    document.getElementById('successCard').classList.add('show');
     return;
   }
 
   btn.disabled = true;
   btn.textContent = 'Submitting...';
 
-  // Subscribe to Mailchimp early access list with grade as note
-  // For now just show success — you manually process applications
+  // 1) Save to Supabase — this is the source of truth
+  const { error } = await db
+    .from('early_access_applications')
+    .insert({ email: email, grade: grade || null });
+
+  if (error) {
+    alert('Something went wrong submitting your application. Please email hello@mockfrcs.co.uk and we will sort it out.');
+    btn.disabled = false;
+    btn.textContent = 'Apply for free early access';
+    return;
+  }
+
+  // 2) Push to Mailchimp (best-effort — the application is already safely saved above)
+  submitToMailchimp(email, grade);
+
+  // 3) Show success
   document.getElementById('earlyAccessCard').style.display = 'none';
   document.getElementById('successCard').classList.add('show');
+}
 
-  // Also subscribe to Mailchimp for the record
-  // (manual processing — you contact them directly)
+// Fire-and-forget submit to Mailchimp via a hidden iframe form (avoids CORS issues)
+function submitToMailchimp(email, grade) {
+  try {
+    const iframe = document.createElement('iframe');
+    iframe.name = 'mc-hidden-' + Date.now();
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+
+    const form = document.createElement('form');
+    form.action = 'https://mockfrcs.us2.list-manage.com/subscribe/post?u=f7ca65907234f835274a65b67&id=9c974c11d8&f_id=004ef4e3f0';
+    form.method = 'post';
+    form.target = iframe.name;
+    form.style.display = 'none';
+
+    const fields = {
+      EMAIL: email,
+      GRADE: grade || '',
+      // Mailchimp's own bot-trap field — left blank on purpose
+      'b_f7ca65907234f835274a65b67_9c974c11d8': ''
+    };
+    Object.keys(fields).forEach(function (name) {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.name = name;
+      input.value = fields[name];
+      form.appendChild(input);
+    });
+
+    document.body.appendChild(form);
+    form.submit();
+    setTimeout(function () { form.remove(); iframe.remove(); }, 4000);
+  } catch (e) {
+    // Non-blocking: Supabase already has the application.
+  }
 }
 
 // If already logged in redirect to dashboard

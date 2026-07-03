@@ -99,6 +99,22 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
     <button class="btn-primary" id="grantBtn" onclick="grantAccess()">Grant access</button>
   </div>
 
+  <!-- Early access applications -->
+  <div class="card">
+    <h2>Early access applications</h2>
+    <div id="appsLoading" style="font-size:13px;color:#888;">Loading...</div>
+    <table class="members-table" id="appsTable" style="display:none">
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Training grade</th>
+          <th>Applied</th>
+        </tr>
+      </thead>
+      <tbody id="appsBody"></tbody>
+    </table>
+  </div>
+
   <!-- Active members -->
   <div class="card">
     <h2>Active memberships</h2>
@@ -140,7 +156,45 @@ const ADMIN_EMAIL = 'hello@mockfrcs.co.uk';
   }
   loadMembers();
   loadReviews();
+  loadApplications();
 })();
+
+// Escape user-provided text before inserting into the page (prevents HTML injection)
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+async function loadApplications() {
+  const { data: apps, error } = await db
+    .from('early_access_applications')
+    .select('*')
+    .order('created_at', { ascending: false });
+
+  const loading = document.getElementById('appsLoading');
+  const table = document.getElementById('appsTable');
+  const tbody = document.getElementById('appsBody');
+
+  if (error) {
+    loading.textContent = 'Could not load applications.';
+    return;
+  }
+  if (!apps || apps.length === 0) {
+    loading.textContent = 'No applications yet.';
+    return;
+  }
+
+  loading.style.display = 'none';
+  table.style.display = 'table';
+  tbody.innerHTML = apps.map(function (a) {
+    const date = new Date(a.created_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    const grade = a.grade ? escapeHtml(a.grade) : '&mdash;';
+    return '<tr><td>' + escapeHtml(a.email) + '</td><td>' + grade + '</td><td>' + date + '</td></tr>';
+  }).join('');
+}
 
 async function loadReviews() {
   const { data: reviews, error } = await db
