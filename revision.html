@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MockFRCS — Free FRCS Part 1 revision posters</title>
+<meta name="description" content="High-yield, surgeon-authored revision posters for the FRCS Part 1 General Surgery exam. Free colorectal samples, full library for members.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f7f7f5;color:#1a1a18;min-height:100vh;display:flex;flex-direction:column;}
+.nav{background:#fff;border-bottom:0.5px solid rgba(0,0,0,0.08);padding:18px 24px;}
+.nav-inner{max-width:1040px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-size:18px;font-weight:600;color:#1a1a18;text-decoration:none;}
+.logo span{color:#185FA5;}
+.nav-links{display:flex;gap:22px;align-items:center;}
+.nav-link{font-size:13px;color:#888;text-decoration:none;}
+.nav-link:hover{color:#1a1a18;}
+main{flex:1;max-width:1040px;margin:0 auto;padding:44px 24px 64px;width:100%;}
+.page-label{font-size:11px;font-weight:600;color:#185FA5;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:10px;text-align:center;}
+.page-header h1{font-size:30px;font-weight:600;letter-spacing:-0.4px;text-align:center;margin-bottom:10px;}
+.page-header p{font-size:15px;color:#666;text-align:center;max-width:640px;margin:0 auto;line-height:1.6;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:20px;margin-top:36px;}
+.card{background:#fff;border:0.5px solid rgba(0,0,0,0.1);border-radius:12px;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,0.04);display:flex;flex-direction:column;transition:box-shadow .15s,border-color .15s;}
+.card:hover{border-color:rgba(0,0,0,0.2);box-shadow:0 5px 20px rgba(0,0,0,0.09);}
+.thumb{position:relative;height:176px;overflow:hidden;background:#F4F6F4;border-bottom:0.5px solid rgba(0,0,0,0.06);}
+.thumb img{width:100%;height:auto;display:block;object-fit:cover;object-position:top;}
+.lock{position:absolute;inset:0;background:rgba(244,246,244,0.85);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#185FA5;}
+.lock-ic{font-size:24px;}
+.lock-t{font-size:12px;font-weight:600;letter-spacing:0.3px;}
+.cbody{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1;}
+.ctag{display:flex;align-items:center;gap:8px;margin-bottom:9px;}
+.badge{font-size:10.5px;font-weight:700;letter-spacing:0.4px;padding:2px 9px;border-radius:20px;text-transform:uppercase;}
+.badge.free{background:#EAF3DE;color:#3B6D11;}
+.badge.members{background:#E6F1FB;color:#0C447C;}
+.topic{font-size:11px;color:#999;}
+.card h3{font-size:15px;font-weight:600;line-height:1.35;margin-bottom:6px;}
+.subj{font-size:12.5px;color:#777;line-height:1.5;margin-bottom:16px;flex:1;}
+.actions{display:flex;flex-direction:column;gap:8px;}
+.btn{border:none;border-radius:8px;padding:10px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;text-align:center;text-decoration:none;transition:all .15s;}
+.btn.primary{background:#185FA5;color:#fff;}
+.btn.primary:hover{background:#0C447C;}
+.btn.ghost{background:transparent;color:#185FA5;border:1.5px solid #185FA5;}
+.btn.ghost:hover{background:#E6F1FB;}
+.view-m,.dl-m{display:none;}
+body.is-member .card.members .lock{display:none;}
+body.is-member .card.members .apply{display:none;}
+body.is-member .card.members .view-m{display:block;}
+body.is-member .card.members .dl-m{display:block;}
+footer{padding:22px 24px;text-align:center;font-size:12px;color:#bbb;border-top:0.5px solid rgba(0,0,0,0.08);background:#fff;margin-top:auto;}
+
+.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); background:#fff; }
+.nav-inner { max-width: 1000px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.nav-left { display: flex; align-items: center; gap: 28px; }
+.logo { font-size: 18px; font-weight: 600; color: #1a1a18; text-decoration: none; }
+.logo span { color: #185FA5; }
+.nav-links { display: flex; align-items: center; gap: 22px; }
+.nav-link { font-size: 13px; color: #555; text-decoration: none; transition: color 0.15s; white-space: nowrap; }
+.nav-link:hover { color: #1a1a18; }
+.nav-right { display: flex; align-items: center; gap: 16px; }
+.nav-cta { font-size: 13px; font-weight: 500; background: #185FA5; color: #fff; padding: 7px 15px; border-radius: 8px; white-space: nowrap; text-decoration: none; transition: background 0.15s; }
+.nav-cta:hover { background: #0C447C; }
+.nav-toggle { display: none; background: none; border: none; font-size: 22px; cursor: pointer; color: #1a1a18; line-height: 1; }
+.nav-mobile { display: none; flex-direction: column; padding: 6px 24px 14px; border-top: 0.5px solid rgba(0,0,0,0.06); background:#fff; }
+.nav-mobile.open { display: flex; }
+.nav-mobile a { font-size: 15px; color: #444; padding: 11px 2px; border-bottom: 0.5px solid rgba(0,0,0,0.05); text-decoration: none; }
+.nav-mobile a:last-child { border-bottom: none; color: #185FA5; font-weight: 500; }
+@media (max-width: 640px) { .nav-links, .nav-right { display: none; } .nav-toggle { display: block; } }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-left">
+      <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+      <div class="nav-links">
+        <a href="about.html" class="nav-link">How it works</a>
+        <a href="demo.html" class="nav-link">Try free demo</a>
+        <a href="revision.html" class="nav-link">Revision resources</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <a href="login.html" class="nav-link">Log in</a>
+      <a href="index.html#earlyAccessCard" class="nav-cta">Early access</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" onclick="toggleNav()">&#9776;</button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="about.html">How it works</a>
+    <a href="demo.html">Try free demo</a>
+    <a href="revision.html">Revision resources</a>
+    <a href="login.html">Log in</a>
+    <a href="index.html#earlyAccessCard">Early access</a>
+  </div>
+</nav>
+<main>
+  <div class="page-header">
+    <div class="page-label">Revision resources</div>
+    <h1>FRCS revision posters</h1>
+    <p>High-yield, surgeon-authored one-page summaries for the FRCS Part 1 General Surgery curriculum. Starting with a complete colorectal set — free samples below, the full library for members.</p>
+  </div>
+  <div class="grid">
+    <article class="card free"><div class="thumb"><img src="posters/colorectal-polyp-classification.svg" alt="Colorectal polyp classification revision poster" loading="lazy"></div><div class="cbody"><div class="ctag"><span class="badge free">Free</span><span class="topic">Colorectal</span></div><h3>Colorectal polyp classification</h3><p class="subj">Paris · Kudo · Haggitt · Kikuchi · pT1 risk</p><div class="actions"><button class="btn primary" onclick="openPoster('colorectal-polyp-classification')">View poster</button><a class="btn ghost" href="posters/colorectal-polyp-classification.svg" download>Download</a></div></div></article>
+    <article class="card free"><div class="thumb"><img src="posters/crc-staging-rectal-mri.svg" alt="Colorectal cancer — staging & rectal MRI revision poster" loading="lazy"></div><div class="cbody"><div class="ctag"><span class="badge free">Free</span><span class="topic">Colorectal</span></div><h3>Colorectal cancer — staging & rectal MRI</h3><p class="subj">TNM8 · CRM · EMVI · MERCURY</p><div class="actions"><button class="btn primary" onclick="openPoster('crc-staging-rectal-mri')">View poster</button><a class="btn ghost" href="posters/crc-staging-rectal-mri.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/crc-treatment-and-trials.svg" alt="Colorectal cancer — treatment & trials revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Colorectal cancer — treatment & trials</h3><p class="subj">Neoadjuvant · landmark RCTs by stage</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('crc-treatment-and-trials')">View poster</button><a class="btn ghost dl-m" href="posters/crc-treatment-and-trials.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/crc-molecular-surgery-margins.svg" alt="Colorectal cancer — molecular, surgery & margins revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Colorectal cancer — molecular, surgery & margins</h3><p class="subj">MMR/MSI · targeted agents · TME</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('crc-molecular-surgery-margins')">View poster</button><a class="btn ghost dl-m" href="posters/crc-molecular-surgery-margins.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/bsg-post-polypectomy-surveillance-2020.svg" alt="BSG post-polypectomy surveillance 2020 revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>BSG post-polypectomy surveillance 2020</h3><p class="subj">High-risk criteria · intervals · post-CRC</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('bsg-post-polypectomy-surveillance-2020')">View poster</button><a class="btn ghost dl-m" href="posters/bsg-post-polypectomy-surveillance-2020.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/hereditary-crc-syndromes.svg" alt="Hereditary CRC syndromes revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Hereditary CRC syndromes</h3><p class="subj">FAP · Lynch · MAP · surveillance</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('hereditary-crc-syndromes')">View poster</button><a class="btn ghost dl-m" href="posters/hereditary-crc-syndromes.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/colitis-histology-treatment.svg" alt="Colitis — histology & treatment revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Colitis — histology & treatment</h3><p class="subj">Microscopic · infective · drug · structural</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('colitis-histology-treatment')">View poster</button><a class="btn ghost dl-m" href="posters/colitis-histology-treatment.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/appendiceal-net.svg" alt="Appendiceal NET revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Appendiceal NET</h3><p class="subj">Size thresholds · appendicectomy vs right hemi</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('appendiceal-net')">View poster</button><a class="btn ghost dl-m" href="posters/appendiceal-net.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/presacral-retrorectal-tumours.svg" alt="Presacral & retrorectal tumours revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Presacral & retrorectal tumours</h3><p class="subj">Classification · work-up · approach</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('presacral-retrorectal-tumours')">View poster</button><a class="btn ghost dl-m" href="posters/presacral-retrorectal-tumours.svg" download>Download</a></div></div></article>
+    <article class="card members"><div class="thumb"><img src="posters/anal-intraepithelial-neoplasia.svg" alt="Anal intraepithelial neoplasia revision poster" loading="lazy"><div class="lock"><span class="lock-ic">&#128274;</span><span class="lock-t">Members only</span></div></div><div class="cbody"><div class="ctag"><span class="badge members">Members</span><span class="topic">Colorectal</span></div><h3>Anal intraepithelial neoplasia</h3><p class="subj">LSIL/HSIL · p16 · HSIL management</p><div class="actions"><a class="btn primary apply" href="index.html">Apply for free early access</a><button class="btn primary view-m" onclick="openPoster('anal-intraepithelial-neoplasia')">View poster</button><a class="btn ghost dl-m" href="posters/anal-intraepithelial-neoplasia.svg" download>Download</a></div></div></article>
+  </div>
+</main>
+<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+(async () => {
+  try {
+    const user = await getUser();
+    if (user) {
+      const member = await hasMembership(user.id);
+      if (member) document.body.classList.add('is-member');
+    }
+  } catch (e) { /* not logged in / offline — stays in visitor state */ }
+})();
+function openPoster(slug){ window.open('posters/' + slug + '.svg', '_blank'); }
+</script>
+<script>
+function toggleNav(){document.getElementById('navMobile').classList.toggle('open');}
+</script>
+</body>
+</html>
