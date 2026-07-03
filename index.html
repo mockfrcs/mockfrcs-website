@@ -249,37 +249,32 @@ async function handleApply() {
   document.getElementById('successCard').classList.add('show');
 }
 
-// Fire-and-forget submit to Mailchimp via a hidden iframe form (avoids CORS issues)
+// Submit to Mailchimp via its JSONP endpoint (works cross-origin AND reports back)
 function submitToMailchimp(email, grade) {
   try {
-    const iframe = document.createElement('iframe');
-    iframe.name = 'mc-hidden-' + Date.now();
-    iframe.style.display = 'none';
-    document.body.appendChild(iframe);
+    const cb = 'mcCallback_' + Date.now();
+    const script = document.createElement('script');
 
-    const form = document.createElement('form');
-    form.action = 'https://mockfrcs.us2.list-manage.com/subscribe/post?u=f7ca65907234f835274a65b67&id=9c974c11d8&f_id=004ef4e3f0';
-    form.method = 'post';
-    form.target = iframe.name;
-    form.style.display = 'none';
-
-    const fields = {
-      EMAIL: email,
-      GRADE: grade || '',
-      // Mailchimp's own bot-trap field — left blank on purpose
-      'b_f7ca65907234f835274a65b67_9c974c11d8': ''
+    window[cb] = function (resp) {
+      if (resp && resp.result === 'success') {
+        console.log('[MockFRCS] Mailchimp: contact added —', resp.msg);
+      } else {
+        console.warn('[MockFRCS] Mailchimp did NOT add contact —', resp && resp.msg);
+      }
+      delete window[cb];
+      if (script.parentNode) script.parentNode.removeChild(script);
     };
-    Object.keys(fields).forEach(function (name) {
-      const input = document.createElement('input');
-      input.type = 'text';
-      input.name = name;
-      input.value = fields[name];
-      form.appendChild(input);
-    });
 
-    document.body.appendChild(form);
-    form.submit();
-    setTimeout(function () { form.remove(); iframe.remove(); }, 4000);
+    const params = new URLSearchParams();
+    params.set('u', 'f7ca65907234f835274a65b67');
+    params.set('id', '9c974c11d8');
+    params.set('EMAIL', email);
+    params.set('GRADE', grade || '');
+    params.set('b_f7ca65907234f835274a65b67_9c974c11d8', ''); // bot-trap, blank on purpose
+    params.set('c', cb); // JSONP callback name
+
+    script.src = 'https://mockfrcs.us2.list-manage.com/subscribe/post-json?' + params.toString();
+    document.body.appendChild(script);
   } catch (e) {
     // Non-blocking: Supabase already has the application.
   }
