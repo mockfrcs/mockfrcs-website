@@ -1,0 +1,201 @@
+<svg viewBox="0 0 1000 1460" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.6px; fill: #8A969A; text-transform: uppercase; }
+    .h       { font-size: 20px; font-weight: 700; fill: #16252B; }
+    .body    { font-size: 13.5px; font-weight: 400; fill: #2E3C42; }
+    .bodyb   { font-size: 13.5px; font-weight: 600; fill: #16252B; }
+    .small   { font-size: 11.5px; font-weight: 400; fill: #5C6B70; }
+    .tinylbl { font-size: 10.5px; font-weight: 700; letter-spacing: 0.4px; }
+    .key     { font-size: 13px; font-weight: 600; }
+  </style>
+
+  <!-- page -->
+  <rect x="0" y="0" width="1000" height="1460" fill="#F4F6F4"/>
+
+  <!-- ===================== HEADER ===================== -->
+  <rect x="0" y="0" width="1000" height="118" fill="#14313A"/>
+  <rect x="0" y="114" width="1000" height="4" fill="#15806A"/>
+  <rect x="333" y="114" width="334" height="4" fill="#BE3A2E"/>
+  <rect x="667" y="114" width="333" height="4" fill="#245C8C"/>
+
+  <text x="40" y="52" font-size="33" font-weight="800" letter-spacing="0.4" fill="#FFFFFF">Anal Intraepithelial Neoplasia</text>
+  <text x="40" y="84" font-size="15.5" font-weight="500" letter-spacing="0.3" fill="#AFC7CB">AIN &#183; LSIL &#183; HSIL  &#8212;  FRCS Part 1 (General Surgery) &#183; UK practice</text>
+
+  <!-- ===================== A. TERMINOLOGY + LADDER ===================== -->
+  <rect x="40" y="134" width="920" height="246" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="40" y="134" width="6" height="246" rx="3" fill="#14313A"/>
+  <text x="68" y="166" class="eyebrow">Terminology &#183; LAST 2012 &#8594; WHO 2019</text>
+  <text x="68" y="190" class="h">AIN &#8596; LSIL / HSIL</text>
+
+  <!-- epithelium ladder -->
+  <g>
+    <!-- membrane + surface refs -->
+    <text x="68" y="218" class="small" font-weight="600" fill="#16252B">Graded by epithelial thickness involved</text>
+    <!-- columns -->
+    <!-- col1 AIN1/LSIL : lower 1/3 -->
+    <rect x="74"  y="234" width="56" height="108" fill="#F0F3F2" stroke="#C9D3D0" stroke-width="1"/>
+    <rect x="74"  y="306" width="56" height="36"  fill="#27A98C"/>
+    <!-- col2 AIN2 : lower 2/3 -->
+    <rect x="150" y="234" width="56" height="108" fill="#F0F3F2" stroke="#C9D3D0" stroke-width="1"/>
+    <rect x="150" y="270" width="56" height="72"  fill="#E0584A"/>
+    <!-- col3 AIN3 : full thickness -->
+    <rect x="226" y="234" width="56" height="108" fill="#F0F3F2" stroke="#C9D3D0" stroke-width="1"/>
+    <rect x="226" y="234" width="56" height="108" fill="#C0392B"/>
+    <!-- basement membrane -->
+    <rect x="70" y="343" width="216" height="3" fill="#16252B"/>
+    <text x="70" y="358" class="small" font-size="10">basement membrane</text>
+    <!-- grade labels -->
+    <text x="102" y="332" text-anchor="middle" font-size="11" font-weight="700" fill="#0E5C4B">AIN 1</text>
+    <text x="178" y="262" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">AIN 2</text>
+    <text x="254" y="262" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">AIN 3</text>
+  </g>
+
+  <!-- mapping table -->
+  <g>
+    <!-- column headers -->
+    <text x="360" y="222" class="tinylbl" fill="#8A969A">3-TIER (AIN)</text>
+    <text x="560" y="222" class="tinylbl" fill="#8A969A">2-TIER (LAST)</text>
+    <line x1="360" y1="230" x2="936" y2="230" stroke="#E0E6E3" stroke-width="1"/>
+
+    <text x="360" y="256" class="bodyb">AIN 1</text>
+    <text x="478" y="256" class="body" fill="#8A969A">&#8594;</text>
+    <rect x="558" y="242" width="86" height="22" rx="11" fill="#E2F1EC"/>
+    <text x="601" y="257" text-anchor="middle" class="key" fill="#0E5C4B">LSIL</text>
+
+    <text x="360" y="288" class="bodyb">AIN 2</text>
+    <text x="478" y="288" class="body" fill="#8A969A">&#8594;</text>
+    <rect x="558" y="274" width="86" height="22" rx="11" fill="#FBEAE6"/>
+    <text x="601" y="289" text-anchor="middle" class="key" fill="#A8281C">HSIL</text>
+    <text x="660" y="288" class="small">p16 decides borderline cases</text>
+
+    <text x="360" y="320" class="bodyb">AIN 3</text>
+    <text x="478" y="320" class="body" fill="#8A969A">&#8594;</text>
+    <rect x="558" y="306" width="86" height="22" rx="11" fill="#FBEAE6"/>
+    <text x="601" y="321" text-anchor="middle" class="key" fill="#A8281C">HSIL</text>
+
+    <line x1="360" y1="338" x2="936" y2="338" stroke="#E0E6E3" stroke-width="1"/>
+    <text x="360" y="358" class="small"><tspan font-weight="700" fill="#0E5C4B">LSIL</tspan> also = HPV effect / koilocytosis, condyloma (HPV 6, 11)</text>
+    <text x="360" y="374" class="small"><tspan font-weight="700" fill="#A8281C">HSIL</tspan> also = carcinoma in situ, Bowen's, Bowenoid papulosis <tspan fill="#9AA6AA">(old terms, dropped)</tspan></text>
+  </g>
+
+  <!-- ===================== ROW 2: p16 | HPV ===================== -->
+  <!-- p16 -->
+  <rect x="40" y="394" width="452" height="150" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="40" y="394" width="6" height="150" rx="3" fill="#BE3A2E"/>
+  <text x="68" y="424" class="eyebrow">Pathology</text>
+  <text x="68" y="447" class="h">The p16 rule</text>
+  <text x="68" y="472" class="body"><tspan font-weight="600">Block-positive p16</tspan> (basal &#8594; &#8805;1/3 up) &#8594; <tspan font-weight="700" fill="#A8281C">HSIL</tspan></text>
+  <text x="68" y="493" class="body">AIN 2 on H&amp;E not confirmed by p16 &#8594; <tspan font-weight="700" fill="#0E5C4B">LSIL</tspan></text>
+  <text x="68" y="514" class="body">Absent p16 &#8594; HSIL effectively excluded</text>
+  <text x="68" y="533" class="small">Mechanism: HPV E7 &#8594; Rb loss &#8594; p16 overexpression</text>
+
+  <!-- HPV -->
+  <rect x="508" y="394" width="452" height="150" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="508" y="394" width="6" height="150" rx="3" fill="#14313A"/>
+  <text x="536" y="424" class="eyebrow">Aetiology</text>
+  <text x="536" y="447" class="h">HPV drives ~90% of anal SCC</text>
+  <text x="536" y="472" class="body"><tspan font-weight="700" fill="#A8281C">High-risk 16 &amp; 18</tspan> (16 dominant) &#8594; HSIL &#8594; cancer</text>
+  <text x="536" y="493" class="body"><tspan font-weight="700" fill="#0E5C4B">Low-risk 6 &amp; 11</tspan> &#8594; warts / condyloma (LSIL)</text>
+  <text x="536" y="514" class="body">Oncoproteins: E6 &#8594; p53, E7 &#8594; Rb inactivation</text>
+  <text x="536" y="533" class="small">Risk &#8593; with HIV / immunosuppression &#8212; see surveillance list</text>
+
+  <!-- ===================== SPINE (HERO) ===================== -->
+  <rect x="40" y="558" width="920" height="432" rx="12" fill="#FFFFFF" stroke="#CBD8DE" stroke-width="1.4"/>
+  <rect x="40" y="558" width="920" height="64" rx="12" fill="#245C8C"/>
+  <rect x="40" y="600" width="920" height="22" fill="#245C8C"/>
+  <text x="64" y="588" font-size="11" font-weight="700" letter-spacing="1.6" fill="#BFD6EA">MANAGEMENT OF HSIL (AIN 2&#8211;3) &#183; UK</text>
+  <text x="64" y="612" font-size="14" font-weight="600" fill="#FFFFFF">Eradicate HSIL to prevent malignant transformation &#8212; active monitoring alone is no longer justified</text>
+
+  <!-- Stage 1 -->
+  <rect x="64" y="640" width="872" height="50" rx="9" fill="#E8EFF6" stroke="#C4D6E6" stroke-width="1"/>
+  <circle cx="92" cy="665" r="15" fill="#245C8C"/>
+  <text x="92" y="670" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">1</text>
+  <text x="120" y="660" class="bodyb" font-size="14">REFERRAL</text>
+  <text x="120" y="679" class="body">New <tspan font-weight="700" fill="#A8281C">HSIL</tspan> &#8594; anal-cancer MDT pathway &#183; complex / multizonal cases to full MDT &#183; <tspan font-weight="700" fill="#0E5C4B">LSIL</tspan>: no referral, surveillance</text>
+  <path d="M500 690 l8 12 l8 -12 z" fill="#9DB6CE"/>
+
+  <!-- Stage 2 -->
+  <rect x="64" y="708" width="872" height="50" rx="9" fill="#E8EFF6" stroke="#C4D6E6" stroke-width="1"/>
+  <circle cx="92" cy="733" r="15" fill="#245C8C"/>
+  <text x="92" y="738" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">2</text>
+  <text x="120" y="728" class="bodyb" font-size="14">ASSESS</text>
+  <text x="120" y="747" class="body" font-size="12.5">High-resolution anoscopy + <tspan font-weight="600">targeted</tspan> biopsy &#183; 5% acetic acid &#177; Lugol's &#183; photo-document &#183; <tspan font-weight="700" fill="#A8281C">no blind mapping biopsies</tspan></text>
+  <path d="M500 758 l8 12 l8 -12 z" fill="#9DB6CE"/>
+
+  <!-- Stage 3 -->
+  <rect x="64" y="776" width="872" height="104" rx="9" fill="#E8EFF6" stroke="#C4D6E6" stroke-width="1"/>
+  <circle cx="92" cy="801" r="15" fill="#245C8C"/>
+  <text x="92" y="806" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">3</text>
+  <text x="120" y="796" class="bodyb" font-size="14">TREAT &#8212; don't just monitor</text>
+  <!-- two sub-cards -->
+  <rect x="120" y="808" width="392" height="40" rx="7" fill="#FFFFFF" stroke="#C4D6E6" stroke-width="1"/>
+  <text x="134" y="826" class="tinylbl" fill="#245C8C">MEDICAL / TOPICAL</text>
+  <text x="134" y="842" class="body" font-size="12.5">5-fluorouracil &#183; imiquimod</text>
+  <rect x="524" y="808" width="400" height="40" rx="7" fill="#FFFFFF" stroke="#C4D6E6" stroke-width="1"/>
+  <text x="538" y="826" class="tinylbl" fill="#245C8C">ABLATIVE / SURGICAL</text>
+  <text x="538" y="842" class="body" font-size="11.5">electrocautery &#183; IRC &#183; CO2 laser &#183; APC &#183; PDT &#183; excision</text>
+  <text x="120" y="870" class="small">Electrocautery often 1st-line (esp. HIV+ MSM) &#183; fields need 3&#8211;4 sittings &#183; medical vs ablative not firmly defined</text>
+  <path d="M500 880 l8 12 l8 -12 z" fill="#9DB6CE"/>
+
+  <!-- Stage 4 -->
+  <rect x="64" y="898" width="872" height="66" rx="9" fill="#E8EFF6" stroke="#C4D6E6" stroke-width="1"/>
+  <circle cx="92" cy="931" r="15" fill="#245C8C"/>
+  <text x="92" y="936" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">4</text>
+  <text x="120" y="922" class="bodyb" font-size="14">SURVEILLANCE</text>
+  <text x="120" y="941" class="body">6-monthly for &#8805;5 years + serial photographs &#183; low threshold to re-biopsy / excise any changing or bleeding lesion</text>
+  <text x="120" y="959" class="small">Purpose: detect early invasion amenable to local excision or localised chemoradiotherapy</text>
+
+  <!-- ===================== ROW 3: ANCHOR | HIGH-RISK ===================== -->
+  <!-- ANCHOR -->
+  <rect x="40" y="1004" width="452" height="220" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="40" y="1004" width="6" height="220" rx="3" fill="#6D4AA3"/>
+  <text x="68" y="1034" class="eyebrow">Landmark evidence</text>
+  <text x="68" y="1058" class="h">ANCHOR trial</text>
+  <text x="68" y="1110" font-size="52" font-weight="800" fill="#6D4AA3">57%</text>
+  <text x="210" y="1096" class="bodyb">reduction in</text>
+  <text x="210" y="1114" class="bodyb">progression to anal cancer</text>
+  <text x="68" y="1144" class="body">NEJM 2022 &#183; 4,459 people with HIV + biopsy-proven</text>
+  <text x="68" y="1162" class="body">HSIL randomised: treat (mostly electrocautery) vs</text>
+  <text x="68" y="1180" class="body">active monitoring. First RCT proving HSIL treatment</text>
+  <text x="68" y="1198" class="body">prevents anal cancer.</text>
+  <rect x="68" y="1206" width="360" height="0" fill="none"/>
+
+  <!-- HIGH-RISK -->
+  <rect x="508" y="1004" width="452" height="220" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="508" y="1004" width="6" height="220" rx="3" fill="#BE3A2E"/>
+  <text x="536" y="1034" class="eyebrow">Who to surveil &#183; IANS / Clifford &gt;25 per 100,000</text>
+  <text x="536" y="1058" class="h">High-risk groups</text>
+  <g class="body">
+    <circle cx="542" cy="1080" r="3" fill="#BE3A2E"/><text x="556" y="1085">MSM living with HIV, &#8805;35 y</text>
+    <circle cx="542" cy="1103" r="3" fill="#BE3A2E"/><text x="556" y="1108">Women with HIV, &#8805;45 y</text>
+    <circle cx="542" cy="1126" r="3" fill="#BE3A2E"/><text x="556" y="1131">Men (non-MSM), &#8805;45 y</text>
+    <circle cx="542" cy="1149" r="3" fill="#BE3A2E"/><text x="556" y="1154">MSM / trans women without HIV, &#8805;45 y</text>
+    <circle cx="542" cy="1172" r="3" fill="#BE3A2E"/><text x="556" y="1177">Vulvar HSIL or cancer (within 1 y)</text>
+    <circle cx="542" cy="1195" r="3" fill="#BE3A2E"/><text x="556" y="1200">Solid-organ transplant (&#8805;10 y post)</text>
+  </g>
+  <text x="536" y="1218" class="small"><tspan font-weight="700">+</tspan> long-term immunosuppression &#183; no national screening &#8212; opportunistic only</text>
+
+  <!-- ===================== ROW 4: SISCCA | UK POINTERS ===================== -->
+  <rect x="40" y="1238" width="452" height="132" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="40" y="1238" width="6" height="132" rx="3" fill="#A8183A"/>
+  <text x="68" y="1266" class="eyebrow">The invasion boundary</text>
+  <text x="68" y="1289" class="h">SISCCA</text>
+  <text x="68" y="1312" class="body">Superficially invasive SCC &#8212; needs <tspan font-weight="600">all three</tspan>:</text>
+  <text x="68" y="1332" class="body">&#183; invasion depth &#8804;3 mm from basement membrane</text>
+  <text x="68" y="1350" class="body">&#183; horizontal spread &#8804;7 mm  &#183;  completely excised</text>
+  <text x="68" y="1366" class="small" fill="#A8183A" font-weight="600">&#8594; refer to specialist anal-cancer MDT</text>
+
+  <rect x="508" y="1238" width="452" height="132" rx="11" fill="#FFFFFF" stroke="#E0E6E3" stroke-width="1.2"/>
+  <rect x="508" y="1238" width="6" height="132" rx="3" fill="#14313A"/>
+  <text x="536" y="1266" class="eyebrow">UK exam pointers</text>
+  <text x="536" y="1289" class="h">Don't forget</text>
+  <text x="536" y="1312" class="body">&#183; Female HSIL &#8594; screen for CIN / VIN / VAIN</text>
+  <text x="536" y="1331" class="body">&#183; "Multizonal" (5 zones), not "multifocal" &#8594; MDT, staged tx</text>
+  <text x="536" y="1350" class="body">&#183; HPV vaccine adjunct (&lt;40 y) via GUM clinic</text>
+  <text x="536" y="1366" class="body">&#183; No UK national anal-cancer screening programme</text>
+
+  <!-- ===================== FOOTER ===================== -->
+  <text x="40" y="1394" class="small" font-size="10.5" fill="#7C8A8E">Sources: ACPGBI 2017 (Geh et al.); GM Cancer / Christie AIN guideline 2024; LAST (Darragh 2012); ANCHOR (Palefsky, NEJM 2022); Clifford 2021.</text>
+  <text x="40" y="1408" class="small" font-size="10.5" fill="#9AA6AA">Revision aid &#8212; verify against current guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#AFC7CB">mockfrcs.co.uk</text><rect x="0" y="1414" width="1000" height="46" fill="#14313A"/><text x="30" y="1443" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1443" text-anchor="end" font-size="12.5" font-weight="600" fill="#AFC7CB">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>
