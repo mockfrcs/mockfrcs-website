@@ -1,0 +1,144 @@
+<svg viewBox="0 0 1000 1586.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1586.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Oesophageal perforation</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  Boerhaave · Mallory-Weiss · iatrogenic  ·  OG emergencies (1 of 2)</text>
+<text x="30" y="140" font-size="13" font-weight="800" fill="#6E1E2A" letter-spacing="1.2">AT A GLANCE  ·  CAUSES &amp; TYPES</text>
+<rect x="30" y="152" width="940" height="26" fill="#6E1E2A" rx="5"/>
+<text x="42" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Type</text>
+<text x="210" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Mechanism</text>
+<text x="548" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Depth / site</text>
+<text x="742" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Key point</text>
+<rect x="30" y="178" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="178" width="4" height="26" fill="#C77B20"/>
+<text x="42" y="195" font-size="11.5" font-weight="700" fill="#38141A">Iatrogenic</text>
+<text x="210" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">instrumentation — OGD (dilatation / stent / EMR), TOE, NG</text>
+<text x="548" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">full-thickness; cervical</text>
+<text x="742" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">commonest cause</text>
+<rect x="30" y="204" width="4" height="26" fill="#BE3A2E"/>
+<text x="42" y="221" font-size="11.5" font-weight="700" fill="#38141A">Boerhaave’s</text>
+<text x="210" y="221" font-size="11.5" font-weight="400" fill="#2E3C42">forceful vomiting → sudden ↑ intraluminal pressure</text>
+<text x="548" y="221" font-size="11.5" font-weight="400" fill="#2E3C42">transmural; L posterolat. distal</text>
+<text x="742" y="221" font-size="11.5" font-weight="400" fill="#2E3C42">Mackler’s triad</text>
+<rect x="30" y="230" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="230" width="4" height="26" fill="#6D4AA3"/>
+<text x="42" y="247" font-size="11.5" font-weight="700" fill="#38141A">Mallory-Weiss</text>
+<text x="210" y="247" font-size="11.5" font-weight="400" fill="#2E3C42">retching → mucosal shear at the GOJ</text>
+<text x="548" y="247" font-size="11.5" font-weight="400" fill="#2E3C42">partial-thickness mucosa</text>
+<text x="742" y="247" font-size="11.5" font-weight="400" fill="#2E3C42">bleeds; self-limiting</text>
+<rect x="30" y="256" width="4" height="26" fill="#6B7B80"/>
+<text x="42" y="273" font-size="11.5" font-weight="700" fill="#38141A">Other</text>
+<text x="210" y="273" font-size="11.5" font-weight="400" fill="#2E3C42">penetrating / blunt trauma, foreign body, caustic, tumour</text>
+<text x="548" y="273" font-size="11.5" font-weight="400" fill="#2E3C42">variable</text>
+<text x="742" y="273" font-size="11.5" font-weight="400" fill="#2E3C42">less common</text>
+<text x="30" y="297" font-size="10" font-weight="400" fill="#6B7B80">Mallory-Weiss is a mucosal tear that BLEEDS — the non-perforating end of the spectrum; Boerhaave is transmural rupture that LEAKS.</text>
+<rect x="30" y="305" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="321" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PRESENTATION</text>
+<rect x="30" y="335" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="335" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="363" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">high index of suspicion — mimics MI / PE / pancreatitis</text>
+<text x="54" y="387" font-size="18" font-weight="800" fill="#38141A">Clinical features</text>
+<text x="54" y="409" font-size="12" font-weight="700" fill="#245C8C">Symptoms</text>
+<text x="162" y="409.0" font-size="12" font-weight="400" fill="#2E3C42">(preceding vomiting) severe retrosternal / epigastric / interscapular pain, odynophagia, dysphagia, dyspnoea</text>
+<text x="54" y="429.5" font-size="12" font-weight="700" fill="#245C8C">Signs</text>
+<text x="162" y="429.5" font-size="12" font-weight="400" fill="#2E3C42">tachycardia, sepsis / SIRS, surgical (subcutaneous) emphysema — neck/chest crepitus, Hamman’s crunch, pleural effusion, shock</text>
+<text x="54" y="450.0" font-size="12" font-weight="700" fill="#245C8C">Mackler’s triad</text>
+<text x="162" y="450.0" font-size="12" font-weight="400" fill="#2E3C42">vomiting + lower chest pain + subcutaneous emphysema — classic for Boerhaave but present in a minority</text>
+<text x="54" y="470.5" font-size="12" font-weight="700" fill="#245C8C">Mimics</text>
+<text x="162" y="470.5" font-size="12" font-weight="400" fill="#2E3C42">MI, PE, pancreatitis, perforated ulcer, aortic dissection — consider perforation after vomiting / instrumentation</text>
+<rect x="30" y="484.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="500.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">INVESTIGATION</text>
+<rect x="30" y="514.5" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="514.5" width="6" height="184.5" fill="#C77B20" rx="3"/>
+<text x="54" y="542.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">confirm, localise, assess contamination</text>
+<text x="54" y="566.5" font-size="18" font-weight="800" fill="#38141A">Work-up</text>
+<text x="54" y="588.5" font-size="12" font-weight="700" fill="#C77B20">CXR</text>
+<text x="162" y="588.5" font-size="12" font-weight="400" fill="#2E3C42">pneumomediastinum, surgical emphysema, pleural effusion / hydropneumothorax (usually left), widened mediastinum, Naclerio’s V</text>
+<text x="162" y="609.0" font-size="12" font-weight="400" fill="#2E3C42">sign</text>
+<text x="54" y="629.5" font-size="12" font-weight="700" fill="#C77B20">CT chest</text>
+<text x="162" y="629.5" font-size="12" font-weight="400" fill="#2E3C42">with oral + IV contrast — investigation of choice: site, contamination, collections, drives management</text>
+<text x="54" y="650.0" font-size="12" font-weight="700" fill="#C77B20">Contrast swallow</text>
+<text x="162" y="650.0" font-size="12" font-weight="400" fill="#2E3C42">water-soluble (Gastrografin) FIRST, then dilute barium if negative — never barium first (mediastinitis if it leaks)</text>
+<text x="54" y="670.5" font-size="12" font-weight="700" fill="#C77B20">Pleural fluid</text>
+<text x="162" y="670.5" font-size="12" font-weight="400" fill="#2E3C42">↑ amylase (salivary), low pH, food particles; may drain via chest drain</text>
+<text x="54" y="691.0" font-size="12" font-weight="700" fill="#C77B20">Bloods</text>
+<text x="162" y="691.0" font-size="12" font-weight="400" fill="#2E3C42">raised WCC / CRP, lactate; group &amp; save</text>
+<rect x="30" y="705.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="721.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">SEVERITY — PITTSBURGH PSS</text>
+<rect x="30" y="735.0" width="940" height="249.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="735.0" width="6" height="249.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="763.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.0">stratifies severity · guides non-operative vs operative</text>
+<text x="54" y="787.0" font-size="18" font-weight="800" fill="#38141A">Pittsburgh severity score (PSS)</text>
+<rect x="54" y="798.0" width="90" height="26" fill="#E2F1EC" rx="13" stroke="#15806A" stroke-width="1.2"/>
+<text x="70" y="815.0" font-size="12" font-weight="700" fill="#15806A">Low  ≤ 2</text>
+<rect x="156" y="798.0" width="153" height="26" fill="#F6ECDD" rx="13" stroke="#C77B20" stroke-width="1.2"/>
+<text x="172" y="815.0" font-size="12" font-weight="700" fill="#C77B20">Intermediate  3–5</text>
+<rect x="321" y="798.0" width="97" height="26" fill="#FBEAE6" rx="13" stroke="#BE3A2E" stroke-width="1.2"/>
+<text x="337" y="815.0" font-size="12" font-weight="700" fill="#BE3A2E">High  &gt; 5</text>
+<text x="54" y="843.0" font-size="12" font-weight="700" fill="#6D4AA3">Ten weighted clinical variables (points):</text>
+<text x="54" y="865.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Age &gt; 75 yr</text>
+<text x="434" y="865.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">1</text>
+<text x="54" y="884.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Tachycardia &gt; 100</text>
+<text x="434" y="884.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">1</text>
+<text x="54" y="903.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Leukocytosis &gt; 10×10⁹</text>
+<text x="434" y="903.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">1</text>
+<text x="54" y="922.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Pleural effusion</text>
+<text x="434" y="922.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">1</text>
+<text x="54" y="941.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Fever &gt; 38.5°C</text>
+<text x="434" y="941.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">2</text>
+<text x="520" y="865.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Non-contained leak</text>
+<text x="900" y="865.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">2</text>
+<text x="520" y="884.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Respiratory compromise</text>
+<text x="900" y="884.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">2</text>
+<text x="520" y="903.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Delay to diagnosis &gt; 24 h</text>
+<text x="900" y="903.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">2</text>
+<text x="520" y="922.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Hypotension</text>
+<text x="900" y="922.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">3</text>
+<text x="520" y="941.0" font-size="11.5" font-weight="400" fill="#2E3C42">•  Malignancy</text>
+<text x="900" y="941.0" font-size="11.5" font-weight="700" fill="#38141A" text-anchor="end">3</text>
+<text x="54" y="966.0" font-size="11" font-weight="400" fill="#6B7B80" font-style="italic">Higher score → greater morbidity / mortality and greater likelihood of requiring surgery.</text>
+<rect x="30" y="990.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="1006.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT</text>
+<rect x="30" y="1020.0" width="940" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1020.0" width="6" height="225.5" fill="#15806A" rx="3"/>
+<text x="54" y="1048.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">early source control — outcome is time-dependent</text>
+<text x="54" y="1072.0" font-size="18" font-weight="800" fill="#38141A">Management ladder</text>
+<text x="54" y="1094.0" font-size="12" font-weight="700" fill="#15806A">Resuscitate</text>
+<text x="148" y="1094.0" font-size="12" font-weight="400" fill="#2E3C42">ABCDE, NBM, IV fluids, broad-spectrum antibiotics + antifungal, IV PPI, analgesia, HDU/ICU; drain pleural collection (chest</text>
+<text x="148" y="1114.5" font-size="12" font-weight="400" fill="#2E3C42">drain); nutrition (NJ / parenteral)</text>
+<text x="54" y="1135.0" font-size="12" font-weight="700" fill="#15806A">Conservative</text>
+<text x="148" y="1135.0" font-size="12" font-weight="400" fill="#2E3C42">selected: contained leak, minimal contamination, stable, no sepsis or distal obstruction — NBM, antibiotics, drainage, serial</text>
+<text x="148" y="1155.5" font-size="12" font-weight="400" fill="#2E3C42">imaging</text>
+<text x="54" y="1176.0" font-size="12" font-weight="700" fill="#15806A">Endoscopic</text>
+<text x="148" y="1176.0" font-size="12" font-weight="400" fill="#2E3C42">covered self-expanding stent (SEMS), through-/over-the-scope clips, endoluminal vacuum (E-Vac) therapy — contained leaks or as</text>
+<text x="148" y="1196.5" font-size="12" font-weight="400" fill="#2E3C42">adjunct</text>
+<text x="54" y="1217.0" font-size="12" font-weight="700" fill="#15806A">Surgical</text>
+<text x="148" y="1217.0" font-size="12" font-weight="400" fill="#2E3C42">esp. &lt; 24 h / contaminated / unstable: buttressed primary repair (± over a T-tube) + wide drainage &amp; wash-out; feeding</text>
+<text x="148" y="1237.5" font-size="12" font-weight="400" fill="#2E3C42">jejunostomy; oesophagectomy or diversion (cervical oesophagostomy) if extensive necrosis or delayed</text>
+<rect x="30" y="1251.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1267.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1281.5" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1281.5" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1303.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1307.5" font-size="12" font-weight="600" fill="#38141A">Vomiting + chest pain + surgical emphysema (Mackler) = Boerhaave until proven otherwise — don’t anchor on MI / PE.</text>
+<circle cx="60" cy="1325.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1329.5" font-size="12" font-weight="600" fill="#38141A">Never give barium first if perforation is suspected — use water-soluble contrast (barium → mediastinitis).</text>
+<circle cx="60" cy="1347.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1351.5" font-size="12" font-weight="600" fill="#38141A">A normal contrast swallow can still miss a leak — if suspicion is high, proceed to CT or repeat.</text>
+<circle cx="60" cy="1369.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1373.5" font-size="12" font-weight="600" fill="#38141A">New left pleural effusion after vomiting or instrumentation → send pleural fluid for amylase.</text>
+<circle cx="60" cy="1391.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1395.5" font-size="12" font-weight="600" fill="#38141A">Delay beyond 24 h dramatically worsens outcome — this is time-critical.</text>
+<circle cx="60" cy="1413.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1417.5" font-size="12" font-weight="600" fill="#38141A">Mallory-Weiss ≠ Boerhaave: a mucosal tear that bleeds, not a transmural rupture that leaks.</text>
+<line x1="30" y1="1459.5" x2="970" y2="1459.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1478.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: surgical consensus / UGI literature (no single NICE guideline). Pittsburgh PSS: Abbas (2009); validation Schweigert (2016) Pittsburgh PSS: Abbas et al. (2009);</text>
+<text x="30" y="1492.5" font-size="10.5" font-weight="400" fill="#7C8A8E">multinational validation Schweigert et al. (2016); UK validation (QEH Birmingham, 2019). QEH Birmingham (2019).</text>
+<text x="30" y="1506.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Investigation-of-choice and management thresholds vary between centres; the PSS aids — not replaces — clinical judgement.</text>
+<text x="30" y="1520.5" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="1540.5" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="1569.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1569.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

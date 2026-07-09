@@ -1,0 +1,213 @@
+<svg viewBox="0 0 1000 2126" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="2126" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Upper gastrointestinal bleeding</text>
+<text x="30" y="74" font-size="14" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  UK practice (NICE CG141 · BSG · Baveno VII)  ·  variceal vs non-variceal</text>
+<text x="30" y="140" font-size="13" font-weight="800" fill="#6E1E2A" letter-spacing="1.2">AT A GLANCE  ·  CAUSES</text>
+<rect x="30" y="152" width="940" height="26" fill="#6E1E2A" rx="5"/>
+<text x="40" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Cause</text>
+<text x="300" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Approx. freq.</text>
+<text x="400" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Key feature</text>
+<rect x="30" y="178" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="178" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="195" font-size="11.5" font-weight="700" fill="#38141A">Peptic ulcer (gastric / duodenal)</text>
+<text x="300" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">~40%</text>
+<text x="400" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">commonest; H. pylori, NSAIDs / aspirin</text>
+<rect x="30" y="203" width="4" height="25" fill="#BE3A2E"/>
+<text x="40" y="220" font-size="11.5" font-weight="700" fill="#38141A">Oesophagogastric varices</text>
+<text x="300" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">~10–15%</text>
+<text x="400" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">portal hypertension / cirrhosis; high mortality</text>
+<rect x="30" y="228" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="228" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="245" font-size="11.5" font-weight="700" fill="#38141A">Oesophagitis / gastritis / duodenitis</text>
+<text x="300" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">~10–15%</text>
+<text x="400" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">erosive; NSAIDs, alcohol</text>
+<rect x="30" y="253" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="270" font-size="11.5" font-weight="700" fill="#38141A">Mallory–Weiss tear</text>
+<text x="300" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">~5%</text>
+<text x="400" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">retching → GOJ mucosal tear; often self-limiting</text>
+<rect x="30" y="278" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="278" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="295" font-size="11.5" font-weight="700" fill="#38141A">Upper GI malignancy</text>
+<text x="300" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">~5%</text>
+<text x="400" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">gastric / oesophageal carcinoma</text>
+<rect x="30" y="303" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="320" font-size="11.5" font-weight="700" fill="#38141A">Dieulafoy lesion</text>
+<text x="300" y="320" font-size="11.5" font-weight="400" fill="#2E3C42">rare</text>
+<text x="400" y="320" font-size="11.5" font-weight="400" fill="#2E3C42">submucosal artery; brisk, hard to locate</text>
+<rect x="30" y="328" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="328" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="345" font-size="11.5" font-weight="700" fill="#38141A">Angiodysplasia / GAVE</text>
+<text x="300" y="345" font-size="11.5" font-weight="400" fill="#2E3C42">uncommon</text>
+<text x="400" y="345" font-size="11.5" font-weight="400" fill="#2E3C42">AVMs; GAVE = “watermelon stomach”</text>
+<rect x="30" y="353" width="4" height="25" fill="#C77B20"/>
+<text x="40" y="370" font-size="11.5" font-weight="700" fill="#38141A">Aortoenteric fistula</text>
+<text x="300" y="370" font-size="11.5" font-weight="400" fill="#2E3C42">rare</text>
+<text x="400" y="370" font-size="11.5" font-weight="700" fill="#BE3A2E">prior aortic graft / AAA — herald bleed, can’t-miss</text>
+<rect x="30" y="384" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="400" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">RESUSCITATION &amp; INITIAL MANAGEMENT</text>
+<rect x="30" y="414" width="940" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="414" width="6" height="205.0" fill="#15806A" rx="3"/>
+<text x="54" y="442" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">ABCDE · resuscitate before / alongside diagnosis</text>
+<text x="54" y="466" font-size="18" font-weight="800" fill="#38141A">Immediate resuscitation</text>
+<text x="54" y="488" font-size="12" font-weight="700" fill="#15806A">Approach</text>
+<text x="180" y="488.0" font-size="12" font-weight="400" fill="#2E3C42">ABCDE; protect airway if haematemesis, ↓GCS or variceal bleed; high-flow O₂; two large-bore cannulae (14–16G)</text>
+<text x="54" y="508.5" font-size="12" font-weight="700" fill="#15806A">Bloods</text>
+<text x="180" y="508.5" font-size="12" font-weight="400" fill="#2E3C42">FBC, U&amp;E (urea ↑ out of proportion to creatinine), LFTs, clotting + fibrinogen, VBG + lactate, group &amp; save + crossmatch</text>
+<text x="54" y="529.0" font-size="12" font-weight="700" fill="#15806A">Fluids / blood</text>
+<text x="180" y="529.0" font-size="12" font-weight="400" fill="#2E3C42">balanced crystalloid to restore perfusion; restrictive transfusion — transfuse if Hb &lt;70 g/L, target 70–90; activate massive</text>
+<text x="180" y="549.5" font-size="12" font-weight="400" fill="#2E3C42">haemorrhage protocol if exsanguinating</text>
+<text x="54" y="570.0" font-size="12" font-weight="700" fill="#15806A">Coagulopathy</text>
+<text x="180" y="570.0" font-size="12" font-weight="400" fill="#2E3C42">platelets if &lt;50 ×10⁹/L and actively bleeding (not if stable / not bleeding); warfarin → PCC + IV vitamin K; DOAC →</text>
+<text x="180" y="590.5" font-size="12" font-weight="400" fill="#2E3C42">idarucizumab (dabigatran) / andexanet alfa (apixaban, rivaroxaban); avoid rFVIIa unless all else fails</text>
+<text x="54" y="611.0" font-size="12" font-weight="700" fill="#15806A">Monitor</text>
+<text x="180" y="611.0" font-size="12" font-weight="400" fill="#2E3C42">urinary catheter, HDU / ICU if unstable; keep nil-by-mouth for endoscopy</text>
+<rect x="30" y="625.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="641.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">RISK ASSESSMENT SCORES</text>
+<rect x="30" y="655.0" width="464" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="655.0" width="6" height="205.0" fill="#245C8C" rx="3"/>
+<text x="54" y="683.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PRE-ENDOSCOPY · need for intervention</text>
+<text x="54" y="707.0" font-size="18" font-weight="800" fill="#38141A">Glasgow–Blatchford (GBS)</text>
+<text x="54" y="729.0" font-size="12" font-weight="700" fill="#245C8C">Uses</text>
+<text x="122" y="729.0" font-size="12" font-weight="400" fill="#2E3C42">urea, Hb, systolic BP, pulse ≥100, melaena, syncope,</text>
+<text x="122" y="749.5" font-size="12" font-weight="400" fill="#2E3C42">hepatic disease, cardiac failure — no endoscopic data</text>
+<text x="122" y="770.0" font-size="12" font-weight="400" fill="#2E3C42">needed</text>
+<text x="54" y="790.5" font-size="12" font-weight="700" fill="#245C8C">Predicts</text>
+<text x="122" y="790.5" font-size="12" font-weight="400" fill="#2E3C42">need for intervention (transfusion / endoscopy / surgery)</text>
+<text x="122" y="811.0" font-size="12" font-weight="400" fill="#2E3C42">or death</text>
+<text x="54" y="831.5" font-size="12" font-weight="700" fill="#245C8C">Use</text>
+<text x="122" y="831.5" font-size="12" font-weight="400" fill="#2E3C42">first assessment of all patients; GBS 0 → consider early</text>
+<text x="122" y="852.0" font-size="12" font-weight="400" fill="#2E3C42">discharge (NICE)</text>
+<rect x="506" y="655.0" width="464" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="506" y="655.0" width="6" height="205.0" fill="#245C8C" rx="3"/>
+<text x="530" y="683.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PRE- + POST-ENDOSCOPY · rebleed / mortality</text>
+<text x="530" y="707.0" font-size="18" font-weight="800" fill="#38141A">Rockall score</text>
+<text x="530" y="729.0" font-size="12" font-weight="700" fill="#245C8C">Clinical</text>
+<text x="594" y="729.0" font-size="12" font-weight="400" fill="#2E3C42">age, shock (pulse / BP), comorbidity — pre-endoscopy</text>
+<text x="594" y="749.5" font-size="12" font-weight="400" fill="#2E3C42">component</text>
+<text x="530" y="770.0" font-size="12" font-weight="700" fill="#245C8C">Full</text>
+<text x="594" y="770.0" font-size="12" font-weight="400" fill="#2E3C42">adds endoscopic diagnosis + stigmata of recent</text>
+<text x="594" y="790.5" font-size="12" font-weight="400" fill="#2E3C42">haemorrhage</text>
+<text x="530" y="811.0" font-size="12" font-weight="700" fill="#245C8C">Predicts</text>
+<text x="594" y="811.0" font-size="12" font-weight="400" fill="#2E3C42">rebleeding and mortality; NICE: full Rockall after</text>
+<text x="594" y="831.5" font-size="12" font-weight="400" fill="#2E3C42">endoscopy</text>
+<text x="530" y="852.0" font-size="12" font-weight="700" fill="#245C8C">Also</text>
+<text x="594" y="852.0" font-size="12" font-weight="400" fill="#2E3C42">AIMS65 (albumin, INR, mental state, SBP, age) → mortality</text>
+<rect x="30" y="866.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="882.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">TIMING OF ENDOSCOPY (OGD)</text>
+<rect x="30" y="896.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="896.0" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="54" y="924.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">resuscitate first — then scope</text>
+<text x="54" y="948.0" font-size="18" font-weight="800" fill="#38141A">When to scope</text>
+<text x="54" y="970.0" font-size="12" font-weight="700" fill="#C77B20">Unstable</text>
+<text x="150" y="970.0" font-size="12" font-weight="400" fill="#2E3C42">severe active bleeding → OGD immediately after resuscitation</text>
+<text x="54" y="990.5" font-size="12" font-weight="700" fill="#C77B20">All others</text>
+<text x="150" y="990.5" font-size="12" font-weight="400" fill="#2E3C42">within 24 h of admission (NICE)</text>
+<text x="54" y="1011.0" font-size="12" font-weight="700" fill="#C77B20">Variceal</text>
+<text x="150" y="1011.0" font-size="12" font-weight="400" fill="#2E3C42">suspected variceal bleeding → within 12 h (Baveno VII)</text>
+<text x="54" y="1031.5" font-size="12" font-weight="700" fill="#C77B20">PPI</text>
+<text x="150" y="1031.5" font-size="12" font-weight="400" fill="#2E3C42">do NOT give PPI before endoscopy (NICE) — give afterwards only if high-risk stigmata; a prokinetic (erythromycin) can improve</text>
+<text x="150" y="1052.0" font-size="12" font-weight="400" fill="#2E3C42">views</text>
+<rect x="30" y="1066.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1082.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">NON-VARICEAL  (peptic ulcer)</text>
+<rect x="30" y="1096.0" width="940" height="400.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1096.0" width="6" height="400.5" fill="#6D4AA3" rx="3"/>
+<text x="48" y="1118.0" font-size="11" font-weight="800" fill="#6B7B80" letter-spacing="0.6">FORREST CLASSIFICATION — stigmata of recent haemorrhage &amp; rebleed risk</text>
+<rect x="42" y="1132.0" width="916" height="24" fill="#38141A" rx="4"/>
+<text x="52" y="1148.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Class</text>
+<text x="150" y="1148.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Endoscopic finding</text>
+<text x="530" y="1148.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Rebleed*</text>
+<text x="690" y="1148.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Action</text>
+<rect x="42" y="1156.0" width="916" height="24" fill="#F1F4F2"/>
+<rect x="42" y="1156.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="52" y="1172.0" font-size="11.5" font-weight="800" fill="#BE3A2E">Ia</text>
+<text x="150" y="1172.0" font-size="11.5" font-weight="400" fill="#2E3C42">Active spurting (arterial)</text>
+<text x="530" y="1172.0" font-size="11.5" font-weight="700" fill="#38141A">~55%</text>
+<text x="690" y="1172.0" font-size="11.5" font-weight="400" fill="#2E3C42">endoscopic haemostasis</text>
+<rect x="42" y="1180.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="52" y="1196.0" font-size="11.5" font-weight="800" fill="#BE3A2E">Ib</text>
+<text x="150" y="1196.0" font-size="11.5" font-weight="400" fill="#2E3C42">Active oozing</text>
+<text x="530" y="1196.0" font-size="11.5" font-weight="700" fill="#38141A">~55%</text>
+<text x="690" y="1196.0" font-size="11.5" font-weight="400" fill="#2E3C42">endoscopic haemostasis</text>
+<rect x="42" y="1204.0" width="916" height="24" fill="#F1F4F2"/>
+<rect x="42" y="1204.0" width="4" height="24" fill="#C77B20"/>
+<text x="52" y="1220.0" font-size="11.5" font-weight="800" fill="#C77B20">IIa</text>
+<text x="150" y="1220.0" font-size="11.5" font-weight="400" fill="#2E3C42">Non-bleeding visible vessel</text>
+<text x="530" y="1220.0" font-size="11.5" font-weight="700" fill="#38141A">~43%</text>
+<text x="690" y="1220.0" font-size="11.5" font-weight="400" fill="#2E3C42">endoscopic haemostasis</text>
+<rect x="42" y="1228.0" width="4" height="24" fill="#C77B20"/>
+<text x="52" y="1244.0" font-size="11.5" font-weight="800" fill="#C77B20">IIb</text>
+<text x="150" y="1244.0" font-size="11.5" font-weight="400" fill="#2E3C42">Adherent clot</text>
+<text x="530" y="1244.0" font-size="11.5" font-weight="700" fill="#38141A">~22%</text>
+<text x="690" y="1244.0" font-size="11.5" font-weight="400" fill="#2E3C42">dislodge clot → treat lesion beneath</text>
+<rect x="42" y="1252.0" width="916" height="24" fill="#F1F4F2"/>
+<rect x="42" y="1252.0" width="4" height="24" fill="#15806A"/>
+<text x="52" y="1268.0" font-size="11.5" font-weight="800" fill="#15806A">IIc</text>
+<text x="150" y="1268.0" font-size="11.5" font-weight="400" fill="#2E3C42">Flat pigmented spot</text>
+<text x="530" y="1268.0" font-size="11.5" font-weight="700" fill="#38141A">~10%</text>
+<text x="690" y="1268.0" font-size="11.5" font-weight="400" fill="#2E3C42">no haemostasis; PPI</text>
+<rect x="42" y="1276.0" width="4" height="24" fill="#15806A"/>
+<text x="52" y="1292.0" font-size="11.5" font-weight="800" fill="#15806A">III</text>
+<text x="150" y="1292.0" font-size="11.5" font-weight="400" fill="#2E3C42">Clean ulcer base</text>
+<text x="530" y="1292.0" font-size="11.5" font-weight="700" fill="#38141A">~5%</text>
+<text x="690" y="1292.0" font-size="11.5" font-weight="400" fill="#2E3C42">no haemostasis; oral PPI</text>
+<text x="48" y="1314.0" font-size="10" font-weight="400" fill="#6B7B80">*natural-history rebleed estimates without treatment (Laine &amp; Peterson, NEJM 1994); classification: Forrest, Lancet 1974.</text>
+<text x="48" y="1328.0" font-size="12" font-weight="700" fill="#6D4AA3">Endoscopic Rx</text>
+<text x="180" y="1328.0" font-size="12" font-weight="400" fill="#2E3C42">DUAL therapy — adrenaline injection PLUS a second modality (mechanical clip / thermal coagulation / haemostatic powder).</text>
+<text x="180" y="1348.5" font-size="12" font-weight="400" fill="#2E3C42">Adrenaline monotherapy is inadequate (NICE).</text>
+<text x="48" y="1374.0" font-size="12" font-weight="700" fill="#6D4AA3">Acid suppression</text>
+<text x="180" y="1374.0" font-size="12" font-weight="400" fill="#2E3C42">high-dose IV PPI AFTER endoscopy for high-risk stigmata (Ia / Ib / IIa; IIb after clot removal) — e.g. 72 h infusion,</text>
+<text x="180" y="1394.5" font-size="12" font-weight="400" fill="#2E3C42">then oral.</text>
+<text x="48" y="1420.0" font-size="12" font-weight="700" fill="#6D4AA3">Rebleeding</text>
+<text x="180" y="1420.0" font-size="12" font-weight="400" fill="#2E3C42">repeat endoscopy first-line; if it fails → interventional radiology (transcatheter arterial embolisation); surgery if IR</text>
+<text x="180" y="1440.5" font-size="12" font-weight="400" fill="#2E3C42">not promptly available (NICE).</text>
+<text x="48" y="1466.0" font-size="12" font-weight="700" fill="#6D4AA3">Underlying</text>
+<text x="180" y="1466.0" font-size="12" font-weight="400" fill="#2E3C42">test &amp; treat H. pylori; stop NSAIDs; continue low-dose aspirin once haemostasis achieved (NICE); complete PPI course.</text>
+<rect x="30" y="1502.5" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1518.5" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">VARICEAL  (portal hypertension)</text>
+<rect x="30" y="1532.5" width="940" height="266.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1532.5" width="6" height="266.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="1560.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">cirrhosis / portal HT — treat empirically if suspected</text>
+<text x="54" y="1584.5" font-size="18" font-weight="800" fill="#38141A">Variceal haemorrhage</text>
+<text x="54" y="1606.5" font-size="12" font-weight="700" fill="#BE3A2E">Drugs first</text>
+<text x="180" y="1606.5" font-size="12" font-weight="400" fill="#2E3C42">terlipressin ASAP (splanchnic vasoconstrictor; continue 2–5 days) + prophylactic antibiotics from admission (e.g. IV</text>
+<text x="180" y="1627.0" font-size="12" font-weight="400" fill="#2E3C42">ceftriaxone) — both reduce mortality (NICE / Baveno VII)</text>
+<text x="54" y="1647.5" font-size="12" font-weight="700" fill="#BE3A2E">Endoscopy ≤12h</text>
+<text x="180" y="1647.5" font-size="12" font-weight="400" fill="#2E3C42">oesophageal varices → endoscopic band ligation (EVL); gastric fundal varices (IGV1 / GOV2) → cyanoacrylate (glue) injection</text>
+<text x="54" y="1668.0" font-size="12" font-weight="700" fill="#BE3A2E">If uncontrolled</text>
+<text x="180" y="1668.0" font-size="12" font-weight="400" fill="#2E3C42">balloon tamponade — Sengstaken–Blakemore / Minnesota tube (bridge, ≤24 h; risks: aspiration, mucosal pressure necrosis,</text>
+<text x="180" y="1688.5" font-size="12" font-weight="400" fill="#2E3C42">migration) OR self-expanding covered oesophageal stent (Danis)</text>
+<text x="54" y="1709.0" font-size="12" font-weight="700" fill="#BE3A2E">Definitive</text>
+<text x="180" y="1709.0" font-size="12" font-weight="400" fill="#2E3C42">TIPS for uncontrolled or rebleeding despite endoscopic + drug therapy; pre-emptive (“early”) TIPS within 72 h in high-risk</text>
+<text x="180" y="1729.5" font-size="12" font-weight="400" fill="#2E3C42">(Child–Pugh C &lt;14, or Child B with active bleeding at OGD) improves survival (García-Pagán, NEJM 2010)</text>
+<text x="54" y="1750.0" font-size="12" font-weight="700" fill="#BE3A2E">2° prophylaxis</text>
+<text x="180" y="1750.0" font-size="12" font-weight="400" fill="#2E3C42">NSBB — carvedilol (Baveno choice) + EVL programme to variceal eradication; TIPS if further bleeding</text>
+<text x="54" y="1770.5" font-size="12" font-weight="700" fill="#BE3A2E">Supportive</text>
+<text x="180" y="1770.5" font-size="12" font-weight="400" fill="#2E3C42">protect airway (aspiration risk); avoid over-transfusion (target Hb 70 — raises portal pressure / rebleed); treat</text>
+<text x="180" y="1791.0" font-size="12" font-weight="400" fill="#2E3C42">encephalopathy (lactulose ± rifaximin)</text>
+<rect x="30" y="1805.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1821.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1835.0" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1835.0" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1857.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1861.0" font-size="12" font-weight="600" fill="#38141A">Early Hb can be normal (haemoconcentration) — a normal Hb does not exclude major bleeding.</text>
+<circle cx="60" cy="1879.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1883.0" font-size="12" font-weight="600" fill="#38141A">Raised urea : creatinine ratio points to an UPPER GI source (absorbed digested blood).</text>
+<circle cx="60" cy="1901.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1905.0" font-size="12" font-weight="600" fill="#38141A">PPI before endoscopy is NOT recommended (NICE) and never replaces endoscopic haemostasis.</text>
+<circle cx="60" cy="1923.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1927.0" font-size="12" font-weight="600" fill="#38141A">Adrenaline injection alone is inadequate — always add a second modality.</text>
+<circle cx="60" cy="1945.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1949.0" font-size="12" font-weight="600" fill="#38141A">Aortoenteric fistula: suspect in any UGIB with prior aortic graft / AAA repair (herald bleed → catastrophic).</text>
+<circle cx="60" cy="1967.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1971.0" font-size="12" font-weight="600" fill="#38141A">Known chronic liver disease → give terlipressin + antibiotics empirically; don’t wait for endoscopy.</text>
+<line x1="30" y1="2013.0" x2="970" y2="2013.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="2032.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE CG141 (2016) · BSG acute UGIB &amp; variceal guidance · Baveno VII consensus (2022). Scores: Glasgow–Blatchford, Rockall, AIMS65.</text>
+<text x="30" y="2046.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Key evidence: Forrest (Lancet 1974) · Laine &amp; Peterson (NEJM 1994) rebleed rates · Villanueva (NEJM 2013) restrictive transfusion · García-Pagán (NEJM 2010) early TIPS.</text>
+<text x="30" y="2060.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current guidance before clinical use. Rebleed rates are natural-history estimates and vary with treatment.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="2080" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="2109" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="2109" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

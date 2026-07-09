@@ -1,0 +1,163 @@
+<svg viewBox="0 0 1000 1701.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1701.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Oesophago-gastric cancer</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  UK practice (NICE NG83)  ·  histology · staging · Siewert · oncology  ·  OG cancer (1 of 2)</text>
+<rect x="30" y="126" width="6" height="20" fill="#6E1E2A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#6E1E2A" letter-spacing="1.2">HISTOLOGY &amp; RISK FACTORS</text>
+<rect x="30" y="156" width="464" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="184.5" fill="#245C8C" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">upper &amp; middle third</text>
+<text x="54" y="208" font-size="18" font-weight="800" fill="#38141A">Squamous cell carcinoma</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#245C8C">Site</text>
+<text x="126" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">upper &amp; middle third of the oesophagus</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#245C8C">Risk factors</text>
+<text x="126" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">smoking, alcohol, achalasia, caustic stricture,</text>
+<text x="126" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">Plummer-Vinson, tylosis, hot beverages, low SES</text>
+<text x="54" y="291.5" font-size="12" font-weight="700" fill="#245C8C">Trend</text>
+<text x="126" y="291.5" font-size="12" font-weight="400" fill="#2E3C42">declining in the UK / West</text>
+<text x="54" y="312.0" font-size="12" font-weight="700" fill="#245C8C">Note</text>
+<text x="126" y="312.0" font-size="12" font-weight="400" fill="#2E3C42">radiosensitive — definitive chemoRT is an option</text>
+<text x="126" y="332.5" font-size="12" font-weight="400" fill="#2E3C42">(especially cervical / unfit)</text>
+<rect x="506" y="156" width="464" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="506" y="156" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="530" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">lower third &amp; GOJ</text>
+<text x="530" y="208" font-size="18" font-weight="800" fill="#38141A">Adenocarcinoma</text>
+<text x="530" y="230" font-size="12" font-weight="700" fill="#C77B20">Site</text>
+<text x="602" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">lower third &amp; gastro-oesophageal junction</text>
+<text x="530" y="250.5" font-size="12" font-weight="700" fill="#C77B20">Risk factors</text>
+<text x="602" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">GORD / Barrett’s, obesity, male sex, smoking</text>
+<text x="530" y="271.0" font-size="12" font-weight="700" fill="#C77B20">Trend</text>
+<text x="602" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">rising — now the commonest oesophageal cancer in the UK</text>
+<text x="530" y="291.5" font-size="12" font-weight="700" fill="#C77B20">Note</text>
+<text x="602" y="291.5" font-size="12" font-weight="400" fill="#2E3C42">test for HER2 (→ trastuzumab); increasingly PD-L1 for</text>
+<text x="602" y="312.0" font-size="12" font-weight="400" fill="#2E3C42">immunotherapy</text>
+<rect x="30" y="354.5" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="354.5" width="6" height="123.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="382.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">Lauren classification</text>
+<text x="54" y="406.5" font-size="18" font-weight="800" fill="#38141A">Gastric adenocarcinoma</text>
+<text x="54" y="428.5" font-size="12" font-weight="700" fill="#6D4AA3">Intestinal</text>
+<text x="126" y="428.5" font-size="12" font-weight="400" fill="#2E3C42">Correa cascade, H. pylori, older, glandular — better prognosis</text>
+<text x="54" y="449.0" font-size="12" font-weight="700" fill="#6D4AA3">Diffuse</text>
+<text x="126" y="449.0" font-size="12" font-weight="400" fill="#2E3C42">signet-ring cells, CDH1 / E-cadherin loss, linitis plastica, younger — worse prognosis</text>
+<text x="54" y="469.5" font-size="12" font-weight="700" fill="#6D4AA3">Hereditary</text>
+<text x="126" y="469.5" font-size="12" font-weight="400" fill="#2E3C42">HDGC (germline CDH1) → prophylactic total gastrectomy</text>
+<rect x="30" y="483.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="499.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">SIEWERT CLASSIFICATION  (GOJ ADENOCARCINOMA)</text>
+<rect x="30" y="513.5" width="940" height="232" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="513.5" width="6" height="232" fill="#C77B20" rx="3"/>
+<rect x="165" y="539.5" width="30" height="90.0" fill="#EEE5E6" rx="8" stroke="#CBB6B9" stroke-width="1.2"/>
+<rect x="132" y="629.5" width="96" height="90.0" fill="#EEE5E6" rx="16" stroke="#CBB6B9" stroke-width="1.2"/>
+<rect x="122" y="554.5" width="116" height="60.0" fill="#245C8C" fill-opacity="0.3"/>
+<rect x="122" y="614.5" width="116" height="45.0" fill="#C77B20" fill-opacity="0.34"/>
+<rect x="122" y="659.5" width="116" height="45.0" fill="#BE3A2E" fill-opacity="0.28"/>
+<line x1="116" y1="629.5" x2="244" y2="629.5" stroke="#38141A" stroke-width="1.6"/>
+<text x="110" y="633.5" font-size="10" font-weight="800" fill="#38141A" text-anchor="end">GOJ</text>
+<text x="110" y="558.5" font-size="9.5" font-weight="400" fill="#6B7B80" text-anchor="end">+5 cm</text>
+<text x="110" y="618.5" font-size="9.5" font-weight="400" fill="#6B7B80" text-anchor="end">+1 cm</text>
+<text x="110" y="663.5" font-size="9.5" font-weight="400" fill="#6B7B80" text-anchor="end">-2 cm</text>
+<text x="110" y="708.5" font-size="9.5" font-weight="400" fill="#6B7B80" text-anchor="end">-5 cm</text>
+<text x="180" y="531.5" font-size="9.5" font-weight="400" fill="#6B7B80" text-anchor="middle">oesophagus</text>
+<text x="180" y="735.5" font-size="9.5" font-weight="400" fill="#6B7B80" text-anchor="middle">stomach</text>
+<rect x="270" y="571.5" width="20" height="20" fill="#245C8C" rx="5"/>
+<text x="280" y="585.5" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">I</text>
+<text x="300" y="582.5" font-size="12.5" font-weight="800" fill="#38141A">1–5 cm above the GOJ</text>
+<text x="300" y="599.5" font-size="11.5" font-weight="400" fill="#2E3C42">distal oesophagus → oesophagectomy</text>
+<rect x="270" y="624.0" width="20" height="20" fill="#C77B20" rx="5"/>
+<text x="280" y="638.0" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">II</text>
+<text x="300" y="635.0" font-size="12.5" font-weight="800" fill="#38141A">1 cm above to 2 cm below</text>
+<text x="300" y="652.0" font-size="11.5" font-weight="400" fill="#2E3C42">true junctional → oesophagectomy or extended total gastrectomy</text>
+<rect x="270" y="669.0" width="20" height="20" fill="#BE3A2E" rx="5"/>
+<text x="280" y="683.0" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">III</text>
+<text x="300" y="680.0" font-size="12.5" font-weight="800" fill="#38141A">2–5 cm below the GOJ</text>
+<text x="300" y="697.0" font-size="11.5" font-weight="400" fill="#2E3C42">subcardial → (extended) total gastrectomy</text>
+<rect x="30" y="751.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="767.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">STAGING PATHWAY  (NICE NG83)</text>
+<rect x="30" y="781.5" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="781.5" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="54" y="809.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">OGD → CT → PET-CT → EUS / laparoscopy → sMDT</text>
+<text x="54" y="833.5" font-size="18" font-weight="800" fill="#38141A">Investigations &amp; their role</text>
+<text x="54" y="855.5" font-size="12" font-weight="700" fill="#15806A">OGD + biopsy</text>
+<text x="200" y="855.5" font-size="12" font-weight="400" fill="#2E3C42">tissue diagnosis, histology, site &amp; length; HER2 on adenocarcinoma</text>
+<text x="54" y="876.0" font-size="12" font-weight="700" fill="#15806A">CT chest/abdo/pelvis</text>
+<text x="200" y="876.0" font-size="12" font-weight="400" fill="#2E3C42">distant metastases and gross T / N stage</text>
+<text x="54" y="896.5" font-size="12" font-weight="700" fill="#15806A">PET-CT</text>
+<text x="200" y="896.5" font-size="12" font-weight="400" fill="#2E3C42">occult metastases before radical treatment (oesophageal / GOJ) — upstages a significant minority</text>
+<text x="54" y="917.0" font-size="12" font-weight="700" fill="#15806A">EUS</text>
+<text x="200" y="917.0" font-size="12" font-weight="400" fill="#2E3C42">most accurate local T and N; separates cT1–2 from cT3–4; FNA of nodes; guides EMR</text>
+<text x="54" y="937.5" font-size="12" font-weight="700" fill="#15806A">Staging laparoscopy ± cytology</text>
+<text x="200" y="937.5" font-size="12" font-weight="400" fill="#2E3C42">offer to ALL potentially curable gastric cancer (detects peritoneal disease); selective for oesophageal / GOJ</text>
+<text x="54" y="958.0" font-size="12" font-weight="700" fill="#15806A">EMR</text>
+<text x="200" y="958.0" font-size="12" font-weight="400" fill="#2E3C42">staging of suspected T1N0 oesophageal cancer (may also be therapeutic). Stage with TNM 8; decide at specialist MDT</text>
+<rect x="30" y="972.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="988.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">PERIOPERATIVE &amp; NEOADJUVANT ONCOLOGY</text>
+<rect x="30" y="1002.0" width="940" height="24" fill="#38141A" rx="5"/>
+<text x="42" y="1018.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Tumour / setting</text>
+<text x="330" y="1018.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Standard regimen</text>
+<text x="812" y="1018.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Trial</text>
+<rect x="30" y="1026.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1026.0" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1042.0" font-size="11" font-weight="700" fill="#38141A">Gastric / GOJ adeno (≥cT2 or N+)</text>
+<text x="330" y="1042.0" font-size="11" font-weight="400" fill="#2E3C42">perioperative FLOT (5-FU, leucovorin, oxaliplatin, docetaxel; 4+4)</text>
+<text x="812" y="1042.0" font-size="11" font-weight="400" fill="#2E3C42">FLOT4</text>
+<rect x="30" y="1049.0" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1065.0" font-size="11" font-weight="700" fill="#38141A">Oesophageal adenocarcinoma</text>
+<text x="330" y="1065.0" font-size="11" font-weight="400" fill="#2E3C42">perioperative FLOT (or neoadjuvant CROSS)</text>
+<text x="812" y="1065.0" font-size="11" font-weight="400" fill="#2E3C42">ESOPEC</text>
+<rect x="30" y="1072.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1072.0" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1088.0" font-size="11" font-weight="700" fill="#38141A">Oesophageal SCC</text>
+<text x="330" y="1088.0" font-size="11" font-weight="400" fill="#2E3C42">neoadjuvant CROSS chemoRT; or definitive CRT</text>
+<text x="812" y="1088.0" font-size="11" font-weight="400" fill="#2E3C42">CROSS</text>
+<rect x="30" y="1095.0" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="1111.0" font-size="11" font-weight="700" fill="#38141A">Residual disease after chemoRT + surgery</text>
+<text x="330" y="1111.0" font-size="11" font-weight="400" fill="#2E3C42">adjuvant nivolumab</text>
+<text x="812" y="1111.0" font-size="11" font-weight="400" fill="#2E3C42">CheckMate-577</text>
+<rect x="30" y="1118.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1118.0" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="1134.0" font-size="11" font-weight="700" fill="#38141A">HER2-positive metastatic adeno</text>
+<text x="330" y="1134.0" font-size="11" font-weight="400" fill="#2E3C42">add trastuzumab</text>
+<text x="812" y="1134.0" font-size="11" font-weight="400" fill="#2E3C42">ToGA</text>
+<text x="30" y="1161.0" font-size="10" font-weight="400" fill="#6B7B80">CROSS = carboplatin / paclitaxel + 41.4 Gy in 23 fractions. FLOT superseded ECF (MAGIC) for gastric / GOJ adenocarcinoma.</text>
+<rect x="30" y="1169.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1185.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PRESENTATION &amp; PALLIATION</text>
+<rect x="30" y="1199.0" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1199.0" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="1227.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">most present late — majority are palliative</text>
+<text x="54" y="1251.0" font-size="18" font-weight="800" fill="#38141A">Clinical</text>
+<text x="54" y="1273.0" font-size="12" font-weight="700" fill="#245C8C">Presentation</text>
+<text x="134" y="1273.0" font-size="12" font-weight="400" fill="#2E3C42">progressive dysphagia (solids → liquids), weight loss, odynophagia, anaemia, reflux → urgent OGD (2ww, NICE NG12)</text>
+<text x="54" y="1293.5" font-size="12" font-weight="700" fill="#245C8C">Curative</text>
+<text x="134" y="1293.5" font-size="12" font-weight="400" fill="#2E3C42">fit, resectable, M0 → neoadjuvant / perioperative therapy + surgery at a high-volume centre</text>
+<text x="54" y="1314.0" font-size="12" font-weight="700" fill="#245C8C">Palliative</text>
+<text x="134" y="1314.0" font-size="12" font-weight="400" fill="#2E3C42">chemotherapy ± immunotherapy, oesophageal stent, radiotherapy / brachytherapy, nutrition, best supportive care</text>
+<text x="54" y="1334.5" font-size="12" font-weight="700" fill="#245C8C">Prognosis</text>
+<text x="134" y="1334.5" font-size="12" font-weight="400" fill="#2E3C42">poor and stage-dependent; peritoneal or distant disease precludes cure</text>
+<rect x="30" y="1348.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1364.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1378.5" width="940" height="178.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1378.5" width="6" height="178.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1400.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1404.5" font-size="12" font-weight="600" fill="#38141A">Progressive dysphagia + weight loss = cancer until proven otherwise → urgent OGD and biopsy.</text>
+<circle cx="60" cy="1422.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1426.5" font-size="12" font-weight="600" fill="#38141A">PET-CT before radical treatment finds occult metastases and can spare a non-curative resection.</text>
+<circle cx="60" cy="1444.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1448.5" font-size="12" font-weight="600" fill="#38141A">Offer staging laparoscopy + peritoneal cytology to ALL curable gastric cancers — CT misses peritoneal disease.</text>
+<circle cx="60" cy="1466.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1470.5" font-size="12" font-weight="600" fill="#38141A">FLOT (perioperative) has replaced ECF / MAGIC for gastric / GOJ adenocarcinoma; CROSS remains standard for oesophageal SCC.</text>
+<circle cx="60" cy="1488.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1492.5" font-size="12" font-weight="600" fill="#38141A">Test adenocarcinomas for HER2 (trastuzumab); increasingly PD-L1 for immunotherapy.</text>
+<circle cx="60" cy="1510.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1514.5" font-size="12" font-weight="600" fill="#38141A">Linitis plastica (diffuse gastric) gives a rigid, non-distensible stomach — superficial biopsies can be falsely negative, so sample deep /</text>
+<text x="72" y="1532.5" font-size="12" font-weight="400" fill="#2E3C42">repeat.</text>
+<line x1="30" y1="1574.5" x2="970" y2="1574.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1593.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG83 (oesophago-gastric cancer, 2018) · NICE NG12 (referral) · TNM 8. Trials: FLOT4 (Al-Batran, Lancet 2019); CROSS (van Hagen, NEJM 2012); ESOPEC (2024);</text>
+<text x="30" y="1607.5" font-size="10.5" font-weight="400" fill="#7C8A8E">CheckMate-577 (Kelly, NEJM 2021); ToGA (Bang, Lancet 2010).</text>
+<text x="30" y="1621.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Siewert classification applies to gastro-oesophageal junction adenocarcinoma. Surgery is covered on the companion sheet (2 of 2).</text>
+<text x="30" y="1635.5" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="1655.5" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="1684.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1684.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

@@ -1,0 +1,132 @@
+<svg viewBox="0 0 1000 1396.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1396.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Oesophago-gastric cancer — surgery</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  UK practice (NICE NG83)  ·  oesophagectomy · gastrectomy · principles  ·  OG cancer (2 of 2)</text>
+<rect x="30" y="126" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">OESOPHAGECTOMY — APPROACHES</text>
+<rect x="30" y="156" width="302" height="238" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 202 L 30 167 Q 30 156 41 156 L 321 156 Q 332 156 332 167 L 332 202 Z" fill="#15806A"/>
+<text x="44" y="177" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">IVOR-LEWIS</text>
+<text x="44" y="194" font-size="11.5" font-weight="600" fill="#FFFFFF">2-stage</text>
+<text x="44" y="220" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Access</text>
+<text x="44" y="235" font-size="11" font-weight="400" fill="#2E3C42">laparotomy + right thoracotomy (2-stage)</text>
+<text x="44" y="259" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Anastomosis</text>
+<text x="44" y="274" font-size="11" font-weight="400" fill="#2E3C42">intrathoracic (upper chest)</text>
+<text x="44" y="298" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Best for</text>
+<text x="44" y="313" font-size="11" font-weight="400" fill="#2E3C42">mid &amp; lower oesophagus / Siewert I–II</text>
+<text x="44" y="337" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Watch</text>
+<text x="44" y="352" font-size="11" font-weight="400" fill="#2E3C42">leak is intrathoracic → mediastinitis</text>
+<rect x="348" y="156" width="302" height="238" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348 202 L 348 167 Q 348 156 359 156 L 639 156 Q 650 156 650 167 L 650 202 Z" fill="#245C8C"/>
+<text x="362" y="177" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">McKEOWN</text>
+<text x="362" y="194" font-size="11.5" font-weight="600" fill="#FFFFFF">3-stage</text>
+<text x="362" y="220" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Access</text>
+<text x="362" y="235" font-size="11" font-weight="400" fill="#2E3C42">abdomen + right thorax + neck (3-stage)</text>
+<text x="362" y="259" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Anastomosis</text>
+<text x="362" y="274" font-size="11" font-weight="400" fill="#2E3C42">cervical (neck)</text>
+<text x="362" y="298" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Best for</text>
+<text x="362" y="313" font-size="11" font-weight="400" fill="#2E3C42">more proximal tumours</text>
+<text x="362" y="337" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Watch</text>
+<text x="362" y="352" font-size="11" font-weight="400" fill="#2E3C42">↑ recurrent laryngeal nerve palsy; neck leak</text>
+<text x="362" y="367" font-size="11" font-weight="400" fill="#2E3C42">better contained</text>
+<rect x="666" y="156" width="302" height="238" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 666 202 L 666 167 Q 666 156 677 156 L 957 156 Q 968 156 968 167 L 968 202 Z" fill="#C77B20"/>
+<text x="680" y="177" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TRANSHIATAL</text>
+<text x="680" y="194" font-size="11.5" font-weight="600" fill="#FFFFFF">no thoracotomy</text>
+<text x="680" y="220" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Access</text>
+<text x="680" y="235" font-size="11" font-weight="400" fill="#2E3C42">abdomen + neck — no thoracotomy</text>
+<text x="680" y="259" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Anastomosis</text>
+<text x="680" y="274" font-size="11" font-weight="400" fill="#2E3C42">cervical (neck)</text>
+<text x="680" y="298" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Best for</text>
+<text x="680" y="313" font-size="11" font-weight="400" fill="#2E3C42">lower / GOJ; poor pulmonary reserve</text>
+<text x="680" y="337" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Watch</text>
+<text x="680" y="352" font-size="11" font-weight="400" fill="#2E3C42">blunt mediastinal dissection; smaller nodal</text>
+<text x="680" y="367" font-size="11" font-weight="400" fill="#2E3C42">harvest</text>
+<rect x="30" y="400" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="416" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">OESOPHAGECTOMY — CONDUCT &amp; COMPLICATIONS</text>
+<rect x="30" y="430" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="430" width="6" height="184.5" fill="#245C8C" rx="3"/>
+<text x="54" y="458" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">gastric conduit · 2-field nodes · watch the anastomosis</text>
+<text x="54" y="482" font-size="18" font-weight="800" fill="#38141A">Key points</text>
+<text x="54" y="504" font-size="12" font-weight="700" fill="#245C8C">Conduit</text>
+<text x="162" y="504.0" font-size="12" font-weight="400" fill="#2E3C42">stomach (commonest — based on the right gastroepiploic artery); colon or jejunum if stomach unavailable</text>
+<text x="54" y="524.5" font-size="12" font-weight="700" fill="#245C8C">Lymphadenectomy</text>
+<text x="162" y="524.5" font-size="12" font-weight="400" fill="#2E3C42">2-field (abdomen + thorax); 3-field (+ neck) in selected proximal tumours</text>
+<text x="54" y="545.0" font-size="12" font-weight="700" fill="#245C8C">Complications</text>
+<text x="162" y="545.0" font-size="12" font-weight="400" fill="#2E3C42">anastomotic leak (major — mediastinitis / sepsis); respiratory (pneumonia — commonest morbidity / death); chyle leak</text>
+<text x="162" y="565.5" font-size="12" font-weight="400" fill="#2E3C42">(thoracic-duct injury → ligation); recurrent laryngeal nerve palsy (cervical); conduit ischaemia / necrosis; delayed gastric</text>
+<text x="162" y="586.0" font-size="12" font-weight="400" fill="#2E3C42">emptying; anastomotic stricture</text>
+<text x="54" y="606.5" font-size="12" font-weight="700" fill="#245C8C">Nutrition</text>
+<text x="162" y="606.5" font-size="12" font-weight="400" fill="#2E3C42">feeding jejunostomy at the time of surgery</text>
+<rect x="30" y="620.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="636.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">GASTRECTOMY</text>
+<rect x="30" y="650.5" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="650.5" width="6" height="184.5" fill="#C77B20" rx="3"/>
+<text x="54" y="678.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">match extent to site · D2 nodes · Roux-en-Y</text>
+<text x="54" y="702.5" font-size="18" font-weight="800" fill="#38141A">Principles &amp; complications</text>
+<text x="54" y="724.5" font-size="12" font-weight="700" fill="#C77B20">Extent</text>
+<text x="162" y="724.5" font-size="12" font-weight="400" fill="#2E3C42">total (proximal / body / diffuse / Siewert III) vs subtotal-distal (distal antral); margins ≥5 cm (≥8 cm in diffuse)</text>
+<text x="54" y="745.0" font-size="12" font-weight="700" fill="#C77B20">Lymphadenectomy</text>
+<text x="162" y="745.0" font-size="12" font-weight="400" fill="#2E3C42">D2 (perigastric + named coeliac-axis nodes) — UK / European standard; spleen &amp; pancreas preserved unless involved</text>
+<text x="54" y="765.5" font-size="12" font-weight="700" fill="#C77B20">Reconstruction</text>
+<text x="162" y="765.5" font-size="12" font-weight="400" fill="#2E3C42">Roux-en-Y — oesophagojejunostomy (total) / gastrojejunostomy (distal); Billroth I / II alternatives</text>
+<text x="54" y="786.0" font-size="12" font-weight="700" fill="#C77B20">Complications</text>
+<text x="162" y="786.0" font-size="12" font-weight="400" fill="#2E3C42">anastomotic leak, duodenal-stump blow-out, dumping, bile reflux, B12 deficiency (lifelong B12 after total), weight loss /</text>
+<text x="162" y="806.5" font-size="12" font-weight="400" fill="#2E3C42">small-stomach syndrome</text>
+<text x="54" y="827.0" font-size="12" font-weight="700" fill="#C77B20">Hereditary</text>
+<text x="162" y="827.0" font-size="12" font-weight="400" fill="#2E3C42">HDGC (CDH1) → prophylactic total gastrectomy</text>
+<rect x="30" y="841.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="857.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">PERIOPERATIVE PRINCIPLES</text>
+<rect x="30" y="871.0" width="464" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="871.0" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="54" y="899.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">optimise before, recover faster after</text>
+<text x="54" y="923.0" font-size="18" font-weight="800" fill="#38141A">Fitness &amp; recovery</text>
+<text x="54" y="945.0" font-size="12" font-weight="700" fill="#15806A">Assessment</text>
+<text x="134" y="945.0" font-size="12" font-weight="400" fill="#2E3C42">CPET &amp; cardiopulmonary work-up; treat only if R0</text>
+<text x="134" y="965.5" font-size="12" font-weight="400" fill="#2E3C42">achievable and M0</text>
+<text x="54" y="986.0" font-size="12" font-weight="700" fill="#15806A">Centralisation</text>
+<text x="134" y="986.0" font-size="12" font-weight="400" fill="#2E3C42">surgery in high-volume specialist centres improves</text>
+<text x="134" y="1006.5" font-size="12" font-weight="400" fill="#2E3C42">outcomes</text>
+<text x="54" y="1027.0" font-size="12" font-weight="700" fill="#15806A">Prehab &amp; ERAS</text>
+<text x="134" y="1027.0" font-size="12" font-weight="400" fill="#2E3C42">nutrition, physiotherapy, smoking cessation;</text>
+<text x="134" y="1047.5" font-size="12" font-weight="400" fill="#2E3C42">enhanced-recovery pathways</text>
+<rect x="506" y="871.0" width="464" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="506" y="871.0" width="6" height="164.0" fill="#6D4AA3" rx="3"/>
+<text x="530" y="899.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">nutrition is central</text>
+<text x="530" y="923.0" font-size="18" font-weight="800" fill="#38141A">Nutrition &amp; follow-up</text>
+<text x="530" y="945.0" font-size="12" font-weight="700" fill="#6D4AA3">Feeding</text>
+<text x="646" y="945.0" font-size="12" font-weight="400" fill="#2E3C42">feeding jejunostomy; early dietitian input</text>
+<text x="530" y="965.5" font-size="12" font-weight="700" fill="#6D4AA3">After total gastrectomy</text>
+<text x="646" y="965.5" font-size="12" font-weight="400" fill="#2E3C42">lifelong vitamin B12; manage dumping &amp; bile</text>
+<text x="646" y="986.0" font-size="12" font-weight="400" fill="#2E3C42">reflux</text>
+<text x="530" y="1006.5" font-size="12" font-weight="700" fill="#6D4AA3">Surveillance</text>
+<text x="646" y="1006.5" font-size="12" font-weight="400" fill="#2E3C42">MDT follow-up; manage anastomotic stricture</text>
+<text x="646" y="1027.0" font-size="12" font-weight="400" fill="#2E3C42">(dilatation)</text>
+<rect x="30" y="1061.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1077.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1091.5" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1091.5" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1113.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1117.5" font-size="12" font-weight="600" fill="#38141A">Anastomotic leak after oesophagectomy: tachycardia, new AF, sepsis or “failure to progress” — investigate early (CT + contrast / endoscopy).</text>
+<circle cx="60" cy="1135.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1139.5" font-size="12" font-weight="600" fill="#38141A">New atrial fibrillation after oesophagectomy can be the first sign of a leak.</text>
+<circle cx="60" cy="1157.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1161.5" font-size="12" font-weight="600" fill="#38141A">Milky chest-drain fluid after oesophagectomy = chyle leak (thoracic duct) — confirm with triglycerides; may need duct ligation.</text>
+<circle cx="60" cy="1179.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1183.5" font-size="12" font-weight="600" fill="#38141A">Hoarseness or aspiration after a neck anastomosis → recurrent laryngeal nerve palsy.</text>
+<circle cx="60" cy="1201.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1205.5" font-size="12" font-weight="600" fill="#38141A">After total gastrectomy, give lifelong vitamin B12 (loss of intrinsic factor).</text>
+<circle cx="60" cy="1223.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1227.5" font-size="12" font-weight="600" fill="#38141A">D2 lymphadenectomy is the UK standard; the spleen and pancreas are preserved unless directly involved.</text>
+<line x1="30" y1="1269.5" x2="970" y2="1269.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1288.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG83 (oesophago-gastric cancer, 2018) · AUGIS · TNM 8. Gastric conduit is based on the right gastroepiploic artery; D2 lymphadenectomy follows Japanese /</text>
+<text x="30" y="1302.5" font-size="10.5" font-weight="400" fill="#7C8A8E">European practice.</text>
+<text x="30" y="1316.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Diagnosis, staging, Siewert and oncology are on the companion sheet (1 of 2).</text>
+<text x="30" y="1330.5" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="1350.5" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="1379.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1379.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

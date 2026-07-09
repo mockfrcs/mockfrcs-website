@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1000 1497" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1497" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Gastric volvulus</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  organo-axial vs mesentero-axial · Borchardt’s triad  ·  OG emergencies (2 of 2)</text>
+<text x="30" y="140" font-size="13" font-weight="800" fill="#6E1E2A" letter-spacing="1.2">AT A GLANCE  ·  TWO TYPES COMPARED</text>
+<rect x="30" y="152" width="940" height="26" fill="#6E1E2A" rx="5"/>
+<text x="42" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Feature</text>
+<text x="330" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Organo-axial</text>
+<text x="660" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Mesentero-axial</text>
+<rect x="30" y="178" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="178" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="195" font-size="11.5" font-weight="700" fill="#38141A">Frequency</text>
+<text x="330" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">~60% (commonest)</text>
+<text x="660" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">~30%</text>
+<rect x="30" y="203" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="220" font-size="11.5" font-weight="700" fill="#38141A">Axis</text>
+<text x="330" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">long / cardiopyloric (GOJ→pylorus)</text>
+<text x="660" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">short / transverse (perpendicular)</text>
+<rect x="30" y="228" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="228" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="245" font-size="11.5" font-weight="700" fill="#38141A">Anatomy</text>
+<text x="330" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">greater curve rotates above lesser (“inverted” stomach)</text>
+<text x="660" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">antrum / pylorus flip antero-superiorly</text>
+<rect x="30" y="253" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="270" font-size="11.5" font-weight="700" fill="#38141A">Plane on CXR</text>
+<text x="330" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">horizontal</text>
+<text x="660" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">vertical</text>
+<rect x="30" y="278" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="278" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="295" font-size="11.5" font-weight="700" fill="#38141A">Association</text>
+<text x="330" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">para-oesophageal hernia / diaphragmatic defect</text>
+<text x="660" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">often none (idiopathic)</text>
+<rect x="30" y="303" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="320" font-size="11.5" font-weight="700" fill="#38141A">Onset</text>
+<text x="330" y="320" font-size="11.5" font-weight="400" fill="#2E3C42">acute</text>
+<text x="660" y="320" font-size="11.5" font-weight="400" fill="#2E3C42">chronic / intermittent</text>
+<rect x="30" y="328" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="328" width="4" height="25" fill="#6E1E2A"/>
+<text x="42" y="345" font-size="11.5" font-weight="700" fill="#38141A">Strangulation</text>
+<text x="330" y="345" font-size="11.5" font-weight="400" fill="#2E3C42">higher (up to ~30%)</text>
+<text x="660" y="345" font-size="11.5" font-weight="400" fill="#2E3C42">lower (often partial &lt; 180°)</text>
+<text x="30" y="368" font-size="10" font-weight="400" fill="#6B7B80">Combined type is the rarest. Classification is descriptive rather than prognostic — both can strangulate.</text>
+<rect x="30" y="376" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="392" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">DEFINITION &amp; CAUSES</text>
+<rect x="30" y="406" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="406" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="434" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">pathological rotation → closed-loop obstruction</text>
+<text x="54" y="458" font-size="18" font-weight="800" fill="#38141A">Definition &amp; aetiology</text>
+<text x="54" y="480" font-size="12" font-weight="700" fill="#245C8C">Definition</text>
+<text x="156" y="480.0" font-size="12" font-weight="400" fill="#2E3C42">rotation of the stomach &gt; 180° around an axis → closed-loop obstruction ± strangulation, ischaemia, necrosis, perforation</text>
+<text x="54" y="500.5" font-size="12" font-weight="700" fill="#245C8C">Primary (~⅓)</text>
+<text x="156" y="500.5" font-size="12" font-weight="400" fill="#2E3C42">laxity / absence of gastric ligaments (gastrophrenic, gastrosplenic, gastrohepatic, gastrocolic)</text>
+<text x="54" y="521.0" font-size="12" font-weight="700" fill="#245C8C">Secondary (~⅔)</text>
+<text x="156" y="521.0" font-size="12" font-weight="400" fill="#2E3C42">para-oesophageal (rolling) hiatus hernia — commonest; diaphragmatic defect / eventration / trauma; wandering spleen; adhesions</text>
+<text x="54" y="541.5" font-size="12" font-weight="700" fill="#245C8C">Epidemiology</text>
+<text x="156" y="541.5" font-size="12" font-weight="400" fill="#2E3C42">peak in the 5th decade; ~20% occur in infants (&lt; 1 yr, congenital diaphragmatic defect)</text>
+<rect x="30" y="555.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="571.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">PRESENTATION — BORCHARDT’S TRIAD</text>
+<rect x="30" y="585.5" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="585.5" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="54" y="613.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">acute emergency vs chronic / intermittent</text>
+<text x="54" y="637.5" font-size="18" font-weight="800" fill="#38141A">Clinical features</text>
+<text x="54" y="659.5" font-size="12" font-weight="700" fill="#C77B20">Borchardt’s triad</text>
+<text x="164" y="659.5" font-size="12" font-weight="400" fill="#2E3C42">(~70% of acute cases) 1) severe epigastric pain 2) unproductive retching (retching without vomiting) 3) inability to pass an NG</text>
+<text x="164" y="680.0" font-size="12" font-weight="400" fill="#2E3C42">tube</text>
+<text x="54" y="700.5" font-size="12" font-weight="700" fill="#C77B20">Acute</text>
+<text x="164" y="700.5" font-size="12" font-weight="400" fill="#2E3C42">sudden severe epigastric / lower-chest pain, distension; ± haematemesis (mucosal ischaemia); shock if strangulated</text>
+<text x="54" y="721.0" font-size="12" font-weight="700" fill="#C77B20">Chronic</text>
+<text x="164" y="721.0" font-size="12" font-weight="400" fill="#2E3C42">vague — postprandial pain, bloating, early satiety, reflux, intermittent dysphagia</text>
+<text x="54" y="741.5" font-size="12" font-weight="700" fill="#C77B20">Beware</text>
+<text x="164" y="741.5" font-size="12" font-weight="400" fill="#2E3C42">few abdominal signs if the stomach is intrathoracic — a soft abdomen does not reassure</text>
+<rect x="30" y="755.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="771.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">INVESTIGATION</text>
+<rect x="30" y="785.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="785.5" width="6" height="143.5" fill="#6D4AA3" rx="3"/>
+<text x="54" y="813.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">CT is diagnostic — and assesses viability</text>
+<text x="54" y="837.5" font-size="18" font-weight="800" fill="#38141A">Imaging</text>
+<text x="54" y="859.5" font-size="12" font-weight="700" fill="#6D4AA3">CXR</text>
+<text x="156" y="859.5" font-size="12" font-weight="400" fill="#2E3C42">retrocardiac gas-filled viscus / double air-fluid level in chest or upper abdomen; intrathoracic stomach</text>
+<text x="54" y="880.0" font-size="12" font-weight="700" fill="#6D4AA3">CT (diagnostic)</text>
+<text x="156" y="880.0" font-size="12" font-weight="400" fill="#2E3C42">transition / whirl, antrum-fundus relationship, hernia; mural non-enhancement or pneumatosis = ischaemia</text>
+<text x="54" y="900.5" font-size="12" font-weight="700" fill="#6D4AA3">Contrast study</text>
+<text x="156" y="900.5" font-size="12" font-weight="400" fill="#2E3C42">obstruction / “beak” at the site of the twist</text>
+<text x="54" y="921.0" font-size="12" font-weight="700" fill="#6D4AA3">OGD</text>
+<text x="156" y="921.0" font-size="12" font-weight="400" fill="#2E3C42">tortuous stomach, mucosal ischaemia, difficulty passing the pylorus — can be therapeutic (detorsion)</text>
+<rect x="30" y="935.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="951.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT</text>
+<rect x="30" y="965.0" width="940" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="965.0" width="6" height="205.0" fill="#15806A" rx="3"/>
+<text x="54" y="993.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">decompress, resuscitate — operate if ischaemia</text>
+<text x="54" y="1017.0" font-size="18" font-weight="800" fill="#38141A">Management</text>
+<text x="54" y="1039.0" font-size="12" font-weight="700" fill="#15806A">Immediate</text>
+<text x="170" y="1039.0" font-size="12" font-weight="400" fill="#2E3C42">resuscitate (ABCDE, IV fluids, correct electrolytes); attempt NG decompression (may partially reduce); urgent surgery if</text>
+<text x="170" y="1059.5" font-size="12" font-weight="400" fill="#2E3C42">strangulation / ischaemia</text>
+<text x="54" y="1080.0" font-size="12" font-weight="700" fill="#15806A">Acute / strangulated</text>
+<text x="170" y="1080.0" font-size="12" font-weight="400" fill="#2E3C42">emergency laparotomy or laparoscopy — detorsion, assess viability, resect necrotic stomach if needed, then anterior gastropexy</text>
+<text x="170" y="1100.5" font-size="12" font-weight="400" fill="#2E3C42">± hiatal / para-oesophageal hernia repair ± fundoplication</text>
+<text x="54" y="1121.0" font-size="12" font-weight="700" fill="#15806A">Endoscopic</text>
+<text x="170" y="1121.0" font-size="12" font-weight="400" fill="#2E3C42">detorsion in selected patients, or as temporising measure in the frail / unfit</text>
+<text x="54" y="1141.5" font-size="12" font-weight="700" fill="#15806A">High-risk / unfit</text>
+<text x="170" y="1141.5" font-size="12" font-weight="400" fill="#2E3C42">endoscopic reduction + PEG gastropexy (“double PEG”) to fix the stomach</text>
+<text x="54" y="1162.0" font-size="12" font-weight="700" fill="#15806A">Elective</text>
+<text x="170" y="1162.0" font-size="12" font-weight="400" fill="#2E3C42">repair the underlying hernia + gastropexy / fundoplication; elective para-oesophageal hernia repair prevents recurrence</text>
+<rect x="30" y="1176.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1192.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1206.0" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1206.0" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1228.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1232.0" font-size="12" font-weight="600" fill="#38141A">Borchardt’s triad (pain + unproductive retching + can’t pass an NG tube) = gastric volvulus until proven otherwise → urgent CT.</text>
+<circle cx="60" cy="1250.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1254.0" font-size="12" font-weight="600" fill="#38141A">Inability to pass an NG tube here is a surgical alarm, not a nursing problem.</text>
+<circle cx="60" cy="1272.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1276.0" font-size="12" font-weight="600" fill="#38141A">Strangulation risk is highest with organo-axial volvulus + para-oesophageal hernia — low threshold for surgery.</text>
+<circle cx="60" cy="1294.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1298.0" font-size="12" font-weight="600" fill="#38141A">An intrathoracic stomach may give few abdominal signs — a normal abdomen does not exclude it.</text>
+<circle cx="60" cy="1316.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1320.0" font-size="12" font-weight="600" fill="#38141A">Elderly patient, acute epigastric pain + retching + known hiatus hernia → think volvulus.</text>
+<circle cx="60" cy="1338.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1342.0" font-size="12" font-weight="600" fill="#38141A">Offer elective para-oesophageal hernia repair to prevent recurrent volvulus where appropriate.</text>
+<line x1="30" y1="1384.0" x2="970" y2="1384.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1403.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: surgical literature / reviews (no single NICE guideline). Borchardt’s triad (Borchardt, 1904). Classification: organo-axial / mesentero-axial / combined.</text>
+<text x="30" y="1417.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Approximate frequencies and strangulation rates vary between series; classification is descriptive rather than prognostic.</text>
+<text x="30" y="1431.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="1451" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="1480" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1480" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

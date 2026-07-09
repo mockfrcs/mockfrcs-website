@@ -1,0 +1,169 @@
+<svg viewBox="0 0 1000 1666" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1666" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Gastric polyps</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  UK practice (BSG 2019)  ·  classification · significance · when to sample / excise</text>
+<text x="30" y="140" font-size="13" font-weight="800" fill="#6E1E2A" letter-spacing="1.2">AT A GLANCE  ·  CLASSIFICATION</text>
+<rect x="30" y="152" width="940" height="26" fill="#6E1E2A" rx="5"/>
+<text x="42" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Type</text>
+<text x="200" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Association</text>
+<text x="520" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Malignant potential</text>
+<text x="712" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Management</text>
+<rect x="30" y="178" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="178" width="4" height="25" fill="#15806A"/>
+<text x="42" y="195" font-size="11.5" font-weight="700" fill="#38141A">Fundic gland</text>
+<text x="200" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">commonest; PPI, FAP / GAPPS; inverse H. pylori</text>
+<text x="520" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">very low (sporadic)</text>
+<text x="712" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">biopsy if &gt;1 cm / FAP</text>
+<rect x="30" y="203" width="4" height="25" fill="#245C8C"/>
+<text x="42" y="220" font-size="11.5" font-weight="700" fill="#38141A">Hyperplastic</text>
+<text x="200" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">chronic / atrophic gastritis, H. pylori</text>
+<text x="520" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">low; ↑ if &gt;1 cm</text>
+<text x="712" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">treat H. pylori; excise &gt;1 cm / dysplastic</text>
+<rect x="30" y="228" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="228" width="4" height="25" fill="#BE3A2E"/>
+<text x="42" y="245" font-size="11.5" font-weight="700" fill="#38141A">Adenomatous</text>
+<text x="200" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">atrophic gastritis + intestinal metaplasia</text>
+<text x="520" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">high (premalignant)</text>
+<text x="712" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">excise all + surveillance</text>
+<rect x="30" y="253" width="4" height="25" fill="#6D4AA3"/>
+<text x="42" y="270" font-size="11.5" font-weight="700" fill="#38141A">Hamartomatous</text>
+<text x="200" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">syndromic (JPS, PJS, Cowden)</text>
+<text x="520" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">variable / low</text>
+<text x="712" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">treat syndrome; excise large</text>
+<rect x="30" y="278" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="278" width="4" height="25" fill="#C77B20"/>
+<text x="42" y="295" font-size="11.5" font-weight="700" fill="#38141A">Syndromic</text>
+<text x="200" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">FAP, GAPPS, JPS, PJS</text>
+<text x="520" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">per syndrome</text>
+<text x="712" y="295" font-size="11.5" font-weight="400" fill="#2E3C42">genetics + surveillance</text>
+<text x="30" y="318" font-size="10" font-weight="400" fill="#6B7B80">Neoplastic potential: adenomatous (high) &gt; hyperplastic (low, size-dependent) &gt; fundic gland (negligible if sporadic).</text>
+<rect x="30" y="326" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="342" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">FUNDIC GLAND  &amp;  HYPERPLASTIC</text>
+<rect x="30" y="356" width="464" height="246.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="356" width="6" height="246.0" fill="#15806A" rx="3"/>
+<text x="54" y="384" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">COMMONEST · usually benign</text>
+<text x="54" y="408" font-size="18" font-weight="800" fill="#38141A">Fundic gland polyp</text>
+<text x="54" y="430" font-size="12" font-weight="700" fill="#15806A">Histology</text>
+<text x="130" y="430.0" font-size="12" font-weight="400" fill="#2E3C42">cystically dilated oxyntic (fundic) glands; body /</text>
+<text x="130" y="450.5" font-size="12" font-weight="400" fill="#2E3C42">fundus</text>
+<text x="54" y="471.0" font-size="12" font-weight="700" fill="#15806A">Associations</text>
+<text x="130" y="471.0" font-size="12" font-weight="400" fill="#2E3C42">commonest gastric polyp; long-term PPI; inverse with H.</text>
+<text x="130" y="491.5" font-size="12" font-weight="400" fill="#2E3C42">pylori; FAP / GAPPS</text>
+<text x="54" y="512.0" font-size="12" font-weight="700" fill="#15806A">Significance</text>
+<text x="130" y="512.0" font-size="12" font-weight="400" fill="#2E3C42">sporadic — negligible (dysplasia &lt;1%); FAP / GAPPS —</text>
+<text x="130" y="532.5" font-size="12" font-weight="400" fill="#2E3C42">may be dysplastic</text>
+<text x="54" y="553.0" font-size="12" font-weight="700" fill="#15806A">When to act</text>
+<text x="130" y="553.0" font-size="12" font-weight="400" fill="#2E3C42">no routine excision if sporadic / small / typical;</text>
+<text x="130" y="573.5" font-size="12" font-weight="400" fill="#2E3C42">biopsy if &gt;1 cm, ulcerated or FAP; numerous or young →</text>
+<text x="130" y="594.0" font-size="12" font-weight="400" fill="#2E3C42">exclude FAP / GAPPS</text>
+<rect x="506" y="356" width="464" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="506" y="356" width="6" height="225.5" fill="#245C8C" rx="3"/>
+<text x="530" y="384" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">2ND COMMONEST · field marker</text>
+<text x="530" y="408" font-size="18" font-weight="800" fill="#38141A">Hyperplastic polyp</text>
+<text x="530" y="430" font-size="12" font-weight="700" fill="#245C8C">Histology</text>
+<text x="606" y="430.0" font-size="12" font-weight="400" fill="#2E3C42">tortuous hyperplastic foveolar glands, inflamed stroma;</text>
+<text x="606" y="450.5" font-size="12" font-weight="400" fill="#2E3C42">often antrum</text>
+<text x="530" y="471.0" font-size="12" font-weight="700" fill="#245C8C">Associations</text>
+<text x="606" y="471.0" font-size="12" font-weight="400" fill="#2E3C42">chronic &amp; atrophic gastritis, H. pylori, adjacent</text>
+<text x="606" y="491.5" font-size="12" font-weight="400" fill="#2E3C42">ulcers / stomas</text>
+<text x="530" y="512.0" font-size="12" font-weight="700" fill="#245C8C">Significance</text>
+<text x="606" y="512.0" font-size="12" font-weight="400" fill="#2E3C42">low but real (focal dysplasia / carcinoma, rises &gt;1</text>
+<text x="606" y="532.5" font-size="12" font-weight="400" fill="#2E3C42">cm); marker of mucosal field change</text>
+<text x="530" y="553.0" font-size="12" font-weight="700" fill="#245C8C">When to act</text>
+<text x="606" y="553.0" font-size="12" font-weight="400" fill="#2E3C42">treat H. pylori (may regress); assess background;</text>
+<text x="606" y="573.5" font-size="12" font-weight="400" fill="#2E3C42">excise if &gt;1 cm, dysplastic or symptomatic</text>
+<rect x="30" y="608.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="624.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">ADENOMATOUS  &amp;  HAMARTOMATOUS / SYNDROMIC</text>
+<rect x="30" y="638.0" width="464" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="638.0" width="6" height="205.0" fill="#BE3A2E" rx="3"/>
+<text x="54" y="666.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">NEOPLASTIC · premalignant</text>
+<text x="54" y="690.0" font-size="18" font-weight="800" fill="#38141A">Adenomatous polyp</text>
+<text x="54" y="712.0" font-size="12" font-weight="700" fill="#BE3A2E">Histology</text>
+<text x="130" y="712.0" font-size="12" font-weight="400" fill="#2E3C42">true dysplastic neoplasm; intestinal-type (commonest),</text>
+<text x="130" y="732.5" font-size="12" font-weight="400" fill="#2E3C42">foveolar, pyloric- &amp; oxyntic-gland</text>
+<text x="54" y="753.0" font-size="12" font-weight="700" fill="#BE3A2E">Associations</text>
+<text x="130" y="753.0" font-size="12" font-weight="400" fill="#2E3C42">atrophic gastritis + intestinal metaplasia; FAP</text>
+<text x="54" y="773.5" font-size="12" font-weight="700" fill="#BE3A2E">Significance</text>
+<text x="130" y="773.5" font-size="12" font-weight="400" fill="#2E3C42">premalignant; risk ↑ with size &gt;2 cm, villous,</text>
+<text x="130" y="794.0" font-size="12" font-weight="400" fill="#2E3C42">high-grade dysplasia; synchronous cancer</text>
+<text x="54" y="814.5" font-size="12" font-weight="700" fill="#BE3A2E">When to act</text>
+<text x="130" y="814.5" font-size="12" font-weight="400" fill="#2E3C42">excise ALL completely (EMR / ESD); sample background;</text>
+<text x="130" y="835.0" font-size="12" font-weight="400" fill="#2E3C42">surveillance; MDT if invasive</text>
+<rect x="506" y="638.0" width="464" height="246.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="506" y="638.0" width="6" height="246.0" fill="#6D4AA3" rx="3"/>
+<text x="530" y="666.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">HAMARTOMA · syndromes</text>
+<text x="530" y="690.0" font-size="18" font-weight="800" fill="#38141A">Hamartomatous / syndromic</text>
+<text x="530" y="712.0" font-size="12" font-weight="700" fill="#6D4AA3">Hamartoma</text>
+<text x="598" y="712.0" font-size="12" font-weight="400" fill="#2E3C42">juvenile &amp; Peutz-Jeghers polyps, Cowden (PTEN) — usually</text>
+<text x="598" y="732.5" font-size="12" font-weight="400" fill="#2E3C42">syndromic</text>
+<text x="530" y="753.0" font-size="12" font-weight="700" fill="#6D4AA3">FAP</text>
+<text x="598" y="753.0" font-size="12" font-weight="400" fill="#2E3C42">fundic gland polyposis (± dysplasia); gastric / duodenal</text>
+<text x="598" y="773.5" font-size="12" font-weight="400" fill="#2E3C42">adenomas (duodenal staged by Spigelman)</text>
+<text x="530" y="794.0" font-size="12" font-weight="700" fill="#6D4AA3">GAPPS</text>
+<text x="598" y="794.0" font-size="12" font-weight="400" fill="#2E3C42">AD, APC promoter 1B; &gt;100 proximal FGPs, antral sparing,</text>
+<text x="598" y="814.5" font-size="12" font-weight="400" fill="#2E3C42">no colonic polyps; high gastric-cancer risk → consider</text>
+<text x="598" y="835.0" font-size="12" font-weight="400" fill="#2E3C42">prophylactic gastrectomy</text>
+<text x="530" y="855.5" font-size="12" font-weight="700" fill="#6D4AA3">JPS / PJS</text>
+<text x="598" y="855.5" font-size="12" font-weight="400" fill="#2E3C42">SMAD4 · BMPR1A / STK11; multiple hamartomas; ↑ gastric &amp;</text>
+<text x="598" y="876.0" font-size="12" font-weight="400" fill="#2E3C42">GI cancer → surveillance</text>
+<rect x="30" y="890.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="906.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT PRINCIPLES  (BSG 2019)</text>
+<rect x="30" y="920.0" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="920.0" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="54" y="948.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">type the polyp — and read the field it grows in</text>
+<text x="54" y="972.0" font-size="18" font-weight="800" fill="#38141A">Approach</text>
+<text x="54" y="994.0" font-size="12" font-weight="700" fill="#15806A">Biopsy &amp; document</text>
+<text x="180" y="994.0" font-size="12" font-weight="400" fill="#2E3C42">biopsy all polyps except typical FGPs; photo-document all (or representative polyps if numerous)</text>
+<text x="54" y="1014.5" font-size="12" font-weight="700" fill="#15806A">Background mucosa</text>
+<text x="180" y="1014.5" font-size="12" font-weight="400" fill="#2E3C42">if adenoma or hyperplastic → biopsy background for gastric atrophy, intestinal metaplasia and H. pylori (map cancer risk)</text>
+<text x="54" y="1035.0" font-size="12" font-weight="700" fill="#15806A">H. pylori</text>
+<text x="180" y="1035.0" font-size="12" font-weight="400" fill="#2E3C42">test &amp; treat (hyperplastic &amp; adenomatous) — polyps may regress after eradication</text>
+<text x="54" y="1055.5" font-size="12" font-weight="700" fill="#15806A">Resect</text>
+<text x="180" y="1055.5" font-size="12" font-weight="400" fill="#2E3C42">excise dysplastic, adenomatous, &gt;1 cm or symptomatic polyps (EMR / ESD); remove the largest if numerous</text>
+<text x="54" y="1076.0" font-size="12" font-weight="700" fill="#15806A">Syndromes</text>
+<text x="180" y="1076.0" font-size="12" font-weight="400" fill="#2E3C42">multiple polyps, young age or family history → genetics referral (FAP / GAPPS / JPS / PJS)</text>
+<text x="54" y="1096.5" font-size="12" font-weight="700" fill="#15806A">Surveillance</text>
+<text x="180" y="1096.5" font-size="12" font-weight="400" fill="#2E3C42">guided by histology + background risk (extent of atrophy / intestinal metaplasia — BSG / MAPS)</text>
+<rect x="30" y="1110.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1126.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">FURTHER ASPECTS</text>
+<rect x="30" y="1140.5" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1140.5" width="6" height="184.5" fill="#C77B20" rx="3"/>
+<text x="54" y="1168.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">beyond epithelial polyps</text>
+<text x="54" y="1192.5" font-size="18" font-weight="800" fill="#38141A">Also examinable</text>
+<text x="54" y="1214.5" font-size="12" font-weight="700" fill="#C77B20">Gastric NETs</text>
+<text x="180" y="1214.5" font-size="12" font-weight="400" fill="#2E3C42">discriminator = serum gastrin. Type 1 (↑ gastrin, autoimmune atrophic gastritis; multiple small, indolent — endoscopic</text>
+<text x="180" y="1235.0" font-size="12" font-weight="400" fill="#2E3C42">resection / surveillance ± antrectomy); Type 2 (↑ gastrin, gastrinoma / MEN1-ZES); Type 3 (normal gastrin, sporadic,</text>
+<text x="180" y="1255.5" font-size="12" font-weight="400" fill="#2E3C42">aggressive → gastrectomy + lymphadenectomy)</text>
+<text x="54" y="1276.0" font-size="12" font-weight="700" fill="#C77B20">Submucosal mimics</text>
+<text x="180" y="1276.0" font-size="12" font-weight="400" fill="#2E3C42">GIST, leiomyoma, lipoma, pancreatic rest, inflammatory fibroid polyp (Vanek) — not epithelial; EUS ± biopsy before snaring</text>
+<text x="54" y="1296.5" font-size="12" font-weight="700" fill="#C77B20">Correa cascade</text>
+<text x="180" y="1296.5" font-size="12" font-weight="400" fill="#2E3C42">chronic gastritis → atrophy → intestinal metaplasia → dysplasia → intestinal-type adenocarcinoma (why background sampling &amp;</text>
+<text x="180" y="1317.0" font-size="12" font-weight="400" fill="#2E3C42">surveillance matter)</text>
+<rect x="30" y="1331.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1347.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1361.0" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1361.0" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1383.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1387.0" font-size="12" font-weight="600" fill="#38141A">Adenomatous gastric polyps are premalignant — always excise completely and sample the background mucosa.</text>
+<circle cx="60" cy="1405.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1409.0" font-size="12" font-weight="600" fill="#38141A">Multiple gastric polyps in a young patient → think FAP / GAPPS (proximal FGPs with antral sparing) and refer to genetics.</text>
+<circle cx="60" cy="1427.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1431.0" font-size="12" font-weight="600" fill="#38141A">Don’t just snare a hyperplastic polyp — treat H. pylori and assess the field (atrophy / intestinal metaplasia) for cancer risk.</text>
+<circle cx="60" cy="1449.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1453.0" font-size="12" font-weight="600" fill="#38141A">A solitary firm or ulcerated lesion, or a normal-gastrin (Type 3) NET, may be aggressive — biopsy and stage.</text>
+<circle cx="60" cy="1471.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1475.0" font-size="12" font-weight="600" fill="#38141A">Submucosal lesions are not epithelial polyps — EUS before snaring (a GIST can bleed or perforate).</text>
+<circle cx="60" cy="1493.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1497.0" font-size="12" font-weight="600" fill="#38141A">Fundic gland polyps are usually benign, but dysplasia within them — especially in FAP / GAPPS — changes management.</text>
+<line x1="30" y1="1539.0" x2="970" y2="1539.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1558.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: BSG 2019 (Banks et al., Gut) — diagnosis &amp; management of patients at risk of gastric adenocarcinoma; WHO classification of gastric tumours; MAPS II (Pimentel-Nunes</text>
+<text x="30" y="1572.0" font-size="10.5" font-weight="400" fill="#7C8A8E">et al., 2019) for atrophy / intestinal-metaplasia surveillance.</text>
+<text x="30" y="1586.0" font-size="10.5" font-weight="400" fill="#7C8A8E">GAPPS — APC promoter 1B (autosomal dominant). Spigelman staging (FAP duodenal / ampullary adenomas) is covered separately.</text>
+<text x="30" y="1600.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="1620" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="1649" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1649" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

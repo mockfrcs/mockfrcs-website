@@ -1,0 +1,193 @@
+<svg viewBox="0 0 1000 1779" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1779" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E1E2A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Bariatric &amp; metabolic surgery</text>
+<text x="30" y="74" font-size="13.5" font-weight="500" fill="#E7BEC3">FRCS Part 1 (General Surgery)  ·  UK practice (NICE CG189 · BOMSS · NHS England)  ·  pathway, referral, procedures &amp; complications</text>
+<text x="30" y="140" font-size="13" font-weight="800" fill="#6E1E2A" letter-spacing="1.2">AT A GLANCE  ·  PROCEDURES COMPARED</text>
+<rect x="30" y="152" width="940" height="26" fill="#6E1E2A" rx="5"/>
+<text x="42" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Procedure</text>
+<text x="250" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Mechanism</text>
+<text x="548" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">%EWL</text>
+<text x="632" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">T2DM</text>
+<text x="712" y="169" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">Signature risk</text>
+<rect x="30" y="178" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="178" width="4" height="25" fill="#C77B20"/>
+<text x="42" y="195" font-size="11.5" font-weight="700" fill="#38141A">Adjustable gastric band</text>
+<text x="250" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">restrictive; adjustable &amp; reversible</text>
+<text x="548" y="195" font-size="11.5" font-weight="700" fill="#38141A">~40–50%</text>
+<text x="632" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">modest</text>
+<text x="712" y="195" font-size="11.5" font-weight="400" fill="#2E3C42">slippage, erosion; high reoperation</text>
+<rect x="30" y="203" width="4" height="25" fill="#15806A"/>
+<text x="42" y="220" font-size="11.5" font-weight="700" fill="#38141A">Sleeve gastrectomy</text>
+<text x="250" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">restrictive + ↓ ghrelin (hormonal)</text>
+<text x="548" y="220" font-size="11.5" font-weight="700" fill="#38141A">~50–60%</text>
+<text x="632" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">good</text>
+<text x="712" y="220" font-size="11.5" font-weight="400" fill="#2E3C42">staple-line leak (angle of His); GORD</text>
+<rect x="30" y="228" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="228" width="4" height="25" fill="#6D4AA3"/>
+<text x="42" y="245" font-size="11.5" font-weight="700" fill="#38141A">Roux-en-Y gastric bypass</text>
+<text x="250" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">restrictive + malabsorptive + incretin</text>
+<text x="548" y="245" font-size="11.5" font-weight="700" fill="#38141A">~60–70%</text>
+<text x="632" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">best</text>
+<text x="712" y="245" font-size="11.5" font-weight="400" fill="#2E3C42">internal (Petersen) hernia; ulcer</text>
+<rect x="30" y="253" width="4" height="25" fill="#6B7B80"/>
+<text x="42" y="270" font-size="11.5" font-weight="700" fill="#38141A">Also: OAGB / BPD-DS</text>
+<text x="250" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">single-anastomosis bypass / diversion</text>
+<text x="548" y="270" font-size="11.5" font-weight="700" fill="#38141A">high</text>
+<text x="632" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">high</text>
+<text x="712" y="270" font-size="11.5" font-weight="400" fill="#2E3C42">more malabsorption / deficiencies</text>
+<text x="30" y="293" font-size="10" font-weight="400" fill="#6B7B80">%EWL = percentage excess weight loss (approximate, varies between series). Band now rarely offered on the NHS.</text>
+<rect x="30" y="301" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="317" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">NHS FOUR-TIER WEIGHT-MANAGEMENT PATHWAY</text>
+<rect x="30" y="331" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="331" width="6" height="164.0" fill="#15806A" rx="3"/>
+<text x="54" y="359" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">stepped care · Tier 3 is the usual gateway to Tier 4</text>
+<text x="54" y="383" font-size="18" font-weight="800" fill="#38141A">Four-tier pathway</text>
+<text x="54" y="405" font-size="12" font-weight="700" fill="#15806A">Tier 1</text>
+<text x="118" y="405.0" font-size="12" font-weight="400" fill="#2E3C42">universal / public-health prevention — healthy-eating &amp; physical-activity promotion, national campaigns</text>
+<text x="54" y="425.5" font-size="12" font-weight="700" fill="#15806A">Tier 2</text>
+<text x="118" y="425.5" font-size="12" font-weight="400" fill="#2E3C42">lifestyle / community weight management — multicomponent behavioural programmes (often 12 weeks; incl. commercial providers)</text>
+<text x="54" y="446.0" font-size="12" font-weight="700" fill="#15806A">Tier 3</text>
+<text x="118" y="446.0" font-size="12" font-weight="400" fill="#2E3C42">specialist MDT medical service — physician, specialist nurse, dietitian, psychologist, physiotherapist; intensive medical management</text>
+<text x="118" y="466.5" font-size="12" font-weight="400" fill="#2E3C42">incl. GLP-1 agonists (semaglutide / tirzepatide) and low-calorie / low-energy diets</text>
+<text x="54" y="487.0" font-size="12" font-weight="700" fill="#15806A">Tier 4</text>
+<text x="118" y="487.0" font-size="12" font-weight="400" fill="#2E3C42">specialist bariatric &amp; metabolic surgery — surgery with peri-operative MDT and long-term follow-up</text>
+<rect x="30" y="501.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="517.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">REFERRAL CRITERIA  (NICE CG189, updated 2023)</text>
+<rect x="30" y="531.0" width="940" height="287.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="531.0" width="6" height="287.0" fill="#245C8C" rx="3"/>
+<text x="54" y="559.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">balance surgical risk against long-term benefit</text>
+<text x="54" y="583.0" font-size="18" font-weight="800" fill="#38141A">Who to refer</text>
+<text x="54" y="605.0" font-size="12" font-weight="700" fill="#245C8C">Offer referral</text>
+<text x="180" y="605.0" font-size="12" font-weight="400" fill="#2E3C42">for MDT assessment if BMI ≥40, or 35–39.9 with a significant condition improvable by weight loss (T2DM, hypertension, OSA) —</text>
+<text x="180" y="625.5" font-size="12" font-weight="400" fill="#2E3C42">and the person agrees to lifelong annual follow-up</text>
+<text x="54" y="646.0" font-size="12" font-weight="700" fill="#245C8C">Ethnicity</text>
+<text x="180" y="646.0" font-size="12" font-weight="400" fill="#2E3C42">reduce the BMI threshold by 2.5 kg/m² for South Asian, Chinese, other Asian, Middle Eastern, Black African or</text>
+<text x="180" y="666.5" font-size="12" font-weight="400" fill="#2E3C42">African-Caribbean backgrounds (higher risk at lower BMI)</text>
+<text x="54" y="687.0" font-size="12" font-weight="700" fill="#245C8C">Expedited (T2DM)</text>
+<text x="180" y="687.0" font-size="12" font-weight="400" fill="#2E3C42">OFFER if BMI ≥35 + recent-onset (≤10 yr) T2DM; CONSIDER if BMI 30–34.9 + recent-onset T2DM (lower still for high-risk</text>
+<text x="180" y="707.5" font-size="12" font-weight="400" fill="#2E3C42">ethnicity)</text>
+<text x="54" y="728.0" font-size="12" font-weight="700" fill="#245C8C">BMI ≥50</text>
+<text x="180" y="728.0" font-size="12" font-weight="400" fill="#2E3C42">surgery may be considered first-line</text>
+<text x="54" y="748.5" font-size="12" font-weight="700" fill="#245C8C">2023 update</text>
+<text x="180" y="748.5" font-size="12" font-weight="400" fill="#2E3C42">patients no longer need to have completed all non-surgical measures first, nor be pre-judged fit for anaesthesia before</text>
+<text x="180" y="769.0" font-size="12" font-weight="400" fill="#2E3C42">referral — the specialist service assesses this</text>
+<text x="54" y="789.5" font-size="12" font-weight="700" fill="#245C8C">Pre-op workup</text>
+<text x="180" y="789.5" font-size="12" font-weight="400" fill="#2E3C42">MDT + psychological assessment; optimise comorbidities; smoking cessation; pre-op liver-shrinkage (low-calorie) diet;</text>
+<text x="180" y="810.0" font-size="12" font-weight="400" fill="#2E3C42">commitment to follow-up &amp; supplements</text>
+<rect x="30" y="824.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="840.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">THE THREE PROCEDURES</text>
+<rect x="30" y="854.0" width="304" height="275.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="854.0" width="6" height="275.0" fill="#C77B20" rx="3"/>
+<text x="52" y="880.0" font-size="10" font-weight="700" fill="#6B7B80" letter-spacing="1.0">RESTRICTIVE</text>
+<text x="52" y="902.0" font-size="16" font-weight="800" fill="#38141A">Gastric band</text>
+<text x="52" y="922.0" font-size="11.5" font-weight="700" fill="#C77B20">How</text>
+<text x="52" y="938.0" font-size="11.5" font-weight="400" fill="#2E3C42">silicone band around the upper stomach</text>
+<text x="52" y="954.5" font-size="11.5" font-weight="400" fill="#2E3C42">creates a small pouch; inflated / deflated</text>
+<text x="52" y="971.0" font-size="11.5" font-weight="400" fill="#2E3C42">via a subcutaneous port</text>
+<text x="52" y="987.5" font-size="11.5" font-weight="700" fill="#C77B20">Profile</text>
+<text x="52" y="1003.5" font-size="11.5" font-weight="400" fill="#2E3C42">~40–50% EWL; adjustable &amp; reversible; lowest</text>
+<text x="52" y="1020.0" font-size="11.5" font-weight="400" fill="#2E3C42">peri-operative risk</text>
+<text x="52" y="1036.5" font-size="11.5" font-weight="700" fill="#C77B20">Complications</text>
+<text x="52" y="1052.5" font-size="11.5" font-weight="400" fill="#2E3C42">slippage / prolapse; erosion into stomach;</text>
+<text x="52" y="1069.0" font-size="11.5" font-weight="400" fill="#2E3C42">port &amp; tubing problems (infection,</text>
+<text x="52" y="1085.5" font-size="11.5" font-weight="400" fill="#2E3C42">disconnection, flip); pouch / oesophageal</text>
+<text x="52" y="1102.0" font-size="11.5" font-weight="400" fill="#2E3C42">dilatation; inadequate weight loss → high</text>
+<text x="52" y="1118.5" font-size="11.5" font-weight="400" fill="#2E3C42">reoperation &amp; removal rates</text>
+<rect x="348" y="854.0" width="304" height="258.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="348" y="854.0" width="6" height="258.5" fill="#15806A" rx="3"/>
+<text x="370" y="880.0" font-size="10" font-weight="700" fill="#6B7B80" letter-spacing="1.0">RESTRICTIVE + HORMONAL</text>
+<text x="370" y="902.0" font-size="16" font-weight="800" fill="#38141A">Sleeve gastrectomy</text>
+<text x="370" y="922.0" font-size="11.5" font-weight="700" fill="#15806A">How</text>
+<text x="370" y="938.0" font-size="11.5" font-weight="400" fill="#2E3C42">~75–80% of the greater curve is stapled and</text>
+<text x="370" y="954.5" font-size="11.5" font-weight="400" fill="#2E3C42">removed, leaving a tubular stomach; reduces</text>
+<text x="370" y="971.0" font-size="11.5" font-weight="400" fill="#2E3C42">ghrelin</text>
+<text x="370" y="987.5" font-size="11.5" font-weight="700" fill="#15806A">Profile</text>
+<text x="370" y="1003.5" font-size="11.5" font-weight="400" fill="#2E3C42">~50–60% EWL; no anastomosis, no</text>
+<text x="370" y="1020.0" font-size="11.5" font-weight="400" fill="#2E3C42">malabsorption; single staple line</text>
+<text x="370" y="1036.5" font-size="11.5" font-weight="700" fill="#15806A">Complications</text>
+<text x="370" y="1052.5" font-size="11.5" font-weight="400" fill="#2E3C42">staple-line LEAK (proximal, angle of His —</text>
+<text x="370" y="1069.0" font-size="11.5" font-weight="400" fill="#2E3C42">difficult to heal); haemorrhage; stricture</text>
+<text x="370" y="1085.5" font-size="11.5" font-weight="400" fill="#2E3C42">at incisura; de novo / worsening GORD &amp;</text>
+<text x="370" y="1102.0" font-size="11.5" font-weight="400" fill="#2E3C42">Barrett’s; portal / splenic vein thrombosis</text>
+<rect x="666" y="854.0" width="304" height="258.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="666" y="854.0" width="6" height="258.5" fill="#6D4AA3" rx="3"/>
+<text x="688" y="880.0" font-size="10" font-weight="700" fill="#6B7B80" letter-spacing="1.0">RESTRICTIVE + MALABSORPTIVE</text>
+<text x="688" y="902.0" font-size="16" font-weight="800" fill="#38141A">Roux-en-Y bypass</text>
+<text x="688" y="922.0" font-size="11.5" font-weight="700" fill="#6D4AA3">How</text>
+<text x="688" y="938.0" font-size="11.5" font-weight="400" fill="#2E3C42">small gastric pouch anastomosed to a Roux</text>
+<text x="688" y="954.5" font-size="11.5" font-weight="400" fill="#2E3C42">limb (gastrojejunostomy); bypasses distal</text>
+<text x="688" y="971.0" font-size="11.5" font-weight="400" fill="#2E3C42">stomach &amp; duodenum; adds incretin effect</text>
+<text x="688" y="987.5" font-size="11.5" font-weight="700" fill="#6D4AA3">Profile</text>
+<text x="688" y="1003.5" font-size="11.5" font-weight="400" fill="#2E3C42">~60–70% EWL; best T2DM remission</text>
+<text x="688" y="1020.0" font-size="11.5" font-weight="700" fill="#6D4AA3">Complications</text>
+<text x="688" y="1036.0" font-size="11.5" font-weight="400" fill="#2E3C42">anastomotic leak / stricture; marginal ulcer</text>
+<text x="688" y="1052.5" font-size="11.5" font-weight="400" fill="#2E3C42">(avoid NSAIDs &amp; smoking); internal</text>
+<text x="688" y="1069.0" font-size="11.5" font-weight="400" fill="#2E3C42">(Petersen) hernia → SBO (may present late,</text>
+<text x="688" y="1085.5" font-size="11.5" font-weight="400" fill="#2E3C42">CT can be normal); dumping; nutritional</text>
+<text x="688" y="1102.0" font-size="11.5" font-weight="400" fill="#2E3C42">deficiencies; gallstones</text>
+<rect x="30" y="1135.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1151.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">COMPLICATIONS — GENERAL &amp; NUTRITIONAL</text>
+<rect x="30" y="1165.0" width="464" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1165.0" width="6" height="225.5" fill="#C77B20" rx="3"/>
+<text x="54" y="1193.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">EARLY / PERI-OPERATIVE</text>
+<text x="54" y="1217.0" font-size="18" font-weight="800" fill="#38141A">General &amp; early</text>
+<text x="54" y="1239.0" font-size="12" font-weight="700" fill="#C77B20">Leak</text>
+<text x="118" y="1239.0" font-size="12" font-weight="400" fill="#2E3C42">tachycardia (&gt;120) is often the ONLY early sign — leak</text>
+<text x="118" y="1259.5" font-size="12" font-weight="400" fill="#2E3C42">until proven otherwise; sepsis; low threshold for</text>
+<text x="118" y="1280.0" font-size="12" font-weight="400" fill="#2E3C42">contrast CT / re-laparoscopy</text>
+<text x="54" y="1300.5" font-size="12" font-weight="700" fill="#C77B20">VTE / PE</text>
+<text x="118" y="1300.5" font-size="12" font-weight="400" fill="#2E3C42">leading cause of early post-op death — mechanical +</text>
+<text x="118" y="1321.0" font-size="12" font-weight="400" fill="#2E3C42">pharmacological prophylaxis, early mobilisation</text>
+<text x="54" y="1341.5" font-size="12" font-weight="700" fill="#C77B20">Bleeding</text>
+<text x="118" y="1341.5" font-size="12" font-weight="400" fill="#2E3C42">staple-line or intraluminal haemorrhage</text>
+<text x="54" y="1362.0" font-size="12" font-weight="700" fill="#C77B20">Infection</text>
+<text x="118" y="1362.0" font-size="12" font-weight="400" fill="#2E3C42">wound / port-site; intra-abdominal collection</text>
+<text x="54" y="1382.5" font-size="12" font-weight="700" fill="#C77B20">Other</text>
+<text x="118" y="1382.5" font-size="12" font-weight="400" fill="#2E3C42">rhabdomyolysis (long operation, high BMI)</text>
+<rect x="506" y="1165.0" width="464" height="287.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="506" y="1165.0" width="6" height="287.0" fill="#15806A" rx="3"/>
+<text x="530" y="1193.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">NUTRITIONAL / LATE</text>
+<text x="530" y="1217.0" font-size="18" font-weight="800" fill="#38141A">Nutritional &amp; late</text>
+<text x="530" y="1239.0" font-size="12" font-weight="700" fill="#15806A">Deficiencies</text>
+<text x="596" y="1239.0" font-size="12" font-weight="400" fill="#2E3C42">iron, vitamin B12, folate, calcium, vitamin D, thiamine</text>
+<text x="596" y="1259.5" font-size="12" font-weight="400" fill="#2E3C42">(B1); fat-soluble vitamins &amp; protein, esp. after</text>
+<text x="596" y="1280.0" font-size="12" font-weight="400" fill="#2E3C42">malabsorptive procedures</text>
+<text x="530" y="1300.5" font-size="12" font-weight="700" fill="#15806A">Thiamine</text>
+<text x="596" y="1300.5" font-size="12" font-weight="400" fill="#2E3C42">persistent vomiting → Wernicke’s; give IV thiamine BEFORE</text>
+<text x="596" y="1321.0" font-size="12" font-weight="400" fill="#2E3C42">glucose</text>
+<text x="530" y="1341.5" font-size="12" font-weight="700" fill="#15806A">Dumping</text>
+<text x="596" y="1341.5" font-size="12" font-weight="400" fill="#2E3C42">early (osmotic; GI + vasomotor; 15–30 min) &amp; late</text>
+<text x="596" y="1362.0" font-size="12" font-weight="400" fill="#2E3C42">(reactive hypoglycaemia; 1–3 h) — mainly RYGB</text>
+<text x="530" y="1382.5" font-size="12" font-weight="700" fill="#15806A">Gallstones</text>
+<text x="596" y="1382.5" font-size="12" font-weight="400" fill="#2E3C42">rapid weight loss; consider ursodeoxycholic acid</text>
+<text x="596" y="1403.0" font-size="12" font-weight="400" fill="#2E3C42">prophylaxis</text>
+<text x="530" y="1423.5" font-size="12" font-weight="700" fill="#15806A">Follow-up</text>
+<text x="596" y="1423.5" font-size="12" font-weight="400" fill="#2E3C42">lifelong multivitamin + minerals &amp; annual bloods (BOMSS);</text>
+<text x="596" y="1444.0" font-size="12" font-weight="400" fill="#2E3C42">watch for weight regain</text>
+<rect x="30" y="1458.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1474.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1488.0" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1488.0" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1510.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1514.0" font-size="12" font-weight="600" fill="#38141A">Tachycardia (HR &gt;120) after any bariatric operation = anastomotic / staple-line leak until proven otherwise — don’t wait for peritonism.</text>
+<circle cx="60" cy="1532.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1536.0" font-size="12" font-weight="600" fill="#38141A">Persistent vomiting post-bariatric → give IV thiamine BEFORE glucose to prevent Wernicke’s encephalopathy.</text>
+<circle cx="60" cy="1554.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1558.0" font-size="12" font-weight="600" fill="#38141A">Internal hernia after RYGB: intermittent colicky pain; CT can be normal — have a low threshold for diagnostic laparoscopy.</text>
+<circle cx="60" cy="1576.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1580.0" font-size="12" font-weight="600" fill="#38141A">Avoid NSAIDs (and smoking) after RYGB — marginal ulcer / perforation risk.</text>
+<circle cx="60" cy="1598.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1602.0" font-size="12" font-weight="600" fill="#38141A">Band causing dysphagia / reflux / regurgitation → deflate the band (aspirate the port) urgently.</text>
+<circle cx="60" cy="1620.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1624.0" font-size="12" font-weight="600" fill="#38141A">Rapid weight loss predisposes to gallstones; lifelong supplements + annual bloods are mandatory, not optional.</text>
+<line x1="30" y1="1666.0" x2="970" y2="1666.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1685.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE CG189 Obesity (2014, updated 2023) · NICE PH46 (ethnicity BMI thresholds) · BOMSS nutritional guidance · NHS England four-tier commissioning model.</text>
+<text x="30" y="1699.0" font-size="10.5" font-weight="400" fill="#7C8A8E">%EWL figures are approximate and vary between series. The adjustable gastric band is now rarely offered on the NHS.</text>
+<text x="30" y="1713.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current guidance before clinical use.</text>
+<text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E7BEC3">mockfrcs.co.uk</text><rect x="0" y="1733" width="1000" height="46" fill="#6E1E2A"/><text x="30" y="1762" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1762" text-anchor="end" font-size="12.5" font-weight="600" fill="#E7BEC3">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

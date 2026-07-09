@@ -17,5 +17,15 @@ const POSTERS = [
   { title: "Irritable bowel syndrome (IBS)", file: "posters/colorectal/irritable-bowel-syndrome.svg", section: "Colorectal", subject: "Rome IV · subtypes · red flags · NICE CG61", free: false },
   { title: "Haemorrhoids", file: "posters/colorectal/haemorrhoids.svg", section: "Colorectal", subject: "Anatomy · Goligher grades · treatment ladder · HubBLe & eTHoS", free: false },
   { title: "Anal fissure", file: "posters/colorectal/anal-fissure.svg", section: "Colorectal", subject: "Pathophysiology · chronic features · red flags · treatment", free: false },
-  { title: "Anal fistula", file: "posters/colorectal/anal-fistula.svg", section: "Colorectal", subject: "Cryptoglandular · Goodsall · Parks · FIAT", free: false }
+  { title: "Anal fistula", file: "posters/colorectal/anal-fistula.svg", section: "Colorectal", subject: "Cryptoglandular · Goodsall · Parks · FIAT", free: false },
+  { title: "Bariatric & metabolic surgery", file: "posters/oesophago-gastric/bariatric-metabolic-surgery.svg", section: "Oesophago-gastric", subject: "Pathway · referral · procedures & complications (NICE CG189, BOMSS)", free: false },
+  { title: "Foregut — hiatus hernia, achalasia & peptic ulcer", file: "posters/oesophago-gastric/foregut-hernia-achalasia-pud.svg", section: "Oesophago-gastric", subject: "Hiatus hernia · achalasia · peptic ulcer disease", free: false },
+  { title: "Gastric polyps", file: "posters/oesophago-gastric/gastric-polyps.svg", section: "Oesophago-gastric", subject: "Classification · significance · when to sample or excise (BSG 2019)", free: false },
+  { title: "Gastric volvulus", file: "posters/oesophago-gastric/gastric-volvulus.svg", section: "Oesophago-gastric", subject: "Organo-axial vs mesentero-axial · Borchardt's triad", free: false },
+  { title: "Gastritis", file: "posters/oesophago-gastric/gastritis.svg", section: "Oesophago-gastric", subject: "A/B/C classification · H. pylori · Ménétrier's", free: false },
+  { title: "GORD & Barrett's oesophagus", file: "posters/oesophago-gastric/gord-barretts.svg", section: "Oesophago-gastric", subject: "Diagnosis · LA grade · Barrett's · treatment", free: true },
+  { title: "Oesophageal perforation", file: "posters/oesophago-gastric/oesophageal-perforation.svg", section: "Oesophago-gastric", subject: "Boerhaave · Mallory-Weiss · iatrogenic", free: false },
+  { title: "Oesophago-gastric cancer — staging & oncology", file: "posters/oesophago-gastric/og-cancer-staging.svg", section: "Oesophago-gastric", subject: "Histology · staging · Siewert · oncology (NICE NG83)", free: true },
+  { title: "Oesophago-gastric cancer — surgery", file: "posters/oesophago-gastric/og-cancer-surgery.svg", section: "Oesophago-gastric", subject: "Oesophagectomy · gastrectomy · principles", free: false },
+  { title: "Upper GI bleeding", file: "posters/oesophago-gastric/upper-gi-bleeding.svg", section: "Oesophago-gastric", subject: "Variceal vs non-variceal (NICE CG141, Baveno VII)", free: false }
 ];
