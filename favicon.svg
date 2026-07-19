@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MockFRCS">
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <path transform="translate(13.823 33.850) scale(0.012207 -0.012207)" fill="#1a1a18" d="M1307 0V854Q1307 883 1307.5 912.0Q1308 941 1317 1161Q1246 892 1212 786L958 0H748L494 786L387 1161Q399 929 399 854V0H137V1409H532L784 621L806 545L854 356L917 582L1176 1409H1569V0Z"/>
+  <path transform="translate(34.149 33.850) scale(0.012207 -0.012207)" fill="#185FA5" d="M432 1181V745H1153V517H432V0H137V1409H1176V1181Z"/>
+  <rect x="12.496" y="43.350" width="39.008" height="4.0" rx="2.0" fill="#185FA5"/>
+</svg>
