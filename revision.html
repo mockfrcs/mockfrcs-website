@@ -82,7 +82,7 @@ footer{padding:22px 24px;text-align:center;font-size:12px;color:#bbb;border-top:
     </div>
     <div class="nav-right">
       <a href="login.html" class="nav-link">Log in</a>
-      <a href="index.html#earlyAccessCard" class="nav-cta">Early access</a>
+      <a href="index.html#notify" class="nav-cta">Notify me</a>
     </div>
     <button class="nav-toggle" id="navToggle" aria-label="Open menu" onclick="toggleNav()">&#9776;</button>
   </div>
@@ -91,7 +91,7 @@ footer{padding:22px 24px;text-align:center;font-size:12px;color:#bbb;border-top:
     <a href="demo.html">Try free demo</a>
     <a href="revision.html">Revision resources</a>
     <a href="login.html">Log in</a>
-    <a href="index.html#earlyAccessCard">Early access</a>
+    <a href="index.html#notify">Notify me</a>
   </div>
 </nav>
 <main>
@@ -120,7 +120,7 @@ function cardHTML(p){
     actions = '<button class="btn primary" onclick="openPoster(\'' + p.file + '\')">View poster</button>'
             + '<a class="btn ghost" href="' + p.file + '" download>Download</a>';
   } else {
-    actions = '<a class="btn primary apply" href="index.html#earlyAccessCard">Apply for free early access</a>'
+    actions = '<a class="btn primary apply" href="index.html#notify">Notify me at launch</a>'
             + '<button class="btn primary view-m" onclick="openPoster(\'' + p.file + '\')">View poster</button>'
             + '<a class="btn ghost dl-m" href="' + p.file + '" download>Download</a>';
   }
