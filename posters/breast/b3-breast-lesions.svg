@@ -1,0 +1,176 @@
+<svg viewBox="0 0 1000 1517" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1517" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#AA2E5A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">B3 — Breast lesions of uncertain malignant potential</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#EAC4D2">FRCS Part 1 (General Surgery)  ·  the B1–B5 core-biopsy code  ·  ADH · FEA · papilloma · radial scar  ·  the VAE pathway</text>
+<rect x="30" y="138" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="154" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE CORE-BIOPSY B CODE  ·  WHERE B3 SITS</text>
+<path d="M 30.0 172.0 L 196.0 172.0 L 218.0 214.0 L 196.0 256.0 L 30.0 256.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="46.0" y="198" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">B1 · NORMAL</text>
+<text x="46.0" y="216" font-size="11" font-weight="400" fill="#2E3C42">Normal or inadequate;</text>
+<text x="46.0" y="231" font-size="11" font-weight="400" fill="#2E3C42">check the lesion was</text>
+<text x="46.0" y="246" font-size="11" font-weight="400" fill="#2E3C42">sampled</text>
+<path d="M 218.0 172.0 L 384.0 172.0 L 406.0 214.0 L 384.0 256.0 L 218.0 256.0 L 240.0 214.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="250.0" y="198" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">B2 · BENIGN</text>
+<text x="250.0" y="216" font-size="11" font-weight="400" fill="#2E3C42">Benign; correlate with</text>
+<text x="250.0" y="231" font-size="11" font-weight="400" fill="#2E3C42">imaging (concordance)</text>
+<path d="M 406.0 172.0 L 572.0 172.0 L 594.0 214.0 L 572.0 256.0 L 406.0 256.0 L 428.0 214.0 Z" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.4"/>
+<text x="438.0" y="198" font-size="11.5" font-weight="800" fill="#BE3A2E" letter-spacing="0.4">B3 · UNCERTAIN</text>
+<text x="438.0" y="216" font-size="11" font-weight="400" fill="#2E3C42">Uncertain malignant</text>
+<text x="438.0" y="231" font-size="11" font-weight="400" fill="#2E3C42">potential ★</text>
+<path d="M 594.0 172.0 L 760.0 172.0 L 782.0 214.0 L 760.0 256.0 L 594.0 256.0 L 616.0 214.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="626.0" y="198" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">B4 · SUSPICIOUS</text>
+<text x="626.0" y="216" font-size="11" font-weight="400" fill="#2E3C42">Suspicious; repeat / treat</text>
+<text x="626.0" y="231" font-size="11" font-weight="400" fill="#2E3C42">as malignant if</text>
+<text x="626.0" y="246" font-size="11" font-weight="400" fill="#2E3C42">concordant</text>
+<path d="M 782.0 172.0 L 970.0 172.0 L 970.0 256.0 L 782.0 256.0 L 804.0 214.0 Z" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.4"/>
+<text x="814.0" y="198" font-size="11.5" font-weight="800" fill="#6D4AA3" letter-spacing="0.4">B5 · MALIGNANT</text>
+<text x="814.0" y="216" font-size="11" font-weight="400" fill="#2E3C42">a in-situ · b invasive · c</text>
+<text x="814.0" y="231" font-size="11" font-weight="400" fill="#2E3C42">type undetermined</text>
+<text x="30" y="274" font-size="10.5" font-weight="400" fill="#6B7B80">B3 is a reporting CODE, not a diagnosis — it flags a lesion needing further tissue before cancer can be excluded. The four ductal/epithelial B3 lesions are shown below.</text>
+<rect x="30" y="288" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="304" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">THE FOUR DUCTAL / EPITHELIAL B3 LESIONS</text>
+<rect x="30.0" y="322" width="225.25" height="322" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 368 L 30.0 333 Q 30.0 322 41.0 322 L 244.25 322 Q 255.25 322 255.25 333 L 255.25 368 Z" fill="#6D4AA3"/>
+<text x="44.0" y="343" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ADH</text>
+<text x="44.0" y="360" font-size="11.5" font-weight="600" fill="#FFFFFF">Atypical ductal hyperplasia</text>
+<text x="44.0" y="386" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Histology</text>
+<text x="44.0" y="401" font-size="11" font-weight="400" fill="#2E3C42">Monomorphic low-grade epithelial</text>
+<text x="44.0" y="416" font-size="11" font-weight="400" fill="#2E3C42">proliferation partly filling ducts.</text>
+<text x="44.0" y="440" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Why B3</text>
+<text x="44.0" y="455" font-size="11" font-weight="400" fill="#2E3C42">Identical cells to low-grade DCIS —</text>
+<text x="44.0" y="470" font-size="11" font-weight="400" fill="#2E3C42">differs only by extent.</text>
+<text x="44.0" y="494" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Size rule</text>
+<text x="44.0" y="509" font-size="11" font-weight="400" fill="#2E3C42">&lt;2 mm or ≤2 duct spaces = ADH;</text>
+<text x="44.0" y="524" font-size="11" font-weight="400" fill="#2E3C42">larger = low-grade DCIS.</text>
+<text x="44.0" y="548" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Upgrade</text>
+<text x="44.0" y="563" font-size="11" font-weight="400" fill="#2E3C42">~15–30% — the highest of the four.</text>
+<text x="44.0" y="587" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Manage</text>
+<text x="44.0" y="602" font-size="11" font-weight="400" fill="#2E3C42">VAE; surgical excision if extensive</text>
+<text x="44.0" y="617" font-size="11" font-weight="400" fill="#2E3C42">or discordant.</text>
+<rect x="268.25" y="322" width="225.25" height="322" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 268.25 368 L 268.25 333 Q 268.25 322 279.25 322 L 482.5 322 Q 493.5 322 493.5 333 L 493.5 368 Z" fill="#15806A"/>
+<text x="282.25" y="343" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">FEA</text>
+<text x="282.25" y="360" font-size="11.5" font-weight="600" fill="#FFFFFF">Flat epithelial atypia</text>
+<text x="282.25" y="386" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Histology</text>
+<text x="282.25" y="401" font-size="11" font-weight="400" fill="#2E3C42">Columnar cell change lined by</text>
+<text x="282.25" y="416" font-size="11" font-weight="400" fill="#2E3C42">monotonous low-grade atypical</text>
+<text x="282.25" y="431" font-size="11" font-weight="400" fill="#2E3C42">cells; no architectural atypia.</text>
+<text x="282.25" y="455" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Why B3</text>
+<text x="282.25" y="470" font-size="11" font-weight="400" fill="#2E3C42">Non-obligate precursor; travels</text>
+<text x="282.25" y="485" font-size="11" font-weight="400" fill="#2E3C42">with ADH, lobular neoplasia &amp;</text>
+<text x="282.25" y="500" font-size="11" font-weight="400" fill="#2E3C42">tubular cancer.</text>
+<text x="282.25" y="524" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Upgrade</text>
+<text x="282.25" y="539" font-size="11" font-weight="400" fill="#2E3C42">Low (~0–5% for pure FEA).</text>
+<text x="282.25" y="563" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Manage</text>
+<text x="282.25" y="578" font-size="11" font-weight="400" fill="#2E3C42">VAE then surveillance; excision</text>
+<text x="282.25" y="593" font-size="11" font-weight="400" fill="#2E3C42">rarely needed.</text>
+<rect x="506.5" y="322" width="225.25" height="322" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 506.5 368 L 506.5 333 Q 506.5 322 517.5 322 L 720.75 322 Q 731.75 322 731.75 333 L 731.75 368 Z" fill="#245C8C"/>
+<text x="520.5" y="343" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PAPILLOMA</text>
+<text x="520.5" y="360" font-size="11.5" font-weight="600" fill="#FFFFFF">Intraductal papilloma</text>
+<text x="520.5" y="386" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Histology</text>
+<text x="520.5" y="401" font-size="11" font-weight="400" fill="#2E3C42">Fibrovascular fronds with an intact</text>
+<text x="520.5" y="416" font-size="11" font-weight="400" fill="#2E3C42">myoepithelial layer within a duct.</text>
+<text x="520.5" y="440" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Clinical</text>
+<text x="520.5" y="455" font-size="11" font-weight="400" fill="#2E3C42">Commonest cause of bloody</text>
+<text x="520.5" y="470" font-size="11" font-weight="400" fill="#2E3C42">single-duct nipple discharge.</text>
+<text x="520.5" y="494" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Upgrade</text>
+<text x="520.5" y="509" font-size="11" font-weight="400" fill="#2E3C42">Low without atypia; ~15–30% if</text>
+<text x="520.5" y="524" font-size="11" font-weight="400" fill="#2E3C42">atypia present.</text>
+<text x="520.5" y="548" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Manage</text>
+<text x="520.5" y="563" font-size="11" font-weight="400" fill="#2E3C42">VAE; papilloma WITH atypia →</text>
+<text x="520.5" y="578" font-size="11" font-weight="400" fill="#2E3C42">surgical excision.</text>
+<rect x="744.75" y="322" width="225.25" height="322" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 744.75 368 L 744.75 333 Q 744.75 322 755.75 322 L 959.0 322 Q 970.0 322 970.0 333 L 970.0 368 Z" fill="#C77B20"/>
+<text x="758.75" y="343" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">RADIAL SCAR</text>
+<text x="758.75" y="360" font-size="11.5" font-weight="600" fill="#FFFFFF">Complex sclerosing lesion</text>
+<text x="758.75" y="386" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Histology</text>
+<text x="758.75" y="401" font-size="11" font-weight="400" fill="#2E3C42">Fibroelastotic core with radiating</text>
+<text x="758.75" y="416" font-size="11" font-weight="400" fill="#2E3C42">ducts — stellate architecture.</text>
+<text x="758.75" y="440" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Why B3</text>
+<text x="758.75" y="455" font-size="11" font-weight="400" fill="#2E3C42">Spiculated on mammography;</text>
+<text x="758.75" y="470" font-size="11" font-weight="400" fill="#2E3C42">mimics carcinoma.</text>
+<text x="758.75" y="494" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Upgrade</text>
+<text x="758.75" y="509" font-size="11" font-weight="400" fill="#2E3C42">Low if small / no atypia; ~14% with</text>
+<text x="758.75" y="524" font-size="11" font-weight="400" fill="#2E3C42">atypia.</text>
+<text x="758.75" y="548" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Manage</text>
+<text x="758.75" y="563" font-size="11" font-weight="400" fill="#2E3C42">VAE (sample the whole lesion);</text>
+<text x="758.75" y="578" font-size="11" font-weight="400" fill="#2E3C42">excise if atypia.</text>
+<rect x="30" y="646" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="662" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">THE ONE RULE THAT TRIAGES B3  ·  ATYPIA PRESENT vs ABSENT</text>
+<rect x="30" y="680" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="680" width="6" height="123.0" fill="#C77B20" rx="3"/>
+<text x="54" y="708" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SLOANE PROJECT · NHSBSP ENGLAND</text>
+<text x="54" y="732" font-size="18" font-weight="800" fill="#3A1322">Atypia drives the decision</text>
+<text x="54" y="754" font-size="12" font-weight="700" fill="#C77B20">With atypia</text>
+<text x="148" y="754.0" font-size="12" font-weight="400" fill="#2E3C42">~29% upgrade to in-situ or invasive cancer.</text>
+<text x="54" y="774.5" font-size="12" font-weight="700" fill="#C77B20">No atypia</text>
+<text x="148" y="774.5" font-size="12" font-weight="400" fill="#2E3C42">~13% upgrade (overall B3 upgrade ~16.6%).</text>
+<text x="54" y="795.0" font-size="12" font-weight="700" fill="#C77B20">Implication</text>
+<text x="148" y="795.0" font-size="12" font-weight="400" fill="#2E3C42">The more atypia, the lower the threshold for surgical excision over VAE.</text>
+<rect x="30" y="805.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="821.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT  ·  THE VACUUM-ASSISTED EXCISION PATHWAY</text>
+<path d="M 30.0 839.0 L 317.3 839.0 L 343.3 874.0 L 317.3 909.0 L 30.0 909.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="46.0" y="865.0" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">1 · B3 ON BIOPSY</text>
+<text x="46.0" y="883.0" font-size="11" font-weight="400" fill="#2E3C42">Core / vacuum biopsy reported B3</text>
+<path d="M 343.3 839.0 L 630.7 839.0 L 656.7 874.0 L 630.7 909.0 L 343.3 909.0 L 369.3 874.0 Z" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.4"/>
+<text x="379.3333333333333" y="865.0" font-size="11.5" font-weight="800" fill="#6D4AA3" letter-spacing="0.4">2 · MDT</text>
+<text x="379.3333333333333" y="883.0" font-size="11" font-weight="400" fill="#2E3C42">Radiology–pathology concordance review</text>
+<path d="M 656.7 839.0 L 970.0 839.0 L 970.0 909.0 L 656.7 909.0 L 682.7 874.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="692.6666666666666" y="865.0" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">3 · VAE</text>
+<text x="692.6666666666666" y="883.0" font-size="11" font-weight="400" fill="#2E3C42">2nd-line vacuum-assisted excision — remove</text>
+<text x="692.6666666666666" y="898.0" font-size="11" font-weight="400" fill="#2E3C42">the target</text>
+<rect x="30" y="923.0" width="455" height="102.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="923.0" width="6" height="102.5" fill="#15806A" rx="3"/>
+<text x="54" y="951.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">IF VAE SHOWS NO UPGRADE</text>
+<text x="54" y="975.0" font-size="18" font-weight="800" fill="#3A1322">Surveillance</text>
+<text x="54" y="997.0" font-size="12" font-weight="700" fill="#15806A">Follow-up</text>
+<text x="126" y="997.0" font-size="12" font-weight="400" fill="#2E3C42">Annual mammography, typically 5 years.</text>
+<text x="54" y="1017.5" font-size="12" font-weight="700" fill="#15806A">Rationale</text>
+<text x="126" y="1017.5" font-size="12" font-weight="400" fill="#2E3C42">Benign B3 fully sampled — avoids open surgery.</text>
+<rect x="505" y="923.0" width="455" height="102.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="505" y="923.0" width="6" height="102.5" fill="#BE3A2E" rx="3"/>
+<text x="529" y="951.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">IF VAE UPGRADES</text>
+<text x="529" y="975.0" font-size="18" font-weight="800" fill="#3A1322">Therapeutic surgery</text>
+<text x="529" y="997.0" font-size="12" font-weight="700" fill="#BE3A2E">Finding</text>
+<text x="601" y="997.0" font-size="12" font-weight="400" fill="#2E3C42">In-situ or invasive cancer on excision.</text>
+<text x="529" y="1017.5" font-size="12" font-weight="700" fill="#BE3A2E">Action</text>
+<text x="601" y="1017.5" font-size="12" font-weight="400" fill="#2E3C42">Definitive breast + axillary management via MDT.</text>
+<rect x="30" y="1039.5" width="940" height="102.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1039.5" width="6" height="102.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="1067.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">THE EXCEPTION</text>
+<text x="54" y="1091.5" font-size="18" font-weight="800" fill="#3A1322">Not every B3 gets VAE</text>
+<text x="54" y="1113.5" font-size="12" font-weight="700" fill="#BE3A2E">Open excision</text>
+<text x="175" y="1113.5" font-size="12" font-weight="400" fill="#2E3C42">Papilloma WITH atypia and cellular fibroepithelial / ?phyllodes lesions need diagnostic surgical excision — architecture cannot be</text>
+<text x="175" y="1134.0" font-size="12" font-weight="400" fill="#2E3C42">judged on fragmented VAE cores.</text>
+<rect x="30" y="1146.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1162.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1176.0" width="940" height="178.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1176.0" width="6" height="178.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1198.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1202.0" font-size="12" font-weight="600" fill="#3A1322">B3 is a biopsy CODE, not a diagnosis — it means ‘needs more tissue’, not benign and not cancer.</text>
+<circle cx="60" cy="1220.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1224.0" font-size="12" font-weight="600" fill="#3A1322">ADH vs low-grade DCIS is only a matter of extent — &lt;2 mm or ≤2 duct spaces is ADH; always report the size.</text>
+<circle cx="60" cy="1242.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1246.0" font-size="12" font-weight="600" fill="#3A1322">A radial scar is spiculated on mammography and mimics carcinoma — the diagnosis is histological, never radiological</text>
+<text x="72" y="1264.0" font-size="12" font-weight="400" fill="#2E3C42">reassurance.</text>
+<circle cx="60" cy="1282.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1286.0" font-size="12" font-weight="600" fill="#3A1322">Atypia anywhere in a B3 roughly doubles the upgrade risk (~29% vs ~13%) — lower your threshold for excision.</text>
+<circle cx="60" cy="1304.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1308.0" font-size="12" font-weight="600" fill="#3A1322">Papilloma with atypia and cellular fibroepithelial lesions are the B3s that still need open surgical excision, not VAE.</text>
+<circle cx="60" cy="1326.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1330.0" font-size="12" font-weight="600" fill="#3A1322">Classical LCIS / ALH is B3, but pleomorphic LCIS behaves like DCIS and is managed as B5 — do not lump them together.</text>
+<line x1="30" y1="1364.0" x2="970" y2="1364.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1383.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: RCPath / NHSBSP breast core-biopsy B-categories (B1–B5). NHS Breast Screening multidisciplinary working group guidelines for the diagnosis and management of B3 lesions on</text>
+<text x="30" y="1397.0" font-size="10.5" font-weight="400" fill="#7C8A8E">core biopsy (Pinder et al., Clinical Radiology 2018). Sloane Project — impact of vacuum-assisted excision on B3 lesions in the NHSBSP, England.</text>
+<text x="30" y="1411.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Key numbers: overall B3 upgrade ~16.6%; with atypia ~29% vs ~13% without (Sloane). Since the 2018 guideline, most B3 lesions have second-line vacuum-assisted excision rather than</text>
+<text x="30" y="1425.0" font-size="10.5" font-weight="400" fill="#7C8A8E">routine diagnostic open surgical excision.</text>
+<text x="30" y="1439.0" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local MDT guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#EAC4D2">mockfrcs.co.uk</text></g>
+<rect x="0" y="1471" width="1000" height="46" fill="#AA2E5A"/><text x="30" y="1500" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1500" text-anchor="end" font-size="12.5" font-weight="600" fill="#EAC4D2">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

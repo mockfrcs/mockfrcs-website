@@ -1,0 +1,171 @@
+<svg viewBox="0 0 1000 1714" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1714" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Thyroid cancer (2 of 2) — medullary &amp; anaplastic</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · C-cell tumour · RET / MEN2 · anaplastic emergency · thyroid lymphoma</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">MEDULLARY (MTC) — THE C-CELL TUMOUR</text>
+<rect x="30" y="158" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="158" width="6" height="184.5" fill="#245C8C" rx="3"/>
+<text x="54" y="186" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">neuroendocrine</text>
+<text x="54" y="210" font-size="18" font-weight="800" fill="#2E1E0A">Medullary thyroid carcinoma</text>
+<text x="54" y="232" font-size="12" font-weight="700" fill="#245C8C">Origin</text>
+<text x="170" y="232.0" font-size="12" font-weight="400" fill="#2E3C42">Parafollicular C cells (neuroendocrine) — secretes calcitonin; NOT iodine-avid and NOT TSH-driven.</text>
+<text x="54" y="252.5" font-size="12" font-weight="700" fill="#245C8C">Markers</text>
+<text x="170" y="252.5" font-size="12" font-weight="400" fill="#2E3C42">Calcitonin + CEA (screen &amp; monitor); calcitonin / CEA doubling-time &lt;6–12 months signals aggressive disease.</text>
+<text x="54" y="273.0" font-size="12" font-weight="700" fill="#245C8C">Genetics</text>
+<text x="170" y="273.0" font-size="12" font-weight="400" fill="#2E3C42">~25% hereditary — test RET in everyone; hereditary MTC = MEN2A, MEN2B or familial MTC.</text>
+<text x="54" y="293.5" font-size="12" font-weight="700" fill="#245C8C">Surgery</text>
+<text x="170" y="293.5" font-size="12" font-weight="400" fill="#2E3C42">Total thyroidectomy + central (level VI) node dissection; lateral neck dissection for involved compartments.</text>
+<text x="54" y="314.0" font-size="12" font-weight="700" fill="#245C8C">Before the neck</text>
+<text x="170" y="314.0" font-size="12" font-weight="400" fill="#2E3C42">In MEN2 exclude a phaeochromocytoma first — operate on the phaeo before the thyroid — and screen for primary</text>
+<text x="170" y="334.5" font-size="12" font-weight="400" fill="#2E3C42">hyperparathyroidism.</text>
+<rect x="30" y="350.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="366.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">MEN2 — PROPHYLACTIC THYROIDECTOMY BY ATA RET RISK</text>
+<rect x="30.0" y="382.5" width="308.0" height="88" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="30.0" y="382.5" width="308.0" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="30.0" y="393.5" width="308.0" height="11" fill="#BE3A2E"/>
+<text x="40.0" y="398.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">HIGHEST</text>
+<text x="40.0" y="419.5" font-size="10.5" font-weight="700" fill="#BE3A2E">M918T · MEN2B</text>
+<text x="40.0" y="434.5" font-size="10" font-weight="400" fill="#2E3C42">Thyroidectomy within the first year of life</text>
+<rect x="346.0" y="382.5" width="308.0" height="88" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="346.0" y="382.5" width="308.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="346.0" y="393.5" width="308.0" height="11" fill="#C77B20"/>
+<text x="356.0" y="398.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">HIGH</text>
+<text x="356.0" y="419.5" font-size="10.5" font-weight="700" fill="#C77B20">C634 · A883F</text>
+<text x="356.0" y="434.5" font-size="10" font-weight="400" fill="#2E3C42">By age 5 — earlier if calcitonin rises</text>
+<rect x="662.0" y="382.5" width="308.0" height="88" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="662.0" y="382.5" width="308.0" height="22" fill="#15806A" rx="9"/>
+<rect x="662.0" y="393.5" width="308.0" height="11" fill="#15806A"/>
+<text x="672.0" y="398.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">MODERATE</text>
+<text x="672.0" y="419.5" font-size="10.5" font-weight="700" fill="#15806A">Other RET codons</text>
+<text x="672.0" y="434.5" font-size="10" font-weight="400" fill="#2E3C42">Surveillance; operate when calcitonin climbs</text>
+<rect x="30" y="478.5" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="494.5" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">MEN2 SYNDROMES — WHAT ELSE TO SCREEN FOR</text>
+<rect x="30" y="510.5" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="526.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Syndrome</text>
+<text x="158" y="526.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Associated features</text>
+<text x="822" y="526.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">MTC penetrance</text>
+<rect x="30" y="534.5" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="534.5" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="550.5" font-size="11" font-weight="700" fill="#2E1E0A">MEN2A</text>
+<text x="158" y="550.5" font-size="11" font-weight="400" fill="#2E3C42">MTC + phaeochromocytoma + primary hyperparathyroidism</text>
+<text x="822" y="550.5" font-size="11" font-weight="400" fill="#2E3C42">~95%</text>
+<rect x="30" y="558.5" width="4" height="24" fill="#BE3A2E"/>
+<text x="42" y="574.5" font-size="11" font-weight="700" fill="#2E1E0A">MEN2B</text>
+<text x="158" y="574.5" font-size="11" font-weight="400" fill="#2E3C42">MTC + phaeo + mucosal neuromas + marfanoid habitus (no PHPT)</text>
+<text x="822" y="574.5" font-size="11" font-weight="400" fill="#2E3C42">~100%</text>
+<rect x="30" y="582.5" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="582.5" width="4" height="24" fill="#15806A"/>
+<text x="42" y="598.5" font-size="11" font-weight="700" fill="#2E1E0A">FMTC</text>
+<text x="158" y="598.5" font-size="11" font-weight="400" fill="#2E3C42">Medullary cancer only — no other endocrine tumours</text>
+<text x="822" y="598.5" font-size="11" font-weight="400" fill="#2E3C42">100%</text>
+<rect x="30" y="614.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="630.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">ADVANCED / METASTATIC MTC — SYSTEMIC THERAPY</text>
+<rect x="30" y="646.5" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="646.5" width="6" height="123.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="674.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">targeted agents</text>
+<text x="54" y="698.5" font-size="18" font-weight="800" fill="#2E1E0A">When the neck is not enough</text>
+<text x="54" y="720.5" font-size="12" font-weight="700" fill="#6D4AA3">Multikinase</text>
+<text x="162" y="720.5" font-size="12" font-weight="400" fill="#2E3C42">Vandetanib or cabozantinib for progressive / metastatic medullary cancer.</text>
+<text x="54" y="741.0" font-size="12" font-weight="700" fill="#6D4AA3">RET-selective</text>
+<text x="162" y="741.0" font-size="12" font-weight="400" fill="#2E3C42">Selpercatinib or pralsetinib for RET-mutant MTC — more selective and better tolerated.</text>
+<text x="54" y="761.5" font-size="12" font-weight="700" fill="#6D4AA3">Not RAI</text>
+<text x="162" y="761.5" font-size="12" font-weight="400" fill="#2E3C42">Radioiodine has no role — MTC is a C-cell (not follicular) tumour.</text>
+<rect x="30" y="777.5" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="793.5" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">ANAPLASTIC (UNDIFFERENTIATED) CARCINOMA</text>
+<rect x="30" y="809.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="809.5" width="6" height="143.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="837.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">surgical emergency</text>
+<text x="54" y="861.5" font-size="18" font-weight="800" fill="#2E1E0A">The one that can kill in weeks</text>
+<text x="54" y="883.5" font-size="12" font-weight="700" fill="#BE3A2E">Who</text>
+<text x="148" y="883.5" font-size="12" font-weight="400" fill="#2E3C42">Elderly patient, rapidly enlarging hard neck mass — among the most aggressive of all human cancers.</text>
+<text x="54" y="904.0" font-size="12" font-weight="700" fill="#BE3A2E">Staging</text>
+<text x="148" y="904.0" font-size="12" font-weight="400" fill="#2E3C42">ALL anaplastic cancers are Stage IV — IVA intrathyroidal · IVB gross extrathyroidal extension / nodes · IVC distant metastases.</text>
+<text x="54" y="924.5" font-size="12" font-weight="700" fill="#BE3A2E">Airway</text>
+<text x="148" y="924.5" font-size="12" font-weight="400" fill="#2E3C42">Airway compromise is the emergency — secure it early; consider debulking / tracheostomy and urgent tissue diagnosis.</text>
+<text x="54" y="945.0" font-size="12" font-weight="700" fill="#BE3A2E">Treatment</text>
+<text x="148" y="945.0" font-size="12" font-weight="400" fill="#2E3C42">Usually unresectable → palliative chemo-radiotherapy; BRAF V600E → dabrafenib + trametinib; NTRK fusion → larotrectinib.</text>
+<rect x="30" y="961.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="977.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PRIMARY THYROID LYMPHOMA</text>
+<rect x="30" y="993.0" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="993.0" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="1021.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">not a surgical disease</text>
+<text x="54" y="1045.0" font-size="18" font-weight="800" fill="#2E1E0A">The Hashimoto's mimic</text>
+<text x="54" y="1067.0" font-size="12" font-weight="700" fill="#245C8C">Background</text>
+<text x="154" y="1067.0" font-size="12" font-weight="400" fill="#2E3C42">Arises on a background of Hashimoto's thyroiditis; rapidly enlarging goitre, often with compressive symptoms.</text>
+<text x="54" y="1087.5" font-size="12" font-weight="700" fill="#245C8C">Type</text>
+<text x="154" y="1087.5" font-size="12" font-weight="400" fill="#2E3C42">Almost always B-cell — MALT lymphoma or diffuse large B-cell lymphoma (DLBCL).</text>
+<text x="54" y="1108.0" font-size="12" font-weight="700" fill="#245C8C">Treatment</text>
+<text x="154" y="1108.0" font-size="12" font-weight="400" fill="#2E3C42">Core / open biopsy to diagnose, then chemotherapy ± radiotherapy (e.g. R-CHOP) — NOT primary surgical resection.</text>
+<rect x="30" y="1124.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1140.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AT A GLANCE — ALL FIVE TYPES</text>
+<rect x="30" y="1156.0" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="1172.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Type</text>
+<text x="148" y="1172.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Cell of origin</text>
+<text x="330" y="1172.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Marker</text>
+<text x="460" y="1172.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Spread / note</text>
+<text x="792" y="1172.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Prognosis</text>
+<rect x="30" y="1180.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1180.0" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1196.0" font-size="11" font-weight="700" fill="#2E1E0A">Papillary</text>
+<text x="148" y="1196.0" font-size="11" font-weight="400" fill="#2E3C42">Follicular cell</text>
+<text x="330" y="1196.0" font-size="11" font-weight="400" fill="#2E3C42">Thyroglobulin</text>
+<text x="460" y="1196.0" font-size="11" font-weight="400" fill="#2E3C42">Lymph nodes</text>
+<text x="792" y="1196.0" font-size="11" font-weight="400" fill="#2E3C42">Excellent</text>
+<rect x="30" y="1203.0" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="1219.0" font-size="11" font-weight="700" fill="#2E1E0A">Follicular</text>
+<text x="148" y="1219.0" font-size="11" font-weight="400" fill="#2E3C42">Follicular cell</text>
+<text x="330" y="1219.0" font-size="11" font-weight="400" fill="#2E3C42">Thyroglobulin</text>
+<text x="460" y="1219.0" font-size="11" font-weight="400" fill="#2E3C42">Blood → lung / bone</text>
+<text x="792" y="1219.0" font-size="11" font-weight="400" fill="#2E3C42">Good</text>
+<rect x="30" y="1226.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1226.0" width="4" height="23" fill="#15806A"/>
+<text x="42" y="1242.0" font-size="11" font-weight="700" fill="#2E1E0A">Medullary</text>
+<text x="148" y="1242.0" font-size="11" font-weight="400" fill="#2E3C42">Parafollicular C</text>
+<text x="330" y="1242.0" font-size="11" font-weight="400" fill="#2E3C42">Calcitonin / CEA</text>
+<text x="460" y="1242.0" font-size="11" font-weight="400" fill="#2E3C42">Nodes; RET / MEN2</text>
+<text x="792" y="1242.0" font-size="11" font-weight="400" fill="#2E3C42">Intermediate</text>
+<rect x="30" y="1249.0" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="1265.0" font-size="11" font-weight="700" fill="#2E1E0A">Anaplastic</text>
+<text x="148" y="1265.0" font-size="11" font-weight="400" fill="#2E3C42">Undifferentiated</text>
+<text x="330" y="1265.0" font-size="11" font-weight="400" fill="#2E3C42">—</text>
+<text x="460" y="1265.0" font-size="11" font-weight="400" fill="#2E3C42">Local invasion</text>
+<text x="792" y="1265.0" font-size="11" font-weight="400" fill="#2E3C42">Very poor</text>
+<rect x="30" y="1272.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1272.0" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1288.0" font-size="11" font-weight="700" fill="#2E1E0A">Lymphoma</text>
+<text x="148" y="1288.0" font-size="11" font-weight="400" fill="#2E3C42">Lymphoid</text>
+<text x="330" y="1288.0" font-size="11" font-weight="400" fill="#2E3C42">—</text>
+<text x="460" y="1288.0" font-size="11" font-weight="400" fill="#2E3C42">On Hashimoto's</text>
+<text x="792" y="1288.0" font-size="11" font-weight="400" fill="#2E3C42">Good (treated)</text>
+<rect x="30" y="1305.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1321.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1335.0" width="940" height="210.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1335.0" width="6" height="210.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1357.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1361.0" font-size="12" font-weight="600" fill="#2E1E0A">Test RET in every medullary cancer — a minority of 'sporadic' MTC carries a germline mutation, and it changes screening for</text>
+<text x="72" y="1379.0" font-size="12" font-weight="400" fill="#2E3C42">the whole family.</text>
+<circle cx="60" cy="1397.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1401.0" font-size="12" font-weight="600" fill="#2E1E0A">In MEN2, resect the phaeochromocytoma BEFORE the thyroid — operating on an unblocked phaeo risks a fatal hypertensive</text>
+<text x="72" y="1419.0" font-size="12" font-weight="400" fill="#2E3C42">crisis.</text>
+<circle cx="60" cy="1437.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1441.0" font-size="12" font-weight="600" fill="#2E1E0A">MEN2B is the aggressive one — mucosal neuromas + marfanoid habitus, and prophylactic thyroidectomy is needed within the</text>
+<text x="72" y="1459.0" font-size="12" font-weight="400" fill="#2E3C42">first year of life.</text>
+<circle cx="60" cy="1477.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1481.0" font-size="12" font-weight="600" fill="#2E1E0A">Medullary cancer takes up no radioiodine and is not TSH-driven — thyroglobulin is useless here; follow calcitonin and CEA.</text>
+<circle cx="60" cy="1499.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1503.0" font-size="12" font-weight="600" fill="#2E1E0A">A rapidly enlarging thyroid mass in the elderly is anaplastic carcinoma or lymphoma until proven otherwise — secure the</text>
+<text x="72" y="1521.0" font-size="12" font-weight="400" fill="#2E3C42">airway and biopsy; lymphoma is treated, anaplastic rarely curable.</text>
+<line x1="30" y1="1567.0" x2="970" y2="1567.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1586.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: British Thyroid Association guidelines for the management of thyroid cancer in adults (Perros et al., 2014) · UK National Multidisciplinary Guidelines (2016) · American Thyroid</text>
+<text x="30" y="1600.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Association medullary thyroid carcinoma guideline (RET risk categories &amp; prophylactic thyroidectomy) · AJCC/TNM 8th edition (2018) · NICE (selpercatinib, pralsetinib, lenvatinib).</text>
+<text x="30" y="1614.0" font-size="10.5" font-weight="400" fill="#7C8A8E">RET codon risk: highest = M918T (MEN2B); high = C634, A883F; moderate = other codons. Differentiated (papillary / follicular / oncocytic) cancers are on sheet 1 of 2.</text>
+<text x="30" y="1628.0" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local MDT guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1668" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="1697" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1697" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

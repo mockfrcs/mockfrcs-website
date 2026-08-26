@@ -1,0 +1,239 @@
+<svg viewBox="0 0 1000 2028.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="2028.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Primary hyperparathyroidism — diagnosis to surgery</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · sheet 2 of 2 · causes · sestamibi · NICE NG132 · parathyroidectomy</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">CAUSES — WHICH GLAND(S)?</text>
+<rect x="30" y="158" width="799.0" height="48" fill="#245C8C"/>
+<text x="429.5" y="187.0" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">~85%</text>
+<rect x="829.0" y="158" width="94.0" height="48" fill="#6D4AA3"/>
+<text x="876.0" y="187.0" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">~10%</text>
+<rect x="923.0" y="158" width="37.6" height="48" fill="#15806A"/>
+<rect x="960.6" y="158" width="9.4" height="48" fill="#BE3A2E"/>
+<rect x="30" y="219" width="11" height="11" fill="#245C8C" rx="2"/>
+<text x="46" y="228" font-size="11" font-weight="600" fill="#2E3C42">Solitary adenoma ~85%</text>
+<rect x="204" y="219" width="11" height="11" fill="#6D4AA3" rx="2"/>
+<text x="220" y="228" font-size="11" font-weight="600" fill="#2E3C42">Four-gland hyperplasia ~10%</text>
+<rect x="407" y="219" width="11" height="11" fill="#15806A" rx="2"/>
+<text x="423" y="228" font-size="11" font-weight="600" fill="#2E3C42">Double adenoma ~4%</text>
+<rect x="571" y="219" width="11" height="11" fill="#BE3A2E" rx="2"/>
+<text x="587" y="228" font-size="11" font-weight="600" fill="#2E3C42">Carcinoma &lt;1%</text>
+<text x="30" y="238" font-size="11" font-weight="400" fill="#6B7B80">Four-gland hyperplasia → think MEN1 / MEN2A; parathyroid carcinoma is rare but suspect it with a very high calcium and a palpable neck mass.</text>
+<rect x="30" y="249" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="265" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">CLINICAL — STONES · BONES · GROANS · MOANS</text>
+<rect x="30.0" y="281" width="224.5" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 327 L 30.0 292 Q 30.0 281 41.0 281 L 243.5 281 Q 254.5 281 254.5 292 L 254.5 327 Z" fill="#C77B20"/>
+<text x="44.0" y="302" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">STONES</text>
+<text x="44.0" y="319" font-size="11.5" font-weight="600" fill="#FFFFFF">renal tract</text>
+<text x="44.0" y="345" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Renal</text>
+<text x="44.0" y="360" font-size="11" font-weight="400" fill="#2E3C42">Calculi, nephrocalcinosis; polyuria</text>
+<text x="44.0" y="375" font-size="11" font-weight="400" fill="#2E3C42">&amp; thirst</text>
+<rect x="268.5" y="281" width="224.5" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 268.5 327 L 268.5 292 Q 268.5 281 279.5 281 L 482.0 281 Q 493.0 281 493.0 292 L 493.0 327 Z" fill="#6D4AA3"/>
+<text x="282.5" y="302" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BONES</text>
+<text x="282.5" y="319" font-size="11.5" font-weight="600" fill="#FFFFFF">skeletal</text>
+<text x="282.5" y="345" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Skeletal</text>
+<text x="282.5" y="360" font-size="11" font-weight="400" fill="#2E3C42">Osteitis fibrosa cystica, brown</text>
+<text x="282.5" y="375" font-size="11" font-weight="400" fill="#2E3C42">tumours, osteoporosis</text>
+<rect x="507.0" y="281" width="224.5" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 507.0 327 L 507.0 292 Q 507.0 281 518.0 281 L 720.5 281 Q 731.5 281 731.5 292 L 731.5 327 Z" fill="#15806A"/>
+<text x="521.0" y="302" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">GROANS</text>
+<text x="521.0" y="319" font-size="11.5" font-weight="600" fill="#FFFFFF">abdominal</text>
+<text x="521.0" y="345" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">GI</text>
+<text x="521.0" y="360" font-size="11" font-weight="400" fill="#2E3C42">Constipation, peptic ulcer,</text>
+<text x="521.0" y="375" font-size="11" font-weight="400" fill="#2E3C42">pancreatitis</text>
+<rect x="745.5" y="281" width="224.5" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 745.5 327 L 745.5 292 Q 745.5 281 756.5 281 L 959.0 281 Q 970.0 281 970.0 292 L 970.0 327 Z" fill="#245C8C"/>
+<text x="759.5" y="302" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">MOANS</text>
+<text x="759.5" y="319" font-size="11.5" font-weight="600" fill="#FFFFFF">neuropsych</text>
+<text x="759.5" y="345" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">CNS</text>
+<text x="759.5" y="360" font-size="11" font-weight="400" fill="#2E3C42">Fatigue, low mood, poor</text>
+<text x="759.5" y="375" font-size="11" font-weight="400" fill="#2E3C42">concentration</text>
+<rect x="30" y="414" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="414" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="432.5" font-size="12" font-weight="800" fill="#245C8C">REMEMBER</text>
+<text x="142" y="432.5" font-size="11.5" font-weight="400" fill="#2E3C42">Most primary HPT today is asymptomatic — found as incidental hypercalcaemia on routine bloods; hypertension and short QT are</text>
+<text x="142" y="447.5" font-size="11.5" font-weight="400" fill="#2E3C42">also seen.</text>
+<rect x="30" y="464" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="480" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">DIAGNOSIS — PAIRED CALCIUM &amp; PTH</text>
+<rect x="30.0" y="496" width="293.3333333333333" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="176.66666666666666" y="531.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">↑ albumin-adjusted Ca²⁺</text>
+<line x1="327.3" y1="527.0" x2="340.3" y2="527.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 349.3 527.0 L 340.3 531.7 L 340.3 522.3 Z" fill="#6B7B80"/>
+<rect x="353.3333333333333" y="496" width="293.3333333333333" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="500.0" y="531.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">PTH high or inappropriately normal</text>
+<line x1="650.7" y1="527.0" x2="663.7" y2="527.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 672.7 527.0 L 663.7 531.7 L 663.7 522.3 Z" fill="#6B7B80"/>
+<rect x="676.6666666666666" y="496" width="293.3333333333333" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="823.3333333333333" y="524.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">Primary HPT confirmed (repeat to</text>
+<text x="823.3333333333333" y="538.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">confirm)</text>
+<rect x="30" y="572" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="572" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="590.5" font-size="12" font-weight="800" fill="#BE3A2E">FHH TRAP</text>
+<text x="134" y="590.5" font-size="11.5" font-weight="400" fill="#2E3C42">Exclude familial hypocalciuric hypercalcaemia first — a benign CaSR mutation. A urinary calcium:creatinine clearance ratio below</text>
+<text x="134" y="605.5" font-size="11.5" font-weight="400" fill="#2E3C42">0.01 suggests FHH → do NOT operate.</text>
+<rect x="30" y="622" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="638" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">LOCALISATION — TO PLAN SURGERY, NOT TO DIAGNOSE</text>
+<path d="M 30.0 654.0 L 243.0 654.0 L 265.0 694.0 L 243.0 734.0 L 30.0 734.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="46.0" y="680" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">ULTRASOUND</text>
+<text x="46.0" y="698" font-size="11" font-weight="400" fill="#2E3C42">First-line; operator-dependent;</text>
+<text x="46.0" y="713" font-size="11" font-weight="400" fill="#2E3C42">sees intrathyroidal glands</text>
+<path d="M 265.0 654.0 L 478.0 654.0 L 500.0 694.0 L 478.0 734.0 L 265.0 734.0 L 287.0 694.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="297.0" y="680" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">SESTAMIBI</text>
+<text x="297.0" y="698" font-size="11" font-weight="400" fill="#2E3C42">99mTc-MIBI ± SPECT/CT;</text>
+<text x="297.0" y="713" font-size="11" font-weight="400" fill="#2E3C42">concordance with USS enables</text>
+<text x="297.0" y="728" font-size="11" font-weight="400" fill="#2E3C42">focused surgery</text>
+<path d="M 500.0 654.0 L 713.0 654.0 L 735.0 694.0 L 713.0 734.0 L 500.0 734.0 L 522.0 694.0 Z" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.4"/>
+<text x="532.0" y="680" font-size="11.5" font-weight="800" fill="#6D4AA3" letter-spacing="0.4">4D-CT</text>
+<text x="532.0" y="698" font-size="11" font-weight="400" fill="#2E3C42">For non-localising or discordant</text>
+<text x="532.0" y="713" font-size="11" font-weight="400" fill="#2E3C42">studies</text>
+<path d="M 735.0 654.0 L 970.0 654.0 L 970.0 734.0 L 735.0 734.0 L 757.0 694.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="767.0" y="680" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">CHOLINE PET</text>
+<text x="767.0" y="698" font-size="11" font-weight="400" fill="#2E3C42">Problem-solving and re-operative</text>
+<text x="767.0" y="713" font-size="11" font-weight="400" fill="#2E3C42">cases</text>
+<rect x="30" y="740" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="756" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">WHO NEEDS SURGERY? — NICE NG132 + INTERNATIONAL WORKSHOP</text>
+<rect x="30.0" y="772" width="181.6" height="86" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="30.0" y="772" width="181.6" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="30.0" y="783" width="181.6" height="11" fill="#BE3A2E"/>
+<text x="40.0" y="788" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">SYMPTOMS</text>
+<text x="40.0" y="809" font-size="10.5" font-weight="700" fill="#BE3A2E">stones / fractures</text>
+<text x="40.0" y="824" font-size="10" font-weight="400" fill="#2E3C42">Any symptomatic disease →</text>
+<text x="40.0" y="837" font-size="10" font-weight="400" fill="#2E3C42">operate</text>
+<rect x="219.6" y="772" width="181.6" height="86" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="219.6" y="772" width="181.6" height="22" fill="#C77B20" rx="9"/>
+<rect x="219.6" y="783" width="181.6" height="11" fill="#C77B20"/>
+<text x="229.6" y="788" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Ca ≥ 2.85</text>
+<text x="229.6" y="809" font-size="10.5" font-weight="700" fill="#C77B20">mmol/L — NICE</text>
+<text x="229.6" y="824" font-size="10" font-weight="400" fill="#2E3C42">Adjusted calcium threshold</text>
+<rect x="409.2" y="772" width="181.6" height="86" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.3"/>
+<rect x="409.2" y="772" width="181.6" height="22" fill="#245C8C" rx="9"/>
+<rect x="409.2" y="783" width="181.6" height="11" fill="#245C8C"/>
+<text x="419.2" y="788" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">AGE &lt; 50</text>
+<text x="419.2" y="809" font-size="10.5" font-weight="700" fill="#245C8C">younger patient</text>
+<text x="419.2" y="824" font-size="10" font-weight="400" fill="#2E3C42">Workshop criterion</text>
+<rect x="598.8" y="772" width="181.6" height="86" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="598.8" y="772" width="181.6" height="22" fill="#15806A" rx="9"/>
+<rect x="598.8" y="783" width="181.6" height="11" fill="#15806A"/>
+<text x="608.8" y="788" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">eGFR &lt; 60</text>
+<text x="608.8" y="809" font-size="10.5" font-weight="700" fill="#15806A">or renal stones</text>
+<text x="608.8" y="824" font-size="10" font-weight="400" fill="#2E3C42">Renal involvement</text>
+<rect x="788.4" y="772" width="181.6" height="86" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.3"/>
+<rect x="788.4" y="772" width="181.6" height="22" fill="#6D4AA3" rx="9"/>
+<rect x="788.4" y="783" width="181.6" height="11" fill="#6D4AA3"/>
+<text x="798.4" y="788" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">T ≤ −2.5</text>
+<text x="798.4" y="809" font-size="10.5" font-weight="700" fill="#6D4AA3">or fragility #</text>
+<text x="798.4" y="824" font-size="10" font-weight="400" fill="#2E3C42">Osteoporosis / bone loss</text>
+<rect x="30" y="864" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="880" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">OPERATIVE APPROACH — FOCUSED vs EXPLORATION</text>
+<rect x="30" y="896" width="462.0" height="184" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 942 L 30 907 Q 30 896 41 896 L 481.0 896 Q 492.0 896 492.0 907 L 492.0 942 Z" fill="#15806A"/>
+<text x="44" y="917" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">FOCUSED MIP</text>
+<text x="44" y="934" font-size="11.5" font-weight="600" fill="#FFFFFF">localised single adenoma</text>
+<text x="44" y="960" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Indication</text>
+<text x="44" y="975" font-size="11" font-weight="400" fill="#2E3C42">Single adenoma, concordant on USS + sestamibi</text>
+<text x="44" y="999" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Procedure</text>
+<text x="44" y="1014" font-size="11" font-weight="400" fill="#2E3C42">Focused / minimally invasive parathyroidectomy (MIP)</text>
+<text x="44" y="1038" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Confirm</text>
+<text x="44" y="1053" font-size="11" font-weight="400" fill="#2E3C42">Intra-operative PTH — the Miami criterion (below)</text>
+<rect x="508.0" y="896" width="462.0" height="184" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 508.0 942 L 508.0 907 Q 508.0 896 519.0 896 L 959.0 896 Q 970.0 896 970.0 907 L 970.0 942 Z" fill="#6D4AA3"/>
+<text x="522.0" y="917" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BILATERAL EXPLORATION</text>
+<text x="522.0" y="934" font-size="11.5" font-weight="600" fill="#FFFFFF">non-localising / multigland</text>
+<text x="522.0" y="960" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Indication</text>
+<text x="522.0" y="975" font-size="11" font-weight="400" fill="#2E3C42">Non-localising, multigland / hyperplasia, MEN, or re-do</text>
+<text x="522.0" y="999" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Procedure</text>
+<text x="522.0" y="1014" font-size="11" font-weight="400" fill="#2E3C42">Bilateral neck exploration — inspect all four glands</text>
+<text x="522.0" y="1038" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Hyperplasia</text>
+<text x="522.0" y="1053" font-size="11" font-weight="400" fill="#2E3C42">Subtotal (3½-gland) or total + forearm autotransplant</text>
+<rect x="30" y="1086" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1102" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">INTRA-OPERATIVE PTH — THE MIAMI CRITERION</text>
+<rect x="30" y="1118" width="940" height="156" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<line x1="100" y1="1138" x2="100" y2="1236" stroke="#D7DEDC" stroke-width="1.4"/>
+<line x1="100" y1="1236" x2="570" y2="1236" stroke="#D7DEDC" stroke-width="1.4"/>
+<text x="48" y="1148" font-size="10" font-weight="700" fill="#6B7B80">PTH</text>
+<line x1="100" y1="1187.0" x2="570" y2="1187.0" stroke="#C77B20" stroke-width="1.3" stroke-dasharray="6 4"/>
+<text x="570" y="1181.0" font-size="9.5" font-weight="700" fill="#C77B20" text-anchor="end">50% of baseline</text>
+<path d="M 100.0 1179.2 L 194.0 1138.0 L 358.5 1177.2 L 504.2 1203.7" fill="none" stroke="#245C8C" stroke-width="2.6"/>
+<circle cx="100.0" cy="1179.16" r="4.6" fill="#245C8C"/>
+<text x="100.0" y="1252" font-size="9.5" font-weight="600" fill="#6B7B80" text-anchor="middle">pre-op</text>
+<circle cx="194.0" cy="1138.0" r="4.6" fill="#245C8C"/>
+<text x="194.0" y="1252" font-size="9.5" font-weight="600" fill="#6B7B80" text-anchor="middle">at excision</text>
+<circle cx="358.5" cy="1177.2" r="4.6" fill="#245C8C"/>
+<text x="358.5" y="1252" font-size="9.5" font-weight="600" fill="#6B7B80" text-anchor="middle">5 min</text>
+<circle cx="504.2" cy="1203.66" r="4.6" fill="#15806A"/>
+<text x="504.2" y="1252" font-size="9.5" font-weight="600" fill="#6B7B80" text-anchor="middle">10 min</text>
+<text x="506.2" y="1223.66" font-size="10" font-weight="800" fill="#15806A" text-anchor="middle">&gt; 50% fall → cure</text>
+<text x="670" y="1152" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.4">MIAMI CRITERION</text>
+<text x="670" y="1174" font-size="11" font-weight="400" fill="#2E3C42">A &gt; 50% fall in PTH from the highest</text>
+<text x="670" y="1190" font-size="11" font-weight="400" fill="#2E3C42">pre-excision value, measured 10 min</text>
+<text x="670" y="1206" font-size="11" font-weight="400" fill="#2E3C42">after removing the gland, confirms the</text>
+<text x="670" y="1222" font-size="11" font-weight="400" fill="#2E3C42">culprit adenoma is out (PTH t½ ≈ 3–5 min).</text>
+<text x="670" y="1238" font-size="11" font-weight="400" fill="#2E3C42">No fall → a second gland remains → convert</text>
+<text x="670" y="1254" font-size="11" font-weight="400" fill="#2E3C42">to bilateral neck exploration.</text>
+<rect x="30" y="1280" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1296" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">SECONDARY &amp; TERTIARY HYPERPARATHYROIDISM</text>
+<rect x="30" y="1312" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="1328" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Type</text>
+<text x="180" y="1328" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Calcium</text>
+<text x="330" y="1328" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">PTH</text>
+<text x="482" y="1328" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Setting &amp; management</text>
+<rect x="30" y="1336" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="1336" width="4" height="26" fill="#15806A"/>
+<text x="42" y="1352" font-size="11" font-weight="700" fill="#2E1E0A">Secondary</text>
+<text x="180" y="1352" font-size="11" font-weight="400" fill="#2E3C42">Low / normal</text>
+<text x="330" y="1352" font-size="11" font-weight="400" fill="#2E3C42">High (appropriate)</text>
+<text x="482" y="1352" font-size="11" font-weight="400" fill="#2E3C42">CKD or vitamin D deficiency → phosphate binders, active vit D, cinacalcet</text>
+<rect x="30" y="1362" width="4" height="26" fill="#BE3A2E"/>
+<text x="42" y="1378" font-size="11" font-weight="700" fill="#2E1E0A">Tertiary</text>
+<text x="180" y="1378" font-size="11" font-weight="400" fill="#2E3C42">High</text>
+<text x="330" y="1378" font-size="11" font-weight="400" fill="#2E3C42">Very high (autonomous)</text>
+<text x="482" y="1378" font-size="11" font-weight="400" fill="#2E3C42">Long-standing 2° (usually CKD) → parathyroidectomy (subtotal / total+autograft)</text>
+<rect x="30" y="1394" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1410" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">COMPLICATIONS &amp; HYPERCALCAEMIC CRISIS</text>
+<rect x="30" y="1426" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1426" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="1454" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">after parathyroidectomy</text>
+<text x="54" y="1478" font-size="18" font-weight="800" fill="#2E1E0A">What to watch for</text>
+<text x="54" y="1500" font-size="12" font-weight="700" fill="#15806A">RLN injury</text>
+<text x="216" y="1500.0" font-size="12" font-weight="400" fill="#2E3C42">Recurrent laryngeal nerve palsy → voice change; the parathyroids sit close to the nerve.</text>
+<text x="54" y="1520.5" font-size="12" font-weight="700" fill="#15806A">Hungry bone</text>
+<text x="216" y="1520.5" font-size="12" font-weight="400" fill="#2E3C42">Profound, prolonged hypocalcaemia (± low phosphate / magnesium) after removing long-standing high PTH — a high</text>
+<text x="216" y="1541.0" font-size="12" font-weight="400" fill="#2E3C42">pre-op ALP flags the risk.</text>
+<text x="54" y="1561.5" font-size="12" font-weight="700" fill="#15806A">Persistent vs recurrent</text>
+<text x="216" y="1561.5" font-size="12" font-weight="400" fill="#2E3C42">Persistent &lt; 6 months (missed gland / wrong target); recurrent &gt; 6 months after a normocalcaemic interval.</text>
+<rect x="30" y="1583.5" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="1583.5" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="1602.0" font-size="12" font-weight="800" fill="#BE3A2E">CRISIS</text>
+<text x="110" y="1602.0" font-size="11.5" font-weight="400" fill="#2E3C42">Symptomatic hypercalcaemia or Ca &gt; 3.5 mmol/L: IV 0.9% saline rehydration first, then IV bisphosphonate; treat the cause. Avoid</text>
+<text x="110" y="1617.0" font-size="11.5" font-weight="400" fill="#2E3C42">routine loop diuretics.</text>
+<rect x="30" y="1637.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1653.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1667.5" width="940" height="192.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1667.5" width="6" height="192.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1689.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1693.5" font-size="12" font-weight="600" fill="#2E1E0A">Imaging never makes the diagnosis — a negative sestamibi does not exclude primary HPT; biochemistry diagnoses, imaging</text>
+<text x="72" y="1711.5" font-size="12" font-weight="400" fill="#2E3C42">only guides the surgeon.</text>
+<circle cx="60" cy="1729.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1733.5" font-size="12" font-weight="600" fill="#2E1E0A">Always exclude FHH (low urinary calcium) before operating — parathyroidectomy will not cure it.</text>
+<circle cx="60" cy="1751.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1755.5" font-size="12" font-weight="600" fill="#2E1E0A">The Miami criterion is a &gt;50% fall in intra-operative PTH from the highest pre-excision value by 10 minutes — it confirms the</text>
+<text x="72" y="1773.5" font-size="12" font-weight="400" fill="#2E3C42">culprit gland is out.</text>
+<circle cx="60" cy="1791.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1795.5" font-size="12" font-weight="600" fill="#2E1E0A">Four-gland hyperplasia needs all glands addressed (subtotal or total + autotransplant), not single-gland excision — think MEN.</text>
+<circle cx="60" cy="1813.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1817.5" font-size="12" font-weight="600" fill="#2E1E0A">Hungry bone vs hypoparathyroidism: both drop calcium post-op, but hungry bone also lowers phosphate whereas</text>
+<text x="72" y="1835.5" font-size="12" font-weight="400" fill="#2E3C42">hypoparathyroidism raises it.</text>
+<line x1="30" y1="1881.5" x2="970" y2="1881.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1900.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG132 — Hyperparathyroidism (primary): diagnosis, assessment and initial management (2019) · BAETS · International Workshop on Asymptomatic Primary</text>
+<text x="30" y="1914.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Hyperparathyroidism · standard surgical texts.</text>
+<text x="30" y="1928.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Physiology, PTH actions, parathyroid anatomy and the biochemistry of all three hyperparathyroidisms are on sheet 1 of 2.</text>
+<text x="30" y="1942.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1982.5" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="2011.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="2011.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

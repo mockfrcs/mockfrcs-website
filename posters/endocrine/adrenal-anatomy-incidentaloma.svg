@@ -1,0 +1,152 @@
+<svg viewBox="0 0 1000 1350" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1350" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="28.2" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Adrenal gland: anatomy, physiology &amp; the incidentaloma</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · sheet 1 of 2 · blood supply · cortical zones · incidentaloma work-up</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">ANATOMY &amp; BLOOD SUPPLY</text>
+<rect x="30" y="158" width="940" height="250" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<text x="280" y="180" font-size="10.5" font-weight="700" fill="#6B7B80" text-anchor="middle">Retroperitoneal — anterior view</text>
+<rect x="288" y="210" width="16" height="158" fill="#7FA8CF" rx="6"/>
+<rect x="322" y="210" width="16" height="158" fill="#C77E7E" rx="6"/>
+<text x="296" y="388" font-size="9.5" font-weight="700" fill="#6B7B80" text-anchor="middle">IVC</text>
+<text x="331" y="400" font-size="9.5" font-weight="700" fill="#6B7B80" text-anchor="middle">aorta</text>
+<ellipse cx="150" cy="336" rx="38" ry="52" fill="#ECE6D8" stroke="#CBBE9E" stroke-width="1.3"/>
+<ellipse cx="460" cy="336" rx="38" ry="52" fill="#ECE6D8" stroke="#CBBE9E" stroke-width="1.3"/>
+<text x="150" y="340" font-size="9" font-weight="400" fill="#6B7B80" text-anchor="middle">R kidney</text>
+<text x="460" y="340" font-size="9" font-weight="400" fill="#6B7B80" text-anchor="middle">L kidney</text>
+<path d="M 122 270 Q 150 232 180 268 Q 152 284 122 270 Z" fill="#E7A73C" stroke="#B9821F" stroke-width="1.3"/>
+<path d="M 432 270 Q 460 232 490 268 Q 462 284 432 270 Z" fill="#E7A73C" stroke="#B9821F" stroke-width="1.3"/>
+<text x="150" y="228" font-size="9.5" font-weight="700" fill="#B9821F" text-anchor="middle">R adrenal</text>
+<text x="460" y="228" font-size="9.5" font-weight="700" fill="#B9821F" text-anchor="middle">L adrenal</text>
+<line x1="180" y1="268" x2="288" y2="254" stroke="#7FA8CF" stroke-width="3.4"/>
+<text x="216" y="254" font-size="9" font-weight="700" fill="#245C8C" text-anchor="middle">short R vein</text>
+<line x1="430" y1="316" x2="304" y2="316" stroke="#7FA8CF" stroke-width="3.4"/>
+<line x1="460" y1="276" x2="436" y2="314" stroke="#7FA8CF" stroke-width="3.4"/>
+<text x="390" y="308" font-size="9" font-weight="700" fill="#245C8C" text-anchor="middle">L renal vein</text>
+<line x1="150" y1="198" x2="152" y2="262" stroke="#C77E7E" stroke-width="2"/>
+<line x1="322" y1="262" x2="152" y2="262" stroke="#C77E7E" stroke-width="2"/>
+<line x1="180" y1="308" x2="152" y2="262" stroke="#C77E7E" stroke-width="2"/>
+<text x="150" y="192" font-size="9" font-weight="700" fill="#B0554F" text-anchor="middle">3 arteries</text>
+<text x="598" y="188" font-size="11" font-weight="800" fill="#2E1E0A" letter-spacing="0.3">BLOOD SUPPLY &amp; POSITION</text>
+<text x="598" y="210" font-size="11" font-weight="800" fill="#245C8C">Position</text>
+<text x="598" y="226" font-size="11" font-weight="400" fill="#2E3C42">Retroperitoneal, at the upper renal poles; right pyramidal, left</text>
+<text x="598" y="242" font-size="11" font-weight="400" fill="#2E3C42">crescentic.</text>
+<text x="598" y="267" font-size="11" font-weight="800" fill="#245C8C">Arteries ×3</text>
+<text x="598" y="283" font-size="11" font-weight="400" fill="#2E3C42">Superior ← inferior phrenic artery · Middle ← aorta directly ·</text>
+<text x="598" y="299" font-size="11" font-weight="400" fill="#2E3C42">Inferior ← renal artery.</text>
+<text x="598" y="324" font-size="11" font-weight="800" fill="#245C8C">Veins ×1</text>
+<text x="598" y="340" font-size="11" font-weight="400" fill="#2E3C42">Right suprarenal vein → IVC (short — the danger point); Left →</text>
+<text x="598" y="356" font-size="11" font-weight="400" fill="#2E3C42">left renal vein.</text>
+<text x="598" y="381" font-size="11" font-weight="800" fill="#245C8C">Origin</text>
+<text x="598" y="397" font-size="11" font-weight="400" fill="#2E3C42">Cortex from mesoderm; medulla (chromaffin) from neural crest.</text>
+<rect x="30" y="414" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="430" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">CORTEX &amp; MEDULLA — THE LAYERS</text>
+<rect x="30" y="446" width="940" height="40" fill="#C77B20" rx="7"/>
+<text x="46" y="471" font-size="13" font-weight="800" fill="#FFFFFF">ZONA GLOMERULOSA</text>
+<text x="296" y="471" font-size="12" font-weight="600" fill="#FFFFFF">Aldosterone (mineralocorticoid)</text>
+<text x="656" y="471" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">RAAS / K⁺  ·  SALT</text>
+<rect x="30" y="490" width="940" height="40" fill="#245C8C" rx="7"/>
+<text x="46" y="515" font-size="13" font-weight="800" fill="#FFFFFF">ZONA FASCICULATA</text>
+<text x="296" y="515" font-size="12" font-weight="600" fill="#FFFFFF">Cortisol (glucocorticoid)</text>
+<text x="656" y="515" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">ACTH  ·  SUGAR</text>
+<rect x="30" y="534" width="940" height="40" fill="#6D4AA3" rx="7"/>
+<text x="46" y="559" font-size="13" font-weight="800" fill="#FFFFFF">ZONA RETICULARIS</text>
+<text x="296" y="559" font-size="12" font-weight="600" fill="#FFFFFF">Androgens (DHEA)</text>
+<text x="656" y="559" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">ACTH  ·  SEX</text>
+<rect x="30" y="578" width="940" height="40" fill="#BE3A2E" rx="7"/>
+<text x="46" y="603" font-size="13" font-weight="800" fill="#FFFFFF">MEDULLA</text>
+<text x="296" y="603" font-size="12" font-weight="600" fill="#FFFFFF">Catecholamines (adr / noradr)</text>
+<text x="656" y="603" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Sympathetic  ·  neural crest</text>
+<text x="30" y="630" font-size="11" font-weight="400" fill="#6B7B80" font-style="italic">Outer → inner = G · F · R then medulla — 'Salt, Sugar, Sex; the deeper you go, the sweeter it gets.' Cortex is ACTH-driven (F &amp; R); glomerulosa answers to the RAAS.</text>
+<rect x="30" y="645" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="661" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">INCIDENTALOMA — DIFFERENTIALS</text>
+<rect x="30.0" y="677" width="181.6" height="84" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="677" width="181.6" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="688" width="181.6" height="11" fill="#15806A"/>
+<text x="40.0" y="693" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">ADENOMA</text>
+<text x="40.0" y="714" font-size="10.5" font-weight="700" fill="#15806A">commonest (~80%)</text>
+<text x="40.0" y="729" font-size="10" font-weight="400" fill="#2E3C42">Functioning or not</text>
+<rect x="219.6" y="677" width="181.6" height="84" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="219.6" y="677" width="181.6" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="219.6" y="688" width="181.6" height="11" fill="#BE3A2E"/>
+<text x="229.6" y="693" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">PHAEO</text>
+<text x="229.6" y="714" font-size="10.5" font-weight="700" fill="#BE3A2E">always exclude</text>
+<text x="229.6" y="729" font-size="10" font-weight="400" fill="#2E3C42">Plasma metanephrines</text>
+<rect x="409.2" y="677" width="181.6" height="84" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.3"/>
+<rect x="409.2" y="677" width="181.6" height="22" fill="#6D4AA3" rx="9"/>
+<rect x="409.2" y="688" width="181.6" height="11" fill="#6D4AA3"/>
+<text x="419.2" y="693" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">ACC</text>
+<text x="419.2" y="714" font-size="10.5" font-weight="700" fill="#6D4AA3">large / irregular</text>
+<text x="419.2" y="729" font-size="10" font-weight="400" fill="#2E3C42">Adrenocortical cancer</text>
+<rect x="598.8" y="677" width="181.6" height="84" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="598.8" y="677" width="181.6" height="22" fill="#C77B20" rx="9"/>
+<rect x="598.8" y="688" width="181.6" height="11" fill="#C77B20"/>
+<text x="608.8" y="693" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">METASTASIS</text>
+<text x="608.8" y="714" font-size="10.5" font-weight="700" fill="#C77B20">known primary</text>
+<text x="608.8" y="729" font-size="10" font-weight="400" fill="#2E3C42">Lung, breast, renal</text>
+<rect x="788.4" y="677" width="181.6" height="84" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.3"/>
+<rect x="788.4" y="677" width="181.6" height="22" fill="#245C8C" rx="9"/>
+<rect x="788.4" y="688" width="181.6" height="11" fill="#245C8C"/>
+<text x="798.4" y="693" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">MYELOLIPOMA</text>
+<text x="798.4" y="714" font-size="10.5" font-weight="700" fill="#245C8C">macroscopic fat</text>
+<text x="798.4" y="729" font-size="10" font-weight="400" fill="#2E3C42">Benign — leave alone</text>
+<rect x="30" y="767" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="783" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">INCIDENTALOMA — WORK-UP</text>
+<rect x="30" y="799" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="799" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="817.5" font-size="12" font-weight="800" fill="#C77B20">TWO QUESTIONS</text>
+<text x="180" y="817.5" font-size="11.5" font-weight="400" fill="#2E3C42">Every adrenal incidentaloma poses two questions: is it FUNCTIONING (hormone screen) and is it MALIGNANT (imaging</text>
+<text x="180" y="832.5" font-size="11.5" font-weight="400" fill="#2E3C42">phenotype + size)?</text>
+<rect x="30.0" y="857" width="212.5" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="136.25" y="887.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Non-contrast CT — HU ≤10</text>
+<text x="136.25" y="901.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">= benign adenoma</text>
+<line x1="246.5" y1="890.0" x2="259.5" y2="890.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 268.5 890.0 L 259.5 894.7 L 259.5 885.3 Z" fill="#6B7B80"/>
+<rect x="272.5" y="857" width="212.5" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="378.75" y="873.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Hormone screen: 1 mg</text>
+<text x="378.75" y="887.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">dexamethasone ·</text>
+<text x="378.75" y="901.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">metanephrines · ARR (if HTN</text>
+<text x="378.75" y="915.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">/ low K⁺)</text>
+<line x1="489.0" y1="890.0" x2="502.0" y2="890.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 511.0 890.0 L 502.0 894.7 L 502.0 885.3 Z" fill="#6B7B80"/>
+<rect x="515.0" y="857" width="212.5" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="621.25" y="887.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Indeterminate / suspicious →</text>
+<text x="621.25" y="901.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">washout CT or MRI + MDT</text>
+<line x1="731.5" y1="890.0" x2="744.5" y2="890.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 753.5 890.0 L 744.5 894.7 L 744.5 885.3 Z" fill="#6B7B80"/>
+<rect x="757.5" y="857" width="212.5" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="863.75" y="887.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Resect if functioning or</text>
+<text x="863.75" y="901.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">malignancy-suspected</text>
+<rect x="30" y="941" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="941" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="959.5" font-size="12" font-weight="800" fill="#15806A">ESE 2023</text>
+<text x="129" y="959.5" font-size="11.5" font-weight="400" fill="#2E3C42">HU ≤10 on non-contrast CT = benign lipid-rich adenoma → no follow-up at any size. 1 mg overnight dexamethasone &gt;50 nmol/L = mild</text>
+<text x="129" y="974.5" font-size="11.5" font-weight="400" fill="#2E3C42">autonomous cortisol secretion (MACS). Measure metanephrines only if &gt;10 HU; check the ARR only if hypertensive or hypokalaemic.</text>
+<rect x="30" y="995" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1011" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1025" width="940" height="156" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1025" width="6" height="156" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1047" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1051" font-size="12" font-weight="600" fill="#2E1E0A">Always exclude a phaeochromocytoma biochemically BEFORE biopsying or operating on any adrenal mass — an unblocked</text>
+<text x="72" y="1069" font-size="12" font-weight="400" fill="#2E3C42">phaeo can crash on the table.</text>
+<circle cx="60" cy="1087" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1091" font-size="12" font-weight="600" fill="#2E1E0A">≤10 HU on non-contrast CT means a benign lipid-rich adenoma — no follow-up needed whatever the size (ESE 2023).</text>
+<circle cx="60" cy="1109" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1113" font-size="12" font-weight="600" fill="#2E1E0A">A myelolipoma contains macroscopic fat on CT — benign; leave it alone.</text>
+<circle cx="60" cy="1131" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1135" font-size="12" font-weight="600" fill="#2E1E0A">The right adrenal (suprarenal) vein is short and drains straight into the IVC — the danger point in a right adrenalectomy.</text>
+<circle cx="60" cy="1153" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1157" font-size="12" font-weight="600" fill="#2E1E0A">Answer both incidentaloma questions every time: is it functioning, and is it malignant?</text>
+<line x1="30" y1="1203" x2="970" y2="1203" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1222" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: European Society of Endocrinology / ENSAT adrenal incidentaloma guideline (2023) · standard anatomy &amp; physiology texts · Endocrine Society.</text>
+<text x="30" y="1236" font-size="10.5" font-weight="400" fill="#7C8A8E">ARR = aldosterone-renin ratio; MACS = mild autonomous cortisol secretion; HU = Hounsfield units. Phaeochromocytoma, Conn's, Cushing's and adrenocortical carcinoma are on sheet 2</text>
+<text x="30" y="1250" font-size="10.5" font-weight="400" fill="#7C8A8E">of 2.</text>
+<text x="30" y="1264" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1304" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="1333" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1333" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

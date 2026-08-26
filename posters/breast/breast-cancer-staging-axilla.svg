@@ -1,0 +1,138 @@
+<svg viewBox="0 0 1000 1294.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1294.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#AA2E5A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Breast cancer — staging, the axilla &amp; prognosis</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#EAC4D2">FRCS Part 1 (General Surgery)  ·  TNM 8th edition  ·  micrometastasis &amp; ITC  ·  sentinel node &amp; axillary trials  ·  NPI / PREDICT   [2 of 3]</text>
+<rect x="30" y="138" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="154" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">TNM 8th EDITION  ·  T (SIZE)  &amp;  N (NODES)</text>
+<rect x="30" y="172" width="455" height="24" fill="#3A1322" rx="5"/>
+<text x="44" y="188" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">T</text>
+<text x="150" y="188" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Tumour size</text>
+<rect x="30" y="196" width="455" height="25" fill="#F1F4F2"/>
+<rect x="30" y="196" width="4" height="25" fill="#245C8C"/>
+<text x="44" y="212" font-size="11" font-weight="700" fill="#3A1322">Tis</text>
+<text x="150" y="212" font-size="11" font-weight="400" fill="#2E3C42">DCIS / LCIS / Paget (in situ)</text>
+<rect x="30" y="221" width="4" height="25" fill="#245C8C"/>
+<text x="44" y="237" font-size="11" font-weight="700" fill="#3A1322">T1</text>
+<text x="150" y="237" font-size="11" font-weight="400" fill="#2E3C42">≤20 mm  (mi≤1·a≤5·b≤10·c≤20)</text>
+<rect x="30" y="246" width="455" height="25" fill="#F1F4F2"/>
+<rect x="30" y="246" width="4" height="25" fill="#C77B20"/>
+<text x="44" y="262" font-size="11" font-weight="700" fill="#3A1322">T2</text>
+<text x="150" y="262" font-size="11" font-weight="400" fill="#2E3C42">&gt;20–50 mm</text>
+<rect x="30" y="271" width="4" height="25" fill="#C77B20"/>
+<text x="44" y="287" font-size="11" font-weight="700" fill="#3A1322">T3</text>
+<text x="150" y="287" font-size="11" font-weight="400" fill="#2E3C42">&gt;50 mm</text>
+<rect x="30" y="296" width="455" height="25" fill="#F1F4F2"/>
+<rect x="30" y="296" width="4" height="25" fill="#BE3A2E"/>
+<text x="44" y="312" font-size="11" font-weight="700" fill="#3A1322">T4</text>
+<text x="150" y="312" font-size="11" font-weight="400" fill="#2E3C42">a wall · b skin · c both · d inflam.</text>
+<rect x="505" y="172" width="455" height="24" fill="#3A1322" rx="5"/>
+<text x="520" y="188" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">N</text>
+<text x="646" y="188" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Pathological nodes (pN)</text>
+<rect x="505" y="196" width="455" height="25" fill="#F1F4F2"/>
+<rect x="505" y="196" width="4" height="25" fill="#15806A"/>
+<text x="520" y="212" font-size="11" font-weight="700" fill="#3A1322">N0</text>
+<text x="646" y="212" font-size="11" font-weight="400" fill="#2E3C42">None   ·   ITC = pN0(i+)</text>
+<rect x="505" y="221" width="4" height="25" fill="#15806A"/>
+<text x="520" y="237" font-size="11" font-weight="700" fill="#3A1322">N1</text>
+<text x="646" y="237" font-size="11" font-weight="400" fill="#2E3C42">1–3 nodes   ·   mi = pN1mi</text>
+<rect x="505" y="246" width="455" height="25" fill="#F1F4F2"/>
+<rect x="505" y="246" width="4" height="25" fill="#C77B20"/>
+<text x="520" y="262" font-size="11" font-weight="700" fill="#3A1322">N2</text>
+<text x="646" y="262" font-size="11" font-weight="400" fill="#2E3C42">4–9, or internal mammary</text>
+<rect x="505" y="271" width="4" height="25" fill="#BE3A2E"/>
+<text x="520" y="287" font-size="11" font-weight="700" fill="#3A1322">N3</text>
+<text x="646" y="287" font-size="11" font-weight="400" fill="#2E3C42">≥10, infra / supraclavicular</text>
+<text x="30" y="337" font-size="10.5" font-weight="400" fill="#6B7B80">M0 = no distant metastasis · M1 = distant metastasis. cM0(i+) = occult tumour cells (blood / marrow / distant nodes) with no clinical or radiological metastasis.</text>
+<rect x="30" y="351" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="367" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">NODAL DISEASE  ·  ITC vs MICROMET vs MACROMET</text>
+<rect x="30.0" y="385" width="306.6666666666667" height="92" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.3"/>
+<rect x="30.0" y="385" width="306.6666666666667" height="22" fill="#245C8C" rx="9"/>
+<rect x="30.0" y="396" width="306.6666666666667" height="11" fill="#245C8C"/>
+<text x="40.0" y="401" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">ITC · pN0(i+)</text>
+<text x="40.0" y="422" font-size="10.5" font-weight="700" fill="#245C8C">≤0.2 mm or &lt;200 cells</text>
+<text x="40.0" y="437" font-size="10" font-weight="400" fill="#2E3C42">Staged node-NEGATIVE; no further axillary treatment</text>
+<rect x="346.6666666666667" y="385" width="306.6666666666667" height="92" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="346.6666666666667" y="385" width="306.6666666666667" height="22" fill="#C77B20" rx="9"/>
+<rect x="346.6666666666667" y="396" width="306.6666666666667" height="11" fill="#C77B20"/>
+<text x="356.6666666666667" y="401" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">MICROMET · pN1mi</text>
+<text x="356.6666666666667" y="422" font-size="10.5" font-weight="700" fill="#C77B20">&gt;0.2–2.0 mm or &gt;200 cells</text>
+<text x="356.6666666666667" y="437" font-size="10" font-weight="400" fill="#2E3C42">No further axillary treatment (per NICE)</text>
+<rect x="663.3333333333334" y="385" width="306.6666666666667" height="92" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="663.3333333333334" y="385" width="306.6666666666667" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="663.3333333333334" y="396" width="306.6666666666667" height="11" fill="#BE3A2E"/>
+<text x="673.3333333333334" y="401" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">MACROMET · pN1</text>
+<text x="673.3333333333334" y="422" font-size="10.5" font-weight="700" fill="#BE3A2E">&gt;2.0 mm</text>
+<text x="673.3333333333334" y="437" font-size="10" font-weight="400" fill="#2E3C42">Axillary clearance OR axillary radiotherapy</text>
+<rect x="30" y="479" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="495" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGING THE AXILLA</text>
+<rect x="30" y="513" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="513" width="6" height="164.0" fill="#15806A" rx="3"/>
+<text x="54" y="541" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SENTINEL NODE BIOPSY &amp; THE POSITIVE NODE</text>
+<text x="54" y="565" font-size="18" font-weight="800" fill="#3A1322">From cN0 to node-positive</text>
+<text x="54" y="587" font-size="12" font-weight="700" fill="#15806A">cN0</text>
+<text x="162" y="587.0" font-size="12" font-weight="400" fill="#2E3C42">Sentinel lymph node biopsy — dual technique (isotope + blue dye); not routine clearance.</text>
+<text x="54" y="607.5" font-size="12" font-weight="700" fill="#15806A">SLN macromet</text>
+<text x="162" y="607.5" font-size="12" font-weight="400" fill="#2E3C42">Axillary node clearance OR axillary radiotherapy (AMAROS: RT = similar control, less lymphoedema).</text>
+<text x="54" y="628.0" font-size="12" font-weight="700" fill="#15806A">1–2 macromets</text>
+<text x="162" y="628.0" font-size="12" font-weight="400" fill="#2E3C42">With BCS + whole-breast RT + systemic therapy, further axillary treatment may be omitted (Z0011; POSNOC).</text>
+<text x="54" y="648.5" font-size="12" font-weight="700" fill="#15806A">Micromet / ITC</text>
+<text x="162" y="648.5" font-size="12" font-weight="400" fill="#2E3C42">No further axillary treatment.</text>
+<text x="54" y="669.0" font-size="12" font-weight="700" fill="#15806A">cN+ (proven)</text>
+<text x="162" y="669.0" font-size="12" font-weight="400" fill="#2E3C42">Biopsy-proven positive node → axillary node clearance (bypasses SLNB).</text>
+<rect x="30" y="679.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="695.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">PROGNOSIS &amp; PRE-OPERATIVE RISK STRATIFICATION</text>
+<rect x="30" y="713.0" width="455" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="713.0" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="741.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">NOTTINGHAM PROGNOSTIC INDEX</text>
+<text x="54" y="765.0" font-size="18" font-weight="800" fill="#3A1322">NPI</text>
+<text x="54" y="787.0" font-size="12" font-weight="700" fill="#245C8C">Formula</text>
+<text x="136" y="787.0" font-size="12" font-weight="400" fill="#2E3C42">(0.2 × size cm) + node stage + grade.</text>
+<text x="54" y="807.5" font-size="12" font-weight="700" fill="#245C8C">Node stage</text>
+<text x="136" y="807.5" font-size="12" font-weight="400" fill="#2E3C42">1 = none · 2 = 1–3 nodes · 3 = ≥4 nodes.</text>
+<text x="54" y="828.0" font-size="12" font-weight="700" fill="#245C8C">Bands</text>
+<text x="136" y="828.0" font-size="12" font-weight="400" fill="#2E3C42">Good &lt;3.4 · Moderate 3.4–5.4 · Poor &gt;5.4.</text>
+<rect x="505" y="713.0" width="455" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="505" y="713.0" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="529" y="741.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">RISK-STRATIFICATION TOOLS</text>
+<text x="529" y="765.0" font-size="18" font-weight="800" fill="#3A1322">PREDICT &amp; genomics</text>
+<text x="529" y="787.0" font-size="12" font-weight="700" fill="#15806A">PREDICT</text>
+<text x="637" y="787.0" font-size="12" font-weight="400" fill="#2E3C42">NHS tool — survival + absolute benefit of chemo /</text>
+<text x="637" y="807.5" font-size="12" font-weight="400" fill="#2E3C42">endocrine / anti-HER2.</text>
+<text x="529" y="828.0" font-size="12" font-weight="700" fill="#15806A">Gene profiling</text>
+<text x="637" y="828.0" font-size="12" font-weight="400" fill="#2E3C42">Oncotype DX / EndoPredict / Prosigna — chemo</text>
+<text x="637" y="848.5" font-size="12" font-weight="400" fill="#2E3C42">decision in ER+/HER2−/node-neg.</text>
+<text x="529" y="869.0" font-size="12" font-weight="700" fill="#15806A">Caveats</text>
+<text x="637" y="869.0" font-size="12" font-weight="400" fill="#2E3C42">Less accurate &lt;30y, &gt;70y, &gt;50 mm; not</text>
+<text x="637" y="889.5" font-size="12" font-weight="400" fill="#2E3C42">validated in men.</text>
+<rect x="30" y="901.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="917.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="931.5" width="940" height="214.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="931.5" width="6" height="214.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="953.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="957.5" font-size="12" font-weight="600" fill="#3A1322">ITC and micrometastases do NOT trigger further axillary treatment — only macrometastases (&gt;2 mm) do.</text>
+<circle cx="60" cy="975.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="979.5" font-size="12" font-weight="600" fill="#3A1322">AMAROS: for a positive sentinel node, axillary radiotherapy gives control equivalent to clearance with far less lymphoedema.</text>
+<circle cx="60" cy="997.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1001.5" font-size="12" font-weight="600" fill="#3A1322">Z0011 / POSNOC: 1–2 positive sentinel nodes with BCS + whole-breast RT + systemic therapy may safely skip completion</text>
+<text x="72" y="1019.5" font-size="12" font-weight="400" fill="#2E3C42">clearance.</text>
+<circle cx="60" cy="1037.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1041.5" font-size="12" font-weight="600" fill="#3A1322">A clinically or ultrasound-suspicious node is biopsied pre-op — a proven positive node (cN+) goes straight to clearance,</text>
+<text x="72" y="1059.5" font-size="12" font-weight="400" fill="#2E3C42">bypassing SLNB.</text>
+<circle cx="60" cy="1077.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1081.5" font-size="12" font-weight="600" fill="#3A1322">The Nottingham Prognostic Index needs all three of size, nodes and grade; PREDICT additionally uses receptor status, age and</text>
+<text x="72" y="1099.5" font-size="12" font-weight="400" fill="#2E3C42">detection.</text>
+<circle cx="60" cy="1117.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1121.5" font-size="12" font-weight="600" fill="#3A1322">TNM 8th added biological (prognostic) staging, but for FRCS the anatomical T-size and N-count cut-offs are what’s tested.</text>
+<line x1="30" y1="1155.5" x2="970" y2="1155.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1174.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: AJCC / UICC TNM 8th edition; RCPath breast cancer dataset (nodal ITC / micrometastasis definitions); NICE NG101; axillary trials — ACOSOG Z0011, AMAROS (EORTC</text>
+<text x="30" y="1188.5" font-size="10.5" font-weight="400" fill="#7C8A8E">10981-22023), POSNOC.</text>
+<text x="30" y="1202.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Key numbers: T1 ≤20 mm · T2 &gt;20–50 · T3 &gt;50; ITC ≤0.2 mm/&lt;200 cells; micromet &gt;0.2–2.0 mm; macromet &gt;2.0 mm. NPI bands — good &lt;3.4, moderate 3.4–5.4, poor &gt;5.4.</text>
+<text x="30" y="1216.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local MDT guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#EAC4D2">mockfrcs.co.uk</text></g>
+<rect x="0" y="1248.5" width="1000" height="46" fill="#AA2E5A"/><text x="30" y="1277.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1277.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#EAC4D2">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

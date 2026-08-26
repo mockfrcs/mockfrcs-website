@@ -1,0 +1,242 @@
+<svg viewBox="0 0 1000 2172.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="2172.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#AA2E5A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Benign breast disease</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#EAC4D2">FRCS Part 1 (General Surgery)  ·  the ANDI framework  ·  lumps, pain, nipple discharge, infection &amp; the male breast</text>
+<rect x="30" y="138" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="154" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE ANDI FRAMEWORK  ·  NORMAL → ABERRATION → DISEASE</text>
+<rect x="30" y="170" width="940" height="26" fill="#3A1322" rx="5"/>
+<text x="44" y="187" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Period</text>
+<text x="176" y="187" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Normal process</text>
+<text x="374" y="187" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Aberration (benign disorder)</text>
+<text x="662" y="187" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Disease state</text>
+<rect x="166" y="196" width="804" height="29" fill="#F1F4F2"/>
+<rect x="166" y="254" width="804" height="29" fill="#F1F4F2"/>
+<rect x="166" y="312" width="804" height="29" fill="#F1F4F2"/>
+<rect x="30" y="196" width="130" height="58" fill="#245C8C"/>
+<text x="44" y="224.0" font-size="11" font-weight="800" fill="#FFFFFF">Development</text>
+<text x="44" y="239.0" font-size="10" font-weight="600" fill="#FFFFFF">15–25 y</text>
+<rect x="30" y="254" width="130" height="29" fill="#C77B20"/>
+<text x="44" y="267.5" font-size="11" font-weight="800" fill="#FFFFFF">Cyclical change</text>
+<text x="44" y="282.5" font-size="10" font-weight="600" fill="#FFFFFF">25–40 y</text>
+<rect x="30" y="283" width="130" height="87" fill="#6D4AA3"/>
+<text x="44" y="325.5" font-size="11" font-weight="800" fill="#FFFFFF">Involution</text>
+<text x="44" y="340.5" font-size="10" font-weight="600" fill="#FFFFFF">35–55 y</text>
+<text x="176" y="214" font-size="11" font-weight="400" fill="#2E3C42">Lobule formation</text>
+<text x="374" y="214" font-size="11" font-weight="700" fill="#3A1322">Fibroadenoma</text>
+<text x="662" y="214" font-size="11" font-weight="400" fill="#2E3C42">Giant fibroadenoma</text>
+<text x="176" y="243" font-size="11" font-weight="400" fill="#2E3C42">Stromal formation</text>
+<text x="374" y="243" font-size="11" font-weight="700" fill="#3A1322">Juvenile hypertrophy</text>
+<text x="662" y="243" font-size="11" font-weight="400" fill="#2E3C42">Gigantomastia</text>
+<text x="176" y="272" font-size="11" font-weight="400" fill="#2E3C42">Cyclical hormonal change</text>
+<text x="374" y="272" font-size="11" font-weight="700" fill="#3A1322">Cyclical mastalgia &amp; nodularity</text>
+<text x="662" y="272" font-size="11" font-weight="400" fill="#2E3C42">Incapacitating mastalgia</text>
+<text x="176" y="301" font-size="11" font-weight="400" fill="#2E3C42">Lobular involution</text>
+<text x="374" y="301" font-size="11" font-weight="700" fill="#3A1322">Macrocysts · sclerosing adenosis</text>
+<text x="662" y="301" font-size="11" font-weight="400" fill="#2E3C42">Radial scar / complex sclerosing</text>
+<text x="176" y="330" font-size="11" font-weight="400" fill="#2E3C42">Ductal involution</text>
+<text x="374" y="330" font-size="11" font-weight="700" fill="#3A1322">Duct ectasia · nipple retraction</text>
+<text x="662" y="330" font-size="11" font-weight="400" fill="#2E3C42">Periductal mastitis · abscess</text>
+<text x="176" y="359" font-size="11" font-weight="400" fill="#2E3C42">Epithelial turnover</text>
+<text x="374" y="359" font-size="11" font-weight="700" fill="#3A1322">Epithelial hyperplasia</text>
+<text x="662" y="359" font-size="11" font-weight="400" fill="#2E3C42">Hyperplasia with atypia (ADH)</text>
+<text x="30" y="388" font-size="10.5" font-weight="400" fill="#6B7B80">Most benign breast conditions are aberrations of normal development, cyclical change or involution — not true disease (Hughes, Mansel &amp; Webster, Lancet 1987).</text>
+<rect x="30" y="402" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="418" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">TRIPLE ASSESSMENT  ·  EVERY DISCRETE LUMP</text>
+<path d="M 30.0 436.0 L 321.3 436.0 L 343.3 471.0 L 321.3 506.0 L 30.0 506.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="46.0" y="462" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">1 · CLINICAL</text>
+<text x="46.0" y="480" font-size="11" font-weight="400" fill="#2E3C42">History + examination; graded P1 normal → P5</text>
+<text x="46.0" y="495" font-size="11" font-weight="400" fill="#2E3C42">malignant</text>
+<path d="M 343.3 436.0 L 634.7 436.0 L 656.7 471.0 L 634.7 506.0 L 343.3 506.0 L 365.3 471.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="375.3333333333333" y="462" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">2 · IMAGING</text>
+<text x="375.3333333333333" y="480" font-size="11" font-weight="400" fill="#2E3C42">USS if ≤40y · mammography if &gt;40y; U/M 1–5</text>
+<path d="M 656.7 436.0 L 970.0 436.0 L 970.0 506.0 L 656.7 506.0 L 678.7 471.0 Z" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.4"/>
+<text x="688.6666666666666" y="462" font-size="11.5" font-weight="800" fill="#6D4AA3" letter-spacing="0.4">3 · TISSUE</text>
+<text x="688.6666666666666" y="480" font-size="11" font-weight="400" fill="#2E3C42">Core biopsy B1–5 (± FNA cytology C1–5)</text>
+<rect x="30" y="508" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="524" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">SOLID &amp; CYSTIC LUMPS</text>
+<rect x="30.0" y="542" width="225.25" height="283" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 588 L 30.0 553 Q 30.0 542 41.0 542 L 244.25 542 Q 255.25 542 255.25 553 L 255.25 588 Z" fill="#15806A"/>
+<text x="44.0" y="563" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">FIBROADENOMA</text>
+<text x="44.0" y="580" font-size="11.5" font-weight="600" fill="#FFFFFF">Lobular aberration · &lt;30y</text>
+<text x="44.0" y="606" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Signs</text>
+<text x="44.0" y="621" font-size="11" font-weight="400" fill="#2E3C42">Firm, smooth, highly mobile ‘breast</text>
+<text x="44.0" y="636" font-size="11" font-weight="400" fill="#2E3C42">mouse’; non-tender.</text>
+<text x="44.0" y="660" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Manage</text>
+<text x="44.0" y="675" font-size="11" font-weight="400" fill="#2E3C42">&lt;3cm &amp; benign → observe (may</text>
+<text x="44.0" y="690" font-size="11" font-weight="400" fill="#2E3C42">regress). Excise if &gt;3cm, enlarging,</text>
+<text x="44.0" y="705" font-size="11" font-weight="400" fill="#2E3C42">symptomatic or uncertain.</text>
+<text x="44.0" y="729" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Note</text>
+<text x="44.0" y="744" font-size="11" font-weight="400" fill="#2E3C42">Malignant change very rare;</text>
+<text x="44.0" y="759" font-size="11" font-weight="400" fill="#2E3C42">complex FA slightly raises risk.</text>
+<rect x="268.25" y="542" width="225.25" height="283" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 268.25 588 L 268.25 553 Q 268.25 542 279.25 542 L 482.5 542 Q 493.5 542 493.5 553 L 493.5 588 Z" fill="#C77B20"/>
+<text x="282.25" y="563" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PHYLLODES</text>
+<text x="282.25" y="580" font-size="11.5" font-weight="600" fill="#FFFFFF">Fibroepithelial · 40s–50s</text>
+<text x="282.25" y="606" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Signs</text>
+<text x="282.25" y="621" font-size="11" font-weight="400" fill="#2E3C42">Rapid growth, often large; ‘leaf-like’</text>
+<text x="282.25" y="636" font-size="11" font-weight="400" fill="#2E3C42">stroma.</text>
+<text x="282.25" y="660" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Grade</text>
+<text x="282.25" y="675" font-size="11" font-weight="400" fill="#2E3C42">Benign / borderline / malignant</text>
+<text x="282.25" y="690" font-size="11" font-weight="400" fill="#2E3C42">(WHO).</text>
+<text x="282.25" y="714" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Manage</text>
+<text x="282.25" y="729" font-size="11" font-weight="400" fill="#2E3C42">WLE ≥ 1cm margin (mastectomy if</text>
+<text x="282.25" y="744" font-size="11" font-weight="400" fill="#2E3C42">large); NO axillary surgery.</text>
+<text x="282.25" y="768" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Note</text>
+<text x="282.25" y="783" font-size="11" font-weight="400" fill="#2E3C42">Haematogenous spread (lung);</text>
+<text x="282.25" y="798" font-size="11" font-weight="400" fill="#2E3C42">recurs locally if margins poor.</text>
+<rect x="506.5" y="542" width="225.25" height="283" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 506.5 588 L 506.5 553 Q 506.5 542 517.5 542 L 720.75 542 Q 731.75 542 731.75 553 L 731.75 588 Z" fill="#245C8C"/>
+<text x="520.5" y="563" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BREAST CYST</text>
+<text x="520.5" y="580" font-size="11.5" font-weight="600" fill="#FFFFFF">Involution · &gt;35y</text>
+<text x="520.5" y="606" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Signs</text>
+<text x="520.5" y="621" font-size="11" font-weight="400" fill="#2E3C42">Smooth, mobile, may be tender;</text>
+<text x="520.5" y="636" font-size="11" font-weight="400" fill="#2E3C42">well-defined halo on USS.</text>
+<text x="520.5" y="660" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Manage</text>
+<text x="520.5" y="675" font-size="11" font-weight="400" fill="#2E3C42">Aspirate if symptomatic; discard if</text>
+<text x="520.5" y="690" font-size="11" font-weight="400" fill="#2E3C42">clear/green &amp; mass resolves.</text>
+<text x="520.5" y="714" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Refer</text>
+<text x="520.5" y="729" font-size="11" font-weight="400" fill="#2E3C42">Bloodstained aspirate or residual</text>
+<text x="520.5" y="744" font-size="11" font-weight="400" fill="#2E3C42">mass → biopsy.</text>
+<rect x="744.75" y="542" width="225.25" height="283" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 744.75 588 L 744.75 553 Q 744.75 542 755.75 542 L 959.0 542 Q 970.0 542 970.0 553 L 970.0 588 Z" fill="#6D4AA3"/>
+<text x="758.75" y="563" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">FAT NECROSIS</text>
+<text x="758.75" y="580" font-size="11.5" font-weight="600" fill="#FFFFFF">Trauma · surgery · RT</text>
+<text x="758.75" y="606" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Signs</text>
+<text x="758.75" y="621" font-size="11" font-weight="400" fill="#2E3C42">Firm irregular lump ± skin</text>
+<text x="758.75" y="636" font-size="11" font-weight="400" fill="#2E3C42">tethering — mimics cancer.</text>
+<text x="758.75" y="660" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Imaging</text>
+<text x="758.75" y="675" font-size="11" font-weight="400" fill="#2E3C42">Oil cyst; can look spiculated; may</text>
+<text x="758.75" y="690" font-size="11" font-weight="400" fill="#2E3C42">calcify (eggshell).</text>
+<text x="758.75" y="714" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Manage</text>
+<text x="758.75" y="729" font-size="11" font-weight="400" fill="#2E3C42">Triple assessment mandatory;</text>
+<text x="758.75" y="744" font-size="11" font-weight="400" fill="#2E3C42">reassure once cancer excluded.</text>
+<rect x="30" y="827" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="843" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">BREAST PAIN  ·  MONDOR’S DISEASE</text>
+<rect x="30" y="861" width="460" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="861" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="54" y="889" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">COMMONEST BREAST PAIN</text>
+<text x="54" y="913" font-size="18" font-weight="800" fill="#3A1322">Cyclical mastalgia</text>
+<text x="54" y="935" font-size="12" font-weight="700" fill="#15806A">Pattern</text>
+<text x="134" y="935.0" font-size="12" font-weight="400" fill="#2E3C42">Luteal phase, bilateral, upper-outer; eases with menses.</text>
+<text x="54" y="955.5" font-size="12" font-weight="700" fill="#15806A">First-line</text>
+<text x="134" y="955.5" font-size="12" font-weight="400" fill="#2E3C42">Reassure + exclude cancer; pain chart; supportive</text>
+<text x="134" y="976.0" font-size="12" font-weight="400" fill="#2E3C42">well-fitted bra; topical/simple NSAID.</text>
+<text x="54" y="996.5" font-size="12" font-weight="700" fill="#15806A">Avoid</text>
+<text x="134" y="996.5" font-size="12" font-weight="400" fill="#2E3C42">Evening primrose oil — no better than placebo.</text>
+<text x="54" y="1017.0" font-size="12" font-weight="700" fill="#15806A">Refractory</text>
+<text x="134" y="1017.0" font-size="12" font-weight="400" fill="#2E3C42">Danazol (only UK-licensed drug; androgenic SEs);</text>
+<text x="134" y="1037.5" font-size="12" font-weight="400" fill="#2E3C42">tamoxifen unlicensed. Reserve for severe &gt;6mo.</text>
+<rect x="510" y="861" width="460" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510" y="861" width="6" height="164.0" fill="#BE3A2E" rx="3"/>
+<text x="534" y="889" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SUPERFICIAL THROMBOPHLEBITIS</text>
+<text x="534" y="913" font-size="18" font-weight="800" fill="#3A1322">Mondor’s disease</text>
+<text x="534" y="935" font-size="12" font-weight="700" fill="#BE3A2E">Vein</text>
+<text x="598" y="935.0" font-size="12" font-weight="400" fill="#2E3C42">Thoraco-epigastric / lateral thoracic subcutaneous vein.</text>
+<text x="534" y="955.5" font-size="12" font-weight="700" fill="#BE3A2E">Signs</text>
+<text x="598" y="955.5" font-size="12" font-weight="400" fill="#2E3C42">Tender palpable cord + linear skin groove when the arm is</text>
+<text x="598" y="976.0" font-size="12" font-weight="400" fill="#2E3C42">raised.</text>
+<text x="534" y="996.5" font-size="12" font-weight="700" fill="#BE3A2E">Manage</text>
+<text x="598" y="996.5" font-size="12" font-weight="400" fill="#2E3C42">Self-limiting 4–8 wks; NSAIDs + reassurance.</text>
+<text x="534" y="1017.0" font-size="12" font-weight="700" fill="#BE3A2E">Caution</text>
+<text x="598" y="1017.0" font-size="12" font-weight="400" fill="#2E3C42">Exclude an underlying breast cancer if atypical.</text>
+<rect x="30" y="1047.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1063.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">NIPPLE DISCHARGE &amp; DUCT DISORDERS</text>
+<rect x="30" y="1081.5" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1081.5" width="6" height="184.5" fill="#6D4AA3" rx="3"/>
+<text x="54" y="1109.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PHYSIOLOGICAL VS PATHOLOGICAL</text>
+<text x="54" y="1133.5" font-size="18" font-weight="800" fill="#3A1322">Discharge &amp; the subareolar ducts</text>
+<text x="54" y="1155.5" font-size="12" font-weight="700" fill="#6D4AA3">Duct ectasia</text>
+<text x="150" y="1155.5" font-size="12" font-weight="400" fill="#2E3C42">Involutional subareolar duct dilatation; thick cheesy multicoloured (green/creamy) discharge, slit-like central nipple retraction,</text>
+<text x="150" y="1176.0" font-size="12" font-weight="400" fill="#2E3C42">rod-like calcification. Total duct excision (Hadfield) if troublesome.</text>
+<text x="54" y="1196.5" font-size="12" font-weight="700" fill="#6D4AA3">Papilloma</text>
+<text x="150" y="1196.5" font-size="12" font-weight="400" fill="#2E3C42">Intraductal papilloma — commonest cause of bloody single-duct discharge; subareolar. Microdochectomy (single duct) or total duct</text>
+<text x="150" y="1217.0" font-size="12" font-weight="400" fill="#2E3C42">excision.</text>
+<text x="54" y="1237.5" font-size="12" font-weight="700" fill="#6D4AA3">Physiological</text>
+<text x="150" y="1237.5" font-size="12" font-weight="400" fill="#2E3C42">Bilateral, multi-duct, only on expression; ± galactorrhoea (check prolactin, drugs, TFTs). Reassure.</text>
+<text x="54" y="1258.0" font-size="12" font-weight="700" fill="#6D4AA3">Red flag</text>
+<text x="150" y="1258.0" font-size="12" font-weight="400" fill="#2E3C42">Unilateral single-duct blood-stained or spontaneous serous discharge, or with a mass → triple assessment (exclude DCIS / cancer).</text>
+<rect x="30" y="1268.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1284.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">BREAST INFECTION</text>
+<rect x="30" y="1302.0" width="940" height="24" fill="#3A1322" rx="5"/>
+<text x="40" y="1318.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Feature</text>
+<text x="232" y="1318.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Lactational mastitis</text>
+<text x="560" y="1318.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Non-lactational / periductal</text>
+<rect x="30" y="1326.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1326.0" width="4" height="24" fill="#15806A"/>
+<text x="40" y="1342.0" font-size="11" font-weight="700" fill="#3A1322">Context</text>
+<text x="232" y="1342.0" font-size="11" font-weight="400" fill="#2E3C42">Breastfeeding; milk stasis / cracked nipple</text>
+<text x="560" y="1342.0" font-size="11" font-weight="400" fill="#2E3C42">Younger, smokers; duct ectasia</text>
+<rect x="30" y="1350.0" width="4" height="24" fill="#245C8C"/>
+<text x="40" y="1366.0" font-size="11" font-weight="700" fill="#3A1322">Organism</text>
+<text x="232" y="1366.0" font-size="11" font-weight="400" fill="#2E3C42">Staphylococcus aureus</text>
+<text x="560" y="1366.0" font-size="11" font-weight="400" fill="#2E3C42">Mixed anaerobes ± Staph</text>
+<rect x="30" y="1374.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1374.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="1390.0" font-size="11" font-weight="700" fill="#3A1322">Antibiotic</text>
+<text x="232" y="1390.0" font-size="11" font-weight="400" fill="#2E3C42">Flucloxacillin 500 mg QDS</text>
+<text x="560" y="1390.0" font-size="11" font-weight="400" fill="#2E3C42">Co-amoxiclav</text>
+<rect x="30" y="1398.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="40" y="1414.0" font-size="11" font-weight="700" fill="#3A1322">Abscess</text>
+<text x="232" y="1414.0" font-size="11" font-weight="400" fill="#2E3C42">US-guided aspiration + abx (not I&amp;D)</text>
+<text x="560" y="1414.0" font-size="11" font-weight="400" fill="#2E3C42">Aspiration; may form duct fistula</text>
+<rect x="30" y="1422.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1422.0" width="4" height="24" fill="#6D4AA3"/>
+<text x="40" y="1438.0" font-size="11" font-weight="700" fill="#3A1322">Key point</text>
+<text x="232" y="1438.0" font-size="11" font-weight="400" fill="#2E3C42">Continue feeding / expressing</text>
+<text x="560" y="1438.0" font-size="11" font-weight="400" fill="#2E3C42">Stop smoking; fistula → excision</text>
+<rect x="30" y="1448.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1464.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE MALE BREAST</text>
+<rect x="30" y="1482.0" width="940" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1482.0" width="6" height="225.5" fill="#245C8C" rx="3"/>
+<text x="54" y="1510.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">GLANDULAR PROLIFERATION</text>
+<text x="54" y="1534.0" font-size="18" font-weight="800" fill="#3A1322">Gynaecomastia</text>
+<text x="54" y="1556.0" font-size="12" font-weight="700" fill="#245C8C">Nature</text>
+<text x="148" y="1556.0" font-size="12" font-weight="400" fill="#2E3C42">Benign glandular proliferation — concentric, rubbery, subareolar disc. Distinguish pseudogynaecomastia (fat) and male breast</text>
+<text x="148" y="1576.5" font-size="12" font-weight="400" fill="#2E3C42">cancer (eccentric, hard, fixed, nipple change).</text>
+<text x="54" y="1597.0" font-size="12" font-weight="700" fill="#245C8C">Physiological</text>
+<text x="148" y="1597.0" font-size="12" font-weight="400" fill="#2E3C42">Neonatal (placental oestrogen); pubertal (~14y, resolves &lt;18 months); senile / elderly.</text>
+<text x="54" y="1617.5" font-size="12" font-weight="700" fill="#245C8C">Pathological</text>
+<text x="148" y="1617.5" font-size="12" font-weight="400" fill="#2E3C42">↑ oestrogen : androgen — cirrhosis, hyperthyroidism, hypogonadism (Klinefelter), hCG-secreting testicular / lung tumours, CKD,</text>
+<text x="148" y="1638.0" font-size="12" font-weight="400" fill="#2E3C42">refeeding.</text>
+<text x="54" y="1658.5" font-size="12" font-weight="700" fill="#245C8C">Drugs</text>
+<text x="148" y="1658.5" font-size="12" font-weight="400" fill="#2E3C42">Spironolactone, digoxin, cimetidine / PPI, ketoconazole, finasteride / anti-androgens, cannabis, anabolic steroids, antipsychotics.</text>
+<text x="54" y="1679.0" font-size="12" font-weight="700" fill="#245C8C">Work-up</text>
+<text x="148" y="1679.0" font-size="12" font-weight="400" fill="#2E3C42">Examine the testes; U&amp;E, LFTs, TFTs, testosterone, LH/FSH, oestradiol, hCG, AFP, prolactin.</text>
+<text x="54" y="1699.5" font-size="12" font-weight="700" fill="#245C8C">Manage</text>
+<text x="148" y="1699.5" font-size="12" font-weight="400" fill="#2E3C42">Treat the cause / stop the drug; reassure if physiological. Tamoxifen (unlicensed) for pain; surgery if persistent &gt;2y or distressing.</text>
+<rect x="30" y="1711.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1727.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1741.5" width="940" height="268.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1741.5" width="6" height="268.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1763.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1767.5" font-size="12" font-weight="600" fill="#3A1322">Any discrete lump needs TRIPLE ASSESSMENT — clinical, imaging (USS ≤40y / mammography &gt;40y) and core biopsy — however</text>
+<text x="72" y="1785.5" font-size="12" font-weight="400" fill="#2E3C42">benign it feels.</text>
+<circle cx="60" cy="1803.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1807.5" font-size="12" font-weight="600" fill="#3A1322">Fat necrosis and a radial scar both mimic carcinoma clinically and on imaging — the diagnosis is made on biopsy, not on</text>
+<text x="72" y="1825.5" font-size="12" font-weight="400" fill="#2E3C42">reassurance.</text>
+<circle cx="60" cy="1843.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1847.5" font-size="12" font-weight="600" fill="#3A1322">A rapidly growing, large fibroepithelial lesion is a phyllodes tumour until proven otherwise — wide local excision with a ≥1 cm</text>
+<text x="72" y="1865.5" font-size="12" font-weight="400" fill="#2E3C42">margin, not enucleation.</text>
+<circle cx="60" cy="1883.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1887.5" font-size="12" font-weight="600" fill="#3A1322">Unilateral blood-stained single-duct discharge is pathological — exclude papilloma and DCIS; physiological discharge is</text>
+<text x="72" y="1905.5" font-size="12" font-weight="400" fill="#2E3C42">bilateral and multi-duct.</text>
+<circle cx="60" cy="1923.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1927.5" font-size="12" font-weight="600" fill="#3A1322">In a man, an eccentric / hard / fixed lump, nipple change or discharge is not gynaecomastia — refer as suspected male breast</text>
+<text x="72" y="1945.5" font-size="12" font-weight="400" fill="#2E3C42">cancer.</text>
+<circle cx="60" cy="1963.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1967.5" font-size="12" font-weight="600" fill="#3A1322">Infection not settling on antibiotics → exclude an abscess (ultrasound + aspiration) and, if still not resolving, inflammatory</text>
+<text x="72" y="1985.5" font-size="12" font-weight="400" fill="#2E3C42">breast cancer.</text>
+<line x1="30" y1="2019.5" x2="970" y2="2019.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="2038.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: ANDI — Hughes, Mansel &amp; Webster (Lancet 1987). Association of Breast Surgery (ABS) benign breast guidance; NICE CKS (breast pain, mastitis, gynaecomastia).</text>
+<text x="30" y="2052.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Triple-assessment scoring P/U/M/B/C 1–5.</text>
+<text x="30" y="2066.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Key points: danazol is the only UK-licensed drug for mastalgia (tamoxifen unlicensed); lactational abscess — US-guided needle aspiration is preferred to incision &amp; drainage; periductal</text>
+<text x="30" y="2080.5" font-size="10.5" font-weight="400" fill="#7C8A8E">mastitis is linked to smoking (mixed anaerobes). Penicillin allergy: use erythromycin / clarithromycin (lactational) as per local policy.</text>
+<text x="30" y="2094.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#EAC4D2">mockfrcs.co.uk</text></g>
+<rect x="0" y="2126.5" width="1000" height="46" fill="#AA2E5A"/><text x="30" y="2155.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="2155.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#EAC4D2">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

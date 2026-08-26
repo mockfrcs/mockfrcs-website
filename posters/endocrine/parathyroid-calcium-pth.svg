@@ -1,0 +1,182 @@
+<svg viewBox="0 0 1000 1722" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1722" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Calcium, PTH &amp; the parathyroid glands</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · sheet 1 of 2 · homeostasis · PTH actions · anatomy · the three hyperparathyroidisms</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">CALCIUM HOMEOSTASIS — THE PTH LOOP</text>
+<rect x="30.0" y="158" width="164.0" height="64" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="112.0" y="194.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">↓ serum Ca²⁺</text>
+<line x1="198.0" y1="190.0" x2="211.0" y2="190.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 220.0 190.0 L 211.0 194.7 L 211.0 185.3 Z" fill="#6B7B80"/>
+<rect x="224.0" y="158" width="164.0" height="64" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="306.0" y="187.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Parathyroid CaSR</text>
+<text x="306.0" y="201.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">senses low Ca</text>
+<line x1="392.0" y1="190.0" x2="405.0" y2="190.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 414.0 190.0 L 405.0 194.7 L 405.0 185.3 Z" fill="#6B7B80"/>
+<rect x="418.0" y="158" width="164.0" height="64" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="500.0" y="194.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">↑ PTH secretion</text>
+<line x1="586.0" y1="190.0" x2="599.0" y2="190.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 608.0 190.0 L 599.0 194.7 L 599.0 185.3 Z" fill="#6B7B80"/>
+<rect x="612.0" y="158" width="164.0" height="64" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="694.0" y="187.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Bone · kidney · gut</text>
+<text x="694.0" y="201.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">respond</text>
+<line x1="780.0" y1="190.0" x2="793.0" y2="190.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 802.0 190.0 L 793.0 194.7 L 793.0 185.3 Z" fill="#6B7B80"/>
+<rect x="806.0" y="158" width="164.0" height="64" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="888.0" y="187.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">↑ serum Ca²⁺</text>
+<text x="888.0" y="201.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">restored</text>
+<path d="M 888 222 Q 500 268 154 230" fill="none" stroke="#6B7B80" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="154.0" y1="230.0" x2="123.9" y2="225.2" stroke="#6B7B80" stroke-width="2"/>
+<path d="M 116.0 224.0 L 124.6 221.1 L 123.3 229.4 Z" fill="#6B7B80"/>
+<text x="500.0" y="262" font-size="10.5" font-weight="700" fill="#6B7B80" text-anchor="middle">−  negative feedback: a rising Ca²⁺ switches PTH off via the CaSR</text>
+<rect x="30" y="274" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="274" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="292.5" font-size="12" font-weight="800" fill="#245C8C">EFFECTORS</text>
+<text x="144" y="292.5" font-size="11.5" font-weight="400" fill="#2E3C42">Calcitriol (active vitamin D: cholecalciferol → 25-OH in liver → 1,25-(OH)₂ in kidney via PTH-driven 1α-hydroxylase) is the effector</text>
+<text x="144" y="307.5" font-size="11.5" font-weight="400" fill="#2E3C42">arm. Calcitonin (thyroid C-cells) plays only a minor calcium-lowering role; severe hypomagnesaemia paradoxically suppresses PTH.</text>
+<rect x="30" y="324" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="340" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">PTH ACTIONS — BONE · KIDNEY · GUT</text>
+<rect x="30.0" y="356" width="302.6666666666667" height="184" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 402 L 30.0 367 Q 30.0 356 41.0 356 L 321.6666666666667 356 Q 332.6666666666667 356 332.6666666666667 367 L 332.6666666666667 402 Z" fill="#6D4AA3"/>
+<text x="44.0" y="377" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BONE</text>
+<text x="44.0" y="394" font-size="11.5" font-weight="600" fill="#FFFFFF">resorption</text>
+<text x="44.0" y="420" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Action</text>
+<text x="44.0" y="435" font-size="11" font-weight="400" fill="#2E3C42">Stimulates osteoclastic resorption (indirectly, via</text>
+<text x="44.0" y="450" font-size="11" font-weight="400" fill="#2E3C42">RANKL on osteoblasts)</text>
+<text x="44.0" y="474" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Result</text>
+<text x="44.0" y="489" font-size="11" font-weight="400" fill="#2E3C42">Releases calcium AND phosphate from bone</text>
+<rect x="348.6666666666667" y="356" width="302.6666666666667" height="184" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 402 L 348.6666666666667 367 Q 348.6666666666667 356 359.6666666666667 356 L 640.3333333333334 356 Q 651.3333333333334 356 651.3333333333334 367 L 651.3333333333334 402 Z" fill="#15806A"/>
+<text x="362.6666666666667" y="377" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">KIDNEY</text>
+<text x="362.6666666666667" y="394" font-size="11.5" font-weight="600" fill="#FFFFFF">reabsorb Ca, dump PO₄</text>
+<text x="362.6666666666667" y="420" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Distal tubule</text>
+<text x="362.6666666666667" y="435" font-size="11" font-weight="400" fill="#2E3C42">↑ calcium reabsorption</text>
+<text x="362.6666666666667" y="459" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Proximal tubule</text>
+<text x="362.6666666666667" y="474" font-size="11" font-weight="400" fill="#2E3C42">↓ phosphate reabsorption → phosphaturia</text>
+<text x="362.6666666666667" y="498" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Activation</text>
+<text x="362.6666666666667" y="513" font-size="11" font-weight="400" fill="#2E3C42">↑ 1α-hydroxylase → active vitamin D</text>
+<rect x="667.3333333333334" y="356" width="302.6666666666667" height="184" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 402 L 667.3333333333334 367 Q 667.3333333333334 356 678.3333333333334 356 L 959.0 356 Q 970.0 356 970.0 367 L 970.0 402 Z" fill="#C77B20"/>
+<text x="681.3333333333334" y="377" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">GUT</text>
+<text x="681.3333333333334" y="394" font-size="11.5" font-weight="600" fill="#FFFFFF">via vitamin D</text>
+<text x="681.3333333333334" y="420" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Indirect</text>
+<text x="681.3333333333334" y="435" font-size="11" font-weight="400" fill="#2E3C42">No direct action on the gut</text>
+<text x="681.3333333333334" y="459" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Via calcitriol</text>
+<text x="681.3333333333334" y="474" font-size="11" font-weight="400" fill="#2E3C42">↑ calcium &amp; phosphate absorption</text>
+<rect x="30" y="552" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="552" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="570.5" font-size="12" font-weight="800" fill="#15806A">NET EFFECT</text>
+<text x="147" y="570.5" font-size="11.5" font-weight="400" fill="#2E3C42">Serum calcium ↑ and serum phosphate ↓ — the phosphaturic action is why primary hyperparathyroidism gives a HIGH calcium</text>
+<text x="147" y="585.5" font-size="11.5" font-weight="400" fill="#2E3C42">with a LOW phosphate.</text>
+<rect x="30" y="602" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="618" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PARATHYROID ANATOMY &amp; EMBRYOLOGY</text>
+<rect x="30" y="634" width="940" height="268" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<text x="205" y="656" font-size="10.5" font-weight="700" fill="#6B7B80" text-anchor="middle">Anterior neck (schematic)</text>
+<ellipse cx="205" cy="754" rx="20" ry="24" fill="#EDEAE2"/>
+<ellipse cx="161" cy="754" rx="30" ry="66" fill="#E7D9C0" stroke="#C9B48C" stroke-width="1.4"/>
+<ellipse cx="249" cy="754" rx="30" ry="66" fill="#E7D9C0" stroke="#C9B48C" stroke-width="1.4"/>
+<rect x="185" y="740" width="40" height="28" fill="#E7D9C0"/>
+<circle cx="133" cy="712" r="7" fill="#C77B20"/>
+<circle cx="277" cy="712" r="7" fill="#C77B20"/>
+<circle cx="133" cy="800" r="7" fill="#15806A"/>
+<circle cx="277" cy="800" r="7" fill="#15806A"/>
+<text x="133" y="700" font-size="9.5" font-weight="700" fill="#C77B20" text-anchor="middle">superior ×2</text>
+<text x="277" y="700" font-size="9.5" font-weight="700" fill="#C77B20" text-anchor="middle">4th pouch</text>
+<text x="133" y="824" font-size="9.5" font-weight="700" fill="#15806A" text-anchor="middle">inferior ×2</text>
+<text x="277" y="824" font-size="9.5" font-weight="700" fill="#15806A" text-anchor="middle">3rd pouch</text>
+<line x1="205.0" y1="814.0" x2="205.0" y2="873.0" stroke="#6B7B80" stroke-width="1.8"/>
+<path d="M 205.0 880.0 L 201.4 873.0 L 208.6 873.0 Z" fill="#6B7B80"/>
+<text x="205" y="894" font-size="9.5" font-weight="400" fill="#6B7B80" font-style="italic" text-anchor="middle">inferior glands may be ectopic → thymus / mediastinum</text>
+<text x="515" y="664" font-size="11" font-weight="800" fill="#2E1E0A" letter-spacing="0.3">EMBRYOLOGY &amp; SURGICAL ANATOMY</text>
+<text x="515" y="686" font-size="11" font-weight="800" fill="#245C8C">Superior</text>
+<text x="515" y="702" font-size="11" font-weight="400" fill="#2E3C42">4th pharyngeal pouch; migrate little — constant, posterior to the RLN plane.</text>
+<text x="515" y="727" font-size="11" font-weight="800" fill="#245C8C">Inferior</text>
+<text x="515" y="743" font-size="11" font-weight="400" fill="#2E3C42">3rd pouch; descend with the thymus — variable, anterior to the RLN; ectopic in</text>
+<text x="515" y="759" font-size="11" font-weight="400" fill="#2E3C42">mediastinum.</text>
+<text x="515" y="784" font-size="11" font-weight="800" fill="#245C8C">Blood supply</text>
+<text x="515" y="800" font-size="11" font-weight="400" fill="#2E3C42">Mainly the inferior thyroid artery (both pairs) — preserve it at thyroidectomy.</text>
+<text x="515" y="825" font-size="11" font-weight="800" fill="#245C8C">Number</text>
+<text x="515" y="841" font-size="11" font-weight="400" fill="#2E3C42">Usually four glands; supernumerary glands in ~13%.</text>
+<rect x="30" y="908" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="924" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">PRIMARY vs SECONDARY vs TERTIARY — THE BIOCHEMISTRY</text>
+<rect x="30" y="940" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="956" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Type</text>
+<text x="180" y="956" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Calcium</text>
+<text x="302" y="956" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Phosphate</text>
+<text x="432" y="956" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">PTH</text>
+<text x="590" y="956" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Typical setting</text>
+<rect x="30" y="964" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="964" width="4" height="26" fill="#245C8C"/>
+<text x="42" y="980" font-size="11" font-weight="700" fill="#2E1E0A">Primary</text>
+<text x="180" y="980" font-size="11" font-weight="400" fill="#2E3C42">↑ high</text>
+<text x="302" y="980" font-size="11" font-weight="400" fill="#2E3C42">↓ low</text>
+<text x="432" y="980" font-size="11" font-weight="400" fill="#2E3C42">↑ inappropriate</text>
+<text x="590" y="980" font-size="11" font-weight="400" fill="#2E3C42">Autonomous adenoma / hyperplasia</text>
+<rect x="30" y="990" width="4" height="26" fill="#15806A"/>
+<text x="42" y="1006" font-size="11" font-weight="700" fill="#2E1E0A">Secondary</text>
+<text x="180" y="1006" font-size="11" font-weight="400" fill="#2E3C42">↓ / normal</text>
+<text x="302" y="1006" font-size="11" font-weight="400" fill="#2E3C42">↑ (CKD) / ↓ (vit D)</text>
+<text x="432" y="1006" font-size="11" font-weight="400" fill="#2E3C42">↑ appropriate</text>
+<text x="590" y="1006" font-size="11" font-weight="400" fill="#2E3C42">CKD or vitamin D deficiency</text>
+<rect x="30" y="1016" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="1016" width="4" height="26" fill="#BE3A2E"/>
+<text x="42" y="1032" font-size="11" font-weight="700" fill="#2E1E0A">Tertiary</text>
+<text x="180" y="1032" font-size="11" font-weight="400" fill="#2E3C42">↑ high</text>
+<text x="302" y="1032" font-size="11" font-weight="400" fill="#2E3C42">↑ / variable</text>
+<text x="432" y="1032" font-size="11" font-weight="400" fill="#2E3C42">↑↑ autonomous</text>
+<text x="590" y="1032" font-size="11" font-weight="400" fill="#2E3C42">Autonomy after long-standing 2° (CKD)</text>
+<rect x="30" y="1048" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1064" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">CAUSES OF HYPERCALCAEMIA — CHECK THE PTH</text>
+<rect x="30" y="1080" width="462.0" height="199" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 1126 L 30 1091 Q 30 1080 41 1080 L 481.0 1080 Q 492.0 1080 492.0 1091 L 492.0 1126 Z" fill="#245C8C"/>
+<text x="44" y="1101" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PTH-DEPENDENT</text>
+<text x="44" y="1118" font-size="11.5" font-weight="600" fill="#FFFFFF">PTH high / inappropriate</text>
+<text x="44" y="1144" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">PTH high or normal</text>
+<text x="44" y="1159" font-size="11" font-weight="400" fill="#2E3C42">Primary and tertiary hyperparathyroidism</text>
+<text x="44" y="1183" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Also PTH-driven</text>
+<text x="44" y="1198" font-size="11" font-weight="400" fill="#2E3C42">Familial hypocalciuric hypercalcaemia (FHH); lithium</text>
+<rect x="508.0" y="1080" width="462.0" height="199" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 508.0 1126 L 508.0 1091 Q 508.0 1080 519.0 1080 L 959.0 1080 Q 970.0 1080 970.0 1091 L 970.0 1126 Z" fill="#C77B20"/>
+<text x="522.0" y="1101" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PTH-INDEPENDENT</text>
+<text x="522.0" y="1118" font-size="11.5" font-weight="600" fill="#FFFFFF">PTH suppressed</text>
+<text x="522.0" y="1144" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">PTH suppressed</text>
+<text x="522.0" y="1159" font-size="11" font-weight="400" fill="#2E3C42">Malignancy — the commonest inpatient cause</text>
+<text x="522.0" y="1183" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Mechanisms</text>
+<text x="522.0" y="1198" font-size="11" font-weight="400" fill="#2E3C42">PTHrP (humoral), osteolytic metastases, 1,25-vitamin D (lymphoma)</text>
+<text x="522.0" y="1222" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Other</text>
+<text x="522.0" y="1237" font-size="11" font-weight="400" fill="#2E3C42">Granulomatous (sarcoid, TB), thyrotoxicosis, thiazides, vitamin D/A,</text>
+<text x="522.0" y="1252" font-size="11" font-weight="400" fill="#2E3C42">milk-alkali, immobilisation</text>
+<rect x="30" y="1291" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="1291" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="1309.5" font-size="12" font-weight="800" fill="#C77B20">90% RULE</text>
+<text x="134" y="1309.5" font-size="11.5" font-weight="400" fill="#2E3C42">Primary hyperparathyroidism and malignancy together cause ~90% of hypercalcaemia — the PTH level splits them: high/normal =</text>
+<text x="134" y="1324.5" font-size="11.5" font-weight="400" fill="#2E3C42">PTH-dependent, suppressed = hunt for malignancy.</text>
+<rect x="30" y="1345" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1361" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1375" width="940" height="192" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1375" width="6" height="192" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1397" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1401" font-size="12" font-weight="600" fill="#2E1E0A">PTH raises calcium but LOWERS phosphate — a high calcium with a low phosphate is the classic primary-HPT fingerprint.</text>
+<circle cx="60" cy="1419" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1423" font-size="12" font-weight="600" fill="#2E1E0A">Superior glands come from the 4th pouch (migrate least — high and constant); inferior glands come from the 3rd pouch and</text>
+<text x="72" y="1441" font-size="12" font-weight="400" fill="#2E3C42">descend with the thymus, so ectopic inferior glands hide in the mediastinum.</text>
+<circle cx="60" cy="1459" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1463" font-size="12" font-weight="600" fill="#2E1E0A">Both pairs are usually supplied by the inferior thyroid artery — preserve it during thyroidectomy to avoid devascularising the</text>
+<text x="72" y="1481" font-size="12" font-weight="400" fill="#2E3C42">parathyroids.</text>
+<circle cx="60" cy="1499" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1503" font-size="12" font-weight="600" fill="#2E1E0A">Secondary HPT is an APPROPRIATE response to low calcium (high PTH, low/normal calcium); tertiary is autonomous with a HIGH</text>
+<text x="72" y="1521" font-size="12" font-weight="400" fill="#2E3C42">calcium.</text>
+<circle cx="60" cy="1539" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1543" font-size="12" font-weight="600" fill="#2E1E0A">Severe hypomagnesaemia suppresses PTH release — the hypocalcaemia will not correct until magnesium is replaced.</text>
+<line x1="30" y1="1589" x2="970" y2="1589" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1608" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: standard physiology &amp; surgical anatomy texts · Society for Endocrinology · NICE NG132 (hyperparathyroidism classification).</text>
+<text x="30" y="1622" font-size="10.5" font-weight="400" fill="#7C8A8E">CaSR = calcium-sensing receptor; RLN = recurrent laryngeal nerve. Diagnosis, sestamibi localisation and parathyroidectomy are on sheet 2 of 2.</text>
+<text x="30" y="1636" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1676" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="1705" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1705" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

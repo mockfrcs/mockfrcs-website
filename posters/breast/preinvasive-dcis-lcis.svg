@@ -1,0 +1,137 @@
+<svg viewBox="0 0 1000 1450" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1450" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#AA2E5A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Pre-invasive breast disease — DCIS &amp; LCIS</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#EAC4D2">FRCS Part 1 (General Surgery)  ·  NICE NG101 · ABS 2024 margins  ·  the E-cadherin split  ·  DCIS · classical &amp; pleomorphic LCIS</text>
+<rect x="30" y="138" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="154" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE ORGANISING CONCEPT  ·  THE E-CADHERIN SPLIT</text>
+<rect x="30" y="172" width="455" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="172" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="200" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">DUCTAL  ·  E-CADHERIN POSITIVE</text>
+<text x="54" y="224" font-size="18" font-weight="800" fill="#3A1322">DCIS</text>
+<text x="54" y="246" font-size="12" font-weight="700" fill="#245C8C">Cells</text>
+<text x="125" y="246.0" font-size="12" font-weight="400" fill="#2E3C42">Cohesive ductal cells; membranous E-cadherin retained.</text>
+<text x="54" y="266.5" font-size="12" font-weight="700" fill="#245C8C">Meaning</text>
+<text x="125" y="266.5" font-size="12" font-weight="400" fill="#2E3C42">A non-obligate PRECURSOR — treated as malignant</text>
+<text x="125" y="287.0" font-size="12" font-weight="400" fill="#2E3C42">disease.</text>
+<rect x="505" y="172" width="455" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="505" y="172" width="6" height="143.5" fill="#6D4AA3" rx="3"/>
+<text x="529" y="200" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">LOBULAR  ·  E-CADHERIN NEGATIVE</text>
+<text x="529" y="224" font-size="18" font-weight="800" fill="#3A1322">Lobular in-situ neoplasia</text>
+<text x="529" y="246" font-size="12" font-weight="700" fill="#6D4AA3">Cells</text>
+<text x="600" y="246.0" font-size="12" font-weight="400" fill="#2E3C42">Discohesive cells; E-cadherin LOST (classical +</text>
+<text x="600" y="266.5" font-size="12" font-weight="400" fill="#2E3C42">pleomorphic LCIS).</text>
+<text x="529" y="287.0" font-size="12" font-weight="700" fill="#6D4AA3">Meaning</text>
+<text x="600" y="287.0" font-size="12" font-weight="400" fill="#2E3C42">Classical = risk marker; pleomorphic = behaves like</text>
+<text x="600" y="307.5" font-size="12" font-weight="400" fill="#2E3C42">DCIS.</text>
+<rect x="30" y="317.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="333.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">DCIS  ·  DUCTAL CARCINOMA IN SITU</text>
+<rect x="30" y="351.5" width="940" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="351.5" width="6" height="205.0" fill="#15806A" rx="3"/>
+<text x="54" y="379.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">NON-INVASIVE — WITHIN THE BASEMENT MEMBRANE</text>
+<text x="54" y="403.5" font-size="18" font-weight="800" fill="#3A1322">Ductal carcinoma in situ</text>
+<text x="54" y="425.5" font-size="12" font-weight="700" fill="#15806A">Definition</text>
+<text x="148" y="425.5" font-size="12" font-weight="400" fill="#2E3C42">Malignant ductal epithelial proliferation confined by the basement membrane; a non-obligate precursor to invasive ductal cancer.</text>
+<text x="54" y="446.0" font-size="12" font-weight="700" fill="#15806A">Detection</text>
+<text x="148" y="446.0" font-size="12" font-weight="400" fill="#2E3C42">Usually screen-detected microcalcifications; graded low / intermediate / high — comedo necrosis marks high grade.</text>
+<text x="54" y="466.5" font-size="12" font-weight="700" fill="#15806A">Van Nuys</text>
+<text x="148" y="466.5" font-size="12" font-weight="400" fill="#2E3C42">Prognostic index (size + margin + grade/necrosis + age) helps weigh excision ± radiotherapy vs mastectomy.</text>
+<text x="54" y="487.0" font-size="12" font-weight="700" fill="#15806A">Surgery</text>
+<text x="148" y="487.0" font-size="12" font-weight="400" fill="#2E3C42">Breast-conserving surgery with a ≥2 mm radial margin (ABS 2024); mastectomy if extensive, multifocal or large.</text>
+<text x="54" y="507.5" font-size="12" font-weight="700" fill="#15806A">Adjuncts</text>
+<text x="148" y="507.5" font-size="12" font-weight="400" fill="#2E3C42">Whole-breast radiotherapy after BCS (~50% reduction in local recurrence); endocrine therapy if ER-positive.</text>
+<text x="54" y="528.0" font-size="12" font-weight="700" fill="#15806A">SLNB</text>
+<text x="148" y="528.0" font-size="12" font-weight="400" fill="#2E3C42">Not routine — reserve for mastectomy or when invasion is suspected (the node cannot be mapped after mastectomy).</text>
+<text x="54" y="548.5" font-size="12" font-weight="700" fill="#15806A">Note</text>
+<text x="148" y="548.5" font-size="12" font-weight="400" fill="#2E3C42">~half of recurrences are invasive; the LORIS trial studies active monitoring of low-risk DCIS.</text>
+<rect x="30" y="558.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="574.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">CLASSICAL LCIS  ·  A RISK MARKER, NOT A CANCER</text>
+<rect x="30" y="592.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="592.5" width="6" height="143.5" fill="#6D4AA3" rx="3"/>
+<text x="54" y="620.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">LOBULAR IN-SITU NEOPLASIA</text>
+<text x="54" y="644.5" font-size="18" font-weight="800" fill="#3A1322">Classical LCIS / ALH</text>
+<text x="54" y="666.5" font-size="12" font-weight="700" fill="#6D4AA3">Nature</text>
+<text x="134" y="666.5" font-size="12" font-weight="400" fill="#2E3C42">A risk MARKER, not an obligate precursor; discohesive cells, E-cadherin negative.</text>
+<text x="54" y="687.0" font-size="12" font-weight="700" fill="#6D4AA3">Risk</text>
+<text x="134" y="687.0" font-size="12" font-weight="400" fill="#2E3C42">Bilateral increase in invasive-cancer risk (RR ~7–10×; ~7–17% at 10–15y) — about half arise in the contralateral breast.</text>
+<text x="54" y="707.5" font-size="12" font-weight="700" fill="#6D4AA3">Biopsy</text>
+<text x="134" y="707.5" font-size="12" font-weight="400" fill="#2E3C42">Classical LCIS / ALH is a B3 lesion on core biopsy; concordant classical LCIS may be surveilled rather than excised.</text>
+<text x="54" y="728.0" font-size="12" font-weight="700" fill="#6D4AA3">Manage</text>
+<text x="134" y="728.0" font-size="12" font-weight="400" fill="#2E3C42">Surveillance + chemoprevention (tamoxifen / raloxifene / exemestane). NO radiotherapy, NO clear-margin requirement.</text>
+<rect x="30" y="738.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="754.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">PLEOMORPHIC LCIS  ·  THE EXCEPTION</text>
+<rect x="30" y="772.0" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="772.0" width="6" height="123.0" fill="#BE3A2E" rx="3"/>
+<text x="54" y="800.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">LOBULAR CELLS, DUCTAL BEHAVIOUR</text>
+<text x="54" y="824.0" font-size="18" font-weight="800" fill="#3A1322">Pleomorphic LCIS</text>
+<text x="54" y="846.0" font-size="12" font-weight="700" fill="#BE3A2E">Nature</text>
+<text x="134" y="846.0" font-size="12" font-weight="400" fill="#2E3C42">Aggressive variant — large pleomorphic nuclei ± comedo-type necrosis; E-cadherin negative (still lobular).</text>
+<text x="54" y="866.5" font-size="12" font-weight="700" fill="#BE3A2E">Behaviour</text>
+<text x="134" y="866.5" font-size="12" font-weight="400" fill="#2E3C42">Behaves like DCIS; frequently presents as microcalcification on mammography.</text>
+<text x="54" y="887.0" font-size="12" font-weight="700" fill="#BE3A2E">Manage</text>
+<text x="134" y="887.0" font-size="12" font-weight="400" fill="#2E3C42">Excision to clear margins ± radiotherapy — managed like DCIS, NOT like classical LCIS.</text>
+<rect x="30" y="897.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="913.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">SIDE-BY-SIDE  ·  DON’T MIX THEM UP</text>
+<rect x="30" y="931.0" width="940" height="24" fill="#3A1322" rx="5"/>
+<text x="40" y="947.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Feature</text>
+<text x="250" y="947.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">DCIS</text>
+<text x="500" y="947.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Classical LCIS</text>
+<text x="730" y="947.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Pleomorphic LCIS</text>
+<rect x="30" y="955.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="955.0" width="4" height="24" fill="#245C8C"/>
+<text x="40" y="971.0" font-size="11" font-weight="700" fill="#3A1322">E-cadherin</text>
+<text x="250" y="971.0" font-size="11" font-weight="400" fill="#2E3C42">Positive</text>
+<text x="500" y="971.0" font-size="11" font-weight="400" fill="#2E3C42">Negative</text>
+<text x="730" y="971.0" font-size="11" font-weight="400" fill="#2E3C42">Negative</text>
+<rect x="30" y="979.0" width="4" height="24" fill="#6D4AA3"/>
+<text x="40" y="995.0" font-size="11" font-weight="700" fill="#3A1322">Role</text>
+<text x="250" y="995.0" font-size="11" font-weight="400" fill="#2E3C42">Precursor</text>
+<text x="500" y="995.0" font-size="11" font-weight="400" fill="#2E3C42">Risk marker</text>
+<text x="730" y="995.0" font-size="11" font-weight="400" fill="#2E3C42">Precursor-like</text>
+<rect x="30" y="1003.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1003.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="40" y="1019.0" font-size="11" font-weight="700" fill="#3A1322">Laterality</text>
+<text x="250" y="1019.0" font-size="11" font-weight="400" fill="#2E3C42">Ipsilateral</text>
+<text x="500" y="1019.0" font-size="11" font-weight="400" fill="#2E3C42">Bilateral risk</text>
+<text x="730" y="1019.0" font-size="11" font-weight="400" fill="#2E3C42">Ipsilateral</text>
+<rect x="30" y="1027.0" width="4" height="24" fill="#15806A"/>
+<text x="40" y="1043.0" font-size="11" font-weight="700" fill="#3A1322">Margins</text>
+<text x="250" y="1043.0" font-size="11" font-weight="400" fill="#2E3C42">≥2 mm</text>
+<text x="500" y="1043.0" font-size="11" font-weight="400" fill="#2E3C42">Not required</text>
+<text x="730" y="1043.0" font-size="11" font-weight="400" fill="#2E3C42">Clear margins</text>
+<rect x="30" y="1051.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1051.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="1067.0" font-size="11" font-weight="700" fill="#3A1322">Radiotherapy</text>
+<text x="250" y="1067.0" font-size="11" font-weight="400" fill="#2E3C42">Yes (post-BCS)</text>
+<text x="500" y="1067.0" font-size="11" font-weight="400" fill="#2E3C42">No</text>
+<text x="730" y="1067.0" font-size="11" font-weight="400" fill="#2E3C42">Consider</text>
+<rect x="30" y="1079.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1095.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1109.0" width="940" height="178.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1109.0" width="6" height="178.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1131.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1135.0" font-size="12" font-weight="600" fill="#3A1322">E-cadherin is the discriminating stain: DCIS is positive; ALL lobular in-situ neoplasia (classical + pleomorphic) is negative.</text>
+<circle cx="60" cy="1153.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1157.0" font-size="12" font-weight="600" fill="#3A1322">Classical LCIS is a risk marker for BOTH breasts — it needs neither clear margins nor radiotherapy; don’t over-treat it.</text>
+<circle cx="60" cy="1175.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1179.0" font-size="12" font-weight="600" fill="#3A1322">Pleomorphic LCIS is the exception among lobular lesions — treat it like DCIS with clear margins ± radiotherapy.</text>
+<circle cx="60" cy="1197.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1201.0" font-size="12" font-weight="600" fill="#3A1322">The DCIS radial margin is ≥2 mm (ABS 2024); wider margins add no benefit and sacrifice breast tissue.</text>
+<circle cx="60" cy="1219.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1223.0" font-size="12" font-weight="600" fill="#3A1322">SLNB is not routine for DCIS — reserve it for mastectomy or suspected invasion, because the node can’t be mapped once the</text>
+<text x="72" y="1241.0" font-size="12" font-weight="400" fill="#2E3C42">breast is removed.</text>
+<circle cx="60" cy="1259.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1263.0" font-size="12" font-weight="600" fill="#3A1322">About half of DCIS recurrences are invasive — completeness of excision and adjuvant radiotherapy both matter.</text>
+<line x1="30" y1="1297.0" x2="970" y2="1297.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1316.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG101 — Early and locally advanced breast cancer: diagnosis and management (2018, updated). Association of Breast Surgery (ABS) 2024 recommendations on radial</text>
+<text x="30" y="1330.0" font-size="10.5" font-weight="400" fill="#7C8A8E">surgical margins for DCIS (≥2 mm). RCPath breast pathology datasets. LORIS trial (low-risk DCIS active monitoring).</text>
+<text x="30" y="1344.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Key numbers: DCIS margin ≥2 mm; whole-breast RT ~50% reduction in local recurrence; classical LCIS RR ~7–10× (bilateral). E-cadherin — DCIS positive, lobular in-situ neoplasia</text>
+<text x="30" y="1358.0" font-size="10.5" font-weight="400" fill="#7C8A8E">negative.</text>
+<text x="30" y="1372.0" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local MDT guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#EAC4D2">mockfrcs.co.uk</text></g>
+<rect x="0" y="1404" width="1000" height="46" fill="#AA2E5A"/><text x="30" y="1433" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1433" text-anchor="end" font-size="12.5" font-weight="600" fill="#EAC4D2">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

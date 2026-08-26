@@ -1,0 +1,136 @@
+<svg viewBox="0 0 1000 1424" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1424" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#AA2E5A"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Breast cancer — treatment pathway</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#EAC4D2">FRCS Part 1 (General Surgery)  ·  NICE NG101  ·  who gets neoadjuvant  ·  surgery &amp; margins  ·  adjuvant systemic &amp; radiotherapy   [3 of 3]</text>
+<rect x="30" y="138" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="154" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">SURGERY &amp; MARGINS</text>
+<rect x="30" y="172" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="172" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="200" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">BREAST-CONSERVING SURGERY vs MASTECTOMY</text>
+<text x="54" y="224" font-size="18" font-weight="800" fill="#3A1322">Local surgery</text>
+<text x="54" y="246" font-size="12" font-weight="700" fill="#245C8C">Conservation</text>
+<text x="155" y="246.0" font-size="12" font-weight="400" fill="#2E3C42">BCS + whole-breast radiotherapy gives survival equivalent to mastectomy for suitable tumours.</text>
+<text x="54" y="266.5" font-size="12" font-weight="700" fill="#245C8C">Mastectomy</text>
+<text x="155" y="266.5" font-size="12" font-weight="400" fill="#2E3C42">Large / multifocal tumour, high tumour-to-breast ratio, patient choice, some genetic cases; ± reconstruction.</text>
+<text x="54" y="287.0" font-size="12" font-weight="700" fill="#245C8C">Margins</text>
+<text x="155" y="287.0" font-size="12" font-weight="400" fill="#2E3C42">Invasive: ‘no ink on tumour’ (0 mm). DCIS: ≥2 mm (ABS 2024). Involved margin → re-excise.</text>
+<text x="54" y="307.5" font-size="12" font-weight="700" fill="#245C8C">Oncoplastic</text>
+<text x="155" y="307.5" font-size="12" font-weight="400" fill="#2E3C42">Volume displacement / replacement and therapeutic mammoplasty widen the scope for conservation.</text>
+<rect x="30" y="317.5" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="333.5" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">NEOADJUVANT THERAPY  ·  WHICH CANCERS, AND WHY</text>
+<rect x="30.0" y="351.5" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 397.5 L 30.0 362.5 Q 30.0 351.5 41.0 351.5 L 321.6666666666667 351.5 Q 332.6666666666667 351.5 332.6666666666667 362.5 L 332.6666666666667 397.5 Z" fill="#15806A"/>
+<text x="44.0" y="372.5" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">HER2-POSITIVE</text>
+<text x="44.0" y="389.5" font-size="11.5" font-weight="600" fill="#FFFFFF">Dual blockade</text>
+<text x="44.0" y="415.5" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Regimen</text>
+<text x="44.0" y="430.5" font-size="11" font-weight="400" fill="#2E3C42">Chemotherapy + trastuzumab + pertuzumab.</text>
+<text x="44.0" y="454.5" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Response</text>
+<text x="44.0" y="469.5" font-size="11" font-weight="400" fill="#2E3C42">High pathological complete response (pCR) rates.</text>
+<text x="44.0" y="493.5" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Residual</text>
+<text x="44.0" y="508.5" font-size="11" font-weight="400" fill="#2E3C42">Switch to T-DM1 (KATHERINE).</text>
+<rect x="348.6666666666667" y="351.5" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 397.5 L 348.6666666666667 362.5 Q 348.6666666666667 351.5 359.6666666666667 351.5 L 640.3333333333334 351.5 Q 651.3333333333334 351.5 651.3333333333334 362.5 L 651.3333333333334 397.5 Z" fill="#BE3A2E"/>
+<text x="362.6666666666667" y="372.5" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TRIPLE-NEGATIVE</text>
+<text x="362.6666666666667" y="389.5" font-size="11.5" font-weight="600" fill="#FFFFFF">Chemo-immunotherapy</text>
+<text x="362.6666666666667" y="415.5" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Regimen</text>
+<text x="362.6666666666667" y="430.5" font-size="11" font-weight="400" fill="#2E3C42">Anthracycline + taxane + platinum +</text>
+<text x="362.6666666666667" y="445.5" font-size="11" font-weight="400" fill="#2E3C42">pembrolizumab (KEYNOTE-522).</text>
+<text x="362.6666666666667" y="469.5" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Response</text>
+<text x="362.6666666666667" y="484.5" font-size="11" font-weight="400" fill="#2E3C42">pCR strongly prognostic.</text>
+<text x="362.6666666666667" y="508.5" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Residual</text>
+<text x="362.6666666666667" y="523.5" font-size="11" font-weight="400" fill="#2E3C42">Capecitabine (CREATE-X).</text>
+<rect x="667.3333333333334" y="351.5" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 397.5 L 667.3333333333334 362.5 Q 667.3333333333334 351.5 678.3333333333334 351.5 L 959.0 351.5 Q 970.0 351.5 970.0 362.5 L 970.0 397.5 Z" fill="#245C8C"/>
+<text x="681.3333333333334" y="372.5" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">DOWNSTAGING</text>
+<text x="681.3333333333334" y="389.5" font-size="11.5" font-weight="600" fill="#FFFFFF">Enable surgery</text>
+<text x="681.3333333333334" y="415.5" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Aim</text>
+<text x="681.3333333333334" y="430.5" font-size="11" font-weight="400" fill="#2E3C42">Shrink the tumour to allow breast conservation.</text>
+<text x="681.3333333333334" y="454.5" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Always</text>
+<text x="681.3333333333334" y="469.5" font-size="11" font-weight="400" fill="#2E3C42">Inflammatory &amp; locally advanced = neoadjuvant</text>
+<text x="681.3333333333334" y="484.5" font-size="11" font-weight="400" fill="#2E3C42">FIRST.</text>
+<text x="681.3333333333334" y="508.5" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Axilla</text>
+<text x="681.3333333333334" y="523.5" font-size="11" font-weight="400" fill="#2E3C42">cN+ converting to cN0 may allow targeted</text>
+<text x="681.3333333333334" y="538.5" font-size="11" font-weight="400" fill="#2E3C42">axillary surgery.</text>
+<rect x="30" y="579.5" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="579.5" width="6" height="123.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="607.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">WHAT THE RESPONSE TELLS YOU</text>
+<text x="54" y="631.5" font-size="18" font-weight="800" fill="#3A1322">pCR &amp; escalation</text>
+<text x="54" y="653.5" font-size="12" font-weight="700" fill="#6D4AA3">Purpose</text>
+<text x="134" y="653.5" font-size="12" font-weight="400" fill="#2E3C42">Downstage for surgery, test tumour chemosensitivity in vivo, and guide post-operative escalation.</text>
+<text x="54" y="674.0" font-size="12" font-weight="700" fill="#6D4AA3">pCR</text>
+<text x="134" y="674.0" font-size="12" font-weight="400" fill="#2E3C42">Pathological complete response — a strong good-prognosis marker, especially in HER2+ and triple-negative disease.</text>
+<text x="54" y="694.5" font-size="12" font-weight="700" fill="#6D4AA3">Residual</text>
+<text x="134" y="694.5" font-size="12" font-weight="400" fill="#2E3C42">The trigger to ESCALATE adjuvant therapy — T-DM1 (KATHERINE) for HER2; capecitabine (CREATE-X) for triple-negative.</text>
+<rect x="30" y="704.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="720.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">ADJUVANT SYSTEMIC THERAPY</text>
+<rect x="30" y="738.5" width="940" height="24" fill="#3A1322" rx="5"/>
+<text x="40" y="754.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Modality</text>
+<text x="230" y="754.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">When</text>
+<text x="470" y="754.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Detail</text>
+<rect x="30" y="762.5" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="762.5" width="4" height="25" fill="#245C8C"/>
+<text x="40" y="778.5" font-size="11" font-weight="700" fill="#3A1322">Endocrine (ER+)</text>
+<text x="230" y="778.5" font-size="11" font-weight="400" fill="#2E3C42">All ER-positive</text>
+<text x="470" y="778.5" font-size="11" font-weight="400" fill="#2E3C42">Premenopausal tamoxifen ± ovarian suppression; postmenopausal AI; 5–10 yr</text>
+<rect x="30" y="787.5" width="4" height="25" fill="#BE3A2E"/>
+<text x="40" y="803.5" font-size="11" font-weight="700" fill="#3A1322">Chemotherapy</text>
+<text x="230" y="803.5" font-size="11" font-weight="400" fill="#2E3C42">Higher risk / node+ / TNBC</text>
+<text x="470" y="803.5" font-size="11" font-weight="400" fill="#2E3C42">Anthracycline + taxane</text>
+<rect x="30" y="812.5" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="812.5" width="4" height="25" fill="#15806A"/>
+<text x="40" y="828.5" font-size="11" font-weight="700" fill="#3A1322">Anti-HER2</text>
+<text x="230" y="828.5" font-size="11" font-weight="400" fill="#2E3C42">HER2-positive, T1c+</text>
+<text x="470" y="828.5" font-size="11" font-weight="400" fill="#2E3C42">Trastuzumab 1 yr (± pertuzumab if high-risk)</text>
+<rect x="30" y="837.5" width="4" height="25" fill="#6D4AA3"/>
+<text x="40" y="853.5" font-size="11" font-weight="700" fill="#3A1322">CDK4/6 inhibitor</text>
+<text x="230" y="853.5" font-size="11" font-weight="400" fill="#2E3C42">High-risk node+ ER+/HER2−</text>
+<text x="470" y="853.5" font-size="11" font-weight="400" fill="#2E3C42">Abemaciclib × 2 yr (monarchE)</text>
+<rect x="30" y="862.5" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="862.5" width="4" height="25" fill="#C77B20"/>
+<text x="40" y="878.5" font-size="11" font-weight="700" fill="#3A1322">Bisphosphonate</text>
+<text x="230" y="878.5" font-size="11" font-weight="400" fill="#2E3C42">Postmenopausal, node+</text>
+<text x="470" y="878.5" font-size="11" font-weight="400" fill="#2E3C42">Reduces bone recurrence &amp; improves survival</text>
+<rect x="30" y="889.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="905.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RADIOTHERAPY</text>
+<rect x="30" y="923.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="923.5" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="951.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">WHO GETS RADIOTHERAPY</text>
+<text x="54" y="975.5" font-size="18" font-weight="800" fill="#3A1322">Local control</text>
+<text x="54" y="997.5" font-size="12" font-weight="700" fill="#15806A">After BCS</text>
+<text x="180" y="997.5" font-size="12" font-weight="400" fill="#2E3C42">Whole-breast radiotherapy to essentially all — hypofractionated 40 Gy / 15 fractions (START trials).</text>
+<text x="54" y="1018.0" font-size="12" font-weight="700" fill="#15806A">After mastectomy</text>
+<text x="180" y="1018.0" font-size="12" font-weight="400" fill="#2E3C42">Offer if node-positive or involved margins; consider for T3–T4 node-negative disease.</text>
+<text x="54" y="1038.5" font-size="12" font-weight="700" fill="#15806A">Nodal RT</text>
+<text x="180" y="1038.5" font-size="12" font-weight="400" fill="#2E3C42">Supraclavicular ± axillary fields for higher nodal burden.</text>
+<text x="54" y="1059.0" font-size="12" font-weight="700" fill="#15806A">Partial-breast</text>
+<text x="180" y="1059.0" font-size="12" font-weight="400" fill="#2E3C42">Consider for low-risk: age ≥50, ≤3 cm, N0, ER+, HER2−.</text>
+<rect x="30" y="1071.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1087.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1101.0" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1101.0" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1123.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1127.0" font-size="12" font-weight="600" fill="#3A1322">Inflammatory and locally advanced cancers get neoadjuvant chemotherapy FIRST — never primary surgery.</text>
+<circle cx="60" cy="1145.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1149.0" font-size="12" font-weight="600" fill="#3A1322">The invasive margin is ‘no ink on tumour’; DCIS needs ≥2 mm — don’t apply the DCIS rule to invasive disease.</text>
+<circle cx="60" cy="1167.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1171.0" font-size="12" font-weight="600" fill="#3A1322">pCR after neoadjuvant is a strong good-prognosis sign; residual disease is the cue to ESCALATE (KATHERINE, CREATE-X).</text>
+<circle cx="60" cy="1189.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1193.0" font-size="12" font-weight="600" fill="#3A1322">Trastuzumab is cardiotoxic — check LVEF before and during, and avoid giving it concurrently with an anthracycline.</text>
+<circle cx="60" cy="1211.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1215.0" font-size="12" font-weight="600" fill="#3A1322">Aromatase inhibitors require a postmenopausal state — in premenopausal women they need ovarian suppression to work.</text>
+<circle cx="60" cy="1233.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1237.0" font-size="12" font-weight="600" fill="#3A1322">Adjuvant bisphosphonates benefit POSTmenopausal node-positive women — reducing bone metastases and improving survival.</text>
+<line x1="30" y1="1271.0" x2="970" y2="1271.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1290.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG101 — Early and locally advanced breast cancer. Trials: START (hypofractionation), KEYNOTE-522 (neoadjuvant pembrolizumab, TNBC), KATHERINE (adjuvant T-DM1),</text>
+<text x="30" y="1304.0" font-size="10.5" font-weight="400" fill="#7C8A8E">CREATE-X (adjuvant capecitabine), monarchE (adjuvant abemaciclib), EBCTCG adjuvant bisphosphonate meta-analysis.</text>
+<text x="30" y="1318.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Key points: invasive margin ‘no ink on tumour’; neoadjuvant for HER2+/TNBC/downstaging; residual disease escalates therapy; trastuzumab for T1c+ (1 year); AIs need a</text>
+<text x="30" y="1332.0" font-size="10.5" font-weight="400" fill="#7C8A8E">postmenopausal state.</text>
+<text x="30" y="1346.0" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local MDT guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#EAC4D2">mockfrcs.co.uk</text></g>
+<rect x="0" y="1378" width="1000" height="46" fill="#AA2E5A"/><text x="30" y="1407" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1407" text-anchor="end" font-size="12.5" font-weight="600" fill="#EAC4D2">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

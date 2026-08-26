@@ -1,0 +1,181 @@
+<svg viewBox="0 0 1000 1666.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1666.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Functioning adrenal tumours &amp; adrenal cancer</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · sheet 2 of 2 · phaeochromocytoma · Conn's · Cushing's · adrenocortical carcinoma</text>
+<rect x="30" y="126" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">PHAEOCHROMOCYTOMA — THE CATECHOLAMINE TUMOUR</text>
+<rect x="30" y="158" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="158" width="6" height="143.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="186" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the '10% tumour'</text>
+<text x="54" y="210" font-size="18" font-weight="800" fill="#2E1E0A">Catecholamine-secreting medullary tumour</text>
+<text x="54" y="232" font-size="12" font-weight="700" fill="#BE3A2E">Features</text>
+<text x="162" y="232.0" font-size="12" font-weight="400" fill="#2E3C42">Paroxysmal hypertension with the triad of episodic Headache, Sweating and Palpitations; pallor, anxiety.</text>
+<text x="54" y="252.5" font-size="12" font-weight="700" fill="#BE3A2E">Tests</text>
+<text x="162" y="252.5" font-size="12" font-weight="400" fill="#2E3C42">Plasma free (or 24-h urinary) metanephrines; then CT / MRI + functional MIBG or 68Ga-DOTATATE.</text>
+<text x="54" y="273.0" font-size="12" font-weight="700" fill="#BE3A2E">Genetics</text>
+<text x="162" y="273.0" font-size="12" font-weight="400" fill="#2E3C42">~40% germline — MEN2 (RET), VHL, NF1, SDHx; SDHB carries higher malignant / extra-adrenal risk.</text>
+<text x="54" y="293.5" font-size="12" font-weight="700" fill="#BE3A2E">Rule of 10s</text>
+<text x="162" y="293.5" font-size="12" font-weight="400" fill="#2E3C42">~10% bilateral, ~10% extra-adrenal (paraganglioma), ~10% malignant, ~10% familial (an underestimate today).</text>
+<rect x="30.0" y="315.5" width="212.5" height="62" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="136.25" y="336.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">Alpha-block first</text>
+<text x="136.25" y="350.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">(phenoxybenzamine /</text>
+<text x="136.25" y="364.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">doxazosin)</text>
+<line x1="246.5" y1="346.5" x2="259.5" y2="346.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 268.5 346.5 L 259.5 351.2 L 259.5 341.8 Z" fill="#6B7B80"/>
+<rect x="272.5" y="315.5" width="212.5" height="62" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="378.75" y="343.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">Volume expand + liberalise</text>
+<text x="378.75" y="357.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">salt</text>
+<line x1="489.0" y1="346.5" x2="502.0" y2="346.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 511.0 346.5 L 502.0 351.2 L 502.0 341.8 Z" fill="#6B7B80"/>
+<rect x="515.0" y="315.5" width="212.5" height="62" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="621.25" y="343.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">THEN add beta-block for</text>
+<text x="621.25" y="357.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">tachycardia</text>
+<line x1="731.5" y1="346.5" x2="744.5" y2="346.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 753.5 346.5 L 744.5 351.2 L 744.5 341.8 Z" fill="#6B7B80"/>
+<rect x="757.5" y="315.5" width="212.5" height="62" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="863.75" y="350.5" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">Laparoscopic adrenalectomy</text>
+<rect x="30" y="389.5" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="389.5" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="408.0" font-size="12" font-weight="800" fill="#BE3A2E">ALPHA BEFORE BETA</text>
+<text x="207" y="408.0" font-size="11.5" font-weight="400" fill="#2E3C42">NEVER beta-block first — blocking β-vasodilatation leaves unopposed α-vasoconstriction and can precipitate a hypertensive</text>
+<text x="207" y="423.0" font-size="11.5" font-weight="400" fill="#2E3C42">crisis.</text>
+<rect x="30" y="439.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="455.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">CONN'S — PRIMARY HYPERALDOSTERONISM</text>
+<rect x="30.0" y="471.5" width="212.5" height="66" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="136.25" y="501.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">HTN ± hypokalaemia +</text>
+<text x="136.25" y="515.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">alkalosis → ARR (screen)</text>
+<line x1="246.5" y1="504.5" x2="259.5" y2="504.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 268.5 504.5 L 259.5 509.2 L 259.5 499.8 Z" fill="#6B7B80"/>
+<rect x="272.5" y="471.5" width="212.5" height="66" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="378.75" y="501.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">Confirm: saline-suppression</text>
+<text x="378.75" y="515.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">test</text>
+<line x1="489.0" y1="504.5" x2="502.0" y2="504.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 511.0 504.5 L 502.0 509.2 L 502.0 499.8 Z" fill="#6B7B80"/>
+<rect x="515.0" y="471.5" width="212.5" height="66" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="621.25" y="501.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">CT + adrenal vein sampling</text>
+<text x="621.25" y="515.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">(lateralise)</text>
+<line x1="731.5" y1="504.5" x2="744.5" y2="504.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 753.5 504.5 L 744.5 509.2 L 744.5 499.8 Z" fill="#6B7B80"/>
+<rect x="757.5" y="471.5" width="212.5" height="66" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="863.75" y="494.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">Unilateral adenoma → lap</text>
+<text x="863.75" y="508.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">adrenalectomy · bilateral →</text>
+<text x="863.75" y="522.5" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">spironolactone</text>
+<rect x="30" y="549.5" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="549.5" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="568.0" font-size="12" font-weight="800" fill="#C77B20">NOTE</text>
+<text x="103" y="568.0" font-size="11.5" font-weight="400" fill="#2E3C42">The commonest surgically-correctable cause of secondary hypertension; bilateral idiopathic hyperplasia is actually the commonest subtype,</text>
+<text x="103" y="583.0" font-size="11.5" font-weight="400" fill="#2E3C42">so lateralisation matters.</text>
+<rect x="30" y="599.5" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="615.5" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">CUSHING'S SYNDROME — CORTISOL EXCESS</text>
+<rect x="30.0" y="631.5" width="293.3333333333333" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="176.66666666666666" y="654.5" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Confirm excess: 1 mg dexamethasone ·</text>
+<text x="176.66666666666666" y="668.5" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">24-h urinary free cortisol · late-night</text>
+<text x="176.66666666666666" y="682.5" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">salivary cortisol</text>
+<line x1="327.3" y1="664.5" x2="340.3" y2="664.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 349.3 664.5 L 340.3 669.2 L 340.3 659.8 Z" fill="#6B7B80"/>
+<rect x="353.3333333333333" y="631.5" width="293.3333333333333" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="500.0" y="668.5" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Measure ACTH</text>
+<line x1="650.7" y1="664.5" x2="663.7" y2="664.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 672.7 664.5 L 663.7 669.2 L 663.7 659.8 Z" fill="#6B7B80"/>
+<rect x="676.6666666666666" y="631.5" width="293.3333333333333" height="66" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="823.3333333333333" y="661.5" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">ACTH suppressed = adrenal · ACTH</text>
+<text x="823.3333333333333" y="675.5" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">high/normal = pituitary or ectopic</text>
+<rect x="30" y="709.5" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="725.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Category</text>
+<text x="212" y="725.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">ACTH</text>
+<text x="360" y="725.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Causes</text>
+<rect x="30" y="733.5" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="733.5" width="4" height="26" fill="#245C8C"/>
+<text x="42" y="749.5" font-size="11" font-weight="700" fill="#2E1E0A">ACTH-dependent</text>
+<text x="212" y="749.5" font-size="11" font-weight="400" fill="#2E3C42">High / normal</text>
+<text x="360" y="749.5" font-size="11" font-weight="400" fill="#2E3C42">Pituitary adenoma = Cushing's DISEASE (~70%); ectopic ACTH (small-cell lung, carcinoid)</text>
+<rect x="30" y="759.5" width="4" height="26" fill="#6D4AA3"/>
+<text x="42" y="775.5" font-size="11" font-weight="700" fill="#2E1E0A">ACTH-independent</text>
+<text x="212" y="775.5" font-size="11" font-weight="400" fill="#2E3C42">Low / suppressed</text>
+<text x="360" y="775.5" font-size="11" font-weight="400" fill="#2E3C42">Adrenal adenoma or carcinoma; bilateral nodular hyperplasia</text>
+<rect x="30" y="785.5" width="940" height="26" fill="#F1F4F2"/>
+<rect x="30" y="785.5" width="4" height="26" fill="#C77B20"/>
+<text x="42" y="801.5" font-size="11" font-weight="700" fill="#2E1E0A">Exogenous steroid</text>
+<text x="212" y="801.5" font-size="11" font-weight="400" fill="#2E3C42">Low</text>
+<text x="360" y="801.5" font-size="11" font-weight="400" fill="#2E3C42">Iatrogenic glucocorticoids — the commonest cause overall</text>
+<rect x="30" y="817.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="833.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">ADRENOCORTICAL CARCINOMA (ACC)</text>
+<rect x="30" y="849.5" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="849.5" width="6" height="164.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="877.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">rare &amp; aggressive</text>
+<text x="54" y="901.5" font-size="18" font-weight="800" fill="#2E1E0A">Big, often functional, poor prognosis</text>
+<text x="54" y="923.5" font-size="12" font-weight="700" fill="#6D4AA3">Features</text>
+<text x="148" y="923.5" font-size="12" font-weight="400" fill="#2E3C42">Large (&gt;4–6 cm), rapidly growing; often functional — Cushing's ± virilisation from androgens.</text>
+<text x="54" y="944.0" font-size="12" font-weight="700" fill="#6D4AA3">Imaging</text>
+<text x="148" y="944.0" font-size="12" font-weight="400" fill="#2E3C42">Heterogeneous, irregular margins, high unenhanced HU (&gt;20), slow contrast washout, necrosis / calcification.</text>
+<text x="54" y="964.5" font-size="12" font-weight="700" fill="#6D4AA3">Histology</text>
+<text x="148" y="964.5" font-size="12" font-weight="400" fill="#2E3C42">Weiss score ≥3 defines malignancy.</text>
+<text x="54" y="985.0" font-size="12" font-weight="700" fill="#6D4AA3">Treatment</text>
+<text x="148" y="985.0" font-size="12" font-weight="400" fill="#2E3C42">OPEN adrenalectomy with en-bloc resection — NOT laparoscopic; never percutaneous biopsy (seeding). Adjuvant mitotane; overall</text>
+<text x="148" y="1005.5" font-size="12" font-weight="400" fill="#2E3C42">poor prognosis.</text>
+<rect x="30" y="1019.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="1035.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">ADRENALECTOMY &amp; AT A GLANCE</text>
+<rect x="30" y="1051.5" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="1051.5" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="1070.0" font-size="12" font-weight="800" fill="#15806A">APPROACH</text>
+<text x="140" y="1070.0" font-size="11.5" font-weight="400" fill="#2E3C42">Laparoscopic adrenalectomy is the gold standard for benign functioning tumours and small masses; convert to OPEN for large tumours</text>
+<text x="140" y="1085.0" font-size="11.5" font-weight="400" fill="#2E3C42">or suspected malignancy.</text>
+<rect x="30" y="1109.5" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="1125.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Tumour</text>
+<text x="200" y="1125.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Hormone</text>
+<text x="330" y="1125.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Screening</text>
+<text x="500" y="1125.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Key management</text>
+<rect x="30" y="1133.5" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1133.5" width="4" height="24" fill="#BE3A2E"/>
+<text x="42" y="1149.5" font-size="11" font-weight="700" fill="#2E1E0A">Phaeo</text>
+<text x="200" y="1149.5" font-size="11" font-weight="400" fill="#2E3C42">Catecholamines</text>
+<text x="330" y="1149.5" font-size="11" font-weight="400" fill="#2E3C42">Metanephrines</text>
+<text x="500" y="1149.5" font-size="11" font-weight="400" fill="#2E3C42">α-then-β block → laparoscopic adrenalectomy</text>
+<rect x="30" y="1157.5" width="4" height="24" fill="#C77B20"/>
+<text x="42" y="1173.5" font-size="11" font-weight="700" fill="#2E1E0A">Conn's</text>
+<text x="200" y="1173.5" font-size="11" font-weight="400" fill="#2E3C42">Aldosterone</text>
+<text x="330" y="1173.5" font-size="11" font-weight="400" fill="#2E3C42">ARR + AVS</text>
+<text x="500" y="1173.5" font-size="11" font-weight="400" fill="#2E3C42">Adenoma → lap adrenalectomy; bilateral → spironolactone</text>
+<rect x="30" y="1181.5" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1181.5" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="1197.5" font-size="11" font-weight="700" fill="#2E1E0A">Cushing's</text>
+<text x="200" y="1197.5" font-size="11" font-weight="400" fill="#2E3C42">Cortisol</text>
+<text x="330" y="1197.5" font-size="11" font-weight="400" fill="#2E3C42">Dexamethasone + ACTH</text>
+<text x="500" y="1197.5" font-size="11" font-weight="400" fill="#2E3C42">Treat the source — pituitary / adrenal / ectopic</text>
+<rect x="30" y="1205.5" width="4" height="24" fill="#6D4AA3"/>
+<text x="42" y="1221.5" font-size="11" font-weight="700" fill="#2E1E0A">ACC</text>
+<text x="200" y="1221.5" font-size="11" font-weight="400" fill="#2E3C42">Cortisol / androgens</text>
+<text x="330" y="1221.5" font-size="11" font-weight="400" fill="#2E3C42">Dex + imaging</text>
+<text x="500" y="1221.5" font-size="11" font-weight="400" fill="#2E3C42">OPEN adrenalectomy + adjuvant mitotane</text>
+<rect x="30" y="1239.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1255.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1269.5" width="940" height="228.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1269.5" width="6" height="228.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1291.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1295.5" font-size="12" font-weight="600" fill="#2E1E0A">In phaeochromocytoma, alpha-block BEFORE beta-block — beta-blockade first leaves unopposed alpha vasoconstriction and a</text>
+<text x="72" y="1313.5" font-size="12" font-weight="400" fill="#2E3C42">hypertensive crisis.</text>
+<circle cx="60" cy="1331.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1335.5" font-size="12" font-weight="600" fill="#2E1E0A">~40% of phaeochromocytomas are hereditary — offer genetic testing (MEN2, VHL, NF1, SDHx); SDHB carries the highest</text>
+<text x="72" y="1353.5" font-size="12" font-weight="400" fill="#2E3C42">malignant and extra-adrenal risk.</text>
+<circle cx="60" cy="1371.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1375.5" font-size="12" font-weight="600" fill="#2E1E0A">Conn's needs adrenal vein sampling before surgery — CT can mislead, and only lateralised (unilateral) disease benefits from</text>
+<text x="72" y="1393.5" font-size="12" font-weight="400" fill="#2E3C42">adrenalectomy.</text>
+<circle cx="60" cy="1411.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1415.5" font-size="12" font-weight="600" fill="#2E1E0A">In Cushing's, measure ACTH only AFTER confirming cortisol excess — suppressed ACTH points to the adrenal; non-suppressed</text>
+<text x="72" y="1433.5" font-size="12" font-weight="400" fill="#2E3C42">to pituitary or ectopic.</text>
+<circle cx="60" cy="1451.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1455.5" font-size="12" font-weight="600" fill="#2E1E0A">Suspected adrenocortical carcinoma → open adrenalectomy, never a percutaneous biopsy (seeding) — and always exclude a</text>
+<text x="72" y="1473.5" font-size="12" font-weight="400" fill="#2E3C42">phaeo biochemically first.</text>
+<line x1="30" y1="1519.5" x2="970" y2="1519.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1538.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: Endocrine Society guidelines (phaeochromocytoma &amp; paraganglioma; primary aldosteronism; Cushing's syndrome) · ESE/ENSAT adrenocortical carcinoma guideline · standard</text>
+<text x="30" y="1552.5" font-size="10.5" font-weight="400" fill="#7C8A8E">surgical texts.</text>
+<text x="30" y="1566.5" font-size="10.5" font-weight="400" fill="#7C8A8E">ARR = aldosterone-renin ratio; AVS = adrenal vein sampling; ACC = adrenocortical carcinoma. Adrenal anatomy, physiology and the incidentaloma work-up are on sheet 1 of 2.</text>
+<text x="30" y="1580.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1620.5" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="1649.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1649.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

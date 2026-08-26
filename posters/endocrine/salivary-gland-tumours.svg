@@ -1,0 +1,205 @@
+<svg viewBox="0 0 1000 1690" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1690" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Salivary gland tumours</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · sheet 1 of 2 · pleomorphic · Warthin's · mucoepidermoid · adenoid cystic · the 80% rule</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE 80% RULE &amp; THE SITE GRADIENT</text>
+<rect x="30" y="158" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="158" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="176.5" font-size="12" font-weight="800" fill="#245C8C">80% RULE</text>
+<text x="134" y="176.5" font-size="11.5" font-weight="400" fill="#2E3C42">~80% of salivary tumours arise in the parotid; ~80% of parotid tumours are benign; ~80% of those are pleomorphic adenomas —</text>
+<text x="134" y="191.5" font-size="11.5" font-weight="400" fill="#2E3C42">and ~80% sit in the superficial lobe.</text>
+<path d="M 30.0 216.0 L 321.3 216.0 L 343.3 253.0 L 321.3 290.0 L 30.0 290.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="46.0" y="242" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">PAROTID</text>
+<text x="46.0" y="260" font-size="11" font-weight="400" fill="#2E3C42">~80% of tumours; ~15–25% malignant</text>
+<path d="M 343.3 216.0 L 634.7 216.0 L 656.7 253.0 L 634.7 290.0 L 343.3 290.0 L 365.3 253.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="375.3333333333333" y="242" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">SUBMANDIBULAR</text>
+<text x="375.3333333333333" y="260" font-size="11" font-weight="400" fill="#2E3C42">~10% of tumours; ~40–50% malignant</text>
+<path d="M 656.7 216.0 L 970.0 216.0 L 970.0 290.0 L 656.7 290.0 L 678.7 253.0 Z" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.4"/>
+<text x="688.6666666666666" y="242" font-size="11.5" font-weight="800" fill="#BE3A2E" letter-spacing="0.4">SUBLINGUAL / MINOR</text>
+<text x="688.6666666666666" y="260" font-size="11" font-weight="400" fill="#2E3C42">few tumours, but the majority are malignant</text>
+<text x="30" y="294" font-size="11" font-weight="400" fill="#6B7B80" font-style="italic">The smaller the gland, the higher the chance a tumour is malignant.</text>
+<rect x="30" y="305" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="321" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">BENIGN TUMOURS</text>
+<rect x="30" y="337" width="462.0" height="223" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 383 L 30 348 Q 30 337 41 337 L 481.0 337 Q 492.0 337 492.0 348 L 492.0 383 Z" fill="#245C8C"/>
+<text x="44" y="358" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PLEOMORPHIC ADENOMA</text>
+<text x="44" y="375" font-size="11.5" font-weight="600" fill="#FFFFFF">the mixed tumour</text>
+<text x="44" y="401" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Frequency</text>
+<text x="44" y="416" font-size="11" font-weight="400" fill="#2E3C42">Commonest salivary tumour (~65% of all)</text>
+<text x="44" y="440" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Histology</text>
+<text x="44" y="455" font-size="11" font-weight="400" fill="#2E3C42">Mixed — epithelial + myoepithelial cells in a chondromyxoid stroma</text>
+<text x="44" y="479" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Behaviour</text>
+<text x="44" y="494" font-size="11" font-weight="400" fill="#2E3C42">Pseudopod extensions breach the capsule → recurs if enucleated</text>
+<text x="44" y="518" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Risk</text>
+<text x="44" y="533" font-size="11" font-weight="400" fill="#2E3C42">Carcinoma ex-pleomorphic adenoma with time → excise, don't watch</text>
+<rect x="508.0" y="337" width="462.0" height="223" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 508.0 383 L 508.0 348 Q 508.0 337 519.0 337 L 959.0 337 Q 970.0 337 970.0 348 L 970.0 383 Z" fill="#15806A"/>
+<text x="522.0" y="358" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">WARTHIN'S TUMOUR</text>
+<text x="522.0" y="375" font-size="11.5" font-weight="600" fill="#FFFFFF">bilateral · smokers</text>
+<text x="522.0" y="401" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">A.k.a.</text>
+<text x="522.0" y="416" font-size="11" font-weight="400" fill="#2E3C42">Papillary cystadenoma lymphomatosum (adenolymphoma)</text>
+<text x="522.0" y="440" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Who</text>
+<text x="522.0" y="455" font-size="11" font-weight="400" fill="#2E3C42">Older male smokers; the ONLY bilateral / multifocal tumour (~10%)</text>
+<text x="522.0" y="479" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Histology</text>
+<text x="522.0" y="494" font-size="11" font-weight="400" fill="#2E3C42">Oncocytic epithelium on a lymphoid stroma; cystic</text>
+<text x="522.0" y="518" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Note</text>
+<text x="522.0" y="533" font-size="11" font-weight="400" fill="#2E3C42">99mTc-pertechnetate avid; virtually never malignant</text>
+<rect x="30" y="566" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="582" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">MALIGNANT TUMOURS</text>
+<rect x="30.0" y="598" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 644 L 30.0 609 Q 30.0 598 41.0 598 L 321.6666666666667 598 Q 332.6666666666667 598 332.6666666666667 609 L 332.6666666666667 644 Z" fill="#C77B20"/>
+<text x="44.0" y="619" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">MUCOEPIDERMOID</text>
+<text x="44.0" y="636" font-size="11.5" font-weight="600" fill="#FFFFFF">commonest · graded</text>
+<text x="44.0" y="662" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Frequency</text>
+<text x="44.0" y="677" font-size="11" font-weight="400" fill="#2E3C42">Commonest salivary malignancy — and</text>
+<text x="44.0" y="692" font-size="11" font-weight="400" fill="#2E3C42">commonest in children</text>
+<text x="44.0" y="716" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Histology</text>
+<text x="44.0" y="731" font-size="11" font-weight="400" fill="#2E3C42">Mucous + epidermoid cells; graded low → high</text>
+<text x="44.0" y="746" font-size="11" font-weight="400" fill="#2E3C42">(MAML2 fusion)</text>
+<text x="44.0" y="770" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Behaviour</text>
+<text x="44.0" y="785" font-size="11" font-weight="400" fill="#2E3C42">Low-grade indolent; high-grade behaves</text>
+<text x="44.0" y="800" font-size="11" font-weight="400" fill="#2E3C42">aggressively</text>
+<rect x="348.6666666666667" y="598" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 644 L 348.6666666666667 609 Q 348.6666666666667 598 359.6666666666667 598 L 640.3333333333334 598 Q 651.3333333333334 598 651.3333333333334 609 L 651.3333333333334 644 Z" fill="#BE3A2E"/>
+<text x="362.6666666666667" y="619" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ADENOID CYSTIC</text>
+<text x="362.6666666666667" y="636" font-size="11.5" font-weight="600" fill="#FFFFFF">perineural · lung</text>
+<text x="362.6666666666667" y="662" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Signature</text>
+<text x="362.6666666666667" y="677" font-size="11" font-weight="400" fill="#2E3C42">Perineural invasion → pain, facial-nerve palsy</text>
+<text x="362.6666666666667" y="701" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Histology</text>
+<text x="362.6666666666667" y="716" font-size="11" font-weight="400" fill="#2E3C42">Cribriform 'Swiss-cheese' pattern</text>
+<text x="362.6666666666667" y="740" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Course</text>
+<text x="362.6666666666667" y="755" font-size="11" font-weight="400" fill="#2E3C42">Indolent but relentless; late lung metastases;</text>
+<text x="362.6666666666667" y="770" font-size="11" font-weight="400" fill="#2E3C42">poor long-term survival</text>
+<rect x="667.3333333333334" y="598" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 644 L 667.3333333333334 609 Q 667.3333333333334 598 678.3333333333334 598 L 959.0 598 Q 970.0 598 970.0 609 L 970.0 644 Z" fill="#6D4AA3"/>
+<text x="681.3333333333334" y="619" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">OTHERS</text>
+<text x="681.3333333333334" y="636" font-size="11.5" font-weight="600" fill="#FFFFFF">transformation &amp; more</text>
+<text x="681.3333333333334" y="662" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Carcinoma ex-PA</text>
+<text x="681.3333333333334" y="677" font-size="11" font-weight="400" fill="#2E3C42">Malignant change in a long-standing pleomorphic</text>
+<text x="681.3333333333334" y="692" font-size="11" font-weight="400" fill="#2E3C42">adenoma</text>
+<text x="681.3333333333334" y="716" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Also</text>
+<text x="681.3333333333334" y="731" font-size="11" font-weight="400" fill="#2E3C42">Acinic cell &amp; salivary duct carcinoma</text>
+<text x="681.3333333333334" y="755" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Lymphoma</text>
+<text x="681.3333333333334" y="770" font-size="11" font-weight="400" fill="#2E3C42">MALT lymphoma on a background of Sjögren's</text>
+<rect x="30" y="833" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="849" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS — SUSPECT MALIGNANCY</text>
+<rect x="30.0" y="865" width="181.6" height="84" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="30.0" y="865" width="181.6" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="30.0" y="876" width="181.6" height="11" fill="#BE3A2E"/>
+<text x="40.0" y="881" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">FACIAL PALSY</text>
+<text x="40.0" y="902" font-size="10.5" font-weight="700" fill="#BE3A2E">nerve invaded</text>
+<text x="40.0" y="917" font-size="10" font-weight="400" fill="#2E3C42">Cancer until proven otherwise</text>
+<rect x="219.6" y="865" width="181.6" height="84" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="219.6" y="865" width="181.6" height="22" fill="#C77B20" rx="9"/>
+<rect x="219.6" y="876" width="181.6" height="11" fill="#C77B20"/>
+<text x="229.6" y="881" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">PAIN</text>
+<text x="229.6" y="902" font-size="10.5" font-weight="700" fill="#C77B20">or rapid growth</text>
+<text x="229.6" y="917" font-size="10" font-weight="400" fill="#2E3C42">A concerning feature</text>
+<rect x="409.2" y="865" width="181.6" height="84" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.3"/>
+<rect x="409.2" y="865" width="181.6" height="22" fill="#6D4AA3" rx="9"/>
+<rect x="409.2" y="876" width="181.6" height="11" fill="#6D4AA3"/>
+<text x="419.2" y="881" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">FIXATION</text>
+<text x="419.2" y="902" font-size="10.5" font-weight="700" fill="#6D4AA3">skin / deep</text>
+<text x="419.2" y="917" font-size="10" font-weight="400" fill="#2E3C42">Loss of mobility</text>
+<rect x="598.8" y="865" width="181.6" height="84" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.3"/>
+<rect x="598.8" y="865" width="181.6" height="22" fill="#245C8C" rx="9"/>
+<rect x="598.8" y="876" width="181.6" height="11" fill="#245C8C"/>
+<text x="608.8" y="881" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">NECK NODES</text>
+<text x="608.8" y="902" font-size="10.5" font-weight="700" fill="#245C8C">lymphadenopathy</text>
+<text x="608.8" y="917" font-size="10" font-weight="400" fill="#2E3C42">Regional spread</text>
+<rect x="788.4" y="865" width="181.6" height="84" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="788.4" y="865" width="181.6" height="22" fill="#15806A" rx="9"/>
+<rect x="788.4" y="876" width="181.6" height="11" fill="#15806A"/>
+<text x="798.4" y="881" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">HARD / IRREGULAR</text>
+<text x="798.4" y="902" font-size="10.5" font-weight="700" fill="#15806A">not soft-mobile</text>
+<text x="798.4" y="917" font-size="10" font-weight="400" fill="#2E3C42">vs a benign lump</text>
+<rect x="30" y="955" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="971" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">INVESTIGATION</text>
+<rect x="30.0" y="987" width="212.5" height="62" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="136.25" y="1015.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Exam — facial nerve,</text>
+<text x="136.25" y="1029.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">fixation, nodes</text>
+<line x1="246.5" y1="1018.0" x2="259.5" y2="1018.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 268.5 1018.0 L 259.5 1022.7 L 259.5 1013.3 Z" fill="#6B7B80"/>
+<rect x="272.5" y="987" width="212.5" height="62" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="378.75" y="1015.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">USS + FNA cytology / core</text>
+<text x="378.75" y="1029.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">biopsy</text>
+<line x1="489.0" y1="1018.0" x2="502.0" y2="1018.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 511.0 1018.0 L 502.0 1022.7 L 502.0 1013.3 Z" fill="#6B7B80"/>
+<rect x="515.0" y="987" width="212.5" height="62" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="621.25" y="1015.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">MRI for deep lobe &amp;</text>
+<text x="621.25" y="1029.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">perineural spread</text>
+<line x1="731.5" y1="1018.0" x2="744.5" y2="1018.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 753.5 1018.0 L 744.5 1022.7 L 744.5 1013.3 Z" fill="#6B7B80"/>
+<rect x="757.5" y="987" width="212.5" height="62" fill="#E1EAF1" rx="10" stroke="#245C8C" stroke-width="1.5"/>
+<text x="863.75" y="1022.0" font-size="11.5" font-weight="700" fill="#245C8C" text-anchor="middle">Head &amp; neck MDT</text>
+<rect x="30" y="1063" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="1063" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="1081.5" font-size="12" font-weight="800" fill="#BE3A2E">NEVER</text>
+<text x="111" y="1081.5" font-size="11.5" font-weight="400" fill="#2E3C42">Do NOT perform an incisional / open biopsy of a parotid mass — it risks tumour seeding and facial-nerve injury. Use image-guided</text>
+<text x="111" y="1096.5" font-size="11.5" font-weight="400" fill="#2E3C42">FNA or core biopsy instead.</text>
+<rect x="30" y="1113" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1129" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AT A GLANCE — THE FIVE</text>
+<rect x="30" y="1145" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="1161" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Tumour</text>
+<text x="240" y="1161" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">B / M</text>
+<text x="330" y="1161" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Signature</text>
+<text x="590" y="1161" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Site &amp; behaviour</text>
+<rect x="30" y="1169" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1169" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="1185" font-size="11" font-weight="700" fill="#2E1E0A">Pleomorphic adenoma</text>
+<text x="240" y="1185" font-size="11" font-weight="400" fill="#2E3C42">Benign</text>
+<text x="330" y="1185" font-size="11" font-weight="400" fill="#2E3C42">Chondromyxoid; pseudopods</text>
+<text x="590" y="1185" font-size="11" font-weight="400" fill="#2E3C42">Superficial parotid; recurs if enucleated</text>
+<rect x="30" y="1193" width="4" height="24" fill="#15806A"/>
+<text x="42" y="1209" font-size="11" font-weight="700" fill="#2E1E0A">Warthin's</text>
+<text x="240" y="1209" font-size="11" font-weight="400" fill="#2E3C42">Benign</text>
+<text x="330" y="1209" font-size="11" font-weight="400" fill="#2E3C42">Oncocytes + lymphoid; bilateral</text>
+<text x="590" y="1209" font-size="11" font-weight="400" fill="#2E3C42">Older male smokers; Tc-avid</text>
+<rect x="30" y="1217" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1217" width="4" height="24" fill="#C77B20"/>
+<text x="42" y="1233" font-size="11" font-weight="700" fill="#2E1E0A">Mucoepidermoid</text>
+<text x="240" y="1233" font-size="11" font-weight="400" fill="#2E3C42">Malignant</text>
+<text x="330" y="1233" font-size="11" font-weight="400" fill="#2E3C42">Mucous + epidermoid; graded</text>
+<text x="590" y="1233" font-size="11" font-weight="400" fill="#2E3C42">Commonest malignancy; grade = prognosis</text>
+<rect x="30" y="1241" width="4" height="24" fill="#BE3A2E"/>
+<text x="42" y="1257" font-size="11" font-weight="700" fill="#2E1E0A">Adenoid cystic</text>
+<text x="240" y="1257" font-size="11" font-weight="400" fill="#2E3C42">Malignant</text>
+<text x="330" y="1257" font-size="11" font-weight="400" fill="#2E3C42">Cribriform; perineural</text>
+<text x="590" y="1257" font-size="11" font-weight="400" fill="#2E3C42">Late lung mets; poor long-term</text>
+<rect x="30" y="1265" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1265" width="4" height="24" fill="#6D4AA3"/>
+<text x="42" y="1281" font-size="11" font-weight="700" fill="#2E1E0A">Carcinoma ex-PA</text>
+<text x="240" y="1281" font-size="11" font-weight="400" fill="#2E3C42">Malignant</text>
+<text x="330" y="1281" font-size="11" font-weight="400" fill="#2E3C42">Arises in an old PA</text>
+<text x="590" y="1281" font-size="11" font-weight="400" fill="#2E3C42">Long-standing PA that suddenly changes</text>
+<rect x="30" y="1299" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1315" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1329" width="940" height="192" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1329" width="6" height="192" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1351" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1355" font-size="12" font-weight="600" fill="#2E1E0A">Never enucleate a pleomorphic adenoma — microscopic pseudopods breach the capsule, so incomplete excision recurs; do a</text>
+<text x="72" y="1373" font-size="12" font-weight="400" fill="#2E3C42">superficial parotidectomy.</text>
+<circle cx="60" cy="1391" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1395" font-size="12" font-weight="600" fill="#2E1E0A">A facial-nerve palsy with a parotid mass means malignancy until proven otherwise — benign tumours do not paralyse the</text>
+<text x="72" y="1413" font-size="12" font-weight="400" fill="#2E3C42">nerve.</text>
+<circle cx="60" cy="1431" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1435" font-size="12" font-weight="600" fill="#2E1E0A">Adenoid cystic carcinoma looks indolent but tracks perineurally and relapses with lung metastases years later — it needs long</text>
+<text x="72" y="1453" font-size="12" font-weight="400" fill="#2E3C42">follow-up.</text>
+<circle cx="60" cy="1471" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1475" font-size="12" font-weight="600" fill="#2E1E0A">Warthin's is the bilateral / multifocal tumour of older male smokers, and it lights up on technetium scanning.</text>
+<circle cx="60" cy="1493" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1497" font-size="12" font-weight="600" fill="#2E1E0A">The smaller the salivary gland, the higher the chance a tumour is malignant — parotid least, minor glands most.</text>
+<line x1="30" y1="1543" x2="970" y2="1543" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1562" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: Management of Salivary Gland Tumours — UK National Multidisciplinary Guidelines (2016) · Royal College of Pathologists salivary dataset · WHO classification of head &amp; neck</text>
+<text x="30" y="1576" font-size="10.5" font-weight="400" fill="#7C8A8E">tumours · standard head &amp; neck surgical texts.</text>
+<text x="30" y="1590" font-size="10.5" font-weight="400" fill="#7C8A8E">Parotid anatomy, parotidectomy (and its complications) and non-neoplastic salivary disease are on sheet 2 of 2.</text>
+<text x="30" y="1604" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local MDT guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1644" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="1673" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1673" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

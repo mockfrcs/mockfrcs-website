@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1000 1895.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1895.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#6E4A1C"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Benign thyroid disease — autoimmune &amp; thyroiditis</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#E4D3B0">FRCS Part 1 (General Surgery) · Graves' · Hashimoto's · De Quervain's · Riedel's · the uptake rule</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE ORGANISING RULE — RADIOIODINE UPTAKE</text>
+<rect x="30" y="158" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="158" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="186" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">thyrotoxicosis, two mechanisms</text>
+<text x="54" y="210" font-size="18" font-weight="800" fill="#2E1E0A">High uptake vs low uptake</text>
+<text x="54" y="232" font-size="12" font-weight="700" fill="#245C8C">High uptake</text>
+<text x="156" y="232.0" font-size="12" font-weight="400" fill="#2E3C42">The gland is making NEW hormone → Graves' disease, toxic adenoma or toxic multinodular goitre. Treat the overactive gland (ATD /</text>
+<text x="156" y="252.5" font-size="12" font-weight="400" fill="#2E3C42">RAI / surgery).</text>
+<text x="54" y="273.0" font-size="12" font-weight="700" fill="#245C8C">Low uptake</text>
+<text x="156" y="273.0" font-size="12" font-weight="400" fill="#2E3C42">Stored hormone is being RELEASED by destruction → De Quervain's, silent / postpartum, amiodarone type 2. Self-limiting —</text>
+<text x="156" y="293.5" font-size="12" font-weight="400" fill="#2E3C42">supportive care, antithyroid drugs do not help.</text>
+<rect x="30" y="309.5" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="325.5" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">GRAVES' DISEASE — AUTOIMMUNE HYPERTHYROIDISM</text>
+<rect x="30" y="341.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="341.5" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="369.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">commonest cause of hyperthyroidism</text>
+<text x="54" y="393.5" font-size="18" font-weight="800" fill="#2E1E0A">Stimulating antibody disease</text>
+<text x="54" y="415.5" font-size="12" font-weight="700" fill="#245C8C">Cause</text>
+<text x="130" y="415.5" font-size="12" font-weight="400" fill="#2E3C42">Stimulating TSH-receptor antibodies (TRAb / TSI); female predominance; commonest cause of hyperthyroidism.</text>
+<text x="54" y="436.0" font-size="12" font-weight="700" fill="#245C8C">Signs</text>
+<text x="130" y="436.0" font-size="12" font-weight="400" fill="#2E3C42">Diffuse goitre with a bruit — plus the extrathyroidal features unique to Graves': orbitopathy, pretibial myxoedema and thyroid</text>
+<text x="130" y="456.5" font-size="12" font-weight="400" fill="#2E3C42">acropachy.</text>
+<text x="54" y="477.0" font-size="12" font-weight="700" fill="#245C8C">Confirm</text>
+<text x="130" y="477.0" font-size="12" font-weight="400" fill="#2E3C42">TRAb positive; diffuse increased uptake on scintigraphy (contrast with the low uptake of thyroiditis).</text>
+<rect x="30" y="493.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="509.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">GRAVES' — DEFINITIVE MANAGEMENT (NICE NG145)</text>
+<rect x="30" y="525.0" width="940" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="525.0" width="6" height="205.0" fill="#15806A" rx="3"/>
+<text x="54" y="553.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">render euthyroid first</text>
+<text x="54" y="577.0" font-size="18" font-weight="800" fill="#2E1E0A">First-line is now radioiodine</text>
+<text x="54" y="599.0" font-size="12" font-weight="700" fill="#15806A">Radioiodine</text>
+<text x="196" y="599.0" font-size="12" font-weight="400" fill="#2E3C42">NICE first-line definitive treatment for most adults — UNLESS active thyroid eye disease, pregnancy / planning within 4–6</text>
+<text x="196" y="619.5" font-size="12" font-weight="400" fill="#2E3C42">months, compression, or suspected malignancy.</text>
+<text x="54" y="640.0" font-size="12" font-weight="700" fill="#15806A">Antithyroid drugs</text>
+<text x="196" y="640.0" font-size="12" font-weight="400" fill="#2E3C42">Carbimazole 12–18 months (titration or block-and-replace). Use PTU for carbimazole reactions, pregnancy / planning within 6</text>
+<text x="196" y="660.5" font-size="12" font-weight="400" fill="#2E3C42">months, or a pancreatitis history.</text>
+<text x="54" y="681.0" font-size="12" font-weight="700" fill="#15806A">Surgery</text>
+<text x="196" y="681.0" font-size="12" font-weight="400" fill="#2E3C42">Total thyroidectomy first-line if compression, suspected malignancy, or when RAI and antithyroid drugs are unsuitable.</text>
+<text x="54" y="701.5" font-size="12" font-weight="700" fill="#15806A">Symptoms &amp; eyes</text>
+<text x="196" y="701.5" font-size="12" font-weight="400" fill="#2E3C42">Beta-blocker for symptom relief; stop smoking + selenium ± steroids for orbitopathy — radioiodine can worsen active eye</text>
+<text x="196" y="722.0" font-size="12" font-weight="400" fill="#2E3C42">disease.</text>
+<rect x="30" y="738.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="754.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">HASHIMOTO'S THYROIDITIS — AUTOIMMUNE HYPOTHYROIDISM</text>
+<rect x="30" y="770.0" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="770.0" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="798.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">commonest cause of hypothyroidism</text>
+<text x="54" y="822.0" font-size="18" font-weight="800" fill="#2E1E0A">Chronic lymphocytic thyroiditis</text>
+<text x="54" y="844.0" font-size="12" font-weight="700" fill="#245C8C">Cause</text>
+<text x="140" y="844.0" font-size="12" font-weight="400" fill="#2E3C42">Commonest cause of hypothyroidism in iodine-replete areas; anti-thyroid peroxidase (anti-TPO) ± anti-thyroglobulin antibodies.</text>
+<text x="54" y="864.5" font-size="12" font-weight="700" fill="#245C8C">Pathology</text>
+<text x="140" y="864.5" font-size="12" font-weight="400" fill="#2E3C42">Lymphocytic infiltrate with germinal centres and Hürthle (Askanazy) cells; the gland is goitrous or atrophic.</text>
+<text x="54" y="885.0" font-size="12" font-weight="700" fill="#245C8C">Course</text>
+<text x="140" y="885.0" font-size="12" font-weight="400" fill="#2E3C42">Usually hypothyroid (transient early 'hashitoxicosis' possible) → lifelong levothyroxine replacement.</text>
+<text x="54" y="905.5" font-size="12" font-weight="700" fill="#245C8C">Watch</text>
+<text x="140" y="905.5" font-size="12" font-weight="400" fill="#2E3C42">Small increased risk of thyroid B-cell (MALT) lymphoma — a rapidly enlarging goitre needs biopsy.</text>
+<rect x="30" y="921.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="937.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">DE QUERVAIN'S — SUBACUTE GRANULOMATOUS THYROIDITIS</text>
+<rect x="30" y="953.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="953.5" width="6" height="143.5" fill="#C77B20" rx="3"/>
+<text x="54" y="981.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the painful thyroid</text>
+<text x="54" y="1005.5" font-size="18" font-weight="800" fill="#2E1E0A">Post-viral, self-limiting</text>
+<text x="54" y="1027.5" font-size="12" font-weight="700" fill="#C77B20">Trigger</text>
+<text x="136" y="1027.5" font-size="12" font-weight="400" fill="#2E3C42">Follows a viral upper respiratory infection by weeks; painful, tender goitre with fever and malaise; associated with HLA-B35.</text>
+<text x="54" y="1048.0" font-size="12" font-weight="700" fill="#C77B20">Tests</text>
+<text x="136" y="1048.0" font-size="12" font-weight="400" fill="#2E3C42">Raised ESR / CRP with LOW radioiodine uptake — the key discriminator from Graves'; multinucleate giant-cell granulomas on histology.</text>
+<text x="54" y="1068.5" font-size="12" font-weight="700" fill="#C77B20">Course</text>
+<text x="136" y="1068.5" font-size="12" font-weight="400" fill="#2E3C42">Triphasic — thyrotoxic → hypothyroid → euthyroid — self-limiting over weeks to months.</text>
+<text x="54" y="1089.0" font-size="12" font-weight="700" fill="#C77B20">Treatment</text>
+<text x="136" y="1089.0" font-size="12" font-weight="400" fill="#2E3C42">NSAIDs; a short steroid course if severe; beta-blocker for thyrotoxic symptoms — NO antithyroid drugs.</text>
+<rect x="30" y="1105.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1121.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">RIEDEL'S THYROIDITIS — INVASIVE FIBROSIS</text>
+<rect x="30" y="1137.0" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1137.0" width="6" height="143.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="1165.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the anaplastic mimic</text>
+<text x="54" y="1189.0" font-size="18" font-weight="800" fill="#2E1E0A">Woody, fixed and fibrotic</text>
+<text x="54" y="1211.0" font-size="12" font-weight="700" fill="#BE3A2E">Nature</text>
+<text x="136" y="1211.0" font-size="12" font-weight="400" fill="#2E3C42">Rare dense invasive fibrosis extending beyond the capsule into strap muscles and trachea; part of the IgG4-related disease spectrum.</text>
+<text x="54" y="1231.5" font-size="12" font-weight="700" fill="#BE3A2E">Feel</text>
+<text x="136" y="1231.5" font-size="12" font-weight="400" fill="#2E3C42">Woody-hard, fixed goitre — clinically indistinguishable from anaplastic carcinoma; open biopsy is needed to tell them apart.</text>
+<text x="54" y="1252.0" font-size="12" font-weight="700" fill="#BE3A2E">Effects</text>
+<text x="136" y="1252.0" font-size="12" font-weight="400" fill="#2E3C42">Compression (stridor, dysphagia), hypothyroidism and hypoparathyroidism; associated retroperitoneal fibrosis / sclerosing cholangitis.</text>
+<text x="54" y="1272.5" font-size="12" font-weight="700" fill="#BE3A2E">Treatment</text>
+<text x="136" y="1272.5" font-size="12" font-weight="400" fill="#2E3C42">Steroids ± tamoxifen / mycophenolate; surgery limited to isthmusectomy for compression — formal resection is hazardous.</text>
+<rect x="30" y="1288.5" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1304.5" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AT A GLANCE — THE DISCRIMINATORS</text>
+<rect x="30" y="1320.5" width="940" height="24" fill="#2E1E0A" rx="5"/>
+<text x="42" y="1336.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Condition</text>
+<text x="180" y="1336.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Antibody / marker</text>
+<text x="392" y="1336.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">RAI uptake</text>
+<text x="504" y="1336.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Pain</text>
+<text x="592" y="1336.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Histology / clue</text>
+<rect x="30" y="1344.5" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1344.5" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="1360.5" font-size="11" font-weight="700" fill="#2E1E0A">Graves'</text>
+<text x="180" y="1360.5" font-size="11" font-weight="400" fill="#2E3C42">TRAb (stimulating)</text>
+<text x="392" y="1360.5" font-size="11" font-weight="400" fill="#2E3C42">High, diffuse</text>
+<text x="504" y="1360.5" font-size="11" font-weight="400" fill="#2E3C42">No</text>
+<text x="592" y="1360.5" font-size="11" font-weight="400" fill="#2E3C42">Orbitopathy, bruit</text>
+<rect x="30" y="1368.5" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="1384.5" font-size="11" font-weight="700" fill="#2E1E0A">Hashimoto's</text>
+<text x="180" y="1384.5" font-size="11" font-weight="400" fill="#2E3C42">Anti-TPO</text>
+<text x="392" y="1384.5" font-size="11" font-weight="400" fill="#2E3C42">Low</text>
+<text x="504" y="1384.5" font-size="11" font-weight="400" fill="#2E3C42">No</text>
+<text x="592" y="1384.5" font-size="11" font-weight="400" fill="#2E3C42">Hürthle cells + germinal centres</text>
+<rect x="30" y="1392.5" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1392.5" width="4" height="24" fill="#C77B20"/>
+<text x="42" y="1408.5" font-size="11" font-weight="700" fill="#2E1E0A">De Quervain's</text>
+<text x="180" y="1408.5" font-size="11" font-weight="400" fill="#2E3C42">None (↑ ESR / CRP)</text>
+<text x="392" y="1408.5" font-size="11" font-weight="400" fill="#2E3C42">Low</text>
+<text x="504" y="1408.5" font-size="11" font-weight="400" fill="#2E3C42">Yes</text>
+<text x="592" y="1408.5" font-size="11" font-weight="400" fill="#2E3C42">Giant-cell granulomas</text>
+<rect x="30" y="1416.5" width="4" height="24" fill="#BE3A2E"/>
+<text x="42" y="1432.5" font-size="11" font-weight="700" fill="#2E1E0A">Riedel's</text>
+<text x="180" y="1432.5" font-size="11" font-weight="400" fill="#2E3C42">IgG4-related</text>
+<text x="392" y="1432.5" font-size="11" font-weight="400" fill="#2E3C42">Low</text>
+<text x="504" y="1432.5" font-size="11" font-weight="400" fill="#2E3C42">± (hard)</text>
+<text x="592" y="1432.5" font-size="11" font-weight="400" fill="#2E3C42">Invasive fibrosis; anaplastic mimic</text>
+<rect x="30" y="1450.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1466.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1480.5" width="940" height="232.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1480.5" width="6" height="232.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1502.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1506.5" font-size="12" font-weight="600" fill="#2E1E0A">Thyrotoxicosis with LOW radioiodine uptake is destructive thyroiditis (De Quervain's, postpartum, amiodarone type 2) — not</text>
+<text x="72" y="1524.5" font-size="12" font-weight="400" fill="#2E3C42">Graves' — so antithyroid drugs will not help.</text>
+<circle cx="60" cy="1542.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1546.5" font-size="12" font-weight="600" fill="#2E1E0A">A woody-hard, fixed thyroid is Riedel's or anaplastic carcinoma until an open biopsy proves otherwise.</text>
+<circle cx="60" cy="1564.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1568.5" font-size="12" font-weight="600" fill="#2E1E0A">NICE now offers radioiodine first-line for Graves' — but avoid it in active thyroid eye disease (it can worsen it) and in</text>
+<text x="72" y="1586.5" font-size="12" font-weight="400" fill="#2E3C42">pregnancy.</text>
+<circle cx="60" cy="1604.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1608.5" font-size="12" font-weight="600" fill="#2E1E0A">Carbimazole can cause agranulocytosis — warn every patient to stop it and get an urgent full blood count if they develop a</text>
+<text x="72" y="1626.5" font-size="12" font-weight="400" fill="#2E3C42">sore throat or fever.</text>
+<circle cx="60" cy="1644.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1648.5" font-size="12" font-weight="600" fill="#2E1E0A">In pregnancy use PTU in the first trimester (carbimazole risks aplasia cutis / embryopathy); Graves' TRAb crosses the placenta</text>
+<text x="72" y="1666.5" font-size="12" font-weight="400" fill="#2E3C42">and can cause neonatal thyrotoxicosis.</text>
+<circle cx="60" cy="1684.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1688.5" font-size="12" font-weight="600" fill="#2E1E0A">A rapidly enlarging goitre on a background of longstanding Hashimoto's suggests thyroid lymphoma.</text>
+<line x1="30" y1="1734.5" x2="970" y2="1734.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1753.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG145 — Thyroid disease: assessment and management (2019) · British Thyroid Association / Society for Endocrinology · IgG4-related disease consensus (Riedel's) ·</text>
+<text x="30" y="1767.5" font-size="10.5" font-weight="400" fill="#7C8A8E">standard surgical pathology.</text>
+<text x="30" y="1781.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Uptake rule: high uptake = new synthesis (Graves', toxic nodule / MNG); low uptake = destructive release (subacute / silent / postpartum / amiodarone type 2). Thyroid cancer is covered</text>
+<text x="30" y="1795.5" font-size="10.5" font-weight="400" fill="#7C8A8E">on the differentiated and medullary/anaplastic sheets.</text>
+<text x="30" y="1809.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources and local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#E4D3B0">mockfrcs.co.uk</text></g>
+<rect x="0" y="1849.5" width="1000" height="46" fill="#6E4A1C"/><text x="30" y="1878.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1878.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#E4D3B0">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>
