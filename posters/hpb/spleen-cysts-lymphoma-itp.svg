@@ -1,0 +1,150 @@
+<svg viewBox="0 0 1000 1632" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1632" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">The spleen — cysts, lymphoma, ITP &amp; asplenia</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  BSH (asplenia) · ASH (ITP)  ·  cysts · lymphoma · ITP · OPSI prophylaxis  ·  HPB (spleen)</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">SPLENECTOMY — INDICATIONS</text>
+<rect x="30" y="156" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">why the spleen comes out</text>
+<text x="54" y="208" font-size="18" font-weight="800" fill="#16203F">When to remove it</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#245C8C">Haematological</text>
+<text x="164" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">Refractory ITP; hereditary spherocytosis; autoimmune haemolytic anaemia; thalassaemia</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#245C8C">Neoplastic</text>
+<text x="164" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">Lymphoma (diagnosis or hypersplenism); large / symptomatic cysts &amp; tumours</text>
+<text x="54" y="271.0" font-size="12" font-weight="700" fill="#245C8C">Other</text>
+<text x="164" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">Hypersplenism; sinistral (left-sided) portal hypertension from splenic-vein thrombosis; trauma (separate section)</text>
+<rect x="30" y="289.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="305.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">SPLENIC CYSTS &amp; LYMPHOMA</text>
+<rect x="30" y="319.0" width="462.0" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="319.0" width="6" height="225.5" fill="#15806A" rx="3"/>
+<text x="54" y="347.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">true vs false</text>
+<text x="54" y="371.0" font-size="16" font-weight="800" fill="#16203F">Splenic cysts</text>
+<text x="54" y="393.0" font-size="12" font-weight="700" fill="#15806A">False cyst</text>
+<text x="122" y="393.0" font-size="12" font-weight="400" fill="#2E3C42">~80% — pseudocyst; post-traumatic / haemorrhagic; NO</text>
+<text x="122" y="413.5" font-size="12" font-weight="400" fill="#2E3C42">epithelial lining</text>
+<text x="54" y="434.0" font-size="12" font-weight="700" fill="#15806A">True cyst</text>
+<text x="122" y="434.0" font-size="12" font-weight="400" fill="#2E3C42">~20% — epidermoid / congenital (epithelial lining),</text>
+<text x="122" y="454.5" font-size="12" font-weight="400" fill="#2E3C42">younger patients; parasitic = hydatid (commonest true</text>
+<text x="122" y="475.0" font-size="12" font-weight="400" fill="#2E3C42">cyst worldwide)</text>
+<text x="54" y="495.5" font-size="12" font-weight="700" fill="#15806A">Manage</text>
+<text x="122" y="495.5" font-size="12" font-weight="400" fill="#2E3C42">Small &amp; asymptomatic → observe; large (&gt;5 cm) /</text>
+<text x="122" y="516.0" font-size="12" font-weight="400" fill="#2E3C42">symptomatic → spleen-preserving surgery (partial</text>
+<text x="122" y="536.5" font-size="12" font-weight="400" fill="#2E3C42">splenectomy, deroofing); never aspirate a hydatid</text>
+<rect x="508.0" y="319.0" width="462.0" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="508.0" y="319.0" width="6" height="225.5" fill="#C77B20" rx="3"/>
+<text x="532.0" y="347.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">usually haem-onc</text>
+<text x="532.0" y="371.0" font-size="16" font-weight="800" fill="#16203F">Splenic lymphoma</text>
+<text x="532.0" y="393.0" font-size="12" font-weight="700" fill="#C77B20">Involvement</text>
+<text x="624.0" y="393.0" font-size="12" font-weight="400" fill="#2E3C42">Spleen commonly involved in Hodgkin &amp; non-Hodgkin</text>
+<text x="624.0" y="413.5" font-size="12" font-weight="400" fill="#2E3C42">lymphoma; primary splenic lymphoma is rare</text>
+<text x="532.0" y="434.0" font-size="12" font-weight="700" fill="#C77B20">SMZL</text>
+<text x="624.0" y="434.0" font-size="12" font-weight="400" fill="#2E3C42">Splenic marginal-zone lymphoma — associated with</text>
+<text x="624.0" y="454.5" font-size="12" font-weight="400" fill="#2E3C42">hepatitis C</text>
+<text x="532.0" y="475.0" font-size="12" font-weight="700" fill="#C77B20">Presents</text>
+<text x="624.0" y="475.0" font-size="12" font-weight="400" fill="#2E3C42">Splenomegaly + cytopenias ± B symptoms</text>
+<text x="532.0" y="495.5" font-size="12" font-weight="700" fill="#C77B20">Surgery</text>
+<text x="624.0" y="495.5" font-size="12" font-weight="400" fill="#2E3C42">Splenectomy for diagnosis (isolated splenic disease)</text>
+<text x="624.0" y="516.0" font-size="12" font-weight="400" fill="#2E3C42">or hypersplenism; treatment is haem-onc (rituximab;</text>
+<text x="624.0" y="536.5" font-size="12" font-weight="400" fill="#2E3C42">treat HCV in SMZL)</text>
+<rect x="30" y="554.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="570.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">IMMUNE THROMBOCYTOPENIA (ITP)</text>
+<rect x="30" y="584.5" width="940" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="584.5" width="6" height="184.5" fill="#6D4AA3" rx="3"/>
+<text x="54" y="612.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the surgical haematology classic</text>
+<text x="54" y="636.5" font-size="18" font-weight="800" fill="#16203F">ITP</text>
+<text x="54" y="658.5" font-size="12" font-weight="700" fill="#6D4AA3">What</text>
+<text x="142" y="658.5" font-size="12" font-weight="400" fill="#2E3C42">Autoimmune anti-platelet antibodies (anti-GPIIb/IIIa); isolated thrombocytopenia — a diagnosis of exclusion. Acute (children,</text>
+<text x="142" y="679.0" font-size="12" font-weight="400" fill="#2E3C42">post-viral, self-limiting) vs chronic (adults, F)</text>
+<text x="54" y="699.5" font-size="12" font-weight="700" fill="#6D4AA3">First-line</text>
+<text x="142" y="699.5" font-size="12" font-weight="400" fill="#2E3C42">Corticosteroids (limit to ≤6 weeks) ± IVIG for active bleeding or an urgent platelet lift</text>
+<text x="54" y="720.0" font-size="12" font-weight="700" fill="#6D4AA3">Second-line</text>
+<text x="142" y="720.0" font-size="12" font-weight="400" fill="#2E3C42">Thrombopoietin receptor agonists (eltrombopag, romiplostim, avatrombopag); rituximab; splenectomy</text>
+<text x="54" y="740.5" font-size="12" font-weight="700" fill="#6D4AA3">Splenectomy</text>
+<text x="142" y="740.5" font-size="12" font-weight="400" fill="#2E3C42">For chronic refractory ITP — the spleen both makes the antibody and destroys platelets; ~60–70% durable response; a retained</text>
+<text x="142" y="761.0" font-size="12" font-weight="400" fill="#2E3C42">accessory spleen causes relapse</text>
+<rect x="30" y="779.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="795.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">OPSI — PREVENT THE KILLER (up to 50% mortality)</text>
+<rect x="30" y="809.0" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 855.0 L 30 820.0 Q 30 809.0 41 809.0 L 321.6666666666667 809.0 Q 332.6666666666667 809.0 332.6666666666667 820.0 L 332.6666666666667 855.0 Z" fill="#245C8C"/>
+<text x="44" y="830.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">VACCINATE</text>
+<text x="44" y="847.0" font-size="11.5" font-weight="600" fill="#FFFFFF">against encapsulated bugs</text>
+<text x="44" y="873.0" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Targets</text>
+<text x="44" y="888.0" font-size="11" font-weight="400" fill="#2E3C42">Encapsulated organisms — pneumococcus,</text>
+<text x="44" y="903.0" font-size="11" font-weight="400" fill="#2E3C42">Haemophilus influenzae b, meningococcus</text>
+<text x="44" y="927.0" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Give</text>
+<text x="44" y="942.0" font-size="11" font-weight="400" fill="#2E3C42">PCV13 + PPSV23, Hib, MenACWY (2 doses) +</text>
+<text x="44" y="957.0" font-size="11" font-weight="400" fill="#2E3C42">MenB, annual influenza</text>
+<text x="44" y="981.0" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Timing</text>
+<text x="44" y="996.0" font-size="11" font-weight="400" fill="#2E3C42">≥2 weeks BEFORE an elective splenectomy, or</text>
+<text x="44" y="1011.0" font-size="11" font-weight="400" fill="#2E3C42">≥2 weeks AFTER an emergency one</text>
+<rect x="348.6666666666667" y="809.0" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 855.0 L 348.6666666666667 820.0 Q 348.6666666666667 809.0 359.6666666666667 809.0 L 640.3333333333334 809.0 Q 651.3333333333334 809.0 651.3333333333334 820.0 L 651.3333333333334 855.0 Z" fill="#C77B20"/>
+<text x="362.6666666666667" y="830.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ANTIBIOTICS</text>
+<text x="362.6666666666667" y="847.0" font-size="11.5" font-weight="600" fill="#FFFFFF">prophylaxis</text>
+<text x="362.6666666666667" y="873.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Prophylaxis</text>
+<text x="362.6666666666667" y="888.0" font-size="11" font-weight="400" fill="#2E3C42">Penicillin V (or amoxicillin); a macrolide if</text>
+<text x="362.6666666666667" y="903.0" font-size="11" font-weight="400" fill="#2E3C42">penicillin-allergic</text>
+<text x="362.6666666666667" y="927.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Duration</text>
+<text x="362.6666666666667" y="942.0" font-size="11" font-weight="400" fill="#2E3C42">At least the first 2 years; lifelong if high-risk (&lt;16</text>
+<text x="362.6666666666667" y="957.0" font-size="11" font-weight="400" fill="#2E3C42">y, &gt;50 y, poor vaccine response)</text>
+<text x="362.6666666666667" y="981.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Standby</text>
+<text x="362.6666666666667" y="996.0" font-size="11" font-weight="400" fill="#2E3C42">Keep a supply for immediate use with any fever</text>
+<rect x="667.3333333333334" y="809.0" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 855.0 L 667.3333333333334 820.0 Q 667.3333333333334 809.0 678.3333333333334 809.0 L 959.0 809.0 Q 970.0 809.0 970.0 820.0 L 970.0 855.0 Z" fill="#15806A"/>
+<text x="681.3333333333334" y="830.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">EDUCATE</text>
+<text x="681.3333333333334" y="847.0" font-size="11.5" font-weight="600" fill="#FFFFFF">empower the patient</text>
+<text x="681.3333333333334" y="873.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Alert</text>
+<text x="681.3333333333334" y="888.0" font-size="11" font-weight="400" fill="#2E3C42">Patient card / medic-alert bracelet; flag it in the</text>
+<text x="681.3333333333334" y="903.0" font-size="11" font-weight="400" fill="#2E3C42">notes</text>
+<text x="681.3333333333334" y="927.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Travel</text>
+<text x="681.3333333333334" y="942.0" font-size="11" font-weight="400" fill="#2E3C42">Warn about malaria and animal bites</text>
+<text x="681.3333333333334" y="957.0" font-size="11" font-weight="400" fill="#2E3C42">(Capnocytophaga)</text>
+<text x="681.3333333333334" y="981.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Act fast</text>
+<text x="681.3333333333334" y="996.0" font-size="11" font-weight="400" fill="#2E3C42">Any febrile illness → urgent review + early</text>
+<text x="681.3333333333334" y="1011.0" font-size="11" font-weight="400" fill="#2E3C42">antibiotics</text>
+<rect x="30" y="1048.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1064.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AFTER SPLENECTOMY</text>
+<rect x="30" y="1078.0" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1078.0" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="1106.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">what changes</text>
+<text x="54" y="1130.0" font-size="18" font-weight="800" fill="#16203F">Haematology &amp; watch-points</text>
+<text x="54" y="1152.0" font-size="12" font-weight="700" fill="#245C8C">Blood film</text>
+<text x="178" y="1152.0" font-size="12" font-weight="400" fill="#2E3C42">Howell-Jolly bodies, target cells, Pappenheimer bodies; reactive thrombocytosis</text>
+<text x="54" y="1172.5" font-size="12" font-weight="700" fill="#245C8C">Thrombosis</text>
+<text x="178" y="1172.5" font-size="12" font-weight="400" fill="#2E3C42">Portal / splenic-vein thrombosis risk from thrombocytosis — consider thromboprophylaxis</text>
+<text x="54" y="1193.0" font-size="12" font-weight="700" fill="#245C8C">Accessory spleen</text>
+<text x="178" y="1193.0" font-size="12" font-weight="400" fill="#2E3C42">Splenunculi are a cause of ITP relapse — look for and remove them at operation</text>
+<rect x="30" y="1211.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1227.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1241.0" width="940" height="232.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1241.0" width="6" height="232.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1263.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1267.0" font-size="12" font-weight="600" fill="#16203F">OPSI is the exam killer: vaccinate against encapsulated organisms (≥2 weeks before an elective, or ≥2 weeks after an</text>
+<text x="72" y="1285.0" font-size="12" font-weight="400" fill="#2E3C42">emergency splenectomy), give antibiotic prophylaxis, and educate the patient — mortality is up to 50%.</text>
+<circle cx="60" cy="1303.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1307.0" font-size="12" font-weight="600" fill="#16203F">Splenectomy for ITP can fail if an accessory spleen (splenunculus) is left behind — search for and remove them.</text>
+<circle cx="60" cy="1325.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1329.0" font-size="12" font-weight="600" fill="#16203F">Most splenic cysts are post-traumatic pseudocysts (no epithelial lining); prefer spleen-preserving surgery for symptomatic true</text>
+<text x="72" y="1347.0" font-size="12" font-weight="400" fill="#2E3C42">cysts, and never aspirate a hydatid cyst.</text>
+<circle cx="60" cy="1365.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1369.0" font-size="12" font-weight="600" fill="#16203F">After splenectomy, Howell-Jolly bodies on the film confirm hyposplenism, and reactive thrombocytosis raises portal /</text>
+<text x="72" y="1387.0" font-size="12" font-weight="400" fill="#2E3C42">splenic-vein thrombosis risk.</text>
+<circle cx="60" cy="1405.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1409.0" font-size="12" font-weight="600" fill="#16203F">In ITP, steroids ± IVIG are first-line; move to a TPO-receptor agonist, rituximab or splenectomy rather than repeating long</text>
+<text x="72" y="1427.0" font-size="12" font-weight="400" fill="#2E3C42">courses of steroids.</text>
+<circle cx="60" cy="1445.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1449.0" font-size="12" font-weight="600" fill="#16203F">Splenic marginal-zone lymphoma is associated with hepatitis C — test for and treat HCV.</text>
+<line x1="30" y1="1495.0" x2="970" y2="1495.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1514.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: British Society for Haematology — prevention &amp; treatment of infection in patients with an absent or hypofunctional spleen (2024) · ASH 2019 guidelines for immune</text>
+<text x="30" y="1528.0" font-size="10.5" font-weight="400" fill="#7C8A8E">thrombocytopenia · UK Green Book (immunisation of asplenic patients).</text>
+<text x="30" y="1542.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Splenic cyst classification: false pseudocyst (~80%) vs true epithelial-lined cyst (~20%); hydatid is the commonest true cyst worldwide. Splenic trauma is covered in the trauma section.</text>
+<text x="30" y="1556.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use. Completes the HPB series.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1586" width="1000" height="46" fill="#283A6B"/><text x="30" y="1615" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1615" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

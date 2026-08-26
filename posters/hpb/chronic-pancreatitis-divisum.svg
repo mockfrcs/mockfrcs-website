@@ -1,0 +1,144 @@
+<svg viewBox="0 0 1000 1600.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1600.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Chronic pancreatitis &amp; pancreatic divisum</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  NICE NG104 · TIGAR-O  ·  exocrine / endocrine failure · IgG4 · divisum  ·  HPB (benign 2 of 2)</text>
+<rect x="30" y="126" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">CAUSES &amp; CONSEQUENCES</text>
+<rect x="30" y="156" width="462.0" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">why it happens</text>
+<text x="54" y="208" font-size="16" font-weight="800" fill="#16203F">Aetiology</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#C77B20">Main</text>
+<text x="130" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">Alcohol (commonest) + smoking; grouped by TIGAR-O</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#C77B20">TIGAR-O</text>
+<text x="130" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">Toxic-metabolic, Idiopathic, Genetic (PRSS1, SPINK1,</text>
+<text x="130" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">CFTR), Autoimmune, Recurrent acute, Obstructive</text>
+<text x="54" y="291.5" font-size="12" font-weight="700" fill="#C77B20">Pathology</text>
+<text x="130" y="291.5" font-size="12" font-weight="400" fill="#2E3C42">Irreversible fibrosis, duct strictures / stones, gland</text>
+<text x="130" y="312.0" font-size="12" font-weight="400" fill="#2E3C42">atrophy &amp; calcification</text>
+<rect x="508.0" y="156" width="462.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="508.0" y="156" width="6" height="205.0" fill="#245C8C" rx="3"/>
+<text x="532.0" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">how it presents</text>
+<text x="532.0" y="208" font-size="16" font-weight="800" fill="#16203F">Clinical &amp; diagnosis</text>
+<text x="532.0" y="230" font-size="12" font-weight="700" fill="#245C8C">Pain</text>
+<text x="604.0" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">Chronic epigastric pain radiating to the back; may burn</text>
+<text x="604.0" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">out over time</text>
+<text x="532.0" y="271.0" font-size="12" font-weight="700" fill="#245C8C">Exocrine</text>
+<text x="604.0" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">Steatorrhoea &amp; weight loss; low faecal elastase → PERT +</text>
+<text x="604.0" y="291.5" font-size="12" font-weight="400" fill="#2E3C42">fat-soluble vitamins (A, D, E, K)</text>
+<text x="532.0" y="312.0" font-size="12" font-weight="700" fill="#245C8C">Endocrine</text>
+<text x="604.0" y="312.0" font-size="12" font-weight="400" fill="#2E3C42">Type 3c (pancreatogenic) diabetes</text>
+<text x="532.0" y="332.5" font-size="12" font-weight="700" fill="#245C8C">Imaging</text>
+<text x="604.0" y="332.5" font-size="12" font-weight="400" fill="#2E3C42">CT calcification, ductal dilatation &amp; atrophy; MRCP / EUS;</text>
+<text x="604.0" y="353.0" font-size="12" font-weight="400" fill="#2E3C42">secretin-MRCP</text>
+<rect x="30" y="371.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="387.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT — MEDICAL, ENDOSCOPIC, SURGICAL</text>
+<rect x="30" y="401.0" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 447.0 L 30 412.0 Q 30 401.0 41 401.0 L 321.6666666666667 401.0 Q 332.6666666666667 401.0 332.6666666666667 412.0 L 332.6666666666667 447.0 Z" fill="#15806A"/>
+<text x="44" y="422.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">MEDICAL</text>
+<text x="44" y="439.0" font-size="11.5" font-weight="600" fill="#FFFFFF">first-line</text>
+<text x="44" y="465.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Lifestyle</text>
+<text x="44" y="480.0" font-size="11" font-weight="400" fill="#2E3C42">Stop alcohol &amp; smoking; dietitian input</text>
+<text x="44" y="504.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Pain</text>
+<text x="44" y="519.0" font-size="11" font-weight="400" fill="#2E3C42">Analgesic ladder; coeliac plexus block for</text>
+<text x="44" y="534.0" font-size="11" font-weight="400" fill="#2E3C42">refractory pain</text>
+<text x="44" y="558.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Replace</text>
+<text x="44" y="573.0" font-size="11" font-weight="400" fill="#2E3C42">PERT (Creon) + fat-soluble vitamins; treat</text>
+<text x="44" y="588.0" font-size="11" font-weight="400" fill="#2E3C42">diabetes</text>
+<rect x="348.6666666666667" y="401.0" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 447.0 L 348.6666666666667 412.0 Q 348.6666666666667 401.0 359.6666666666667 401.0 L 640.3333333333334 401.0 Q 651.3333333333334 401.0 651.3333333333334 412.0 L 651.3333333333334 447.0 Z" fill="#C77B20"/>
+<text x="362.6666666666667" y="422.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ENDOSCOPIC</text>
+<text x="362.6666666666667" y="439.0" font-size="11.5" font-weight="600" fill="#FFFFFF">ducts &amp; stones</text>
+<text x="362.6666666666667" y="465.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Stones</text>
+<text x="362.6666666666667" y="480.0" font-size="11" font-weight="400" fill="#2E3C42">Extracorporeal shock-wave lithotripsy ±</text>
+<text x="362.6666666666667" y="495.0" font-size="11" font-weight="400" fill="#2E3C42">endoscopic extraction</text>
+<text x="362.6666666666667" y="519.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Strictures</text>
+<text x="362.6666666666667" y="534.0" font-size="11" font-weight="400" fill="#2E3C42">Pancreatic duct stenting; drain a symptomatic</text>
+<text x="362.6666666666667" y="549.0" font-size="11" font-weight="400" fill="#2E3C42">pseudocyst</text>
+<rect x="667.3333333333334" y="401.0" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 447.0 L 667.3333333333334 412.0 Q 667.3333333333334 401.0 678.3333333333334 401.0 L 959.0 401.0 Q 970.0 401.0 970.0 412.0 L 970.0 447.0 Z" fill="#6D4AA3"/>
+<text x="681.3333333333334" y="422.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">SURGICAL</text>
+<text x="681.3333333333334" y="439.0" font-size="11.5" font-weight="600" fill="#FFFFFF">drain vs resect</text>
+<text x="681.3333333333334" y="465.0" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Drainage</text>
+<text x="681.3333333333334" y="480.0" font-size="11" font-weight="400" fill="#2E3C42">Dilated duct (&gt;7 mm): lateral</text>
+<text x="681.3333333333334" y="495.0" font-size="11" font-weight="400" fill="#2E3C42">pancreaticojejunostomy (Puestow)</text>
+<text x="681.3333333333334" y="519.0" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Resect</text>
+<text x="681.3333333333334" y="534.0" font-size="11" font-weight="400" fill="#2E3C42">Head-dominant disease: Beger</text>
+<text x="681.3333333333334" y="549.0" font-size="11" font-weight="400" fill="#2E3C42">(duodenum-preserving), Frey (hybrid), or Whipple</text>
+<text x="681.3333333333334" y="573.0" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Last resort</text>
+<text x="681.3333333333334" y="588.0" font-size="11" font-weight="400" fill="#2E3C42">Total pancreatectomy + islet autotransplant</text>
+<rect x="30" y="625.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="641.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">AUTOIMMUNE (IgG4) PANCREATITIS — THE CANCER MIMIC</text>
+<rect x="30" y="655.0" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="655.0" width="6" height="123.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="683.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">don't Whipple a mimic</text>
+<text x="54" y="707.0" font-size="18" font-weight="800" fill="#16203F">Autoimmune pancreatitis</text>
+<text x="54" y="729.0" font-size="12" font-weight="700" fill="#6D4AA3">Type 1</text>
+<text x="156" y="729.0" font-size="12" font-weight="400" fill="#2E3C42">IgG4-related — 'sausage-shaped' pancreas, raised serum IgG4; part of IgG4 disease</text>
+<text x="54" y="749.5" font-size="12" font-weight="700" fill="#6D4AA3">Type 2</text>
+<text x="156" y="749.5" font-size="12" font-weight="400" fill="#2E3C42">Idiopathic duct-centric; associated with IBD; IgG4 usually normal</text>
+<text x="54" y="770.0" font-size="12" font-weight="700" fill="#6D4AA3">Why it matters</text>
+<text x="156" y="770.0" font-size="12" font-weight="400" fill="#2E3C42">Mimics pancreatic cancer but is STEROID-responsive — confirm (biopsy / IgG4 / steroid trial) before committing to a Whipple</text>
+<rect x="30" y="788.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="804.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PANCREATIC DIVISUM</text>
+<rect x="30" y="818.0" width="940" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="818.0" width="6" height="196" fill="#245C8C" rx="3"/>
+<text x="52" y="848.0" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">Pancreatic divisum — ductal anatomy</text>
+<path d="M 74 924.0 Q 54 972.0 102 984.0 L 524 960.0 Q 570 954.0 570 930.0 Q 570 902.0 518 904.0 L 106 898.0 Q 68 898.0 74 924.0 Z" fill="#F0E9DC" stroke="#D9CBB0" stroke-width="1.3"/>
+<path d="M 566 874.0 Q 622 888.0 622 930.0 Q 622 972.0 566 986.0" fill="none" stroke="#CDBF9E" stroke-width="11" stroke-linecap="round"/>
+<path d="M 108 926.0 L 500 912.0 L 568 898.0" fill="none" stroke="#245C8C" stroke-width="3.4"/>
+<path d="M 420 950.0 L 524 946.0 L 568 954.0" fill="none" stroke="#15806A" stroke-width="3"/>
+<circle cx="568" cy="898.0" r="6.5" fill="#245C8C"/>
+<circle cx="568" cy="954.0" r="6.5" fill="#15806A"/>
+<circle cx="645" cy="878.0" r="5" fill="#245C8C"/>
+<text x="656" y="882.0" font-size="11" font-weight="700" fill="#245C8C">Dorsal duct (Santorini)</text>
+<text x="656" y="897.0" font-size="10.5" font-weight="400" fill="#2E3C42">→ MINOR papilla — drains most of the gland</text>
+<circle cx="645" cy="922.0" r="5" fill="#15806A"/>
+<text x="656" y="926.0" font-size="11" font-weight="700" fill="#15806A">Ventral duct (Wirsung)</text>
+<text x="656" y="941.0" font-size="10.5" font-weight="400" fill="#2E3C42">→ major papilla — small territory</text>
+<text x="640" y="970.0" font-size="10.5" font-weight="400" fill="#6B7B80">Ducts fail to fuse, so most of the gland drains through the</text>
+<text x="640" y="983.0" font-size="10.5" font-weight="400" fill="#6B7B80">smaller minor papilla.</text>
+<rect x="30" y="1030.0" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1030.0" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="1058.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the fusion anomaly</text>
+<text x="54" y="1082.0" font-size="18" font-weight="800" fill="#16203F">What you need to know</text>
+<text x="54" y="1104.0" font-size="12" font-weight="700" fill="#15806A">What</text>
+<text x="142" y="1104.0" font-size="12" font-weight="400" fill="#2E3C42">Commonest congenital pancreatic variant (~10%); dorsal &amp; ventral ducts fail to fuse</text>
+<text x="54" y="1124.5" font-size="12" font-weight="700" fill="#15806A">Drainage</text>
+<text x="142" y="1124.5" font-size="12" font-weight="400" fill="#2E3C42">Most of the gland drains via the dorsal duct through the MINOR papilla (Santorini)</text>
+<text x="54" y="1145.0" font-size="12" font-weight="700" fill="#15806A">Significance</text>
+<text x="142" y="1145.0" font-size="12" font-weight="400" fill="#2E3C42">Usually asymptomatic; a subset develop recurrent acute pancreatitis (relative minor-papilla outflow obstruction)</text>
+<text x="54" y="1165.5" font-size="12" font-weight="700" fill="#15806A">Manage</text>
+<text x="142" y="1165.5" font-size="12" font-weight="400" fill="#2E3C42">Diagnose on MRCP / EUS; symptomatic recurrent pancreatitis → minor-papilla sphincterotomy ± stent (evidence debated)</text>
+<rect x="30" y="1183.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1199.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1213.5" width="940" height="228.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1213.5" width="6" height="228.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1235.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1239.5" font-size="12" font-weight="600" fill="#16203F">Chronic pancreatitis causes exocrine failure (steatorrhoea, low faecal elastase) needing PERT plus fat-soluble vitamins, and</text>
+<text x="72" y="1257.5" font-size="12" font-weight="400" fill="#2E3C42">endocrine failure (type 3c diabetes).</text>
+<circle cx="60" cy="1275.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1279.5" font-size="12" font-weight="600" fill="#16203F">Choose the operation by duct anatomy: a dilated duct is drained (Puestow), head-dominant disease is resected (Beger / Frey),</text>
+<text x="72" y="1297.5" font-size="12" font-weight="400" fill="#2E3C42">and diffuse disease may need total pancreatectomy with islet autotransplant.</text>
+<circle cx="60" cy="1315.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1319.5" font-size="12" font-weight="600" fill="#16203F">Autoimmune (IgG4, type 1) pancreatitis mimics pancreatic cancer — a sausage-shaped gland with raised IgG4 that responds to</text>
+<text x="72" y="1337.5" font-size="12" font-weight="400" fill="#2E3C42">steroids; confirm before committing to resection.</text>
+<circle cx="60" cy="1355.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1359.5" font-size="12" font-weight="600" fill="#16203F">Pancreatic divisum is common and usually asymptomatic — do not over-attribute symptoms to it; intervene (minor-papilla</text>
+<text x="72" y="1377.5" font-size="12" font-weight="400" fill="#2E3C42">sphincterotomy) only in genuine recurrent pancreatitis.</text>
+<circle cx="60" cy="1395.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1399.5" font-size="12" font-weight="600" fill="#16203F">Chronic pancreatitis carries an increased risk of pancreatic cancer (highest in hereditary PRSS1 disease) — stay alert to a</text>
+<text x="72" y="1417.5" font-size="12" font-weight="400" fill="#2E3C42">dominant mass or a change in symptoms.</text>
+<line x1="30" y1="1463.5" x2="970" y2="1463.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1482.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG104 (pancreatitis, 2018) · TIGAR-O aetiological classification · International Consensus Diagnostic Criteria for autoimmune pancreatitis. Exocrine function assessed by</text>
+<text x="30" y="1496.5" font-size="10.5" font-weight="400" fill="#7C8A8E">faecal elastase; treat with pancreatic enzyme replacement therapy (PERT).</text>
+<text x="30" y="1510.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Surgery: Puestow (lateral pancreaticojejunostomy), Beger (duodenum-preserving pancreatic head resection), Frey (hybrid). Acute pancreatitis is on the companion sheet (benign 1 of 2).</text>
+<text x="30" y="1524.5" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1554.5" width="1000" height="46" fill="#283A6B"/><text x="30" y="1583.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1583.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

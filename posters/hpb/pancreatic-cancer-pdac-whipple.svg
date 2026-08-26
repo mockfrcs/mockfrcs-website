@@ -1,0 +1,184 @@
+<svg viewBox="0 0 1000 1956.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1956.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Pancreatic cancer (PDAC) &amp; the Whipple</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  NICE NG85  ·  presentation · resectability · pancreaticoduodenectomy  ·  HPB (pancreas 1 of 3)</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PRESENTATION &amp; RISK FACTORS</text>
+<rect x="30" y="156" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">clinical clues</text>
+<text x="54" y="208" font-size="18" font-weight="800" fill="#16203F">How PDAC presents</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#245C8C">Head</text>
+<text x="130" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">Painless obstructive jaundice + Courvoisier's law (palpable non-tender gallbladder); dark urine, pale stool, pruritus (60–70% of tumours)</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#245C8C">Body/tail</text>
+<text x="130" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">Present late — epigastric pain radiating to the back, weight loss</text>
+<text x="54" y="271.0" font-size="12" font-weight="700" fill="#245C8C">Systemic</text>
+<text x="130" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">New-onset diabetes; anorexia / cachexia; steatorrhoea; Trousseau's migratory thrombophlebitis</text>
+<text x="54" y="291.5" font-size="12" font-weight="700" fill="#245C8C">Risk</text>
+<text x="130" y="291.5" font-size="12" font-weight="400" fill="#2E3C42">Smoking, chronic pancreatitis, obesity, diabetes; hereditary — BRCA2, PRSS1, Peutz–Jeghers, Lynch, FAMMM (CDKN2A)</text>
+<rect x="30" y="309.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="325.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">DIAGNOSIS &amp; STAGING</text>
+<rect x="30" y="339.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="339.5" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="367.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">how it is worked up</text>
+<text x="54" y="391.5" font-size="18" font-weight="800" fill="#16203F">Investigations</text>
+<text x="54" y="413.5" font-size="12" font-weight="700" fill="#15806A">Imaging</text>
+<text x="130" y="413.5" font-size="12" font-weight="400" fill="#2E3C42">Pancreatic-protocol dual-phase CT — diagnosis AND resectability staging</text>
+<text x="54" y="434.0" font-size="12" font-weight="700" fill="#15806A">Tissue</text>
+<text x="130" y="434.0" font-size="12" font-weight="400" fill="#2E3C42">EUS ± FNA (small tumours, or tissue before chemo); not required before resection if imaging is typical &amp; resectable</text>
+<text x="54" y="454.5" font-size="12" font-weight="700" fill="#15806A">Adjuncts</text>
+<text x="130" y="454.5" font-size="12" font-weight="400" fill="#2E3C42">MRI / MRCP for indeterminate liver or biliary lesions; PET-CT for occult metastases</text>
+<text x="54" y="475.0" font-size="12" font-weight="700" fill="#15806A">CA19-9</text>
+<text x="130" y="475.0" font-size="12" font-weight="400" fill="#2E3C42">Adjunct &amp; monitoring; falsely low if Lewis-antigen negative (~10%); raised by cholestasis / benign disease</text>
+<rect x="30" y="493.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="509.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RESECTABILITY — VASCULAR CONTACT DIRECTS TREATMENT</text>
+<rect x="30.0" y="523.0" width="229.0" height="98" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="523.0" width="229.0" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="534.0" width="229.0" height="11" fill="#15806A"/>
+<text x="40.0" y="539.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">RESECTABLE</text>
+<text x="40.0" y="560.0" font-size="10.5" font-weight="700" fill="#15806A">Surgery + adjuvant</text>
+<text x="40.0" y="575.0" font-size="10" font-weight="400" fill="#2E3C42">No arterial contact; SMV/PV ≤180° with</text>
+<text x="40.0" y="588.0" font-size="10" font-weight="400" fill="#2E3C42">no contour change</text>
+<rect x="267.0" y="523.0" width="229.0" height="98" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="267.0" y="523.0" width="229.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="267.0" y="534.0" width="229.0" height="11" fill="#C77B20"/>
+<text x="277.0" y="539.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">BORDERLINE</text>
+<text x="277.0" y="560.0" font-size="10.5" font-weight="700" fill="#C77B20">Neoadjuvant → surgery</text>
+<text x="277.0" y="575.0" font-size="10" font-weight="400" fill="#2E3C42">SMV/PV &gt;180° or short reconstructable</text>
+<text x="277.0" y="588.0" font-size="10" font-weight="400" fill="#2E3C42">occlusion; SMA/coeliac ≤180°; CHA</text>
+<text x="277.0" y="601.0" font-size="10" font-weight="400" fill="#2E3C42">contact</text>
+<rect x="504.0" y="523.0" width="229.0" height="98" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="504.0" y="523.0" width="229.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="504.0" y="534.0" width="229.0" height="11" fill="#C77B20"/>
+<text x="514.0" y="539.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">LOCALLY ADV.</text>
+<text x="514.0" y="560.0" font-size="10.5" font-weight="700" fill="#C77B20">Chemo ± radiotherapy</text>
+<text x="514.0" y="575.0" font-size="10" font-weight="400" fill="#2E3C42">SMA or coeliac &gt;180°;</text>
+<text x="514.0" y="588.0" font-size="10" font-weight="400" fill="#2E3C42">unreconstructable SMV/PV; aortic</text>
+<text x="514.0" y="601.0" font-size="10" font-weight="400" fill="#2E3C42">invasion</text>
+<rect x="741.0" y="523.0" width="229.0" height="98" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="741.0" y="523.0" width="229.0" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="741.0" y="534.0" width="229.0" height="11" fill="#BE3A2E"/>
+<text x="751.0" y="539.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">METASTATIC</text>
+<text x="751.0" y="560.0" font-size="10.5" font-weight="700" fill="#BE3A2E">Palliative systemic</text>
+<text x="751.0" y="575.0" font-size="10" font-weight="400" fill="#2E3C42">Distant spread — liver, peritoneum or</text>
+<text x="751.0" y="588.0" font-size="10" font-weight="400" fill="#2E3C42">lung</text>
+<rect x="30" y="631.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="647.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">PANCREATICODUODENECTOMY (WHIPPLE)</text>
+<rect x="30" y="661.0" width="940" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="661.0" width="6" height="196" fill="#6D4AA3" rx="3"/>
+<text x="52" y="689.0" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">Reconstruction — the three anastomoses</text>
+<rect x="80" y="779.0" width="840" height="24" rx="12" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.3"/>
+<text x="916" y="819.0" font-size="10" font-weight="400" fill="#6B7B80" font-style="italic" text-anchor="end">jejunal (Roux) limb</text>
+<rect x="199.39999999999998" y="711.0" width="150" height="44" fill="#E2F1EC" rx="8" stroke="#15806A" stroke-width="1.4"/>
+<text x="209.39999999999998" y="729.0" font-size="11" font-weight="700" fill="#15806A">Pancreatic remnant</text>
+<line x1="274.4" y1="755.0" x2="274.4" y2="779.0" stroke="#15806A" stroke-width="2"/>
+<circle cx="274.4" cy="791.0" r="9" fill="#15806A"/>
+<text x="274.4" y="795.0" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<rect x="425.0" y="711.0" width="150" height="44" fill="#F6ECDD" rx="8" stroke="#C77B20" stroke-width="1.4"/>
+<text x="435.0" y="729.0" font-size="11" font-weight="700" fill="#C77B20">Common hepatic</text>
+<text x="435.0" y="743.0" font-size="11" font-weight="700" fill="#C77B20">duct</text>
+<line x1="500.0" y1="755.0" x2="500.0" y2="779.0" stroke="#C77B20" stroke-width="2"/>
+<circle cx="500.0" cy="791.0" r="9" fill="#C77B20"/>
+<text x="500.0" y="795.0" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<rect x="650.6" y="711.0" width="150" height="44" fill="#ECE6F4" rx="8" stroke="#6D4AA3" stroke-width="1.4"/>
+<text x="660.6" y="729.0" font-size="11" font-weight="700" fill="#6D4AA3">Stomach</text>
+<line x1="725.6" y1="755.0" x2="725.6" y2="779.0" stroke="#6D4AA3" stroke-width="2"/>
+<circle cx="725.6" cy="791.0" r="9" fill="#6D4AA3"/>
+<text x="725.6" y="795.0" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<circle cx="85" cy="841.0" r="5" fill="#15806A"/>
+<text x="96" y="845.0" font-size="10.5" font-weight="600" fill="#2E3C42">1 Pancreaticojejunostomy</text>
+<circle cx="385" cy="841.0" r="5" fill="#C77B20"/>
+<text x="396" y="845.0" font-size="10.5" font-weight="600" fill="#2E3C42">2 Hepaticojejunostomy</text>
+<circle cx="685" cy="841.0" r="5" fill="#6D4AA3"/>
+<text x="696" y="845.0" font-size="10.5" font-weight="600" fill="#2E3C42">3 Gastrojejunostomy</text>
+<rect x="30" y="873.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="873.0" width="6" height="164.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="901.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">matching the operation to the site</text>
+<text x="54" y="925.0" font-size="18" font-weight="800" fill="#16203F">Which resection?</text>
+<text x="54" y="947.0" font-size="12" font-weight="700" fill="#6D4AA3">Head/uncinate</text>
+<text x="154" y="947.0" font-size="12" font-weight="400" fill="#2E3C42">Pancreaticoduodenectomy (Whipple) — classic, or pylorus-preserving (PPPD)</text>
+<text x="54" y="967.5" font-size="12" font-weight="700" fill="#6D4AA3">Removed</text>
+<text x="154" y="967.5" font-size="12" font-weight="400" fill="#2E3C42">Head of pancreas, duodenum, distal CBD, gallbladder, proximal jejunum ± distal stomach</text>
+<text x="54" y="988.0" font-size="12" font-weight="700" fill="#6D4AA3">Reconstruct</text>
+<text x="154" y="988.0" font-size="12" font-weight="400" fill="#2E3C42">Pancreatico-, hepatico- and gastro/duodeno-jejunostomy</text>
+<text x="54" y="1008.5" font-size="12" font-weight="700" fill="#6D4AA3">Body/tail</text>
+<text x="154" y="1008.5" font-size="12" font-weight="400" fill="#2E3C42">Distal pancreatectomy + splenectomy (vaccinate); total pancreatectomy for diffuse disease</text>
+<text x="54" y="1029.0" font-size="12" font-weight="700" fill="#6D4AA3">Volume</text>
+<text x="154" y="1029.0" font-size="12" font-weight="400" fill="#2E3C42">High-volume specialist centre; operative mortality &lt;5%</text>
+<rect x="30" y="1047.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1063.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">COMPLICATIONS OF PANCREATICODUODENECTOMY</text>
+<rect x="30" y="1077.0" width="940" height="24" fill="#16203F" rx="5"/>
+<text x="40" y="1093.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Complication</text>
+<text x="340" y="1093.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Detail</text>
+<rect x="30" y="1101.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1101.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="1117.0" font-size="11" font-weight="700" fill="#16203F">Delayed gastric emptying</text>
+<text x="340" y="1117.0" font-size="11" font-weight="400" fill="#2E3C42">Most COMMON (10–33%); prokinetics, NG / NJ feeding, supportive</text>
+<rect x="30" y="1125.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="40" y="1141.0" font-size="11" font-weight="700" fill="#16203F">Pancreatic fistula (POPF)</text>
+<text x="340" y="1141.0" font-size="11" font-weight="400" fill="#2E3C42">ISGPS: biochemical leak / grade B / grade C; check drain amylase day 3</text>
+<rect x="30" y="1149.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="1149.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="40" y="1165.0" font-size="11" font-weight="700" fill="#16203F">Post-pancreatectomy haemorrhage</text>
+<text x="340" y="1165.0" font-size="11" font-weight="400" fill="#2E3C42">'Sentinel bleed' → CT angiography ± embolisation (GDA-stump pseudoaneurysm)</text>
+<rect x="30" y="1173.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="1189.0" font-size="11" font-weight="700" fill="#16203F">Bile leak / collection</text>
+<text x="340" y="1189.0" font-size="11" font-weight="400" fill="#2E3C42">Percutaneous drainage; late exocrine &amp; endocrine insufficiency</text>
+<rect x="30" y="1207.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1223.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">SYSTEMIC ONCOLOGY</text>
+<rect x="30" y="1237.0" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1237.0" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="1265.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">chemotherapy by setting</text>
+<text x="54" y="1289.0" font-size="18" font-weight="800" fill="#16203F">Neoadjuvant · adjuvant · palliative</text>
+<text x="54" y="1311.0" font-size="12" font-weight="700" fill="#245C8C">Neoadjuvant</text>
+<text x="142" y="1311.0" font-size="12" font-weight="400" fill="#2E3C42">Borderline resectable → neoadjuvant chemotherapy (± chemoradiotherapy), often FOLFIRINOX, then re-stage</text>
+<text x="54" y="1331.5" font-size="12" font-weight="700" fill="#245C8C">Adjuvant</text>
+<text x="142" y="1331.5" font-size="12" font-weight="400" fill="#2E3C42">gemcitabine + capecitabine (ESPAC-4, NICE NG85); mFOLFIRINOX (PRODIGE-24; OS 54.4 vs 35 mo) for fit patients; start ≤12 weeks</text>
+<text x="54" y="1352.0" font-size="12" font-weight="700" fill="#245C8C">Metastatic</text>
+<text x="142" y="1352.0" font-size="12" font-weight="400" fill="#2E3C42">FOLFIRINOX (PS 0–1) or gemcitabine + nab-paclitaxel (MPACT); single-agent gemcitabine if frail</text>
+<rect x="30" y="1370.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="1386.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">PALLIATION &amp; SUPPORTIVE CARE</text>
+<rect x="30" y="1400.0" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1400.0" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="1428.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">controlling symptoms</text>
+<text x="54" y="1452.0" font-size="18" font-weight="800" fill="#16203F">Supportive measures</text>
+<text x="54" y="1474.0" font-size="12" font-weight="700" fill="#15806A">Jaundice</text>
+<text x="134" y="1474.0" font-size="12" font-weight="400" fill="#2E3C42">Endoscopic self-expanding metal biliary stent (ERCP); percutaneous (PTC) if ERCP fails</text>
+<text x="54" y="1494.5" font-size="12" font-weight="700" fill="#15806A">Duodenum</text>
+<text x="134" y="1494.5" font-size="12" font-weight="400" fill="#2E3C42">Duodenal stent or surgical gastrojejunostomy for gastric-outlet obstruction</text>
+<text x="54" y="1515.0" font-size="12" font-weight="700" fill="#15806A">Pain</text>
+<text x="134" y="1515.0" font-size="12" font-weight="400" fill="#2E3C42">Coeliac plexus neurolysis; WHO analgesic ladder</text>
+<text x="54" y="1535.5" font-size="12" font-weight="700" fill="#15806A">Supportive</text>
+<text x="134" y="1535.5" font-size="12" font-weight="400" fill="#2E3C42">PERT (Creon) for ALL patients (NICE); dietitian / nutrition; VTE prophylaxis</text>
+<rect x="30" y="1553.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1569.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1583.5" width="940" height="214.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1583.5" width="6" height="214.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1605.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1609.5" font-size="12" font-weight="600" fill="#16203F">Courvoisier's law: a palpable, non-tender gallbladder with painless jaundice makes gallstones unlikely — suspect malignant obstruction</text>
+<text x="72" y="1627.5" font-size="12" font-weight="400" fill="#2E3C42">(pancreatic head / periampullary).</text>
+<circle cx="60" cy="1645.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1649.5" font-size="12" font-weight="600" fill="#16203F">Do not delay resection for a tissue diagnosis — if imaging is typical and the tumour is resectable, proceed to surgery; a negative biopsy does</text>
+<text x="72" y="1667.5" font-size="12" font-weight="400" fill="#2E3C42">not exclude cancer.</text>
+<circle cx="60" cy="1685.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1689.5" font-size="12" font-weight="600" fill="#16203F">Resectability is decided by vascular contact (SMA, coeliac axis, SMV / portal vein) on pancreatic-protocol CT, not by tumour size.</text>
+<circle cx="60" cy="1707.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1711.5" font-size="12" font-weight="600" fill="#16203F">CA19-9 can be normal in Lewis-antigen-negative patients and is falsely raised by cholestasis — interpret it alongside imaging.</text>
+<circle cx="60" cy="1729.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1733.5" font-size="12" font-weight="600" fill="#16203F">Delayed gastric emptying is the commonest complication after a Whipple; a pancreatic fistula is the most dangerous — watch the drain</text>
+<text x="72" y="1751.5" font-size="12" font-weight="400" fill="#2E3C42">amylase and for a sentinel bleed.</text>
+<circle cx="60" cy="1769.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1773.5" font-size="12" font-weight="600" fill="#16203F">Offer pancreatic enzyme replacement therapy (PERT) to all patients with pancreatic cancer (NICE NG85).</text>
+<line x1="30" y1="1819.5" x2="970" y2="1819.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1838.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG85 (pancreatic cancer in adults, 2018) · resectability per NCCN vascular criteria · ISGPS definitions (POPF, DGE, post-pancreatectomy haemorrhage). Adjuvant: ESPAC-4</text>
+<text x="30" y="1852.5" font-size="10.5" font-weight="400" fill="#7C8A8E">(gemcitabine + capecitabine); PRODIGE-24 (adjuvant mFOLFIRINOX). Metastatic: PRODIGE/ACCORD-11 (FOLFIRINOX); MPACT (gemcitabine + nab-paclitaxel).</text>
+<text x="30" y="1866.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Pancreatic cystic neoplasms and neuroendocrine tumours are on the companion sheets (pancreas 2 &amp; 3 of 3).</text>
+<text x="30" y="1880.5" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1910.5" width="1000" height="46" fill="#283A6B"/><text x="30" y="1939.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1939.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

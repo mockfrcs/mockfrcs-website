@@ -1,0 +1,183 @@
+<svg viewBox="0 0 1000 1453" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1453" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Pancreatic cystic neoplasms</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  European guidelines (Gut 2018) · Fukuoka 2017  ·  serous · MCN · IPMN · SPN  ·  HPB (pancreas 2 of 3)</text>
+<rect x="30" y="126" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">THE FOUR CYSTIC NEOPLASMS (+ pseudocyst mimic)</text>
+<rect x="30" y="156" width="940" height="24" fill="#16203F" rx="5"/>
+<text x="40" y="172" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Cyst</text>
+<text x="175" y="172" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Typical patient</text>
+<text x="345" y="172" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Hallmark / cyst fluid</text>
+<text x="600" y="172" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Malignant?</text>
+<text x="700" y="172" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Manage</text>
+<rect x="30" y="180" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="180" width="4" height="25" fill="#15806A"/>
+<text x="40" y="196" font-size="11" font-weight="700" fill="#16203F">Serous</text>
+<text x="175" y="196" font-size="11" font-weight="400" fill="#2E3C42">Older woman</text>
+<text x="345" y="196" font-size="11" font-weight="400" fill="#2E3C42">Microcystic honeycomb + central scar</text>
+<text x="600" y="196" font-size="11" font-weight="400" fill="#2E3C42">Benign</text>
+<text x="700" y="196" font-size="11" font-weight="400" fill="#2E3C42">Leave; resect if symptomatic</text>
+<rect x="30" y="205" width="4" height="25" fill="#BE3A2E"/>
+<text x="40" y="221" font-size="11" font-weight="700" fill="#16203F">Mucinous (MCN)</text>
+<text x="175" y="221" font-size="11" font-weight="400" fill="#2E3C42">Woman 40–50; body/tail</text>
+<text x="345" y="221" font-size="11" font-weight="400" fill="#2E3C42">Macrocystic; no duct link; ovarian stroma</text>
+<text x="600" y="221" font-size="11" font-weight="400" fill="#2E3C42">Premalignant</text>
+<text x="700" y="221" font-size="11" font-weight="400" fill="#2E3C42">Resect</text>
+<rect x="30" y="230" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="230" width="4" height="25" fill="#C77B20"/>
+<text x="40" y="246" font-size="11" font-weight="700" fill="#16203F">IPMN</text>
+<text x="175" y="246" font-size="11" font-weight="400" fill="#2E3C42">Older; M ≈ F</text>
+<text x="345" y="246" font-size="11" font-weight="400" fill="#2E3C42">Communicates with duct; ↑CEA &amp; amylase</text>
+<text x="600" y="246" font-size="11" font-weight="400" fill="#2E3C42">Pre → malignant</text>
+<text x="700" y="246" font-size="11" font-weight="400" fill="#2E3C42">Risk-stratify</text>
+<rect x="30" y="255" width="4" height="25" fill="#BE3A2E"/>
+<text x="40" y="271" font-size="11" font-weight="700" fill="#16203F">Solid pseud. (SPN)</text>
+<text x="175" y="271" font-size="11" font-weight="400" fill="#2E3C42">Young woman 20–30</text>
+<text x="345" y="271" font-size="11" font-weight="400" fill="#2E3C42">Solid + cystic; β-catenin</text>
+<text x="600" y="271" font-size="11" font-weight="400" fill="#2E3C42">Low-grade malig</text>
+<text x="700" y="271" font-size="11" font-weight="400" fill="#2E3C42">Resect</text>
+<rect x="30" y="280" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="280" width="4" height="25" fill="#245C8C"/>
+<text x="40" y="296" font-size="11" font-weight="700" fill="#16203F">Pseudocyst (mimic)</text>
+<text x="175" y="296" font-size="11" font-weight="400" fill="#2E3C42">Prior pancreatitis</text>
+<text x="345" y="296" font-size="11" font-weight="400" fill="#2E3C42">No epithelium; ↑amylase, low CEA</text>
+<text x="600" y="296" font-size="11" font-weight="400" fill="#2E3C42">Not neoplastic</text>
+<text x="700" y="296" font-size="11" font-weight="400" fill="#2E3C42">Drain if symptomatic</text>
+<rect x="30" y="315" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="331" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">MORPHOLOGY AT A GLANCE</text>
+<rect x="30" y="345" width="302.6666666666667" height="178" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="345" width="6" height="178" fill="#15806A" rx="3"/>
+<text x="52" y="375" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">SEROUS</text>
+<circle cx="203.3" cy="437.0" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<circle cx="192.3" cy="456.1" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<circle cx="170.3" cy="456.1" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<circle cx="159.3" cy="437.0" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<circle cx="170.3" cy="417.9" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<circle cx="192.3" cy="417.9" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<circle cx="181.33333333333334" cy="437" r="11" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<line x1="181.33333333333334" y1="437" x2="193.33333333333334" y2="437.0" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="189.81861470757192" y2="445.4852813742386" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="181.33333333333334" y2="449.0" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="172.84805195909476" y2="445.4852813742386" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="169.33333333333334" y2="437.0" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="172.84805195909476" y2="428.5147186257614" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="181.33333333333334" y2="425.0" stroke="#6B7B80" stroke-width="1.2"/>
+<line x1="181.33333333333334" y1="437" x2="189.8186147075719" y2="428.5147186257614" stroke="#6B7B80" stroke-width="1.2"/>
+<circle cx="181.33333333333334" cy="437" r="3" fill="#16203F"/>
+<text x="52" y="495" font-size="11" font-weight="400" fill="#2E3C42">Microcystic 'honeycomb' with a central scar —</text>
+<text x="52" y="510" font-size="11" font-weight="400" fill="#2E3C42">benign</text>
+<rect x="348.6666666666667" y="345" width="302.6666666666667" height="178" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="348.6666666666667" y="345" width="6" height="178" fill="#BE3A2E" rx="3"/>
+<text x="370.6666666666667" y="375" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">MUCINOUS (MCN)</text>
+<circle cx="500.0" cy="437" r="34" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="2.6"/>
+<line x1="486.0" y1="406" x2="498.0" y2="470" stroke="#BE3A2E" stroke-width="1.4"/>
+<line x1="518.0" y1="408" x2="510.0" y2="469" stroke="#BE3A2E" stroke-width="1.4"/>
+<text x="370.6666666666667" y="495" font-size="11" font-weight="400" fill="#2E3C42">Single macrocystic lesion, thick wall, NO duct</text>
+<text x="370.6666666666667" y="510" font-size="11" font-weight="400" fill="#2E3C42">communication</text>
+<rect x="667.3333333333334" y="345" width="302.6666666666667" height="178" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="667.3333333333334" y="345" width="6" height="178" fill="#C77B20" rx="3"/>
+<text x="689.3333333333334" y="375" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">IPMN</text>
+<rect x="701.3333333333334" y="457" width="234.66666666666663" height="12" rx="6" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.3"/>
+<text x="934.0" y="483" font-size="9.5" font-weight="400" fill="#6B7B80" font-style="italic" text-anchor="end">main duct</text>
+<rect x="813.6666666666667" y="439" width="10" height="20" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.2"/>
+<circle cx="818.6666666666667" cy="429" r="20" fill="#F6ECDD" stroke="#C77B20" stroke-width="2.2"/>
+<text x="689.3333333333334" y="495" font-size="11" font-weight="400" fill="#2E3C42">Cyst communicates with the pancreatic duct;</text>
+<text x="689.3333333333334" y="510" font-size="11" font-weight="400" fill="#2E3C42">duct may dilate</text>
+<rect x="30" y="533" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="549" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">CYST FLUID (EUS-FNA) &amp; WHO GETS THEM</text>
+<rect x="30" y="563" width="462.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="563" width="6" height="205.0" fill="#245C8C" rx="3"/>
+<text x="54" y="591" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">fluid analysis</text>
+<text x="54" y="615" font-size="16" font-weight="800" fill="#16203F">Cyst fluid</text>
+<text x="54" y="637" font-size="12" font-weight="700" fill="#245C8C">CEA</text>
+<text x="134" y="637.0" font-size="12" font-weight="400" fill="#2E3C42">&gt;192 ng/mL suggests a MUCINOUS cyst (MCN or IPMN);</text>
+<text x="134" y="657.5" font-size="12" font-weight="400" fill="#2E3C42">low in serous, SPN, pseudocyst</text>
+<text x="54" y="678.0" font-size="12" font-weight="700" fill="#245C8C">Amylase</text>
+<text x="134" y="678.0" font-size="12" font-weight="400" fill="#2E3C42">High with ductal communication (IPMN) or a</text>
+<text x="134" y="698.5" font-size="12" font-weight="400" fill="#2E3C42">pseudocyst; low in MCN &amp; serous</text>
+<text x="54" y="719.0" font-size="12" font-weight="700" fill="#245C8C">Glucose</text>
+<text x="134" y="719.0" font-size="12" font-weight="400" fill="#2E3C42">Low in mucinous cysts</text>
+<text x="54" y="739.5" font-size="12" font-weight="700" fill="#245C8C">Molecular</text>
+<text x="134" y="739.5" font-size="12" font-weight="400" fill="#2E3C42">KRAS / GNAS → IPMN; KRAS / RNF43 → MCN; VHL →</text>
+<text x="134" y="760.0" font-size="12" font-weight="400" fill="#2E3C42">serous; CTNNB1 → SPN</text>
+<rect x="508.0" y="563" width="462.0" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="508.0" y="563" width="6" height="164.0" fill="#6D4AA3" rx="3"/>
+<text x="532.0" y="591" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the 'family' aid</text>
+<text x="532.0" y="615" font-size="16" font-weight="800" fill="#16203F">Demographic mnemonic</text>
+<text x="532.0" y="637" font-size="12" font-weight="700" fill="#6D4AA3">Grandmother</text>
+<text x="628.0" y="637.0" font-size="12" font-weight="400" fill="#2E3C42">Serous cystadenoma — older woman; benign</text>
+<text x="532.0" y="657.5" font-size="12" font-weight="700" fill="#6D4AA3">Mother</text>
+<text x="628.0" y="657.5" font-size="12" font-weight="400" fill="#2E3C42">MCN — woman 40–50; body / tail; premalignant</text>
+<text x="532.0" y="678.0" font-size="12" font-weight="700" fill="#6D4AA3">Grandfather</text>
+<text x="628.0" y="678.0" font-size="12" font-weight="400" fill="#2E3C42">IPMN — older; communicates with the duct</text>
+<text x="532.0" y="698.5" font-size="12" font-weight="700" fill="#6D4AA3">Daughter</text>
+<text x="628.0" y="698.5" font-size="12" font-weight="400" fill="#2E3C42">Solid pseudopapillary neoplasm — young woman;</text>
+<text x="628.0" y="719.0" font-size="12" font-weight="400" fill="#2E3C42">resect</text>
+<rect x="30" y="778.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="794.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">IPMN / MCN — RESECT, ASSESS OR SURVEIL</text>
+<rect x="30" y="808.0" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 854.0 L 30 819.0 Q 30 808.0 41 808.0 L 321.6666666666667 808.0 Q 332.6666666666667 808.0 332.6666666666667 819.0 L 332.6666666666667 854.0 Z" fill="#BE3A2E"/>
+<text x="44" y="829.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">RESECT</text>
+<text x="44" y="846.0" font-size="11.5" font-weight="600" fill="#FFFFFF">high-risk stigmata</text>
+<text x="44" y="872.0" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Stigmata</text>
+<text x="44" y="887.0" font-size="11" font-weight="400" fill="#2E3C42">Obstructive jaundice; enhancing mural nodule</text>
+<text x="44" y="902.0" font-size="11" font-weight="400" fill="#2E3C42">≥5 mm; MPD ≥10 mm</text>
+<text x="44" y="926.0" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Also</text>
+<text x="44" y="941.0" font-size="11" font-weight="400" fill="#2E3C42">Main-duct / mixed IPMN; MCN &amp; SPN if fit; solid</text>
+<text x="44" y="956.0" font-size="11" font-weight="400" fill="#2E3C42">mass; positive cytology</text>
+<rect x="348.6666666666667" y="808.0" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 854.0 L 348.6666666666667 819.0 Q 348.6666666666667 808.0 359.6666666666667 808.0 L 640.3333333333334 808.0 Q 651.3333333333334 808.0 651.3333333333334 819.0 L 651.3333333333334 854.0 Z" fill="#C77B20"/>
+<text x="362.6666666666667" y="829.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ASSESS</text>
+<text x="362.6666666666667" y="846.0" font-size="11.5" font-weight="600" fill="#FFFFFF">worrisome → EUS-FNA + MDT</text>
+<text x="362.6666666666667" y="872.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Size/duct</text>
+<text x="362.6666666666667" y="887.0" font-size="11" font-weight="400" fill="#2E3C42">Cyst ≥3 cm; MPD 5–9 mm</text>
+<text x="362.6666666666667" y="911.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Wall</text>
+<text x="362.6666666666667" y="926.0" font-size="11" font-weight="400" fill="#2E3C42">Enhancing nodule &lt;5 mm; thickened enhancing</text>
+<text x="362.6666666666667" y="941.0" font-size="11" font-weight="400" fill="#2E3C42">walls</text>
+<text x="362.6666666666667" y="965.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Other</text>
+<text x="362.6666666666667" y="980.0" font-size="11" font-weight="400" fill="#2E3C42">Abrupt duct-calibre change + distal atrophy;</text>
+<text x="362.6666666666667" y="995.0" font-size="11" font-weight="400" fill="#2E3C42">↑CA19-9; growth ≥5 mm/2 yr; pancreatitis</text>
+<rect x="667.3333333333334" y="808.0" width="302.6666666666667" height="214" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 854.0 L 667.3333333333334 819.0 Q 667.3333333333334 808.0 678.3333333333334 808.0 L 959.0 808.0 Q 970.0 808.0 970.0 819.0 L 970.0 854.0 Z" fill="#15806A"/>
+<text x="681.3333333333334" y="829.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">SURVEIL</text>
+<text x="681.3333333333334" y="846.0" font-size="11.5" font-weight="600" fill="#FFFFFF">low-risk</text>
+<text x="681.3333333333334" y="872.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Who</text>
+<text x="681.3333333333334" y="887.0" font-size="11" font-weight="400" fill="#2E3C42">Low-risk branch-duct IPMN; small MCN &lt;40 mm</text>
+<text x="681.3333333333334" y="902.0" font-size="11" font-weight="400" fill="#2E3C42">without a nodule</text>
+<text x="681.3333333333334" y="926.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">How</text>
+<text x="681.3333333333334" y="941.0" font-size="11" font-weight="400" fill="#2E3C42">MRI ± EUS surveillance</text>
+<text x="681.3333333333334" y="965.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Stop</text>
+<text x="681.3333333333334" y="980.0" font-size="11" font-weight="400" fill="#2E3C42">When no longer fit for surgery</text>
+<rect x="30" y="1032.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1048.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1062.0" width="940" height="232.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1062.0" width="6" height="232.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1084.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1088.0" font-size="12" font-weight="600" fill="#16203F">The key split is mucinous (MCN, IPMN — premalignant, high fluid CEA) vs non-mucinous (serous — benign, low CEA); cyst-fluid CEA &gt;192 ng/mL</text>
+<text x="72" y="1106.0" font-size="12" font-weight="400" fill="#2E3C42">points to a mucinous lesion.</text>
+<circle cx="60" cy="1124.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1128.0" font-size="12" font-weight="600" fill="#16203F">MCN occurs almost exclusively in women, sits in the body / tail, does NOT communicate with the duct and has ovarian-type stroma — resect it</text>
+<text x="72" y="1146.0" font-size="12" font-weight="400" fill="#2E3C42">in fit patients.</text>
+<circle cx="60" cy="1164.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1168.0" font-size="12" font-weight="600" fill="#16203F">IPMN communicates with the pancreatic duct; main-duct and mixed types carry a high malignant risk and are resected, whereas branch-duct</text>
+<text x="72" y="1186.0" font-size="12" font-weight="400" fill="#2E3C42">IPMN is risk-stratified.</text>
+<circle cx="60" cy="1204.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1208.0" font-size="12" font-weight="600" fill="#16203F">High-risk stigmata (jaundice, mural nodule ≥5 mm, MPD ≥10 mm) mandate resection; worrisome features warrant EUS-FNA and MDT rather</text>
+<text x="72" y="1226.0" font-size="12" font-weight="400" fill="#2E3C42">than straight-to-surgery.</text>
+<circle cx="60" cy="1244.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1248.0" font-size="12" font-weight="600" fill="#16203F">A serous cystadenoma is benign — resect only if symptomatic, large, or the diagnosis is uncertain.</text>
+<circle cx="60" cy="1266.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1270.0" font-size="12" font-weight="600" fill="#16203F">Do not mistake a pseudocyst (history of pancreatitis, high amylase, low CEA, no epithelial lining) for a cystic neoplasm.</text>
+<line x1="30" y1="1316.0" x2="970" y2="1316.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1335.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: European evidence-based guidelines on pancreatic cystic neoplasms (Gut 2018) · revised international consensus 'Fukuoka' guidelines (Tanaka et al., Pancreatology 2017).</text>
+<text x="30" y="1349.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Cyst-fluid CEA &gt;192 ng/mL suggests a mucinous lesion (Brugge et al., 2004).</text>
+<text x="30" y="1363.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Molecular markers: KRAS / GNAS → IPMN; KRAS / RNF43 → MCN; VHL → serous cystadenoma; CTNNB1 (β-catenin) → solid pseudopapillary neoplasm.</text>
+<text x="30" y="1377.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1407" width="1000" height="46" fill="#283A6B"/><text x="30" y="1436" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1436" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

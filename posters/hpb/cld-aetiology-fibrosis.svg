@@ -1,0 +1,205 @@
+<svg viewBox="0 0 1000 1680.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1680.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Chronic liver disease — aetiology &amp; fibrosis</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  NICE NG49 / NG50 · Baveno VII  ·  MASLD · alcohol · viral · non-invasive fibrosis  ·  HPB (2 of 2 · sheet 1)</text>
+<rect x="30" y="126" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">THE COMMON CHRONIC LIVER DISEASES</text>
+<rect x="30" y="160" width="302.6666666666667" height="298" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 206 L 30 171 Q 30 160 41 160 L 321.6666666666667 160 Q 332.6666666666667 160 332.6666666666667 171 L 332.6666666666667 206 Z" fill="#15806A"/>
+<text x="44" y="181" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">MASLD</text>
+<text x="44" y="198" font-size="11.5" font-weight="600" fill="#FFFFFF">metabolic dysfunction-assoc.</text>
+<text x="44" y="224" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Define</text>
+<text x="44" y="239" font-size="11" font-weight="400" fill="#2E3C42">Hepatic steatosis + ≥1 of 5 cardiometabolic</text>
+<text x="44" y="254" font-size="11" font-weight="400" fill="#2E3C42">criteria (waist/BMI, glucose/T2DM, BP,</text>
+<text x="44" y="269" font-size="11" font-weight="400" fill="#2E3C42">triglycerides, low HDL)</text>
+<text x="44" y="293" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Terms</text>
+<text x="44" y="308" font-size="11" font-weight="400" fill="#2E3C42">2023: SLD is the umbrella; MASH replaces NASH;</text>
+<text x="44" y="323" font-size="11" font-weight="400" fill="#2E3C42">MetALD = MASLD + higher alcohol</text>
+<text x="44" y="347" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Course</text>
+<text x="44" y="362" font-size="11" font-weight="400" fill="#2E3C42">Commonest CLD; MASH → fibrosis → cirrhosis /</text>
+<text x="44" y="377" font-size="11" font-weight="400" fill="#2E3C42">HCC</text>
+<text x="44" y="401" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Manage</text>
+<text x="44" y="416" font-size="11" font-weight="400" fill="#2E3C42">Weight loss ≥7–10%; treat metabolic risk; no</text>
+<text x="44" y="431" font-size="11" font-weight="400" fill="#2E3C42">NICE-approved drug; NICE NG49</text>
+<rect x="348.6666666666667" y="160" width="302.6666666666667" height="298" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 206 L 348.6666666666667 171 Q 348.6666666666667 160 359.6666666666667 160 L 640.3333333333334 160 Q 651.3333333333334 160 651.3333333333334 171 L 651.3333333333334 206 Z" fill="#C77B20"/>
+<text x="362.6666666666667" y="181" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ALCOHOL</text>
+<text x="362.6666666666667" y="198" font-size="11.5" font-weight="600" fill="#FFFFFF">alcohol-related (ALD)</text>
+<text x="362.6666666666667" y="224" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Spectrum</text>
+<text x="362.6666666666667" y="239" font-size="11" font-weight="400" fill="#2E3C42">Steatosis → alcoholic hepatitis → cirrhosis</text>
+<text x="362.6666666666667" y="263" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Threshold</text>
+<text x="362.6666666666667" y="278" font-size="11" font-weight="400" fill="#2E3C42">Risk rises &gt;14 units/wk; TE if &gt;50 (M) / &gt;35 (W)</text>
+<text x="362.6666666666667" y="293" font-size="11" font-weight="400" fill="#2E3C42">units/wk sustained</text>
+<text x="362.6666666666667" y="317" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Acute</text>
+<text x="362.6666666666667" y="332" font-size="11" font-weight="400" fill="#2E3C42">Alcoholic hepatitis: jaundice; Maddrey DF ≥32 =</text>
+<text x="362.6666666666667" y="347" font-size="11" font-weight="400" fill="#2E3C42">severe</text>
+<text x="362.6666666666667" y="371" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Manage</text>
+<text x="362.6666666666667" y="386" font-size="11" font-weight="400" fill="#2E3C42">Abstinence; nutrition; treat withdrawal; steroids</text>
+<text x="362.6666666666667" y="401" font-size="11" font-weight="400" fill="#2E3C42">in severe (see below)</text>
+<rect x="667.3333333333334" y="160" width="302.6666666666667" height="298" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 206 L 667.3333333333334 171 Q 667.3333333333334 160 678.3333333333334 160 L 959.0 160 Q 970.0 160 970.0 171 L 970.0 206 Z" fill="#245C8C"/>
+<text x="681.3333333333334" y="181" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">VIRAL</text>
+<text x="681.3333333333334" y="198" font-size="11.5" font-weight="600" fill="#FFFFFF">viral hepatitis</text>
+<text x="681.3333333333334" y="224" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Routes</text>
+<text x="681.3333333333334" y="239" font-size="11" font-weight="400" fill="#2E3C42">A &amp; E faeco-oral (acute); B, C, D blood-borne</text>
+<text x="681.3333333333334" y="254" font-size="11" font-weight="400" fill="#2E3C42">(chronic)</text>
+<text x="681.3333333333334" y="278" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">HBV</text>
+<text x="681.3333333333334" y="293" font-size="11" font-weight="400" fill="#2E3C42">HBsAg+; tenofovir or entecavir; HCC risk even</text>
+<text x="681.3333333333334" y="308" font-size="11" font-weight="400" fill="#2E3C42">without cirrhosis</text>
+<text x="681.3333333333334" y="332" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">HCV</text>
+<text x="681.3333333333334" y="347" font-size="11" font-weight="400" fill="#2E3C42">Direct-acting antivirals cure &gt;95%; no vaccine</text>
+<text x="681.3333333333334" y="371" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Manage</text>
+<text x="681.3333333333334" y="386" font-size="11" font-weight="400" fill="#2E3C42">Vaccinate A &amp; B; HCC surveillance if cirrhotic or</text>
+<text x="681.3333333333334" y="401" font-size="11" font-weight="400" fill="#2E3C42">HBV</text>
+<rect x="30" y="470" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="486" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">SEVERE ALCOHOLIC HEPATITIS — SCORING &amp; STOPAH</text>
+<rect x="30" y="500" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="500" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="54" y="528" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">alcohol-related liver disease</text>
+<text x="54" y="552" font-size="18" font-weight="800" fill="#16203F">Alcoholic hepatitis</text>
+<text x="54" y="574" font-size="12" font-weight="700" fill="#C77B20">Severity</text>
+<text x="148" y="574.0" font-size="12" font-weight="400" fill="#2E3C42">Maddrey discriminant function ≥32 = severe (also GAHS, MELD). Exclude sepsis &amp; GI bleed first</text>
+<text x="54" y="594.5" font-size="12" font-weight="700" fill="#C77B20">Steroids</text>
+<text x="148" y="594.5" font-size="12" font-weight="400" fill="#2E3C42">Prednisolone 40 mg/day for 28 days in severe disease</text>
+<text x="54" y="615.0" font-size="12" font-weight="700" fill="#C77B20">STOPAH 2015</text>
+<text x="148" y="615.0" font-size="12" font-weight="400" fill="#2E3C42">Prednisolone gave no significant 28-day mortality benefit (trend only) and none at 90 d / 1 y, with more serious infection;</text>
+<text x="148" y="635.5" font-size="12" font-weight="400" fill="#2E3C42">pentoxifylline ineffective — dropped from NICE</text>
+<text x="54" y="656.0" font-size="12" font-weight="700" fill="#C77B20">Response</text>
+<text x="148" y="656.0" font-size="12" font-weight="400" fill="#2E3C42">Lille score at day 7 &gt;0.45 = steroid non-responder → stop</text>
+<rect x="30" y="676.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="692.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">VIRAL HEPATITIS AT A GLANCE</text>
+<rect x="30" y="706.0" width="940" height="24" fill="#16203F" rx="5"/>
+<text x="40" y="722.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Virus</text>
+<text x="120" y="722.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Route</text>
+<text x="300" y="722.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Chronic?</text>
+<text x="410" y="722.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Key point / treatment</text>
+<rect x="30" y="730.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="730.0" width="4" height="24" fill="#245C8C"/>
+<text x="40" y="746.0" font-size="11" font-weight="700" fill="#16203F">A</text>
+<text x="120" y="746.0" font-size="11" font-weight="400" fill="#2E3C42">Faeco-oral</text>
+<text x="300" y="746.0" font-size="11" font-weight="400" fill="#2E3C42">No</text>
+<text x="410" y="746.0" font-size="11" font-weight="400" fill="#2E3C42">Acute, self-limiting; vaccine available</text>
+<rect x="30" y="754.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="40" y="770.0" font-size="11" font-weight="700" fill="#16203F">B</text>
+<text x="120" y="770.0" font-size="11" font-weight="400" fill="#2E3C42">Blood / sexual / vertical</text>
+<text x="300" y="770.0" font-size="11" font-weight="400" fill="#2E3C42">Yes</text>
+<text x="410" y="770.0" font-size="11" font-weight="400" fill="#2E3C42">HBsAg+; tenofovir or entecavir; HCC risk even without cirrhosis; vaccine</text>
+<rect x="30" y="778.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="778.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="794.0" font-size="11" font-weight="700" fill="#16203F">C</text>
+<text x="120" y="794.0" font-size="11" font-weight="400" fill="#2E3C42">Blood-borne</text>
+<text x="300" y="794.0" font-size="11" font-weight="400" fill="#2E3C42">Often (~75%)</text>
+<text x="410" y="794.0" font-size="11" font-weight="400" fill="#2E3C42">Direct-acting antivirals cure &gt;95%; no vaccine</text>
+<rect x="30" y="802.0" width="4" height="24" fill="#6D4AA3"/>
+<text x="40" y="818.0" font-size="11" font-weight="700" fill="#16203F">D</text>
+<text x="120" y="818.0" font-size="11" font-weight="400" fill="#2E3C42">With HBV only</text>
+<text x="300" y="818.0" font-size="11" font-weight="400" fill="#2E3C42">Yes</text>
+<text x="410" y="818.0" font-size="11" font-weight="400" fill="#2E3C42">Needs HBsAg (co- / super-infection); worst prognosis</text>
+<rect x="30" y="826.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="826.0" width="4" height="24" fill="#15806A"/>
+<text x="40" y="842.0" font-size="11" font-weight="700" fill="#16203F">E</text>
+<text x="120" y="842.0" font-size="11" font-weight="400" fill="#2E3C42">Faeco-oral</text>
+<text x="300" y="842.0" font-size="11" font-weight="400" fill="#2E3C42">Usually no</text>
+<text x="410" y="842.0" font-size="11" font-weight="400" fill="#2E3C42">Self-limiting; chronic if immunosuppressed; severe in pregnancy</text>
+<rect x="30" y="862.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="878.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">NON-INVASIVE FIBROSIS ASSESSMENT — STEPWISE</text>
+<path d="M 30.0 892.0 L 321.3 892.0 L 343.3 927.0 L 321.3 962.0 L 30.0 962.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="46.0" y="918.0" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">FIB-4 (FIRST-LINE)</text>
+<text x="46.0" y="936.0" font-size="11" font-weight="400" fill="#2E3C42">&lt;1.3 low risk — reassure, recheck</text>
+<path d="M 343.3 892.0 L 634.7 892.0 L 656.7 927.0 L 634.7 962.0 L 343.3 962.0 L 365.3 927.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="375.3333333333333" y="918.0" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">ELF / ELASTOGRAPHY</text>
+<text x="375.3333333333333" y="936.0" font-size="11" font-weight="400" fill="#2E3C42">FIB-4 ≥1.3 → ELF ≥10.51 = advanced fibrosis</text>
+<text x="375.3333333333333" y="951.0" font-size="11" font-weight="400" fill="#2E3C42">(NG49)</text>
+<path d="M 656.7 892.0 L 970.0 892.0 L 970.0 962.0 L 656.7 962.0 L 678.7 927.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="688.6666666666666" y="918.0" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">HEPATOLOGY</text>
+<text x="688.6666666666666" y="936.0" font-size="11" font-weight="400" fill="#2E3C42">Advanced fibrosis / cirrhosis → refer + surveil</text>
+<rect x="30" y="974.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="990.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">LIVER STIFFNESS — BAVENO VII 'RULE OF 5' (kPa)</text>
+<rect x="30.0" y="1004.0" width="181.6" height="76" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="1004.0" width="181.6" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="1015.0" width="181.6" height="11" fill="#15806A"/>
+<text x="40.0" y="1020.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">&lt;10</text>
+<text x="40.0" y="1041.0" font-size="10.5" font-weight="700" fill="#15806A">Normal</text>
+<text x="40.0" y="1056.0" font-size="10" font-weight="400" fill="#2E3C42">Excludes cACLD</text>
+<rect x="219.6" y="1004.0" width="181.6" height="76" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="219.6" y="1004.0" width="181.6" height="22" fill="#15806A" rx="9"/>
+<rect x="219.6" y="1015.0" width="181.6" height="11" fill="#15806A"/>
+<text x="229.6" y="1020.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">10–15</text>
+<text x="229.6" y="1041.0" font-size="10.5" font-weight="700" fill="#15806A">cACLD suggestive</text>
+<text x="229.6" y="1056.0" font-size="10" font-weight="400" fill="#2E3C42">Compensated advanced CLD</text>
+<text x="229.6" y="1069.0" font-size="10" font-weight="400" fill="#2E3C42">likely</text>
+<rect x="409.2" y="1004.0" width="181.6" height="76" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="409.2" y="1004.0" width="181.6" height="22" fill="#C77B20" rx="9"/>
+<rect x="409.2" y="1015.0" width="181.6" height="11" fill="#C77B20"/>
+<text x="419.2" y="1020.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">15–20</text>
+<text x="419.2" y="1041.0" font-size="10.5" font-weight="700" fill="#C77B20">cACLD very likely</text>
+<text x="419.2" y="1056.0" font-size="10" font-weight="400" fill="#2E3C42">CSPH possible</text>
+<rect x="598.8" y="1004.0" width="181.6" height="76" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="598.8" y="1004.0" width="181.6" height="22" fill="#C77B20" rx="9"/>
+<rect x="598.8" y="1015.0" width="181.6" height="11" fill="#C77B20"/>
+<text x="608.8" y="1020.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">20–25</text>
+<text x="608.8" y="1041.0" font-size="10.5" font-weight="700" fill="#C77B20">High risk</text>
+<text x="608.8" y="1056.0" font-size="10" font-weight="400" fill="#2E3C42">CSPH likely; screen varices</text>
+<rect x="788.4" y="1004.0" width="181.6" height="76" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="788.4" y="1004.0" width="181.6" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="788.4" y="1015.0" width="181.6" height="11" fill="#BE3A2E"/>
+<text x="798.4" y="1020.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">≥25</text>
+<text x="798.4" y="1041.0" font-size="10.5" font-weight="700" fill="#BE3A2E">CSPH rule-in</text>
+<text x="798.4" y="1056.0" font-size="10" font-weight="400" fill="#2E3C42">Carvedilol; decompensation</text>
+<text x="798.4" y="1069.0" font-size="10" font-weight="400" fill="#2E3C42">risk</text>
+<rect x="30" y="1092.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="1108.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">cACLD — WHO CAN SKIP SCREENING ENDOSCOPY?</text>
+<rect x="30" y="1122.0" width="462.0" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1122.0" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="1150.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">favourable status</text>
+<text x="54" y="1174.0" font-size="16" font-weight="800" fill="#16203F">Low risk — spare endoscopy</text>
+<text x="54" y="1196.0" font-size="12" font-weight="700" fill="#245C8C">Criteria</text>
+<text x="122" y="1196.0" font-size="12" font-weight="400" fill="#2E3C42">LSM &lt;20 kPa AND platelets &gt;150 ×10⁹/L (favourable</text>
+<text x="122" y="1216.5" font-size="12" font-weight="400" fill="#2E3C42">Baveno)</text>
+<text x="54" y="1237.0" font-size="12" font-weight="700" fill="#245C8C">Meaning</text>
+<text x="122" y="1237.0" font-size="12" font-weight="400" fill="#2E3C42">Very low (&lt;5%) risk of high-risk varices</text>
+<text x="54" y="1257.5" font-size="12" font-weight="700" fill="#245C8C">Action</text>
+<text x="122" y="1257.5" font-size="12" font-weight="400" fill="#2E3C42">No screening endoscopy; repeat LSM + platelets yearly</text>
+<rect x="508.0" y="1122.0" width="462.0" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="508.0" y="1122.0" width="6" height="143.5" fill="#BE3A2E" rx="3"/>
+<text x="532.0" y="1150.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">unfavourable status</text>
+<text x="532.0" y="1174.0" font-size="16" font-weight="800" fill="#16203F">High risk — endoscopy ± NSBB</text>
+<text x="532.0" y="1196.0" font-size="12" font-weight="700" fill="#BE3A2E">Criteria</text>
+<text x="600.0" y="1196.0" font-size="12" font-weight="400" fill="#2E3C42">LSM ≥20 kPa OR platelets ≤150 ×10⁹/L</text>
+<text x="532.0" y="1216.5" font-size="12" font-weight="700" fill="#BE3A2E">Action</text>
+<text x="600.0" y="1216.5" font-size="12" font-weight="400" fill="#2E3C42">Screening upper-GI endoscopy for varices</text>
+<text x="532.0" y="1237.0" font-size="12" font-weight="700" fill="#BE3A2E">If CSPH</text>
+<text x="600.0" y="1237.0" font-size="12" font-weight="400" fill="#2E3C42">LSM ≥25 kPa → carvedilol to prevent decompensation;</text>
+<text x="600.0" y="1257.5" font-size="12" font-weight="400" fill="#2E3C42">band high-risk varices</text>
+<rect x="30" y="1277.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1293.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1307.5" width="940" height="214.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1307.5" width="6" height="214.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1329.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1333.5" font-size="12" font-weight="600" fill="#16203F">MASLD is a positive diagnosis — hepatic steatosis plus at least one cardiometabolic criterion, not merely the exclusion of alcohol.</text>
+<circle cx="60" cy="1351.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1355.5" font-size="12" font-weight="600" fill="#16203F">Use FIB-4 first; an ELF score ≥10.51 indicates advanced fibrosis (NICE NG49) and should trigger transient elastography and specialist referral.</text>
+<circle cx="60" cy="1373.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1377.5" font-size="12" font-weight="600" fill="#16203F">In severe alcoholic hepatitis (Maddrey DF ≥32) prednisolone offers at best a small short-term benefit (STOPAH) — reassess with the Lille score</text>
+<text x="72" y="1395.5" font-size="12" font-weight="400" fill="#2E3C42">at day 7 and stop if &gt;0.45. Pentoxifylline is not recommended.</text>
+<circle cx="60" cy="1413.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1417.5" font-size="12" font-weight="600" fill="#16203F">Transient elastography &lt;20 kPa with platelets &gt;150 ×10⁹/L safely spares screening endoscopy (Baveno); LSM ≥25 kPa signals clinically</text>
+<text x="72" y="1435.5" font-size="12" font-weight="400" fill="#2E3C42">significant portal hypertension.</text>
+<circle cx="60" cy="1453.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1457.5" font-size="12" font-weight="600" fill="#16203F">Offer transient elastography to diagnose cirrhosis in heavy drinkers (&gt;50 units/week men, &gt;35 women) and in NAFLD with advanced fibrosis</text>
+<text x="72" y="1475.5" font-size="12" font-weight="400" fill="#2E3C42">(NICE NG50).</text>
+<circle cx="60" cy="1493.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1497.5" font-size="12" font-weight="600" fill="#16203F">Hepatitis B can cause HCC without cirrhosis — surveillance is not restricted to cirrhotic patients.</text>
+<line x1="30" y1="1543.5" x2="970" y2="1543.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1562.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NICE NG49 (non-alcoholic fatty liver disease, 2016) · NICE NG50 (cirrhosis in over-16s, 2016) · Baveno VII consensus on portal hypertension (J Hepatol 2022) · AASLD/EASL/ALEH</text>
+<text x="30" y="1576.5" font-size="10.5" font-weight="400" fill="#7C8A8E">steatotic liver disease nomenclature (2023). Non-invasive fibrosis: FIB-4, Enhanced Liver Fibrosis (ELF), vibration-controlled transient elastography (FibroScan).</text>
+<text x="30" y="1590.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Trial: STOPAH (Thursz et al., NEJM 2015) — prednisolone vs pentoxifylline in severe alcoholic hepatitis. Cirrhosis, scoring and decompensation are on the companion sheet (2 of 2).</text>
+<text x="30" y="1604.5" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1634.5" width="1000" height="46" fill="#283A6B"/><text x="30" y="1663.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1663.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

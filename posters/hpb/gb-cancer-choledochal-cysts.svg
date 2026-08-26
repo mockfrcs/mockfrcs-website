@@ -1,0 +1,186 @@
+<svg viewBox="0 0 1000 1575" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1575" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Gallbladder cancer &amp; choledochal cysts</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  AJCC 8th · Todani  ·  T-stage surgery · incidental cancer · Caroli  ·  HPB (biliary 2 of 4)</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">GALLBLADDER CANCER — RISK FACTORS</text>
+<rect x="30" y="156" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">who is at risk</text>
+<text x="54" y="208" font-size="18" font-weight="800" fill="#16203F">Risk factors</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#245C8C">Gallstones</text>
+<text x="126" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">Present in most; large stones (&gt;3 cm) and chronic inflammation</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#245C8C">Structural</text>
+<text x="126" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">Porcelain gallbladder (~6% cancer risk); polyps &gt;10 mm; anomalous pancreaticobiliary junction</text>
+<text x="54" y="271.0" font-size="12" font-weight="700" fill="#245C8C">Other</text>
+<text x="126" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">PSC; chronic Salmonella (typhoid) carriage; obesity; F &gt; M; high in Chile / India</text>
+<rect x="30" y="289.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="305.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">T STAGE DIRECTS THE OPERATION (AJCC 8th)</text>
+<rect x="30" y="319.0" width="940" height="24" fill="#16203F" rx="5"/>
+<text x="40" y="335.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">T stage</text>
+<text x="150" y="335.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Invasion depth</text>
+<text x="470" y="335.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Surgery</text>
+<rect x="30" y="343.0" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="343.0" width="4" height="25" fill="#15806A"/>
+<text x="40" y="359.0" font-size="11" font-weight="700" fill="#16203F">Tis / T1a</text>
+<text x="150" y="359.0" font-size="11" font-weight="400" fill="#2E3C42">Mucosa (lamina propria)</text>
+<text x="470" y="359.0" font-size="11" font-weight="400" fill="#2E3C42">Simple cholecystectomy — adequate if R0</text>
+<rect x="30" y="368.0" width="4" height="25" fill="#C77B20"/>
+<text x="40" y="384.0" font-size="11" font-weight="700" fill="#16203F">T1b</text>
+<text x="150" y="384.0" font-size="11" font-weight="400" fill="#2E3C42">Muscularis (muscle layer)</text>
+<text x="470" y="384.0" font-size="11" font-weight="400" fill="#2E3C42">Extended (radical) cholecystectomy</text>
+<rect x="30" y="393.0" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="393.0" width="4" height="25" fill="#C77B20"/>
+<text x="40" y="409.0" font-size="11" font-weight="700" fill="#16203F">T2a / T2b</text>
+<text x="150" y="409.0" font-size="11" font-weight="400" fill="#2E3C42">Perimuscular (T2b = hepatic side, worse)</text>
+<text x="470" y="409.0" font-size="11" font-weight="400" fill="#2E3C42">Extended cholecystectomy + segment IVb/V + portal nodes</text>
+<rect x="30" y="418.0" width="4" height="25" fill="#BE3A2E"/>
+<text x="40" y="434.0" font-size="11" font-weight="700" fill="#16203F">T3</text>
+<text x="150" y="434.0" font-size="11" font-weight="400" fill="#2E3C42">Serosa and/or liver or one adjacent organ</text>
+<text x="470" y="434.0" font-size="11" font-weight="400" fill="#2E3C42">Extended resection ± bile duct / adjacent organ</text>
+<rect x="30" y="443.0" width="940" height="25" fill="#F1F4F2"/>
+<rect x="30" y="443.0" width="4" height="25" fill="#BE3A2E"/>
+<text x="40" y="459.0" font-size="11" font-weight="700" fill="#16203F">T4</text>
+<text x="150" y="459.0" font-size="11" font-weight="400" fill="#2E3C42">Portal vein / hepatic artery, or ≥2 organs</text>
+<text x="470" y="459.0" font-size="11" font-weight="400" fill="#2E3C42">Usually unresectable → palliative</text>
+<rect x="30" y="478.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="494.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">EXTENDED CHOLECYSTECTOMY &amp; INCIDENTAL CANCER</text>
+<rect x="30" y="508.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="508.0" width="6" height="164.0" fill="#15806A" rx="3"/>
+<text x="54" y="536.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">how radical, and when</text>
+<text x="54" y="560.0" font-size="18" font-weight="800" fill="#16203F">Radical surgery</text>
+<text x="54" y="582.0" font-size="12" font-weight="700" fill="#15806A">Extended chole</text>
+<text x="162" y="582.0" font-size="12" font-weight="400" fill="#2E3C42">Cholecystectomy + liver segment IVb/V (wedge or anatomical) + hepatoduodenal-ligament lymphadenectomy; ± bile-duct</text>
+<text x="162" y="602.5" font-size="12" font-weight="400" fill="#2E3C42">excision if the cystic-duct margin is positive</text>
+<text x="54" y="623.0" font-size="12" font-weight="700" fill="#15806A">Port sites</text>
+<text x="162" y="623.0" font-size="12" font-weight="400" fill="#2E3C42">Routine port-site excision is no longer recommended</text>
+<text x="54" y="643.5" font-size="12" font-weight="700" fill="#15806A">Incidental</text>
+<text x="162" y="643.5" font-size="12" font-weight="400" fill="#2E3C42">Found on histology after a lap chole → restage (CT chest/abdo/pelvis, MRI), MDT; re-resect for T1b and above</text>
+<text x="54" y="664.0" font-size="12" font-weight="700" fill="#15806A">Adjuvant</text>
+<text x="162" y="664.0" font-size="12" font-weight="400" fill="#2E3C42">Capecitabine after resection (BILCAP); advanced disease → gemcitabine + cisplatin (ABC-02)</text>
+<rect x="30" y="682.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="698.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">CHOLEDOCHAL CYSTS — TODANI TYPES</text>
+<rect x="30.0" y="712.0" width="181.6" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30.0" y="712.0" width="6" height="196" fill="#245C8C" rx="3"/>
+<text x="48.0" y="740.0" font-size="12.5" font-weight="800" fill="#16203F">TYPE I</text>
+<line x1="100.8" y1="764.0" x2="120.8" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="140.8" y1="764.0" x2="120.8" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="100.8" y1="764.0" x2="89.8" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="100.8" y1="764.0" x2="109.8" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="140.8" y1="764.0" x2="151.8" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="140.8" y1="764.0" x2="131.8" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="120.8" y1="784.0" x2="120.8" y2="836.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<rect x="99" y="836.0" width="44" height="14" rx="7" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.2"/>
+<ellipse cx="121" cy="808" rx="12" ry="23" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.8"/>
+<text x="48.0" y="872.0" font-size="10.5" font-weight="400" fill="#2E3C42">Fusiform extrahepatic CBD</text>
+<text x="48.0" y="885.0" font-size="10.5" font-weight="400" fill="#2E3C42">(commonest)</text>
+<rect x="219.6" y="712.0" width="181.6" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="219.6" y="712.0" width="6" height="196" fill="#15806A" rx="3"/>
+<text x="237.6" y="740.0" font-size="12.5" font-weight="800" fill="#16203F">TYPE II</text>
+<line x1="290.4" y1="764.0" x2="310.4" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="330.4" y1="764.0" x2="310.4" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="290.4" y1="764.0" x2="279.4" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="290.4" y1="764.0" x2="299.4" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="330.4" y1="764.0" x2="341.4" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="330.4" y1="764.0" x2="321.4" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="310.4" y1="784.0" x2="310.4" y2="836.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<rect x="288" y="836.0" width="44" height="14" rx="7" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.2"/>
+<line x1="310.4" y1="806.0" x2="323.4" y2="802.0" stroke="#15806A" stroke-width="2"/>
+<circle cx="332" cy="800" r="10" fill="#E2F1EC" stroke="#15806A" stroke-width="1.6"/>
+<text x="237.6" y="872.0" font-size="10.5" font-weight="400" fill="#2E3C42">Supraduodenal diverticulum</text>
+<rect x="409.2" y="712.0" width="181.6" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="409.2" y="712.0" width="6" height="196" fill="#C77B20" rx="3"/>
+<text x="427.2" y="740.0" font-size="12.5" font-weight="800" fill="#16203F">TYPE III</text>
+<line x1="480.0" y1="764.0" x2="500.0" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="520.0" y1="764.0" x2="500.0" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="480.0" y1="764.0" x2="469.0" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="480.0" y1="764.0" x2="489.0" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="520.0" y1="764.0" x2="531.0" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="520.0" y1="764.0" x2="511.0" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="500.0" y1="784.0" x2="500.0" y2="836.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<rect x="478" y="836.0" width="44" height="14" rx="7" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.2"/>
+<circle cx="500" cy="837" r="10" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.6"/>
+<text x="427.2" y="872.0" font-size="10.5" font-weight="400" fill="#2E3C42">Choledochocele</text>
+<text x="427.2" y="885.0" font-size="10.5" font-weight="400" fill="#2E3C42">(intraduodenal)</text>
+<rect x="598.8" y="712.0" width="181.6" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="598.8" y="712.0" width="6" height="196" fill="#6D4AA3" rx="3"/>
+<text x="616.8" y="740.0" font-size="12.5" font-weight="800" fill="#16203F">TYPE IV</text>
+<line x1="669.5999999999999" y1="764.0" x2="689.5999999999999" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="709.5999999999999" y1="764.0" x2="689.5999999999999" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="669.5999999999999" y1="764.0" x2="658.5999999999999" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="669.5999999999999" y1="764.0" x2="678.5999999999999" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="709.5999999999999" y1="764.0" x2="720.5999999999999" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="709.5999999999999" y1="764.0" x2="700.5999999999999" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="689.5999999999999" y1="784.0" x2="689.5999999999999" y2="836.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<rect x="668" y="836.0" width="44" height="14" rx="7" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.2"/>
+<circle cx="666" cy="761" r="7" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.6"/>
+<circle cx="714" cy="761" r="7" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.6"/>
+<ellipse cx="690" cy="810" rx="10" ry="19" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.8"/>
+<text x="616.8" y="872.0" font-size="10.5" font-weight="400" fill="#2E3C42">Intra + extrahepatic cysts</text>
+<rect x="788.4" y="712.0" width="181.6" height="196" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="788.4" y="712.0" width="6" height="196" fill="#BE3A2E" rx="3"/>
+<text x="806.4" y="740.0" font-size="12.5" font-weight="800" fill="#16203F">TYPE V</text>
+<line x1="859.1999999999999" y1="764.0" x2="879.1999999999999" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="899.1999999999999" y1="764.0" x2="879.1999999999999" y2="784.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<line x1="859.1999999999999" y1="764.0" x2="848.1999999999999" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="859.1999999999999" y1="764.0" x2="868.1999999999999" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="899.1999999999999" y1="764.0" x2="910.1999999999999" y2="753.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="899.1999999999999" y1="764.0" x2="890.1999999999999" y2="751.0" stroke="#AEBBC0" stroke-width="1.7"/>
+<line x1="879.1999999999999" y1="784.0" x2="879.1999999999999" y2="836.0" stroke="#AEBBC0" stroke-width="2.4"/>
+<rect x="857" y="836.0" width="44" height="14" rx="7" fill="#EBE1CE" stroke="#CDBF9E" stroke-width="1.2"/>
+<circle cx="864" cy="766" r="6" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.6"/>
+<circle cx="894" cy="766" r="6" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.6"/>
+<circle cx="851" cy="756" r="5" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.6"/>
+<circle cx="907" cy="756" r="5" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.6"/>
+<circle cx="879" cy="778" r="5" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.6"/>
+<text x="806.4" y="872.0" font-size="10.5" font-weight="400" fill="#2E3C42">Caroli — intrahepatic only</text>
+<rect x="30" y="918.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="934.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">CHOLEDOCHAL CYSTS — PRINCIPLES &amp; MANAGEMENT</text>
+<rect x="30" y="948.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="948.0" width="6" height="164.0" fill="#15806A" rx="3"/>
+<text x="54" y="976.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">excise, don't just drain</text>
+<text x="54" y="1000.0" font-size="18" font-weight="800" fill="#16203F">Why and how to operate</text>
+<text x="54" y="1022.0" font-size="12" font-weight="700" fill="#15806A">Cause</text>
+<text x="134" y="1022.0" font-size="12" font-weight="400" fill="#2E3C42">Anomalous pancreaticobiliary junction (long common channel) → pancreatic reflux → chronic inflammation</text>
+<text x="54" y="1042.5" font-size="12" font-weight="700" fill="#15806A">Present</text>
+<text x="134" y="1042.5" font-size="12" font-weight="400" fill="#2E3C42">Children: pain + jaundice + palpable mass (rarely all three); adults: cholangitis, pancreatitis, stones</text>
+<text x="54" y="1063.0" font-size="12" font-weight="700" fill="#15806A">Malignancy</text>
+<text x="134" y="1063.0" font-size="12" font-weight="400" fill="#2E3C42">Lifetime cholangiocarcinoma risk ~3–7.5%, rising with age; also gallbladder cancer</text>
+<text x="54" y="1083.5" font-size="12" font-weight="700" fill="#15806A">Surgery</text>
+<text x="134" y="1083.5" font-size="12" font-weight="400" fill="#2E3C42">COMPLETE excision + cholecystectomy + Roux-en-Y hepaticojejunostomy (I, II, IV). Type III → endoscopic sphincterotomy; type V</text>
+<text x="134" y="1104.0" font-size="12" font-weight="400" fill="#2E3C42">(Caroli) → hepatectomy or transplant</text>
+<rect x="30" y="1122.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1138.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1152.0" width="940" height="250.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1152.0" width="6" height="250.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1174.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1178.0" font-size="12" font-weight="600" fill="#16203F">Gallbladder cancer confined to the mucosa (Tis / T1a) is cured by simple cholecystectomy; T1b and beyond need an extended</text>
+<text x="72" y="1196.0" font-size="12" font-weight="400" fill="#2E3C42">(radical) cholecystectomy with segment IVb/V resection and portal lymphadenectomy.</text>
+<circle cx="60" cy="1214.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1218.0" font-size="12" font-weight="600" fill="#16203F">When gallbladder cancer is found incidentally on histology after a lap chole, restage and re-resect for T1b+; routine port-site</text>
+<text x="72" y="1236.0" font-size="12" font-weight="400" fill="#2E3C42">excision is not recommended.</text>
+<circle cx="60" cy="1254.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1258.0" font-size="12" font-weight="600" fill="#16203F">T2b (hepatic-side) tumours behave worse than T2a (peritoneal-side) — location matters in the AJCC 8th edition.</text>
+<circle cx="60" cy="1276.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1280.0" font-size="12" font-weight="600" fill="#16203F">A choledochal cyst needs COMPLETE excision with Roux-en-Y hepaticojejunostomy, not internal drainage — the retained cyst</text>
+<text x="72" y="1298.0" font-size="12" font-weight="400" fill="#2E3C42">wall keeps a lifelong cholangiocarcinoma risk.</text>
+<circle cx="60" cy="1316.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1320.0" font-size="12" font-weight="600" fill="#16203F">Todani type III (choledochocele) is the exception — often managed endoscopically; type V is Caroli disease (intrahepatic),</text>
+<text x="72" y="1338.0" font-size="12" font-weight="400" fill="#2E3C42">managed by resection or transplant.</text>
+<circle cx="60" cy="1356.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1360.0" font-size="12" font-weight="600" fill="#16203F">Suspect an anomalous pancreaticobiliary junction (long common channel) behind both choledochal cysts and some gallbladder</text>
+<text x="72" y="1378.0" font-size="12" font-weight="400" fill="#2E3C42">cancers.</text>
+<line x1="30" y1="1424.0" x2="970" y2="1424.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1443.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: AJCC 8th edition TNM staging (gallbladder cancer) · Todani classification of choledochal cysts (modification of Alonso-Lej). Adjuvant: BILCAP (capecitabine); advanced: ABC-02</text>
+<text x="30" y="1457.0" font-size="10.5" font-weight="400" fill="#7C8A8E">(gemcitabine + cisplatin).</text>
+<text x="30" y="1471.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Extended (radical) cholecystectomy = cholecystectomy + liver segment IVb/V resection + hepatoduodenal-ligament lymphadenectomy. Cholangiocarcinoma is on the companion sheet</text>
+<text x="30" y="1485.0" font-size="10.5" font-weight="400" fill="#7C8A8E">(biliary 3 of 4).</text>
+<text x="30" y="1499.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1529" width="1000" height="46" fill="#283A6B"/><text x="30" y="1558" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1558" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

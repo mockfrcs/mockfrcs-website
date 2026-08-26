@@ -1,0 +1,191 @@
+<svg viewBox="0 0 1000 1804" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1804" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Gallstone disease &amp; biliary emergencies</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  Tokyo Guidelines (TG18) · NICE CG188  ·  cholecystitis · cholangitis · CBD stones · Mirizzi  ·  HPB (biliary 1 of 4)</text>
+<rect x="30" y="126" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">GALLSTONE COMPOSITIONS</text>
+<rect x="30" y="160" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 206 L 30 171 Q 30 160 41 160 L 321.6666666666667 160 Q 332.6666666666667 160 332.6666666666667 171 L 332.6666666666667 206 Z" fill="#15806A"/>
+<text x="44" y="181" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">CHOLESTEROL</text>
+<text x="44" y="198" font-size="11.5" font-weight="600" fill="#FFFFFF">supersaturation</text>
+<text x="44" y="224" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Frequency</text>
+<text x="44" y="239" font-size="11" font-weight="400" fill="#2E3C42">Commonest (~80%); usually mixed</text>
+<text x="44" y="263" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Cause</text>
+<text x="44" y="278" font-size="11" font-weight="400" fill="#2E3C42">Cholesterol-supersaturated bile; 5 Fs — female,</text>
+<text x="44" y="293" font-size="11" font-weight="400" fill="#2E3C42">forty, fat, fertile, fair; also rapid weight loss, ileal</text>
+<text x="44" y="308" font-size="11" font-weight="400" fill="#2E3C42">disease, OCP</text>
+<text x="44" y="332" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Imaging</text>
+<text x="44" y="347" font-size="11" font-weight="400" fill="#2E3C42">Usually radiolucent (only ~10–15%</text>
+<text x="44" y="362" font-size="11" font-weight="400" fill="#2E3C42">radio-opaque)</text>
+<rect x="348.6666666666667" y="160" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 206 L 348.6666666666667 171 Q 348.6666666666667 160 359.6666666666667 160 L 640.3333333333334 160 Q 651.3333333333334 160 651.3333333333334 171 L 651.3333333333334 206 Z" fill="#245C8C"/>
+<text x="362.6666666666667" y="181" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BLACK PIGMENT</text>
+<text x="362.6666666666667" y="198" font-size="11.5" font-weight="600" fill="#FFFFFF">haemolysis / cirrhosis</text>
+<text x="362.6666666666667" y="224" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Made of</text>
+<text x="362.6666666666667" y="239" font-size="11" font-weight="400" fill="#2E3C42">Calcium bilirubinate (polymerised)</text>
+<text x="362.6666666666667" y="263" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Cause</text>
+<text x="362.6666666666667" y="278" font-size="11" font-weight="400" fill="#2E3C42">Chronic haemolysis (sickle, spherocytosis,</text>
+<text x="362.6666666666667" y="293" font-size="11" font-weight="400" fill="#2E3C42">thalassaemia); cirrhosis; ileal disease</text>
+<text x="362.6666666666667" y="317" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Where</text>
+<text x="362.6666666666667" y="332" font-size="11" font-weight="400" fill="#2E3C42">Form in the gallbladder; often radio-opaque</text>
+<rect x="667.3333333333334" y="160" width="302.6666666666667" height="229" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 206 L 667.3333333333334 171 Q 667.3333333333334 160 678.3333333333334 160 L 959.0 160 Q 970.0 160 970.0 171 L 970.0 206 Z" fill="#C77B20"/>
+<text x="681.3333333333334" y="181" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BROWN PIGMENT</text>
+<text x="681.3333333333334" y="198" font-size="11.5" font-weight="600" fill="#FFFFFF">infected duct stones</text>
+<text x="681.3333333333334" y="224" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Made of</text>
+<text x="681.3333333333334" y="239" font-size="11" font-weight="400" fill="#2E3C42">Calcium bilirubinate + fatty acids</text>
+<text x="681.3333333333334" y="254" font-size="11" font-weight="400" fill="#2E3C42">(unpolymerised)</text>
+<text x="681.3333333333334" y="278" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Cause</text>
+<text x="681.3333333333334" y="293" font-size="11" font-weight="400" fill="#2E3C42">Biliary stasis + infection (bacterial</text>
+<text x="681.3333333333334" y="308" font-size="11" font-weight="400" fill="#2E3C42">β-glucuronidase); parasites (Clonorchis)</text>
+<text x="681.3333333333334" y="332" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Where</text>
+<text x="681.3333333333334" y="347" font-size="11" font-weight="400" fill="#2E3C42">Form in the bile DUCTS (primary duct stones);</text>
+<text x="681.3333333333334" y="362" font-size="11" font-weight="400" fill="#2E3C42">common in Asia</text>
+<rect x="30" y="401" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="417" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE GALLSTONE DISEASE SPECTRUM</text>
+<path d="M 30.0 431.0 L 243.0 431.0 L 265.0 467.0 L 243.0 503.0 L 30.0 503.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="46.0" y="457" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">BILIARY COLIC</text>
+<text x="46.0" y="475" font-size="11" font-weight="400" fill="#2E3C42">Post-prandial RUQ pain;</text>
+<text x="46.0" y="490" font-size="11" font-weight="400" fill="#2E3C42">self-limiting; no fever</text>
+<path d="M 265.0 431.0 L 478.0 431.0 L 500.0 467.0 L 478.0 503.0 L 265.0 503.0 L 287.0 467.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="297.0" y="457" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">ACUTE CHOLECYSTITIS</text>
+<text x="297.0" y="475" font-size="11" font-weight="400" fill="#2E3C42">Cystic-duct obstruction +</text>
+<text x="297.0" y="490" font-size="11" font-weight="400" fill="#2E3C42">inflammation; Murphy's +ve</text>
+<path d="M 500.0 431.0 L 713.0 431.0 L 735.0 467.0 L 713.0 503.0 L 500.0 503.0 L 522.0 467.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="532.0" y="457" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">CHOLEDOCHOLITHIASIS</text>
+<text x="532.0" y="475" font-size="11" font-weight="400" fill="#2E3C42">CBD stone → jaundice; may be</text>
+<text x="532.0" y="490" font-size="11" font-weight="400" fill="#2E3C42">silent</text>
+<path d="M 735.0 431.0 L 970.0 431.0 L 970.0 503.0 L 735.0 503.0 L 757.0 467.0 Z" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.4"/>
+<text x="767.0" y="457" font-size="11.5" font-weight="800" fill="#BE3A2E" letter-spacing="0.4">CHOLANGITIS</text>
+<text x="767.0" y="475" font-size="11" font-weight="400" fill="#2E3C42">CBD obstruction + infection;</text>
+<text x="767.0" y="490" font-size="11" font-weight="400" fill="#2E3C42">Charcot's triad</text>
+<rect x="30" y="515" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="531" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">TOKYO GUIDELINES (TG18) — SEVERITY GRADE (cholecystitis &amp; cholangitis)</text>
+<rect x="30.0" y="545" width="308.0" height="96" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="545" width="308.0" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="556" width="308.0" height="11" fill="#15806A"/>
+<text x="40.0" y="561" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">GRADE I</text>
+<text x="40.0" y="582" font-size="10.5" font-weight="700" fill="#15806A">Mild</text>
+<text x="40.0" y="597" font-size="10" font-weight="400" fill="#2E3C42">No organ dysfunction; mild inflammation</text>
+<rect x="346.0" y="545" width="308.0" height="96" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="346.0" y="545" width="308.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="346.0" y="556" width="308.0" height="11" fill="#C77B20"/>
+<text x="356.0" y="561" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">GRADE II</text>
+<text x="356.0" y="582" font-size="10.5" font-weight="700" fill="#C77B20">Moderate</text>
+<text x="356.0" y="597" font-size="10" font-weight="400" fill="#2E3C42">↑WCC, palpable mass, &gt;72 h, or marked local</text>
+<text x="356.0" y="610" font-size="10" font-weight="400" fill="#2E3C42">inflammation</text>
+<rect x="662.0" y="545" width="308.0" height="96" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="662.0" y="545" width="308.0" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="662.0" y="556" width="308.0" height="11" fill="#BE3A2E"/>
+<text x="672.0" y="561" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">GRADE III</text>
+<text x="672.0" y="582" font-size="10.5" font-weight="700" fill="#BE3A2E">Severe</text>
+<text x="672.0" y="597" font-size="10" font-weight="400" fill="#2E3C42">Organ / system dysfunction (CVS, renal, resp, neuro,</text>
+<text x="672.0" y="610" font-size="10" font-weight="400" fill="#2E3C42">hepatic, haem)</text>
+<rect x="30" y="653" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="669" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">ACUTE CHOLECYSTITIS vs ASCENDING CHOLANGITIS</text>
+<rect x="30" y="683" width="462.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="683" width="6" height="205.0" fill="#C77B20" rx="3"/>
+<text x="54" y="711" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the gallbladder</text>
+<text x="54" y="735" font-size="16" font-weight="800" fill="#16203F">Acute cholecystitis</text>
+<text x="54" y="757" font-size="12" font-weight="700" fill="#C77B20">Diagnosis</text>
+<text x="134" y="757.0" font-size="12" font-weight="400" fill="#2E3C42">TG18: local (Murphy's, RUQ mass/pain) + systemic</text>
+<text x="134" y="777.5" font-size="12" font-weight="400" fill="#2E3C42">(fever, ↑CRP/WCC) + imaging (US: thick wall,</text>
+<text x="134" y="798.0" font-size="12" font-weight="400" fill="#2E3C42">pericholecystic fluid)</text>
+<text x="54" y="818.5" font-size="12" font-weight="700" fill="#C77B20">Treat</text>
+<text x="134" y="818.5" font-size="12" font-weight="400" fill="#2E3C42">IV antibiotics + analgesia; early laparoscopic</text>
+<text x="134" y="839.0" font-size="12" font-weight="400" fill="#2E3C42">cholecystectomy within 1 week (NICE CG188)</text>
+<text x="54" y="859.5" font-size="12" font-weight="700" fill="#C77B20">If high-risk</text>
+<text x="134" y="859.5" font-size="12" font-weight="400" fill="#2E3C42">CHOCOLATE: lap cholecystectomy beats percutaneous</text>
+<text x="134" y="880.0" font-size="12" font-weight="400" fill="#2E3C42">cholecystostomy — reserve the drain for the truly unfit</text>
+<rect x="508.0" y="683" width="462.0" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="508.0" y="683" width="6" height="184.5" fill="#BE3A2E" rx="3"/>
+<text x="532.0" y="711" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">the bile duct</text>
+<text x="532.0" y="735" font-size="16" font-weight="800" fill="#16203F">Ascending cholangitis</text>
+<text x="532.0" y="757" font-size="12" font-weight="700" fill="#BE3A2E">Diagnosis</text>
+<text x="604.0" y="757.0" font-size="12" font-weight="400" fill="#2E3C42">TG18: systemic inflammation + cholestasis (+ imaging).</text>
+<text x="604.0" y="777.5" font-size="12" font-weight="400" fill="#2E3C42">Charcot's triad (fever, RUQ pain, jaundice); Reynolds'</text>
+<text x="604.0" y="798.0" font-size="12" font-weight="400" fill="#2E3C42">pentad adds shock + confusion</text>
+<text x="532.0" y="818.5" font-size="12" font-weight="700" fill="#BE3A2E">Cause</text>
+<text x="604.0" y="818.5" font-size="12" font-weight="400" fill="#2E3C42">CBD obstruction (stone commonest) + biliary infection</text>
+<text x="532.0" y="839.0" font-size="12" font-weight="700" fill="#BE3A2E">Treat</text>
+<text x="604.0" y="839.0" font-size="12" font-weight="400" fill="#2E3C42">Sepsis care + IV antibiotics; biliary drainage by ERCP —</text>
+<text x="604.0" y="859.5" font-size="12" font-weight="400" fill="#2E3C42">urgent in Grade III or non-response</text>
+<rect x="30" y="898.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="914.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">CBD STONES (CHOLEDOCHOLITHIASIS)</text>
+<rect x="30" y="928.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="928.0" width="6" height="164.0" fill="#245C8C" rx="3"/>
+<text x="54" y="956.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">predict, image, clear</text>
+<text x="54" y="980.0" font-size="18" font-weight="800" fill="#16203F">Managing duct stones</text>
+<text x="54" y="1002.0" font-size="12" font-weight="700" fill="#245C8C">High-risk (ASGE)</text>
+<text x="170" y="1002.0" font-size="12" font-weight="400" fill="#2E3C42">CBD stone on imaging; bilirubin &gt;4 mg/dL (&gt;68 µmol/L) with a dilated CBD; or ascending cholangitis (CBD &gt;6 mm is a strong</text>
+<text x="170" y="1022.5" font-size="12" font-weight="400" fill="#2E3C42">predictor)</text>
+<text x="54" y="1043.0" font-size="12" font-weight="700" fill="#245C8C">Investigate</text>
+<text x="170" y="1043.0" font-size="12" font-weight="400" fill="#2E3C42">Intermediate risk → MRCP or endoscopic ultrasound before intervention</text>
+<text x="54" y="1063.5" font-size="12" font-weight="700" fill="#245C8C">Treat</text>
+<text x="170" y="1063.5" font-size="12" font-weight="400" fill="#2E3C42">ERCP + sphincterotomy (pre- or post-op), or single-stage laparoscopic CBD exploration — equivalent; confirm clearance with</text>
+<text x="170" y="1084.0" font-size="12" font-weight="400" fill="#2E3C42">intra-operative cholangiogram</text>
+<rect x="30" y="1102.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1118.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">MECHANICAL COMPLICATIONS</text>
+<rect x="30" y="1132.0" width="462.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1132.0" width="6" height="205.0" fill="#6D4AA3" rx="3"/>
+<text x="54" y="1160.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">compression &amp; fistula</text>
+<text x="54" y="1184.0" font-size="16" font-weight="800" fill="#16203F">Mirizzi syndrome</text>
+<text x="54" y="1206.0" font-size="12" font-weight="700" fill="#6D4AA3">What</text>
+<text x="138" y="1206.0" font-size="12" font-weight="400" fill="#2E3C42">Stone impacted in Hartmann's pouch / cystic duct</text>
+<text x="138" y="1226.5" font-size="12" font-weight="400" fill="#2E3C42">compresses the common hepatic duct → obstructive</text>
+<text x="138" y="1247.0" font-size="12" font-weight="400" fill="#2E3C42">jaundice</text>
+<text x="54" y="1267.5" font-size="12" font-weight="700" fill="#6D4AA3">Csendes</text>
+<text x="138" y="1267.5" font-size="12" font-weight="400" fill="#2E3C42">I = compression; II = fistula &lt;1/3; III = &lt;2/3; IV =</text>
+<text x="138" y="1288.0" font-size="12" font-weight="400" fill="#2E3C42">complete duct destruction</text>
+<text x="54" y="1308.5" font-size="12" font-weight="700" fill="#6D4AA3">Beware</text>
+<text x="138" y="1308.5" font-size="12" font-weight="400" fill="#2E3C42">High bile-duct-injury risk &amp; association with GB cancer</text>
+<text x="138" y="1329.0" font-size="12" font-weight="400" fill="#2E3C42">→ often subtotal / open cholecystectomy</text>
+<rect x="508.0" y="1132.0" width="462.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="508.0" y="1132.0" width="6" height="205.0" fill="#245C8C" rx="3"/>
+<text x="532.0" y="1160.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">stone erodes into gut</text>
+<text x="532.0" y="1184.0" font-size="16" font-weight="800" fill="#16203F">Gallstone ileus</text>
+<text x="532.0" y="1206.0" font-size="12" font-weight="700" fill="#245C8C">Mechanism</text>
+<text x="626.0" y="1206.0" font-size="12" font-weight="400" fill="#2E3C42">Chronic cholecystitis → cholecystoduodenal fistula →</text>
+<text x="626.0" y="1226.5" font-size="12" font-weight="400" fill="#2E3C42">stone impacts at the ileocaecal valve → small-bowel</text>
+<text x="626.0" y="1247.0" font-size="12" font-weight="400" fill="#2E3C42">obstruction</text>
+<text x="532.0" y="1267.5" font-size="12" font-weight="700" fill="#245C8C">Rigler's triad</text>
+<text x="626.0" y="1267.5" font-size="12" font-weight="400" fill="#2E3C42">SBO + pneumobilia + ectopic gallstone (in the RIF)</text>
+<text x="532.0" y="1288.0" font-size="12" font-weight="700" fill="#245C8C">Treat</text>
+<text x="626.0" y="1288.0" font-size="12" font-weight="400" fill="#2E3C42">Enterolithotomy (± delayed cholecystectomy).</text>
+<text x="626.0" y="1308.5" font-size="12" font-weight="400" fill="#2E3C42">Bouveret = duodenal impaction → gastric-outlet</text>
+<text x="626.0" y="1329.0" font-size="12" font-weight="400" fill="#2E3C42">obstruction</text>
+<rect x="30" y="1347.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1363.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1377.0" width="940" height="268.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1377.0" width="6" height="268.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1399.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1403.0" font-size="12" font-weight="600" fill="#16203F">Charcot's triad is specific but insensitive — do not wait for all three (or for Reynolds' pentad) before treating suspected</text>
+<text x="72" y="1421.0" font-size="12" font-weight="400" fill="#2E3C42">cholangitis; it is a biliary emergency.</text>
+<circle cx="60" cy="1439.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1443.0" font-size="12" font-weight="600" fill="#16203F">Ascending cholangitis needs biliary decompression (usually ERCP), not antibiotics alone — drain the duct, urgently in Grade III</text>
+<text x="72" y="1461.0" font-size="12" font-weight="400" fill="#2E3C42">or if there is no response.</text>
+<circle cx="60" cy="1479.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1483.0" font-size="12" font-weight="600" fill="#16203F">Offer early laparoscopic cholecystectomy within 1 week for acute cholecystitis (NICE CG188); if that window is missed, delay</text>
+<text x="72" y="1501.0" font-size="12" font-weight="400" fill="#2E3C42">until &gt;4–6 weeks.</text>
+<circle cx="60" cy="1519.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1523.0" font-size="12" font-weight="600" fill="#16203F">In high-risk acute cholecystitis, laparoscopic cholecystectomy still beats percutaneous cholecystostomy (CHOCOLATE) —</text>
+<text x="72" y="1541.0" font-size="12" font-weight="400" fill="#2E3C42">reserve the drain for the genuinely unfit.</text>
+<circle cx="60" cy="1559.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1563.0" font-size="12" font-weight="600" fill="#16203F">Suspect Mirizzi with a stone in Hartmann's pouch and jaundice — the bile-duct-injury and gallbladder-cancer risks warrant a</text>
+<text x="72" y="1581.0" font-size="12" font-weight="400" fill="#2E3C42">low threshold for subtotal / open surgery.</text>
+<circle cx="60" cy="1599.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1603.0" font-size="12" font-weight="600" fill="#16203F">Rigler's triad (small-bowel obstruction, pneumobilia, ectopic gallstone) means gallstone ileus — relieve the obstruction</text>
+<text x="72" y="1621.0" font-size="12" font-weight="400" fill="#2E3C42">(enterolithotomy) first.</text>
+<line x1="30" y1="1667.0" x2="970" y2="1667.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1686.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: Tokyo Guidelines 2018 (TG18) — diagnostic criteria &amp; severity grading for acute cholecystitis and cholangitis · NICE CG188 (gallstone disease, 2014) · ASGE 2019 predictors of</text>
+<text x="30" y="1700.0" font-size="10.5" font-weight="400" fill="#7C8A8E">choledocholithiasis · Csendes classification (Mirizzi syndrome).</text>
+<text x="30" y="1714.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Trial: CHOCOLATE (laparoscopic cholecystectomy vs percutaneous cholecystostomy in high-risk acute cholecystitis). Gallstone pancreatitis is covered on the acute-pancreatitis sheet.</text>
+<text x="30" y="1728.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1758" width="1000" height="46" fill="#283A6B"/><text x="30" y="1787" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1787" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

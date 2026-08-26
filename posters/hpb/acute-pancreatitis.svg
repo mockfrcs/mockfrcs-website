@@ -1,0 +1,142 @@
+<svg viewBox="0 0 1000 1647" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1647" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Acute pancreatitis</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  revised Atlanta 2012 · NICE NG104  ·  severity · collections · step-up  ·  HPB (pancreas 4 · benign 1 of 2)</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">DIAGNOSIS &amp; TYPE</text>
+<rect x="30" y="156" width="940" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">assumed basics kept brief</text>
+<text x="54" y="208" font-size="18" font-weight="800" fill="#16203F">Making the diagnosis</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#245C8C">Diagnosis</text>
+<text x="134" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">2 of 3: characteristic pain; amylase or lipase &gt;3× upper limit of normal; characteristic imaging (contrast CT / MRI / US)</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#245C8C">Two types</text>
+<text x="134" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">Interstitial oedematous (~80–90%) vs necrotising (higher morbidity &amp; mortality)</text>
+<text x="54" y="271.0" font-size="12" font-weight="700" fill="#245C8C">Phases</text>
+<text x="134" y="271.0" font-size="12" font-weight="400" fill="#2E3C42">Early (≤1 week — SIRS / organ failure drives outcome) vs late (local complications, in necrotising disease)</text>
+<rect x="30" y="289.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="305.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">REVISED ATLANTA — SEVERITY BY ORGAN FAILURE</text>
+<rect x="30.0" y="319.0" width="308.0" height="84" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="319.0" width="308.0" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="330.0" width="308.0" height="11" fill="#15806A"/>
+<text x="40.0" y="335.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">MILD</text>
+<text x="40.0" y="356.0" font-size="10.5" font-weight="700" fill="#15806A">No organ failure</text>
+<text x="40.0" y="371.0" font-size="10" font-weight="400" fill="#2E3C42">No local or systemic complications</text>
+<rect x="346.0" y="319.0" width="308.0" height="84" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="346.0" y="319.0" width="308.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="346.0" y="330.0" width="308.0" height="11" fill="#C77B20"/>
+<text x="356.0" y="335.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">MODERATELY SEVERE</text>
+<text x="356.0" y="356.0" font-size="10.5" font-weight="700" fill="#C77B20">Transient organ failure &lt;48 h</text>
+<text x="356.0" y="371.0" font-size="10" font-weight="400" fill="#2E3C42">and/or local complications</text>
+<rect x="662.0" y="319.0" width="308.0" height="84" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="662.0" y="319.0" width="308.0" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="662.0" y="330.0" width="308.0" height="11" fill="#BE3A2E"/>
+<text x="672.0" y="335.0" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">SEVERE</text>
+<text x="672.0" y="356.0" font-size="10.5" font-weight="700" fill="#BE3A2E">Persistent organ failure ≥48 h</text>
+<text x="672.0" y="371.0" font-size="10" font-weight="400" fill="#2E3C42">± infected necrosis; high mortality</text>
+<rect x="30" y="413.0" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="429.0" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">PREDICTING SEVERITY</text>
+<rect x="30" y="443.0" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="443.0" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="471.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">scores &amp; markers</text>
+<text x="54" y="495.0" font-size="18" font-weight="800" fill="#16203F">Risk stratification</text>
+<text x="54" y="517.0" font-size="12" font-weight="700" fill="#245C8C">Glasgow-Imrie</text>
+<text x="156" y="517.0" font-size="12" font-weight="400" fill="#2E3C42">≥3 within 48 h = severe. PANCREAS: PaO2, Age, Neutrophils (WCC), Calcium, Renal (urea), Enzymes (LDH), Albumin, Sugar</text>
+<text x="156" y="537.5" font-size="12" font-weight="400" fill="#2E3C42">(glucose)</text>
+<text x="54" y="558.0" font-size="12" font-weight="700" fill="#245C8C">CRP</text>
+<text x="156" y="558.0" font-size="12" font-weight="400" fill="#2E3C42">&gt;150 mg/L at 48 h suggests severe disease / necrosis</text>
+<text x="54" y="578.5" font-size="12" font-weight="700" fill="#245C8C">Other</text>
+<text x="156" y="578.5" font-size="12" font-weight="400" fill="#2E3C42">APACHE II; persistent SIRS beyond 48 h; rising urea &amp; haematocrit; modified CT severity index (Balthazar)</text>
+<rect x="30" y="596.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="612.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">LOCAL COLLECTIONS — WHAT FORMS, AND WHEN</text>
+<text x="412.0" y="644.5" font-size="11.5" font-weight="700" fill="#6B7B80" text-anchor="middle">&lt; 4 weeks — no defined wall</text>
+<text x="788.0" y="644.5" font-size="11.5" font-weight="700" fill="#6B7B80" text-anchor="middle">&gt; 4 weeks — encapsulated</text>
+<rect x="30" y="654.5" width="188" height="74" fill="#15806A" rx="9"/>
+<text x="44" y="684.5" font-size="13" font-weight="800" fill="#FFFFFF">Interstitial</text>
+<text x="44" y="704.5" font-size="10.5" font-weight="500" fill="#FFFFFF">oedematous — no necrosis</text>
+<rect x="30" y="740.5" width="188" height="74" fill="#BE3A2E" rx="9"/>
+<text x="44" y="770.5" font-size="13" font-weight="800" fill="#FFFFFF">Necrotising</text>
+<text x="44" y="790.5" font-size="10.5" font-weight="500" fill="#FFFFFF">contains necrosis</text>
+<rect x="230" y="654.5" width="364.0" height="74" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.4"/>
+<rect x="230" y="654.5" width="5" height="74" fill="#15806A" rx="2"/>
+<text x="246" y="678.5" font-size="12.5" font-weight="800" fill="#16203F">APFC</text>
+<text x="246" y="696.5" font-size="11" font-weight="700" fill="#15806A">acute peripancreatic fluid</text>
+<text x="246" y="712.5" font-size="10.5" font-weight="400" fill="#2E3C42">Usually resolves spontaneously</text>
+<rect x="606.0" y="654.5" width="364.0" height="74" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.4"/>
+<rect x="606.0" y="654.5" width="5" height="74" fill="#245C8C" rx="2"/>
+<text x="622.0" y="678.5" font-size="12.5" font-weight="800" fill="#16203F">Pseudocyst</text>
+<text x="622.0" y="696.5" font-size="11" font-weight="700" fill="#245C8C">encapsulated; no necrosis</text>
+<text x="622.0" y="712.5" font-size="10.5" font-weight="400" fill="#2E3C42">Drain only if symptomatic</text>
+<rect x="230" y="740.5" width="364.0" height="74" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.4"/>
+<rect x="230" y="740.5" width="5" height="74" fill="#C77B20" rx="2"/>
+<text x="246" y="764.5" font-size="12.5" font-weight="800" fill="#16203F">ANC</text>
+<text x="246" y="782.5" font-size="11" font-weight="700" fill="#C77B20">acute necrotic collection</text>
+<text x="246" y="798.5" font-size="10.5" font-weight="400" fill="#2E3C42">Necrosis without a wall</text>
+<rect x="606.0" y="740.5" width="364.0" height="74" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.4"/>
+<rect x="606.0" y="740.5" width="5" height="74" fill="#BE3A2E" rx="2"/>
+<text x="622.0" y="764.5" font-size="12.5" font-weight="800" fill="#16203F">WON</text>
+<text x="622.0" y="782.5" font-size="11" font-weight="700" fill="#BE3A2E">walled-off necrosis</text>
+<text x="622.0" y="798.5" font-size="10.5" font-weight="400" fill="#2E3C42">Mature wall; step-up if infected</text>
+<rect x="30" y="824.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="840.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT (NICE NG104)</text>
+<rect x="30" y="854.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="854.5" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="882.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">supportive first</text>
+<text x="54" y="906.5" font-size="18" font-weight="800" fill="#16203F">How to manage</text>
+<text x="54" y="928.5" font-size="12" font-weight="700" fill="#15806A">Resuscitation</text>
+<text x="148" y="928.5" font-size="12" font-weight="400" fill="#2E3C42">Goal-directed IV fluids; analgesia; monitor for organ failure (HDU / ITU if severe)</text>
+<text x="54" y="949.0" font-size="12" font-weight="700" fill="#15806A">Nutrition</text>
+<text x="148" y="949.0" font-size="12" font-weight="400" fill="#2E3C42">Enteral nutrition within 72 h in moderately-severe / severe; oral diet as tolerated in mild — avoid prolonged nil-by-mouth</text>
+<text x="54" y="969.5" font-size="12" font-weight="700" fill="#15806A">Antibiotics</text>
+<text x="148" y="969.5" font-size="12" font-weight="400" fill="#2E3C42">NOT prophylactic — only for confirmed infection (infected necrosis, cholangitis)</text>
+<text x="54" y="990.0" font-size="12" font-weight="700" fill="#15806A">Gallstones</text>
+<text x="148" y="990.0" font-size="12" font-weight="400" fill="#2E3C42">ERCP if concurrent cholangitis / biliary obstruction; index-admission cholecystectomy after mild gallstone pancreatitis</text>
+<rect x="30" y="1008.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1024.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">INFECTED NECROSIS &amp; THE STEP-UP APPROACH</text>
+<rect x="30" y="1038.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1038.0" width="6" height="164.0" fill="#BE3A2E" rx="3"/>
+<text x="54" y="1066.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">drain before you cut</text>
+<text x="54" y="1090.0" font-size="18" font-weight="800" fill="#16203F">Managing necrosis</text>
+<text x="54" y="1112.0" font-size="12" font-weight="700" fill="#BE3A2E">Suspect</text>
+<text x="130" y="1112.0" font-size="12" font-weight="400" fill="#2E3C42">Clinical deterioration ~1–2 weeks in, or gas within a collection on CT</text>
+<text x="54" y="1132.5" font-size="12" font-weight="700" fill="#BE3A2E">Treat</text>
+<text x="130" y="1132.5" font-size="12" font-weight="400" fill="#2E3C42">Antibiotics for confirmed infection; STERILE necrosis is managed conservatively</text>
+<text x="54" y="1153.0" font-size="12" font-weight="700" fill="#BE3A2E">Timing</text>
+<text x="130" y="1153.0" font-size="12" font-weight="400" fill="#2E3C42">Delay intervention until the collection is walled-off (~4 weeks) where possible</text>
+<text x="54" y="1173.5" font-size="12" font-weight="700" fill="#BE3A2E">Step-up</text>
+<text x="130" y="1173.5" font-size="12" font-weight="400" fill="#2E3C42">Percutaneous or endoscopic drainage first → minimally invasive necrosectomy only if needed (PANTER, TENSION); NICE prefers the</text>
+<text x="130" y="1194.0" font-size="12" font-weight="400" fill="#2E3C42">endoscopic route</text>
+<rect x="30" y="1212.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1228.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1242.0" width="940" height="232.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1242.0" width="6" height="232.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1264.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1268.0" font-size="12" font-weight="600" fill="#16203F">Severity in the revised Atlanta classification is defined by organ failure: transient (&lt;48 h) = moderately severe; persistent</text>
+<text x="72" y="1286.0" font-size="12" font-weight="400" fill="#2E3C42">(≥48 h) = severe.</text>
+<circle cx="60" cy="1304.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1308.0" font-size="12" font-weight="600" fill="#16203F">A pseudocyst is an encapsulated collection that takes ~4 weeks to form and contains NO solid necrosis; walled-off necrosis</text>
+<text x="72" y="1326.0" font-size="12" font-weight="400" fill="#2E3C42">contains necrotic material — do not confuse them.</text>
+<circle cx="60" cy="1344.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1348.0" font-size="12" font-weight="600" fill="#16203F">Do not give prophylactic antibiotics in acute pancreatitis — reserve antibiotics for confirmed infection.</text>
+<circle cx="60" cy="1366.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1370.0" font-size="12" font-weight="600" fill="#16203F">Feed the gut: start enteral nutrition early (within 72 h) in moderately-severe / severe disease rather than keeping the patient</text>
+<text x="72" y="1388.0" font-size="12" font-weight="400" fill="#2E3C42">nil-by-mouth.</text>
+<circle cx="60" cy="1406.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1410.0" font-size="12" font-weight="600" fill="#16203F">For infected necrosis, delay and use a step-up approach (drainage first, then minimally invasive necrosectomy) rather than</text>
+<text x="72" y="1428.0" font-size="12" font-weight="400" fill="#2E3C42">early open necrosectomy.</text>
+<circle cx="60" cy="1446.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1450.0" font-size="12" font-weight="600" fill="#16203F">Offer an index-admission cholecystectomy after mild gallstone pancreatitis to prevent recurrence.</text>
+<line x1="30" y1="1496.0" x2="970" y2="1496.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1515.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: revised Atlanta classification of acute pancreatitis (Banks et al., Gut 2013) · NICE NG104 (pancreatitis, 2018) · IAP/APA evidence-based guidelines. Severity scoring:</text>
+<text x="30" y="1529.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Glasgow-Imrie, CRP, APACHE II.</text>
+<text x="30" y="1543.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Step-up approach: PANTER (van Santvoort et al., NEJM 2010) and TENSION (endoscopic vs surgical step-up). Aetiology and basic diagnosis are assumed. Chronic pancreatitis &amp; pancreatic</text>
+<text x="30" y="1557.0" font-size="10.5" font-weight="400" fill="#7C8A8E">divisum are on the companion sheet (benign 2 of 2).</text>
+<text x="30" y="1571.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1601" width="1000" height="46" fill="#283A6B"/><text x="30" y="1630" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1630" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

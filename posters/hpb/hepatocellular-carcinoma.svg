@@ -1,0 +1,165 @@
+<svg viewBox="0 0 1000 1666" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1666" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#283A6B"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Hepatocellular carcinoma</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#C3CBE6">FRCS Part 1 (General Surgery)  ·  EASL · BCLC 2022 · NICE  ·  imaging · staging · curative &amp; palliative treatment  ·  HPB (3)</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AT-RISK GROUPS &amp; SURVEILLANCE</text>
+<rect x="30" y="156" width="940" height="102.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="156" width="6" height="102.5" fill="#245C8C" rx="3"/>
+<text x="54" y="184" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">who and how often</text>
+<text x="54" y="208" font-size="18" font-weight="800" fill="#16203F">Risk factors &amp; screening</text>
+<text x="54" y="230" font-size="12" font-weight="700" fill="#245C8C">At risk</text>
+<text x="140" y="230.0" font-size="12" font-weight="400" fill="#2E3C42">Cirrhosis of ANY cause; chronic hepatitis B (± cirrhosis); hepatitis C, alcohol, MASLD, hereditary haemochromatosis; aflatoxin exposure</text>
+<text x="54" y="250.5" font-size="12" font-weight="700" fill="#245C8C">Surveillance</text>
+<text x="140" y="250.5" font-size="12" font-weight="400" fill="#2E3C42">6-monthly liver ultrasound ± serum AFP in cirrhosis and in chronic HBV (NICE NG50)</text>
+<rect x="30" y="270.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="286.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">DIAGNOSIS — MULTIPHASE CT / MRI</text>
+<rect x="30" y="300.5" width="302.6666666666667" height="168" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="300.5" width="6" height="168" fill="#C77B20" rx="3"/>
+<text x="52" y="330.5" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">1 · ARTERIAL PHASE</text>
+<rect x="65.0" y="350.5" width="238.66666666666669" height="62" rx="26" fill="#C2CED3"/>
+<circle cx="183.33333333333334" cy="381.5" r="17" fill="#F0B45C"/>
+<text x="52" y="436.5" font-size="11" font-weight="400" fill="#2E3C42">Nodule brighter than liver — non-rim</text>
+<text x="52" y="451.5" font-size="11" font-weight="400" fill="#2E3C42">arterial-phase hyperenhancement (APHE)</text>
+<rect x="348.6666666666667" y="300.5" width="302.6666666666667" height="168" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="348.6666666666667" y="300.5" width="6" height="168" fill="#245C8C" rx="3"/>
+<text x="370.6666666666667" y="330.5" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">2 · PORTAL VENOUS</text>
+<rect x="383.6666666666667" y="350.5" width="238.66666666666669" height="62" rx="26" fill="#C2CED3"/>
+<circle cx="502.0" cy="381.5" r="20" fill="none" stroke="#9AA6AA" stroke-width="3"/>
+<circle cx="502.0" cy="381.5" r="17" fill="#7E8C92"/>
+<text x="370.6666666666667" y="436.5" font-size="11" font-weight="400" fill="#2E3C42">Nodule darker than liver — non-peripheral</text>
+<text x="370.6666666666667" y="451.5" font-size="11" font-weight="400" fill="#2E3C42">washout begins</text>
+<rect x="667.3333333333334" y="300.5" width="302.6666666666667" height="168" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="667.3333333333334" y="300.5" width="6" height="168" fill="#15806A" rx="3"/>
+<text x="689.3333333333334" y="330.5" font-size="13" font-weight="800" fill="#16203F" letter-spacing="0.3">3 · DELAYED / EQUILIBRIUM</text>
+<rect x="702.3333333333334" y="350.5" width="238.66666666666669" height="62" rx="26" fill="#C2CED3"/>
+<circle cx="820.6666666666667" cy="381.5" r="20" fill="none" stroke="#E8A54B" stroke-width="3"/>
+<circle cx="820.6666666666667" cy="381.5" r="17" fill="#5C6C72"/>
+<text x="689.3333333333334" y="436.5" font-size="11" font-weight="400" fill="#2E3C42">Washout with an enhancing capsule (rim)</text>
+<rect x="30" y="488.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="488.5" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="516.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">hallmarks &amp; confirmation</text>
+<text x="54" y="540.5" font-size="18" font-weight="800" fill="#16203F">Diagnostic criteria</text>
+<text x="54" y="562.5" font-size="12" font-weight="700" fill="#15806A">Non-invasive dx</text>
+<text x="164" y="562.5" font-size="12" font-weight="400" fill="#2E3C42">In cirrhosis or chronic HBV, a ≥1 cm nodule with APHE + non-peripheral washout = LR-5 / definite HCC — diagnostic, no biopsy</text>
+<text x="54" y="583.0" font-size="12" font-weight="700" fill="#15806A">MRI</text>
+<text x="164" y="583.0" font-size="12" font-weight="400" fill="#2E3C42">Gadoxetate (hepatobiliary-phase) MRI: lesion hypointense in the hepatobiliary phase adds confidence</text>
+<text x="54" y="603.5" font-size="12" font-weight="700" fill="#15806A">AFP</text>
+<text x="164" y="603.5" font-size="12" font-weight="400" fill="#2E3C42">Adjunct only, not diagnostic alone; a normal AFP does not exclude HCC; useful for surveillance / response</text>
+<text x="54" y="624.0" font-size="12" font-weight="700" fill="#15806A">Biopsy</text>
+<text x="164" y="624.0" font-size="12" font-weight="400" fill="#2E3C42">Reserve for atypical imaging or a non-cirrhotic liver (tumour-seeding risk)</text>
+<rect x="30" y="644.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="660.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">BCLC 2022 — STAGE DIRECTS TREATMENT</text>
+<rect x="30" y="674.0" width="940" height="24" fill="#16203F" rx="5"/>
+<text x="40" y="690.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Stage</text>
+<text x="150" y="690.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Tumour burden</text>
+<text x="410" y="690.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Liver / performance</text>
+<text x="615" y="690.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">First-line treatment</text>
+<rect x="30" y="698.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="698.0" width="4" height="24" fill="#15806A"/>
+<text x="40" y="714.0" font-size="11" font-weight="700" fill="#16203F">0 · very early</text>
+<text x="150" y="714.0" font-size="11" font-weight="400" fill="#2E3C42">Single ≤2 cm</text>
+<text x="410" y="714.0" font-size="11" font-weight="400" fill="#2E3C42">Child A, PS 0</text>
+<text x="615" y="714.0" font-size="11" font-weight="400" fill="#2E3C42">Ablation (or resection)</text>
+<rect x="30" y="722.0" width="4" height="24" fill="#15806A"/>
+<text x="40" y="738.0" font-size="11" font-weight="700" fill="#16203F">A · early</text>
+<text x="150" y="738.0" font-size="11" font-weight="400" fill="#2E3C42">Single, or ≤3 nodules ≤3 cm</text>
+<text x="410" y="738.0" font-size="11" font-weight="400" fill="#2E3C42">Child A–B, PS 0</text>
+<text x="615" y="738.0" font-size="11" font-weight="400" fill="#2E3C42">Resection · transplant · ablation</text>
+<rect x="30" y="746.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="746.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="762.0" font-size="11" font-weight="700" fill="#16203F">B · intermediate</text>
+<text x="150" y="762.0" font-size="11" font-weight="400" fill="#2E3C42">Multinodular, no invasion</text>
+<text x="410" y="762.0" font-size="11" font-weight="400" fill="#2E3C42">Child A–B, PS 0</text>
+<text x="615" y="762.0" font-size="11" font-weight="400" fill="#2E3C42">TACE</text>
+<rect x="30" y="770.0" width="4" height="24" fill="#C77B20"/>
+<text x="40" y="786.0" font-size="11" font-weight="700" fill="#16203F">C · advanced</text>
+<text x="150" y="786.0" font-size="11" font-weight="400" fill="#2E3C42">Vascular invasion / extrahepatic</text>
+<text x="410" y="786.0" font-size="11" font-weight="400" fill="#2E3C42">Child A–B, PS 1–2</text>
+<text x="615" y="786.0" font-size="11" font-weight="400" fill="#2E3C42">Systemic therapy</text>
+<rect x="30" y="794.0" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="794.0" width="4" height="24" fill="#BE3A2E"/>
+<text x="40" y="810.0" font-size="11" font-weight="700" fill="#16203F">D · terminal</text>
+<text x="150" y="810.0" font-size="11" font-weight="400" fill="#2E3C42">Any</text>
+<text x="410" y="810.0" font-size="11" font-weight="400" fill="#2E3C42">Child C, or PS 3–4</text>
+<text x="615" y="810.0" font-size="11" font-weight="400" fill="#2E3C42">Best supportive care</text>
+<text x="30" y="836.0" font-size="10.5" font-weight="400" fill="#6B7B80">Treatment stage migration: if the ideal option is precluded, move to the next feasible treatment. Curative = stages 0–A (green); TACE / systemic are non-curative.</text>
+<rect x="30" y="847.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="863.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">CURATIVE MODALITIES (BCLC 0–A)</text>
+<rect x="30" y="877.0" width="302.6666666666667" height="190" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 923.0 L 30 888.0 Q 30 877.0 41 877.0 L 321.6666666666667 877.0 Q 332.6666666666667 877.0 332.6666666666667 888.0 L 332.6666666666667 923.0 Z" fill="#15806A"/>
+<text x="44" y="898.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">RESECTION</text>
+<text x="44" y="915.0" font-size="11.5" font-weight="600" fill="#FFFFFF">hepatic resection</text>
+<text x="44" y="941.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Best for</text>
+<text x="44" y="956.0" font-size="11" font-weight="400" fill="#2E3C42">Single tumour, preserved liver (Child A), no</text>
+<text x="44" y="971.0" font-size="11" font-weight="400" fill="#2E3C42">clinically significant portal hypertension</text>
+<text x="44" y="995.0" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Caveats</text>
+<text x="44" y="1010.0" font-size="11" font-weight="400" fill="#2E3C42">Adequate future liver remnant needed; high</text>
+<text x="44" y="1025.0" font-size="11" font-weight="400" fill="#2E3C42">recurrence (~50–70% at 5 y)</text>
+<rect x="348.6666666666667" y="877.0" width="302.6666666666667" height="190" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.6666666666667 923.0 L 348.6666666666667 888.0 Q 348.6666666666667 877.0 359.6666666666667 877.0 L 640.3333333333334 877.0 Q 651.3333333333334 877.0 651.3333333333334 888.0 L 651.3333333333334 923.0 Z" fill="#245C8C"/>
+<text x="362.6666666666667" y="898.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TRANSPLANT</text>
+<text x="362.6666666666667" y="915.0" font-size="11.5" font-weight="600" fill="#FFFFFF">liver transplantation</text>
+<text x="362.6666666666667" y="941.0" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Milan</text>
+<text x="362.6666666666667" y="956.0" font-size="11" font-weight="400" fill="#2E3C42">1 lesion ≤5 cm, or ≤3 each ≤3 cm, no vascular</text>
+<text x="362.6666666666667" y="971.0" font-size="11" font-weight="400" fill="#2E3C42">invasion</text>
+<text x="362.6666666666667" y="995.0" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Why</text>
+<text x="362.6666666666667" y="1010.0" font-size="11" font-weight="400" fill="#2E3C42">Treats tumour AND cirrhosis — best long-term</text>
+<text x="362.6666666666667" y="1025.0" font-size="11" font-weight="400" fill="#2E3C42">outcome; bridge with ablation / TACE while</text>
+<text x="362.6666666666667" y="1040.0" font-size="11" font-weight="400" fill="#2E3C42">waiting</text>
+<rect x="667.3333333333334" y="877.0" width="302.6666666666667" height="190" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 667.3333333333334 923.0 L 667.3333333333334 888.0 Q 667.3333333333334 877.0 678.3333333333334 877.0 L 959.0 877.0 Q 970.0 877.0 970.0 888.0 L 970.0 923.0 Z" fill="#6D4AA3"/>
+<text x="681.3333333333334" y="898.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ABLATION</text>
+<text x="681.3333333333334" y="915.0" font-size="11.5" font-weight="600" fill="#FFFFFF">RFA / microwave</text>
+<text x="681.3333333333334" y="941.0" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Best for</text>
+<text x="681.3333333333334" y="956.0" font-size="11" font-weight="400" fill="#2E3C42">Tumours ≤3 cm (up to ~5 cm); curative in very</text>
+<text x="681.3333333333334" y="971.0" font-size="11" font-weight="400" fill="#2E3C42">early HCC</text>
+<text x="681.3333333333334" y="995.0" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Note</text>
+<text x="681.3333333333334" y="1010.0" font-size="11" font-weight="400" fill="#2E3C42">Radiofrequency / microwave; comparable to</text>
+<text x="681.3333333333334" y="1025.0" font-size="11" font-weight="400" fill="#2E3C42">resection for very early disease</text>
+<rect x="30" y="1079.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1095.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">NON-CURATIVE / PALLIATIVE (BCLC B–D)</text>
+<rect x="30" y="1109.0" width="940" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1109.0" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="54" y="1137.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">control, not cure</text>
+<text x="54" y="1161.0" font-size="18" font-weight="800" fill="#16203F">TACE · systemic therapy · supportive</text>
+<text x="54" y="1183.0" font-size="12" font-weight="700" fill="#C77B20">TACE</text>
+<text x="190" y="1183.0" font-size="12" font-weight="400" fill="#2E3C42">Intermediate (B): transarterial chemoembolisation; needs preserved liver function</text>
+<text x="54" y="1203.5" font-size="12" font-weight="700" fill="#C77B20">Systemic — 1st line</text>
+<text x="190" y="1203.5" font-size="12" font-weight="400" fill="#2E3C42">Atezolizumab + bevacizumab (Child A) — screen &amp; treat varices first (bevacizumab bleeding risk); durvalumab +</text>
+<text x="190" y="1224.0" font-size="12" font-weight="400" fill="#2E3C42">tremelimumab as alternative immunotherapy; lenvatinib / sorafenib if immunotherapy unsuitable</text>
+<text x="54" y="1244.5" font-size="12" font-weight="700" fill="#C77B20">Systemic — 2nd line</text>
+<text x="190" y="1244.5" font-size="12" font-weight="400" fill="#2E3C42">Regorafenib or cabozantinib (tyrosine-kinase inhibitors)</text>
+<text x="54" y="1265.0" font-size="12" font-weight="700" fill="#C77B20">Other</text>
+<text x="190" y="1265.0" font-size="12" font-weight="400" fill="#2E3C42">Selective internal radiotherapy (Y-90 / TARE) in selected cases; radiotherapy; supportive care &amp; MDT</text>
+<rect x="30" y="1285.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1301.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1315.0" width="940" height="178.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1315.0" width="6" height="178.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1337.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1341.0" font-size="12" font-weight="600" fill="#16203F">In a cirrhotic or chronic-HBV liver, a ≥1 cm nodule with arterial hyperenhancement and washout is diagnostic of HCC — biopsy is not required</text>
+<text x="72" y="1359.0" font-size="12" font-weight="400" fill="#2E3C42">and risks tumour seeding.</text>
+<circle cx="60" cy="1377.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1381.0" font-size="12" font-weight="600" fill="#16203F">AFP is not a diagnostic test on its own and a normal AFP does not exclude HCC — use imaging.</text>
+<circle cx="60" cy="1399.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1403.0" font-size="12" font-weight="600" fill="#16203F">Resection needs preserved liver function and no clinically significant portal hypertension; otherwise consider transplant or ablation.</text>
+<circle cx="60" cy="1421.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1425.0" font-size="12" font-weight="600" fill="#16203F">Transplant within the Milan criteria treats both the tumour and the underlying cirrhosis and gives the best long-term outcome in early disease.</text>
+<circle cx="60" cy="1443.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1447.0" font-size="12" font-weight="600" fill="#16203F">Before atezolizumab + bevacizumab, screen for and treat varices — bevacizumab carries a bleeding risk.</text>
+<circle cx="60" cy="1465.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1469.0" font-size="12" font-weight="600" fill="#16203F">Hepatitis B can cause HCC without cirrhosis — keep HBV patients under surveillance regardless of fibrosis stage.</text>
+<line x1="30" y1="1515.0" x2="970" y2="1515.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1534.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: EASL clinical practice guidelines on the management of hepatocellular carcinoma (J Hepatol 2018) · BCLC 2022 update (Reig et al., J Hepatol 2022) · NICE NG50 (surveillance) ·</text>
+<text x="30" y="1548.0" font-size="10.5" font-weight="400" fill="#7C8A8E">CT/MRI LI-RADS. Non-invasive diagnosis applies only to cirrhosis / chronic HBV.</text>
+<text x="30" y="1562.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Systemic therapy &amp; trials: atezolizumab + bevacizumab — IMbrave150 (NICE TA666, first-line); durvalumab + tremelimumab — HIMALAYA (STRIDE); lenvatinib — REFLECT (TA551);</text>
+<text x="30" y="1576.0" font-size="10.5" font-weight="400" fill="#7C8A8E">sorafenib — SHARP (TA474); regorafenib — RESORCE (TA555); cabozantinib — CELESTIAL.</text>
+<text x="30" y="1590.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Revision aid — verify against current local guidance before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#C3CBE6">mockfrcs.co.uk</text></g>
+<rect x="0" y="1620" width="1000" height="46" fill="#283A6B"/><text x="30" y="1649" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1649" text-anchor="end" font-size="12.5" font-weight="600" fill="#C3CBE6">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>
