@@ -1,0 +1,141 @@
+<svg viewBox="0 0 1000 1310.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1310.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#1E5140"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Renal Transplantation — Technique &amp; Vascular Access</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#BFD9CE">Iliac-fossa graft · anastomoses · ureter · ischaemia · dialysis access — FRCS Part 1 (General Surgery)</text>
+<rect x="30" y="126" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">SURGICAL TECHNIQUE</text>
+<text x="30" y="162" font-size="12" font-weight="400" fill="#2E3C42">Extraperitoneal graft in the iliac fossa (usually right — external iliac vein is more superficial &amp; horizontal). Rutherford-Morison (hockey-stick) incision.</text>
+<text x="30" y="178" font-size="12" font-weight="400" fill="#2E3C42">Anastomose vein → artery → reperfuse → ureter last.</text>
+<rect x="30" y="202" width="300.0" height="232" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="202" width="6" height="232" fill="#15806A" rx="3"/>
+<text x="46" y="226" font-size="12.5" font-weight="800" fill="#123027">GRAFT IN SITU</text>
+<ellipse cx="104" cy="294" rx="25" ry="34" fill="#E7EDEA" stroke="#123027" stroke-width="2"/>
+<circle cx="125.0" cy="294" r="7" fill="#F4F6F4"/>
+<path d="M 228.0 254.0 L 228.0 366.0" fill="none" stroke="#BE3A2E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 256.0 254.0 L 256.0 366.0" fill="none" stroke="#245C8C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="228" y="380" font-size="8.5" font-weight="400" fill="#6B7B80" text-anchor="middle">iliac a./v.</text>
+<path d="M 125.0 288.0 L 204.0 280.0 L 228.0 278.0" fill="none" stroke="#BE3A2E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 125.0 302.0 L 232.0 308.0 L 256.0 310.0" fill="none" stroke="#245C8C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="228.0" cy="278.0" r="4.4" fill="#FFFFFF" stroke="#123027" stroke-width="1.6"/>
+<circle cx="256.0" cy="310.0" r="4.4" fill="#FFFFFF" stroke="#123027" stroke-width="1.6"/>
+<path d="M 124 358 Q 148 343 172 358 L 168 376 Q 148 384 128 376 Z" fill="#E1EAF1" stroke="#123027" stroke-width="1.6"/>
+<text x="148" y="369" font-size="8.5" font-weight="400" fill="#123027" text-anchor="middle">bladder</text>
+<path d="M 102.0 324.0 L 144.0 332.0 L 146.0 354.0" fill="none" stroke="#C77B20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="145.0" cy="352.0" r="4.4" fill="#FFFFFF" stroke="#123027" stroke-width="1.6"/>
+<text x="46" y="414" font-size="9" font-weight="400" fill="#BE3A2E">● artery</text>
+<text x="112" y="414" font-size="9" font-weight="400" fill="#245C8C">● vein</text>
+<text x="170" y="414" font-size="9" font-weight="400" fill="#C77B20">● ureter</text>
+<rect x="350.0" y="202" width="300.0" height="232" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="350.0" y="202" width="6" height="232" fill="#6D4AA3" rx="3"/>
+<text x="366.0" y="226" font-size="12.5" font-weight="800" fill="#123027">LIVING DONOR — end-to-end</text>
+<path d="M 402.0 258.0 L 420.0 320.0" fill="none" stroke="#BE3A2E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420.0 320.0 L 394.0 400.0" fill="none" stroke="#BE3A2E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420.0 320.0 L 468.0 352.0" fill="none" stroke="#BE3A2E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="582.0" cy="322" rx="24" ry="34" fill="#E7EDEA" stroke="#123027" stroke-width="2"/>
+<circle cx="562.0" cy="322" r="7" fill="#F4F6F4"/>
+<path d="M 468.0 352.0 L 500.0 352.0" fill="none" stroke="#BE3A2E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 500.0 352.0 L 556.0 340.0 L 562.0 326.0" fill="none" stroke="#BE3A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="500.0" cy="352.0" r="4.4" fill="#FFFFFF" stroke="#123027" stroke-width="1.6"/>
+<text x="366.0" y="250" font-size="9" font-weight="400" fill="#6B7B80">common iliac a.</text>
+<text x="366.0" y="376" font-size="9" font-weight="400" fill="#6B7B80">internal iliac (hypogastric) a.</text>
+<text x="366.0" y="396" font-size="9.7" font-weight="400" fill="#2E3C42">Donor renal a. sewn END-TO-END to internal iliac a.</text>
+<text x="366.0" y="408.5" font-size="9.7" font-weight="400" fill="#2E3C42">— no aortic patch (lap donor).</text>
+<rect x="670.0" y="202" width="300.0" height="232" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="670.0" y="202" width="6" height="232" fill="#245C8C" rx="3"/>
+<text x="686.0" y="226" font-size="12.5" font-weight="800" fill="#123027">DECEASED DONOR — end-to-side</text>
+<path d="M 736.0 258.0 L 736.0 402.0" fill="none" stroke="#BE3A2E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="742.0" cy="322" rx="15" ry="24" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="2"/>
+<ellipse cx="902.0" cy="322" rx="24" ry="34" fill="#E7EDEA" stroke="#123027" stroke-width="2"/>
+<circle cx="882.0" cy="322" r="7" fill="#F4F6F4"/>
+<path d="M 754.0 322.0 L 876.0 322.0 L 882.0 322.0" fill="none" stroke="#BE3A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="752.0" cy="322.0" r="4.4" fill="#FFFFFF" stroke="#123027" stroke-width="1.6"/>
+<text x="686.0" y="250" font-size="9" font-weight="400" fill="#6B7B80">external iliac a.</text>
+<text x="686.0" y="372" font-size="9" font-weight="700" fill="#BE3A2E">aortic (Carrel) patch</text>
+<text x="686.0" y="396" font-size="9.7" font-weight="400" fill="#2E3C42">Donor renal a. on aortic (Carrel) patch sewn</text>
+<text x="686.0" y="408.5" font-size="9.7" font-weight="400" fill="#2E3C42">END-TO-SIDE to external iliac a.</text>
+<text x="30" y="448" font-size="11" font-weight="400" fill="#2E3C42">In BOTH: renal vein → external iliac vein (end-to-side). Ureter → bladder by Lich-Grégoir extravesical ureteroneocystostomy (antireflux tunnel) over a JJ stent, removed</text>
+<text x="30" y="463" font-size="11" font-weight="400" fill="#2E3C42">cystoscopically at ~4–6 weeks.</text>
+<rect x="30" y="490" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="490" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="518" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PERFUSION</text>
+<text x="54" y="542" font-size="18" font-weight="800" fill="#123027">Ischaemia times &amp; early graft function</text>
+<text x="54" y="564" font-size="12" font-weight="700" fill="#15806A">Cold ischaemia</text>
+<text x="180" y="564.0" font-size="12" font-weight="400" fill="#2E3C42">Time in cold preservation; kidney relatively tolerant but minimise — longer CIT → more DGF (esp. DCD).</text>
+<text x="54" y="584.5" font-size="12" font-weight="700" fill="#15806A">Warm ischaemia</text>
+<text x="180" y="584.5" font-size="12" font-weight="400" fill="#2E3C42">1st warm = donor (critical in DCD); 2nd warm = rewarming during anastomosis — aim &lt; 30–45 min.</text>
+<text x="54" y="605.0" font-size="12" font-weight="700" fill="#15806A">Reperfusion</text>
+<text x="180" y="605.0" font-size="12" font-weight="400" fill="#2E3C42">Release clamps vein-then-artery; assess turgor, colour &amp; pulses before ureteric anastomosis.</text>
+<text x="54" y="625.5" font-size="12" font-weight="700" fill="#15806A">DGF</text>
+<text x="180" y="625.5" font-size="12" font-weight="400" fill="#2E3C42">Delayed graft function = need for dialysis in the first week; commoner after DCD / prolonged CIT.</text>
+<rect x="30" y="641.5" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="657.5" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">DIALYSIS ACCESS — 'FISTULA FIRST'</text>
+<rect x="30" y="851.5" width="168" height="34" fill="#E2F1EC" rx="7" stroke="#15806A" stroke-width="1.4"/>
+<rect x="30" y="851.5" width="5" height="34" fill="#15806A" rx="2"/>
+<text x="43" y="866.5" font-size="10.5" font-weight="800" fill="#15806A">1 · RC-AVF</text>
+<text x="43" y="879.5" font-size="9" font-weight="400" fill="#2E3C42">radiocephalic (wrist)</text>
+<line x1="190" y1="851.5" x2="68" y2="845.5" stroke="#E0E6E3" stroke-width="1.4"/>
+<rect x="60" y="811.5" width="168" height="34" fill="#E1EAF1" rx="7" stroke="#245C8C" stroke-width="1.4"/>
+<rect x="60" y="811.5" width="5" height="34" fill="#245C8C" rx="2"/>
+<text x="73" y="826.5" font-size="10.5" font-weight="800" fill="#245C8C">2 · BC-AVF</text>
+<text x="73" y="839.5" font-size="9" font-weight="400" fill="#2E3C42">brachiocephalic</text>
+<line x1="220" y1="811.5" x2="98" y2="805.5" stroke="#E0E6E3" stroke-width="1.4"/>
+<rect x="90" y="771.5" width="168" height="34" fill="#E1EAF1" rx="7" stroke="#245C8C" stroke-width="1.4"/>
+<rect x="90" y="771.5" width="5" height="34" fill="#245C8C" rx="2"/>
+<text x="103" y="786.5" font-size="10.5" font-weight="800" fill="#245C8C">3 · BB-Tx</text>
+<text x="103" y="799.5" font-size="9" font-weight="400" fill="#2E3C42">brachiobasilic transp.</text>
+<line x1="250" y1="771.5" x2="128" y2="765.5" stroke="#E0E6E3" stroke-width="1.4"/>
+<rect x="120" y="731.5" width="168" height="34" fill="#F6ECDD" rx="7" stroke="#C77B20" stroke-width="1.4"/>
+<rect x="120" y="731.5" width="5" height="34" fill="#C77B20" rx="2"/>
+<text x="133" y="746.5" font-size="10.5" font-weight="800" fill="#C77B20">4 · AV graft</text>
+<text x="133" y="759.5" font-size="9" font-weight="400" fill="#2E3C42">PTFE (earlier use)</text>
+<line x1="280" y1="731.5" x2="158" y2="725.5" stroke="#E0E6E3" stroke-width="1.4"/>
+<rect x="150" y="691.5" width="168" height="34" fill="#FBEAE6" rx="7" stroke="#BE3A2E" stroke-width="1.4"/>
+<rect x="150" y="691.5" width="5" height="34" fill="#BE3A2E" rx="2"/>
+<text x="163" y="706.5" font-size="10.5" font-weight="800" fill="#BE3A2E">5 · CVC</text>
+<text x="163" y="719.5" font-size="9" font-weight="400" fill="#2E3C42">tunnelled line (last)</text>
+<text x="30" y="907.5" font-size="10" font-weight="400" fill="#6B7B80" font-style="italic">distal → proximal: start distal to preserve future sites; escalate as veins exhaust</text>
+<rect x="500" y="675.5" width="470" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="500" y="675.5" width="6" height="225.5" fill="#245C8C" rx="3"/>
+<text x="524" y="703.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PRINCIPLES</text>
+<text x="524" y="727.5" font-size="18" font-weight="800" fill="#123027">Maturation &amp; complications</text>
+<text x="524" y="749.5" font-size="12" font-weight="700" fill="#245C8C">Fistula-first</text>
+<text x="620" y="749.5" font-size="12" font-weight="400" fill="#2E3C42">Native AVF: best patency, lowest infection vs</text>
+<text x="620" y="770.0" font-size="12" font-weight="400" fill="#2E3C42">grafts/lines.</text>
+<text x="524" y="790.5" font-size="12" font-weight="700" fill="#245C8C">Rule of 6s</text>
+<text x="620" y="790.5" font-size="12" font-weight="400" fill="#2E3C42">Mature ~6 wks: vein ≥6 mm diameter, ≤6 mm deep,</text>
+<text x="620" y="811.0" font-size="12" font-weight="400" fill="#2E3C42">flow ≥600 ml/min.</text>
+<text x="524" y="831.5" font-size="12" font-weight="700" fill="#245C8C">Steal</text>
+<text x="620" y="831.5" font-size="12" font-weight="400" fill="#2E3C42">Distal ischaemia — pain, pallor, cool hand; may need</text>
+<text x="620" y="852.0" font-size="12" font-weight="400" fill="#2E3C42">banding/DRIL.</text>
+<text x="524" y="872.5" font-size="12" font-weight="700" fill="#245C8C">Other</text>
+<text x="620" y="872.5" font-size="12" font-weight="400" fill="#2E3C42">Thrombosis/stenosis (commonest), high-output cardiac</text>
+<text x="620" y="893.0" font-size="12" font-weight="400" fill="#2E3C42">failure, aneurysm, infection.</text>
+<rect x="30" y="925.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="941.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="955.5" width="940" height="188.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="955.5" width="6" height="188.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="977.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="981.5" font-size="12" font-weight="600" fill="#123027">Living donor = END-TO-END to the internal iliac (hypogastric) artery (no patch); deceased donor = END-TO-SIDE to the external</text>
+<text x="72" y="999.5" font-size="12" font-weight="400" fill="#2E3C42">iliac artery on a Carrel (aortic) patch — a classic viva discriminator.</text>
+<circle cx="60" cy="1017.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1021.5" font-size="12" font-weight="600" fill="#123027">Right iliac fossa is usually preferred because the external iliac vein lies more superficially and horizontally, easing the venous</text>
+<text x="72" y="1039.5" font-size="12" font-weight="400" fill="#2E3C42">anastomosis — but side is ultimately surgeon preference.</text>
+<circle cx="60" cy="1057.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1061.5" font-size="12" font-weight="600" fill="#123027">Reperfuse vein before artery; a JJ stent reduces early urine leak/stricture and is removed cystoscopically at ~4–6 weeks (don't</text>
+<text x="72" y="1079.5" font-size="12" font-weight="400" fill="#2E3C42">forget it).</text>
+<circle cx="60" cy="1097.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1101.5" font-size="12" font-weight="600" fill="#123027">Protect the non-dominant forearm veins from cannulation/lines in pre-dialysis CKD — 'save the arm' preserves future fistula</text>
+<text x="72" y="1119.5" font-size="12" font-weight="400" fill="#2E3C42">sites.</text>
+<line x1="30" y1="1159.5" x2="970" y2="1159.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1178.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: BTS/RA Guidelines for Living Donor Kidney Transplantation (UK, 4th ed. 2018); NHSBT Organ Donation &amp; Transplantation; UK Kidney Association (Renal Association); NICE</text>
+<text x="30" y="1192.5" font-size="10.5" font-weight="400" fill="#7C8A8E">guidance on renal replacement therapy &amp; vascular access.</text>
+<text x="30" y="1206.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Technique/eponyms: Lich-Grégoir extravesical ureteroneocystostomy; Brescia-Cimino radiocephalic AVF; KDOQI vascular access 'rule of 6s'; Carrel aortic patch.</text>
+<text x="30" y="1220.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#BFD9CE">mockfrcs.co.uk</text></g>
+<rect x="0" y="1264.5" width="1000" height="46" fill="#1E5140"/><text x="30" y="1293.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1293.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#BFD9CE">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

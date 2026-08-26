@@ -1,0 +1,211 @@
+<svg viewBox="0 0 1000 1561.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1561.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#1E5140"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Transplant Immunosuppression</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#BFD9CE">Agents mapped to the 3-signal model · mechanisms · regimens · side effects — FRCS Part 1 (General Surgery)</text>
+<rect x="30" y="126" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MECHANISMS ON THE 3-SIGNAL MODEL</text>
+<rect x="30" y="158" width="940" height="296" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="158" width="6" height="296" fill="#15806A" rx="3"/>
+<text x="46" y="182" font-size="12.5" font-weight="800" fill="#123027">THREE-SIGNAL T-CELL ACTIVATION — where each drug acts</text>
+<ellipse cx="138" cy="310" rx="58" ry="96" fill="#D9E4EE" stroke="#123027" stroke-width="1.8"/>
+<text x="138" y="314" font-size="12" font-weight="800" fill="#3B5B77" text-anchor="middle">APC</text>
+<line x1="280" y1="216" x2="280" y2="408" stroke="#1E5140" stroke-width="3"/>
+<text x="330" y="208" font-size="11" font-weight="800" fill="#123027">T CELL</text>
+<rect x="188" y="238" width="16" height="26" fill="#C77B20" rx="3"/>
+<text x="180" y="232" font-size="8.5" font-weight="400" fill="#8A6A45" text-anchor="end">MHC</text>
+<rect x="188" y="300" width="16" height="20" fill="#6D4AA3" rx="3"/>
+<text x="180" y="314" font-size="8.5" font-weight="400" fill="#6D4AA3" text-anchor="end">B7</text>
+<rect x="272" y="238" width="16" height="26" fill="#C77B20" rx="3"/>
+<rect x="272" y="300" width="16" height="20" fill="#6D4AA3" rx="3"/>
+<rect x="272" y="362" width="16" height="22" fill="#245C8C" rx="3"/>
+<line x1="204" y1="251" x2="272" y2="251" stroke="#123027" stroke-width="2"/>
+<line x1="204" y1="310" x2="272" y2="310" stroke="#123027" stroke-width="2"/>
+<text x="292" y="356" font-size="8.5" font-weight="400" fill="#245C8C">IL-2R (CD25)</text>
+<text x="216" y="230" font-size="9" font-weight="800" fill="#123027">SIGNAL 1</text>
+<text x="216" y="292" font-size="9" font-weight="800" fill="#123027">SIGNAL 2</text>
+<text x="330" y="390" font-size="9" font-weight="800" fill="#123027">SIGNAL 3</text>
+<line x1="288.0" y1="251.0" x2="330.0" y2="251.0" stroke="#123027" stroke-width="2.0"/>
+<path d="M 330.0 251.0 L 321.0 255.5 L 321.0 246.5 Z" fill="#123027"/>
+<rect x="332.0" y="238.0" width="116" height="26" fill="#E2F1EC" rx="13.0" stroke="#123027" stroke-width="1.2"/>
+<text x="390" y="254.57" font-size="10.5" font-weight="700" fill="#123027" text-anchor="middle">calcineurin</text>
+<line x1="448.0" y1="251.0" x2="482.0" y2="251.0" stroke="#123027" stroke-width="2.0"/>
+<path d="M 482.0 251.0 L 473.0 255.5 L 473.0 246.5 Z" fill="#123027"/>
+<rect x="493.0" y="238.0" width="130" height="26" fill="#E2F1EC" rx="13.0" stroke="#123027" stroke-width="1.2"/>
+<text x="558" y="254.57" font-size="10.5" font-weight="700" fill="#123027" text-anchor="middle">NFAT → IL-2</text>
+<circle cx="630" cy="278" r="5" fill="#245C8C"/>
+<circle cx="590" cy="308" r="5" fill="#245C8C"/>
+<text x="642" y="282" font-size="9" font-weight="700" fill="#245C8C">IL-2</text>
+<line x1="578.0" y1="318.0" x2="290.0" y2="368.0" stroke="#245C8C" stroke-width="1.8"/>
+<path d="M 290.0 368.0 L 298.1 362.0 L 299.6 370.9 Z" fill="#245C8C"/>
+<line x1="288.0" y1="370.0" x2="330.0" y2="370.0" stroke="#123027" stroke-width="2.0"/>
+<path d="M 330.0 370.0 L 321.0 374.5 L 321.0 365.5 Z" fill="#123027"/>
+<rect x="334.0" y="357.0" width="96" height="26" fill="#E2F1EC" rx="13.0" stroke="#123027" stroke-width="1.2"/>
+<text x="382" y="373.57" font-size="10.5" font-weight="700" fill="#123027" text-anchor="middle">mTOR</text>
+<line x1="432.0" y1="370.0" x2="466.0" y2="370.0" stroke="#123027" stroke-width="2.0"/>
+<path d="M 466.0 370.0 L 457.0 374.5 L 457.0 365.5 Z" fill="#123027"/>
+<rect x="481.0" y="357.0" width="178" height="26" fill="#E2F1EC" rx="13.0" stroke="#123027" stroke-width="1.2"/>
+<text x="570" y="373.57" font-size="10.5" font-weight="700" fill="#123027" text-anchor="middle">cell proliferation</text>
+<line x1="660.0" y1="370.0" x2="694.0" y2="370.0" stroke="#123027" stroke-width="2.0"/>
+<path d="M 694.0 370.0 L 685.0 374.5 L 685.0 365.5 Z" fill="#123027"/>
+<rect x="725.0" y="357.0" width="150" height="26" fill="#E2F1EC" rx="13.0" stroke="#123027" stroke-width="1.2"/>
+<text x="800" y="373.57" font-size="10.5" font-weight="700" fill="#123027" text-anchor="middle">DNA / purine synth.</text>
+<line x1="276" y1="225" x2="285" y2="225" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="285" y1="220.5" x2="285" y2="229.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="289" y="228" font-size="9.3" font-weight="700" fill="#BE3A2E">OKT3 (anti-CD3)</text>
+<line x1="335" y1="289" x2="344" y2="289" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="344" y1="284.5" x2="344" y2="293.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="348" y="292" font-size="9.3" font-weight="700" fill="#BE3A2E">ciclosporin · tacrolimus</text>
+<line x1="210" y1="331" x2="219" y2="331" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="219" y1="326.5" x2="219" y2="335.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="223" y="334" font-size="9.3" font-weight="700" fill="#BE3A2E">belatacept</text>
+<line x1="516" y1="289" x2="525" y2="289" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="525" y1="284.5" x2="525" y2="293.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="529" y="292" font-size="9.3" font-weight="700" fill="#BE3A2E">steroids (↓cytokines)</text>
+<line x1="330" y1="405" x2="339" y2="405" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="339" y1="400.5" x2="339" y2="409.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="343" y="408" font-size="9.3" font-weight="700" fill="#BE3A2E">sirolimus (mTOR)</text>
+<line x1="590" y1="405" x2="599" y2="405" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="599" y1="400.5" x2="599" y2="409.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="603" y="408" font-size="9.3" font-weight="700" fill="#BE3A2E">MMF · azathioprine</text>
+<line x1="180" y1="405" x2="189" y2="405" stroke="#BE3A2E" stroke-width="2.2"/>
+<line x1="189" y1="400.5" x2="189" y2="409.5" stroke="#BE3A2E" stroke-width="2.2"/>
+<text x="193" y="408" font-size="9.3" font-weight="700" fill="#BE3A2E">basiliximab</text>
+<rect x="30" y="456" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="472" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AGENTS — TARGET · USE · KEY SIDE EFFECTS</text>
+<rect x="30" y="490" width="940" height="24" fill="#123027" rx="5"/>
+<text x="42" y="506" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">AGENT</text>
+<text x="145" y="506" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">CLASS / TARGET</text>
+<text x="360" y="506" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">MAIN USE</text>
+<text x="545" y="506" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">KEY SIDE EFFECTS</text>
+<rect x="30" y="514" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="514" width="4" height="24" fill="#15806A"/>
+<text x="42" y="530" font-size="11" font-weight="700" fill="#123027">Ciclosporin</text>
+<text x="145" y="530" font-size="11" font-weight="400" fill="#2E3C42">CNI — cyclophilin → calcineurin</text>
+<text x="360" y="530" font-size="11" font-weight="400" fill="#2E3C42">Maintenance</text>
+<text x="545" y="530" font-size="11" font-weight="400" fill="#2E3C42">Nephrotoxic, HTN, gum hypertrophy, hirsutism, tremor</text>
+<rect x="30" y="538" width="4" height="24" fill="#15806A"/>
+<text x="42" y="554" font-size="11" font-weight="700" fill="#123027">Tacrolimus</text>
+<text x="145" y="554" font-size="11" font-weight="400" fill="#2E3C42">CNI — FKBP-12 → calcineurin</text>
+<text x="360" y="554" font-size="11" font-weight="400" fill="#2E3C42">Maintenance (backbone)</text>
+<text x="545" y="554" font-size="11" font-weight="400" fill="#2E3C42">Nephrotoxic, NODAT, neurotoxic, alopecia, ↑K+</text>
+<rect x="30" y="562" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="562" width="4" height="24" fill="#15806A"/>
+<text x="42" y="578" font-size="11" font-weight="700" fill="#123027">Sirolimus</text>
+<text x="145" y="578" font-size="11" font-weight="400" fill="#2E3C42">mTOR inhibitor (FKBP-12)</text>
+<text x="360" y="578" font-size="11" font-weight="400" fill="#2E3C42">Maintenance; CNI-sparing</text>
+<text x="545" y="578" font-size="11" font-weight="400" fill="#2E3C42">Poor wound healing, mouth ulcers, pneumonitis, ↑lipids</text>
+<rect x="30" y="586" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="602" font-size="11" font-weight="700" fill="#123027">MMF</text>
+<text x="145" y="602" font-size="11" font-weight="400" fill="#2E3C42">IMPDH inhibitor (purine synth.)</text>
+<text x="360" y="602" font-size="11" font-weight="400" fill="#2E3C42">Maintenance antiprolif.</text>
+<text x="545" y="602" font-size="11" font-weight="400" fill="#2E3C42">GI upset, marrow suppression, teratogenic, ↑infection</text>
+<rect x="30" y="610" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="610" width="4" height="24" fill="#245C8C"/>
+<text x="42" y="626" font-size="11" font-weight="700" fill="#123027">Azathioprine</text>
+<text x="145" y="626" font-size="11" font-weight="400" fill="#2E3C42">Purine antimetabolite (→ 6-MP)</text>
+<text x="360" y="626" font-size="11" font-weight="400" fill="#2E3C42">Older antiprolif.</text>
+<text x="545" y="626" font-size="11" font-weight="400" fill="#2E3C42">Marrow suppression; TPMT / allopurinol interaction</text>
+<rect x="30" y="634" width="4" height="24" fill="#C77B20"/>
+<text x="42" y="650" font-size="11" font-weight="700" fill="#123027">Prednisolone</text>
+<text x="145" y="650" font-size="11" font-weight="400" fill="#2E3C42">Glucocorticoid (↓ NF-κB)</text>
+<text x="360" y="650" font-size="11" font-weight="400" fill="#2E3C42">Induction &amp; maintenance</text>
+<text x="545" y="650" font-size="11" font-weight="400" fill="#2E3C42">Cushingoid, diabetes, osteoporosis, infection</text>
+<rect x="30" y="658" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="658" width="4" height="24" fill="#6D4AA3"/>
+<text x="42" y="674" font-size="11" font-weight="700" fill="#123027">Basiliximab</text>
+<text x="145" y="674" font-size="11" font-weight="400" fill="#2E3C42">Anti-CD25 (IL-2Rα)</text>
+<text x="360" y="674" font-size="11" font-weight="400" fill="#2E3C42">Induction</text>
+<text x="545" y="674" font-size="11" font-weight="400" fill="#2E3C42">Well tolerated; low cytokine release</text>
+<rect x="30" y="682" width="4" height="24" fill="#6D4AA3"/>
+<text x="42" y="698" font-size="11" font-weight="700" fill="#123027">r-ATG</text>
+<text x="145" y="698" font-size="11" font-weight="400" fill="#2E3C42">Anti-thymocyte, depleting</text>
+<text x="360" y="698" font-size="11" font-weight="400" fill="#2E3C42">Induction; rejection Rx</text>
+<text x="545" y="698" font-size="11" font-weight="400" fill="#2E3C42">Cytokine release, leucopenia, serum sickness</text>
+<rect x="30" y="706" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="706" width="4" height="24" fill="#6D4AA3"/>
+<text x="42" y="722" font-size="11" font-weight="700" fill="#123027">OKT3</text>
+<text x="145" y="722" font-size="11" font-weight="400" fill="#2E3C42">Anti-CD3 (muromonab), depleting</text>
+<text x="360" y="722" font-size="11" font-weight="400" fill="#2E3C42">Resistant rejection (hist.)</text>
+<text x="545" y="722" font-size="11" font-weight="400" fill="#2E3C42">Cytokine release syndrome — withdrawn 2010</text>
+<rect x="30" y="730" width="4" height="24" fill="#BE3A2E"/>
+<text x="42" y="746" font-size="11" font-weight="700" fill="#123027">Rituximab</text>
+<text x="145" y="746" font-size="11" font-weight="400" fill="#2E3C42">Anti-CD20 (B cells)</text>
+<text x="360" y="746" font-size="11" font-weight="400" fill="#2E3C42">AMR, ABOi, PTLD</text>
+<text x="545" y="746" font-size="11" font-weight="400" fill="#2E3C42">Infusion reactions, infection, HBV reactivation</text>
+<rect x="30" y="754" width="940" height="24" fill="#F1F4F2"/>
+<rect x="30" y="754" width="4" height="24" fill="#6D4AA3"/>
+<text x="42" y="770" font-size="11" font-weight="700" fill="#123027">Belatacept</text>
+<text x="145" y="770" font-size="11" font-weight="400" fill="#2E3C42">CTLA4-Ig — blocks CD28/B7</text>
+<text x="360" y="770" font-size="11" font-weight="400" fill="#2E3C42">Maintenance (CNI-free)</text>
+<text x="545" y="770" font-size="11" font-weight="400" fill="#2E3C42">↑PTLD (EBV+); IV infusion; ↓metabolic SE</text>
+<rect x="30" y="788" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="804" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">REGIMENS · MONITORING · OVER-IMMUNOSUPPRESSION</text>
+<rect x="30" y="822" width="460.0" height="266.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="822" width="6" height="266.5" fill="#15806A" rx="3"/>
+<text x="54" y="850" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PRACTICE</text>
+<text x="54" y="874" font-size="18" font-weight="800" fill="#123027">Regimens &amp; monitoring</text>
+<text x="54" y="896" font-size="12" font-weight="700" fill="#15806A">Triple therapy</text>
+<text x="160" y="896.0" font-size="12" font-weight="400" fill="#2E3C42">Tacrolimus + mycophenolate + prednisolone is the</text>
+<text x="160" y="916.5" font-size="12" font-weight="400" fill="#2E3C42">usual maintenance backbone.</text>
+<text x="54" y="937.0" font-size="12" font-weight="700" fill="#15806A">Induction</text>
+<text x="160" y="937.0" font-size="12" font-weight="400" fill="#2E3C42">Basiliximab (standard risk) or ATG / alemtuzumab</text>
+<text x="160" y="957.5" font-size="12" font-weight="400" fill="#2E3C42">(higher-risk / steroid-avoidance).</text>
+<text x="54" y="978.0" font-size="12" font-weight="700" fill="#15806A">Monitoring</text>
+<text x="160" y="978.0" font-size="12" font-weight="400" fill="#2E3C42">CNIs &amp; sirolimus have a narrow therapeutic index</text>
+<text x="160" y="998.5" font-size="12" font-weight="400" fill="#2E3C42">— trough (C0) levels; watch renal fn, glucose, FBC,</text>
+<text x="160" y="1019.0" font-size="12" font-weight="400" fill="#2E3C42">lipids.</text>
+<text x="54" y="1039.5" font-size="12" font-weight="700" fill="#15806A">Interactions</text>
+<text x="160" y="1039.5" font-size="12" font-weight="400" fill="#2E3C42">CNIs / sirolimus via CYP3A4 — azoles, macrolides,</text>
+<text x="160" y="1060.0" font-size="12" font-weight="400" fill="#2E3C42">diltiazem, grapefruit ↑ levels; rifampicin /</text>
+<text x="160" y="1080.5" font-size="12" font-weight="400" fill="#2E3C42">anticonvulsants ↓.</text>
+<rect x="510.0" y="822" width="460.0" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="822" width="6" height="225.5" fill="#BE3A2E" rx="3"/>
+<text x="534.0" y="850" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">TOO MUCH</text>
+<text x="534.0" y="874" font-size="18" font-weight="800" fill="#123027">Over-immunosuppression</text>
+<text x="534.0" y="896" font-size="12" font-weight="700" fill="#BE3A2E">Infection</text>
+<text x="620.0" y="896.0" font-size="12" font-weight="400" fill="#2E3C42">CMV, BK polyomavirus (→ nephropathy), PCP, fungal —</text>
+<text x="620.0" y="916.5" font-size="12" font-weight="400" fill="#2E3C42">prophylaxis (valganciclovir, co-trimoxazole).</text>
+<text x="534.0" y="937.0" font-size="12" font-weight="700" fill="#BE3A2E">Malignancy</text>
+<text x="620.0" y="937.0" font-size="12" font-weight="400" fill="#2E3C42">Skin SCC and PTLD (EBV-driven B-cell) — reduce</text>
+<text x="620.0" y="957.5" font-size="12" font-weight="400" fill="#2E3C42">immunosuppression ± rituximab.</text>
+<text x="534.0" y="978.0" font-size="12" font-weight="700" fill="#BE3A2E">NODAT</text>
+<text x="620.0" y="978.0" font-size="12" font-weight="400" fill="#2E3C42">Tacrolimus &amp; steroids → new-onset diabetes after</text>
+<text x="620.0" y="998.5" font-size="12" font-weight="400" fill="#2E3C42">transplant.</text>
+<text x="534.0" y="1019.0" font-size="12" font-weight="700" fill="#BE3A2E">Balance</text>
+<text x="620.0" y="1019.0" font-size="12" font-weight="400" fill="#2E3C42">Too much → infection / malignancy; too little →</text>
+<text x="620.0" y="1039.5" font-size="12" font-weight="400" fill="#2E3C42">rejection.</text>
+<rect x="30" y="1096.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1112.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1126.5" width="940" height="268.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1126.5" width="6" height="268.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1148.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1152.5" font-size="12" font-weight="600" fill="#123027">Tacrolimus and ciclosporin are both nephrotoxic — a rising creatinine may be calcineurin-inhibitor toxicity rather than</text>
+<text x="72" y="1170.5" font-size="12" font-weight="400" fill="#2E3C42">rejection; check a trough level before assuming either.</text>
+<circle cx="60" cy="1188.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1192.5" font-size="12" font-weight="600" fill="#123027">Distinguish the cosmetic clues: ciclosporin causes gum hypertrophy and hirsutism, whereas tacrolimus causes alopecia and is</text>
+<text x="72" y="1210.5" font-size="12" font-weight="400" fill="#2E3C42">more diabetogenic (NODAT).</text>
+<circle cx="60" cy="1228.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1232.5" font-size="12" font-weight="600" fill="#123027">Sirolimus is not nephrotoxic (useful for CNI-sparing) but impairs wound healing and causes mouth ulcers, pneumonitis and</text>
+<text x="72" y="1250.5" font-size="12" font-weight="400" fill="#2E3C42">hyperlipidaemia — a reason to hold it around surgery.</text>
+<circle cx="60" cy="1268.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1272.5" font-size="12" font-weight="600" fill="#123027">Azathioprine + allopurinol is dangerous: allopurinol blocks xanthine oxidase and precipitates severe myelosuppression —</text>
+<text x="72" y="1290.5" font-size="12" font-weight="400" fill="#2E3C42">check TPMT and avoid the combination.</text>
+<circle cx="60" cy="1308.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1312.5" font-size="12" font-weight="600" fill="#123027">OKT3 / muromonab-CD3 is of historical interest only (withdrawn 2010 for cytokine-release syndrome) — modern induction uses</text>
+<text x="72" y="1330.5" font-size="12" font-weight="400" fill="#2E3C42">basiliximab or ATG.</text>
+<circle cx="60" cy="1348.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1352.5" font-size="12" font-weight="600" fill="#123027">Live vaccines are contraindicated under immunosuppression; and over-immunosuppression trades rejection for infection</text>
+<text x="72" y="1370.5" font-size="12" font-weight="400" fill="#2E3C42">(CMV/BK/PCP) and malignancy (skin cancer, PTLD).</text>
+<line x1="30" y1="1410.5" x2="970" y2="1410.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1429.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: British National Formulary (BNF); British Transplantation Society; KDIGO transplant guidance; StatPearls / LiverTox (muromonab-CD3, withdrawn 2010); EMA Simulect</text>
+<text x="30" y="1443.5" font-size="10.5" font-weight="400" fill="#7C8A8E">(basiliximab) SmPC.</text>
+<text x="30" y="1457.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Doses/targets illustrative &amp; unit-specific: basiliximab 20 mg IV day 0 + day 4; MMF ~1 g BD; CNIs &amp; sirolimus dosed to trough level. Verify locally.</text>
+<text x="30" y="1471.5" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#BFD9CE">mockfrcs.co.uk</text></g>
+<rect x="0" y="1515.5" width="1000" height="46" fill="#1E5140"/><text x="30" y="1544.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1544.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#BFD9CE">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

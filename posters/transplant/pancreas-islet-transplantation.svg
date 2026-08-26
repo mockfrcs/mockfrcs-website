@@ -1,0 +1,176 @@
+<svg viewBox="0 0 1000 1808" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1808" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#1E5140"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Pancreas &amp; Islet Transplantation</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#BFD9CE">Categories · indications · whole-organ technique · islet (Edmonton) · complications — FRCS Part 1 (General Surgery)</text>
+<rect x="30" y="126" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="142" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">CATEGORIES &amp; INDICATIONS</text>
+<rect x="30" y="160" width="940" height="24" fill="#123027" rx="5"/>
+<text x="42" y="176" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">CATEGORY</text>
+<text x="175" y="176" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">DEFINITION</text>
+<text x="500" y="176" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">MAIN INDICATION</text>
+<rect x="30" y="184" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="184" width="4" height="23" fill="#15806A"/>
+<text x="42" y="200" font-size="11" font-weight="700" fill="#123027">SPK</text>
+<text x="175" y="200" font-size="11" font-weight="400" fill="#2E3C42">Pancreas + kidney, same donor, one operation</text>
+<text x="500" y="200" font-size="11" font-weight="400" fill="#2E3C42">T1DM + established renal failure (CKD5 / ESRD)</text>
+<rect x="30" y="207" width="4" height="23" fill="#15806A"/>
+<text x="42" y="223" font-size="11" font-weight="700" fill="#123027">PAK</text>
+<text x="175" y="223" font-size="11" font-weight="400" fill="#2E3C42">Pancreas after a prior (living-donor) kidney</text>
+<text x="500" y="223" font-size="11" font-weight="400" fill="#2E3C42">T1DM already kidney-transplanted</text>
+<rect x="30" y="230" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="230" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="246" font-size="11" font-weight="700" fill="#123027">PTA</text>
+<text x="175" y="246" font-size="11" font-weight="400" fill="#2E3C42">Pancreas alone; native renal function preserved</text>
+<text x="500" y="246" font-size="11" font-weight="400" fill="#2E3C42">Brittle T1DM / hypoglycaemia unawareness</text>
+<rect x="30" y="253" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="269" font-size="11" font-weight="700" fill="#123027">Islet — ITA</text>
+<text x="175" y="269" font-size="11" font-weight="400" fill="#2E3C42">Islets alone, portal-vein infusion</text>
+<text x="500" y="269" font-size="11" font-weight="400" fill="#2E3C42">Severe recurrent hypos / impaired awareness</text>
+<rect x="30" y="276" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="276" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="292" font-size="11" font-weight="700" fill="#123027">Islet — IAK/SIK</text>
+<text x="175" y="292" font-size="11" font-weight="400" fill="#2E3C42">Islets after, or with, a kidney graft</text>
+<text x="500" y="292" font-size="11" font-weight="400" fill="#2E3C42">As ITA + need for kidney transplant</text>
+<text x="30" y="311" font-size="11" font-weight="400" fill="#2E3C42">Almost all recipients have type 1 diabetes (selected T2DM). SPK gives the best pancreas graft survival and is the option of choice for T1DM with renal failure.</text>
+<rect x="30" y="328" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="344" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">WHOLE-ORGAN SURGICAL TECHNIQUE</text>
+<rect x="30" y="360" width="940" height="300" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="360" width="6" height="300" fill="#15806A" rx="3"/>
+<text x="46" y="384" font-size="12.5" font-weight="800" fill="#123027">WHOLE-ORGAN GRAFT — arterial Y-graft · venous &amp; exocrine drainage</text>
+<path d="M 348 476 L 590 504 L 348 540 Z" fill="#EAD9C4" stroke="#123027" stroke-width="1.6"/>
+<ellipse cx="330" cy="510" rx="46" ry="40" fill="#EAD9C4" stroke="#123027" stroke-width="1.8"/>
+<text x="324" y="514" font-size="10" font-weight="700" fill="#8A6A45" text-anchor="middle">pancreas</text>
+<text x="500" y="492" font-size="9" font-weight="400" fill="#8A6A45" text-anchor="middle">tail</text>
+<path d="M 320 458 A 52 52 0 1 0 320 562" fill="none" stroke="#C77B20" stroke-width="10" stroke-linecap="round"/>
+<text x="180" y="470" font-size="9.5" font-weight="700" fill="#C77B20" text-anchor="middle">duodenal</text>
+<text x="180" y="482" font-size="9.5" font-weight="700" fill="#C77B20" text-anchor="middle">C-loop</text>
+<path d="M 278.0 550.0 L 180.0 602.0 L 235.0 606.0" fill="none" stroke="#C77B20" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 235 606 q 34 0 34 22 q 0 22 -34 22" fill="none" stroke="#C77B20" stroke-width="8" stroke-linecap="round"/>
+<text x="180" y="622" font-size="9.5" font-weight="400" fill="#2E3C42">→ recipient jejunum (enteric)  /  bladder</text>
+<path d="M 312.0 544.0 L 300.0 580.0 L 330.0 606.0" fill="none" stroke="#BE3A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 500.0 508.0 L 390.0 566.0 L 330.0 606.0" fill="none" stroke="#BE3A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 330.0 606.0 L 330.0 644.0" fill="none" stroke="#BE3A2E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 280.0 644.0 L 382.0 644.0" fill="none" stroke="#BE3A2E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330.0" cy="644.0" r="4.2" fill="#FFFFFF" stroke="#123027" stroke-width="1.5"/>
+<text x="262" y="584" font-size="8.5" font-weight="700" fill="#BE3A2E" text-anchor="end">SMA</text>
+<text x="485" y="514" font-size="8.5" font-weight="700" fill="#BE3A2E" text-anchor="end">splenic a.</text>
+<text x="330" y="660" font-size="9" font-weight="700" fill="#BE3A2E" text-anchor="middle">donor iliac Y-graft → recipient iliac a.</text>
+<path d="M 364.0 540.0 L 450.0 580.0 L 460.0 628.0" fill="none" stroke="#245C8C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 412.0 628.0 L 516.0 628.0" fill="none" stroke="#245C8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="464.0" cy="628.0" r="4.2" fill="#FFFFFF" stroke="#123027" stroke-width="1.5"/>
+<text x="590" y="580" font-size="9" font-weight="700" fill="#245C8C" text-anchor="end">portal vein /</text>
+<text x="590" y="593" font-size="9" font-weight="700" fill="#245C8C" text-anchor="end">SMV stump</text>
+<text x="590" y="632" font-size="9" font-weight="700" fill="#245C8C" text-anchor="end">→ systemic (iliac/IVC)</text>
+<text x="590" y="645" font-size="9" font-weight="700" fill="#245C8C" text-anchor="end">or portal (SMV)</text>
+<text x="650" y="386" font-size="9.5" font-weight="400" fill="#BE3A2E">● artery</text>
+<text x="730" y="386" font-size="9.5" font-weight="400" fill="#245C8C">● vein</text>
+<text x="800" y="386" font-size="9.5" font-weight="400" fill="#C77B20">● exocrine/bowel</text>
+<text x="652" y="412" font-size="10" font-weight="400" fill="#2E3C42">Graft placed intraperitoneally (pancreas right, kidney left</text>
+<text x="652" y="426" font-size="10" font-weight="400" fill="#2E3C42">in SPK). Native pancreas left in situ. Bench: donor iliac</text>
+<text x="652" y="440" font-size="10" font-weight="400" fill="#2E3C42">Y-graft joins SMA + splenic artery into one arterial inflow.</text>
+<text x="652" y="454" font-size="10" font-weight="400" fill="#2E3C42">Venous outflow either systemic or portal; exocrine either</text>
+<text x="652" y="468" font-size="10" font-weight="400" fill="#2E3C42">enteric or bladder (see below).</text>
+<rect x="30" y="676" width="460.0" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="676" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="54" y="704" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">OUTFLOW</text>
+<text x="54" y="728" font-size="18" font-weight="800" fill="#123027">Venous drainage</text>
+<text x="54" y="750" font-size="12" font-weight="700" fill="#15806A">Systemic</text>
+<text x="116" y="750.0" font-size="12" font-weight="400" fill="#2E3C42">SMV → recipient iliac vein / IVC; simpler; systemic</text>
+<text x="116" y="770.5" font-size="12" font-weight="400" fill="#2E3C42">hyperinsulinaemia, ? atherogenic.</text>
+<text x="54" y="791.0" font-size="12" font-weight="700" fill="#15806A">Portal</text>
+<text x="116" y="791.0" font-size="12" font-weight="400" fill="#2E3C42">SMV → recipient SMV; physiological first-pass insulin;</text>
+<text x="116" y="811.5" font-size="12" font-weight="400" fill="#2E3C42">technically harder.</text>
+<rect x="510.0" y="676" width="460.0" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="676" width="6" height="164.0" fill="#C77B20" rx="3"/>
+<text x="534.0" y="704" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">EXOCRINE</text>
+<text x="534.0" y="728" font-size="18" font-weight="800" fill="#123027">Exocrine drainage</text>
+<text x="534.0" y="750" font-size="12" font-weight="700" fill="#C77B20">Enteric</text>
+<text x="588.0" y="750.0" font-size="12" font-weight="400" fill="#2E3C42">Duodenum → recipient jejunum (± Roux); physiological;</text>
+<text x="588.0" y="770.5" font-size="12" font-weight="400" fill="#2E3C42">~5–8% leak.</text>
+<text x="534.0" y="791.0" font-size="12" font-weight="700" fill="#C77B20">Bladder</text>
+<text x="588.0" y="791.0" font-size="12" font-weight="400" fill="#2E3C42">Duodenum → bladder; urine amylase monitors rejection but</text>
+<text x="588.0" y="811.5" font-size="12" font-weight="400" fill="#2E3C42">cystitis, haematuria, HCO₃⁻ loss/acidosis, dehydration →</text>
+<text x="588.0" y="832.0" font-size="12" font-weight="400" fill="#2E3C42">10–25% converted.</text>
+<rect x="30" y="848.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="864.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">ISLET TRANSPLANTATION (EDMONTON)</text>
+<rect x="30" y="882.0" width="940" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="882.0" width="6" height="225.5" fill="#6D4AA3" rx="3"/>
+<text x="54" y="910.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">CELL THERAPY</text>
+<text x="54" y="934.0" font-size="18" font-weight="800" fill="#123027">Islet isolation &amp; portal infusion</text>
+<text x="54" y="956.0" font-size="12" font-weight="700" fill="#6D4AA3">Isolation</text>
+<text x="198" y="956.0" font-size="12" font-weight="400" fill="#2E3C42">Deceased-donor pancreas; collagenase (Liberase) digestion → purified islet preparation.</text>
+<text x="54" y="976.5" font-size="12" font-weight="700" fill="#6D4AA3">Delivery</text>
+<text x="198" y="976.5" font-size="12" font-weight="400" fill="#2E3C42">Percutaneous transhepatic infusion into the portal vein; islets engraft in the liver; often 2–3 donors per recipient.</text>
+<text x="54" y="997.0" font-size="12" font-weight="700" fill="#6D4AA3">Immunosuppression</text>
+<text x="198" y="997.0" font-size="12" font-weight="400" fill="#2E3C42">Steroid-free: induction (basiliximab / ATG) + tacrolimus + MMF or sirolimus (Edmonton original: daclizumab + sirolimus +</text>
+<text x="198" y="1017.5" font-size="12" font-weight="400" fill="#2E3C42">tacrolimus).</text>
+<text x="54" y="1038.0" font-size="12" font-weight="700" fill="#6D4AA3">Indication</text>
+<text x="198" y="1038.0" font-size="12" font-weight="400" fill="#2E3C42">T1DM with recurrent severe hypoglycaemia / impaired awareness despite optimal therapy; nationally commissioned in the</text>
+<text x="198" y="1058.5" font-size="12" font-weight="400" fill="#2E3C42">UK.</text>
+<text x="54" y="1079.0" font-size="12" font-weight="700" fill="#6D4AA3">Outcomes</text>
+<text x="198" y="1079.0" font-size="12" font-weight="400" fill="#2E3C42">~50–70% insulin-independent at 1 yr, &lt;10% at 5 yr — but severe hypos abolished &amp; awareness restored; lower procedural</text>
+<text x="198" y="1099.5" font-size="12" font-weight="400" fill="#2E3C42">morbidity than whole-organ.</text>
+<rect x="30" y="1115.5" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="1131.5" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">COMPLICATIONS · REJECTION MONITORING · OUTCOMES</text>
+<rect x="30" y="1149.5" width="460.0" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1149.5" width="6" height="225.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="1177.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">GRAFT</text>
+<text x="54" y="1201.5" font-size="18" font-weight="800" fill="#123027">Complications</text>
+<text x="54" y="1223.5" font-size="12" font-weight="700" fill="#BE3A2E">Thrombosis</text>
+<text x="172" y="1223.5" font-size="12" font-weight="400" fill="#2E3C42">Commonest early graft loss (venous &gt; arterial,</text>
+<text x="172" y="1244.0" font-size="12" font-weight="400" fill="#2E3C42">~10–35%); prophylactic anticoagulation.</text>
+<text x="54" y="1264.5" font-size="12" font-weight="700" fill="#BE3A2E">Pancreatitis</text>
+<text x="172" y="1264.5" font-size="12" font-weight="400" fill="#2E3C42">Reperfusion graft pancreatitis; peripancreatic</text>
+<text x="172" y="1285.0" font-size="12" font-weight="400" fill="#2E3C42">collection / abscess.</text>
+<text x="54" y="1305.5" font-size="12" font-weight="700" fill="#BE3A2E">Leak</text>
+<text x="172" y="1305.5" font-size="12" font-weight="400" fill="#2E3C42">Duodenal / enteric anastomotic leak;</text>
+<text x="172" y="1326.0" font-size="12" font-weight="400" fill="#2E3C42">haemorrhage.</text>
+<text x="54" y="1346.5" font-size="12" font-weight="700" fill="#BE3A2E">Bladder-drained</text>
+<text x="172" y="1346.5" font-size="12" font-weight="400" fill="#2E3C42">Cystitis, haematuria, metabolic acidosis,</text>
+<text x="172" y="1367.0" font-size="12" font-weight="400" fill="#2E3C42">dehydration.</text>
+<rect x="510.0" y="1149.5" width="460.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="1149.5" width="6" height="205.0" fill="#245C8C" rx="3"/>
+<text x="534.0" y="1177.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SURVEILLANCE</text>
+<text x="534.0" y="1201.5" font-size="18" font-weight="800" fill="#123027">Rejection &amp; outcomes</text>
+<text x="534.0" y="1223.5" font-size="12" font-weight="700" fill="#245C8C">Monitoring</text>
+<text x="616.0" y="1223.5" font-size="12" font-weight="400" fill="#2E3C42">Hyperglycaemia is a late, often irreversible sign; use</text>
+<text x="616.0" y="1244.0" font-size="12" font-weight="400" fill="#2E3C42">amylase/lipase; biopsy is gold standard.</text>
+<text x="534.0" y="1264.5" font-size="12" font-weight="700" fill="#245C8C">In SPK</text>
+<text x="616.0" y="1264.5" font-size="12" font-weight="400" fill="#2E3C42">Kidney is the surrogate (creatinine), but rejection can</text>
+<text x="616.0" y="1285.0" font-size="12" font-weight="400" fill="#2E3C42">be discordant — biopsy the pancreas if in doubt.</text>
+<text x="534.0" y="1305.5" font-size="12" font-weight="700" fill="#245C8C">Outcomes</text>
+<text x="616.0" y="1305.5" font-size="12" font-weight="400" fill="#2E3C42">SPK best graft survival; patient survival &gt;96% at 1 yr;</text>
+<text x="616.0" y="1326.0" font-size="12" font-weight="400" fill="#2E3C42">near-normoglycaemia; improves secondary</text>
+<text x="616.0" y="1346.5" font-size="12" font-weight="400" fill="#2E3C42">complications.</text>
+<rect x="30" y="1383.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1399.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1413.0" width="940" height="228.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1413.0" width="6" height="228.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1435.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1439.0" font-size="12" font-weight="600" fill="#123027">Graft thrombosis is the leading early, non-immunological cause of pancreas graft loss (venous more than arterial) — hence</text>
+<text x="72" y="1457.0" font-size="12" font-weight="400" fill="#2E3C42">routine post-op anticoagulation and a low threshold for Doppler ultrasound.</text>
+<circle cx="60" cy="1475.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1479.0" font-size="12" font-weight="600" fill="#123027">Hyperglycaemia is a late and often irreversible marker of pancreas rejection; in SPK the kidney usually rejects concurrently so</text>
+<text x="72" y="1497.0" font-size="12" font-weight="400" fill="#2E3C42">a rising creatinine warns earlier — but discordant rejection occurs, so biopsy the pancreas if suspicion persists.</text>
+<circle cx="60" cy="1515.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1519.0" font-size="12" font-weight="600" fill="#123027">SPK is the option of choice for T1DM with established renal failure — best pancreas graft survival, and both organs come from</text>
+<text x="72" y="1537.0" font-size="12" font-weight="400" fill="#2E3C42">one donor.</text>
+<circle cx="60" cy="1555.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1559.0" font-size="12" font-weight="600" fill="#123027">PTA and islet transplantation are reserved for preserved renal function with life-threatening hypoglycaemia / unawareness,</text>
+<text x="72" y="1577.0" font-size="12" font-weight="400" fill="#2E3C42">because the immunosuppression risk must be justified without a kidney graft already mandating it.</text>
+<circle cx="60" cy="1595.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1599.0" font-size="12" font-weight="600" fill="#123027">Bladder exocrine drainage enables urinary-amylase rejection monitoring but causes cystitis, haematuria, bicarbonate loss /</text>
+<text x="72" y="1617.0" font-size="12" font-weight="400" fill="#2E3C42">metabolic acidosis and dehydration — many are later converted to enteric drainage.</text>
+<line x1="30" y1="1657.0" x2="970" y2="1657.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1676.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Sources: NHSBT Organ Donation &amp; Transplantation (pancreas &amp; islet allocation); British Transplantation Society; NICE; StatPearls — Pancreas Transplantation.</text>
+<text x="30" y="1690.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Islet: Edmonton protocol (Shapiro et al., N Engl J Med 2000) &amp; UK nationally-commissioned islet transplant programme. Note: daclizumab withdrawn — UK induction now basiliximab /</text>
+<text x="30" y="1704.0" font-size="10.5" font-weight="400" fill="#7C8A8E">ATG.</text>
+<text x="30" y="1718.0" font-size="10.5" font-weight="400" fill="#9AA6AA">FRCS Part 1 revision aid — verify against current primary sources before clinical use.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#BFD9CE">mockfrcs.co.uk</text></g>
+<rect x="0" y="1762" width="1000" height="46" fill="#1E5140"/><text x="30" y="1791" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1791" text-anchor="end" font-size="12.5" font-weight="600" fill="#BFD9CE">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>
