@@ -42,4 +42,10 @@ const POSTERS = [
   { title: "Pancreatic cancer (PDAC) & the Whipple", file: "posters/hpb/pancreatic-cancer-pdac-whipple.svg", section: "HPB", subject: "Presentation · resectability · pancreaticoduodenectomy (NICE NG85)", free: false },
   { title: "Pancreatic cystic neoplasms", file: "posters/hpb/pancreatic-cystic-neoplasms.svg", section: "HPB", subject: "Serous · MCN · IPMN · SPN · Fukuoka 2017 (Gut 2018)", free: false },
   { title: "The spleen — cysts, lymphoma, ITP & asplenia", file: "posters/hpb/spleen-cysts-lymphoma-itp.svg", section: "HPB", subject: "Cysts · lymphoma · ITP · OPSI prophylaxis (BSH, ASH)", free: false },
+  { title: "Death by neurological criteria & the DCD donor", file: "posters/transplant/brainstem-death-maastricht.svg", section: "Transplant", subject: "Brainstem-death testing (AoMRC) · apnoea test · Maastricht categories", free: false },
+  { title: "Pancreas & islet transplantation", file: "posters/transplant/pancreas-islet-transplantation.svg", section: "Transplant", subject: "Indications · whole-organ technique · islet (Edmonton) · complications", free: false },
+  { title: "Renal transplantation — complications & selection", file: "posters/transplant/renal-transplant-complications-selection.svg", section: "Transplant", subject: "Graft complications by timeline · living-donor contraindications (BTS) · EPS", free: false },
+  { title: "Renal transplantation — technique & vascular access", file: "posters/transplant/renal-transplant-technique-access.svg", section: "Transplant", subject: "Iliac-fossa graft · anastomoses · ureter · ischaemia · dialysis access", free: false },
+  { title: "Transplant immunosuppression", file: "posters/transplant/transplant-immunosuppression.svg", section: "Transplant", subject: "3-signal model · agents · regimens · side effects", free: true },
+  { title: "Transplant rejection", file: "posters/transplant/transplant-rejection.svg", section: "Transplant", subject: "Hyperacute · acute cellular · antibody-mediated · chronic", free: false },
 ];
