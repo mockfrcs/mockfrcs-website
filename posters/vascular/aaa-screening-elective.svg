@@ -1,0 +1,166 @@
+<svg viewBox="0 0 1000 1471.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1471.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Abdominal Aortic Aneurysm (1)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Definition · NAAASP screening · surveillance · elective repair · NICE NG156</text>
+<rect x="30" y="146" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#245C8C">DEFINITION</text>
+<text x="144" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Aortic dilatation ≥ 3 cm (or &gt; 1.5× normal). ~90% infrarenal; degenerative is commonest; M &gt; F ~6:1. Smoking is the biggest</text>
+<text x="144" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">modifiable risk — diabetes is (counter-intuitively) protective.</text>
+<rect x="30" y="192" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="208" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">ANATOMY &amp; AETIOLOGY</text>
+<rect x="30" y="222" width="340" height="360" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="222" width="6" height="360" fill="#245C8C" rx="3"/>
+<text x="52" y="248" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">INFRARENAL AAA</text>
+<rect x="148" y="270" width="16" height="44" fill="#E3A79D"/>
+<line x1="148" y1="292" x2="114" y2="284" stroke="#B5473B" stroke-width="5"/>
+<line x1="164" y1="292" x2="198" y2="284" stroke="#B5473B" stroke-width="5"/>
+<rect x="148" y="314" width="16" height="20" fill="#E3A79D"/>
+<ellipse cx="156.0" cy="387.0" rx="44.0" ry="42.0" fill="#F4E3C6" stroke="#C77B20" stroke-width="2.5"/>
+<line x1="156" y1="334" x2="156" y2="436" stroke="#B5473B" stroke-width="3"/>
+<rect x="148" y="429" width="16" height="20" fill="#E3A79D"/>
+<line x1="156" y1="449" x2="126" y2="498" stroke="#B5473B" stroke-width="7"/>
+<line x1="156" y1="449" x2="186" y2="498" stroke="#B5473B" stroke-width="7"/>
+<circle cx="156" cy="324" r="3" fill="#B5473B"/>
+<circle cx="156" cy="387" r="3.4" fill="#C77B20"/>
+<text x="216" y="276" font-size="11" font-weight="700" fill="#245C8C">Suprarenal aorta</text>
+<text x="216" y="298" font-size="11" font-weight="700" fill="#245C8C">Renal arteries</text>
+<text x="216" y="330" font-size="11" font-weight="700" fill="#C77B20">Neck (landing zone)</text>
+<text x="216" y="390" font-size="11" font-weight="700" fill="#C77B20">Aneurysm sac</text>
+<text x="216" y="472" font-size="11" font-weight="700" fill="#245C8C">Iliac bifurcation</text>
+<text x="200.0" y="568" font-size="10" font-weight="400" fill="#6B7B80" text-anchor="middle">Normal aorta ≈ 2 cm · AAA ≥ 3 cm · 90% infrarenal</text>
+<rect x="390" y="222" width="580" height="24" fill="#1B2026" rx="5"/>
+<text x="402" y="238" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Cause</text>
+<text x="540" y="238" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Feature</text>
+<rect x="390" y="246" width="580" height="26" fill="#F1F4F2"/>
+<rect x="390" y="246" width="4" height="26" fill="#C77B20"/>
+<text x="402" y="262" font-size="11" font-weight="700" fill="#1B2026">Degenerative</text>
+<text x="540" y="262" font-size="11" font-weight="400" fill="#2E3C42">atherosclerotic — commonest; age, male, smoking</text>
+<rect x="390" y="272" width="4" height="26" fill="#6D4AA3"/>
+<text x="402" y="288" font-size="11" font-weight="700" fill="#1B2026">Inflammatory</text>
+<text x="540" y="288" font-size="11" font-weight="400" fill="#2E3C42">~5%; periaortic fibrosis, ureteric involvement, ↑CRP</text>
+<rect x="390" y="298" width="580" height="26" fill="#F1F4F2"/>
+<rect x="390" y="298" width="4" height="26" fill="#245C8C"/>
+<text x="402" y="314" font-size="11" font-weight="700" fill="#1B2026">Connective tissue</text>
+<text x="540" y="314" font-size="11" font-weight="400" fill="#2E3C42">Marfan, Ehlers-Danlos, Loeys-Dietz</text>
+<rect x="390" y="324" width="4" height="26" fill="#BE3A2E"/>
+<text x="402" y="340" font-size="11" font-weight="700" fill="#1B2026">Mycotic</text>
+<text x="540" y="340" font-size="11" font-weight="400" fill="#2E3C42">Salmonella / Staph; saccular, rapid growth</text>
+<rect x="390" y="350" width="580" height="26" fill="#F1F4F2"/>
+<rect x="390" y="350" width="4" height="26" fill="#15806A"/>
+<text x="402" y="366" font-size="11" font-weight="700" fill="#1B2026">Post-dissection</text>
+<text x="540" y="366" font-size="11" font-weight="400" fill="#2E3C42">chronic false-lumen degeneration</text>
+<rect x="390" y="390" width="580" height="192" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="390" y="390" width="6" height="192" fill="#245C8C" rx="3"/>
+<text x="410" y="414" font-size="12" font-weight="800" fill="#245C8C">RISK FACTORS &amp; FACTS</text>
+<text x="410" y="436" font-size="11.5" font-weight="400" fill="#2E3C42">Smoking (biggest modifiable), age &gt; 65, male sex, family history, hypertension,</text>
+<text x="410" y="452" font-size="11.5" font-weight="400" fill="#2E3C42">atherosclerosis. Diabetes slows growth / lowers rupture risk. Most are asymptomatic —</text>
+<text x="410" y="468" font-size="11.5" font-weight="400" fill="#2E3C42">found on screening or incidentally.</text>
+<rect x="30" y="586" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="602" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">NAAASP SCREENING &amp; SURVEILLANCE</text>
+<rect x="30.0" y="616" width="229.0" height="76" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="616" width="229.0" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="627" width="229.0" height="11" fill="#15806A"/>
+<text x="40.0" y="632" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">&lt; 3.0 cm</text>
+<text x="40.0" y="653" font-size="10.5" font-weight="700" fill="#15806A">Normal</text>
+<text x="40.0" y="668" font-size="10" font-weight="400" fill="#2E3C42">Discharge — no surveillance</text>
+<rect x="267.0" y="616" width="229.0" height="76" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.3"/>
+<rect x="267.0" y="616" width="229.0" height="22" fill="#245C8C" rx="9"/>
+<rect x="267.0" y="627" width="229.0" height="11" fill="#245C8C"/>
+<text x="277.0" y="632" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">3.0–4.4</text>
+<text x="277.0" y="653" font-size="10.5" font-weight="700" fill="#245C8C">Small AAA</text>
+<text x="277.0" y="668" font-size="10" font-weight="400" fill="#2E3C42">Annual ultrasound</text>
+<rect x="504.0" y="616" width="229.0" height="76" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="504.0" y="616" width="229.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="504.0" y="627" width="229.0" height="11" fill="#C77B20"/>
+<text x="514.0" y="632" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">4.5–5.4</text>
+<text x="514.0" y="653" font-size="10.5" font-weight="700" fill="#C77B20">Medium AAA</text>
+<text x="514.0" y="668" font-size="10" font-weight="400" fill="#2E3C42">3-monthly ultrasound</text>
+<rect x="741.0" y="616" width="229.0" height="76" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="741.0" y="616" width="229.0" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="741.0" y="627" width="229.0" height="11" fill="#BE3A2E"/>
+<text x="751.0" y="632" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">≥ 5.5 cm</text>
+<text x="751.0" y="653" font-size="10.5" font-weight="700" fill="#BE3A2E">Large AAA</text>
+<text x="751.0" y="668" font-size="10" font-weight="400" fill="#2E3C42">Refer vascular ≤ 2 weeks</text>
+<rect x="30" y="704" width="940" height="30" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="704" width="6" height="30" fill="#15806A" rx="3"/>
+<text x="50" y="723.0" font-size="12" font-weight="800" fill="#15806A">PROGRAMME</text>
+<text x="155" y="723.0" font-size="11.5" font-weight="400" fill="#2E3C42">One abdominal ultrasound for men in the year they turn 65; not offered to women; men &gt; 65 can self-refer.</text>
+<rect x="30" y="750" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="750" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="768.5" font-size="12" font-weight="800" fill="#C77B20">REPAIR THRESHOLD</text>
+<text x="201" y="768.5" font-size="11.5" font-weight="400" fill="#2E3C42">Offer repair at ≥ 5.5 cm (inner-to-inner AP on ultrasound), if symptomatic, or if growing &gt; 1 cm/year. No drug reliably halts</text>
+<text x="201" y="783.5" font-size="11.5" font-weight="400" fill="#2E3C42">growth.</text>
+<rect x="30" y="798" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="814" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">ELECTIVE REPAIR — OPEN vs EVAR</text>
+<rect x="30" y="828" width="460.0" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="828" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="856" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">OPEN REPAIR</text>
+<text x="54" y="880" font-size="18" font-weight="800" fill="#1B2026">Laparotomy + graft</text>
+<text x="54" y="902" font-size="12" font-weight="700" fill="#245C8C">Access</text>
+<text x="128" y="902.0" font-size="12" font-weight="400" fill="#2E3C42">laparotomy / retroperitoneal; aortic cross-clamp</text>
+<text x="54" y="922.5" font-size="12" font-weight="700" fill="#245C8C">Graft</text>
+<text x="128" y="922.5" font-size="12" font-weight="400" fill="#2E3C42">Dacron tube or bifurcated graft</text>
+<text x="54" y="943.0" font-size="12" font-weight="700" fill="#245C8C">Durable</text>
+<text x="128" y="943.0" font-size="12" font-weight="400" fill="#2E3C42">definitive; no lifelong surveillance</text>
+<text x="54" y="963.5" font-size="12" font-weight="700" fill="#245C8C">Cost</text>
+<text x="128" y="963.5" font-size="12" font-weight="400" fill="#2E3C42">higher early morbidity / mortality (~3–5%)</text>
+<rect x="510.0" y="828" width="460.0" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="828" width="6" height="143.5" fill="#15806A" rx="3"/>
+<text x="534.0" y="856" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">EVAR</text>
+<text x="534.0" y="880" font-size="18" font-weight="800" fill="#1B2026">Endovascular stent-graft</text>
+<text x="534.0" y="902" font-size="12" font-weight="700" fill="#15806A">Access</text>
+<text x="608.0" y="902.0" font-size="12" font-weight="400" fill="#2E3C42">percutaneous / femoral; stent-graft in sac</text>
+<text x="534.0" y="922.5" font-size="12" font-weight="700" fill="#15806A">Anatomy</text>
+<text x="608.0" y="922.5" font-size="12" font-weight="400" fill="#2E3C42">needs neck ≥ 10–15 mm, angulation, iliac access</text>
+<text x="534.0" y="943.0" font-size="12" font-weight="700" fill="#15806A">Benefit</text>
+<text x="608.0" y="943.0" font-size="12" font-weight="400" fill="#2E3C42">lower early mortality, shorter stay</text>
+<text x="534.0" y="963.5" font-size="12" font-weight="700" fill="#15806A">Cost</text>
+<text x="608.0" y="963.5" font-size="12" font-weight="400" fill="#2E3C42">lifelong CT / duplex surveillance; reinterventions</text>
+<rect x="30" y="985.5" width="940" height="44" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.1"/>
+<rect x="30" y="985.5" width="6" height="44" fill="#6D4AA3" rx="3"/>
+<text x="50" y="1004.0" font-size="12" font-weight="800" fill="#6D4AA3">NICE NG156</text>
+<text x="147" y="1004.0" font-size="11.5" font-weight="400" fill="#2E3C42">Offer OPEN repair first-line for elective unruptured infrarenal AAA; reserve EVAR for those unfit for open (hostile abdomen,</text>
+<text x="147" y="1019.0" font-size="11.5" font-weight="400" fill="#2E3C42">comorbidity, anaesthetic risk). More conservative than ESVS, which prefers EVAR where anatomy suits.</text>
+<rect x="30" y="1033.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1049.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">LANDMARK TRIALS</text>
+<rect x="30" y="1063.5" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="1079.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Trial</text>
+<text x="160" y="1079.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Take-home</text>
+<rect x="30" y="1087.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1087.5" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1103.5" font-size="11" font-weight="700" fill="#1B2026">EVAR-1</text>
+<text x="160" y="1103.5" font-size="11" font-weight="400" fill="#2E3C42">early survival benefit lost by ~2–4 yr; more late reintervention &amp; rupture; no long-term gain</text>
+<rect x="30" y="1110.5" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1126.5" font-size="11" font-weight="700" fill="#1B2026">EVAR-2</text>
+<text x="160" y="1126.5" font-size="11" font-weight="400" fill="#2E3C42">EVAR vs no repair in patients unfit for open — no benefit; high non-aneurysm mortality</text>
+<rect x="30" y="1133.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1133.5" width="4" height="23" fill="#15806A"/>
+<text x="42" y="1149.5" font-size="11" font-weight="700" fill="#1B2026">DREAM</text>
+<text x="160" y="1149.5" font-size="11" font-weight="400" fill="#2E3C42">echoes EVAR-1: early EVAR advantage not sustained</text>
+<rect x="30" y="1160.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1176.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1190.5" width="940" height="138.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1190.5" width="6" height="138.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1212.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1216.5" font-size="12" font-weight="600" fill="#1B2026">AAA = aorta ≥ 3 cm; the normal infrarenal aorta is ~2 cm and 90% of AAAs are infrarenal.</text>
+<circle cx="60" cy="1234.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1238.5" font-size="12" font-weight="600" fill="#1B2026">Diabetes is counter-intuitively associated with slower AAA growth and lower rupture risk.</text>
+<circle cx="60" cy="1256.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1260.5" font-size="12" font-weight="600" fill="#1B2026">Repair threshold is 5.5 cm — don't repair small AAAs; surveillance rupture risk is &lt; 1%/yr below threshold.</text>
+<circle cx="60" cy="1278.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1282.5" font-size="12" font-weight="600" fill="#1B2026">NICE prefers OPEN repair for elective infrarenal AAA — EVAR only if open is unsuitable (contrasts with ESVS).</text>
+<circle cx="60" cy="1300.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1304.5" font-size="12" font-weight="600" fill="#1B2026">Inflammatory AAA: think ureteric involvement / hydronephrosis and raised inflammatory markers.</text>
+<line x1="30" y1="1328.5" x2="970" y2="1328.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1347.5" font-size="10.5" font-weight="400" fill="#7C8A8E">NICE NG156 Abdominal aortic aneurysm: diagnosis and management. NHS AAA Screening Programme (NAAASP) standard operating procedures.</text>
+<text x="30" y="1361.5" font-size="10.5" font-weight="400" fill="#7C8A8E">EVAR-1 &amp; EVAR-2 trials (Lancet); DREAM trial (NEJM). ESVS 2019 AAA clinical practice guidelines.</text>
+<text x="30" y="1375.5" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current NICE / NAAASP guidance and local vascular network protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1425.5" width="1000" height="46" fill="#3E464F"/><text x="30" y="1454.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1454.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

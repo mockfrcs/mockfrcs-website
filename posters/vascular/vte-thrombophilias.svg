@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1000 1041.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1041.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Thrombophilias &amp; VTE (1)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Inherited &amp; acquired hypercoagulable states · antiphospholipid syndrome</text>
+<rect x="30" y="146" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#245C8C">VIRCHOW</text>
+<text x="131" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Thrombophilia is the hypercoagulability arm of Virchow's triad (stasis + endothelial injury + hypercoagulability) — an inherited or</text>
+<text x="131" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">acquired tendency to venous thromboembolism.</text>
+<rect x="30" y="194" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="210" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">INHERITED THROMBOPHILIAS</text>
+<rect x="30" y="224" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="240" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Disorder</text>
+<text x="260" y="240" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Mechanism</text>
+<text x="570" y="240" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Clinical pearl</text>
+<rect x="30" y="248" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="248" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="264" font-size="11" font-weight="700" fill="#1B2026">Factor V Leiden</text>
+<text x="260" y="264" font-size="11" font-weight="400" fill="#2E3C42">activated protein C resistance (APC-R)</text>
+<text x="570" y="264" font-size="11" font-weight="400" fill="#2E3C42">commonest inherited; het ~5×, hom ~50× risk</text>
+<rect x="30" y="271" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="287" font-size="11" font-weight="700" fill="#1B2026">Prothrombin G20210A</text>
+<text x="260" y="287" font-size="11" font-weight="400" fill="#2E3C42">↑ prothrombin (factor II) levels</text>
+<text x="570" y="287" font-size="11" font-weight="400" fill="#2E3C42">2nd commonest inherited</text>
+<rect x="30" y="294" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="294" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="310" font-size="11" font-weight="700" fill="#1B2026">Protein C deficiency</text>
+<text x="260" y="310" font-size="11" font-weight="400" fill="#2E3C42">loss of natural anticoagulant (vit K-dep)</text>
+<text x="570" y="310" font-size="11" font-weight="400" fill="#2E3C42">warfarin skin necrosis; homozygous → purpura fulminans</text>
+<rect x="30" y="317" width="4" height="23" fill="#15806A"/>
+<text x="42" y="333" font-size="11" font-weight="700" fill="#1B2026">Protein S deficiency</text>
+<text x="260" y="333" font-size="11" font-weight="400" fill="#2E3C42">cofactor for activated protein C (vit K-dep)</text>
+<text x="570" y="333" font-size="11" font-weight="400" fill="#2E3C42">levels fall in pregnancy / OCP</text>
+<rect x="30" y="340" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="340" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="356" font-size="11" font-weight="700" fill="#1B2026">Antithrombin deficiency</text>
+<text x="260" y="356" font-size="11" font-weight="400" fill="#2E3C42">loss of thrombin / factor Xa inhibition</text>
+<text x="570" y="356" font-size="11" font-weight="400" fill="#2E3C42">strongest; causes heparin resistance</text>
+<rect x="30" y="367" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="383" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">ACQUIRED — ANTIPHOSPHOLIPID SYNDROME</text>
+<rect x="30" y="397" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="397" width="6" height="143.5" fill="#6D4AA3" rx="3"/>
+<text x="54" y="425" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">APS</text>
+<text x="54" y="449" font-size="18" font-weight="800" fill="#1B2026">Acquired — venous + arterial thrombosis + pregnancy loss</text>
+<text x="54" y="471" font-size="12" font-weight="700" fill="#6D4AA3">Antibodies</text>
+<text x="142" y="471.0" font-size="12" font-weight="400" fill="#2E3C42">lupus anticoagulant, anticardiolipin, anti-β₂-glycoprotein I</text>
+<text x="54" y="491.5" font-size="12" font-weight="700" fill="#6D4AA3">Diagnosis</text>
+<text x="142" y="491.5" font-size="12" font-weight="400" fill="#2E3C42">clinical event + persistent antibodies ≥ 12 weeks apart (Sydney criteria); primary or secondary to SLE</text>
+<text x="54" y="512.0" font-size="12" font-weight="700" fill="#6D4AA3">Lab paradox</text>
+<text x="142" y="512.0" font-size="12" font-weight="400" fill="#2E3C42">lupus anticoagulant prolongs the APTT in vitro but is prothrombotic in vivo</text>
+<text x="54" y="532.5" font-size="12" font-weight="700" fill="#6D4AA3">Treatment</text>
+<text x="142" y="532.5" font-size="12" font-weight="400" fill="#2E3C42">long-term warfarin INR 2–3 (higher / + aspirin if arterial); AVOID DOACs (TRAPS trial); LMWH + aspirin in pregnancy</text>
+<rect x="30" y="556.5" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="556.5" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="575.0" font-size="12" font-weight="800" fill="#C77B20">OTHER ACQUIRED</text>
+<text x="186" y="575.0" font-size="11.5" font-weight="400" fill="#2E3C42">Malignancy (Trousseau — migratory thrombophlebitis), pregnancy / OCP / HRT, nephrotic syndrome (antithrombin loss),</text>
+<text x="186" y="590.0" font-size="11.5" font-weight="400" fill="#2E3C42">surgery / immobility / trauma, PNH, myeloproliferative disease (JAK2), HIT.</text>
+<rect x="30" y="610.5" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="610.5" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="629.0" font-size="12" font-weight="800" fill="#15806A">REMEMBER</text>
+<text x="142" y="629.0" font-size="11.5" font-weight="400" fill="#2E3C42">Warfarin-induced skin necrosis → protein C deficiency (bridge with heparin) · heparin resistance → antithrombin deficiency · neonatal</text>
+<text x="142" y="644.0" font-size="11.5" font-weight="400" fill="#2E3C42">purpura fulminans → homozygous protein C / S deficiency.</text>
+<rect x="30" y="658.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="674.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="688.5" width="940" height="210.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="688.5" width="6" height="210.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="710.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="714.5" font-size="12" font-weight="600" fill="#1B2026">Factor V Leiden is the commonest inherited thrombophilia — it causes activated protein C resistance and venous (not arterial)</text>
+<text x="72" y="732.5" font-size="12" font-weight="400" fill="#2E3C42">thrombosis.</text>
+<circle cx="60" cy="750.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="754.5" font-size="12" font-weight="600" fill="#1B2026">APS causes BOTH venous and arterial thrombosis plus pregnancy loss — and DOACs are inferior: use warfarin (LMWH + aspirin</text>
+<text x="72" y="772.5" font-size="12" font-weight="400" fill="#2E3C42">in pregnancy).</text>
+<circle cx="60" cy="790.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="794.5" font-size="12" font-weight="600" fill="#1B2026">Warfarin-induced skin necrosis points to protein C deficiency — its short half-life gives a transient procoagulant state, so</text>
+<text x="72" y="812.5" font-size="12" font-weight="400" fill="#2E3C42">always bridge with heparin.</text>
+<circle cx="60" cy="830.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="834.5" font-size="12" font-weight="600" fill="#1B2026">Antithrombin deficiency causes heparin resistance (heparin works via antithrombin) — suspect it when the APTT won't rise on</text>
+<text x="72" y="852.5" font-size="12" font-weight="400" fill="#2E3C42">heparin.</text>
+<circle cx="60" cy="870.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="874.5" font-size="12" font-weight="600" fill="#1B2026">The lupus anticoagulant paradox: a prolonged APTT in the lab, but the patient clots in real life.</text>
+<line x1="30" y1="898.5" x2="970" y2="898.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="917.5" font-size="10.5" font-weight="400" fill="#7C8A8E">NICE NG158 venous thromboembolic diseases. British Society for Haematology guidelines on heritable thrombophilia and on antiphospholipid syndrome.</text>
+<text x="30" y="931.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Revised Sapporo / Sydney classification criteria for APS. TRAPS trial (rivaroxaban vs warfarin, triple-positive APS).</text>
+<text x="30" y="945.5" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current NICE / BSH guidance and local protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="995.5" width="1000" height="46" fill="#3E464F"/><text x="30" y="1024.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1024.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

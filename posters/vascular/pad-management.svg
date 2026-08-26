@@ -1,0 +1,203 @@
+<svg viewBox="0 0 1000 1869" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1869" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Peripheral Arterial Disease (2)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Management, CLTI &amp; revascularisation · NICE CG147 · Global Vascular Guidelines</text>
+<rect x="30" y="146" width="940" height="30" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="30" fill="#245C8C" rx="3"/>
+<text x="50" y="165.0" font-size="12" font-weight="800" fill="#245C8C">GOALS</text>
+<text x="111" y="165.0" font-size="11.5" font-weight="400" fill="#2E3C42">Two parallel aims — (1) reduce cardiovascular risk &amp; mortality (PAD is systemic atherosclerosis); (2) relieve symptoms &amp; preserve the limb.</text>
+<rect x="30" y="178" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="194" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">BEST MEDICAL THERAPY — ALL PATIENTS</text>
+<rect x="30" y="208" width="460.0" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="208" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="54" y="236" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SECONDARY PREVENTION</text>
+<text x="54" y="260" font-size="18" font-weight="800" fill="#1B2026">Cardiovascular risk</text>
+<text x="54" y="282" font-size="12" font-weight="700" fill="#15806A">Antiplatelet</text>
+<text x="150" y="282.0" font-size="12" font-weight="400" fill="#2E3C42">clopidogrel 75 mg first-line (NICE TA210)</text>
+<text x="54" y="302.5" font-size="12" font-weight="700" fill="#15806A">Statin</text>
+<text x="150" y="302.5" font-size="12" font-weight="400" fill="#2E3C42">high-intensity (e.g. atorvastatin 80 mg)</text>
+<text x="54" y="323.0" font-size="12" font-weight="700" fill="#15806A">BP</text>
+<text x="150" y="323.0" font-size="12" font-weight="400" fill="#2E3C42">treat to target</text>
+<text x="54" y="343.5" font-size="12" font-weight="700" fill="#15806A">Diabetes</text>
+<text x="150" y="343.5" font-size="12" font-weight="400" fill="#2E3C42">glycaemic control / HbA1c</text>
+<text x="54" y="364.0" font-size="12" font-weight="700" fill="#15806A">Smoking</text>
+<text x="150" y="364.0" font-size="12" font-weight="400" fill="#2E3C42">cessation — single biggest gain</text>
+<text x="54" y="384.5" font-size="12" font-weight="700" fill="#15806A">Also</text>
+<text x="150" y="384.5" font-size="12" font-weight="400" fill="#2E3C42">diet, weight, foot care</text>
+<rect x="510.0" y="208" width="460.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="208" width="6" height="205.0" fill="#C77B20" rx="3"/>
+<text x="534.0" y="236" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SYMPTOM CONTROL</text>
+<text x="534.0" y="260" font-size="18" font-weight="800" fill="#1B2026">Claudication</text>
+<text x="534.0" y="282" font-size="12" font-weight="700" fill="#C77B20">Exercise</text>
+<text x="630.0" y="282.0" font-size="12" font-weight="400" fill="#2E3C42">supervised programme — NICE 1st-line (≈2 h/week,</text>
+<text x="630.0" y="302.5" font-size="12" font-weight="400" fill="#2E3C42">3 months)</text>
+<text x="534.0" y="323.0" font-size="12" font-weight="700" fill="#C77B20">Vasoactive</text>
+<text x="630.0" y="323.0" font-size="12" font-weight="400" fill="#2E3C42">naftidrofuryl oxalate — only NICE-recommended</text>
+<text x="630.0" y="343.5" font-size="12" font-weight="400" fill="#2E3C42">agent (TA223)</text>
+<text x="534.0" y="364.0" font-size="12" font-weight="700" fill="#C77B20">When</text>
+<text x="630.0" y="364.0" font-size="12" font-weight="400" fill="#2E3C42">after exercise fails + patient declines intervention;</text>
+<text x="630.0" y="384.5" font-size="12" font-weight="400" fill="#2E3C42">review 3–6 months</text>
+<text x="534.0" y="405.0" font-size="12" font-weight="700" fill="#C77B20">Not advised</text>
+<text x="630.0" y="405.0" font-size="12" font-weight="400" fill="#2E3C42">cilostazol · pentoxifylline · inositol nicotinate</text>
+<rect x="30" y="417.0" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="433.0" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">CHRONIC LIMB-THREATENING ISCHAEMIA (CLTI)</text>
+<rect x="30" y="447.0" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="447.0" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="465.5" font-size="12" font-weight="800" fill="#BE3A2E">CLTI</text>
+<text x="93" y="465.5" font-size="11.5" font-weight="400" fill="#2E3C42">Modern term for "critical limb ischaemia": rest pain and/or tissue loss (ulcer / gangrene) beyond 2 weeks with objective PAD. A limb- and</text>
+<text x="93" y="480.5" font-size="11.5" font-weight="400" fill="#2E3C42">life-threatening emergency — urgent vascular referral.</text>
+<rect x="30" y="505.0" width="304.0" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30 551.0 L 30 516.0 Q 30 505.0 41 505.0 L 323.0 505.0 Q 334.0 505.0 334.0 516.0 L 334.0 551.0 Z" fill="#C77B20"/>
+<text x="44" y="526.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">W</text>
+<text x="44" y="543.0" font-size="11.5" font-weight="600" fill="#FFFFFF">Wound</text>
+<text x="44" y="569.0" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Grades 0–3</text>
+<text x="44" y="584.0" font-size="11" font-weight="400" fill="#2E3C42">0 none · 1 small / minor · 2 deep ulcer · 3</text>
+<text x="44" y="599.0" font-size="11" font-weight="400" fill="#2E3C42">extensive / heel / gangrene</text>
+<rect x="348.0" y="505.0" width="304.0" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 348.0 551.0 L 348.0 516.0 Q 348.0 505.0 359.0 505.0 L 641.0 505.0 Q 652.0 505.0 652.0 516.0 L 652.0 551.0 Z" fill="#245C8C"/>
+<text x="362.0" y="526.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">I</text>
+<text x="362.0" y="543.0" font-size="11.5" font-weight="600" fill="#FFFFFF">Ischaemia</text>
+<text x="362.0" y="569.0" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Grades 0–3</text>
+<text x="362.0" y="584.0" font-size="11" font-weight="400" fill="#2E3C42">by ABPI, ankle &amp; toe pressure or TcPO₂ (toe</text>
+<text x="362.0" y="599.0" font-size="11" font-weight="400" fill="#2E3C42">pressure preferred)</text>
+<rect x="666.0" y="505.0" width="304.0" height="121" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 666.0 551.0 L 666.0 516.0 Q 666.0 505.0 677.0 505.0 L 959.0 505.0 Q 970.0 505.0 970.0 516.0 L 970.0 551.0 Z" fill="#BE3A2E"/>
+<text x="680.0" y="526.0" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">fI</text>
+<text x="680.0" y="543.0" font-size="11.5" font-weight="600" fill="#FFFFFF">foot Infection</text>
+<text x="680.0" y="569.0" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Grades 0–3</text>
+<text x="680.0" y="584.0" font-size="11" font-weight="400" fill="#2E3C42">0 none · 1 mild · 2 moderate · 3 SIRS / severe</text>
+<text x="680.0" y="599.0" font-size="11" font-weight="400" fill="#2E3C42">sepsis</text>
+<rect x="30" y="638.0" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="638.0" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="656.5" font-size="12" font-weight="800" fill="#15806A">STAGE</text>
+<text x="109" y="656.5" font-size="11.5" font-weight="400" fill="#2E3C42">W + I + fI combine into 4 clinical stages (1 very-low → 4 high 1-year amputation risk); estimates amputation risk &amp; benefit of</text>
+<text x="109" y="671.5" font-size="11.5" font-weight="400" fill="#2E3C42">revascularisation. SVS threatened-limb classification.</text>
+<rect x="30" y="686.0" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="702.0" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">REVASCULARISATION</text>
+<rect x="30" y="716.0" width="460.0" height="123.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="716.0" width="6" height="123.0" fill="#245C8C" rx="3"/>
+<text x="54" y="744.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">ENDOVASCULAR</text>
+<text x="54" y="768.0" font-size="18" font-weight="800" fill="#1B2026">Angioplasty / stent</text>
+<text x="54" y="790.0" font-size="12" font-weight="700" fill="#245C8C">Technique</text>
+<text x="146" y="790.0" font-size="12" font-weight="400" fill="#2E3C42">balloon angioplasty ± stent; drug-coated balloon</text>
+<text x="54" y="810.5" font-size="12" font-weight="700" fill="#245C8C">Best for</text>
+<text x="146" y="810.5" font-size="12" font-weight="400" fill="#2E3C42">shorter lesions (TASC A–B); high-risk / frail</text>
+<text x="54" y="831.0" font-size="12" font-weight="700" fill="#245C8C">Trade-off</text>
+<text x="146" y="831.0" font-size="12" font-weight="400" fill="#2E3C42">less durable but repeatable; often day-case</text>
+<rect x="510.0" y="716.0" width="460.0" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="716.0" width="6" height="164.0" fill="#6D4AA3" rx="3"/>
+<text x="534.0" y="744.0" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">OPEN SURGERY</text>
+<text x="534.0" y="768.0" font-size="18" font-weight="800" fill="#1B2026">Bypass / endarterectomy</text>
+<text x="534.0" y="790.0" font-size="12" font-weight="700" fill="#6D4AA3">Conduit</text>
+<text x="626.0" y="790.0" font-size="12" font-weight="400" fill="#2E3C42">single-segment ipsilateral GSV &gt; other vein &gt;</text>
+<text x="626.0" y="810.5" font-size="12" font-weight="400" fill="#2E3C42">prosthetic</text>
+<text x="534.0" y="831.0" font-size="12" font-weight="700" fill="#6D4AA3">Options</text>
+<text x="626.0" y="831.0" font-size="12" font-weight="400" fill="#2E3C42">fem-pop (above / below knee), fem-distal; CFA</text>
+<text x="626.0" y="851.5" font-size="12" font-weight="400" fill="#2E3C42">endarterectomy</text>
+<text x="534.0" y="872.0" font-size="12" font-weight="700" fill="#6D4AA3">Trade-off</text>
+<text x="626.0" y="872.0" font-size="12" font-weight="400" fill="#2E3C42">more durable; higher upfront morbidity</text>
+<rect x="30" y="884.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="900.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">TASC II — FEMOROPOPLITEAL LESIONS</text>
+<rect x="30" y="914.0" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="914.0" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="932.5" font-size="12" font-weight="800" fill="#245C8C">GRADIENT</text>
+<text x="136" y="932.5" font-size="11.5" font-weight="400" fill="#2E3C42">A → endovascular · B → endovascular (preferred) · C → open (preferred) · D → open surgery. GLASS (Global Vascular Guidelines) now</text>
+<text x="136" y="947.5" font-size="11.5" font-weight="400" fill="#2E3C42">supersedes TASC for anatomic staging.</text>
+<rect x="30" y="970.0" width="940" height="30" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="970.0" width="6" height="30" fill="#15806A" rx="3"/>
+<text x="50" y="989.0" font-size="12" font-weight="800" fill="#15806A">TASC A</text>
+<text x="114" y="989.0" font-size="11.5" font-weight="400" fill="#2E3C42">Single stenosis ≤ 10 cm, or single occlusion ≤ 5 cm.</text>
+<rect x="30" y="1010.0" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="1010.0" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="1028.5" font-size="12" font-weight="800" fill="#245C8C">TASC B</text>
+<text x="113" y="1028.5" font-size="11.5" font-weight="400" fill="#2E3C42">Multiple lesions each ≤ 5 cm; single stenosis / occlusion ≤ 15 cm sparing the infrageniculate popliteal; heavily calcified occlusion ≤ 5 cm;</text>
+<text x="113" y="1043.5" font-size="11.5" font-weight="400" fill="#2E3C42">single popliteal stenosis.</text>
+<rect x="30" y="1064.0" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="1064.0" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="1082.5" font-size="12" font-weight="800" fill="#C77B20">TASC C</text>
+<text x="113" y="1082.5" font-size="11.5" font-weight="400" fill="#2E3C42">Multiple stenoses / occlusions totalling &gt; 15 cm ± heavy calcification; recurrent lesions needing treatment after two endovascular</text>
+<text x="113" y="1097.5" font-size="11.5" font-weight="400" fill="#2E3C42">interventions.</text>
+<rect x="30" y="1118.0" width="940" height="30" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="1118.0" width="6" height="30" fill="#BE3A2E" rx="3"/>
+<text x="50" y="1137.0" font-size="12" font-weight="800" fill="#BE3A2E">TASC D</text>
+<text x="114" y="1137.0" font-size="11.5" font-weight="400" fill="#2E3C42">Chronic total occlusion of CFA or SFA &gt; 20 cm involving the popliteal; or CTO of the popliteal + proximal trifurcation vessels.</text>
+<rect x="30" y="1152.0" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1168.0" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">LANDMARK TRIALS</text>
+<rect x="30" y="1182.0" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="1198.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Trial</text>
+<text x="180" y="1198.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Population</text>
+<text x="390" y="1198.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Take-home</text>
+<rect x="30" y="1206.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1206.0" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="1222.0" font-size="11" font-weight="700" fill="#1B2026">BASIL-1</text>
+<text x="180" y="1222.0" font-size="11" font-weight="400" fill="#2E3C42">Severe limb ischaemia</text>
+<text x="390" y="1222.0" font-size="11" font-weight="400" fill="#2E3C42">bypass vs angioplasty; vein bypass better if survival &gt; 2 yr</text>
+<rect x="30" y="1229.0" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1245.0" font-size="11" font-weight="700" fill="#1B2026">BEST-CLI 2022</text>
+<text x="180" y="1245.0" font-size="11" font-weight="400" fill="#2E3C42">CLTI + good GSV</text>
+<text x="390" y="1245.0" font-size="11" font-weight="400" fill="#2E3C42">surgical bypass superior with single-segment GSV; no diff without vein</text>
+<rect x="30" y="1252.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1252.0" width="4" height="23" fill="#15806A"/>
+<text x="42" y="1268.0" font-size="11" font-weight="700" fill="#1B2026">BASIL-2 2023</text>
+<text x="180" y="1268.0" font-size="11" font-weight="400" fill="#2E3C42">CLTI, infrapopliteal</text>
+<text x="390" y="1268.0" font-size="11" font-weight="400" fill="#2E3C42">endo-first → better amputation-free survival (fewer deaths)</text>
+<rect x="30" y="1275.0" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1291.0" font-size="11" font-weight="700" fill="#1B2026">VOYAGER-PAD</text>
+<text x="180" y="1291.0" font-size="11" font-weight="400" fill="#2E3C42">after revascularisation</text>
+<text x="390" y="1291.0" font-size="11" font-weight="400" fill="#2E3C42">rivaroxaban 2.5 BID + aspirin ↓ MALE/MACE ~15%, ↓ ALI ~33%, ↑ bleeding</text>
+<rect x="30" y="1310.0" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="1310.0" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="1328.5" font-size="12" font-weight="800" fill="#245C8C">CHOOSING</text>
+<text x="138" y="1328.5" font-size="11.5" font-weight="400" fill="#2E3C42">Reconcile BEST-CLI vs BASIL-2: a good single-segment vein + suitable target favours bypass; infrapopliteal disease or a higher-risk /</text>
+<text x="138" y="1343.5" font-size="11.5" font-weight="400" fill="#2E3C42">frail patient favours endo-first. Local expertise &amp; shared decision decide.</text>
+<rect x="30" y="1358.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1374.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">WHEN REVASCULARISATION FAILS / NOT FEASIBLE</text>
+<rect x="30.0" y="1388.0" width="212.5" height="56" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="136.25" y="1420.0" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">Toe / ray</text>
+<line x1="246.5" y1="1416.0" x2="259.5" y2="1416.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 268.5 1416.0 L 259.5 1420.7 L 259.5 1411.3 Z" fill="#6B7B80"/>
+<rect x="272.5" y="1388.0" width="212.5" height="56" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="378.75" y="1420.0" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">Transmetatarsal</text>
+<line x1="489.0" y1="1416.0" x2="502.0" y2="1416.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 511.0 1416.0 L 502.0 1420.7 L 502.0 1411.3 Z" fill="#6B7B80"/>
+<rect x="515.0" y="1388.0" width="212.5" height="56" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="621.25" y="1420.0" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">Below-knee (BKA)</text>
+<line x1="731.5" y1="1416.0" x2="744.5" y2="1416.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 753.5 1416.0 L 744.5 1420.7 L 744.5 1411.3 Z" fill="#6B7B80"/>
+<rect x="757.5" y="1388.0" width="212.5" height="56" fill="#F6ECDD" rx="10" stroke="#C77B20" stroke-width="1.5"/>
+<text x="863.75" y="1420.0" font-size="11.5" font-weight="700" fill="#C77B20" text-anchor="middle">Above-knee (AKA)</text>
+<rect x="30" y="1452.0" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="1452.0" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="1470.5" font-size="12" font-weight="800" fill="#15806A">MDT</text>
+<text x="97" y="1470.5" font-size="11.5" font-weight="400" fill="#2E3C42">Primary amputation for an unsalvageable / non-reconstructable limb; manage within a vascular network (arterial hub) with rehabilitation &amp;</text>
+<text x="97" y="1485.5" font-size="11.5" font-weight="400" fill="#2E3C42">prosthetics.</text>
+<rect x="30" y="1500.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1516.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1530.0" width="940" height="196.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1530.0" width="6" height="196.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1552.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1556.0" font-size="12" font-weight="600" fill="#1B2026">Antiplatelet is clopidogrel first-line (NICE TA210) — aspirin is no longer preferred monotherapy for PAD.</text>
+<circle cx="60" cy="1574.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1578.0" font-size="12" font-weight="600" fill="#1B2026">Naftidrofuryl oxalate is the ONLY NICE-recommended vasoactive drug (TA223); cilostazol, pentoxifylline and inositol nicotinate</text>
+<text x="72" y="1596.0" font-size="12" font-weight="400" fill="#2E3C42">are not.</text>
+<circle cx="60" cy="1614.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1618.0" font-size="12" font-weight="600" fill="#1B2026">Supervised exercise — not drugs or intervention — is first-line for intermittent claudication.</text>
+<circle cx="60" cy="1636.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1640.0" font-size="12" font-weight="600" fill="#1B2026">CLTI is a limb- and life-threatening emergency: 1-year mortality is high — refer urgently and treat CV risk.</text>
+<circle cx="60" cy="1658.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1662.0" font-size="12" font-weight="600" fill="#1B2026">'Best endovascular' vs bypass is anatomy- and conduit-specific (BASIL-2 vs BEST-CLI): a good single-segment GSV favours</text>
+<text x="72" y="1680.0" font-size="12" font-weight="400" fill="#2E3C42">bypass.</text>
+<circle cx="60" cy="1698.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1702.0" font-size="12" font-weight="600" fill="#1B2026">Consider low-dose rivaroxaban + aspirin after revascularisation (VOYAGER-PAD), weighing bleeding risk.</text>
+<line x1="30" y1="1726.0" x2="970" y2="1726.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1745.0" font-size="10.5" font-weight="400" fill="#7C8A8E">NICE CG147 &amp; QS52; NICE TA210 (clopidogrel); NICE TA223 (naftidrofuryl oxalate).</text>
+<text x="30" y="1759.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Global Vascular Guidelines on CLTI (Conte, Bradbury et al., 2019) — WIfI limb staging, GLASS anatomic staging, PLAN framework. TASC II (Norgren et al., 2007).</text>
+<text x="30" y="1773.0" font-size="10.5" font-weight="400" fill="#9AA6AA">Trials: BASIL / BASIL-2 (Lancet 2023); BEST-CLI (NEJM 2022); VOYAGER-PAD (NEJM 2020). MockFRCS revision aid — verify against local vascular network protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1823" width="1000" height="46" fill="#3E464F"/><text x="30" y="1852" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1852" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

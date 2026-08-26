@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1000 1264" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1264" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Non-atherosclerotic Arteriopathies (2)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Vasculitis mimics · the young claudicant · Buerger's · cystic adventitial · PAES · FMD</text>
+<rect x="30" y="146" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#245C8C">WHEN TO SUSPECT</text>
+<text x="196" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Claudication or digital ischaemia in a YOUNG patient with no atherosclerotic risk factors → look beyond atheroma. Consider</text>
+<text x="196" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">Buerger's, cystic adventitial disease, popliteal entrapment, fibromuscular dysplasia and the vasculitides.</text>
+<rect x="30" y="194" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="210" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">THE YOUNG CLAUDICANT</text>
+<rect x="30.0" y="224" width="460.0" height="268" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 270 L 30.0 235 Q 30.0 224 41.0 224 L 479.0 224 Q 490.0 224 490.0 235 L 490.0 270 Z" fill="#BE3A2E"/>
+<text x="44.0" y="245" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TAO</text>
+<text x="44.0" y="262" font-size="11.5" font-weight="600" fill="#FFFFFF">Buerger's / thromboangiitis obliterans</text>
+<text x="44.0" y="288" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Who</text>
+<text x="44.0" y="303" font-size="11" font-weight="400" fill="#2E3C42">young male heavy smokers &lt; 45</text>
+<text x="44.0" y="327" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Features</text>
+<text x="44.0" y="342" font-size="11" font-weight="400" fill="#2E3C42">distal small/medium arteries + upper limb; migratory phlebitis, Raynaud's,</text>
+<text x="44.0" y="357" font-size="11" font-weight="400" fill="#2E3C42">digital ulcers / gangrene</text>
+<text x="44.0" y="381" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Imaging</text>
+<text x="44.0" y="396" font-size="11" font-weight="400" fill="#2E3C42">corkscrew collaterals (Martorell); spares proximal; internal elastic lamina</text>
+<text x="44.0" y="411" font-size="11" font-weight="400" fill="#2E3C42">intact</text>
+<text x="44.0" y="435" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Mx</text>
+<text x="44.0" y="450" font-size="11" font-weight="400" fill="#2E3C42">COMPLETE smoking cessation = only disease-modifier; iloprost; amputation</text>
+<text x="44.0" y="465" font-size="11" font-weight="400" fill="#2E3C42">for gangrene</text>
+<rect x="510.0" y="224" width="460.0" height="268" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 510.0 270 L 510.0 235 Q 510.0 224 521.0 224 L 959.0 224 Q 970.0 224 970.0 235 L 970.0 270 Z" fill="#245C8C"/>
+<text x="524.0" y="245" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">CAD</text>
+<text x="524.0" y="262" font-size="11.5" font-weight="600" fill="#FFFFFF">Cystic adventitial disease</text>
+<text x="524.0" y="288" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Who</text>
+<text x="524.0" y="303" font-size="11" font-weight="400" fill="#2E3C42">men 40–50, no risk factors (M:F ~15:1)</text>
+<text x="524.0" y="327" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Features</text>
+<text x="524.0" y="342" font-size="11" font-weight="400" fill="#2E3C42">unilateral calf claudication, sudden / fluctuating, long recovery time</text>
+<text x="524.0" y="366" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Sign</text>
+<text x="524.0" y="381" font-size="11" font-weight="400" fill="#2E3C42">pulse fades on KNEE FLEXION; scimitar / hourglass on imaging</text>
+<text x="524.0" y="405" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Mx</text>
+<text x="524.0" y="420" font-size="11" font-weight="400" fill="#2E3C42">surgical cyst excision ± vein interposition (endovascular recurs)</text>
+<rect x="30.0" y="508" width="460.0" height="238" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 554 L 30.0 519 Q 30.0 508 41.0 508 L 479.0 508 Q 490.0 508 490.0 519 L 490.0 554 Z" fill="#C77B20"/>
+<text x="44.0" y="529" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PAES</text>
+<text x="44.0" y="546" font-size="11.5" font-weight="600" fill="#FFFFFF">Popliteal entrapment syndrome</text>
+<text x="44.0" y="572" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Who</text>
+<text x="44.0" y="587" font-size="11" font-weight="400" fill="#2E3C42">young athletes / muscular calves</text>
+<text x="44.0" y="611" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Cause</text>
+<text x="44.0" y="626" font-size="11" font-weight="400" fill="#2E3C42">aberrant medial gastrocnemius head compresses the popliteal artery</text>
+<text x="44.0" y="650" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Sign</text>
+<text x="44.0" y="665" font-size="11" font-weight="400" fill="#2E3C42">pulse loss on active plantarflexion / passive dorsiflexion; MRI</text>
+<text x="44.0" y="689" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Mx</text>
+<text x="44.0" y="704" font-size="11" font-weight="400" fill="#2E3C42">surgical release ± bypass (can thrombose / embolise)</text>
+<rect x="510.0" y="508" width="460.0" height="238" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 510.0 554 L 510.0 519 Q 510.0 508 521.0 508 L 959.0 508 Q 970.0 508 970.0 519 L 970.0 554 Z" fill="#15806A"/>
+<text x="524.0" y="529" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">FMD</text>
+<text x="524.0" y="546" font-size="11.5" font-weight="600" fill="#FFFFFF">Fibromuscular dysplasia</text>
+<text x="524.0" y="572" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Who</text>
+<text x="524.0" y="587" font-size="11" font-weight="400" fill="#2E3C42">young–middle-aged women</text>
+<text x="524.0" y="611" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Features</text>
+<text x="524.0" y="626" font-size="11" font-weight="400" fill="#2E3C42">renal (renovascular HTN), internal carotid / vertebral; dissection &amp; aneurysm</text>
+<text x="524.0" y="641" font-size="11" font-weight="400" fill="#2E3C42">risk</text>
+<text x="524.0" y="665" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Sign</text>
+<text x="524.0" y="680" font-size="11" font-weight="400" fill="#2E3C42">'string of beads' (mid–distal artery); limbs in ~5%</text>
+<text x="524.0" y="704" font-size="11" font-weight="800" fill="#15806A" letter-spacing="0.3">Mx</text>
+<text x="524.0" y="719" font-size="11" font-weight="400" fill="#2E3C42">angioplasty (renal); antiplatelet</text>
+<rect x="30" y="764" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="764" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="782.5" font-size="12" font-weight="800" fill="#C77B20">PROVOCATION</text>
+<text x="163" y="782.5" font-size="11.5" font-weight="400" fill="#2E3C42">Exercise-provoked pulse loss with a normal resting exam is the clue: cystic adventitial → KNEE FLEXION · PAES → plantarflexion /</text>
+<text x="163" y="797.5" font-size="11.5" font-weight="400" fill="#2E3C42">dorsiflexion · iliac endofibrosis (cyclists) → hip flexion / exertion.</text>
+<rect x="30" y="818" width="940" height="59" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.1"/>
+<rect x="30" y="818" width="6" height="59" fill="#6D4AA3" rx="3"/>
+<text x="50" y="836.5" font-size="12" font-weight="800" fill="#6D4AA3">RAYNAUD'S</text>
+<text x="143" y="836.5" font-size="11.5" font-weight="400" fill="#2E3C42">Triphasic white → blue → red digital colour change. PRIMARY (disease) — young women, bilateral, benign, no cause. SECONDARY</text>
+<text x="143" y="851.5" font-size="11.5" font-weight="400" fill="#2E3C42">(phenomenon) — connective-tissue disease (scleroderma / SLE), Buerger's, cervical rib / TOS, vibration (HAVS), drugs. Mx: keep warm,</text>
+<text x="143" y="866.5" font-size="11.5" font-weight="400" fill="#2E3C42">stop smoking, nifedipine; treat the cause.</text>
+<rect x="30" y="881" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="897" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="911" width="940" height="210" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="911" width="6" height="210" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="933" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="937" font-size="12" font-weight="600" fill="#1B2026">Any young claudicant without atherosclerotic risk factors deserves a hunt for a non-atherosclerotic cause — don't just label it</text>
+<text x="72" y="955" font-size="12" font-weight="400" fill="#2E3C42">early PAD.</text>
+<circle cx="60" cy="973" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="977" font-size="12" font-weight="600" fill="#1B2026">Buerger's has one treatment that works: total smoking cessation (including second-hand). Revascularisation usually isn't</text>
+<text x="72" y="995" font-size="12" font-weight="400" fill="#2E3C42">feasible — disease is too distal.</text>
+<circle cx="60" cy="1013" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1017" font-size="12" font-weight="600" fill="#1B2026">Cystic adventitial disease (knee flexion) and popliteal entrapment (plantar / dorsiflexion) are separated by which manoeuvre</text>
+<text x="72" y="1035" font-size="12" font-weight="400" fill="#2E3C42">kills the pulse.</text>
+<circle cx="60" cy="1053" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1057" font-size="12" font-weight="600" fill="#1B2026">Migratory superficial thrombophlebitis + digital ischaemia in a young smoker = Buerger's until proven otherwise.</text>
+<circle cx="60" cy="1075" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1079" font-size="12" font-weight="600" fill="#1B2026">Unilateral Raynaud's, digital ulcers, or onset after ~40 point away from benign primary Raynaud's — look for an underlying</text>
+<text x="72" y="1097" font-size="12" font-weight="400" fill="#2E3C42">cause.</text>
+<line x1="30" y1="1121" x2="970" y2="1121" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1140" font-size="10.5" font-weight="400" fill="#7C8A8E">Shionoya / VAS 2023 Buerger's diagnostic criteria (Olin, NEJM). ESVS guidance on non-atherosclerotic peripheral arterial disease.</text>
+<text x="30" y="1154" font-size="10.5" font-weight="400" fill="#7C8A8E">Fibromuscular dysplasia — First International Consensus. Cystic adventitial disease &amp; PAES — vascular surgery literature.</text>
+<text x="30" y="1168" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current guidance and local protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1218" width="1000" height="46" fill="#3E464F"/><text x="30" y="1247" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1247" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

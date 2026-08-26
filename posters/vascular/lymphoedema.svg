@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1000 1234.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1234.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Lymphoedema</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Primary &amp; secondary · staging · management · the surgeon's overview</text>
+<rect x="30" y="146" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#245C8C">DEFINITION</text>
+<text x="144" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Accumulation of protein-rich interstitial fluid from impaired lymphatic drainage — chronic and progressive, affecting the superficial</text>
+<text x="144" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">(epifascial) system. Stemmer's sign (can't pinch skin at the base of the 2nd toe) points to lymphoedema.</text>
+<rect x="30" y="194" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="210" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">CLASSIFICATION</text>
+<rect x="30" y="224" width="460.0" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="224" width="6" height="164.0" fill="#245C8C" rx="3"/>
+<text x="54" y="252" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PRIMARY (by onset age)</text>
+<text x="54" y="276" font-size="18" font-weight="800" fill="#1B2026">Intrinsic lymphatic defect</text>
+<text x="54" y="298" font-size="12" font-weight="700" fill="#245C8C">Congenital</text>
+<text x="144" y="298.0" font-size="12" font-weight="400" fill="#2E3C42">onset &lt; 2 yr — Milroy disease (VEGFR3 / FLT4,</text>
+<text x="144" y="318.5" font-size="12" font-weight="400" fill="#2E3C42">autosomal dominant)</text>
+<text x="54" y="339.0" font-size="12" font-weight="700" fill="#245C8C">Praecox</text>
+<text x="144" y="339.0" font-size="12" font-weight="400" fill="#2E3C42">onset 2–35 yr — Meige disease; commonest primary;</text>
+<text x="144" y="359.5" font-size="12" font-weight="400" fill="#2E3C42">FOXC2; women 4:1</text>
+<text x="54" y="380.0" font-size="12" font-weight="700" fill="#245C8C">Tarda</text>
+<text x="144" y="380.0" font-size="12" font-weight="400" fill="#2E3C42">onset &gt; 35 yr — rarest form</text>
+<rect x="510.0" y="224" width="460.0" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="224" width="6" height="184.5" fill="#6D4AA3" rx="3"/>
+<text x="534.0" y="252" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SECONDARY (acquired)</text>
+<text x="534.0" y="276" font-size="18" font-weight="800" fill="#1B2026">Damage to normal lymphatics</text>
+<text x="534.0" y="298" font-size="12" font-weight="700" fill="#6D4AA3">Worldwide #1</text>
+<text x="638.0" y="298.0" font-size="12" font-weight="400" fill="#2E3C42">filariasis — Wuchereria bancrofti (mosquito) →</text>
+<text x="638.0" y="318.5" font-size="12" font-weight="400" fill="#2E3C42">elephantiasis</text>
+<text x="534.0" y="339.0" font-size="12" font-weight="700" fill="#6D4AA3">Developed #1</text>
+<text x="638.0" y="339.0" font-size="12" font-weight="400" fill="#2E3C42">malignancy &amp; treatment — lymphadenectomy ±</text>
+<text x="638.0" y="359.5" font-size="12" font-weight="400" fill="#2E3C42">radiotherapy</text>
+<text x="534.0" y="380.0" font-size="12" font-weight="700" fill="#6D4AA3">Also</text>
+<text x="638.0" y="380.0" font-size="12" font-weight="400" fill="#2E3C42">breast Ca → arm; groin / pelvic → leg; cellulitis; CVI;</text>
+<text x="638.0" y="400.5" font-size="12" font-weight="400" fill="#2E3C42">obesity</text>
+<rect x="30" y="412.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="428.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">ISL STAGING</text>
+<rect x="30.0" y="442.5" width="229.0" height="76" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<rect x="30.0" y="442.5" width="229.0" height="22" fill="#15806A" rx="9"/>
+<rect x="30.0" y="453.5" width="229.0" height="11" fill="#15806A"/>
+<text x="40.0" y="458.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">0</text>
+<text x="40.0" y="479.5" font-size="10.5" font-weight="700" fill="#15806A">Latent</text>
+<text x="40.0" y="494.5" font-size="10" font-weight="400" fill="#2E3C42">subclinical; no visible swelling</text>
+<rect x="267.0" y="442.5" width="229.0" height="76" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.3"/>
+<rect x="267.0" y="442.5" width="229.0" height="22" fill="#245C8C" rx="9"/>
+<rect x="267.0" y="453.5" width="229.0" height="11" fill="#245C8C"/>
+<text x="277.0" y="458.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">I</text>
+<text x="277.0" y="479.5" font-size="10.5" font-weight="700" fill="#245C8C">Early</text>
+<text x="277.0" y="494.5" font-size="10" font-weight="400" fill="#2E3C42">pits; reduces on elevation</text>
+<rect x="504.0" y="442.5" width="229.0" height="76" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<rect x="504.0" y="442.5" width="229.0" height="22" fill="#C77B20" rx="9"/>
+<rect x="504.0" y="453.5" width="229.0" height="11" fill="#C77B20"/>
+<text x="514.0" y="458.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">II</text>
+<text x="514.0" y="479.5" font-size="10.5" font-weight="700" fill="#C77B20">Established</text>
+<text x="514.0" y="494.5" font-size="10" font-weight="400" fill="#2E3C42">non-pitting; fibrosis; no reduction</text>
+<rect x="741.0" y="442.5" width="229.0" height="76" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<rect x="741.0" y="442.5" width="229.0" height="22" fill="#BE3A2E" rx="9"/>
+<rect x="741.0" y="453.5" width="229.0" height="11" fill="#BE3A2E"/>
+<text x="751.0" y="458.5" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">III</text>
+<text x="751.0" y="479.5" font-size="10.5" font-weight="700" fill="#BE3A2E">Elephantiasis</text>
+<text x="751.0" y="494.5" font-size="10" font-weight="400" fill="#2E3C42">skin changes; hyperkeratosis /</text>
+<text x="751.0" y="507.5" font-size="10" font-weight="400" fill="#2E3C42">papillomatosis</text>
+<rect x="30" y="536.5" width="940" height="59" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="536.5" width="6" height="59" fill="#245C8C" rx="3"/>
+<text x="50" y="555.0" font-size="12" font-weight="800" fill="#245C8C">INVESTIGATION</text>
+<text x="170" y="555.0" font-size="11.5" font-weight="400" fill="#2E3C42">Mostly CLINICAL (history + Stemmer's sign). Lymphoscintigraphy = gold standard to confirm lymphatic dysfunction. Duplex to</text>
+<text x="170" y="570.0" font-size="11.5" font-weight="400" fill="#2E3C42">exclude venous disease / DVT; CT / MRI to exclude malignant obstruction; bloods to exclude systemic oedema (albumin, cardiac,</text>
+<text x="170" y="585.0" font-size="11.5" font-weight="400" fill="#2E3C42">renal, thyroid).</text>
+<rect x="30" y="605.5" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="605.5" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="624.0" font-size="12" font-weight="800" fill="#C77B20">COMPLICATIONS</text>
+<text x="177" y="624.0" font-size="11.5" font-weight="400" fill="#2E3C42">Recurrent cellulitis / erysipelas (usually streptococcal) — a vicious cycle that worsens lymphoedema. Functional &amp; psychological</text>
+<text x="177" y="639.0" font-size="11.5" font-weight="400" fill="#2E3C42">impact. Lymphangiosarcoma (Stewart-Treves) — rare, in chronic post-mastectomy arm lymphoedema; poor prognosis.</text>
+<rect x="30" y="653.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="669.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">MANAGEMENT — DECONGESTIVE LYMPHATIC THERAPY (CDT)</text>
+<rect x="30.0" y="683.5" width="227.5" height="64" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<text x="143.75" y="709.5" font-size="12.5" font-weight="800" fill="#15806A" text-anchor="middle">Skin care</text>
+<text x="143.75" y="726.5" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">emollients; prevent infection</text>
+<rect x="267.5" y="683.5" width="227.5" height="64" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<text x="381.25" y="709.5" font-size="12.5" font-weight="800" fill="#15806A" text-anchor="middle">MLD</text>
+<text x="381.25" y="726.5" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">manual lymphatic drainage</text>
+<rect x="505.0" y="683.5" width="227.5" height="64" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<text x="618.75" y="709.5" font-size="12.5" font-weight="800" fill="#15806A" text-anchor="middle">Compression</text>
+<text x="618.75" y="726.5" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">bandaging → garments</text>
+<rect x="742.5" y="683.5" width="227.5" height="64" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.3"/>
+<text x="856.25" y="709.5" font-size="12.5" font-weight="800" fill="#15806A" text-anchor="middle">Exercise</text>
+<text x="856.25" y="726.5" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">muscle-pump activation</text>
+<rect x="30" y="759.5" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="759.5" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="778.0" font-size="12" font-weight="800" fill="#15806A">ADJUNCTS</text>
+<text x="135" y="778.0" font-size="11.5" font-weight="400" fill="#2E3C42">Weight management, limb elevation, meticulous skin care, pneumatic compression pumps. Treat cellulitis promptly; offer prophylactic</text>
+<text x="135" y="793.0" font-size="11.5" font-weight="400" fill="#2E3C42">phenoxymethylpenicillin after ≥ 2 episodes of cellulitis in a year (BLS).</text>
+<rect x="30" y="813.5" width="940" height="44" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.1"/>
+<rect x="30" y="813.5" width="6" height="44" fill="#6D4AA3" rx="3"/>
+<text x="50" y="832.0" font-size="12" font-weight="800" fill="#6D4AA3">SURGERY (refractory only)</text>
+<text x="245" y="832.0" font-size="11.5" font-weight="400" fill="#2E3C42">Physiological — lymphovenous anastomosis (LVA), vascularised lymph node transfer (VLNT) for earlier disease.</text>
+<text x="245" y="847.0" font-size="11.5" font-weight="400" fill="#2E3C42">Reductive — liposuction (fatty change), Charles procedure (radical excision + skin graft) for elephantiasis.</text>
+<rect x="30" y="867.5" width="940" height="30" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="867.5" width="6" height="30" fill="#BE3A2E" rx="3"/>
+<text x="50" y="886.5" font-size="12" font-weight="800" fill="#BE3A2E">KEY TRAP</text>
+<text x="132" y="886.5" font-size="11.5" font-weight="400" fill="#2E3C42">Diuretics are NOT effective — lymphoedema is a high-protein interstitial problem, not fluid overload. It is controlled, not cured.</text>
+<rect x="30" y="901.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="917.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="931.5" width="940" height="160.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="931.5" width="6" height="160.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="953.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="957.5" font-size="12" font-weight="600" fill="#1B2026">Stemmer's sign (can't pinch the skin at the base of the 2nd toe) is a simple bedside pointer to lymphoedema.</text>
+<circle cx="60" cy="975.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="979.5" font-size="12" font-weight="600" fill="#1B2026">Diuretics DON'T work — it's a high-protein interstitial problem, not fluid overload; the mainstay is decongestive therapy.</text>
+<circle cx="60" cy="997.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1001.5" font-size="12" font-weight="600" fill="#1B2026">Worldwide the commonest cause is filariasis; in the UK it's cancer treatment (lymph-node clearance ± radiotherapy).</text>
+<circle cx="60" cy="1019.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1023.5" font-size="12" font-weight="600" fill="#1B2026">Offer prophylactic phenoxymethylpenicillin after ≥ 2 cellulitis episodes in a year (BLS), and treat any cellulitis promptly.</text>
+<circle cx="60" cy="1041.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1045.5" font-size="12" font-weight="600" fill="#1B2026">Lymphangiosarcoma (Stewart-Treves) in a chronically swollen post-mastectomy arm is rare but must not be missed.</text>
+<circle cx="60" cy="1063.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1067.5" font-size="12" font-weight="600" fill="#1B2026">Lymphoedema is controlled, not cured — surgery (LVA, VLNT, liposuction, Charles) is reserved for refractory disease.</text>
+<line x1="30" y1="1091.5" x2="970" y2="1091.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1110.5" font-size="10.5" font-weight="400" fill="#7C8A8E">ISL (International Society of Lymphology) consensus staging. British Lymphology Society / Lymphoedema Support Network cellulitis guideline.</text>
+<text x="30" y="1124.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Lymphoedema Framework best-practice consensus. Milroy = VEGFR3/FLT4; Meige/praecox = FOXC2.</text>
+<text x="30" y="1138.5" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current BLS / ISL guidance and local protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1188.5" width="1000" height="46" fill="#3E464F"/><text x="30" y="1217.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1217.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

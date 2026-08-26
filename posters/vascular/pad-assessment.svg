@@ -1,0 +1,182 @@
+<svg viewBox="0 0 1000 1414" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1414" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Peripheral Arterial Disease (1)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Presentation, classification &amp; investigation · lower-limb PAD</text>
+<path d="M 30.0 146.0 L 321.3 146.0 L 343.3 182.0 L 321.3 218.0 L 30.0 218.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="46.0" y="172" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">ASYMPTOMATIC</text>
+<text x="46.0" y="190" font-size="11" font-weight="400" fill="#2E3C42">Abnormal ABPI; still raised CV risk</text>
+<path d="M 343.3 146.0 L 634.7 146.0 L 656.7 182.0 L 634.7 218.0 L 343.3 218.0 L 365.3 182.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="375.3333333333333" y="172" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">INTERMITTENT CLAUDICATION</text>
+<text x="375.3333333333333" y="190" font-size="11" font-weight="400" fill="#2E3C42">Exertional muscle pain, eased by rest</text>
+<path d="M 656.7 146.0 L 970.0 146.0 L 970.0 218.0 L 656.7 218.0 L 678.7 182.0 Z" fill="#FBEAE6" stroke="#BE3A2E" stroke-width="1.4"/>
+<text x="688.6666666666666" y="172" font-size="11.5" font-weight="800" fill="#BE3A2E" letter-spacing="0.4">CLTI</text>
+<text x="688.6666666666666" y="190" font-size="11" font-weight="400" fill="#2E3C42">Rest pain / tissue loss — see sheet 2</text>
+<rect x="30" y="222" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="238" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">ARTERIAL LEVEL → CLAUDICATION SITE</text>
+<rect x="30" y="252" width="352" height="372" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="252" width="6" height="372" fill="#245C8C" rx="3"/>
+<text x="52" y="278" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">ARTERIAL TREE</text>
+<line x1="110" y1="304" x2="110" y2="326" stroke="#245C8C" stroke-width="7"/>
+<line x1="110" y1="326" x2="136" y2="350" stroke="#245C8C" stroke-width="6"/>
+<line x1="110" y1="326" x2="84" y2="350" stroke="#245C8C" stroke-width="5"/>
+<line x1="84" y1="350" x2="84" y2="370" stroke="#9DB6CE" stroke-width="4"/>
+<line x1="136" y1="350" x2="136" y2="402" stroke="#245C8C" stroke-width="6"/>
+<line x1="136" y1="402" x2="136" y2="502" stroke="#C77B20" stroke-width="6"/>
+<line x1="136" y1="502" x2="136" y2="550" stroke="#BE3A2E" stroke-width="6"/>
+<line x1="136" y1="410" x2="164" y2="436" stroke="#C77B20" stroke-width="4"/>
+<line x1="136" y1="550" x2="120" y2="584" stroke="#BE3A2E" stroke-width="4"/>
+<line x1="136" y1="550" x2="136" y2="584" stroke="#BE3A2E" stroke-width="4"/>
+<line x1="136" y1="550" x2="152" y2="584" stroke="#BE3A2E" stroke-width="4"/>
+<circle cx="136" cy="402" r="4.5" fill="#1B2026"/>
+<circle cx="136" cy="452" r="4.5" fill="#1B2026"/>
+<circle cx="136" cy="502" r="4.5" fill="#1B2026"/>
+<circle cx="136" cy="550" r="4.5" fill="#1B2026"/>
+<text x="152" y="310" font-size="11" font-weight="700" fill="#245C8C">Aorta</text>
+<text x="152" y="354" font-size="11" font-weight="700" fill="#245C8C">Common iliac</text>
+<text x="152" y="406" font-size="11" font-weight="700" fill="#C77B20">Common femoral</text>
+<text x="152" y="456" font-size="11" font-weight="700" fill="#C77B20">SFA (Hunter's canal)</text>
+<text x="152" y="506" font-size="11" font-weight="700" fill="#C77B20">Popliteal</text>
+<text x="152" y="554" font-size="11" font-weight="700" fill="#BE3A2E">Tibioperoneal trunk</text>
+<text x="152" y="586" font-size="10.5" font-weight="700" fill="#BE3A2E">AT · PT · Peroneal</text>
+<rect x="402" y="252" width="568" height="24" fill="#1B2026" rx="5"/>
+<text x="414" y="268" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Level</text>
+<text x="542" y="268" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Vessel</text>
+<text x="692" y="268" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Claudication / clue</text>
+<rect x="402" y="276" width="568" height="26" fill="#F1F4F2"/>
+<rect x="402" y="276" width="4" height="26" fill="#245C8C"/>
+<text x="414" y="292" font-size="11" font-weight="700" fill="#1B2026">Aorto-iliac</text>
+<text x="542" y="292" font-size="11" font-weight="400" fill="#2E3C42">Aorta, iliacs</text>
+<text x="692" y="292" font-size="11" font-weight="400" fill="#2E3C42">Buttock, hip, thigh</text>
+<rect x="402" y="302" width="4" height="26" fill="#C77B20"/>
+<text x="414" y="318" font-size="11" font-weight="700" fill="#1B2026">Common femoral</text>
+<text x="542" y="318" font-size="11" font-weight="400" fill="#2E3C42">CFA / profunda</text>
+<text x="692" y="318" font-size="11" font-weight="400" fill="#2E3C42">Thigh</text>
+<rect x="402" y="328" width="568" height="26" fill="#F1F4F2"/>
+<rect x="402" y="328" width="4" height="26" fill="#C77B20"/>
+<text x="414" y="344" font-size="11" font-weight="700" fill="#1B2026">Fem-popliteal</text>
+<text x="542" y="344" font-size="11" font-weight="400" fill="#2E3C42">SFA — Hunter's canal</text>
+<text x="692" y="344" font-size="11" font-weight="400" fill="#2E3C42">Calf (commonest)</text>
+<rect x="402" y="354" width="4" height="26" fill="#C77B20"/>
+<text x="414" y="370" font-size="11" font-weight="700" fill="#1B2026">Popliteal</text>
+<text x="542" y="370" font-size="11" font-weight="400" fill="#2E3C42">Popliteal artery</text>
+<text x="692" y="370" font-size="11" font-weight="400" fill="#2E3C42">Calf, ankle</text>
+<rect x="402" y="380" width="568" height="26" fill="#F1F4F2"/>
+<rect x="402" y="380" width="4" height="26" fill="#BE3A2E"/>
+<text x="414" y="396" font-size="11" font-weight="700" fill="#1B2026">Infra-popliteal</text>
+<text x="542" y="396" font-size="11" font-weight="400" fill="#2E3C42">AT / PT / peroneal</text>
+<text x="692" y="396" font-size="11" font-weight="400" fill="#2E3C42">Foot; diabetic</text>
+<rect x="402" y="420" width="568" height="204" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.1"/>
+<rect x="402" y="420" width="6" height="204" fill="#6D4AA3" rx="3"/>
+<text x="422" y="444" font-size="12" font-weight="800" fill="#6D4AA3">LERICHE SYNDROME (aorto-iliac)</text>
+<text x="422" y="466" font-size="11.5" font-weight="400" fill="#2E3C42">Triad: buttock / thigh / hip claudication + erectile dysfunction + absent femoral pulses</text>
+<text x="422" y="482" font-size="11.5" font-weight="400" fill="#2E3C42">(± distal wasting, pallor). Classically the younger male smoker with bilateral inflow</text>
+<text x="422" y="498" font-size="11.5" font-weight="400" fill="#2E3C42">disease.</text>
+<rect x="30" y="628" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="644" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">SEVERITY — FONTAINE ↔ RUTHERFORD</text>
+<rect x="30" y="658" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="674" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Fontaine</text>
+<text x="150" y="674" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Clinical picture</text>
+<text x="590" y="674" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Rutherford (0–6)</text>
+<rect x="30" y="682" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="682" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="698" font-size="11" font-weight="700" fill="#1B2026">I</text>
+<text x="150" y="698" font-size="11" font-weight="400" fill="#2E3C42">Asymptomatic</text>
+<text x="590" y="698" font-size="11" font-weight="400" fill="#2E3C42">0 — asymptomatic</text>
+<rect x="30" y="705" width="4" height="23" fill="#15806A"/>
+<text x="42" y="721" font-size="11" font-weight="700" fill="#1B2026">IIa</text>
+<text x="150" y="721" font-size="11" font-weight="400" fill="#2E3C42">Mild claudication (&gt;200 m)</text>
+<text x="590" y="721" font-size="11" font-weight="400" fill="#2E3C42">1 — mild claudication</text>
+<rect x="30" y="728" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="728" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="744" font-size="11" font-weight="700" fill="#1B2026">IIb</text>
+<text x="150" y="744" font-size="11" font-weight="400" fill="#2E3C42">Mod–severe claudication (&lt;200 m)</text>
+<text x="590" y="744" font-size="11" font-weight="400" fill="#2E3C42">2–3 — mod / severe</text>
+<rect x="30" y="751" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="767" font-size="11" font-weight="700" fill="#1B2026">III</text>
+<text x="150" y="767" font-size="11" font-weight="400" fill="#2E3C42">Ischaemic rest pain</text>
+<text x="590" y="767" font-size="11" font-weight="400" fill="#2E3C42">4 — ischaemic rest pain</text>
+<rect x="30" y="774" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="774" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="790" font-size="11" font-weight="700" fill="#1B2026">IV</text>
+<text x="150" y="790" font-size="11" font-weight="400" fill="#2E3C42">Ulceration / gangrene</text>
+<text x="590" y="790" font-size="11" font-weight="400" fill="#2E3C42">5–6 — minor / major tissue loss</text>
+<rect x="30" y="801" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="817" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">DIFFERENTIAL OF CLAUDICATION</text>
+<rect x="30" y="831" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="847" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Type</text>
+<text x="210" y="847" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Pain</text>
+<text x="500" y="847" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Relieved by</text>
+<text x="800" y="847" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Pulses</text>
+<rect x="30" y="855" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="855" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="871" font-size="11" font-weight="700" fill="#1B2026">Arterial</text>
+<text x="210" y="871" font-size="11" font-weight="400" fill="#2E3C42">Cramp; fixed claudication distance</text>
+<text x="500" y="871" font-size="11" font-weight="400" fill="#2E3C42">Stopping (minutes)</text>
+<text x="800" y="871" font-size="11" font-weight="400" fill="#2E3C42">↓ / absent</text>
+<rect x="30" y="878" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="894" font-size="11" font-weight="700" fill="#1B2026">Neurogenic</text>
+<text x="210" y="894" font-size="11" font-weight="400" fill="#2E3C42">Positional; spinal stenosis</text>
+<text x="500" y="894" font-size="11" font-weight="400" fill="#2E3C42">Sitting, leaning forward</text>
+<text x="800" y="894" font-size="11" font-weight="400" fill="#2E3C42">Normal</text>
+<rect x="30" y="901" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="901" width="4" height="23" fill="#15806A"/>
+<text x="42" y="917" font-size="11" font-weight="700" fill="#1B2026">Venous</text>
+<text x="210" y="917" font-size="11" font-weight="400" fill="#2E3C42">Bursting, whole-limb heaviness</text>
+<text x="500" y="917" font-size="11" font-weight="400" fill="#2E3C42">Elevation</text>
+<text x="800" y="917" font-size="11" font-weight="400" fill="#2E3C42">Present</text>
+<rect x="30" y="924" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="940" font-size="11" font-weight="700" fill="#1B2026">MSK / joint</text>
+<text x="210" y="940" font-size="11" font-weight="400" fill="#2E3C42">Localised to a joint</text>
+<text x="500" y="940" font-size="11" font-weight="400" fill="#2E3C42">Rest, variable</text>
+<text x="800" y="940" font-size="11" font-weight="400" fill="#2E3C42">Present</text>
+<rect x="30" y="951" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="967" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">INVESTIGATION</text>
+<rect x="30.0" y="981" width="164.0" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="112.0" y="1016.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">Pulses &amp; Buerger's</text>
+<line x1="198.0" y1="1012.0" x2="211.0" y2="1012.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 220.0 1012.0 L 211.0 1016.7 L 211.0 1007.3 Z" fill="#6B7B80"/>
+<rect x="224.0" y="981" width="164.0" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="306.0" y="1016.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">ABPI ± toe pressure</text>
+<line x1="392.0" y1="1012.0" x2="405.0" y2="1012.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 414.0 1012.0 L 405.0 1016.7 L 405.0 1007.3 Z" fill="#6B7B80"/>
+<rect x="418.0" y="981" width="164.0" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="500.0" y="1016.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">Duplex (1st-line)</text>
+<line x1="586.0" y1="1012.0" x2="599.0" y2="1012.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 608.0 1012.0 L 599.0 1016.7 L 599.0 1007.3 Z" fill="#6B7B80"/>
+<rect x="612.0" y="981" width="164.0" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="694.0" y="1016.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">CTA / MRA</text>
+<line x1="780.0" y1="1012.0" x2="793.0" y2="1012.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 802.0 1012.0 L 793.0 1016.7 L 793.0 1007.3 Z" fill="#6B7B80"/>
+<rect x="806.0" y="981" width="164.0" height="62" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="888.0" y="1016.0" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">DSA (if intervening)</text>
+<rect x="30" y="1055" width="940" height="30" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="1055" width="6" height="30" fill="#245C8C" rx="3"/>
+<text x="50" y="1074.0" font-size="12" font-weight="800" fill="#245C8C">ABPI</text>
+<text x="98" y="1074.0" font-size="11.5" font-weight="400" fill="#2E3C42">&gt;1.3 incompressible (diabetes / CKD) → use toe pressures · 0.90–1.20 normal · 0.50–0.90 claudication · &lt;0.50 severe / rest pain</text>
+<rect x="30" y="1089" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1105" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1119" width="940" height="138" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1119" width="6" height="138" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1141" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1145" font-size="12" font-weight="600" fill="#1B2026">Falsely HIGH ABPI (&gt;1.3) from incompressible calcified vessels in diabetes / CKD — always check toe pressures / TBI.</text>
+<circle cx="60" cy="1163" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1167" font-size="12" font-weight="600" fill="#1B2026">PAD is systemic atherosclerosis: cardiovascular events, not the leg, are the leading cause of death — treat CV risk hard.</text>
+<circle cx="60" cy="1185" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1189" font-size="12" font-weight="600" fill="#1B2026">Ischaemic rest pain is worse lying flat and eased by hanging the leg out of bed — distinguish from nocturnal cramps.</text>
+<circle cx="60" cy="1207" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1211" font-size="12" font-weight="600" fill="#1B2026">CLTI (rest pain / tissue loss) needs urgent vascular referral — see sheet 2.</text>
+<circle cx="60" cy="1229" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1233" font-size="12" font-weight="600" fill="#1B2026">Leriche in a young male smoker: don't overlook erectile dysfunction + absent femoral pulses.</text>
+<line x1="30" y1="1257" x2="970" y2="1257" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1276" font-size="10.5" font-weight="400" fill="#7C8A8E">NICE CG147 Lower limb peripheral arterial disease: diagnosis and management; NICE QS52. ESVS clinical practice guidelines on asymptomatic lower-limb PAD &amp; intermittent</text>
+<text x="30" y="1290" font-size="10.5" font-weight="400" fill="#7C8A8E">claudication.</text>
+<text x="30" y="1304" font-size="10.5" font-weight="400" fill="#7C8A8E">Fontaine and Rutherford severity classifications. TASC II (Norgren et al., 2007) — anatomic lesion staging (see sheet 2).</text>
+<text x="30" y="1318" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current NICE / ESVS guidance and local vascular network protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1368" width="1000" height="46" fill="#3E464F"/><text x="30" y="1397" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1397" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

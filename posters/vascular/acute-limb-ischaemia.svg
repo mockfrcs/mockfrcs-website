@@ -1,0 +1,227 @@
+<svg viewBox="0 0 1000 1737" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1737" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Acute Limb Ischaemia</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Vascular emergency · the 6 Ps · Rutherford categories · embolus vs thrombus · ESVS 2020</text>
+<rect x="30" y="146" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#BE3A2E">EMERGENCY</text>
+<text x="149" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Sudden fall in limb perfusion threatening viability (onset &lt; 2 weeks). A surgical emergency — irreversible muscle necrosis after ~6 h</text>
+<text x="149" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">of complete ischaemia; peripheral nerves are hit even earlier.</text>
+<rect x="30" y="194" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="210" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">CLINICAL — THE SIX Ps</text>
+<rect x="30.0" y="224" width="150.0" height="66" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<text x="105.0" y="251" font-size="13.5" font-weight="800" fill="#C77B20" text-anchor="middle">Pain</text>
+<text x="105.0" y="269" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">constant, distal</text>
+<rect x="188.0" y="224" width="150.0" height="66" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<text x="263.0" y="251" font-size="13.5" font-weight="800" fill="#C77B20" text-anchor="middle">Pallor</text>
+<text x="263.0" y="269" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">then mottling</text>
+<rect x="346.0" y="224" width="150.0" height="66" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<text x="421.0" y="251" font-size="13.5" font-weight="800" fill="#C77B20" text-anchor="middle">Pulseless</text>
+<text x="421.0" y="269" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">absent distal pulses</text>
+<rect x="504.0" y="224" width="150.0" height="66" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.3"/>
+<text x="579.0" y="251" font-size="13.5" font-weight="800" fill="#C77B20" text-anchor="middle">Perishing cold</text>
+<text x="579.0" y="269" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">poikilothermia</text>
+<rect x="662.0" y="224" width="150.0" height="66" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<text x="737.0" y="251" font-size="13.5" font-weight="800" fill="#BE3A2E" text-anchor="middle">Paraesthesia</text>
+<text x="737.0" y="269" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">sensory loss = threatened</text>
+<rect x="820.0" y="224" width="150.0" height="66" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.3"/>
+<text x="895.0" y="251" font-size="13.5" font-weight="800" fill="#BE3A2E" text-anchor="middle">Paralysis</text>
+<text x="895.0" y="269" font-size="9.5" font-weight="400" fill="#2E3C42" text-anchor="middle">motor loss = threatened</text>
+<rect x="30" y="302" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="302" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="320.5" font-size="12" font-weight="800" fill="#C77B20">NEURO Ps</text>
+<text x="133" y="320.5" font-size="11.5" font-weight="400" fill="#2E3C42">Paraesthesia + paralysis (sensorimotor deficit) mark a threatened limb needing emergency revascularisation. Pain easing as sensation</text>
+<text x="133" y="335.5" font-size="11.5" font-weight="400" fill="#2E3C42">is lost is ominous — not improvement.</text>
+<rect x="30" y="350" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="366" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">AETIOLOGY — EMBOLUS vs THROMBUS</text>
+<rect x="30" y="380" width="460.0" height="225.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="380" width="6" height="225.5" fill="#245C8C" rx="3"/>
+<text x="54" y="408" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">EMBOLIC (~30%)</text>
+<text x="54" y="432" font-size="18" font-weight="800" fill="#1B2026">Embolus</text>
+<text x="54" y="454" font-size="12" font-weight="700" fill="#245C8C">Onset</text>
+<text x="150" y="454.0" font-size="12" font-weight="400" fill="#2E3C42">sudden (seconds–hours)</text>
+<text x="54" y="474.5" font-size="12" font-weight="700" fill="#245C8C">History</text>
+<text x="150" y="474.5" font-size="12" font-weight="400" fill="#2E3C42">no claudication; identifiable source</text>
+<text x="54" y="495.0" font-size="12" font-weight="700" fill="#245C8C">Source</text>
+<text x="150" y="495.0" font-size="12" font-weight="400" fill="#2E3C42">AF, post-MI mural thrombus, valve, aneurysm (AAA /</text>
+<text x="150" y="515.5" font-size="12" font-weight="400" fill="#2E3C42">popliteal), prosthetic</text>
+<text x="54" y="536.0" font-size="12" font-weight="700" fill="#245C8C">Other leg</text>
+<text x="150" y="536.0" font-size="12" font-weight="400" fill="#2E3C42">normal pulses</text>
+<text x="54" y="556.5" font-size="12" font-weight="700" fill="#245C8C">Severity</text>
+<text x="150" y="556.5" font-size="12" font-weight="400" fill="#2E3C42">more profound — few collaterals</text>
+<text x="54" y="577.0" font-size="12" font-weight="700" fill="#245C8C">Site</text>
+<text x="150" y="577.0" font-size="12" font-weight="400" fill="#2E3C42">CFA bifurcation, then popliteal</text>
+<text x="54" y="597.5" font-size="12" font-weight="700" fill="#245C8C">Treatment</text>
+<text x="150" y="597.5" font-size="12" font-weight="400" fill="#2E3C42">Fogarty embolectomy + treat source; anticoagulate</text>
+<rect x="510.0" y="380" width="460.0" height="205.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="380" width="6" height="205.0" fill="#6D4AA3" rx="3"/>
+<text x="534.0" y="408" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">THROMBOTIC (~60%)</text>
+<text x="534.0" y="432" font-size="18" font-weight="800" fill="#1B2026">Acute-on-chronic</text>
+<text x="534.0" y="454" font-size="12" font-weight="700" fill="#6D4AA3">Onset</text>
+<text x="630.0" y="454.0" font-size="12" font-weight="400" fill="#2E3C42">subacute (hours–days)</text>
+<text x="534.0" y="474.5" font-size="12" font-weight="700" fill="#6D4AA3">History</text>
+<text x="630.0" y="474.5" font-size="12" font-weight="400" fill="#2E3C42">claudication / known PAD or graft</text>
+<text x="534.0" y="495.0" font-size="12" font-weight="700" fill="#6D4AA3">Source</text>
+<text x="630.0" y="495.0" font-size="12" font-weight="400" fill="#2E3C42">plaque rupture at a stenosis; graft occlusion</text>
+<text x="534.0" y="515.5" font-size="12" font-weight="700" fill="#6D4AA3">Other leg</text>
+<text x="630.0" y="515.5" font-size="12" font-weight="400" fill="#2E3C42">reduced / absent pulses</text>
+<text x="534.0" y="536.0" font-size="12" font-weight="700" fill="#6D4AA3">Severity</text>
+<text x="630.0" y="536.0" font-size="12" font-weight="400" fill="#2E3C42">less profound — collaterals</text>
+<text x="534.0" y="556.5" font-size="12" font-weight="700" fill="#6D4AA3">Site</text>
+<text x="630.0" y="556.5" font-size="12" font-weight="400" fill="#2E3C42">pre-existing disease / bypass graft</text>
+<text x="534.0" y="577.0" font-size="12" font-weight="700" fill="#6D4AA3">Treatment</text>
+<text x="630.0" y="577.0" font-size="12" font-weight="400" fill="#2E3C42">image → thrombolysis / angioplasty / bypass</text>
+<rect x="30" y="609.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="625.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">RUTHERFORD CATEGORIES</text>
+<rect x="30" y="639.5" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="655.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Cat</text>
+<text x="102" y="655.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Viability</text>
+<text x="225" y="655.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Sensory loss</text>
+<text x="375" y="655.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Motor</text>
+<text x="508" y="655.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Doppler A/V</text>
+<text x="648" y="655.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Action</text>
+<rect x="30" y="663.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="663.5" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="679.5" font-size="11" font-weight="700" fill="#1B2026">I</text>
+<text x="102" y="679.5" font-size="11" font-weight="400" fill="#2E3C42">Viable</text>
+<text x="225" y="679.5" font-size="11" font-weight="400" fill="#2E3C42">None</text>
+<text x="375" y="679.5" font-size="11" font-weight="400" fill="#2E3C42">None</text>
+<text x="508" y="679.5" font-size="11" font-weight="400" fill="#2E3C42">Aud / Aud</text>
+<text x="648" y="679.5" font-size="11" font-weight="400" fill="#2E3C42">Anticoagulate; image &amp; plan</text>
+<rect x="30" y="686.5" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="702.5" font-size="11" font-weight="700" fill="#1B2026">IIa</text>
+<text x="102" y="702.5" font-size="11" font-weight="400" fill="#2E3C42">Marginal</text>
+<text x="225" y="702.5" font-size="11" font-weight="400" fill="#2E3C42">Minimal (toes)</text>
+<text x="375" y="702.5" font-size="11" font-weight="400" fill="#2E3C42">None</text>
+<text x="508" y="702.5" font-size="11" font-weight="400" fill="#2E3C42">Inaud* / Aud</text>
+<text x="648" y="702.5" font-size="11" font-weight="400" fill="#2E3C42">Salvageable — urgent revasc / lysis</text>
+<rect x="30" y="709.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="709.5" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="725.5" font-size="11" font-weight="700" fill="#1B2026">IIb</text>
+<text x="102" y="725.5" font-size="11" font-weight="400" fill="#2E3C42">Immediate</text>
+<text x="225" y="725.5" font-size="11" font-weight="400" fill="#2E3C42">&gt;Toes + rest pain</text>
+<text x="375" y="725.5" font-size="11" font-weight="400" fill="#2E3C42">Mild–mod</text>
+<text x="508" y="725.5" font-size="11" font-weight="400" fill="#2E3C42">Inaud / Aud</text>
+<text x="648" y="725.5" font-size="11" font-weight="400" fill="#2E3C42">Emergency surgery ± fasciotomy</text>
+<rect x="30" y="732.5" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="748.5" font-size="11" font-weight="700" fill="#1B2026">III</text>
+<text x="102" y="748.5" font-size="11" font-weight="400" fill="#2E3C42">Irreversible</text>
+<text x="225" y="748.5" font-size="11" font-weight="400" fill="#2E3C42">Profound / anaesthetic</text>
+<text x="375" y="748.5" font-size="11" font-weight="400" fill="#2E3C42">Profound</text>
+<text x="508" y="748.5" font-size="11" font-weight="400" fill="#2E3C42">Inaud / Inaud</text>
+<text x="648" y="748.5" font-size="11" font-weight="400" fill="#2E3C42">Primary amputation</text>
+<rect x="30" y="767.5" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="767.5" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="786.0" font-size="12" font-weight="800" fill="#245C8C">BY CATEGORY</text>
+<text x="159" y="786.0" font-size="11.5" font-weight="400" fill="#2E3C42">I / IIa → anticoagulate, or thrombolysis / surgery · IIb → emergency surgical revascularisation (embolectomy / bypass) ± on-table</text>
+<text x="159" y="801.0" font-size="11.5" font-weight="400" fill="#2E3C42">lysis · III → primary amputation (reperfusion may be fatal). *arterial Doppler often (IIa) / usually (IIb) inaudible.</text>
+<rect x="30" y="815.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="831.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">IMMEDIATE MANAGEMENT</text>
+<rect x="30.0" y="845.5" width="164.0" height="66" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="112.0" y="875.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">Resuscitate +</text>
+<text x="112.0" y="889.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">analgesia</text>
+<line x1="198.0" y1="878.5" x2="211.0" y2="878.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 220.0 878.5 L 211.0 883.2 L 211.0 873.8 Z" fill="#6B7B80"/>
+<rect x="224.0" y="845.5" width="164.0" height="66" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="306.0" y="882.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">IV heparin</text>
+<line x1="392.0" y1="878.5" x2="405.0" y2="878.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 414.0 878.5 L 405.0 883.2 L 405.0 873.8 Z" fill="#6B7B80"/>
+<rect x="418.0" y="845.5" width="164.0" height="66" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="500.0" y="875.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">Senior vascular +</text>
+<text x="500.0" y="889.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">categorise</text>
+<line x1="586.0" y1="878.5" x2="599.0" y2="878.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 608.0 878.5 L 599.0 883.2 L 599.0 873.8 Z" fill="#6B7B80"/>
+<rect x="612.0" y="845.5" width="164.0" height="66" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="694.0" y="875.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">Bloods: FBC / U&amp;E /</text>
+<text x="694.0" y="889.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">coag / CK · ECG</text>
+<line x1="780.0" y1="878.5" x2="793.0" y2="878.5" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 802.0 878.5 L 793.0 883.2 L 793.0 873.8 Z" fill="#6B7B80"/>
+<rect x="806.0" y="845.5" width="164.0" height="66" fill="#E2F1EC" rx="10" stroke="#15806A" stroke-width="1.5"/>
+<text x="888.0" y="882.5" font-size="11.5" font-weight="700" fill="#15806A" text-anchor="middle">CTA if time</text>
+<rect x="30" y="923.5" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="923.5" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="942.0" font-size="12" font-weight="800" fill="#BE3A2E">KEY MOVES</text>
+<text x="144" y="942.0" font-size="11.5" font-weight="400" fill="#2E3C42">Give IV unfractionated heparin at diagnosis unless contraindicated (limits propagation). Do NOT delay theatre for imaging in</text>
+<text x="144" y="957.0" font-size="11.5" font-weight="400" fill="#2E3C42">Rutherford IIb. Keep the limb dependent and warm — never actively heat.</text>
+<rect x="30" y="971.5" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="987.5" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">AFTER REVASCULARISATION — REPERFUSION &amp; COMPARTMENT</text>
+<rect x="30" y="1001.5" width="460.0" height="164.0" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="1001.5" width="6" height="164.0" fill="#BE3A2E" rx="3"/>
+<text x="54" y="1029.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">REPERFUSION SYNDROME</text>
+<text x="54" y="1053.5" font-size="18" font-weight="800" fill="#1B2026">Metabolic</text>
+<text x="54" y="1075.5" font-size="12" font-weight="700" fill="#BE3A2E">Release</text>
+<text x="138" y="1075.5" font-size="12" font-weight="400" fill="#2E3C42">K+, H+, lactate, myoglobin from ischaemic muscle</text>
+<text x="54" y="1096.0" font-size="12" font-weight="700" fill="#BE3A2E">Effects</text>
+<text x="138" y="1096.0" font-size="12" font-weight="400" fill="#2E3C42">hyperkalaemia + acidosis → arrhythmia;</text>
+<text x="138" y="1116.5" font-size="12" font-weight="400" fill="#2E3C42">rhabdomyolysis → myoglobinuria → AKI</text>
+<text x="54" y="1137.0" font-size="12" font-weight="700" fill="#BE3A2E">Manage</text>
+<text x="138" y="1137.0" font-size="12" font-weight="400" fill="#2E3C42">monitor K+ / ECG / CK; IV fluids; treat hyperkalaemia;</text>
+<text x="138" y="1157.5" font-size="12" font-weight="400" fill="#2E3C42">renal support</text>
+<rect x="510.0" y="1001.5" width="460.0" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="1001.5" width="6" height="184.5" fill="#C77B20" rx="3"/>
+<text x="534.0" y="1029.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">COMPARTMENT SYNDROME</text>
+<text x="534.0" y="1053.5" font-size="18" font-weight="800" fill="#1B2026">Mechanical</text>
+<text x="534.0" y="1075.5" font-size="12" font-weight="700" fill="#C77B20">Cause</text>
+<text x="618.0" y="1075.5" font-size="12" font-weight="400" fill="#2E3C42">reperfusion oedema in tight fascial compartments (calf</text>
+<text x="618.0" y="1096.0" font-size="12" font-weight="400" fill="#2E3C42">= 4)</text>
+<text x="534.0" y="1116.5" font-size="12" font-weight="700" fill="#C77B20">Signs</text>
+<text x="618.0" y="1116.5" font-size="12" font-weight="400" fill="#2E3C42">pain on passive stretch, tense compartments, pain out</text>
+<text x="618.0" y="1137.0" font-size="12" font-weight="400" fill="#2E3C42">of proportion</text>
+<text x="534.0" y="1157.5" font-size="12" font-weight="700" fill="#C77B20">Action</text>
+<text x="618.0" y="1157.5" font-size="12" font-weight="400" fill="#2E3C42">4-compartment fasciotomy — low threshold after</text>
+<text x="618.0" y="1178.0" font-size="12" font-weight="400" fill="#2E3C42">prolonged ischaemia</text>
+<rect x="30" y="1190.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1206.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">UNCOMMON CAUSES &amp; MIMICS</text>
+<rect x="30" y="1220.0" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="1236.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Cause</text>
+<text x="260" y="1236.0" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Clue</text>
+<rect x="30" y="1244.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1244.0" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1260.0" font-size="11" font-weight="700" fill="#1B2026">Popliteal aneurysm</text>
+<text x="260" y="1260.0" font-size="11" font-weight="400" fill="#2E3C42">thrombosis / distal embolisation; bilateral; associated AAA</text>
+<rect x="30" y="1267.0" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="1283.0" font-size="11" font-weight="700" fill="#1B2026">Saddle embolus</text>
+<text x="260" y="1283.0" font-size="11" font-weight="400" fill="#2E3C42">aortic bifurcation — bilateral ALI + buttock involvement</text>
+<rect x="30" y="1290.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1290.0" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1306.0" font-size="11" font-weight="700" fill="#1B2026">Phlegmasia cerulea dolens</text>
+<text x="260" y="1306.0" font-size="11" font-weight="400" fill="#2E3C42">massive iliofemoral DVT — venous; swollen, blue leg</text>
+<rect x="30" y="1313.0" width="4" height="23" fill="#15806A"/>
+<text x="42" y="1329.0" font-size="11" font-weight="700" fill="#1B2026">Popliteal entrapment / cystic</text>
+<text x="260" y="1329.0" font-size="11" font-weight="400" fill="#2E3C42">young, active, no atherosclerotic risk factors</text>
+<rect x="30" y="1336.0" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1336.0" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="1352.0" font-size="11" font-weight="700" fill="#1B2026">Vasculitis / dissection</text>
+<text x="260" y="1352.0" font-size="11" font-weight="400" fill="#2E3C42">systemic features; aortic dissection with malperfusion</text>
+<rect x="30" y="1359.0" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1375.0" font-size="11" font-weight="700" fill="#1B2026">Atheroembolism (blue toe)</text>
+<text x="260" y="1375.0" font-size="11" font-weight="400" fill="#2E3C42">punctate digital ischaemia with preserved pulses</text>
+<rect x="30" y="1386.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1402.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1416.0" width="940" height="178.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1416.0" width="6" height="178.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1438.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1442.0" font-size="12" font-weight="600" fill="#1B2026">Rutherford IIb is limb-threatening — straight to theatre; don't lose time on imaging or slow thrombolysis.</text>
+<circle cx="60" cy="1460.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1464.0" font-size="12" font-weight="600" fill="#1B2026">Pain easing while the limb goes numb signals progressing nerve death, not recovery.</text>
+<circle cx="60" cy="1482.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1486.0" font-size="12" font-weight="600" fill="#1B2026">Venous Doppler stays audible until category III — loss of BOTH arterial and venous signals = irreversible: amputate, don't</text>
+<text x="72" y="1504.0" font-size="12" font-weight="400" fill="#2E3C42">reperfuse.</text>
+<circle cx="60" cy="1522.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1526.0" font-size="12" font-weight="600" fill="#1B2026">Always give IV heparin at diagnosis and hunt the source — check for AF, echo, and the contralateral pulses.</text>
+<circle cx="60" cy="1544.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1548.0" font-size="12" font-weight="600" fill="#1B2026">Suspect a thrombosed popliteal aneurysm when ALI is paired with a prominent or aneurysmal contralateral popliteal.</text>
+<circle cx="60" cy="1566.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1570.0" font-size="12" font-weight="600" fill="#1B2026">Anticipate reperfusion: hyperkalaemia, myoglobinuria / AKI and compartment syndrome — keep a low fasciotomy threshold.</text>
+<line x1="30" y1="1594.0" x2="970" y2="1594.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1613.0" font-size="10.5" font-weight="400" fill="#7C8A8E">ESVS 2020 Clinical Practice Guidelines on the Management of Acute Limb Ischaemia (Björck, Earnshaw et al., Eur J Vasc Endovasc Surg 2020;59:173–218).</text>
+<text x="30" y="1627.0" font-size="10.5" font-weight="400" fill="#7C8A8E">Rutherford acute limb ischaemia categories (SVS). NCEPOD 2025 report on acute limb ischaemia.</text>
+<text x="30" y="1641.0" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current ESVS guidance and local vascular network protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1691" width="1000" height="46" fill="#3E464F"/><text x="30" y="1720" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1720" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

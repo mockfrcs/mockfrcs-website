@@ -1,0 +1,247 @@
+<svg viewBox="0 0 1000 1722.5" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1722.5" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Abdominal Aortic Aneurysm (2)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Rupture · endoleaks · aorto-enteric fistula · Crawford (TAAA) · DVLA</text>
+<rect x="30" y="146" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#BE3A2E">RUPTURED AAA</text>
+<text x="172" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Classic triad — abdominal / back / flank pain + hypotension / shock + pulsatile expansile mass. Mimics renal colic. ~80% die</text>
+<text x="172" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">overall; operative mortality ~35%.</text>
+<rect x="30" y="192" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="208" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">RUPTURE MANAGEMENT</text>
+<rect x="30.0" y="222" width="212.5" height="60" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="136.25" y="249.0" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">Permissive hypotension</text>
+<text x="136.25" y="263.0" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">(SBP 70–90)</text>
+<line x1="246.5" y1="252.0" x2="259.5" y2="252.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 268.5 252.0 L 259.5 256.7 L 259.5 247.3 Z" fill="#6B7B80"/>
+<rect x="272.5" y="222" width="212.5" height="60" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="378.75" y="256.0" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">Major haemorrhage protocol</text>
+<line x1="489.0" y1="252.0" x2="502.0" y2="252.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 511.0 252.0 L 502.0 256.7 L 502.0 247.3 Z" fill="#6B7B80"/>
+<rect x="515.0" y="222" width="212.5" height="60" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="621.25" y="256.0" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">Immediate CT if stable</text>
+<line x1="731.5" y1="252.0" x2="744.5" y2="252.0" stroke="#6B7B80" stroke-width="2.6"/>
+<path d="M 753.5 252.0 L 744.5 256.7 L 744.5 247.3 Z" fill="#6B7B80"/>
+<rect x="757.5" y="222" width="212.5" height="60" fill="#FBEAE6" rx="10" stroke="#BE3A2E" stroke-width="1.5"/>
+<text x="863.75" y="256.0" font-size="11.5" font-weight="700" fill="#BE3A2E" text-anchor="middle">EVAR if suitable / open</text>
+<rect x="30" y="294" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="294" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="312.5" font-size="12" font-weight="800" fill="#245C8C">IMPROVE</text>
+<text x="128" y="312.5" font-size="11.5" font-weight="400" fill="#2E3C42">Endovascular-first strategy: no 30-day mortality difference (~35%) but better mid-term survival, quality of life, shorter stay &amp; lower cost.</text>
+<text x="128" y="327.5" font-size="11.5" font-weight="400" fill="#2E3C42">NICE: EVAR benefits most (esp. men &gt; 70, women); open better in men &lt; 70.</text>
+<rect x="30" y="342" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="358" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">ENDOLEAKS (EVAR COMPLICATION)</text>
+<rect x="30" y="372" width="250" height="180" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="372" width="6" height="180" fill="#6D4AA3" rx="3"/>
+<text x="52" y="398" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">ENDOLEAK SITES</text>
+<ellipse cx="126.0" cy="468.0" rx="34.0" ry="48.0" fill="#F4E3C6" stroke="#C77B20" stroke-width="2"/>
+<rect x="117" y="420" width="18" height="64" fill="#245C8C" rx="3"/>
+<line x1="126" y1="484" x2="110" y2="522" stroke="#245C8C" stroke-width="7"/>
+<line x1="126" y1="484" x2="142" y2="522" stroke="#245C8C" stroke-width="7"/>
+<line x1="126" y1="420" x2="169" y2="422" stroke="#6B7B80" stroke-width="1.4"/>
+<circle cx="178" cy="422" r="9" fill="#BE3A2E"/>
+<text x="178" y="426" font-size="10" font-weight="800" fill="#FFFFFF" text-anchor="middle">I</text>
+<line x1="156" y1="468" x2="169" y2="468" stroke="#6B7B80" stroke-width="1.4"/>
+<circle cx="178" cy="468" r="9" fill="#C77B20"/>
+<text x="178" y="472" font-size="10" font-weight="800" fill="#FFFFFF" text-anchor="middle">II</text>
+<line x1="134" y1="492" x2="169" y2="506" stroke="#6B7B80" stroke-width="1.4"/>
+<circle cx="178" cy="506" r="9" fill="#BE3A2E"/>
+<text x="178" y="510" font-size="10" font-weight="800" fill="#FFFFFF" text-anchor="middle">III</text>
+<text x="192" y="426" font-size="10.5" font-weight="700" fill="#BE3A2E">seal</text>
+<text x="192" y="472" font-size="10.5" font-weight="700" fill="#C77B20">branch</text>
+<text x="192" y="510" font-size="10.5" font-weight="700" fill="#BE3A2E">junction</text>
+<rect x="300" y="372" width="670" height="24" fill="#1B2026" rx="5"/>
+<text x="310" y="388" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Type</text>
+<text x="352" y="388" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Source</text>
+<text x="550" y="388" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Pressure</text>
+<text x="645" y="388" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Management</text>
+<rect x="300" y="396" width="670" height="28" fill="#F1F4F2"/>
+<rect x="300" y="396" width="4" height="28" fill="#BE3A2E"/>
+<text x="310" y="412" font-size="11" font-weight="700" fill="#1B2026">I</text>
+<text x="352" y="412" font-size="11" font-weight="400" fill="#2E3C42">Seal zone (prox / distal)</text>
+<text x="550" y="412" font-size="11" font-weight="400" fill="#2E3C42">High</text>
+<text x="645" y="412" font-size="11" font-weight="400" fill="#2E3C42">Urgent — cuff / reline</text>
+<rect x="300" y="424" width="4" height="28" fill="#C77B20"/>
+<text x="310" y="440" font-size="11" font-weight="700" fill="#1B2026">II</text>
+<text x="352" y="440" font-size="11" font-weight="400" fill="#2E3C42">Branch: lumbar / IMA</text>
+<text x="550" y="440" font-size="11" font-weight="400" fill="#2E3C42">Commonest</text>
+<text x="645" y="440" font-size="11" font-weight="400" fill="#2E3C42">Observe; embolise if sac grows</text>
+<rect x="300" y="452" width="670" height="28" fill="#F1F4F2"/>
+<rect x="300" y="452" width="4" height="28" fill="#BE3A2E"/>
+<text x="310" y="468" font-size="11" font-weight="700" fill="#1B2026">III</text>
+<text x="352" y="468" font-size="11" font-weight="400" fill="#2E3C42">Component junction / tear</text>
+<text x="550" y="468" font-size="11" font-weight="400" fill="#2E3C42">High</text>
+<text x="645" y="468" font-size="11" font-weight="400" fill="#2E3C42">Urgent — relining</text>
+<rect x="300" y="480" width="4" height="28" fill="#15806A"/>
+<text x="310" y="496" font-size="11" font-weight="700" fill="#1B2026">IV</text>
+<text x="352" y="496" font-size="11" font-weight="400" fill="#2E3C42">Graft porosity</text>
+<text x="550" y="496" font-size="11" font-weight="400" fill="#2E3C42">Transient</text>
+<text x="645" y="496" font-size="11" font-weight="400" fill="#2E3C42">Self-limiting (rare now)</text>
+<rect x="300" y="508" width="670" height="28" fill="#F1F4F2"/>
+<rect x="300" y="508" width="4" height="28" fill="#6D4AA3"/>
+<text x="310" y="524" font-size="11" font-weight="700" fill="#1B2026">V</text>
+<text x="352" y="524" font-size="11" font-weight="400" fill="#2E3C42">Endotension (no leak seen)</text>
+<text x="550" y="524" font-size="11" font-weight="400" fill="#2E3C42">Sac grows</text>
+<text x="645" y="524" font-size="11" font-weight="400" fill="#2E3C42">Surveillance ± re-intervention</text>
+<rect x="30" y="556" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="572" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">AORTO-ENTERIC FISTULA</text>
+<rect x="30" y="586" width="460.0" height="102.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="586" width="6" height="102.5" fill="#245C8C" rx="3"/>
+<text x="54" y="614" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PRIMARY (rare)</text>
+<text x="54" y="638" font-size="18" font-weight="800" fill="#1B2026">No prior surgery</text>
+<text x="54" y="660" font-size="12" font-weight="700" fill="#245C8C">Cause</text>
+<text x="116" y="660.0" font-size="12" font-weight="400" fill="#2E3C42">AAA erodes directly into bowel; no prior aortic surgery</text>
+<text x="54" y="680.5" font-size="12" font-weight="700" fill="#245C8C">Site</text>
+<text x="116" y="680.5" font-size="12" font-weight="400" fill="#2E3C42">3rd / 4th part of duodenum</text>
+<rect x="510.0" y="586" width="460.0" height="102.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="586" width="6" height="102.5" fill="#6D4AA3" rx="3"/>
+<text x="534.0" y="614" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">SECONDARY (commoner)</text>
+<text x="534.0" y="638" font-size="18" font-weight="800" fill="#1B2026">Post-graft</text>
+<text x="534.0" y="660" font-size="12" font-weight="700" fill="#6D4AA3">Cause</text>
+<text x="596.0" y="660.0" font-size="12" font-weight="400" fill="#2E3C42">graft–duodenal erosion after aortic repair</text>
+<text x="534.0" y="680.5" font-size="12" font-weight="700" fill="#6D4AA3">Timing</text>
+<text x="596.0" y="680.5" font-size="12" font-weight="400" fill="#2E3C42">weeks–years post-op; often with graft infection</text>
+<rect x="30" y="700.5" width="940" height="44" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="700.5" width="6" height="44" fill="#BE3A2E" rx="3"/>
+<text x="50" y="719.0" font-size="12" font-weight="800" fill="#BE3A2E">AEF</text>
+<text x="92" y="719.0" font-size="11.5" font-weight="400" fill="#2E3C42">Herald (sentinel) GI bleed → catastrophic exsanguination. Ix: CTA + OGD (negative does not exclude). Mx: graft excision + extra-anatomic</text>
+<text x="92" y="734.0" font-size="11.5" font-weight="400" fill="#2E3C42">(axillo-bifemoral) or in-situ reconstruction + antibiotics. High mortality.</text>
+<rect x="30" y="748.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="764.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">THORACOABDOMINAL — CRAWFORD CLASSIFICATION</text>
+<rect x="30.0" y="778.5" width="180.0" height="196" fill="#FFFFFF" rx="10" stroke="#E0E6E3" stroke-width="1.1"/>
+<path d="M 84.0 810.5 Q 84.0 796.5 107.4 796.5 Q 130.8 796.5 130.8 814.5" fill="none" stroke="#6B7B80" stroke-width="3"/>
+<line x1="84.0" y1="802.5" x2="72.0" y2="798.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="130.8" y1="814.5" x2="130.8" y2="912.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="130.8" y1="912.5" x2="117.80000000000001" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="130.8" y1="912.5" x2="143.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="106.8" y1="866.5" x2="154.8" y2="866.5" stroke="#9AA6AA" stroke-width="1.2" stroke-dasharray="3,3"/>
+<line x1="130.8" y1="888.5" x2="119.80000000000001" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="130.8" y1="888.5" x2="141.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="130.8" y1="814.5" x2="130.8" y2="888.5" stroke="#C77B20" stroke-width="9" stroke-linecap="round"/>
+<text x="120.0" y="946.5" font-size="15" font-weight="800" fill="#C77B20" text-anchor="middle">I</text>
+<text x="120.0" y="962.5" font-size="9" font-weight="400" fill="#2E3C42" text-anchor="middle">L.SCA → suprarenal</text>
+<rect x="220.0" y="778.5" width="180.0" height="196" fill="#FFFFFF" rx="10" stroke="#E0E6E3" stroke-width="1.1"/>
+<path d="M 274.0 810.5 Q 274.0 796.5 297.4 796.5 Q 320.8 796.5 320.8 814.5" fill="none" stroke="#6B7B80" stroke-width="3"/>
+<line x1="274.0" y1="802.5" x2="262.0" y2="798.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="320.8" y1="814.5" x2="320.8" y2="912.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="320.8" y1="912.5" x2="307.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="320.8" y1="912.5" x2="333.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="296.8" y1="866.5" x2="344.8" y2="866.5" stroke="#9AA6AA" stroke-width="1.2" stroke-dasharray="3,3"/>
+<line x1="320.8" y1="888.5" x2="309.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="320.8" y1="888.5" x2="331.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="320.8" y1="814.5" x2="320.8" y2="912.5" stroke="#BE3A2E" stroke-width="9" stroke-linecap="round"/>
+<text x="310.0" y="946.5" font-size="15" font-weight="800" fill="#BE3A2E" text-anchor="middle">II</text>
+<text x="310.0" y="962.5" font-size="9" font-weight="400" fill="#2E3C42" text-anchor="middle">whole TAAA</text>
+<rect x="410.0" y="778.5" width="180.0" height="196" fill="#FFFFFF" rx="10" stroke="#E0E6E3" stroke-width="1.1"/>
+<path d="M 464.0 810.5 Q 464.0 796.5 487.4 796.5 Q 510.8 796.5 510.8 814.5" fill="none" stroke="#6B7B80" stroke-width="3"/>
+<line x1="464.0" y1="802.5" x2="452.0" y2="798.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="510.8" y1="814.5" x2="510.8" y2="912.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="510.8" y1="912.5" x2="497.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="510.8" y1="912.5" x2="523.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="486.8" y1="866.5" x2="534.8" y2="866.5" stroke="#9AA6AA" stroke-width="1.2" stroke-dasharray="3,3"/>
+<line x1="510.8" y1="888.5" x2="499.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="510.8" y1="888.5" x2="521.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="510.8" y1="842.5" x2="510.8" y2="912.5" stroke="#C77B20" stroke-width="9" stroke-linecap="round"/>
+<text x="500.0" y="946.5" font-size="15" font-weight="800" fill="#C77B20" text-anchor="middle">III</text>
+<text x="500.0" y="962.5" font-size="9" font-weight="400" fill="#2E3C42" text-anchor="middle">T6 → bifurcation</text>
+<rect x="600.0" y="778.5" width="180.0" height="196" fill="#FFFFFF" rx="10" stroke="#E0E6E3" stroke-width="1.1"/>
+<path d="M 654.0 810.5 Q 654.0 796.5 677.4 796.5 Q 700.8 796.5 700.8 814.5" fill="none" stroke="#6B7B80" stroke-width="3"/>
+<line x1="654.0" y1="802.5" x2="642.0" y2="798.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="700.8" y1="814.5" x2="700.8" y2="912.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="700.8" y1="912.5" x2="687.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="700.8" y1="912.5" x2="713.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="676.8" y1="866.5" x2="724.8" y2="866.5" stroke="#9AA6AA" stroke-width="1.2" stroke-dasharray="3,3"/>
+<line x1="700.8" y1="888.5" x2="689.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="700.8" y1="888.5" x2="711.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="700.8" y1="866.5" x2="700.8" y2="912.5" stroke="#15806A" stroke-width="9" stroke-linecap="round"/>
+<text x="690.0" y="946.5" font-size="15" font-weight="800" fill="#15806A" text-anchor="middle">IV</text>
+<text x="690.0" y="962.5" font-size="9" font-weight="400" fill="#2E3C42" text-anchor="middle">abdominal only</text>
+<rect x="790.0" y="778.5" width="180.0" height="196" fill="#FFFFFF" rx="10" stroke="#E0E6E3" stroke-width="1.1"/>
+<path d="M 844.0 810.5 Q 844.0 796.5 867.4 796.5 Q 890.8 796.5 890.8 814.5" fill="none" stroke="#6B7B80" stroke-width="3"/>
+<line x1="844.0" y1="802.5" x2="832.0" y2="798.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="890.8" y1="814.5" x2="890.8" y2="912.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="890.8" y1="912.5" x2="877.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="890.8" y1="912.5" x2="903.8" y2="934.5" stroke="#6B7B80" stroke-width="3"/>
+<line x1="866.8" y1="866.5" x2="914.8" y2="866.5" stroke="#9AA6AA" stroke-width="1.2" stroke-dasharray="3,3"/>
+<line x1="890.8" y1="888.5" x2="879.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="890.8" y1="888.5" x2="901.8" y2="884.5" stroke="#6B7B80" stroke-width="2"/>
+<line x1="890.8" y1="842.5" x2="890.8" y2="888.5" stroke="#245C8C" stroke-width="9" stroke-linecap="round"/>
+<text x="880.0" y="946.5" font-size="15" font-weight="800" fill="#245C8C" text-anchor="middle">V</text>
+<text x="880.0" y="962.5" font-size="9" font-weight="400" fill="#2E3C42" text-anchor="middle">T6 → visceral</text>
+<rect x="30" y="986.5" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="986.5" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="1005.0" font-size="12" font-weight="800" fill="#245C8C">CORD ISCHAEMIA</text>
+<text x="184" y="1005.0" font-size="11.5" font-weight="400" fill="#2E3C42">Extent predicts spinal cord ischaemia: II (most extensive) highest, IV lowest. Open repair — CSF drainage, permissive</text>
+<text x="184" y="1020.0" font-size="11.5" font-weight="400" fill="#2E3C42">hypertension, intercostal (Adamkiewicz) reimplantation; or fenestrated / branched EVAR.</text>
+<rect x="30" y="1034.5" width="6" height="20" fill="#6D4AA3" rx="3"/>
+<text x="46" y="1050.5" font-size="13" font-weight="800" fill="#6D4AA3" letter-spacing="1.2">OPEN-REPAIR COMPLICATIONS</text>
+<rect x="30" y="1064.5" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="1080.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Complication</text>
+<text x="260" y="1080.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Note</text>
+<rect x="30" y="1088.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1088.5" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="1104.5" font-size="11" font-weight="700" fill="#1B2026">Colonic ischaemia</text>
+<text x="260" y="1104.5" font-size="11" font-weight="400" fill="#2E3C42">IMA sacrifice — left colon; bloody diarrhoea, ↑ lactate</text>
+<rect x="30" y="1111.5" width="4" height="23" fill="#6D4AA3"/>
+<text x="42" y="1127.5" font-size="11" font-weight="700" fill="#1B2026">Spinal cord ischaemia</text>
+<text x="260" y="1127.5" font-size="11" font-weight="400" fill="#2E3C42">paraplegia — esp. thoracoabdominal; CSF drainage protective</text>
+<rect x="30" y="1134.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1134.5" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1150.5" font-size="11" font-weight="700" fill="#1B2026">Cardiac / renal</text>
+<text x="260" y="1150.5" font-size="11" font-weight="400" fill="#2E3C42">MI; AKI (worse with suprarenal clamp)</text>
+<rect x="30" y="1157.5" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1173.5" font-size="11" font-weight="700" fill="#1B2026">Trash foot</text>
+<text x="260" y="1173.5" font-size="11" font-weight="400" fill="#2E3C42">distal atheroembolism despite palpable pulses</text>
+<rect x="30" y="1180.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1180.5" width="4" height="23" fill="#BE3A2E"/>
+<text x="42" y="1196.5" font-size="11" font-weight="700" fill="#1B2026">Graft infection / AEF</text>
+<text x="260" y="1196.5" font-size="11" font-weight="400" fill="#2E3C42">late; herald GI bleed — see above</text>
+<rect x="30" y="1207.5" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="1223.5" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">DVLA RULES (AAA)</text>
+<rect x="30" y="1237.5" width="940" height="24" fill="#1B2026" rx="5"/>
+<text x="42" y="1253.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Licence</text>
+<text x="360" y="1253.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Notify DVLA</text>
+<text x="650" y="1253.5" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.3">Stop driving</text>
+<rect x="30" y="1261.5" width="940" height="23" fill="#F1F4F2"/>
+<rect x="30" y="1261.5" width="4" height="23" fill="#245C8C"/>
+<text x="42" y="1277.5" font-size="11" font-weight="700" fill="#1B2026">Group 1 (car / motorcycle)</text>
+<text x="360" y="1277.5" font-size="11" font-weight="400" fill="#2E3C42">at ≥ 6.0 cm (annual review)</text>
+<text x="650" y="1277.5" font-size="11" font-weight="400" fill="#2E3C42">at ≥ 6.5 cm — disqualified</text>
+<rect x="30" y="1284.5" width="4" height="23" fill="#C77B20"/>
+<text x="42" y="1300.5" font-size="11" font-weight="700" fill="#1B2026">Group 2 (lorry / bus)</text>
+<text x="360" y="1300.5" font-size="11" font-weight="400" fill="#2E3C42">any size; disqualified ≥ 5.5 cm</text>
+<text x="650" y="1300.5" font-size="11" font-weight="400" fill="#2E3C42">≥ 5.5 cm</text>
+<rect x="30" y="1319.5" width="940" height="30" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="1319.5" width="6" height="30" fill="#15806A" rx="3"/>
+<text x="50" y="1338.5" font-size="12" font-weight="800" fill="#15806A">RELICENSING</text>
+<text x="156" y="1338.5" font-size="11.5" font-weight="400" fill="#2E3C42">After successful repair with no further enlargement and no other disqualifying condition.</text>
+<rect x="30" y="1353.5" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="1369.5" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1383.5" width="940" height="196.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1383.5" width="6" height="196.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1405.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1409.5" font-size="12" font-weight="600" fill="#1B2026">Ruptured AAA mimics renal colic — never diagnose first-presentation 'renal colic' in an older arteriopath without excluding</text>
+<text x="72" y="1427.5" font-size="12" font-weight="400" fill="#2E3C42">AAA.</text>
+<circle cx="60" cy="1445.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1449.5" font-size="12" font-weight="600" fill="#1B2026">Don't over-resuscitate a ruptured AAA: permissive hypotension (SBP ~70–90) until proximal control.</text>
+<circle cx="60" cy="1467.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1471.5" font-size="12" font-weight="600" fill="#1B2026">Type I &amp; III endoleaks are high-pressure — treat urgently; Type II (commonest) is watched, treated only if the sac grows.</text>
+<circle cx="60" cy="1489.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1493.5" font-size="12" font-weight="600" fill="#1B2026">Any GI bleed with a previous aortic graft is a secondary aorto-enteric fistula until proven otherwise — a herald bleed precedes</text>
+<text x="72" y="1511.5" font-size="12" font-weight="400" fill="#2E3C42">exsanguination.</text>
+<circle cx="60" cy="1529.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1533.5" font-size="12" font-weight="600" fill="#1B2026">Crawford extent II carries the highest paraplegia risk — CSF drainage &amp; intercostal reimplantation are key protective steps.</text>
+<circle cx="60" cy="1551.5" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1555.5" font-size="12" font-weight="600" fill="#1B2026">DVLA: Group 1 stop at 6.5 cm; Group 2 disqualified at 5.5 cm.</text>
+<line x1="30" y1="1579.5" x2="970" y2="1579.5" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1598.5" font-size="10.5" font-weight="400" fill="#7C8A8E">IMPROVE trial (BMJ 2014; Eur Heart J 2015; BMJ 2017). NICE NG156. ESVS 2019 AAA clinical practice guidelines.</text>
+<text x="30" y="1612.5" font-size="10.5" font-weight="400" fill="#7C8A8E">Crawford / Safi thoracoabdominal classification. DVLA Assessing Fitness to Drive (cardiovascular — aortic aneurysm).</text>
+<text x="30" y="1626.5" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current NICE / DVLA guidance and local vascular network protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1676.5" width="1000" height="46" fill="#3E464F"/><text x="30" y="1705.5" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1705.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

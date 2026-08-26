@@ -1,0 +1,121 @@
+<svg viewBox="0 0 1000 1366" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1366" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Systemic Vasculitides (1)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Chapel Hill by vessel size · large &amp; medium vessel · the surgeon's vasculitides</text>
+<rect x="30" y="146" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#245C8C">CHAPEL HILL</text>
+<text x="153" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Vasculitis is classified by the dominant vessel size. Suspect it with multisystem disease + constitutional symptoms + raised ESR /</text>
+<text x="153" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">CRP. ANCA marks the small-vessel group; large-vessel disease needs cross-sectional imaging (CTA / MRA / PET).</text>
+<path d="M 30.0 206.0 L 243.0 206.0 L 265.0 242.0 L 243.0 278.0 L 30.0 278.0 Z" fill="#E1EAF1" stroke="#245C8C" stroke-width="1.4"/>
+<text x="46.0" y="232" font-size="11.5" font-weight="800" fill="#245C8C" letter-spacing="0.4">LARGE VESSEL</text>
+<text x="46.0" y="250" font-size="11" font-weight="400" fill="#2E3C42">GCA · Takayasu</text>
+<path d="M 265.0 206.0 L 478.0 206.0 L 500.0 242.0 L 478.0 278.0 L 265.0 278.0 L 287.0 242.0 Z" fill="#F6ECDD" stroke="#C77B20" stroke-width="1.4"/>
+<text x="297.0" y="232" font-size="11.5" font-weight="800" fill="#C77B20" letter-spacing="0.4">MEDIUM VESSEL</text>
+<text x="297.0" y="250" font-size="11" font-weight="400" fill="#2E3C42">PAN · Kawasaki</text>
+<path d="M 500.0 206.0 L 713.0 206.0 L 735.0 242.0 L 713.0 278.0 L 500.0 278.0 L 522.0 242.0 Z" fill="#E2F1EC" stroke="#15806A" stroke-width="1.4"/>
+<text x="532.0" y="232" font-size="11.5" font-weight="800" fill="#15806A" letter-spacing="0.4">SMALL VESSEL</text>
+<text x="532.0" y="250" font-size="11" font-weight="400" fill="#2E3C42">ANCA (GPA/EGPA/MPA) ·</text>
+<text x="532.0" y="265" font-size="11" font-weight="400" fill="#2E3C42">immune-complex</text>
+<path d="M 735.0 206.0 L 970.0 206.0 L 970.0 278.0 L 735.0 278.0 L 757.0 242.0 Z" fill="#ECE6F4" stroke="#6D4AA3" stroke-width="1.4"/>
+<text x="767.0" y="232" font-size="11.5" font-weight="800" fill="#6D4AA3" letter-spacing="0.4">VARIABLE</text>
+<text x="767.0" y="250" font-size="11" font-weight="400" fill="#2E3C42">Behçet · Cogan</text>
+<rect x="30" y="282" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="298" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">LARGE VESSEL</text>
+<rect x="30.0" y="312" width="460.0" height="268" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 358 L 30.0 323 Q 30.0 312 41.0 312 L 479.0 312 Q 490.0 312 490.0 323 L 490.0 358 Z" fill="#BE3A2E"/>
+<text x="44.0" y="333" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">GCA</text>
+<text x="44.0" y="350" font-size="11.5" font-weight="600" fill="#FFFFFF">Giant cell / temporal arteritis</text>
+<text x="44.0" y="376" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Who</text>
+<text x="44.0" y="391" font-size="11" font-weight="400" fill="#2E3C42">&gt; 50 yr (usually &gt; 70); commonest systemic vasculitis</text>
+<text x="44.0" y="415" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Features</text>
+<text x="44.0" y="430" font-size="11" font-weight="400" fill="#2E3C42">temporal headache, jaw claudication, scalp tenderness, visual loss; ~50%</text>
+<text x="44.0" y="445" font-size="11" font-weight="400" fill="#2E3C42">have PMR</text>
+<text x="44.0" y="469" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Ix</text>
+<text x="44.0" y="484" font-size="11" font-weight="400" fill="#2E3C42">ESR &gt; 50 / CRP↑; temporal artery biopsy (giant cells, skip lesions) or US halo</text>
+<text x="44.0" y="499" font-size="11" font-weight="400" fill="#2E3C42">sign</text>
+<text x="44.0" y="523" font-size="11" font-weight="800" fill="#BE3A2E" letter-spacing="0.3">Mx</text>
+<text x="44.0" y="538" font-size="11" font-weight="400" fill="#2E3C42">URGENT high-dose steroids — don't await biopsy; IV if visual; tocilizumab</text>
+<text x="44.0" y="553" font-size="11" font-weight="400" fill="#2E3C42">steroid-sparing</text>
+<rect x="510.0" y="312" width="460.0" height="268" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 510.0 358 L 510.0 323 Q 510.0 312 521.0 312 L 959.0 312 Q 970.0 312 970.0 323 L 970.0 358 Z" fill="#245C8C"/>
+<text x="524.0" y="333" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TAK</text>
+<text x="524.0" y="350" font-size="11.5" font-weight="600" fill="#FFFFFF">Takayasu — pulseless disease</text>
+<text x="524.0" y="376" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Who</text>
+<text x="524.0" y="391" font-size="11" font-weight="400" fill="#2E3C42">young Asian women &lt; 40</text>
+<text x="524.0" y="415" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Features</text>
+<text x="524.0" y="430" font-size="11" font-weight="400" fill="#2E3C42">aorta + branches; arm claudication, BP asymmetry, absent pulses, bruits,</text>
+<text x="524.0" y="445" font-size="11" font-weight="400" fill="#2E3C42">renovascular HTN</text>
+<text x="524.0" y="469" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Ix</text>
+<text x="524.0" y="484" font-size="11" font-weight="400" fill="#2E3C42">ESR / CRP↑; CTA / MRA / PET (vessel-wall inflammation)</text>
+<text x="524.0" y="508" font-size="11" font-weight="800" fill="#245C8C" letter-spacing="0.3">Mx</text>
+<text x="524.0" y="523" font-size="11" font-weight="400" fill="#2E3C42">steroids ± biologics; angioplasty / bypass in the burnt-out fibrotic phase</text>
+<rect x="30" y="582" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="598" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">MEDIUM VESSEL</text>
+<rect x="30.0" y="612" width="460.0" height="253" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 30.0 658 L 30.0 623 Q 30.0 612 41.0 612 L 479.0 612 Q 490.0 612 490.0 623 L 490.0 658 Z" fill="#C77B20"/>
+<text x="44.0" y="633" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PAN</text>
+<text x="44.0" y="650" font-size="11.5" font-weight="600" fill="#FFFFFF">Polyarteritis nodosa</text>
+<text x="44.0" y="676" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Vessels</text>
+<text x="44.0" y="691" font-size="11" font-weight="400" fill="#2E3C42">medium muscular arteries; necrotising, segmental; SPARES the lungs</text>
+<text x="44.0" y="715" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Features</text>
+<text x="44.0" y="730" font-size="11" font-weight="400" fill="#2E3C42">renal (microaneurysms, HTN, infarcts), GI, skin (livedo, nodules),</text>
+<text x="44.0" y="745" font-size="11" font-weight="400" fill="#2E3C42">mononeuritis multiplex</text>
+<text x="44.0" y="769" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Key</text>
+<text x="44.0" y="784" font-size="11" font-weight="400" fill="#2E3C42">ANCA-NEGATIVE; ~30% hepatitis B; angiography = beaded microaneurysms</text>
+<text x="44.0" y="808" font-size="11" font-weight="800" fill="#C77B20" letter-spacing="0.3">Mx</text>
+<text x="44.0" y="823" font-size="11" font-weight="400" fill="#2E3C42">steroids + cyclophosphamide; antivirals + plasma exchange if</text>
+<text x="44.0" y="838" font-size="11" font-weight="400" fill="#2E3C42">HBV-associated</text>
+<rect x="510.0" y="612" width="460.0" height="253" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<path d="M 510.0 658 L 510.0 623 Q 510.0 612 521.0 612 L 959.0 612 Q 970.0 612 970.0 623 L 970.0 658 Z" fill="#6D4AA3"/>
+<text x="524.0" y="633" font-size="15" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">KD</text>
+<text x="524.0" y="650" font-size="11.5" font-weight="600" fill="#FFFFFF">Kawasaki — mucocutaneous</text>
+<text x="524.0" y="676" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Who</text>
+<text x="524.0" y="691" font-size="11" font-weight="400" fill="#2E3C42">children &lt; 5 yr</text>
+<text x="524.0" y="715" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Features</text>
+<text x="524.0" y="730" font-size="11" font-weight="400" fill="#2E3C42">fever ≥ 5 days + ≥4/5: conjunctivitis, rash, cervical nodes, strawberry</text>
+<text x="524.0" y="745" font-size="11" font-weight="400" fill="#2E3C42">tongue, hand/foot changes</text>
+<text x="524.0" y="769" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Risk</text>
+<text x="524.0" y="784" font-size="11" font-weight="400" fill="#2E3C42">coronary artery aneurysms (echo)</text>
+<text x="524.0" y="808" font-size="11" font-weight="800" fill="#6D4AA3" letter-spacing="0.3">Mx</text>
+<text x="524.0" y="823" font-size="11" font-weight="400" fill="#2E3C42">IVIG + aspirin (a rare paediatric aspirin indication)</text>
+<rect x="30" y="881" width="940" height="44" fill="#ECE6F4" rx="9" stroke="#6D4AA3" stroke-width="1.1"/>
+<rect x="30" y="881" width="6" height="44" fill="#6D4AA3" rx="3"/>
+<text x="50" y="899.5" font-size="12" font-weight="800" fill="#6D4AA3">BEHÇET</text>
+<text x="119" y="899.5" font-size="11.5" font-weight="400" fill="#2E3C42">Variable-vessel: recurrent oral + genital ulcers, uveitis, pathergy; venous thrombosis + arterial aneurysms (pulmonary — Hughes-Stovin).</text>
+<text x="119" y="914.5" font-size="11.5" font-weight="400" fill="#2E3C42">Silk Road distribution. Beware arterial puncture (pseudoaneurysm). Mx: immunosuppression.</text>
+<rect x="30" y="935" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="935" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="953.5" font-size="12" font-weight="800" fill="#15806A">WORK-UP</text>
+<text x="131" y="953.5" font-size="11.5" font-weight="400" fill="#2E3C42">ESR/CRP, FBC, U&amp;E + urinalysis (glomerulonephritis), ANCA, hepatitis serology, complement, cryoglobulins; CTA / MRA / PET for</text>
+<text x="131" y="968.5" font-size="11.5" font-weight="400" fill="#2E3C42">large-vessel; biopsy (temporal / renal / skin). Refer rheumatology; steroids ± cyclophosphamide / biologics.</text>
+<rect x="30" y="983" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="999" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="1013" width="940" height="210" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="1013" width="6" height="210" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="1035" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1039" font-size="12" font-weight="600" fill="#1B2026">GCA with visual symptoms is a sight-threatening emergency — start high-dose steroids immediately; biopsy can wait ~1–2</text>
+<text x="72" y="1057" font-size="12" font-weight="400" fill="#2E3C42">weeks.</text>
+<circle cx="60" cy="1075" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1079" font-size="12" font-weight="600" fill="#1B2026">PAN is ANCA-NEGATIVE and spares the lungs — lung involvement or positive ANCA points to a small-vessel (ANCA-associated)</text>
+<text x="72" y="1097" font-size="12" font-weight="400" fill="#2E3C42">vasculitis instead.</text>
+<circle cx="60" cy="1115" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1119" font-size="12" font-weight="600" fill="#1B2026">Takayasu = 'pulseless disease' in a young woman: check BP in both arms and feel all pulses; treat inflammation before</text>
+<text x="72" y="1137" font-size="12" font-weight="400" fill="#2E3C42">revascularising.</text>
+<circle cx="60" cy="1155" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1159" font-size="12" font-weight="600" fill="#1B2026">Kawasaki's danger is coronary artery aneurysms — a key exception where children ARE given aspirin.</text>
+<circle cx="60" cy="1177" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="1181" font-size="12" font-weight="600" fill="#1B2026">Vasculitis mimics atheroma but strikes young, multisystem patients with high inflammatory markers — send ANCA and image</text>
+<text x="72" y="1199" font-size="12" font-weight="400" fill="#2E3C42">the large vessels.</text>
+<line x1="30" y1="1223" x2="970" y2="1223" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1242" font-size="10.5" font-weight="400" fill="#7C8A8E">2012 Revised Chapel Hill Consensus Conference nomenclature of the vasculitides. ACR / EULAR classification &amp; management guidance.</text>
+<text x="30" y="1256" font-size="10.5" font-weight="400" fill="#7C8A8E">BSR guideline on the diagnosis &amp; management of giant cell arteritis. Refer to rheumatology for immunosuppression.</text>
+<text x="30" y="1270" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current guidance and local protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1320" width="1000" height="46" fill="#3E464F"/><text x="30" y="1349" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1349" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1000 1184" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1184" fill="#F4F6F4"/>
+<rect x="0" y="0" width="1000" height="108" fill="#3E464F"/>
+<rect x="0.0" y="108" width="250.0" height="4" fill="#C77B20"/>
+<rect x="250.0" y="108" width="250.0" height="4" fill="#245C8C"/>
+<rect x="500.0" y="108" width="250.0" height="4" fill="#15806A"/>
+<rect x="750.0" y="108" width="250.0" height="4" fill="#6D4AA3"/>
+<text x="30" y="46" font-size="29" font-weight="800" fill="#FFFFFF" letter-spacing="0.3">Thrombophilias &amp; VTE (2)</text>
+<text x="30" y="74" font-size="13" font-weight="500" fill="#CDD2D8">Screening · surgical prophylaxis · IVC filters · HIT · NICE NG158 / NG89</text>
+<rect x="30" y="146" width="940" height="44" fill="#E1EAF1" rx="9" stroke="#245C8C" stroke-width="1.1"/>
+<rect x="30" y="146" width="6" height="44" fill="#245C8C" rx="3"/>
+<text x="50" y="164.5" font-size="12" font-weight="800" fill="#245C8C">DIAGNOSIS</text>
+<text x="142" y="164.5" font-size="11.5" font-weight="400" fill="#2E3C42">Assess DVT / PE with a Wells score → D-dimer if unlikely → proximal-leg-vein Doppler ultrasound (DVT) or CTPA (PE). Provoked</text>
+<text x="142" y="179.5" font-size="11.5" font-weight="400" fill="#2E3C42">(surgery, immobility, cancer) vs unprovoked drives investigation &amp; duration.</text>
+<rect x="30" y="194" width="6" height="20" fill="#15806A" rx="3"/>
+<text x="46" y="210" font-size="13" font-weight="800" fill="#15806A" letter-spacing="1.2">THROMBOPHILIA SCREENING (NICE NG158)</text>
+<rect x="30" y="224" width="940" height="44" fill="#E2F1EC" rx="9" stroke="#15806A" stroke-width="1.1"/>
+<rect x="30" y="224" width="6" height="44" fill="#15806A" rx="3"/>
+<text x="50" y="242.5" font-size="12" font-weight="800" fill="#15806A">DO TEST</text>
+<text x="124" y="242.5" font-size="11.5" font-weight="400" fill="#2E3C42">Antiphospholipid antibodies — unprovoked VTE if planning to STOP anticoagulation. Hereditary thrombophilia — unprovoked VTE + a</text>
+<text x="124" y="257.5" font-size="11.5" font-weight="400" fill="#2E3C42">first-degree relative with VTE, if planning to stop anticoagulation.</text>
+<rect x="30" y="278" width="940" height="30" fill="#FBEAE6" rx="9" stroke="#BE3A2E" stroke-width="1.1"/>
+<rect x="30" y="278" width="6" height="30" fill="#BE3A2E" rx="3"/>
+<text x="50" y="297.0" font-size="12" font-weight="800" fill="#BE3A2E">DON'T TEST</text>
+<text x="146" y="297.0" font-size="11.5" font-weight="400" fill="#2E3C42">Provoked VTE · anyone continuing anticoagulation · routine first-degree relatives · before starting OCP / HRT.</text>
+<rect x="30" y="318" width="940" height="44" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="318" width="6" height="44" fill="#C77B20" rx="3"/>
+<text x="50" y="336.5" font-size="12" font-weight="800" fill="#C77B20">TIMING</text>
+<text x="115" y="336.5" font-size="11.5" font-weight="400" fill="#2E3C42">Don't test in the acute phase or on heparin / warfarin: antithrombin is consumed acutely, protein C / S fall on warfarin, and DOACs</text>
+<text x="115" y="351.5" font-size="11.5" font-weight="400" fill="#2E3C42">interfere with the lupus anticoagulant assay. Factor V Leiden &amp; prothrombin gene are PCR tests — unaffected.</text>
+<rect x="30" y="366" width="6" height="20" fill="#245C8C" rx="3"/>
+<text x="46" y="382" font-size="13" font-weight="800" fill="#245C8C" letter-spacing="1.2">VTE PROPHYLAXIS — SURGICAL (NICE NG89)</text>
+<rect x="30" y="396" width="460.0" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="396" width="6" height="143.5" fill="#245C8C" rx="3"/>
+<text x="54" y="424" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">MECHANICAL</text>
+<text x="54" y="448" font-size="18" font-weight="800" fill="#1B2026">Stockings / IPC</text>
+<text x="54" y="470" font-size="12" font-weight="700" fill="#245C8C">Options</text>
+<text x="126" y="470.0" font-size="12" font-weight="400" fill="#2E3C42">anti-embolism stockings or intermittent pneumatic</text>
+<text x="126" y="490.5" font-size="12" font-weight="400" fill="#2E3C42">compression</text>
+<text x="54" y="511.0" font-size="12" font-weight="700" fill="#245C8C">Caution</text>
+<text x="126" y="511.0" font-size="12" font-weight="400" fill="#2E3C42">avoid stockings in PAD / ABPI &lt; 0.8, neuropathy, severe</text>
+<text x="126" y="531.5" font-size="12" font-weight="400" fill="#2E3C42">leg oedema</text>
+<rect x="510.0" y="396" width="460.0" height="184.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="510.0" y="396" width="6" height="184.5" fill="#15806A" rx="3"/>
+<text x="534.0" y="424" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">PHARMACOLOGICAL</text>
+<text x="534.0" y="448" font-size="18" font-weight="800" fill="#1B2026">LMWH-based</text>
+<text x="534.0" y="470" font-size="12" font-weight="700" fill="#15806A">Agents</text>
+<text x="606.0" y="470.0" font-size="12" font-weight="400" fill="#2E3C42">LMWH or fondaparinux; DOAC for elective hip / knee</text>
+<text x="606.0" y="490.5" font-size="12" font-weight="400" fill="#2E3C42">replacement</text>
+<text x="534.0" y="511.0" font-size="12" font-weight="700" fill="#15806A">Extended</text>
+<text x="606.0" y="511.0" font-size="12" font-weight="400" fill="#2E3C42">28-day LMWH after major abdominal / pelvic cancer</text>
+<text x="606.0" y="531.5" font-size="12" font-weight="400" fill="#2E3C42">surgery</text>
+<text x="534.0" y="552.0" font-size="12" font-weight="700" fill="#15806A">Bleeding</text>
+<text x="606.0" y="552.0" font-size="12" font-weight="400" fill="#2E3C42">balance prophylaxis against bleeding risk; assess on</text>
+<text x="606.0" y="572.5" font-size="12" font-weight="400" fill="#2E3C42">admission</text>
+<rect x="30" y="584.5" width="6" height="20" fill="#BE3A2E" rx="3"/>
+<text x="46" y="600.5" font-size="13" font-weight="800" fill="#BE3A2E" letter-spacing="1.2">IVC (CAVAL) FILTER</text>
+<rect x="30" y="614.5" width="940" height="143.5" fill="#FFFFFF" rx="11" stroke="#E0E6E3" stroke-width="1.2"/>
+<rect x="30" y="614.5" width="6" height="143.5" fill="#BE3A2E" rx="3"/>
+<text x="54" y="642.5" font-size="11" font-weight="700" fill="#6B7B80" letter-spacing="1.4">INDICATIONS</text>
+<text x="54" y="666.5" font-size="18" font-weight="800" fill="#1B2026">When anticoagulation can't do the job</text>
+<text x="54" y="688.5" font-size="12" font-weight="700" fill="#BE3A2E">Main</text>
+<text x="130" y="688.5" font-size="12" font-weight="400" fill="#2E3C42">VTE + contraindication to anticoagulation, OR failure (recurrent PE despite therapeutic AC), OR complication of AC</text>
+<text x="54" y="709.0" font-size="12" font-weight="700" fill="#BE3A2E">Relative</text>
+<text x="130" y="709.0" font-size="12" font-weight="400" fill="#2E3C42">massive PE with poor cardiopulmonary reserve; large free-floating iliocaval thrombus; high-risk trauma / orthopaedic patient</text>
+<text x="54" y="729.5" font-size="12" font-weight="700" fill="#BE3A2E">Type</text>
+<text x="130" y="729.5" font-size="12" font-weight="400" fill="#2E3C42">retrievable preferred — remove once anticoagulation can safely resume</text>
+<text x="54" y="750.0" font-size="12" font-weight="700" fill="#BE3A2E">Evidence</text>
+<text x="130" y="750.0" font-size="12" font-weight="400" fill="#2E3C42">PREPIC: no mortality benefit; ↓ PE but ↑ DVT. Complications: migration, IVC thrombosis / penetration, fracture</text>
+<rect x="30" y="774.0" width="940" height="59" fill="#F6ECDD" rx="9" stroke="#C77B20" stroke-width="1.1"/>
+<rect x="30" y="774.0" width="6" height="59" fill="#C77B20" rx="3"/>
+<text x="50" y="792.5" font-size="12" font-weight="800" fill="#C77B20">HIT</text>
+<text x="90" y="792.5" font-size="11.5" font-weight="400" fill="#2E3C42">Heparin-induced thrombocytopenia (type II): immune (anti-PF4 / heparin); platelets fall &gt; 50% at day 5–10; paradoxical arterial + venous</text>
+<text x="90" y="807.5" font-size="11.5" font-weight="400" fill="#2E3C42">thrombosis. STOP heparin; use a non-heparin anticoagulant (argatroban / danaparoid / fondaparinux); avoid platelet transfusion &amp; warfarin</text>
+<text x="90" y="822.5" font-size="11.5" font-weight="400" fill="#2E3C42">acutely.</text>
+<rect x="30" y="837.0" width="6" height="20" fill="#C77B20" rx="3"/>
+<text x="46" y="853.0" font-size="13" font-weight="800" fill="#C77B20" letter-spacing="1.2">RED FLAGS &amp; EXAM PITFALLS</text>
+<rect x="30" y="867.0" width="940" height="174.0" fill="#F6ECDD" rx="11" stroke="#EAD7B8" stroke-width="1.2"/>
+<rect x="30" y="867.0" width="6" height="174.0" fill="#C77B20" rx="3"/>
+<circle cx="60" cy="889.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="893.0" font-size="12" font-weight="600" fill="#1B2026">Don't send a thrombophilia screen for a PROVOKED VTE or while the patient is anticoagulated — it rarely changes management</text>
+<text x="72" y="911.0" font-size="12" font-weight="400" fill="#2E3C42">and results are unreliable.</text>
+<circle cx="60" cy="929.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="933.0" font-size="12" font-weight="600" fill="#1B2026">An IVC filter is not a substitute for anticoagulation — anticoagulate as soon as it's safe, and retrieve the filter.</text>
+<circle cx="60" cy="951.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="955.0" font-size="12" font-weight="600" fill="#1B2026">Anti-embolism stockings are contraindicated in peripheral arterial disease (ABPI &lt; 0.8) — check pulses before applying.</text>
+<circle cx="60" cy="973.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="977.0" font-size="12" font-weight="600" fill="#1B2026">Give extended (28-day) LMWH prophylaxis after major abdominal or pelvic cancer surgery.</text>
+<circle cx="60" cy="995.0" r="2.6" fill="#BE3A2E"/>
+<text x="72" y="999.0" font-size="12" font-weight="600" fill="#1B2026">In HIT the platelet drop causes thrombosis, not bleeding — never give warfarin acutely or transfuse platelets; switch to a</text>
+<text x="72" y="1017.0" font-size="12" font-weight="400" fill="#2E3C42">non-heparin anticoagulant.</text>
+<line x1="30" y1="1041.0" x2="970" y2="1041.0" stroke="#D7DEDC" stroke-width="1"/>
+<text x="30" y="1060.0" font-size="10.5" font-weight="400" fill="#7C8A8E">NICE NG158 (VTE diagnosis, management &amp; thrombophilia testing) and NG89 (VTE prophylaxis in hospital). PREPIC / PREPIC-2 trials.</text>
+<text x="30" y="1074.0" font-size="10.5" font-weight="400" fill="#7C8A8E">BSIR / SIR guidance on inferior vena cava filters. British Society for Haematology guidance on heparin-induced thrombocytopenia.</text>
+<text x="30" y="1088.0" font-size="10.5" font-weight="400" fill="#9AA6AA">MockFRCS revision aid — verify against current NICE guidance and local protocols.</text>
+<g id="mf-wordmark"><text x="822" y="42" font-size="21" font-weight="800" letter-spacing="0.2" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="822" y="60" font-size="10.5" font-weight="500" fill="#CDD2D8">mockfrcs.co.uk</text></g>
+<rect x="0" y="1138" width="1000" height="46" fill="#3E464F"/><text x="30" y="1167" font-size="14" font-weight="800" fill="#FFFFFF">Mock<tspan fill="#6FA8DC">FRCS</tspan></text><text x="970" y="1167" text-anchor="end" font-size="12.5" font-weight="600" fill="#CDD2D8">Revision resources &amp; realistic mock exams · mockfrcs.co.uk</text>
+</svg>
