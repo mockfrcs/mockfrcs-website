@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A plain-English FRCS Part 1 statistics and critical appraisal workbook covering the JCIE / General Surgery syllabus, with self-test questions. Sections 1-3 free.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Statistics &amp; Critical Appraisal — MockFRCS revision</title>
+<style>
+/* ============================================================
+   SITE TOKENS — the only block that needs changing to match
+   MockFRCS. Paste your real values here; nothing below this
+   block contains a hardcoded colour, font or radius.
+   ============================================================ */
+:root{
+  /* brand — mapped to the MockFRCS site palette */
+  --blue:#185FA5;          /* site primary */
+  --blue-light:#E6F1FB;
+  --blue-dark:#0C447C;
+  --family:#185FA5;        /* chapter/topic accent for this module */
+  --family-hover:#0C447C;  /* darker on hover */
+  --ink:#12283F;           /* darkest structural colour: reader rail */
+  --pale:#DCE6F2;          /* text on --ink */
+  --ink-hover:#1A3450;     /* rail item hover */
+  --ink-active:#1F3E5C;    /* rail item active */
+  --nav-meta:#8FA6BE;      /* rail subtitle */
+  --nav-num:#7C97B4;       /* rail numerals */
+  --nav-mark:#6FA8DC;      /* active rail marker (brand light blue) */
+
+  /* surfaces and text */
+  --paper:#F7F7F5;         /* page background (matches site bg-alt) */
+  --surface:#ffffff;       /* cards, answer options */
+  --surface-alt:#EEF1F4;   /* inline code, subtle fills */
+  --row-hover:#F1F4F7;
+  --body:#1A1A18;          /* body text (site) */
+  --body-soft:#3A3A38;     /* lede text */
+  --muted:#666666;         /* captions, secondary */
+  --rule:#E3E3E0;          /* hairlines */
+  --b:#CBCBC7;             /* borders, axes */
+  --t:#8A8A86;             /* diagram arrows, dashed guides */
+  --fig-muted:#8A8A86;     /* neutral series in figures */
+
+  /* semantic accents — matched to the site + poster system */
+  --amber:#854F0B;
+  --teal:#1D6B5A;
+  --plum:#3F5C86;          /* de-purpled: indigo-slate secondary */
+  --red:#A32D2D;
+  --accent-good:var(--teal);  /* correct answers, favourable series */
+  --accent-warn:var(--red);   /* wrong answers, unfavourable series */
+
+  /* figure fills — tints of the accents above */
+  --fill-gray:#F0F1F2; --fill-plum:#EAEFF7; --fill-teal:#E9F2EF;
+  --fill-red:#FCEBEB;  --fill-blue:#E6F1FB;
+
+  /* type */
+  --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --fs-h2:27px; --fs-h3:16px; --fs-body:16px; --fs-ui:14px; --fs-small:12px;
+
+  /* shape and rhythm */
+  --radius:6px; --radius-lg:8px; --radius-sm:4px;
+  --col-width:68ch; --nav-width:232px; --gutter:40px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--body);font-family:var(--serif);line-height:1.6}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* ---------- layout ---------- */
+.wrap{display:flex;min-height:100vh;align-items:flex-start}
+.rnav{position:sticky;top:56px;flex:0 0 var(--nav-width);height:calc(100vh - 56px);background:var(--ink);color:var(--pale);padding:28px 0;overflow-y:auto}
+.rnav h1{font-family:var(--sans);font-size:15px;font-weight:600;letter-spacing:.01em;margin:0 22px 4px;color:var(--surface);line-height:1.35}
+.rnav p{font-family:var(--sans);font-size:12px;margin:0 22px 26px;color:var(--nav-meta)}
+.rnav a{display:flex;gap:11px;font-family:var(--sans);font-size:13px;color:var(--pale);text-decoration:none;padding:8px 22px;border-left:3px solid transparent}
+.rnav a:hover,.rnav a:focus-visible{background:var(--ink-hover);border-left-color:var(--nav-mark)}
+.rnav a b{font-weight:600;color:var(--nav-num);flex:0 0 12px}
+.rnav a.on{background:var(--ink-active);border-left-color:var(--nav-mark);color:var(--surface)}
+main{flex:1;min-width:0;padding:0 0 100px}
+.col{max-width:var(--col-width);padding:0 var(--gutter)}
+section{padding-top:56px;scroll-margin-top:70px}
+
+/* ---------- type ---------- */
+h2{font-family:var(--sans);font-size:var(--fs-h2);font-weight:600;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+h2 span{display:block;font-size:13px;font-weight:500;color:var(--muted);margin-bottom:9px}
+h3{font-family:var(--sans);font-size:var(--fs-h3);font-weight:600;margin:34px 0 10px}
+p{margin:0 0 15px}
+li{margin-bottom:7px}
+strong{font-weight:700}
+em{font-style:italic}
+code{font-family:var(--sans);font-size:.9em;background:var(--surface-alt);padding:1px 5px;border-radius:var(--radius-sm)}
+
+/* ---------- structural devices ---------- */
+.lede{font-size:18px;color:var(--body-soft);border-bottom:1px solid var(--rule);padding-bottom:22px;margin-bottom:8px}
+.trap{border-left:3px solid var(--red);background:var(--fill-red);padding:13px 18px;margin:22px 0;font-size:15px}
+.trap b{font-family:var(--sans);font-size:12px;font-weight:700;color:var(--red);display:block;margin-bottom:3px}
+table{border-collapse:collapse;width:100%;margin:20px 0;font-family:var(--sans);font-size:14px}
+th{text-align:left;font-weight:600;border-bottom:2px solid var(--body);padding:8px 12px 7px}
+td{border-bottom:1px solid var(--rule);padding:9px 12px;vertical-align:top}
+tbody tr:hover{background:var(--row-hover)}
+figure{margin:26px 0}
+figure svg{width:100%;height:auto;display:block}
+figcaption{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-top:9px;padding-left:2px}
+
+/* ---------- svg component classes ---------- */
+svg .th{font-family:var(--sans);font-size:var(--fs-ui);font-weight:600;fill:var(--body)}
+svg .ts{font-family:var(--sans);font-size:var(--fs-small);fill:var(--muted)}
+svg .arr{stroke:var(--t);stroke-width:1.5;fill:none}
+svg .node rect,svg g[class*="c-"] rect{fill:var(--surface)}
+svg .c-gray rect{fill:var(--fill-gray);stroke:var(--b)}
+svg .c-purple rect{fill:var(--fill-plum);stroke:var(--plum)}
+svg .c-teal rect{fill:var(--fill-teal);stroke:var(--teal)}
+svg .c-coral rect{fill:var(--fill-red);stroke:var(--red)}
+svg .c-blue rect{fill:var(--fill-blue);stroke:var(--blue)}
+
+/* ---------- quiz ---------- */
+.qlaunch{margin:38px 0 0;border-top:1px solid var(--rule);padding-top:22px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+button{font-family:var(--sans);font-size:var(--fs-ui);cursor:pointer}
+.btn{background:var(--family);color:var(--surface);border:0;border-radius:var(--radius);padding:10px 17px;font-weight:600}
+.btn:hover{background:var(--family-hover)}
+.btn.ghost{background:transparent;color:var(--family);border:1px solid var(--b)}
+.btn.ghost:hover{background:var(--fill-plum)}
+.qlaunch span{font-family:var(--sans);font-size:13px;color:var(--muted)}
+
+#runner{position:fixed;inset:0;background:color-mix(in srgb, var(--ink) 62%, transparent);display:none;z-index:50;padding:20px;overflow-y:auto}
+#runner.open{display:block}
+.panel{background:var(--paper);max-width:640px;margin:40px auto;border-radius:var(--radius-lg);overflow:hidden}
+.phead{background:var(--ink);color:var(--surface);padding:15px 24px;display:flex;justify-content:space-between;align-items:center;font-family:var(--sans);font-size:13px}
+.phead b{font-weight:600;font-size:14px}
+.phead button{background:none;border:0;color:var(--pale);font-size:22px;line-height:1;padding:0 2px}
+.pbar{height:3px;background:var(--rule)}
+.pbar i{display:block;height:100%;background:var(--family);width:0;transition:width .25s}
+.pbody{padding:26px 24px 24px}
+.qtext{font-size:16.5px;margin:0 0 20px}
+.opts{display:grid;gap:9px}
+.opt{font-family:var(--sans);font-size:14.5px;text-align:left;background:var(--surface);border:1px solid var(--b);border-radius:var(--radius);padding:12px 15px;line-height:1.45}
+.opt:hover:not(:disabled){border-color:var(--family);background:var(--fill-plum)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--accent-good);background:var(--fill-teal);font-weight:600}
+.opt.wrong{border-color:var(--accent-warn);background:var(--fill-red)}
+.expl{margin-top:20px;border-left:3px solid var(--b);padding:2px 0 2px 16px;font-size:15px;display:none}
+.expl.show{display:block}
+.expl b{font-family:var(--sans);font-size:13px;display:block;margin-bottom:4px}
+.expl.ok b{color:var(--accent-good)}
+.expl.no b{color:var(--accent-warn)}
+.pfoot{padding:0 24px 26px;display:flex;justify-content:flex-end}
+.score{text-align:center;padding:14px 0 6px}
+.score .big{font-family:var(--sans);font-size:44px;font-weight:600;line-height:1}
+.score p{font-family:var(--sans);font-size:14px;color:var(--muted);margin:8px 0 0}
+.missed{margin-top:24px;font-family:var(--sans);font-size:13.5px}
+.missed h4{font-size:13px;margin:0 0 9px}
+.missed li{margin-bottom:6px;color:var(--muted)}
+
+@media(max-width:880px){
+  .wrap{display:block}
+  .rnav{position:static;height:auto;width:100%;flex:none;padding:20px 0 14px}
+  .rnav p{margin-bottom:14px}
+  .rnav a{display:inline-flex;border-left:0;border-bottom:3px solid transparent;padding:7px 14px}
+  .rnav a.on,.rnav a:hover{border-left:0;border-bottom-color:var(--nav-mark)}
+  .col{padding:0 calc(var(--gutter) * .55)}
+  h2{font-size:23px}
+  .panel{margin:0 auto}
+}
+
+/* ---------- site top nav ---------- */
+.site-nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:.5px solid rgba(0,0,0,.08);font-family:var(--sans)}
+.site-nav .sn-inner{max-width:1180px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.site-nav .sn-left{display:flex;align-items:center;gap:28px}
+.site-nav .sn-logo{font-size:18px;font-weight:600;color:#1a1a18;text-decoration:none}
+.site-nav .sn-logo span{color:var(--blue)}
+.site-nav .sn-links{display:flex;gap:22px}
+.site-nav .sn-links a{font-size:13px;color:#555;text-decoration:none;transition:color .15s}
+.site-nav .sn-links a:hover{color:#1a1a18}
+.site-nav .sn-links a.current{color:var(--blue);font-weight:600}
+.site-nav .sn-right{display:flex;align-items:center;gap:16px}
+.site-nav .sn-right a{font-size:13px;color:#555;text-decoration:none}
+.site-nav .sn-cta{font-weight:500;background:var(--blue);color:#fff!important;padding:7px 15px;border-radius:8px;transition:background .15s}
+.site-nav .sn-cta:hover{background:var(--blue-dark)}
+.site-nav .sn-toggle{display:none;background:none;border:0;font-size:22px;line-height:1;cursor:pointer;color:#1a1a18}
+.site-nav .sn-mobile{display:none;flex-direction:column;padding:6px 24px 14px;border-top:.5px solid rgba(0,0,0,.06)}
+.site-nav .sn-mobile.open{display:flex}
+.site-nav .sn-mobile a{font-size:15px;color:#444;padding:11px 2px;border-bottom:.5px solid rgba(0,0,0,.05);text-decoration:none}
+.site-nav .sn-mobile a:last-child{border-bottom:none;color:var(--blue);font-weight:500}
+@media(max-width:640px){.site-nav .sn-links,.site-nav .sn-right{display:none}.site-nav .sn-toggle{display:block}}
+
+/* ---------- membership gate ---------- */
+.lockwrap{display:none;border:1px solid var(--b);background:var(--surface);border-radius:var(--radius-lg);padding:24px 26px 26px;margin:22px 0}
+.lockwrap .lk-badge{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.4px;color:var(--blue);text-transform:uppercase;margin-bottom:9px}
+.lockwrap h4{font-family:var(--sans);font-size:16px;margin:0 0 8px}
+.lockwrap p{font-size:15px;color:var(--body-soft);margin:0 0 16px}
+.lockwrap .btn{display:inline-block;text-decoration:none;margin-right:10px}
+body:not(.is-member) section.members .col > *:not(h2):not(.lockwrap){display:none}
+body:not(.is-member) section.members .lockwrap{display:block}
+body:not(.is-member) .rnav a[href="#s4"]::after,
+body:not(.is-member) .rnav a[href="#s5"]::after,
+body:not(.is-member) .rnav a[href="#s6"]::after,
+body:not(.is-member) .rnav a[href="#paper"]::after{content:"\1F512";margin-left:auto;font-size:11px;opacity:.65}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="sn-inner">
+    <div class="sn-left">
+      <a href="index.html" class="sn-logo">Mock<span>FRCS</span></a>
+      <div class="sn-links">
+        <a href="about.html">How it works</a>
+        <a href="demo.html">Try free demo</a>
+        <a href="revision.html" class="current">Revision resources</a>
+      </div>
+    </div>
+    <div class="sn-right">
+      <a href="login.html">Log in</a>
+      <a href="index.html#notify" class="sn-cta">Notify me</a>
+    </div>
+    <button class="sn-toggle" aria-label="Open menu" onclick="document.getElementById('snMobile').classList.toggle('open')">&#9776;</button>
+  </div>
+  <div class="sn-mobile" id="snMobile">
+    <a href="about.html">How it works</a>
+    <a href="demo.html">Try free demo</a>
+    <a href="revision.html">Revision resources</a>
+    <a href="login.html">Log in</a>
+    <a href="index.html#notify">Notify me</a>
+  </div>
+</nav>
+<div class="wrap">
+<aside class="rnav">
+  <h1>Statistics and critical appraisal</h1>
+  <p>FRCS Part 1 · General Surgery</p>
+  <a href="#s1"><b>1</b>Choosing a test</a>
+  <a href="#s2"><b>2</b>Interpreting results</a>
+  <a href="#s3"><b>3</b>Study design</a>
+  <a href="#s4"><b>4</b>Trial design</a>
+  <a href="#s5"><b>5</b>Synthesis and survival</a>
+  <a href="#s6"><b>6</b>Audit and governance</a>
+  <a href="#paper"><b>7</b>Mixed paper</a>
+</aside>
+<main>
+<section id="s1"><div class="col">
+<h2><span>Section one</span>Choosing the right test</h2>
+<p class="lede">You never really choose a test. You describe your data accurately, and the data chooses the test for you.</p>
+
+<p>Every test answers the same question: could this difference have arisen by chance alone? The p-value is the answer. The tests differ only in the shape of data they are built to handle, in the way a screwdriver and a spanner differ by the fastener in front of them.</p>
+
+<h3>Step one: what kind of data is the outcome?</h3>
+<p><strong>Categorical (nominal)</strong> data sorts patients into buckets — infection yes or no, blood group A, B, AB or O. All you can do is count how many sit in each bucket. There is no average blood group.</p>
+<p><strong>Ordinal</strong> data can be ranked, but the gaps between ranks are not equal. ASA grade, Clavien-Dindo, a pain score, a Likert scale. ASA 4 is worse than ASA 2 but not twice as bad, so an average ASA of 2.7 means nothing.</p>
+<p><strong>Continuous</strong> data is measured on a real scale with equal intervals — haemoglobin, BMI, operating time — so it can be meaningfully averaged.</p>
+<p><strong>Discrete</strong> data is a count: lymph nodes retrieved, previous operations, polyps found. Whole numbers only, but the intervals are equal and real, so it behaves like continuous data for the purpose of choosing a test.</p>
+
+<figure>
+<svg viewBox="0 0 680 316" role="img" aria-label="Data types split into categorical (nominal, ordinal) and numerical (discrete, continuous)">
+<defs><marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g class="c-gray"><rect x="280" y="40" width="120" height="44" rx="8" stroke-width="0.5"/><text class="th" x="340" y="62" text-anchor="middle" dominant-baseline="central">Data</text></g>
+<path d="M340 84 V104 H195 V120" class="arr" marker-end="url(#a1)"/>
+<path d="M340 84 V104 H485 V120" class="arr" marker-end="url(#a1)"/>
+<g class="c-purple"><rect x="95" y="124" width="200" height="56" rx="8" stroke-width="0.5"/><text class="th" x="195" y="142" text-anchor="middle" dominant-baseline="central">Categorical</text><text class="ts" x="195" y="160" text-anchor="middle" dominant-baseline="central">buckets, no arithmetic</text></g>
+<g class="c-teal"><rect x="385" y="124" width="200" height="56" rx="8" stroke-width="0.5"/><text class="th" x="485" y="142" text-anchor="middle" dominant-baseline="central">Numerical</text><text class="ts" x="485" y="160" text-anchor="middle" dominant-baseline="central">real quantities</text></g>
+<path d="M195 180 V200 H113 V216" class="arr" marker-end="url(#a1)"/>
+<path d="M195 180 V200 H278 V216" class="arr" marker-end="url(#a1)"/>
+<path d="M485 180 V200 H403 V216" class="arr" marker-end="url(#a1)"/>
+<path d="M485 180 V200 H568 V216" class="arr" marker-end="url(#a1)"/>
+<g class="c-purple"><rect x="40" y="220" width="145" height="56" rx="8" stroke-width="0.5"/><text class="th" x="113" y="238" text-anchor="middle" dominant-baseline="central">Nominal</text><text class="ts" x="113" y="256" text-anchor="middle" dominant-baseline="central">blood group</text></g>
+<g class="c-purple"><rect x="205" y="220" width="145" height="56" rx="8" stroke-width="0.5"/><text class="th" x="278" y="238" text-anchor="middle" dominant-baseline="central">Ordinal</text><text class="ts" x="278" y="256" text-anchor="middle" dominant-baseline="central">ASA grade</text></g>
+<g class="c-teal"><rect x="330" y="220" width="145" height="56" rx="8" stroke-width="0.5"/><text class="th" x="403" y="238" text-anchor="middle" dominant-baseline="central">Discrete</text><text class="ts" x="403" y="256" text-anchor="middle" dominant-baseline="central">lymph node yield</text></g>
+<g class="c-teal"><rect x="495" y="220" width="145" height="56" rx="8" stroke-width="0.5"/><text class="th" x="568" y="238" text-anchor="middle" dominant-baseline="central">Continuous</text><text class="ts" x="568" y="256" text-anchor="middle" dominant-baseline="central">haemoglobin</text></g>
+</svg>
+<figcaption>Discrete data is a sibling of continuous, not a category of its own.</figcaption>
+</figure>
+
+<div class="trap"><b>Discrete or ordinal?</b>Both look like whole numbers. Ask whether the gaps are equal. Nodes 2 to 3 is the same step as 13 to 14, so it is discrete. ASA 2 to 3 is not the same step as 3 to 4, so it is ordinal.</div>
+
+<h3>Step two: normal or skewed?</h3>
+<p>A normal distribution is the symmetrical bell curve. Length of stay is not: most patients go home in three days and a few stay sixty, dragging a long tail to the right. The mean is bullied by those outliers; the median is not.</p>
+<p><strong>Parametric</strong> tests use the actual values and the mean, and assume normality. <strong>Non-parametric</strong> tests discard the raw values and use ranks — first, second, third — which is why they are immune to skew and outliers and why they also work for ordinal data. They are the safer option, at the cost of less statistical power.</p>
+
+<h3>Step three: paired or independent?</h3>
+<p>Independent means two separate sets of people. Paired means the same patient measured twice, or deliberately matched pairs. Pairing removes all the between-person noise, but only if you tell the test you have done it.</p>
+
+<figure>
+<svg viewBox="0 0 680 420" role="img" aria-label="Decision tree from outcome data type to the appropriate test">
+<defs><marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g class="c-gray"><rect x="215" y="40" width="250" height="44" rx="8" stroke-width="0.5"/><text class="th" x="340" y="62" text-anchor="middle" dominant-baseline="central">What kind of outcome data?</text></g>
+<path d="M340 84 V107 H135 V126" class="arr" marker-end="url(#a2)"/>
+<path d="M340 84 V126" class="arr" marker-end="url(#a2)"/>
+<path d="M340 84 V107 H545 V126" class="arr" marker-end="url(#a2)"/>
+<g class="c-purple"><rect x="45" y="130" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="135" y="148" text-anchor="middle" dominant-baseline="central">Categorical</text><text class="ts" x="135" y="166" text-anchor="middle" dominant-baseline="central">yes/no, counts</text></g>
+<g class="c-teal"><rect x="250" y="130" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="340" y="148" text-anchor="middle" dominant-baseline="central">Numbers, normal</text><text class="ts" x="340" y="166" text-anchor="middle" dominant-baseline="central">mean ± SD given</text></g>
+<g class="c-coral"><rect x="455" y="130" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="545" y="148" text-anchor="middle" dominant-baseline="central">Numbers, skewed</text><text class="ts" x="545" y="166" text-anchor="middle" dominant-baseline="central">median (IQR), ordinal</text></g>
+<line x1="135" y1="186" x2="135" y2="228" class="arr" marker-end="url(#a2)"/>
+<line x1="340" y1="186" x2="340" y2="228" class="arr" marker-end="url(#a2)"/>
+<line x1="545" y1="186" x2="545" y2="228" class="arr" marker-end="url(#a2)"/>
+<g class="c-purple"><rect x="45" y="232" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="135" y="250" text-anchor="middle" dominant-baseline="central">Chi-squared</text><text class="ts" x="135" y="268" text-anchor="middle" dominant-baseline="central">compares proportions</text></g>
+<g class="c-teal"><rect x="250" y="232" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="340" y="250" text-anchor="middle" dominant-baseline="central">Unpaired t-test</text><text class="ts" x="340" y="268" text-anchor="middle" dominant-baseline="central">2 groups</text></g>
+<g class="c-coral"><rect x="455" y="232" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="545" y="250" text-anchor="middle" dominant-baseline="central">Mann-Whitney U</text><text class="ts" x="545" y="268" text-anchor="middle" dominant-baseline="central">2 groups</text></g>
+<line x1="135" y1="288" x2="135" y2="320" class="arr" marker-end="url(#a2)"/>
+<line x1="340" y1="288" x2="340" y2="320" class="arr" marker-end="url(#a2)"/>
+<line x1="545" y1="288" x2="545" y2="320" class="arr" marker-end="url(#a2)"/>
+<g class="c-purple"><rect x="45" y="324" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="135" y="342" text-anchor="middle" dominant-baseline="central">Fisher's exact</text><text class="ts" x="135" y="360" text-anchor="middle" dominant-baseline="central">if any cell under 5</text></g>
+<g class="c-teal"><rect x="250" y="324" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="340" y="342" text-anchor="middle" dominant-baseline="central">ANOVA</text><text class="ts" x="340" y="360" text-anchor="middle" dominant-baseline="central">3 or more groups</text></g>
+<g class="c-coral"><rect x="455" y="324" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="545" y="342" text-anchor="middle" dominant-baseline="central">Kruskal-Wallis</text><text class="ts" x="545" y="360" text-anchor="middle" dominant-baseline="central">3 or more groups</text></g>
+</svg>
+<figcaption>The three columns are the three answers to step one. Paired versions sit alongside each.</figcaption>
+</figure>
+
+<h3>The paired equivalents</h3>
+<table><thead><tr><th>Independent groups</th><th>Same patients twice</th></tr></thead><tbody>
+<tr><td>Unpaired t-test</td><td>Paired t-test</td></tr>
+<tr><td>Mann-Whitney U</td><td>Wilcoxon signed-rank</td></tr>
+<tr><td>Chi-squared</td><td>McNemar's test</td></tr>
+<tr><td>One-way ANOVA</td><td>Repeated-measures ANOVA</td></tr>
+<tr><td>Kruskal-Wallis</td><td>Friedman test</td></tr>
+</tbody></table>
+
+<h3>Relationships rather than differences</h3>
+<p>When there are no groups, only two variables measured in the same patients, the question is correlation. <strong>Pearson's r</strong> for two normally distributed continuous variables in a straight-line relationship; <strong>Spearman's rank</strong> when either variable is skewed or ordinal. Both run from &minus;1 to +1. Neither says anything about causation, and neither describes the steepness of the line.</p>
+<p>If the stem is about prediction rather than association, you are in regression: linear for a continuous outcome, logistic for a binary one, Cox for time to an event, Poisson for counts.</p>
+
+<h3>Decoding the stem</h3>
+<table><thead><tr><th>Phrase in the stem</th><th>What it tells you</th></tr></thead><tbody>
+<tr><td>mean ± SD, normally distributed</td><td>Parametric: t-test, ANOVA, Pearson</td></tr>
+<tr><td>median (IQR), skewed</td><td>Non-parametric: Mann-Whitney, Kruskal-Wallis, Spearman</td></tr>
+<tr><td>Any score, grade or scale</td><td>Ordinal, so non-parametric</td></tr>
+<tr><td>proportion, rate, developed or did not</td><td>Categorical: chi-squared</td></tr>
+<tr><td>before and after, own control</td><td>Paired</td></tr>
+<tr><td>Three or more arms listed</td><td>ANOVA or Kruskal-Wallis</td></tr>
+<tr><td>association between X and Y</td><td>Correlation</td></tr>
+<tr><td>predicts, adjusting for confounders</td><td>Regression</td></tr>
+<tr><td>Time until an event, censored patients</td><td>Log-rank or Cox</td></tr>
+</tbody></table>
+<p>Two habits resolve most stems: count the groups first, then look for the word median.</p>
+
+<div class="qlaunch"><button class="btn" onclick="start('s1')">Test this section</button><span>12 questions</span></div>
+</div></section>
+
+<section id="s2"><div class="col">
+<h2><span>Section two</span>Interpreting results</h2>
+<p class="lede">More marks live here than anywhere else in the topic, and most of them turn on definitions rather than arithmetic.</p>
+
+<h3>Describing data</h3>
+<p>The <strong>mean</strong> is the average, the <strong>median</strong> the middle value, the <strong>mode</strong> the commonest. In a symmetrical distribution all three coincide. In a right-skewed distribution they separate: mode, then median, then mean.</p>
+<p>The <strong>standard deviation</strong> describes how widely individual patients scatter. In a normal distribution, 68% lie within one SD of the mean, 95% within two, and 99.7% within three. So a mean of 45 with an SD of 10 puts about 95% of patients between 25 and 65.</p>
+<div class="trap"><b>SD is not SEM</b>The standard error of the mean is SD divided by the square root of n. It describes how precisely you have pinned down the mean, not how patients scatter, and it shrinks as the study grows. Authors sometimes quote it because it is the smaller number.</div>
+
+<h3>The null hypothesis and the p-value</h3>
+<p>Every study begins by assuming the boring answer: there is no difference. Think of a criminal trial. The defendant is presumed innocent, the data are the evidence, and the p-value answers a single question — if the defendant really were innocent, how likely is evidence this incriminating?</p>
+<p>So p = 0.03 means that if there were genuinely no difference, a result at least this extreme would arise 3% of the time. It does not mean there is a 3% chance the null hypothesis is true, and it says nothing about whether the difference matters. In 50,000 patients, a 1 mmHg difference will be highly significant and entirely useless.</p>
+
+<h3>The two ways to be wrong</h3>
+<table><thead><tr><th></th><th>A difference exists</th><th>No difference exists</th></tr></thead><tbody>
+<tr><td><strong>You declare a difference</strong></td><td>Correct (power, 1&minus;&beta;)</td><td>Type I error (&alpha;)</td></tr>
+<tr><td><strong>You declare no difference</strong></td><td>Type II error (&beta;)</td><td>Correct</td></tr>
+</tbody></table>
+<p>A type I error convicts the innocent, and its probability is alpha, conventionally 0.05. Run twenty comparisons at that threshold and one will be significant by luck alone, which is why ANOVA exists rather than many t-tests, and why the Bonferroni correction divides alpha by the number of comparisons.</p>
+<p>A type II error acquits the guilty, and is almost always caused by too few patients. <strong>Power</strong> is 1 minus beta, conventionally set at 80%. It rises with a larger sample, a larger true effect, less variability and a higher accepted alpha. A sample size calculation needs four ingredients: alpha, power, the minimum clinically important difference, and the expected variability.</p>
+<div class="trap"><b>Remember</b>Absence of evidence is not evidence of absence. A non-significant result in a small study usually means nobody looked hard enough.</div>
+
+<h3>Confidence intervals</h3>
+<p>A p-value gives a verdict; a confidence interval gives the range of effects the data are compatible with, which is far more useful. The move in an exam is to identify the value of no effect and see whether the interval crosses it. For ratios — odds ratio, relative risk, hazard ratio — that value is <strong>1</strong>. For differences it is <strong>0</strong>. Crossing it means the result is not significant, and p will exceed 0.05. The two always agree.</p>
+
+<figure>
+<svg viewBox="0 0 680 290" role="img" aria-label="Three confidence intervals against the line of no effect">
+<line x1="340" y1="58" x2="340" y2="238" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<text class="ts" x="340" y="46" text-anchor="middle">No effect (OR = 1)</text>
+<text class="ts" x="40" y="90" dominant-baseline="central">Trial A</text>
+<line x1="200" y1="90" x2="306" y2="90" stroke="var(--accent-good)" stroke-width="2"/><line x1="200" y1="82" x2="200" y2="98" stroke="var(--accent-good)" stroke-width="2"/><line x1="306" y1="82" x2="306" y2="98" stroke="var(--accent-good)" stroke-width="2"/><circle cx="254" cy="90" r="5" fill="var(--accent-good)"/>
+<text class="ts" x="460" y="90" dominant-baseline="central">Significant</text>
+<text class="ts" x="40" y="145" dominant-baseline="central">Trial B</text>
+<line x1="243" y1="145" x2="346" y2="145" stroke="var(--fig-muted)" stroke-width="2"/><line x1="243" y1="137" x2="243" y2="153" stroke="var(--fig-muted)" stroke-width="2"/><line x1="346" y1="137" x2="346" y2="153" stroke="var(--fig-muted)" stroke-width="2"/><circle cx="293" cy="145" r="5" fill="var(--fig-muted)"/>
+<text class="ts" x="460" y="145" dominant-baseline="central">Crosses 1, not significant</text>
+<text class="ts" x="40" y="200" dominant-baseline="central">Trial C</text>
+<line x1="140" y1="200" x2="436" y2="200" stroke="var(--fig-muted)" stroke-width="2"/><line x1="140" y1="192" x2="140" y2="208" stroke="var(--fig-muted)" stroke-width="2"/><line x1="436" y1="192" x2="436" y2="208" stroke="var(--fig-muted)" stroke-width="2"/><circle cx="289" cy="200" r="5" fill="var(--fig-muted)"/>
+<text class="ts" x="460" y="200" dominant-baseline="central">Wide and imprecise</text>
+<line x1="140" y1="238" x2="540" y2="238" stroke="var(--b)" stroke-width="0.5"/>
+<line x1="140" y1="238" x2="140" y2="244" stroke="var(--b)" stroke-width="0.5"/><line x1="240" y1="238" x2="240" y2="244" stroke="var(--b)" stroke-width="0.5"/><line x1="340" y1="238" x2="340" y2="244" stroke="var(--b)" stroke-width="0.5"/><line x1="440" y1="238" x2="440" y2="244" stroke="var(--b)" stroke-width="0.5"/><line x1="540" y1="238" x2="540" y2="244" stroke="var(--b)" stroke-width="0.5"/>
+<text class="ts" x="140" y="258" text-anchor="middle">0.25</text><text class="ts" x="240" y="258" text-anchor="middle">0.5</text><text class="ts" x="340" y="258" text-anchor="middle">1</text><text class="ts" x="440" y="258" text-anchor="middle">2</text><text class="ts" x="540" y="258" text-anchor="middle">4</text>
+<text class="ts" x="340" y="278" text-anchor="middle">Odds ratio</text>
+</svg>
+<figcaption>B and C share almost the same point estimate. C tells you nothing, because width is precision.</figcaption>
+</figure>
+
+<h3>Risk and benefit</h3>
+<p>Take mortality of 12% with standard care and 8% with a new treatment.</p>
+<ul>
+<li><strong>Absolute risk reduction</strong> = 12 &minus; 8 = 4%</li>
+<li><strong>Relative risk</strong> = 8 ÷ 12 = 0.67</li>
+<li><strong>Relative risk reduction</strong> = 4 ÷ 12 = 33%</li>
+<li><strong>Number needed to treat</strong> = 1 ÷ 0.04 = 25</li>
+</ul>
+<p>Relative figures always sound better than absolute ones because they conceal the baseline. Cutting risk from 3% to 2% is also a 33% relative reduction, but the ARR is 1% and the NNT is 100. A percentage reduction quoted without a baseline is the trick being played.</p>
+<p><strong>Odds ratio or relative risk?</strong> Risk is events over everyone; odds is events over non-events. Relative risk needs the true underlying risk, so it is available only from cohort studies and trials. A case-control study fixes the number of cases in advance, so the odds ratio is the only option. When the outcome is rare the two are close; when it is common the odds ratio exaggerates.</p>
+
+<h3>Diagnostic accuracy</h3>
+<p>Draw the two-by-two table and everything falls out of it, depending on which direction you read.</p>
+
+<figure>
+<svg viewBox="0 0 680 384" role="img" aria-label="Two by two table of test result against disease status">
+<defs><marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text class="th" x="285" y="120" text-anchor="middle" dominant-baseline="central">Disease present</text>
+<text class="th" x="455" y="120" text-anchor="middle" dominant-baseline="central">Disease absent</text>
+<text class="th" x="40" y="180" dominant-baseline="central">Test positive</text>
+<text class="th" x="40" y="260" dominant-baseline="central">Test negative</text>
+<g class="c-teal"><rect x="200" y="140" width="170" height="80" rx="4" stroke-width="0.5"/><text class="th" x="285" y="180" text-anchor="middle" dominant-baseline="central">True positive</text></g>
+<g class="c-coral"><rect x="370" y="140" width="170" height="80" rx="4" stroke-width="0.5"/><text class="th" x="455" y="180" text-anchor="middle" dominant-baseline="central">False positive</text></g>
+<g class="c-coral"><rect x="200" y="220" width="170" height="80" rx="4" stroke-width="0.5"/><text class="th" x="285" y="260" text-anchor="middle" dominant-baseline="central">False negative</text></g>
+<g class="c-teal"><rect x="370" y="220" width="170" height="80" rx="4" stroke-width="0.5"/><text class="th" x="455" y="260" text-anchor="middle" dominant-baseline="central">True negative</text></g>
+<line x1="285" y1="300" x2="285" y2="332" class="arr" marker-end="url(#a3)"/>
+<line x1="455" y1="300" x2="455" y2="332" class="arr" marker-end="url(#a3)"/>
+<line x1="540" y1="180" x2="547" y2="180" class="arr" marker-end="url(#a3)"/>
+<line x1="540" y1="260" x2="547" y2="260" class="arr" marker-end="url(#a3)"/>
+<g class="c-blue"><rect x="200" y="336" width="170" height="44" rx="4" stroke-width="0.5"/><text class="th" x="285" y="358" text-anchor="middle" dominant-baseline="central">Sensitivity</text></g>
+<g class="c-blue"><rect x="370" y="336" width="170" height="44" rx="4" stroke-width="0.5"/><text class="th" x="455" y="358" text-anchor="middle" dominant-baseline="central">Specificity</text></g>
+<g class="c-purple"><rect x="556" y="158" width="84" height="44" rx="4" stroke-width="0.5"/><text class="th" x="598" y="180" text-anchor="middle" dominant-baseline="central">PPV</text></g>
+<g class="c-purple"><rect x="556" y="238" width="84" height="44" rx="4" stroke-width="0.5"/><text class="th" x="598" y="260" text-anchor="middle" dominant-baseline="central">NPV</text></g>
+</svg>
+<figcaption>Columns start from the truth. Rows start from the result in your hand.</figcaption>
+</figure>
+
+<p>Reading <strong>down the columns</strong> starts with the truth. Sensitivity is TP ÷ (TP + FN): of everyone with the disease, the proportion caught. Specificity is TN ÷ (TN + FP). These belong to the test and do not change with the population.</p>
+<p>Reading <strong>across the rows</strong> starts with the result, which is what happens in clinic. PPV is TP ÷ (TP + FP), NPV is TN ÷ (TN + FN). These depend heavily on prevalence: in a low-prevalence population there are far more well people available to generate false positives, so PPV collapses while NPV rises. That is the central difficulty of screening.</p>
+<p><strong>SnNout</strong>: a Sensitive test, Negative, rules out. <strong>SpPin</strong>: a Specific test, Positive, rules in. Plotting sensitivity against 1 &minus; specificity across thresholds gives the <strong>ROC curve</strong>; the area underneath summarises performance, with 0.5 a coin toss and above 0.8 considered good. <strong>Likelihood ratios</strong> express how far a result shifts pre-test probability, and a positive LR above 10 or negative LR below 0.1 is convincing.</p>
+
+<h3>Bias and confounding</h3>
+<p>Bias is systematic error built into the design, and no analysis fixes it afterwards. <strong>Selection bias</strong>: the people studied are unrepresentative. <strong>Recall bias</strong>: patients with disease remember exposures more thoroughly. <strong>Detection bias</strong>: the assessor's expectations colour the measurement, which blinding prevents. <strong>Attrition bias</strong>: dropouts differ from those who remain. <strong>Publication bias</strong>: negative trials never appear. <strong>Lead-time bias</strong>: screening moves the date of diagnosis earlier without changing the date of death. <strong>Length-time bias</strong>: screening preferentially catches indolent tumours because they linger in a detectable state.</p>
+<p><strong>Confounding</strong> is different. A third variable is independently associated with both exposure and outcome, manufacturing an apparent relationship. Unlike bias it can be handled — by randomisation at design, or by multivariable regression, stratification or matching at analysis.</p>
+<p><strong>Intention-to-treat</strong> analyses every patient in the arm they were randomised to, whatever they received. It preserves randomisation and gives a conservative, pragmatic estimate. Per-protocol analysis breaks randomisation and flatters the intervention.</p>
+
+<div class="qlaunch"><button class="btn" onclick="start('s2')">Test this section</button><span>12 questions</span></div>
+</div></section>
+
+<section id="s3"><div class="col">
+<h2><span>Section three</span>Study design and levels of evidence</h2>
+<p class="lede">Two questions define every design: did the investigator assign the exposure, or only watch? And which way did the enquiry travel in time?</p>
+
+<figure>
+<svg viewBox="0 0 680 430" role="img" aria-label="Direction of enquiry in cross-sectional, case-control, cohort and randomised designs">
+<defs><marker id="a4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text class="th" x="40" y="70" dominant-baseline="central">Cross-sectional</text>
+<g class="c-purple"><rect x="330" y="42" width="180" height="56" rx="8" stroke-width="0.5"/><text class="th" x="420" y="60" text-anchor="middle" dominant-baseline="central">Exposure &amp; outcome</text><text class="ts" x="420" y="80" text-anchor="middle" dominant-baseline="central">measured together</text></g>
+<text class="th" x="40" y="150" dominant-baseline="central">Case-control</text>
+<g class="c-purple"><rect x="200" y="128" width="110" height="44" rx="8" stroke-width="0.5"/><text class="th" x="255" y="150" text-anchor="middle" dominant-baseline="central">Exposure</text></g>
+<line x1="502" y1="150" x2="318" y2="150" class="arr" marker-end="url(#a4)"/>
+<g class="c-purple"><rect x="510" y="128" width="110" height="44" rx="8" stroke-width="0.5"/><text class="th" x="565" y="150" text-anchor="middle" dominant-baseline="central">Outcome</text></g>
+<text class="th" x="40" y="230" dominant-baseline="central">Cohort</text>
+<g class="c-purple"><rect x="200" y="208" width="110" height="44" rx="8" stroke-width="0.5"/><text class="th" x="255" y="230" text-anchor="middle" dominant-baseline="central">Exposure</text></g>
+<line x1="318" y1="230" x2="502" y2="230" class="arr" marker-end="url(#a4)"/>
+<g class="c-purple"><rect x="510" y="208" width="110" height="44" rx="8" stroke-width="0.5"/><text class="th" x="565" y="230" text-anchor="middle" dominant-baseline="central">Outcome</text></g>
+<text class="th" x="40" y="310" dominant-baseline="central">RCT</text>
+<g class="c-teal"><rect x="200" y="288" width="110" height="44" rx="8" stroke-width="0.5"/><text class="th" x="255" y="310" text-anchor="middle" dominant-baseline="central">Randomise</text></g>
+<line x1="318" y1="310" x2="502" y2="310" class="arr" marker-end="url(#a4)"/>
+<g class="c-teal"><rect x="510" y="288" width="110" height="44" rx="8" stroke-width="0.5"/><text class="th" x="565" y="310" text-anchor="middle" dominant-baseline="central">Outcome</text></g>
+<line x1="200" y1="366" x2="620" y2="366" class="arr" marker-end="url(#a4)"/>
+<text class="ts" x="410" y="386" text-anchor="middle">Time</text>
+<rect class="c-purple" x="200" y="398" width="12" height="12" rx="2" stroke-width="0.5"/><text class="ts" x="218" y="404" dominant-baseline="central">Observational</text>
+<rect class="c-teal" x="350" y="398" width="12" height="12" rx="2" stroke-width="0.5"/><text class="ts" x="368" y="404" dominant-baseline="central">Interventional</text>
+</svg>
+<figcaption>Case-control is the only design whose enquiry runs backwards against time.</figcaption>
+</figure>
+
+<h3>The designs</h3>
+<p><strong>Case report and case series.</strong> One patient or a handful, with no comparison group, so effectiveness can never be claimed. Hypothesis-generating only.</p>
+<p><strong>Cross-sectional.</strong> A snapshot at one moment. Exposure and outcome measured together, so temporal sequence cannot be established. Measures <em>prevalence</em>, not incidence. Surveys and diagnostic accuracy studies are cross-sectional.</p>
+<p><strong>Case-control.</strong> Start with people who have the outcome, find comparable controls, look backwards for exposure. Fast, cheap, and the design of choice for <em>rare diseases</em> or long latency. Vulnerable to recall bias, and choosing controls is genuinely difficult. Because the number of cases was chosen by the investigator, only an <strong>odds ratio</strong> can be calculated.</p>
+<p><strong>Cohort.</strong> Start with exposed and unexposed groups and follow forwards. Establishes sequence, measures <em>incidence</em> and therefore relative risk, allows several outcomes from one exposure, and suits <em>rare exposures</em>. Expensive, slow, and vulnerable to attrition and confounding.</p>
+<div class="trap"><b>Retrospective does not mean case-control</b>A historical cohort uses records that already exist, but the enquiry still runs forwards from exposure to outcome. Direction defines the design, not when the data were collected.</div>
+<p><strong>Randomised controlled trial.</strong> The investigator assigns the exposure. Its unique strength, worth stating precisely, is that randomisation balances <em>known and unknown</em> confounders. Statistical adjustment can only handle confounders somebody thought to measure. Nothing else does this.</p>
+<p>Two things that get confused: <strong>allocation concealment</strong> happens before randomisation and stops the recruiter foreseeing the next allocation, achieved with sealed opaque envelopes or a central service. <strong>Blinding</strong> happens afterwards and stops knowledge of the assigned treatment influencing care or assessment. A surgical trial may be impossible to blind yet have impeccable allocation concealment.</p>
+<p>Weaknesses: expense, time, ethical limits, and often poor external validity because strict entry criteria produce a trial population unlike your clinic. Surgery is especially hard to randomise because of learning curves, unblindable operators, evolving technique and strong preferences.</p>
+<p><strong>Systematic review and meta-analysis</strong> sit at the top, but are hostage to the quality of what they contain.</p>
+
+<h3>Two extras</h3>
+<p><strong>Ecological studies</strong> compare populations rather than individuals — national fat consumption against national cancer rates. The pitfall is the <strong>ecological fallacy</strong>: assuming a population-level association holds for the individuals within it.</p>
+<p><strong>Nested case-control</strong> studies draw cases and controls from within an existing cohort, keeping the efficiency of case-control while avoiding recall bias, because exposure was recorded before anyone developed the outcome.</p>
+
+<h3>Levels of evidence</h3>
+<table><thead><tr><th>Level</th><th>Evidence</th></tr></thead><tbody>
+<tr><td>1a</td><td>Systematic review of RCTs</td></tr>
+<tr><td>1b</td><td>Individual RCT with narrow confidence interval</td></tr>
+<tr><td>2a</td><td>Systematic review of cohort studies</td></tr>
+<tr><td>2b</td><td>Individual cohort study, or poor-quality RCT</td></tr>
+<tr><td>3a</td><td>Systematic review of case-control studies</td></tr>
+<tr><td>3b</td><td>Individual case-control study</td></tr>
+<tr><td>4</td><td>Case series, or poor-quality cohort or case-control</td></tr>
+<tr><td>5</td><td>Expert opinion, bench research, first principles</td></tr>
+</tbody></table>
+<p>Grades of recommendation follow: A from level 1, B from levels 2 to 3, C from level 4, D from level 5.</p>
+<p><strong>GRADE</strong> rates certainty as high, moderate, low or very low. Trials start high and observational studies start low, but both move. Downgrade for risk of bias, inconsistency, indirectness, imprecision or publication bias. Upgrade observational evidence for a very large effect, a dose-response gradient, or where plausible confounding would only have reduced the observed effect.</p>
+<div class="trap"><b>The hierarchy is a guide, not a law</b>A well-conducted large cohort beats a small badly-run trial, and some questions cannot ethically be randomised at all.</div>
+
+<div class="qlaunch"><button class="btn" onclick="start('s3')">Test this section</button><span>12 questions</span></div>
+</div></section>
+
+<section id="s4" class="members"><div class="col">
+<h2><span>Section four</span>Trial design and reporting guidelines</h2>
+<div class="lockwrap">
+  <div class="lk-badge">&#128274; Members only</div>
+  <h4>This section is part of the members' workbook</h4>
+  <p>Sections 1&ndash;3 are free to read. Sections 4&ndash;7 &mdash; trial design, evidence synthesis &amp; survival, audit &amp; governance and the full mixed paper &mdash; unlock with a MockFRCS membership.</p>
+  <a class="btn" href="index.html#notify">Notify me at launch</a>
+  <a class="btn ghost" href="pricing.html">See membership</a>
+</div>
+<p class="lede">A superiority trial asks whether the new thing is better. A non-inferiority trial asks whether it is not meaningfully worse. The null hypothesis flips between them.</p>
+
+<h3>Superiority, non-inferiority, equivalence</h3>
+<p>A <strong>superiority</strong> trial starts from no difference and tries to disprove it. Failing to show superiority is not the same as showing sameness; it usually means the trial was too small.</p>
+<p>A <strong>non-inferiority</strong> trial suits a new option that offers something other than efficacy: cheaper, safer, less invasive, day-case rather than inpatient. Its defining element is the <strong>margin</strong>, the largest loss of efficacy you would accept in return. It must be pre-specified and clinically justified, because a generous margin is the easiest way to rig a result. An <strong>equivalence</strong> trial requires the effect to fall within a margin in both directions.</p>
+
+<figure>
+<svg viewBox="0 0 680 330" role="img" aria-label="Four confidence intervals against the line of no difference and the non-inferiority margin">
+<line x1="200" y1="45" x2="200" y2="275" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<line x1="340" y1="45" x2="340" y2="275" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<text class="ts" x="200" y="34" text-anchor="middle">Non-inferiority margin</text>
+<text class="ts" x="340" y="34" text-anchor="middle">No difference</text>
+<text class="ts" x="40" y="70" dominant-baseline="central">Trial A</text>
+<line x1="360" y1="70" x2="480" y2="70" stroke="var(--accent-good)" stroke-width="2"/><line x1="360" y1="62" x2="360" y2="78" stroke="var(--accent-good)" stroke-width="2"/><line x1="480" y1="62" x2="480" y2="78" stroke="var(--accent-good)" stroke-width="2"/><circle cx="420" cy="70" r="5" fill="var(--accent-good)"/>
+<text class="ts" x="500" y="70" dominant-baseline="central">Superior</text>
+<text class="ts" x="40" y="130" dominant-baseline="central">Trial B</text>
+<line x1="250" y1="130" x2="400" y2="130" stroke="var(--accent-good)" stroke-width="2"/><line x1="250" y1="122" x2="250" y2="138" stroke="var(--accent-good)" stroke-width="2"/><line x1="400" y1="122" x2="400" y2="138" stroke="var(--accent-good)" stroke-width="2"/><circle cx="320" cy="130" r="5" fill="var(--accent-good)"/>
+<text class="ts" x="500" y="130" dominant-baseline="central">Non-inferior</text>
+<text class="ts" x="40" y="190" dominant-baseline="central">Trial C</text>
+<line x1="160" y1="190" x2="380" y2="190" stroke="var(--fig-muted)" stroke-width="2"/><line x1="160" y1="182" x2="160" y2="198" stroke="var(--fig-muted)" stroke-width="2"/><line x1="380" y1="182" x2="380" y2="198" stroke="var(--fig-muted)" stroke-width="2"/><circle cx="270" cy="190" r="5" fill="var(--fig-muted)"/>
+<text class="ts" x="500" y="190" dominant-baseline="central">Inconclusive</text>
+<text class="ts" x="40" y="250" dominant-baseline="central">Trial D</text>
+<line x1="130" y1="250" x2="190" y2="250" stroke="var(--accent-warn)" stroke-width="2"/><line x1="130" y1="242" x2="130" y2="258" stroke="var(--accent-warn)" stroke-width="2"/><line x1="190" y1="242" x2="190" y2="258" stroke="var(--accent-warn)" stroke-width="2"/><circle cx="160" cy="250" r="5" fill="var(--accent-warn)"/>
+<text class="ts" x="500" y="250" dominant-baseline="central">Inferior</text>
+<line x1="130" y1="290" x2="620" y2="290" stroke="var(--b)" stroke-width="0.5"/>
+<text class="ts" x="230" y="310" text-anchor="middle">New treatment worse</text>
+<text class="ts" x="480" y="310" text-anchor="middle">New treatment better</text>
+</svg>
+<figcaption>In a superiority trial you check whether the interval crosses zero. Here you check the margin, and zero is irrelevant to the claim.</figcaption>
+</figure>
+
+<div class="trap"><b>ITT is not conservative here</b>In a superiority trial, crossover and non-compliance dilute differences towards the null, which makes intention-to-treat cautious. In a non-inferiority trial that same dilution produces the answer you wanted, so both ITT and per-protocol analyses must be reported and must agree.</div>
+
+<h3>Randomisation methods</h3>
+<table><thead><tr><th>Method</th><th>What it does and why</th></tr></thead><tbody>
+<tr><td>Simple</td><td>A coin toss per patient. Easiest, but can leave groups badly unequal in small trials</td></tr>
+<tr><td>Block</td><td>Randomises within blocks, keeping numbers balanced as recruitment proceeds. Vary block size to avoid predictability</td></tr>
+<tr><td>Stratified</td><td>Randomises separately within strata such as centre or tumour stage, so key prognostic factors are balanced by design rather than by luck</td></tr>
+<tr><td>Minimisation</td><td>Each allocation chosen to minimise imbalance across several factors at once</td></tr>
+<tr><td>Cluster</td><td>Randomises hospitals or wards when contamination is unavoidable. Requires a larger sample because patients within a cluster are correlated</td></tr>
+</tbody></table>
+
+<h3>Trial architectures</h3>
+<p><strong>Parallel group</strong> is the default. <strong>Crossover</strong> gives each patient both treatments in sequence, so each is their own control; valid only for chronic stable conditions and requires a washout period, which is why it almost never applies to an operation. <strong>Factorial</strong> tests two interventions at once in four combinations, efficient but assuming no interaction. <strong>Stepped wedge</strong> rolls an intervention out to clusters in randomised order until all have it. <strong>Adaptive and platform</strong> trials add and drop arms as data accumulate.</p>
+<p><strong>Feasibility</strong> studies ask whether the trial can be done at all; a <strong>pilot</strong> is a miniature of the real trial. Neither is designed to test effectiveness, and reading their outcome data as evidence of efficacy is a classic error.</p>
+
+<h3>Phases</h3>
+<table><thead><tr><th>Phase</th><th>Who</th><th>Purpose</th></tr></thead><tbody>
+<tr><td>I</td><td>Small numbers, often healthy volunteers</td><td>Safety, toxicity, pharmacokinetics, dose-finding</td></tr>
+<tr><td>II</td><td>Small group of patients with the disease</td><td>Preliminary efficacy, further dose-finding</td></tr>
+<tr><td>III</td><td>Large, randomised against standard care</td><td>Definitive efficacy; the basis for licensing</td></tr>
+<tr><td>IV</td><td>Post-marketing</td><td>Long-term and rare adverse effects (Yellow Card)</td></tr>
+</tbody></table>
+
+<h3>Endpoints</h3>
+<p><strong>Primary</strong> endpoints are pre-specified and drive the sample size. <strong>Secondary</strong> endpoints are hypothesis-generating and cannot rescue a negative trial.</p>
+<p><strong>Composite</strong> endpoints bundle outcomes of unequal importance and are frequently driven entirely by the least serious component. <strong>Surrogate</strong> endpoints substitute something measurable for what matters, and improvements in them do not reliably translate into patient benefit.</p>
+
+<h3>Why surgical trials are different</h3>
+<p>Operations are hard to blind, sham surgery raises real ethical difficulty, technique evolves mid-trial, and learning curves mean the same operation by different surgeons is not the same intervention. <strong>Expertise-based randomisation</strong> allocates patients to a surgeon expert in each technique rather than asking one surgeon to do both.</p>
+<table><thead><tr><th>IDEAL stage</th><th>Name</th><th>Study type</th></tr></thead><tbody>
+<tr><td>0</td><td>Pre-clinical</td><td>Laboratory, animal</td></tr>
+<tr><td>1</td><td>Idea</td><td>First-in-human, case report</td></tr>
+<tr><td>2a</td><td>Development</td><td>Prospective case series</td></tr>
+<tr><td>2b</td><td>Exploration</td><td>Prospective cohort, feasibility RCT</td></tr>
+<tr><td>3</td><td>Assessment</td><td>Definitive RCT</td></tr>
+<tr><td>4</td><td>Long-term study</td><td>Registry, surveillance</td></tr>
+</tbody></table>
+
+<h3>Reporting guidelines</h3>
+<table><thead><tr><th>Guideline</th><th>Applies to</th></tr></thead><tbody>
+<tr><td>CONSORT</td><td>Randomised controlled trials</td></tr>
+<tr><td>SPIRIT</td><td>Trial protocols</td></tr>
+<tr><td>PRISMA</td><td>Systematic reviews and meta-analyses</td></tr>
+<tr><td>STROBE</td><td>Observational studies</td></tr>
+<tr><td>STARD</td><td>Diagnostic accuracy studies</td></tr>
+<tr><td>SQUIRE</td><td>Quality improvement reports</td></tr>
+<tr><td>CARE</td><td>Case reports</td></tr>
+<tr><td>TRIPOD</td><td>Prediction models</td></tr>
+<tr><td>CHEERS</td><td>Health economic evaluations</td></tr>
+<tr><td>ARRIVE</td><td>Animal research</td></tr>
+<tr><td>IDEAL</td><td>Surgical innovation</td></tr>
+</tbody></table>
+<p>The CONSORT flow diagram is the participant flowchart at the front of every trial paper, tracking numbers from eligibility through randomisation, allocation, follow-up and analysis, so that dropouts cannot be hidden. <strong>Prospective registration</strong> on ISRCTN or ClinicalTrials.gov before recruitment guards against outcome reporting bias — quietly swapping the primary endpoint for whichever secondary outcome reached significance.</p>
+
+<div class="qlaunch"><button class="btn" onclick="start('s4')">Test this section</button><span>12 questions</span></div>
+</div></section>
+
+<section id="s5" class="members"><div class="col">
+<h2><span>Section five</span>Evidence synthesis, screening and survival</h2>
+<div class="lockwrap">
+  <div class="lk-badge">&#128274; Members only</div>
+  <h4>This section is part of the members' workbook</h4>
+  <p>Sections 1&ndash;3 are free to read. Sections 4&ndash;7 &mdash; trial design, evidence synthesis &amp; survival, audit &amp; governance and the full mixed paper &mdash; unlock with a MockFRCS membership.</p>
+  <a class="btn" href="index.html#notify">Notify me at launch</a>
+  <a class="btn ghost" href="pricing.html">See membership</a>
+</div>
+<p class="lede">Survival data has a feature no other outcome has: patients who did not have the event still tell you something.</p>
+
+<h3>Systematic review and meta-analysis</h3>
+<p>A <strong>systematic review</strong> is defined by method, not authorship: a pre-specified question, an explicit reproducible search, defined inclusion criteria, and formal risk-of-bias assessment. A narrative review does none of this however eminent its author. A <strong>meta-analysis</strong> is the optional statistical step of pooling the results.</p>
+<p><strong>Reading a forest plot.</strong> Each line is a study, with a box sized by its weight and whiskers for its confidence interval. The vertical line is no effect. The <strong>diamond</strong> at the foot is the pooled estimate, its width the pooled interval. If the diamond touches the line, the pooled result is not significant.</p>
+<p><strong>Heterogeneity</strong> asks whether the studies are similar enough to pool. <strong>I&sup2;</strong> is the proportion of variation due to real differences rather than chance: below 25% low, around 50% moderate, above 75% substantial. A <strong>fixed effects</strong> model assumes one true underlying effect; a <strong>random effects</strong> model assumes it genuinely varies, gives wider intervals, and is appropriate when heterogeneity is present.</p>
+<p><strong>Publication bias</strong> is detected with a funnel plot of effect size against precision, which should be a symmetrical inverted funnel. A missing corner of small negative studies suggests they were never published. Egger's test assesses this formally. Risk of bias is graded with Cochrane RoB 2 for trials, and ROBINS-I or Newcastle-Ottawa for observational studies.</p>
+
+<h3>Screening</h3>
+<p>The <strong>Wilson and Jungner criteria</strong> group into three. The <em>condition</em> must be an important health problem with a recognisable early stage and adequately understood natural history. The <em>test</em> must be suitable and acceptable, with an agreed policy on whom to treat. The <em>programme</em> needs an accepted effective treatment, facilities for diagnosis and treatment, economic balance, and continuity rather than a one-off exercise.</p>
+<p>Screening is where lead-time and length-time bias bite, which is why disease-specific mortality across the whole population, not survival from diagnosis, is the only endpoint that cannot be fooled.</p>
+
+<h3>Survival analysis</h3>
+<p><strong>Censoring</strong> covers a patient alive at last follow-up, or who died of something unrelated. They did not have the event, but they contributed information for the time you observed them, and censoring lets you use it rather than discard them.</p>
+
+<figure>
+<svg viewBox="0 0 680 380" role="img" aria-label="Kaplan-Meier curves for two treatment arms with censoring marks and median survival">
+<text class="ts" x="120" y="36">Survival (%)</text>
+<line x1="120" y1="50" x2="120" y2="300" stroke="var(--b)" stroke-width="0.5"/>
+<line x1="120" y1="300" x2="620" y2="300" stroke="var(--b)" stroke-width="0.5"/>
+<text class="ts" x="110" y="50" text-anchor="end" dominant-baseline="central">100</text><text class="ts" x="110" y="112.5" text-anchor="end" dominant-baseline="central">75</text><text class="ts" x="110" y="175" text-anchor="end" dominant-baseline="central">50</text><text class="ts" x="110" y="237.5" text-anchor="end" dominant-baseline="central">25</text><text class="ts" x="110" y="300" text-anchor="end" dominant-baseline="central">0</text>
+<text class="ts" x="120" y="318" text-anchor="middle">0</text><text class="ts" x="220" y="318" text-anchor="middle">12</text><text class="ts" x="320" y="318" text-anchor="middle">24</text><text class="ts" x="420" y="318" text-anchor="middle">36</text><text class="ts" x="520" y="318" text-anchor="middle">48</text><text class="ts" x="620" y="318" text-anchor="middle">60</text>
+<text class="ts" x="370" y="338" text-anchor="middle">Months since surgery</text>
+<line x1="120" y1="175" x2="520" y2="175" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<line x1="370" y1="175" x2="370" y2="300" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<line x1="520" y1="175" x2="520" y2="300" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<text class="ts" x="130" y="167">Median survival</text>
+<path d="M120 50 H170 V62.5 H220 V80 H270 V95 H320 V112.5 H370 V130 H420 V150 H470 V162.5 H520 V175 H570 V187.5 H620" fill="none" stroke="var(--accent-good)" stroke-width="2"/>
+<line x1="245" y1="75" x2="245" y2="85" stroke="var(--accent-good)" stroke-width="2"/><line x1="345" y1="107.5" x2="345" y2="117.5" stroke="var(--accent-good)" stroke-width="2"/><line x1="445" y1="145" x2="445" y2="155" stroke="var(--accent-good)" stroke-width="2"/>
+<path d="M120 50 H170 V80 H220 V112.5 H270 V137.5 H320 V162.5 H370 V175 H420 V195 H470 V212.5 H520 V225 H570 V237.5 H620" fill="none" stroke="var(--accent-warn)" stroke-width="2"/>
+<line x1="295" y1="132.5" x2="295" y2="142.5" stroke="var(--accent-warn)" stroke-width="2"/><line x1="445" y1="190" x2="445" y2="200" stroke="var(--accent-warn)" stroke-width="2"/>
+<line x1="200" y1="360" x2="230" y2="360" stroke="var(--accent-good)" stroke-width="2"/><text class="ts" x="238" y="360" dominant-baseline="central">Intervention</text>
+<line x1="380" y1="360" x2="410" y2="360" stroke="var(--accent-warn)" stroke-width="2"/><text class="ts" x="418" y="360" dominant-baseline="central">Control</text>
+</svg>
+<figcaption>Ticks are censored patients, not deaths. Deaths are the downward steps.</figcaption>
+</figure>
+
+<p>What to read off the curve: it steps rather than curves, and is flat between events. Ticks are censoring. <strong>Median survival</strong> is where the curve crosses 50%; a curve that never falls that far means median survival is <em>not reached</em>, which is favourable rather than missing. The right-hand end is unreliable because few patients remain at risk and each event produces a large step, so look for the numbers-at-risk table underneath.</p>
+<p>The <strong>log-rank test</strong> compares whole curves and gives a p-value but no effect size. <strong>Cox proportional hazards regression</strong> gives the <strong>hazard ratio</strong> and can adjust for covariates. HR 0.6 means the instantaneous risk of the event is 40% lower at any given moment. Its assumption is that this ratio stays constant, so if the curves cross the hazard ratio is meaningless.</p>
+<p>Endpoints: <strong>overall survival</strong> counts death from any cause and is hardest to argue with; <strong>disease-free survival</strong> is alive and without recurrence after curative treatment; <strong>progression-free survival</strong> is alive without progression in advanced disease.</p>
+
+<h3>Regression</h3>
+<p><strong>Univariable</strong> analysis examines one predictor at a time; <strong>multivariable</strong> analysis includes several and is how confounding is handled statistically. The outcome picks the model: linear for continuous, logistic for binary, Cox for time-to-event, Poisson for counts.</p>
+<p><strong>Propensity score matching</strong> models each patient's probability of receiving the intervention from their measured characteristics and matches across groups, mimicking randomisation. It balances only <em>measured</em> confounders, so it never equals randomisation however large the study.</p>
+
+<div class="qlaunch"><button class="btn" onclick="start('s5')">Test this section</button><span>12 questions</span></div>
+</div></section>
+
+<section id="s6" class="members"><div class="col">
+<h2><span>Section six</span>Audit, quality improvement and governance</h2>
+<div class="lockwrap">
+  <div class="lk-badge">&#128274; Members only</div>
+  <h4>This section is part of the members' workbook</h4>
+  <p>Sections 1&ndash;3 are free to read. Sections 4&ndash;7 &mdash; trial design, evidence synthesis &amp; survival, audit &amp; governance and the full mixed paper &mdash; unlock with a MockFRCS membership.</p>
+  <a class="btn" href="index.html#notify">Notify me at launch</a>
+  <a class="btn ghost" href="pricing.html">See membership</a>
+</div>
+<p class="lede">Raw mortality cannot be compared between surgeons or units, because the sickest patients are not evenly shared.</p>
+
+<h3>Audit, research and quality improvement</h3>
+<table><thead><tr><th></th><th>Question it asks</th><th>Ethics approval</th></tr></thead><tbody>
+<tr><td>Research</td><td>What should we be doing? Generates new knowledge</td><td>REC and HRA approval</td></tr>
+<tr><td>Audit</td><td>Are we doing what we should? Compares against an existing standard</td><td>Local registration only</td></tr>
+<tr><td>Quality improvement</td><td>How do we get better at it? Iterative change</td><td>Not required</td></tr>
+</tbody></table>
+<p>The <strong>audit cycle</strong>: choose a topic, define a standard with a target, collect data, compare, implement change, then <strong>re-audit</strong>. An audit without the second data collection has not closed the loop and is not an audit.</p>
+<p><strong>PDSA cycles</strong> — plan, do, study, act — are small, rapid and repeated rather than one large intervention. Three kinds of measure are needed, and the third is the one people forget: <strong>outcome</strong> measures for what you are trying to change, <strong>process</strong> measures for whether the change actually happened, and <strong>balancing</strong> measures for what you might have broken elsewhere.</p>
+<p><strong>Run charts</strong> and <strong>statistical process control charts</strong> separate <em>common cause</em> variation, the ordinary noise of a stable system, from <em>special cause</em> variation, a genuine signal. Reacting to common cause variation as though it were a signal is the fundamental error of performance management.</p>
+
+<h3>Monitoring surgical outcomes</h3>
+<p><strong>Risk adjustment</strong> predicts expected mortality from patient factors so that performance can be judged as observed against expected. POSSUM and P-POSSUM, the NELA risk model, ASA grade and the Charlson index all serve this. Adjusted results are then plotted on a funnel plot.</p>
+
+<figure>
+<svg viewBox="0 0 680 350" role="img" aria-label="Funnel plot of risk-adjusted mortality against annual case volume with one outlier unit">
+<text class="ts" x="120" y="36">Mortality (%)</text>
+<line x1="120" y1="50" x2="120" y2="290" stroke="var(--b)" stroke-width="0.5"/>
+<line x1="120" y1="290" x2="620" y2="290" stroke="var(--b)" stroke-width="0.5"/>
+<text class="ts" x="110" y="290" text-anchor="end" dominant-baseline="central">0</text><text class="ts" x="110" y="242" text-anchor="end" dominant-baseline="central">5</text><text class="ts" x="110" y="194" text-anchor="end" dominant-baseline="central">10</text><text class="ts" x="110" y="146" text-anchor="end" dominant-baseline="central">15</text><text class="ts" x="110" y="98" text-anchor="end" dominant-baseline="central">20</text><text class="ts" x="110" y="50" text-anchor="end" dominant-baseline="central">25</text>
+<text class="ts" x="120" y="308" text-anchor="middle">0</text><text class="ts" x="220" y="308" text-anchor="middle">100</text><text class="ts" x="320" y="308" text-anchor="middle">200</text><text class="ts" x="420" y="308" text-anchor="middle">300</text><text class="ts" x="520" y="308" text-anchor="middle">400</text><text class="ts" x="620" y="308" text-anchor="middle">500</text>
+<text class="ts" x="370" y="328" text-anchor="middle">Annual case volume</text>
+<line x1="170" y1="194" x2="620" y2="194" stroke="var(--t)" stroke-width="1"/>
+<text class="ts" x="126" y="206" dominant-baseline="central">National average</text>
+<path d="M170 112.4 L220 136.4 L320 153.7 L420 160.4 L520 165.2 L620 168.1" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<path d="M170 275.6 L220 251.6 L320 234.3 L420 227.6 L520 222.8 L620 219.9" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 4"/>
+<text class="ts" x="430" y="145" dominant-baseline="central">2 SD control limits</text>
+<circle cx="250" cy="174.8" r="5" fill="var(--fig-muted)"/><circle cx="300" cy="208.4" r="5" fill="var(--fig-muted)"/><circle cx="350" cy="184.4" r="5" fill="var(--fig-muted)"/><circle cx="400" cy="218" r="5" fill="var(--fig-muted)"/><circle cx="470" cy="189.2" r="5" fill="var(--fig-muted)"/><circle cx="530" cy="203.6" r="5" fill="var(--fig-muted)"/><circle cx="590" cy="179.6" r="5" fill="var(--fig-muted)"/>
+<circle cx="270" cy="126.8" r="6" fill="var(--accent-warn)"/><text class="ts" x="282" y="120" dominant-baseline="central">Outlier unit</text>
+</svg>
+<figcaption>Limits flare at low volume because small numbers vary more. Units inside them are indistinguishable from average, whatever their league-table rank.</figcaption>
+</figure>
+
+<p>Crossing the outer limit triggers investigation rather than judgement, since data quality and coding are the commonest explanations. <strong>CUSUM charts</strong> plot the cumulative difference between observed and expected outcomes, flagging deterioration far earlier than annual review, and are also used to demonstrate <strong>learning curves</strong>.</p>
+
+<h3>Agreement and validity</h3>
+<p>Reliability is reproducibility; validity is measuring what you intended. A miscalibrated scale is perfectly reliable and completely invalid.</p>
+<table><thead><tr><th>Statistic</th><th>Used for</th></tr></thead><tbody>
+<tr><td>Cohen's kappa</td><td>Agreement between two observers on a categorical judgement, corrected for chance. Above 0.8 very good, 0.6–0.8 good, below 0.2 poor. Weighted kappa for ordinal scales</td></tr>
+<tr><td>Intraclass correlation</td><td>Agreement on continuous measurements, or among more than two observers</td></tr>
+<tr><td>Bland-Altman plot</td><td>Comparing two methods of measuring the same thing, plotting difference against mean with limits of agreement</td></tr>
+</tbody></table>
+<div class="trap"><b>Correlation is the wrong tool for agreement</b>Two methods can correlate almost perfectly while one reads consistently ten units high. Only a Bland-Altman plot exposes that offset.</div>
+<p>Validity subtypes: <strong>internal</strong> (the study measured its own effect correctly), <strong>external</strong> (it generalises), <strong>content</strong>, <strong>construct</strong> and <strong>criterion</strong>.</p>
+
+<h3>Health economics</h3>
+<table><thead><tr><th>Analysis</th><th>Compares</th></tr></thead><tbody>
+<tr><td>Cost-minimisation</td><td>Costs only, where outcomes are known to be equivalent</td></tr>
+<tr><td>Cost-effectiveness</td><td>Cost per natural unit of outcome</td></tr>
+<tr><td>Cost-utility</td><td>Cost per QALY. The dominant UK approach</td></tr>
+<tr><td>Cost-benefit</td><td>Everything, including outcomes, converted to money</td></tr>
+</tbody></table>
+<p>A <strong>QALY</strong> is one year of life in perfect health, so a year at half quality is 0.5 QALYs. The <strong>incremental cost-effectiveness ratio</strong> is the extra cost divided by the extra QALYs gained over current practice. NICE's threshold is broadly <strong>£20,000–30,000 per QALY</strong>, with flexibility for end-of-life and highly specialised treatments. <strong>PROMs</strong> are the patient-reported instruments that feed these calculations.</p>
+
+<h3>Research governance and ethics</h3>
+<ul>
+<li><strong>Declaration of Helsinki</strong> — the founding ethical framework, arising from the Nuremberg Code</li>
+<li><strong>Good Clinical Practice</strong> — the international standard for design, conduct and reporting; mandatory training for trial recruiters</li>
+<li><strong>HRA and REC approval</strong> — required for research, not audit or QI. Trials of medicinal products also need MHRA authorisation</li>
+<li><strong>Consent</strong> — must include the right to withdraw at any time without affecting care, and a cooling-off period</li>
+<li><strong>Equipoise</strong> — genuine uncertainty in the expert community about which arm is superior. Without it, randomisation is unethical</li>
+<li><strong>Caldicott and data protection</strong> — justify the purpose, use the minimum necessary, strict need-to-know. Anonymised data has identifiers irreversibly removed; pseudonymised data retains a key and remains personal data</li>
+<li><strong>Authorship</strong> — all four ICMJE criteria required: substantial contribution, drafting or revising, final approval, and accountability. Funding or seniority alone does not qualify</li>
+</ul>
+
+<div class="qlaunch"><button class="btn" onclick="start('s6')">Test this section</button><span>12 questions</span></div>
+</div></section>
+
+<section id="paper" class="members"><div class="col">
+<h2><span>Section seven</span>Mixed paper</h2>
+<div class="lockwrap">
+  <div class="lk-badge">&#128274; Members only</div>
+  <h4>This section is part of the members' workbook</h4>
+  <p>Sections 1&ndash;3 are free to read. Sections 4&ndash;7 &mdash; trial design, evidence synthesis &amp; survival, audit &amp; governance and the full mixed paper &mdash; unlock with a MockFRCS membership.</p>
+  <a class="btn" href="index.html#notify">Notify me at launch</a>
+  <a class="btn ghost" href="pricing.html">See membership</a>
+</div>
+<p class="lede">Thirty questions in random order with no signposting, because the hard part in the real exam is recognising which concept a stem is testing.</p>
+<p>These do not repeat any question from the six section tests. If you want a harder run, take the whole bank at once.</p>
+<div class="qlaunch">
+<button class="btn" onclick="start('mx')">Start mixed paper</button>
+<button class="btn ghost" onclick="start('all')">Everything, shuffled</button>
+<span>30 questions, or 102</span>
+</div>
+</div></section>
+
+</main>
+</div>
+<div id="runner" role="dialog" aria-modal="true"></div>
+<script>
+const QB=[];
+function add(a){a.forEach(x=>QB.push(x));}
+add([
+{s:"s1",q:"An RCT randomises 200 patients undergoing laparotomy to TAP block or epidural. The primary outcome is total opioid consumption at 24 hours, reported as 42 ± 9 mg and 36 ± 8 mg respectively. Which test is most appropriate?",o:["Paired t-test","Unpaired t-test","Mann-Whitney U test","Chi-squared test"],a:1,e:"Mean ± SD signals normally distributed continuous data, and randomisation to one arm or the other makes the groups independent. Two independent groups with parametric numerical data is the unpaired t-test."},
+{s:"s1",q:"Sixty patients record a visual analogue pain score (0–10) the day before surgery and again on day 3 post-operatively. Which test?",o:["Paired t-test","Mann-Whitney U test","Wilcoxon signed-rank test","McNemar's test"],a:2,e:"A VAS is an ordinal scale, so non-parametric, and the same patients are measured twice, so paired. The non-parametric paired test is Wilcoxon signed-rank."},
+{s:"s1",q:"Three hundred patients are allocated to one of three skin preparations. Surgical site infection occurred in 18/100, 11/100 and 9/100. Which test compares these?",o:["One-way ANOVA","Kruskal-Wallis test","Chi-squared test","Fisher's exact test"],a:2,e:"The outcome for each patient is infection yes or no, which is categorical data presented as proportions. Chi-squared applies and handles more than two groups."},
+{s:"s1",q:"A pilot study compares two anastomotic techniques. Leak occurred in 3 of 20 patients in one arm and 1 of 18 in the other. Which test?",o:["Chi-squared test","Fisher's exact test","Unpaired t-test","Mann-Whitney U test"],a:1,e:"Categorical data, but chi-squared becomes unreliable when expected cell counts fall below about five. Fisher's exact test calculates the probability directly."},
+{s:"s1",q:"Mean operating time for laparoscopic cholecystectomy is compared between consultants, ST6–8 and ST3–5 trainees. Times were normally distributed in all groups. Which test?",o:["Unpaired t-test","One-way ANOVA","Kruskal-Wallis test","Pearson's correlation"],a:1,e:"Three independent groups with normally distributed continuous data is one-way ANOVA. Three separate t-tests would inflate the type I error rate."},
+{s:"s1",q:"Lymph node yield after right hemicolectomy is compared across open, laparoscopic and robotic approaches: 16 (IQR 12–22), 18 (IQR 13–24) and 21 (IQR 15–27). Which test?",o:["One-way ANOVA","Chi-squared test","Kruskal-Wallis test","Spearman's rank correlation"],a:2,e:"Median with IQR indicates a skewed distribution, so non-parametric. Three independent groups with non-parametric numerical data is Kruskal-Wallis."},
+{s:"s1",q:"An investigator asks whether body mass index is associated with duration of laparoscopic surgery in minutes. Both variables are normally distributed. Which test?",o:["Unpaired t-test","Pearson's correlation coefficient","Spearman's rank correlation","Chi-squared test"],a:1,e:"No groups are being compared, only two continuous variables in the same patients, so this is correlation. Both are normally distributed, so Pearson's."},
+{s:"s1",q:"A study examines whether ASA grade is associated with Clavien-Dindo complication grade after emergency laparotomy. Which test?",o:["Pearson's correlation coefficient","Spearman's rank correlation","Paired t-test","One-way ANOVA"],a:1,e:"Both are ordinal scales where the step between grades is not equal, so correlation requires the rank-based Spearman method."},
+{s:"s1",q:"Fifty surgeons identify free intraperitoneal air on a set of CT scans (correct or incorrect), then repeat the exercise after teaching. Which test assesses improvement?",o:["Chi-squared test","McNemar's test","Paired t-test","Wilcoxon signed-rank test"],a:1,e:"The outcome is categorical and each surgeon is assessed twice, so the data are paired categorical. McNemar's is the paired equivalent of chi-squared."},
+{s:"s1",q:"A trial compares time to local recurrence after two rectal cancer regimens. Follow-up varies and some patients are lost or die of other causes before recurrence. Which test compares the curves?",o:["Chi-squared test","Unpaired t-test","Log-rank test","Mann-Whitney U test"],a:2,e:"This is time-to-event data with censoring. Kaplan-Meier curves display it and the log-rank test compares two curves."},
+{s:"s1",q:"Investigators wish to determine which factors predict 30-day mortality after emergency laparotomy, accounting for age, ASA, lactate and contamination. Which analysis?",o:["Linear regression","Logistic regression","Chi-squared test","Two-way ANOVA"],a:1,e:"The outcome is binary and several predictors must be adjusted for simultaneously, which is logistic regression, reporting adjusted odds ratios."},
+{s:"s1",q:"In a study of recurrent incisional hernia, one variable is the number of previous abdominal operations. This is best described as:",o:["Nominal categorical","Ordinal","Discrete numerical","Continuous numerical"],a:2,e:"A genuine count restricted to whole numbers is discrete numerical. It is not ordinal, because the intervals are equal and real, so arithmetic such as a mean is meaningful."},
+{s:"s2",q:"A trial of a new dressing reports a p-value of 0.03 for the difference in infection rates. Which statement is correct?",o:["There is a 3% probability that the null hypothesis is true","There is a 97% probability that the treatment works","If there were truly no difference, a result at least this extreme would occur 3% of the time","The difference is clinically important in 3% of patients"],a:2,e:"A p-value is calculated assuming the null hypothesis is true and expresses how likely a result at least this extreme would be under that assumption. It says nothing about effect size."},
+{s:"s2",q:"A small trial concludes there is no significant difference between two techniques. A much larger trial later shows a real difference exists. The first trial made which error?",o:["Type I error, probability alpha","Type II error, probability beta","Type I error, probability beta","Systematic bias"],a:1,e:"A type II error is failing to reject a null hypothesis that is false. Its probability is beta, power is 1 minus beta, and the usual cause is inadequate sample size."},
+{s:"s2",q:"Which of the following would increase the statistical power of a study?",o:["Increasing the sample size","Reducing alpha from 0.05 to 0.01","Increasing the variability of the outcome","Choosing a non-parametric rather than parametric test"],a:0,e:"Power rises with larger sample size, larger true effect, less variability and a higher accepted alpha. Sample size is the factor investigators control."},
+{s:"s2",q:"A study reports an odds ratio for anastomotic leak of 0.72 (95% CI 0.51–1.04). How is this best interpreted?",o:["The intervention significantly reduces leak rate","The result is not statistically significant, as the interval includes 1","The result is not statistically significant, as the interval includes 0","The study has proven the intervention has no effect"],a:1,e:"For a ratio measure the value of no effect is 1. An interval spanning 1 is compatible with benefit, harm or no effect."},
+{s:"s2",q:"A test for acute appendicitis has a sensitivity of 98%. Which statement best describes sensitivity and how the test is best used?",o:["The proportion without the condition correctly identified; a positive result rules it in","The proportion of positive tests that are true positives; a positive result rules it in","The proportion with the condition correctly identified; a negative result helps rule it out","The proportion of negative tests that are true negatives; a positive result rules it out"],a:2,e:"Sensitivity is the proportion of those with disease correctly identified. Few false negatives means a negative result excludes disease: SnNout."},
+{s:"s2",q:"A faecal immunochemical test moves from a symptomatic clinic into asymptomatic population screening, where prevalence is much lower. What happens?",o:["Sensitivity falls","Positive predictive value falls","Specificity falls","Negative predictive value falls"],a:1,e:"Sensitivity and specificity belong to the test and do not change with prevalence. As prevalence falls, more positives are false, so PPV falls and NPV rises."},
+{s:"s2",q:"Thirty-day mortality was 12% in the control arm and 8% in the intervention arm. What is the number needed to treat?",o:["4","8","25","33"],a:2,e:"The absolute risk reduction is 4%, or 0.04, and the NNT is its reciprocal, giving 25. The relative risk reduction here is 33%, which sounds more impressive."},
+{s:"s2",q:"A device reduces wound dehiscence from 3% to 2%, and a brochure claims it cuts dehiscence by a third. Which statement is correct?",o:["The absolute risk reduction is 33%","The relative risk reduction is 33% but the absolute risk reduction is only 1%","The number needed to treat is 33","The relative risk reduction is 1% and is more meaningful"],a:1,e:"The relative reduction is accurate but conceals how uncommon the event was. The absolute reduction is one percentage point, giving an NNT of 100."},
+{s:"s2",q:"A normally distributed variable in 100 patients has a mean of 45 and a standard deviation of 10. Which statement is correct?",o:["About 95% of patients lie between 35 and 55","About 95% of patients lie between 25 and 65","The standard error of the mean is 10","About 99.7% of patients lie between 35 and 55"],a:1,e:"In a normal distribution 95% of values lie within two standard deviations of the mean. The standard error here would be 1, not 10."},
+{s:"s2",q:"In a trial of surgery versus conservative management, some patients randomised to conservative care later had surgery. An intention-to-treat analysis will:",o:["Analyse all patients in the arm to which they were randomised","Analyse patients according to treatment actually received","Exclude patients who crossed over","Analyse only those completing follow-up"],a:0,e:"Intention-to-treat preserves the balance of confounders created by randomisation and reflects real-world effectiveness. It is the standard primary analysis for a superiority trial."},
+{s:"s2",q:"A screening programme reports that screen-detected patients survive longer from diagnosis than those presenting symptomatically, although age at death is unchanged. This is:",o:["Length-time bias","Selection bias","Lead-time bias","Recall bias"],a:2,e:"Screening advances the moment of diagnosis without altering natural history, lengthening the interval from diagnosis to death. Disease-specific mortality is the endpoint that cannot be fooled."},
+{s:"s2",q:"Length of stay after emergency laparotomy has a long right tail. Which measure of central tendency and spread should be reported?",o:["Mean with standard deviation","Median with interquartile range","Mean with standard error","Mode with range"],a:1,e:"The mean is pulled upwards by a few prolonged admissions and misrepresents the typical patient. The median is unaffected by outliers."}
+]);
+</script>
+
+<script>
+add([
+{s:"s3",q:"An investigator wishes to identify risk factors for a rare retroperitoneal sarcoma with an incidence of about 1 per 100,000 per year. Which design?",o:["Prospective cohort study","Case-control study","Randomised controlled trial","Cross-sectional study"],a:1,e:"A cohort would need to follow an impractically large population for years. Case-control starts with the cases already identified and works backwards, which suits rare disease and long latency."},
+{s:"s3",q:"A questionnaire is sent to all adults in a group of practices on a single day, asking whether they currently have symptoms of an inguinal hernia. What measure does this generate?",o:["Incidence","Relative risk","Prevalence","Hazard ratio"],a:2,e:"A snapshot at one moment counts everyone who currently has the condition, which is prevalence. Incidence requires following people forwards."},
+{s:"s3",q:"Which measure of association can validly be calculated from a case-control study?",o:["Relative risk","Odds ratio","Absolute risk reduction","Number needed to harm"],a:1,e:"The investigator decides how many cases and controls to recruit, so the proportion with disease is artificial and the true risk is unknowable. Only the odds ratio is valid."},
+{s:"s3",q:"Using a departmental database, a surgeon identifies who did and did not receive a defunctioning stoma between 2015 and 2020, then reviews records for subsequent leak. This is:",o:["Case-control study","Cross-sectional study","Retrospective cohort study","Case series"],a:2,e:"The enquiry begins with an exposure and runs forwards to an outcome, which is a cohort study. Because the events have already happened it is retrospective, but direction defines the design."},
+{s:"s3",q:"In a case-control study of diet and colorectal cancer, patients are interviewed about eating habits over twenty years, as are healthy controls. Which bias is most likely?",o:["Lead-time bias","Recall bias","Attrition bias","Publication bias"],a:1,e:"People who have experienced an adverse outcome scrutinise their past far more intensively than healthy controls, systematically inflating reported exposures."},
+{s:"s3",q:"What is the principal advantage of randomisation over statistical adjustment for confounding?",o:["It guarantees the trial population resembles clinical practice","It removes the need for blinding","It balances both known and unknown confounders","It eliminates the possibility of a type I error"],a:2,e:"Adjustment can only handle confounders that were identified and measured. Randomisation distributes every characteristic by chance, including those nobody has discovered."},
+{s:"s3",q:"A trial uses a central telephone service so the recruiting surgeon cannot know the next allocation until after consent and enrolment. This describes:",o:["Allocation concealment","Double blinding","Intention-to-treat analysis","Stratified randomisation"],a:0,e:"Allocation concealment operates at the moment of randomisation and prevents the recruiter steering particular patients into particular arms. Blinding operates afterwards."},
+{s:"s3",q:"In the Oxford CEBM hierarchy, what level of evidence is a systematic review of randomised controlled trials?",o:["1a","1b","2a","3a"],a:0,e:"A systematic review of RCTs is level 1a and supports a grade A recommendation. An individual RCT with a narrow confidence interval is 1b."},
+{s:"s3",q:"A well-conducted RCT excluded patients over 75, BMI above 35 and previous abdominal surgery. The main limitation when applying it to your practice is:",o:["Poor internal validity","Poor external validity","Type I error","Confounding"],a:1,e:"The trial answers its own question reliably but in a population unlike routine practice. Pragmatic trials with broad criteria are designed to improve external validity."},
+{s:"s3",q:"A study correlates national processed meat consumption with national colorectal cancer incidence and concludes individuals eating more processed meat are at higher risk. This error is:",o:["Lead-time bias","Recall bias","Ecological fallacy","Regression to the mean"],a:2,e:"An association observed between populations does not necessarily hold for individuals within them. Ecological studies are hypothesis-generating only."},
+{s:"s3",q:"Under GRADE, observational studies start at low certainty. Which would justify upgrading them?",o:["A large sample size alone","A very large effect size or a dose-response gradient","Publication in a high-impact journal","Observational evidence can never be upgraded"],a:1,e:"Observational evidence may be upgraded for a very large effect, a dose-response gradient, or where plausible confounding would only have reduced the observed effect."},
+{s:"s3",q:"Investigators identify cohort members who developed pancreatic cancer, match each to four who did not, and analyse blood stored at recruitment. The principal advantage is:",o:["Relative risk can be calculated directly","No control group is needed","Recall bias is avoided, as exposure was recorded before the outcome","Confounding is eliminated entirely"],a:2,e:"A nested case-control study draws cases and controls from an established cohort, so exposure data were collected prospectively, removing recall bias while retaining efficiency."},
+{s:"s4",q:"A non-inferiority trial sets a margin of 5% for recurrence. The new technique shows a difference of 2% (95% CI −1% to 7%). How should this be interpreted?",o:["Non-inferiority is demonstrated","The new technique is proven inferior","Non-inferiority is not demonstrated; the result is inconclusive","The techniques are equivalent"],a:2,e:"Non-inferiority requires the entire interval to lie on the favourable side of the margin. Here it extends beyond, so an unacceptable loss of efficacy remains compatible with the data."},
+{s:"s4",q:"In which circumstance is a non-inferiority design most appropriate?",o:["The new treatment is expected to be substantially more effective","The new treatment offers advantages such as lower cost or reduced invasiveness","It requires fewer patients than any other design","It removes the need for randomisation"],a:1,e:"Non-inferiority suits a new intervention not expected to be more effective but offering advantages elsewhere. The question is whether efficacy is preserved within an acceptable margin."},
+{s:"s4",q:"An enhanced recovery pathway is to be tested across twenty hospitals, but staff cannot apply it to some patients and not others. Which design solves this?",o:["Stratified randomisation","Cluster randomisation","Crossover design","Factorial design"],a:1,e:"Contamination occurs when the control group is inadvertently exposed to the intervention. Randomising whole units avoids it, at the cost of a larger required sample."},
+{s:"s4",q:"A trial of neoadjuvant therapy in rectal cancer randomises separately within each tumour stage. The purpose is:",o:["To keep the number in each arm equal","To prevent the recruiter predicting the next allocation","To ensure important prognostic factors are balanced between arms","To allow patients to receive both treatments"],a:2,e:"Stratified randomisation guarantees strongly prognostic variables are balanced rather than left to chance, which matters most in smaller trials."},
+{s:"s4",q:"Which is essential for a crossover trial to be valid?",o:["A large multicentre network","An outcome that occurs rarely","A chronic stable condition and an adequate washout period","Blinding of the operating surgeon"],a:2,e:"Patients must be able to return to baseline before the second treatment, and washout prevents carryover. Surgery permanently alters the patient, so crossover rarely applies."},
+{s:"s4",q:"A trial randomises patients both to mesh or suture repair and, independently, to antibiotic prophylaxis or placebo, producing four groups. This is a:",o:["Stepped-wedge design","Factorial design","Crossover design","Adaptive platform design"],a:1,e:"A two-by-two factorial design evaluates two interventions simultaneously. It is efficient but assumes the interventions do not interact."},
+{s:"s4",q:"A new agent is given to 25 healthy volunteers to assess toxicity and establish a safe dose range. This is which phase?",o:["Phase I","Phase II","Phase III","Phase IV"],a:0,e:"Phase I is a small first-in-human evaluation of safety, toxicity, pharmacokinetics and dose, frequently in healthy volunteers."},
+{s:"s4",q:"Following licensing, a drug is monitored in routine use to identify rare adverse reactions. This is:",o:["Phase I","Phase II","Phase III","Phase IV"],a:3,e:"Phase IV is post-marketing surveillance, detecting rare or long-term effects that pre-licensing trials could not. In the UK these are captured through the Yellow Card scheme."},
+{s:"s4",q:"A trial reports a significant reduction in a composite endpoint of death, reoperation or readmission. The principal concern is:",o:["Composite endpoints always require a larger sample","The result may be driven entirely by the least serious component","Composite endpoints cannot be pre-specified","They are only valid in non-inferiority trials"],a:1,e:"Composite endpoints combine outcomes of unequal importance, and a significant result is frequently driven by the most frequent and least serious component."},
+{s:"s4",q:"Which reporting guideline should be followed when writing up a randomised controlled trial?",o:["CONSORT","PRISMA","STROBE","SQUIRE"],a:0,e:"CONSORT governs reporting of randomised trials, and its participant flow diagram makes exclusions and losses to follow-up transparent."},
+{s:"s4",q:"A retrospective cohort study of anastomotic leak is being prepared for submission. Which reporting guideline applies?",o:["STARD","TRIPOD","STROBE","CARE"],a:2,e:"STROBE covers observational research, including cohort, case-control and cross-sectional studies. STARD applies to diagnostic accuracy and TRIPOD to prediction models."},
+{s:"s4",q:"A robotic technique adopted beyond its originators is entering a multicentre prospective cohort with a feasibility randomised component. Which IDEAL stage?",o:["Stage 2a (Development)","Stage 2b (Exploration)","Stage 3 (Assessment)","Stage 4 (Long-term study)"],a:1,e:"Stage 2b, exploration, covers prospective cohorts and feasibility trials once a technique has stabilised and spread beyond its innovators."}
+]);
+</script>
+
+<script>
+add([
+{s:"s5",q:"In a forest plot, what does the diamond at the foot represent?",o:["The largest individual study","The pooled estimate and its confidence interval","The degree of heterogeneity","The presence of publication bias"],a:1,e:"The diamond is the pooled estimate, its width the pooled confidence interval. If it touches the line of no effect, the pooled result is not significant."},
+{s:"s5",q:"A meta-analysis reports an I² of 82%. What does this indicate?",o:["Low heterogeneity; fixed effects appropriate","Publication bias is present","Substantial heterogeneity; random effects appropriate","The pooled result is statistically significant"],a:2,e:"Above 75% indicates substantial heterogeneity, meaning most variation reflects genuine differences between studies. A random effects model is the appropriate response."},
+{s:"s5",q:"A funnel plot is asymmetrical, with a gap where small studies showing no benefit would be expected. This suggests:",o:["Excessive heterogeneity","Publication bias","Recall bias","Inadequate allocation concealment"],a:1,e:"Asymmetry, classically an absent corner of small negative studies, suggests such studies were conducted but never published. Egger's test assesses this formally."},
+{s:"s5",q:"On a Kaplan-Meier curve, small vertical tick marks along the line indicate:",o:["Deaths","Recurrences","Censored patients","Points of significant difference"],a:2,e:"Ticks denote censored patients, still event-free when last observed. They contribute information for the period followed. Deaths appear as downward steps."},
+{s:"s5",q:"A Kaplan-Meier curve for one arm does not fall below 50% during the study period. This means:",o:["The data are incomplete and uninterpretable","Median survival has not been reached, which is favourable","All patients were censored","The log-rank test cannot be applied"],a:1,e:"Median survival is where the curve crosses 50%. A curve remaining above it means median survival is not reached, which reflects favourable outcomes."},
+{s:"s5",q:"Two Kaplan-Meier curves cross at 18 months. Which assumption of Cox regression does this violate?",o:["Independence of observations","Normality of the outcome","Proportional hazards","Equal censoring in both arms"],a:2,e:"Cox regression assumes the ratio of hazards stays constant throughout follow-up. Crossing curves violate this and make a single summary hazard ratio misleading."},
+{s:"s5",q:"A trial reports a hazard ratio for recurrence of 0.65 (95% CI 0.48–0.88). This means:",o:["35% fewer patients will recur overall","The instantaneous risk of recurrence is 35% lower at any given time","Median survival is 35% longer","35% of patients benefit"],a:1,e:"A hazard ratio expresses the relative instantaneous risk of the event at any moment during follow-up, not a difference in totals or in median survival."},
+{s:"s5",q:"Which oncological endpoint is least susceptible to bias from differing surveillance protocols between arms?",o:["Overall survival","Disease-free survival","Progression-free survival","Radiological response rate"],a:0,e:"Overall survival counts death from any cause and cannot be influenced by how closely recurrence is sought or how it is defined."},
+{s:"s5",q:"A retrospective study uses propensity score matching to compare robotic and laparoscopic resection. The principal limitation is:",o:["It requires very large samples","It applies only to binary outcomes","It balances only measured confounders","It cannot be used with retrospective data"],a:2,e:"Propensity matching balances only covariates that were measured and modelled. Unmeasured confounders remain unbalanced, which is precisely what randomisation avoids."},
+{s:"s5",q:"Which is a Wilson and Jungner criterion for a screening programme?",o:["The test must have 100% sensitivity","An accepted effective treatment must exist","The condition must be incurable","Screening must be a single one-off episode"],a:1,e:"Detecting a condition earlier serves no purpose if nothing useful can be offered, and causes harm through anxiety, investigation and labelling."},
+{s:"s5",q:"What distinguishes a systematic review from a narrative review?",o:["It always includes a meta-analysis","It is written by an acknowledged expert","It uses a pre-specified reproducible search and formal bias assessment","It includes only randomised trials"],a:2,e:"A systematic review is defined by its method. Meta-analysis is an optional statistical step, and a systematic review may legitimately conclude that pooling is inappropriate."},
+{s:"s5",q:"Two survival curves appear well separated only after 48 months of follow-up. Why interpret this cautiously?",o:["Censoring is not permitted after 48 months","Few patients remain at risk, making the tail unstable","The log-rank test applies only to early follow-up","Hazard ratios cannot be calculated beyond the median"],a:1,e:"Few patients remain at risk at the extreme right, so each event produces a disproportionately large step. The numbers-at-risk table is essential for judging the tail."},
+{s:"s6",q:"A trainee reviews whether patients received antibiotic prophylaxis within 60 minutes of incision, as specified by trust policy. This project is:",o:["Research, requiring REC approval","Clinical audit, not requiring REC approval","A cohort study, requiring REC approval","Quality improvement, requiring REC approval"],a:1,e:"Comparing current practice against an existing standard is clinical audit. It generates no new knowledge and needs local registration only."},
+{s:"s6",q:"What step is required to complete the audit cycle?",o:["Publication of the findings","Presentation at a departmental meeting","Re-collection of data after implementing change","Statistical comparison against a control group"],a:2,e:"The cycle closes only when data are collected again after change, to determine whether the change worked. A single round describes practice but cannot demonstrate improvement."},
+{s:"s6",q:"A QI project reducing surgical site infection also monitors length of stay and readmission to ensure they do not worsen. These are:",o:["Outcome measures","Process measures","Balancing measures","Surrogate measures"],a:2,e:"Balancing measures detect unintended consequences elsewhere, ensuring improvement in one area was not achieved by degrading another."},
+{s:"s6",q:"On a control chart, a measure fluctuates randomly month to month within the control limits with no trend. This represents:",o:["Special cause variation, requiring urgent action","Common cause variation, which should not prompt reactive change","Evidence the intervention has failed","A balancing measure"],a:1,e:"Common cause variation is the ordinary noise of a stable process. Reacting to it as though it were a signal leads to unnecessary and often counterproductive intervention."},
+{s:"s6",q:"A regional report compares crude 30-day mortality after emergency laparotomy between two units. Why is this misleading?",o:["The samples are too small for statistical testing","Mortality is a categorical variable","Differences in case mix require risk adjustment","Crude mortality cannot be measured reliably"],a:2,e:"A unit receiving sicker or more complex patients will appear worse regardless of care quality. Risk adjustment generates an expected mortality for comparison."},
+{s:"s6",q:"On a funnel plot of unit outcomes, why do the control limits flare outwards at low case volume?",o:["Low-volume units provide poorer care","Random variation is greater when case numbers are small","Low-volume units under-report mortality","Risk adjustment is valid only above a threshold volume"],a:1,e:"Small numbers produce greater random variation, so a low-volume unit must deviate much further before that deviation can be distinguished from chance."},
+{s:"s6",q:"Two radiologists independently classify 200 CT scans as showing perforation or not. Which statistic best describes their agreement?",o:["Cohen's kappa","Pearson's correlation coefficient","Intraclass correlation coefficient","Bland-Altman analysis"],a:0,e:"Cohen's kappa measures agreement on a categorical judgement while correcting for agreement expected by chance, which is why it is preferred to raw percentage agreement."},
+{s:"s6",q:"A study compares a new bedside haemoglobin device against laboratory analysis. Which method assesses agreement?",o:["Pearson's correlation","Paired t-test alone","Bland-Altman analysis","Chi-squared test"],a:2,e:"Bland-Altman plots the difference between methods against their mean, revealing systematic bias and limits of agreement. Correlation would conceal a consistent offset."},
+{s:"s6",q:"What does one quality-adjusted life year represent?",o:["One year of life regardless of health state","One year in perfect health, with impaired states weighted proportionally","The cost of one year of treatment","Years of life lost to a condition"],a:1,e:"A QALY combines length and quality of life into one measure, so a year at half quality equates to 0.5 QALYs. It is the basis of cost-utility analysis."},
+{s:"s6",q:"Approximately what incremental cost-effectiveness ratio does NICE generally regard as acceptable?",o:["£2,000–3,000 per QALY","£20,000–30,000 per QALY","£100,000–150,000 per QALY","There is no threshold"],a:1,e:"NICE broadly regards interventions below twenty to thirty thousand pounds per QALY as cost-effective, with flexibility for end-of-life and highly specialised treatments."},
+{s:"s6",q:"The ethical principle of equipoise requires:",o:["That the trial has been prospectively registered","That both treatments are equally expensive","Genuine uncertainty in the expert community about which arm is superior","That the trial is adequately powered"],a:2,e:"Without collective uncertainty, randomising patients to what is believed to be the inferior treatment cannot be ethically justified. It differs from individual preference."},
+{s:"s6",q:"A consultant provided the patients but had no role in design, analysis, drafting or revision, and requests senior authorship. Under ICMJE criteria:",o:["He qualifies, as he provided the patients","He qualifies, as he is departmental lead","He does not qualify, as all four criteria must be met","He qualifies automatically as senior author"],a:2,e:"All four ICMJE criteria are required: substantial contribution, drafting or revising, final approval, and accountability. Providing patients belongs in the acknowledgements."}
+]);
+</script>
+
+<script>
+add([
+{s:"mx",q:"Serum albumin, normally distributed, is measured in the same 40 patients on admission and again on day 5 after major resection. Which test?",o:["Unpaired t-test","Paired t-test","Wilcoxon signed-rank test","Mann-Whitney U test"],a:1,e:"The same patients are measured twice, so the data are paired, and normally distributed continuous data calls for the parametric option."},
+{s:"mx",q:"Investigators study whether exposure to an industrial solvent, affecting a small identifiable workforce, is associated with several cancers over twenty years. Which design?",o:["Case-control study","Cross-sectional study","Prospective cohort study","Randomised controlled trial"],a:2,e:"A cohort begins with exposure and follows forwards, the only practical approach for an uncommon exposure, and allows several outcomes to be studied at once."},
+{s:"mx",q:"A study reports a difference in mean length of stay of 0.7 days (95% CI −0.4 to 1.8). This means:",o:["The new pathway significantly shortens stay","The result is not statistically significant","It is significant because the point estimate favours the new pathway","The pathway makes no difference"],a:1,e:"For a difference between means the value of no effect is zero, and an interval spanning zero is compatible with better, worse or no difference."},
+{s:"mx",q:"A safety checklist is rolled out across twelve hospitals over eighteen months, with order of adoption randomised and every hospital eventually receiving it. This is:",o:["Crossover trial","Factorial trial","Stepped-wedge cluster trial","Parallel group trial"],a:2,e:"In a stepped-wedge design all clusters eventually receive the intervention but the crossover order is randomised, suiting service changes happening anyway."},
+{s:"mx",q:"A meta-analysis of eight trials reports an I² of 12%. This indicates:",o:["Low heterogeneity; fixed effects reasonable","Substantial heterogeneity; random effects required","Publication bias","The pooled estimate is not significant"],a:0,e:"Very little variation exceeds what chance would produce, so the studies can be treated as estimating a single common effect."},
+{s:"mx",q:"A team tests a discharge checklist on one ward for two weeks, reviews results, modifies it and repeats. The principal advantage is:",o:["It satisfies research ethics requirements","Small rapid cycles allow refinement before wider implementation","It removes the need for outcome measures","It provides a randomised comparison"],a:1,e:"PDSA cycles are deliberately small and rapid, limiting the consequences of a change that does not work and building evidence for spread."},
+{s:"mx",q:"Clavien-Dindo grades are compared between patients undergoing open and robotic gastrectomy. Which test?",o:["Unpaired t-test","Chi-squared test","Mann-Whitney U test","Wilcoxon signed-rank test"],a:2,e:"Clavien-Dindo is ordinal, so non-parametric, and the groups are separate patients rather than the same patients twice."},
+{s:"mx",q:"A confirmatory test has a specificity of 99% and a sensitivity of 70%. Which statement follows?",o:["A positive result strongly rules the condition in","A negative result strongly rules it out","The test will rarely miss the condition","The positive predictive value is necessarily high"],a:0,e:"High specificity means very few false positives, so a positive result is strongly confirmatory. That is the SpPin rule."},
+{s:"mx",q:"A surgeon publishes outcomes of 60 consecutive patients treated with a novel technique, reporting excellent results. The fundamental limitation is:",o:["The sample size is too small","There is no comparison group","The follow-up is retrospective","Ethics approval was not obtained"],a:1,e:"A case series has no comparator, so no causal inference about effectiveness is possible. Good outcomes may reflect case selection or natural history."},
+{s:"mx",q:"Which analysis or analyses should be reported in a non-inferiority trial?",o:["Intention-to-treat alone","Per-protocol alone","Both, with the conclusion holding only if they agree","As-treated alone"],a:2,e:"Crossover and non-compliance dilute differences towards the conclusion a non-inferiority trial seeks, so ITT is no longer conservative and both analyses must agree."},
+{s:"mx",q:"Which statement about the log-rank test is correct?",o:["It quantifies the size of the survival difference","It compares whole curves but gives no effect size","It adjusts for confounding variables","It is valid when survival curves cross"],a:1,e:"The log-rank test returns a p-value only. Quantifying the effect and adjusting for covariates requires Cox proportional hazards regression."},
+{s:"mx",q:"A database replaces patient identifiers with study numbers but a separate linkage file is retained. This means:",o:["The data are fully anonymised","Data protection law no longer applies","The data are pseudonymised and remain personal data","Caldicott principles no longer apply"],a:2,e:"A retained key allows re-identification, so the data remain personal data. Anonymisation requires identifiers to be irreversibly removed with no key kept."},
+{s:"mx",q:"Patient satisfaction, scored on a five-point Likert scale, is compared across four hospitals. Which test?",o:["One-way ANOVA","Chi-squared test","Mann-Whitney U test","Kruskal-Wallis test"],a:3,e:"A Likert score is ordinal and therefore non-parametric, and four independent groups are being compared, which is Kruskal-Wallis."},
+{s:"mx",q:"A negative trial reports that in one of fourteen unplanned subgroup analyses the intervention was significantly beneficial (p = 0.04). This is:",o:["A robust finding, as p is below 0.05","Likely a chance finding due to multiple comparisons","A type II error","Proof the overall result was wrong"],a:1,e:"Testing many subgroups inflates the type I error rate, since about one in twenty comparisons reaches significance by chance. Such findings need confirmation in a dedicated trial."},
+{s:"mx",q:"Which design allows incidence to be calculated directly?",o:["Cross-sectional study","Cohort study","Case-control study","Case series"],a:1,e:"Incidence counts new cases arising over a period, which requires following a group forwards. Cross-sectional studies give prevalence."},
+{s:"mx",q:"Which of the following is required to perform a sample size calculation?",o:["The p-value from a previous trial","The number of centres recruiting","The minimum clinically important difference","The planned duration of follow-up"],a:2,e:"A sample size calculation needs alpha, power, the smallest worthwhile difference and an estimate of variability. The p-value is an output, not an input."},
+{s:"mx",q:"A trial reports a hazard ratio for recurrence of 0.83 (95% CI 0.61–1.13). This means:",o:["Recurrence is significantly reduced","The result is not statistically significant","The proportional hazards assumption is violated","Median survival was not reached"],a:1,e:"For a hazard ratio the value of no effect is one, and an interval spanning it is compatible with benefit, harm or no difference."},
+{s:"mx",q:"A CUSUM chart is used for which purpose?",o:["Comparing units at a single point in time","Adjusting outcomes for case mix","Detecting a change in performance sequentially over time","Identifying publication bias"],a:2,e:"A CUSUM accumulates the running difference between observed and expected outcomes, so a sustained trend signals change far earlier than periodic review."},
+{s:"mx",q:"An investigator examines the association between intraoperative blood loss and length of stay. Both are markedly right-skewed. Which test?",o:["Pearson's correlation coefficient","Spearman's rank correlation","Linear regression","Kruskal-Wallis test"],a:1,e:"Correlation with skewed variables requires the rank-based Spearman method, since Pearson's assumes normality and is distorted by outliers."},
+{s:"mx",q:"Complication rates are 20% with standard care and 15% with a new technique. What is the number needed to treat?",o:["5","15","20","25"],a:2,e:"The absolute risk reduction is 5%, or 0.05, and the NNT is its reciprocal, giving 20. The relative risk reduction is 25%."},
+{s:"mx",q:"Which best defines a confounder?",o:["A variable on the causal pathway between exposure and outcome","A variable independently associated with both exposure and outcome","A systematic error introduced by design","An outcome measured in place of the one of interest"],a:1,e:"A confounder is independently associated with both exposure and outcome and is not on the causal pathway, producing a spurious apparent association."},
+{s:"mx",q:"Which IDEAL stage corresponds to a definitive multicentre randomised trial of an established surgical technique?",o:["Stage 1 (Idea)","Stage 2b (Exploration)","Stage 3 (Assessment)","Stage 4 (Long-term study)"],a:2,e:"Stage 3, assessment, is the definitive randomised trial once a technique has stabilised and been explored in cohort studies."},
+{s:"mx",q:"Screen-detected cancers are of lower grade and slower growing than those presenting between screening rounds. This is explained by:",o:["Lead-time bias","Length-time bias","Selection bias","Attrition bias"],a:1,e:"Slow-growing tumours spend longer in a detectable preclinical phase and are disproportionately picked up, while aggressive tumours present symptomatically between rounds."},
+{s:"mx",q:"What does an incremental cost-effectiveness ratio express?",o:["The total cost of the new intervention","The cost per patient treated","The additional cost per additional QALY gained over current practice","The proportion of the budget consumed"],a:2,e:"The ICER is the extra cost divided by the extra QALYs gained relative to current practice, and is what NICE compares against its threshold."},
+{s:"mx",q:"Investigators model the number of readmissions per patient in the year after surgery, adjusting for age and comorbidity. Which regression model?",o:["Linear regression","Logistic regression","Cox regression","Poisson regression"],a:3,e:"The outcome is a count of events over time, and Poisson regression is the appropriate model for count data."},
+{s:"mx",q:"A test with 90% sensitivity and 80% specificity is applied to 1000 patients, of whom 100 truly have the condition. What is the positive predictive value?",o:["33%","72%","80%","90%"],a:0,e:"Of 100 with the condition the test finds 90; of 900 without it, 180 test falsely positive. PPV is 90 divided by 270, which is 33%."},
+{s:"mx",q:"A study applies a new point-of-care test and reference standard CT to the same 400 patients on the same day. What design is this?",o:["Case-control study","Cross-sectional study","Prospective cohort study","Randomised controlled trial"],a:1,e:"Index test and reference standard are applied at essentially the same time, making diagnostic accuracy studies cross-sectional. They are reported under STARD."},
+{s:"mx",q:"In a surgical trial where the operator cannot be blinded, wound assessments are performed by a researcher unaware of allocation. This guards against:",o:["Selection bias","Recall bias","Detection bias","Attrition bias"],a:2,e:"Blinding the assessor prevents knowledge of allocation influencing how outcomes are measured or adjudicated, which is detection or observer bias."},
+{s:"mx",q:"Compared with a fixed effects model, what is a feature of a random effects meta-analysis?",o:["A narrower confidence interval","A wider confidence interval reflecting between-study variation","It eliminates publication bias","It requires at least twenty studies"],a:1,e:"Random effects incorporates variation between studies as well as within them, giving a wider pooled interval and proportionally more weight to smaller studies."},
+{s:"mx",q:"Which is an essential element of informed consent for trial participation?",o:["Agreement to complete the full follow-up period","Withdrawal permitted only with the investigator's agreement","Withdrawal at any time without care being affected","Verbal consent without documentation"],a:2,e:"Participation must be voluntary, and the participant must understand they may withdraw at any point without giving a reason and without any effect on their care."}
+]);
+
+/* ---------- runner ---------- */
+const SEC={s1:"Choosing a test",s2:"Interpreting results",s3:"Study design",s4:"Trial design",s5:"Synthesis and survival",s6:"Audit and governance",mx:"Mixed paper",all:"Full bank"};
+let Q=[],i=0,score=0,missed=[],title="";
+const R=document.getElementById("runner");
+
+function shuffle(a){for(let j=a.length-1;j>0;j--){const k=Math.floor(Math.random()*(j+1));[a[j],a[k]]=[a[k],a[j]];}return a;}
+
+function start(key){
+  Q=shuffle(QB.filter(x=>key==="all"?true:x.s===key).slice());
+  title=SEC[key]; i=0; score=0; missed=[];
+  R.classList.add("open"); document.body.style.overflow="hidden"; render();
+}
+function closeRunner(){R.classList.remove("open");R.innerHTML="";document.body.style.overflow="";}
+
+function render(){
+  const q=Q[i], pct=(i/Q.length)*100;
+  R.innerHTML=`<div class="panel">
+    <div class="phead"><b>${title}</b><span>Question ${i+1} of ${Q.length}</span><button onclick="closeRunner()" aria-label="Close">&times;</button></div>
+    <div class="pbar"><i style="width:${pct}%"></i></div>
+    <div class="pbody">
+      <p class="qtext">${q.q}</p>
+      <div class="opts" id="opts"></div>
+      <div class="expl" id="expl"></div>
+    </div>
+    <div class="pfoot" id="foot"></div>
+  </div>`;
+  const box=document.getElementById("opts");
+  q.o.forEach((t,n)=>{
+    const b=document.createElement("button");
+    b.className="opt"; b.textContent=t; b.onclick=()=>answer(n); box.appendChild(b);
+  });
+}
+function answer(n){
+  const q=Q[i], btns=[...document.querySelectorAll(".opt")];
+  btns.forEach((b,k)=>{b.disabled=true; if(k===q.a)b.classList.add("right"); if(k===n&&n!==q.a)b.classList.add("wrong");});
+  const ok=n===q.a; if(ok)score++; else missed.push(q);
+  const e=document.getElementById("expl");
+  e.className="expl show "+(ok?"ok":"no");
+  e.innerHTML=`<b>${ok?"Correct":"Not quite"}</b>${q.e}`;
+  document.getElementById("foot").innerHTML=`<button class="btn" onclick="next()">${i+1<Q.length?"Next question":"See score"}</button>`;
+}
+function next(){ i++; if(i<Q.length){render();} else {finish();} }
+function finish(){
+  const pc=Math.round(score/Q.length*100);
+  let list="";
+  if(missed.length){
+    list=`<div class="missed"><h4>Worth reviewing</h4><ul>${missed.map(m=>`<li>${m.q.length>95?m.q.slice(0,95)+"…":m.q}</li>`).join("")}</ul></div>`;
+  }
+  R.innerHTML=`<div class="panel">
+    <div class="phead"><b>${title}</b><span>Complete</span><button onclick="closeRunner()" aria-label="Close">&times;</button></div>
+    <div class="pbody">
+      <div class="score"><div class="big">${score}/${Q.length}</div><p>${pc}% correct</p></div>
+      ${list}
+    </div>
+    <div class="pfoot"><button class="btn ghost" onclick="closeRunner()">Back to the workbook</button></div>
+  </div>`;
+}
+R.addEventListener("click",e=>{if(e.target===R)closeRunner();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&R.classList.contains("open"))closeRunner();});
+
+/* nav highlighting */
+const links=[...document.querySelectorAll(".rnav a")];
+const obs=new IntersectionObserver(es=>{
+  es.forEach(en=>{ if(en.isIntersecting){ links.forEach(l=>l.classList.toggle("on", l.getAttribute("href")==="#"+en.target.id)); }});
+},{rootMargin:"-45% 0px -50% 0px"});
+document.querySelectorAll("section").forEach(s=>obs.observe(s));
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth.js"></script>
+<script>
+(async () => {
+  try {
+    const user = await getUser();
+    if (user){ const member = await hasMembership(user.id); if (member) document.body.classList.add('is-member'); }
+  } catch (e) { /* visitor / offline — free sections only */ }
+})();
+</script>
+</body>
+</html>
