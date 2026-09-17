@@ -71,7 +71,7 @@ body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 /* ---------- layout ---------- */
-.wrap{display:flex;min-height:100vh;align-items:flex-start}
+.wrap{display:block}
 .rnav{position:sticky;top:56px;flex:0 0 var(--nav-width);height:calc(100vh - 56px);background:var(--ink);color:var(--pale);padding:28px 0;overflow-y:auto}
 .rnav h1{font-family:var(--sans);font-size:15px;font-weight:600;letter-spacing:.01em;margin:0 22px 4px;color:var(--surface);line-height:1.35}
 .rnav p{font-family:var(--sans);font-size:12px;margin:0 22px 26px;color:var(--nav-meta)}
@@ -79,9 +79,9 @@ body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);
 .rnav a:hover,.rnav a:focus-visible{background:var(--ink-hover);border-left-color:var(--nav-mark)}
 .rnav a b{font-weight:600;color:var(--nav-num);flex:0 0 12px}
 .rnav a.on{background:var(--ink-active);border-left-color:var(--nav-mark);color:var(--surface)}
-main{flex:1;min-width:0;padding:0 0 100px}
-.col{max-width:var(--col-width);padding:0 var(--gutter)}
-section{padding-top:56px;scroll-margin-top:70px}
+main{max-width:760px;margin:0 auto;padding:0 24px 100px}
+.col{max-width:none;padding:0}
+section{padding-top:52px;scroll-margin-top:110px}
 
 /* ---------- type ---------- */
 h2{font-family:var(--sans);font-size:var(--fs-h2);font-weight:600;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
@@ -167,7 +167,7 @@ button{font-family:var(--sans);font-size:var(--fs-ui);cursor:pointer}
 
 /* ---------- site top nav ---------- */
 .site-nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:.5px solid rgba(0,0,0,.08);font-family:var(--sans)}
-.site-nav .sn-inner{max-width:1180px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.site-nav .sn-inner{max-width:1000px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .site-nav .sn-left{display:flex;align-items:center;gap:28px}
 .site-nav .sn-logo{font-size:18px;font-weight:600;color:#1a1a18;text-decoration:none}
 .site-nav .sn-logo span{color:var(--blue)}
@@ -194,10 +194,26 @@ button{font-family:var(--sans);font-size:var(--fs-ui);cursor:pointer}
 .lockwrap .btn{display:inline-block;text-decoration:none;margin-right:10px}
 body:not(.is-member) section.members .col > *:not(h2):not(.lockwrap){display:none}
 body:not(.is-member) section.members .lockwrap{display:block}
-body:not(.is-member) .rnav a[href="#s4"]::after,
-body:not(.is-member) .rnav a[href="#s5"]::after,
-body:not(.is-member) .rnav a[href="#s6"]::after,
-body:not(.is-member) .rnav a[href="#paper"]::after{content:"\1F512";margin-left:auto;font-size:11px;opacity:.65}
+body:not(.is-member) .section-nav a[href="#s4"]::after,
+body:not(.is-member) .section-nav a[href="#s5"]::after,
+body:not(.is-member) .section-nav a[href="#s6"]::after,
+body:not(.is-member) .section-nav a[href="#paper"]::after{content:"\1F512";font-size:10px;opacity:.6}
+
+/* ---------- horizontal section nav (replaces the old left rail) ---------- */
+.section-nav{position:sticky;top:50px;z-index:90;background:rgba(247,247,245,.94);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-bottom:.5px solid rgba(0,0,0,.08)}
+.section-nav .secnav-inner{max-width:1000px;margin:0 auto;padding:9px 24px;display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.section-nav a{font-family:var(--sans);font-size:12.5px;color:var(--muted);text-decoration:none;padding:5px 12px;border:1px solid var(--b);border-radius:20px;display:inline-flex;align-items:center;gap:6px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+.section-nav a b{color:var(--nav-num);font-weight:700;font-size:11px}
+.section-nav a:hover{border-color:var(--family);color:var(--body)}
+.section-nav a.on{background:var(--family);border-color:var(--family);color:#fff}
+.section-nav a.on b{color:#fff}
+@media(max-width:640px){.section-nav .secnav-inner{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start}}
+
+/* ---------- centred page header ---------- */
+.wb-head{text-align:center;padding:46px 0 12px;border-bottom:1px solid var(--rule)}
+.wb-head .page-label{font-family:var(--sans);font-size:11px;font-weight:600;color:var(--family);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}
+.wb-head h1{font-family:var(--sans);font-size:30px;font-weight:600;letter-spacing:-.4px;margin:0 0 10px}
+.wb-head p{font-family:var(--sans);font-size:15px;color:var(--muted);max-width:560px;margin:0 auto;line-height:1.6}
 
 /* ---------- summary card ---------- */
 .nutshell{border:1px solid var(--b);border-radius:var(--radius-lg);background:var(--surface);padding:20px 24px 22px;margin:34px 0 8px;box-shadow:0 1px 6px rgba(0,0,0,.04)}
@@ -237,19 +253,21 @@ figure svg text{font-family:var(--sans)}
     <a href="index.html#notify">Notify me</a>
   </div>
 </nav>
-<div class="wrap">
-<aside class="rnav">
-  <h1>Statistics and critical appraisal</h1>
-  <p>FRCS Part 1 · General Surgery</p>
+<nav class="section-nav"><div class="secnav-inner">
   <a href="#s1"><b>1</b>Choosing a test</a>
   <a href="#s2"><b>2</b>Interpreting results</a>
   <a href="#s3"><b>3</b>Study design</a>
   <a href="#s4"><b>4</b>Trial design</a>
-  <a href="#s5"><b>5</b>Synthesis and survival</a>
-  <a href="#s6"><b>6</b>Audit and governance</a>
+  <a href="#s5"><b>5</b>Synthesis &amp; survival</a>
+  <a href="#s6"><b>6</b>Audit &amp; governance</a>
   <a href="#paper"><b>7</b>Mixed paper</a>
-</aside>
+</div></nav>
 <main>
+<header class="wb-head">
+  <div class="page-label">Revision resources</div>
+  <h1>Statistics &amp; critical appraisal</h1>
+  <p>FRCS Part 1 &middot; General Surgery &mdash; a plain-English workbook with a self-test after every section.</p>
+</header>
 <section id="s1"><div class="col">
 <h2><span>Section one</span>Choosing the right test</h2>
 <p class="lede">You never really choose a test. You describe your data accurately, and the data chooses the test for you.</p>
@@ -283,6 +301,23 @@ figure svg text{font-family:var(--sans)}
 </figure>
 
 <div class="trap"><b>Discrete or ordinal?</b>Both look like whole numbers. Ask whether the gaps are equal. Nodes 2 to 3 is the same step as 13 to 14, so it is discrete. ASA 2 to 3 is not the same step as 3 to 4, so it is ordinal.</div>
+
+<h3>Displaying data</h3>
+<p>The same data type that picks your statistical test also picks your chart. Match the picture to what you actually want the reader to see.</p>
+<figure>
+<svg viewBox="0 0 680 148" role="img" aria-label="Five common chart types: histogram, box-and-whisker, scatter, line and bar">
+<line x1="18" y1="30" x2="18" y2="110" stroke="var(--b)" stroke-width="0.6"/><line x1="18" y1="110" x2="118" y2="110" stroke="var(--b)" stroke-width="0.6"/><rect x="22" y="92" width="15" height="18" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.75"/><rect x="37" y="70" width="15" height="40" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.75"/><rect x="52" y="46" width="15" height="64" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.75"/><rect x="67" y="56" width="15" height="54" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.75"/><rect x="82" y="78" width="15" height="32" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.75"/><rect x="97" y="96" width="15" height="14" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.75"/><text class="th" x="68" y="133" text-anchor="middle" font-size="12.5">Histogram</text><line x1="154" y1="30" x2="154" y2="110" stroke="var(--b)" stroke-width="0.6"/><line x1="154" y1="110" x2="254" y2="110" stroke="var(--b)" stroke-width="0.6"/><line x1="204" y1="42" x2="204" y2="58" stroke="var(--t)" stroke-width="1"/><line x1="204" y1="88" x2="204" y2="102" stroke="var(--t)" stroke-width="1"/><line x1="196" y1="42" x2="212" y2="42" stroke="var(--t)" stroke-width="1"/><line x1="196" y1="102" x2="212" y2="102" stroke="var(--t)" stroke-width="1"/><rect x="186" y="58" width="36" height="30" fill="var(--fill-blue)" stroke="var(--blue)" stroke-width="0.9"/><line x1="186" y1="72" x2="222" y2="72" stroke="var(--blue)" stroke-width="1.6"/><circle cx="204" cy="36" r="2.6" fill="var(--accent-warn)"/><text class="th" x="204" y="133" text-anchor="middle" font-size="12.5">Box &amp; whisker</text><line x1="290" y1="30" x2="290" y2="110" stroke="var(--b)" stroke-width="0.6"/><line x1="290" y1="110" x2="390" y2="110" stroke="var(--b)" stroke-width="0.6"/><circle cx="300" cy="98" r="2.3" fill="var(--fig-muted)"/><circle cx="312" cy="90" r="2.3" fill="var(--fig-muted)"/><circle cx="324" cy="84" r="2.3" fill="var(--fig-muted)"/><circle cx="335" cy="74" r="2.3" fill="var(--fig-muted)"/><circle cx="346" cy="78" r="2.3" fill="var(--fig-muted)"/><circle cx="358" cy="64" r="2.3" fill="var(--fig-muted)"/><circle cx="370" cy="56" r="2.3" fill="var(--fig-muted)"/><circle cx="380" cy="48" r="2.3" fill="var(--fig-muted)"/><text class="th" x="340" y="133" text-anchor="middle" font-size="12.5">Scatter</text><line x1="426" y1="30" x2="426" y2="110" stroke="var(--b)" stroke-width="0.6"/><line x1="426" y1="110" x2="526" y2="110" stroke="var(--b)" stroke-width="0.6"/><polyline points="432,92 452,72 470,82 490,58 508,64 522,44" fill="none" stroke="var(--family)" stroke-width="2"/><circle cx="432" cy="92" r="2" fill="var(--family)"/><circle cx="452" cy="72" r="2" fill="var(--family)"/><circle cx="470" cy="82" r="2" fill="var(--family)"/><circle cx="490" cy="58" r="2" fill="var(--family)"/><circle cx="508" cy="64" r="2" fill="var(--family)"/><circle cx="522" cy="44" r="2" fill="var(--family)"/><text class="th" x="476" y="133" text-anchor="middle" font-size="12.5">Line</text><line x1="562" y1="30" x2="562" y2="110" stroke="var(--b)" stroke-width="0.6"/><line x1="562" y1="110" x2="662" y2="110" stroke="var(--b)" stroke-width="0.6"/><rect x="574" y="82" width="13" height="28" fill="var(--fig-muted)"/><rect x="596" y="58" width="13" height="52" fill="var(--fig-muted)"/><rect x="618" y="72" width="13" height="38" fill="var(--fig-muted)"/><rect x="640" y="48" width="13" height="62" fill="var(--fig-muted)"/><text class="th" x="612" y="133" text-anchor="middle" font-size="12.5">Bar</text>
+</svg>
+<figcaption>Five workhorse charts &mdash; choose by data type and purpose, not by habit.</figcaption>
+</figure>
+<ul>
+<li><strong>Histogram</strong> &mdash; the distribution of one continuous variable: its shape, spread and skew.</li>
+<li><strong>Box-and-whisker</strong> &mdash; the same continuous data summarised (median, IQR, range and outliers), and the best choice for comparing several groups side by side.</li>
+<li><strong>Scatter plot</strong> &mdash; the relationship between two continuous variables (then correlation or regression).</li>
+<li><strong>Line chart</strong> &mdash; a value changing over ordered time.</li>
+<li><strong>Bar chart</strong> &mdash; counts or proportions across categories. Pie charts only for a simple parts-of-a-whole, and best avoided in papers.</li>
+</ul>
+<div class="trap"><b>Bar chart or histogram?</b>A bar chart shows categories &mdash; separate bars you could reorder freely. A histogram shows continuous data binned into ranges, so the bars touch and the x-axis is a number line. If the x-axis is numbers, it is a histogram.</div>
 
 <h3>Step two: normal or skewed?</h3>
 <p>A normal distribution is the symmetrical bell curve. Length of stay is not: most patients go home in three days and a few stay sixty, dragging a long tail to the right. The mean is bullied by those outliers; the median is not.</p>
@@ -344,7 +379,7 @@ figure svg text{font-family:var(--sans)}
 </tbody></table>
 <p>Two habits resolve most stems: count the groups first, then look for the word median.</p>
 
-<div class="nutshell"><h4>Section one in a nutshell</h4><ul><li><b>Let the data choose the test:</b> identify the outcome type (categorical / ordinal / continuous / discrete) and whether groups are <b>paired or independent</b>.</li><li><b>Parametric</b> (t-test, ANOVA, Pearson) needs roughly normal continuous data; <b>non-parametric</b> (Mann&#8211;Whitney, Kruskal&#8211;Wallis, Wilcoxon, Spearman) for ordinal or skewed.</li><li>Two independent groups &#8594; unpaired t / Mann&#8211;Whitney. Paired &#8594; paired t / Wilcoxon. &gt;2 groups &#8594; ANOVA / Kruskal&#8211;Wallis.</li><li>Categorical &#8594; chi-squared (Fisher&#8217;s exact if an expected cell &lt;5); paired categorical &#8594; McNemar&#8217;s.</li><li>Correlation: Pearson (normal) vs Spearman (ordinal/skewed). Binary outcome + several predictors &#8594; logistic regression; time-to-event with censoring &#8594; Kaplan&#8211;Meier + log-rank.</li></ul></div>
+<div class="nutshell"><h4>Section one in a nutshell</h4><ul><li><b>Let the data choose the test:</b> identify the outcome type (categorical / ordinal / continuous / discrete) and whether groups are <b>paired or independent</b>.</li><li><b>Parametric</b> (t-test, ANOVA, Pearson) needs roughly normal continuous data; <b>non-parametric</b> (Mann&#8211;Whitney, Kruskal&#8211;Wallis, Wilcoxon, Spearman) for ordinal or skewed.</li><li>Two independent groups &#8594; unpaired t / Mann&#8211;Whitney. Paired &#8594; paired t / Wilcoxon. &gt;2 groups &#8594; ANOVA / Kruskal&#8211;Wallis.</li><li>Categorical &#8594; chi-squared (Fisher&#8217;s exact if an expected cell &lt;5); paired categorical &#8594; McNemar&#8217;s.</li><li>Correlation: Pearson (normal) vs Spearman (ordinal/skewed). Binary outcome + several predictors &#8594; logistic regression; time-to-event with censoring &#8594; Kaplan&#8211;Meier + log-rank.</li><li><b>Displaying data:</b> histogram for one distribution, box-and-whisker to compare groups, scatter for a relationship, line for change over time, bar for categories.</li></ul></div>
 
 <div class="qlaunch"><button class="btn" onclick="start('s1')">Test this section</button><span>12 questions</span></div>
 </div></section>
@@ -924,7 +959,6 @@ figure svg text{font-family:var(--sans)}
 </div></section>
 
 </main>
-</div>
 <div id="runner" role="dialog" aria-modal="true"></div>
 <script>
 const QB=[];
@@ -1110,7 +1144,7 @@ R.addEventListener("click",e=>{if(e.target===R)closeRunner();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&R.classList.contains("open"))closeRunner();});
 
 /* nav highlighting */
-const links=[...document.querySelectorAll(".rnav a")];
+const links=[...document.querySelectorAll(".section-nav a")];
 const obs=new IntersectionObserver(es=>{
   es.forEach(en=>{ if(en.isIntersecting){ links.forEach(l=>l.classList.toggle("on", l.getAttribute("href")==="#"+en.target.id)); }});
 },{rootMargin:"-45% 0px -50% 0px"});
