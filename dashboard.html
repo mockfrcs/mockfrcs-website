@@ -46,6 +46,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
 .btn-renew { background: #185FA5; color: #fff; border: none; border-radius: 6px; padding: 7px 14px; font-size: 12px; font-weight: 500; cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block; }
 .section-label { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 16px; }
 .exams-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 40px; }
+.practice-banner { display:flex; align-items:center; justify-content:space-between; gap:18px; background:#fff; border:0.5px solid rgba(0,0,0,0.1); border-radius:12px; padding:20px; box-shadow:0 1px 8px rgba(0,0,0,0.04); text-decoration:none; color:inherit; margin-bottom:32px; transition:box-shadow .15s,border-color .15s; }
+.practice-banner:hover { border-color:rgba(0,0,0,0.2); box-shadow:0 6px 20px rgba(0,0,0,0.08); }
+.practice-banner h3 { font-size:15px; font-weight:600; margin-bottom:4px; }
+.practice-banner p { font-size:12.5px; color:#888; line-height:1.55; }
+.pb-go { font-size:13px; font-weight:600; color:#185FA5; white-space:nowrap; }
+@media (max-width:560px){ .practice-banner{flex-direction:column;align-items:flex-start;gap:10px;} }
 .exam-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
 .exam-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 .exam-num { width: 36px; height: 36px; border-radius: 8px; background: #E6F1FB; color: #185FA5; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600; }
@@ -103,6 +109,7 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
       <div class="nav-links">
         <a href="index.html" class="nav-link">Home</a>
         <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <a href="practice.html" class="nav-link">Practice</a>
         <a href="about.html" class="nav-link">How it works</a>
         <a href="demo.html" class="nav-link">Try free demo</a>
         <a href="revision.html" class="nav-link">Revision resources</a>
@@ -117,6 +124,7 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
   <div class="nav-mobile" id="navMobile">
     <a href="index.html">Home</a>
     <a href="dashboard.html">Dashboard</a>
+    <a href="practice.html">Practice</a>
     <a href="about.html">How it works</a>
     <a href="demo.html">Try free demo</a>
     <a href="revision.html">Revision resources</a>
@@ -150,6 +158,15 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
       </div>
       <a href="#" class="btn-review-banner" id="reviewBannerBtn">Leave a review</a>
     </div>
+
+    <div class="section-label">Practice by topic</div>
+    <a class="practice-banner" href="practice.html">
+      <div class="pb-text">
+        <h3>Practice questions by topic</h3>
+        <p id="practiceSub">Work through a topic at your own pace, with an explanation and source for every answer.</p>
+      </div>
+      <span class="pb-go">Open practice &rarr;</span>
+    </a>
 
     <div class="section-label">Mock Exams</div>
     <div class="exams-grid" id="examsGrid"></div>
@@ -186,6 +203,24 @@ function toggleNav() {
   if (!user) return;
 
   document.getElementById('navEmail').textContent = user.email;
+
+  // Practice progress (best effort - the banner still works without it)
+  (async () => {
+    try {
+      const [{ count: qTotal }, { data: done }] = await Promise.all([
+        db.from('practice_questions').select('id', { count: 'exact', head: true }),
+        db.from('practice_latest_attempts').select('is_correct').eq('user_id', user.id)
+      ]);
+      if (!qTotal) return;
+      const answered = (done || []).length;
+      const correct = (done || []).filter(a => a.is_correct).length;
+      const pct = answered ? Math.round((correct / answered) * 100) : null;
+      document.getElementById('practiceSub').textContent =
+        answered
+          ? answered + ' of ' + qTotal + ' questions answered' + (pct === null ? '' : ' \u00b7 ' + pct + '% correct')
+          : qTotal + ' questions across the main topics, with an explanation and source for every answer.';
+    } catch (e) { /* leave the default text */ }
+  })();
 
   // Check membership
   const { data: membership } = await db
