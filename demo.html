@@ -3,169 +3,124 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
 <title>MockFRCS — Free Demo</title>
 <meta name="description" content="Try 10 free FRCS Part 1 General Surgery SBA questions from MockFRCS. Answers and explanations included.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="brand.css">
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #f7f7f5; color: #1a1a18; line-height: 1.5; }
-.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); background: #fff; }
-.nav-inner { max-width: 720px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; }
-.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
-.logo span { color: #185FA5; }
-.nav-right { display: flex; align-items: center; gap: 12px; }
-.nav-back { font-size: 13px; color: #888; text-decoration: none; display: flex; align-items: center; gap: 4px; }
-.nav-back:hover { color: #1a1a18; }
-.nav-badge { font-size: 12px; font-weight: 500; background: #E6F1FB; color: #185FA5; padding: 4px 12px; border-radius: 20px; }
-.demo-section { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
-.demo-header { text-align: center; margin-bottom: 36px; }
-.demo-header .section-label { font-size: 11px; font-weight: 600; color: #185FA5; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 8px; }
-.demo-header h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 8px; }
-.demo-header p { font-size: 14px; color: #666; }
-.demo-progress { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
-.progress-track { flex: 1; height: 4px; background: rgba(0,0,0,0.08); border-radius: 2px; overflow: hidden; }
-.progress-fill { height: 100%; background: #185FA5; border-radius: 2px; transition: width 0.4s ease; }
-.progress-label { font-size: 13px; color: #888; white-space: nowrap; }
-.q-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.04); }
-.q-card-header { padding: 14px 20px; border-bottom: 0.5px solid rgba(0,0,0,0.07); background: #f7f7f5; display: flex; align-items: center; justify-content: space-between; }
-.q-num { font-size: 12px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
-.q-topic { font-size: 11px; color: #aaa; }
-.q-body { padding: 20px; }
-.q-stem { font-size: 14px; color: #1a1a18; line-height: 1.7; margin-bottom: 20px; }
-.q-ask { font-size: 14px; font-weight: 600; color: #1a1a18; margin-bottom: 16px; }
-.options { display: flex; flex-direction: column; gap: 8px; }
-.option { display: flex; align-items: flex-start; gap: 12px; padding: 11px 14px; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; cursor: pointer; font-size: 13px; color: #1a1a18; line-height: 1.5; transition: border-color 0.15s, background 0.15s; background: #fff; }
-.option:hover:not(.disabled) { border-color: rgba(0,0,0,0.25); }
-.option.disabled { cursor: default; }
-.option.selected { border: 1.5px solid #185FA5; background: #E6F1FB; color: #0C447C; }
-.option.correct { border: 1.5px solid #3B6D11; background: #EAF3DE; color: #3B6D11; }
-.option.incorrect { border: 1.5px solid #A32D2D; background: #FCEBEB; color: #A32D2D; }
-.opt-letter { width: 24px; height: 24px; border-radius: 50%; border: 0.5px solid rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; flex-shrink: 0; color: #888; }
-.option.selected .opt-letter { background: #185FA5; color: #fff; border-color: #185FA5; }
-.option.correct .opt-letter { background: #3B6D11; color: #fff; border-color: #3B6D11; }
-.option.incorrect .opt-letter { background: #A32D2D; color: #fff; border-color: #A32D2D; }
-.btn-submit { width: 100%; margin-top: 16px; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 0.15s; }
-.btn-submit:hover { background: #0C447C; }
-.btn-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
-.explanation { display: none; margin-top: 16px; padding: 16px; background: #f7f7f5; border-radius: 8px; border-left: 3px solid #185FA5; }
-.explanation.show { display: block; }
-.exp-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-.exp-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
-.exp-badge.correct { background: #EAF3DE; color: #3B6D11; }
-.exp-badge.incorrect { background: #FCEBEB; color: #A32D2D; }
-.exp-answer { font-size: 12px; color: #888; }
-.exp-text { font-size: 13px; color: #444; line-height: 1.7; }
-.btn-next { width: 100%; margin-top: 12px; background: #1a1a18; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; display: none; transition: background 0.15s; }
-.btn-next.show { display: block; }
-.btn-next:hover { background: #333; }
-.results { display: none; text-align: center; background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 40px 32px; box-shadow: 0 2px 16px rgba(0,0,0,0.04); }
-.results.show { display: block; }
-.results-icon { font-size: 48px; margin-bottom: 16px; }
-.results h2 { font-size: 26px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 8px; }
-.results-score { font-size: 56px; font-weight: 700; letter-spacing: -2px; color: #185FA5; margin: 16px 0 4px; }
-.results-sub { font-size: 14px; color: #888; margin-bottom: 28px; }
-.results-breakdown { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 32px; }
-.rb-card { background: #f7f7f5; border-radius: 8px; padding: 14px; border: 0.5px solid rgba(0,0,0,0.07); }
-.rb-num { font-size: 24px; font-weight: 600; margin-bottom: 4px; }
-.rb-num.green { color: #3B6D11; }
-.rb-num.red { color: #A32D2D; }
-.rb-label { font-size: 12px; color: #888; }
-.results-divider { height: 0.5px; background: rgba(0,0,0,0.08); margin: 28px 0; }
-.results h3 { font-size: 20px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 8px; }
-.results p { font-size: 14px; color: #555; line-height: 1.65; margin-bottom: 20px; }
-.signup-label { font-size: 13px; font-weight: 500; color: #888; margin-bottom: 10px; display: block; }
-.signup-form { display: flex; gap: 8px; max-width: 400px; margin: 0 auto 8px; }
-.signup-form input { flex: 1; padding: 11px 16px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; }
-.signup-form input:focus { border-color: #185FA5; }
-.signup-form input::placeholder { color: #bbb; }
-.signup-form button { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px 20px; font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap; font-family: inherit; transition: background 0.15s; }
-.signup-form button:hover { background: #0C447C; }
-.signup-note { font-size: 12px; color: #bbb; margin-bottom: 20px; display: block; }
-.btn-back { display: inline-flex; align-items: center; gap: 6px; background: transparent; color: #555; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 10px 20px; font-size: 13px; cursor: pointer; text-decoration: none; font-family: inherit; transition: border-color 0.15s; }
-.btn-back:hover { border-color: rgba(0,0,0,0.4); }
-footer { border-top: 0.5px solid rgba(0,0,0,0.08); padding: 20px 32px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; background: #fff; }
-footer p { font-size: 12px; color: #bbb; }
-footer a { font-size: 12px; color: #bbb; text-decoration: none; }
-footer a:hover { color: #555; }
-@media (max-width: 480px) {
-  .demo-header h1 { font-size: 22px; }
-  .signup-form { flex-direction: column; }
-  .signup-form button { width: 100%; }
-  footer { flex-direction: column; align-items: flex-start; }
-}
-
-.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); background:#fff; }
-.nav-inner { max-width: 1000px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.nav-left { display: flex; align-items: center; gap: 28px; }
-.logo { font-size: 18px; font-weight: 600; color: #1a1a18; text-decoration: none; }
-.logo span { color: #185FA5; }
-.nav-links { display: flex; align-items: center; gap: 22px; }
-.nav-link { font-size: 13px; color: #555; text-decoration: none; transition: color 0.15s; white-space: nowrap; }
-.nav-link:hover { color: #1a1a18; }
-.nav-right { display: flex; align-items: center; gap: 16px; }
-.nav-cta { font-size: 13px; font-weight: 500; background: #185FA5; color: #fff; padding: 7px 15px; border-radius: 8px; white-space: nowrap; text-decoration: none; transition: background 0.15s; }
-.nav-cta:hover { background: #0C447C; }
-.nav-toggle { display: none; background: none; border: none; font-size: 22px; cursor: pointer; color: #1a1a18; line-height: 1; }
-.nav-mobile { display: none; flex-direction: column; padding: 6px 24px 14px; border-top: 0.5px solid rgba(0,0,0,0.06); background:#fff; }
-.nav-mobile.open { display: flex; }
-.nav-mobile a { font-size: 15px; color: #444; padding: 11px 2px; border-bottom: 0.5px solid rgba(0,0,0,0.05); text-decoration: none; }
-.nav-mobile a:last-child { border-bottom: none; color: #185FA5; font-weight: 500; }
-@media (max-width: 640px) { .nav-links, .nav-right { display: none; } .nav-toggle { display: block; } }
+  .demo-wrap{max-width:760px;margin:0 auto;padding:0 var(--gut) clamp(60px,9vw,100px)}
+  .demo-progress{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+  .progress-track{flex:1;height:4px;background:rgba(255,255,255,.1);border-radius:3px;overflow:hidden}
+  .progress-fill{height:100%;background:linear-gradient(90deg,var(--green),var(--mint));border-radius:3px;transition:width .4s ease}
+  .progress-label{font-family:var(--f-mono);font-size:12px;color:var(--t-faint);white-space:nowrap}
+  .q-card{background:linear-gradient(180deg,var(--surface),var(--surface-2));border:1px solid var(--line-d);border-radius:12px;overflow:hidden;box-shadow:0 30px 70px -44px rgba(0,0,0,.8)}
+  .q-card-header{padding:14px 20px;border-bottom:1px solid var(--line-d2);display:flex;align-items:center;justify-content:space-between}
+  .q-num{font-family:var(--f-mono);font-size:11.5px;font-weight:600;color:var(--t-dim);text-transform:uppercase;letter-spacing:.4px}
+  .q-topic{font-family:var(--f-mono);font-size:11px;color:var(--green-br)}
+  .q-body{padding:22px}
+  .q-stem{font-size:14.5px;color:var(--t-hi);line-height:1.7;margin-bottom:18px}
+  .q-ask{font-size:14.5px;font-weight:600;color:var(--t-hi);margin-bottom:16px}
+  .options{display:flex;flex-direction:column;gap:8px}
+  .option{display:flex;align-items:flex-start;gap:12px;padding:12px 14px;border:1px solid var(--line-d2);border-radius:8px;cursor:pointer;font-size:13.5px;color:var(--t-dim);line-height:1.5;transition:border-color .15s,background .15s}
+  .option:hover:not(.disabled){border-color:var(--green)}
+  .option.disabled{cursor:default}
+  .option.selected{border-color:var(--green);background:rgba(23,185,140,.1);color:var(--t-hi)}
+  .option.correct{border-color:var(--green);background:rgba(23,185,140,.14);color:var(--t-hi)}
+  .option.incorrect{border-color:var(--red);background:rgba(208,73,62,.14);color:#f3c9c5}
+  .opt-letter{width:24px;height:24px;border-radius:5px;border:1px solid var(--line-d);display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:11px;font-weight:600;flex-shrink:0;color:var(--t-faint)}
+  .btn-submit{width:100%;margin-top:16px;background:var(--green);color:#04130D;border:none;border-radius:3px;padding:14px;font-family:var(--f-mono);font-size:14px;font-weight:500;cursor:pointer;transition:background .15s}
+  .btn-submit:hover{background:var(--green-br)}
+  .btn-submit:disabled{background:rgba(255,255,255,.12);color:var(--t-faint);cursor:default}
+  .explanation{display:none;margin-top:16px;padding:16px;background:rgba(255,255,255,.03);border-radius:8px;border-left:2px solid var(--green)}
+  .explanation.show{display:block}
+  .exp-header{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+  .exp-badge{font-family:var(--f-mono);display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;padding:3px 10px;border-radius:40px}
+  .exp-badge.correct{background:rgba(23,185,140,.16);color:var(--green-br)}
+  .exp-badge.incorrect{background:rgba(208,73,62,.16);color:#e8928a}
+  .exp-answer{font-family:var(--f-mono);font-size:11.5px;color:var(--t-faint)}
+  .exp-text{font-size:13px;color:var(--t-dim);line-height:1.7}
+  .btn-next{width:100%;margin-top:12px;background:rgba(255,255,255,.08);color:var(--t-hi);border:1px solid var(--line-d);border-radius:3px;padding:14px;font-family:var(--f-mono);font-size:14px;font-weight:500;cursor:pointer;display:none;transition:background .15s}
+  .btn-next.show{display:block}
+  .btn-next:hover{background:rgba(255,255,255,.14)}
+  .results{display:none;text-align:center;background:linear-gradient(180deg,var(--surface),var(--surface-2));border:1px solid var(--line-d);border-radius:12px;padding:44px 32px}
+  .results.show{display:block}
+  .results-score{font-family:var(--f-gro);font-size:60px;font-weight:600;letter-spacing:-.04em;color:var(--green-br);margin:14px 0 4px}
+  .results-sub{font-family:var(--f-mono);font-size:13px;color:var(--t-dim);margin-bottom:28px}
+  .results-breakdown{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
+  .rb-card{background:rgba(255,255,255,.03);border:1px solid var(--line-d2);border-radius:8px;padding:16px}
+  .rb-num{font-family:var(--f-gro);font-size:26px;font-weight:600;margin-bottom:4px}
+  .rb-num.green{color:var(--green-br)}.rb-num.red{color:#e8928a}
+  .rb-label{font-family:var(--f-mono);font-size:11.5px;color:var(--t-faint)}
+  .results-divider{height:1px;background:var(--line-d2);margin:28px 0}
+  .results h3{font-family:var(--f-gro);font-size:21px;color:var(--t-hi);margin-bottom:8px}
+  .results p{font-size:14px;color:var(--t-dim);line-height:1.65;margin-bottom:18px}
+  .signup-label{font-family:var(--f-mono);font-size:12px;color:var(--t-faint);margin-bottom:10px;display:block}
+  .signup-form{display:flex;gap:8px;max-width:420px;margin:0 auto 8px}
+  .signup-form input{flex:1;padding:13px 16px;font-family:var(--f-mono);font-size:14px;border:1px solid var(--line-d);border-radius:3px;outline:none;background:rgba(255,255,255,.04);color:var(--t-hi)}
+  .signup-form input:focus{border-color:var(--green)}
+  .signup-form input::placeholder{color:var(--t-faint)}
+  .signup-form button{background:var(--green);color:#04130D;border:none;border-radius:3px;padding:13px 20px;font-family:var(--f-mono);font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap}
+  .signup-form button:hover{background:var(--green-br)}
+  .signup-note{font-family:var(--f-mono);font-size:11.5px;color:var(--t-faint);margin-bottom:22px;display:block}
+  .btn-back{display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--t-dim);border:1px solid var(--line-d);border-radius:3px;padding:11px 20px;font-family:var(--f-mono);font-size:13px;cursor:pointer;text-decoration:none}
+  .btn-back:hover{border-color:var(--green);color:var(--green-br)}
+  @media(max-width:480px){.signup-form{flex-direction:column}.signup-form button{width:100%}}
 </style>
 </head>
 <body>
 
+<div class="progress" id="progress"></div>
+
 <nav class="nav">
-  <div class="nav-inner">
-    <div class="nav-left">
-      <a href="index.html" class="logo">Mock<span>FRCS</span></a>
-      <div class="nav-links">
-        <a href="about.html" class="nav-link">How it works</a>
-        <a href="demo.html" class="nav-link">Try free demo</a>
-        <a href="revision.html" class="nav-link">Revision resources</a>
-      </div>
-    </div>
-    <div class="nav-right">
-      <a href="login.html" class="nav-link">Log in</a>
-      <a href="index.html#notify" class="nav-cta">Notify me</a>
-    </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" onclick="toggleNav()">&#9776;</button>
+  <div class="nav-in">
+    <a href="index.html" class="logo gro"><svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="wm">Mock<em>FRCS</em></span></a>
+    <div class="nav-links"><a href="about.html">How it works</a><a href="demo.html" class="on">Free paper</a><a href="revision.html">Revision</a><a href="pricing.html">Pricing</a></div>
+    <div class="nav-right"><a href="login.html" class="nav-login">Log in</a><a href="index.html#notify" class="btn btn-green btn-sm">Notify me <span class="ar">→</span></a></div>
+    <button class="nav-tog" aria-label="Menu" onclick="toggleNav()">&#9776;</button>
   </div>
-  <div class="nav-mobile" id="navMobile">
-    <a href="about.html">How it works</a>
-    <a href="demo.html">Try free demo</a>
-    <a href="revision.html">Revision resources</a>
-    <a href="login.html">Log in</a>
-    <a href="index.html#notify">Notify me</a>
-  </div>
+  <div class="nav-mob" id="navMob"><a href="about.html">How it works</a><a href="demo.html">Free paper</a><a href="revision.html">Revision</a><a href="pricing.html">Pricing</a><a href="login.html">Log in</a><a href="index.html#notify">Notify me</a></div>
 </nav>
 
-<div class="demo-section">
-  <div class="demo-header">
-    <div class="section-label">Free Demo</div>
-    <h1>10 Sample Questions</h1>
-    <p>FRCS Part 1 General Surgery &middot; SBA format &middot; Answers &amp; explanations after each question</p>
+<header class="phero" style="padding-bottom:clamp(24px,3vw,36px)">
+  <div class="wrap">
+    <span class="eyebrow reveal"><span class="pulse"></span>Free demo</span>
+    <h1 class="gro reveal d1">10 sample <span class="g">questions</span>.</h1>
+    <p class="lede reveal d2" style="font-family:var(--f-mono);font-size:13px;letter-spacing:.3px">FRCS PART 1 · GENERAL SURGERY · SBA FORMAT · ANSWERS AFTER EACH QUESTION</p>
   </div>
+</header>
 
+<div class="demo-wrap">
   <div class="demo-progress">
     <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
     <div class="progress-label" id="progressLabel">0 / 10</div>
   </div>
-
   <div id="questionContainer"></div>
   <div class="results" id="results"></div>
 </div>
 
-<footer>
-  <p>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</p>
-  <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a href="index.html" class="logo gro"><svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="wm">Mock<em>FRCS</em></span></a>
+        <p>Realistic mock examinations for the FRCS Part 1 General Surgery exam. An independent educational resource.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col"><h4>Product</h4><a href="about.html">How it works</a><a href="demo.html">Free paper</a><a href="pricing.html">Pricing</a></div>
+        <div class="foot-col"><h4>Revision</h4><a href="revision.html">Resources</a><a href="posters.html">Posters</a></div>
+        <div class="foot-col"><h4>Account</h4><a href="login.html">Log in</a><a href="index.html#notify">Notify me</a></div>
+      </div>
+    </div>
+    <div class="foot-bot"><span>© 2026 MOCKFRCS.CO.UK · FOR EDUCATIONAL PURPOSES ONLY</span><a href="mailto:hello@mockfrcs.co.uk" style="color:var(--green-br)">HELLO@MOCKFRCS.CO.UK</a></div>
+  </div>
 </footer>
 
+<script src="brand.js"></script>
 <script>
 const questions = [
   { topic: "Vascular Surgery", stem: "A 67-year-old man presents to the emergency department with a 6-hour history of severe central abdominal pain radiating to the back. He is a known hypertensive and smoker. On examination he is haemodynamically unstable with a pulsatile, expansile abdominal mass. CT is unavailable.", ask: "What is the most appropriate immediate management?", options: ["Urgent CT angiography of the abdomen and pelvis", "IV access, crossmatch 6 units, immediate transfer to theatre for open repair", "IV access, commence IV fluids to maintain systolic >120mmHg, arrange urgent CT", "Catheterise, commence IV fluids, refer to vascular surgery for review", "Bedside ultrasound to confirm diagnosis prior to theatre"], correct: 1, explanation: "This is a ruptured abdominal aortic aneurysm (rAAA) until proven otherwise. The triad of severe abdominal/back pain, haemodynamic instability, and a pulsatile expansile mass is classic. CT is unavailable and the patient is unstable — there is no time for further imaging. The target is permissive hypotension (systolic 50-70mmHg), not aggressive fluid resuscitation which worsens coagulopathy. Immediate transfer to theatre is mandatory — mortality increases significantly with any delay." },
@@ -210,7 +165,7 @@ function selectOption(i) {
   selectedOption = i;
   document.querySelectorAll('.option').forEach((el, idx) => {
     el.className = 'option' + (idx === i ? ' selected' : '');
-    el.querySelector('.opt-letter').style.cssText = idx === i ? 'background:#185FA5;color:#fff;border-color:#185FA5' : '';
+    el.querySelector('.opt-letter').style.cssText = idx === i ? 'background:#17B98C;color:#04130D;border-color:#17B98C' : '';
   });
   document.getElementById('submitBtn').disabled = false;
 }
@@ -223,8 +178,8 @@ function submitAnswer() {
   if (correct) score++;
   document.querySelectorAll('.option').forEach((el, idx) => {
     el.classList.add('disabled');
-    if (idx === q.correct) { el.className = 'option correct disabled'; el.querySelector('.opt-letter').style.cssText = 'background:#3B6D11;color:#fff;border-color:#3B6D11'; }
-    else if (idx === selectedOption && !correct) { el.className = 'option incorrect disabled'; el.querySelector('.opt-letter').style.cssText = 'background:#A32D2D;color:#fff;border-color:#A32D2D'; }
+    if (idx === q.correct) { el.className = 'option correct disabled'; el.querySelector('.opt-letter').style.cssText = 'background:#17B98C;color:#04130D;border-color:#17B98C'; }
+    else if (idx === selectedOption && !correct) { el.className = 'option incorrect disabled'; el.querySelector('.opt-letter').style.cssText = 'background:#D0493E;color:#fff;border-color:#D0493E'; }
     else { el.className = 'option disabled'; el.querySelector('.opt-letter').style.cssText = ''; }
   });
   const exp = document.getElementById('explanation');
@@ -246,12 +201,10 @@ function showResults() {
   document.getElementById('progressLabel').textContent = '10 / 10';
   const pct = Math.round(score / questions.length * 100);
   const incorrect = questions.length - score;
-  const emoji = pct >= 70 ? '&#127881;' : pct >= 50 ? '&#128077;' : '&#128218;';
   const msg = pct >= 70 ? 'Great work — well above the pass mark.' : pct >= 50 ? 'A solid start — keep revising.' : 'Plenty to work on — this is exactly what mock exams are for.';
   const results = document.getElementById('results');
   results.innerHTML = `
-    <div class="results-icon">${emoji}</div>
-    <h2>Demo complete</h2>
+    <div class="eyebrow"><span class="pulse"></span>Demo complete</div>
     <div class="results-score">${pct}%</div>
     <div class="results-sub">${score} / ${questions.length} correct &middot; ${msg}</div>
     <div class="results-breakdown">
@@ -260,7 +213,7 @@ function showResults() {
       <div class="rb-card"><div class="rb-num">${pct}%</div><div class="rb-label">Score</div></div>
     </div>
     <div class="results-divider"></div>
-    <h3>Ready for the full exams?</h3>
+    <h3 class="gro">Ready for the full exams?</h3>
     <p>MockFRCS launches soon with 5 full mock exams — two timed papers of 120 SBA questions each, written and reviewed by surgeons.</p>
     <p>Sign up below and we'll email you the moment we go live.</p>
     <span class="signup-label">Get notified when we launch</span>
@@ -278,9 +231,6 @@ function showResults() {
 }
 
 renderQuestion();
-</script>
-<script>
-function toggleNav(){document.getElementById('navMobile').classList.toggle('open');}
 </script>
 </body>
 </html>

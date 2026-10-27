@@ -8,161 +8,374 @@
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="shortcut icon" href="favicon.ico">
-<title>MockFRCS &mdash; Coming Soon</title>
-<meta name="description" content="MockFRCS is coming soon. Five full mock exams for FRCS Part 1 General Surgery — timed SBA papers written and reviewed by surgeons. Sign up to be notified when we launch.">
+<title>MockFRCS &mdash; Realistic FRCS Part 1 mock exams</title>
+<meta name="description" content="Five full mock exams for FRCS Part 1 General Surgery — timed, surgeon-written SBA papers mapped to the JCST curriculum. Launching 2026.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { height: 100%; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #fff; color: #1a1a18; display: flex; flex-direction: column; min-height: 100vh; }
+  :root{
+    --bg:#06110D; --bg-2:#0A1813; --surface:#0E211A; --surface-2:#0B1C16;
+    --paper:#F3F5F1; --paper-2:#E9ECE5;
+    --ink:#0A140F; --ink-2:#44504A;
+    --t-hi:#ECF2EE; --t-dim:#8CA298; --t-faint:#5C6F66;
+    --green:#17B98C; --green-br:#2BD6A4; --green-deep:#0C6B60; --mint:#5BE6BC;
+    --amber:#E0922B;
+    --line-d:rgba(255,255,255,.10); --line-d2:rgba(255,255,255,.06);
+    --line-l:rgba(10,20,15,.14); --line-l2:rgba(10,20,15,.08);
+    --f-gro:'Space Grotesk',system-ui,sans-serif;
+    --f-mono:'IBM Plex Mono',ui-monospace,monospace;
+    --f-sans:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
+    --gut:clamp(20px,5vw,52px); --maxw:1200px;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--f-sans);background:var(--bg);color:var(--t-hi);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .gro{font-family:var(--f-gro)} .mono{font-family:var(--f-mono)}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--green);color:#03120C}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gut)}
 
-.nav { border-bottom: 0.5px solid rgba(0,0,0,0.08); }
-.nav-inner { max-width: 1000px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.nav-left { display: flex; align-items: center; gap: 28px; }
-.logo { font-size: 18px; font-weight: 600; color: #1a1a18; text-decoration: none; }
-.logo span { color: #185FA5; }
-.nav-links { display: flex; align-items: center; gap: 22px; }
-.nav-link { font-size: 13px; color: #555; text-decoration: none; transition: color 0.15s; white-space: nowrap; }
-.nav-link:hover { color: #1a1a18; }
-.nav-right { display: flex; align-items: center; gap: 16px; }
-.nav-cta { font-size: 13px; font-weight: 500; background: #185FA5; color: #fff; padding: 7px 15px; border-radius: 8px; white-space: nowrap; text-decoration: none; transition: background 0.15s; }
-.nav-cta:hover { background: #0C447C; }
-.nav-toggle { display: none; background: none; border: none; font-size: 22px; cursor: pointer; color: #1a1a18; line-height: 1; }
-.nav-mobile { display: none; flex-direction: column; padding: 6px 24px 14px; border-top: 0.5px solid rgba(0,0,0,0.06); }
-.nav-mobile.open { display: flex; }
-.nav-mobile a { font-size: 15px; color: #444; padding: 11px 2px; border-bottom: 0.5px solid rgba(0,0,0,0.05); text-decoration: none; }
-.nav-mobile a:last-child { border-bottom: none; color: #185FA5; font-weight: 500; }
-@media (max-width: 640px) { .nav-links, .nav-right { display: none; } .nav-toggle { display: block; } }
+  /* scroll progress */
+  .progress{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,var(--green),var(--mint));width:0;z-index:200;transition:width .1s linear}
 
-.main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 48px 24px; }
-.content { max-width: 580px; width: 100%; }
+  /* nav */
+  .nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,17,13,.6);backdrop-filter:saturate(1.3) blur(14px);border-bottom:1px solid var(--line-d2)}
+  .nav-in{max-width:var(--maxw);margin:0 auto;padding:14px var(--gut);display:flex;align-items:center;justify-content:space-between;gap:28px}
+  .logo{display:flex;align-items:center;gap:10px;font-family:var(--f-gro);font-weight:700;font-size:19px;letter-spacing:-.4px;color:var(--t-hi)}
+  .logo .mk{width:22px;height:22px;flex-shrink:0}
+  .logo .wm em{color:var(--green-br);font-style:normal}
+  .nav-links{display:flex;gap:28px}
+  .nav-links a{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.3px;color:var(--t-dim);text-transform:uppercase;transition:color .18s}
+  .nav-links a:hover{color:var(--t-hi)}
+  .nav-right{display:flex;align-items:center;gap:20px}
+  .nav-login{font-family:var(--f-mono);font-size:12.5px;color:var(--t-dim);transition:color .18s}
+  .nav-login:hover{color:var(--t-hi)}
+  .btn{position:relative;display:inline-flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:13px;font-weight:500;letter-spacing:.2px;padding:11px 20px;border-radius:2px;cursor:pointer;border:1px solid transparent;transition:transform .18s cubic-bezier(.2,.7,.3,1),background .18s,color .18s,border-color .18s}
+  .btn .ar{transition:transform .22s cubic-bezier(.2,.7,.3,1)}
+  .btn:hover .ar{transform:translateX(4px)}
+  .btn-green{background:var(--green);color:#04130D}
+  .btn-green:hover{background:var(--green-br);transform:translateY(-1px)}
+  .btn-sm{padding:9px 15px;font-size:12px}
+  .btn-ghost-d{border-color:var(--line-d);color:var(--t-hi);background:transparent}
+  .btn-ghost-d:hover{border-color:var(--green);color:var(--green-br)}
+  .nav-tog{display:none;background:none;border:none;color:var(--t-hi);font-size:21px;cursor:pointer}
+  .nav-mob{display:none;flex-direction:column;padding:4px var(--gut) 16px;border-top:1px solid var(--line-d2);background:rgba(6,17,13,.95)}
+  .nav-mob a{font-family:var(--f-mono);font-size:14px;text-transform:uppercase;color:var(--t-dim);padding:12px 0;border-bottom:1px solid var(--line-d2)}
+  .nav-mob.open{display:flex}
 
-.hero { text-align: center; margin-bottom: 36px; }
-.coming-label { display: inline-block; font-size: 11px; font-weight: 600; color: #185FA5; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px; }
-h1 { font-size: 36px; font-weight: 600; letter-spacing: -0.8px; line-height: 1.15; margin-bottom: 14px; }
-h1 span { color: #185FA5; }
-.subtitle { font-size: 16px; color: #555; line-height: 1.65; margin-bottom: 0; }
+  /* hero */
+  .hero{position:relative;padding:clamp(140px,20vh,200px) 0 clamp(60px,9vw,110px);text-align:center;overflow:hidden}
+  .hero::before{content:"";position:absolute;top:-30%;left:50%;transform:translateX(-50%);width:120vw;height:90vh;background:radial-gradient(ellipse 50% 50% at 50% 35%,rgba(43,214,164,.18),rgba(43,214,164,.04) 45%,transparent 70%);pointer-events:none;z-index:0}
+  .hero::after{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");opacity:.035;pointer-events:none;z-index:1;mix-blend-mode:overlay}
+  .hero .wrap{position:relative;z-index:2}
+  .eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:var(--f-mono);font-size:12px;letter-spacing:1.5px;color:var(--green-br);text-transform:uppercase;border:1px solid var(--line-d);border-radius:40px;padding:7px 15px;background:rgba(43,214,164,.05)}
+  .eyebrow .pulse{width:6px;height:6px;border-radius:50%;background:var(--green-br);box-shadow:0 0 0 0 rgba(43,214,164,.6);animation:pulse 2.4s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(43,214,164,.5)}70%{box-shadow:0 0 0 7px rgba(43,214,164,0)}100%{box-shadow:0 0 0 0 rgba(43,214,164,0)}}
+  .hero h1{font-family:var(--f-gro);font-weight:600;font-size:clamp(44px,8.5vw,104px);line-height:.98;letter-spacing:-.035em;margin:30px auto 0;max-width:15ch}
+  .hero h1 .g{color:var(--green-br)}
+  .hero .lede{font-size:clamp(16px,2vw,20px);color:var(--t-dim);line-height:1.6;max-width:600px;margin:26px auto 0}
+  .hero-cta{display:flex;gap:14px;justify-content:center;margin-top:38px;flex-wrap:wrap}
+  .hero-cta .btn{padding:15px 26px;font-size:14px}
+  .trust{margin-top:30px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.4px;color:var(--t-faint);text-transform:uppercase}
+  .trust b{color:var(--t-dim);font-weight:500}
 
-/* Notify section */
-.notify-section { text-align: center; background: #f7f7f5; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 28px 24px; margin-bottom: 28px; }
-.notify-label { font-size: 15px; font-weight: 600; color: #1a1a18; margin-bottom: 5px; display: block; }
-.notify-sub { font-size: 13px; color: #666; margin-bottom: 16px; display: block; line-height: 1.55; }
-.notify-form { display: flex; gap: 8px; max-width: 420px; margin: 0 auto 8px; }
-.notify-form input { flex: 1; padding: 11px 16px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; background: #fff; }
-.notify-form input:focus { border-color: #185FA5; }
-.notify-form input::placeholder { color: #bbb; }
-.notify-form button { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px 20px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; white-space: nowrap; transition: background 0.15s; }
-.notify-form button:hover { background: #0C447C; }
-.notify-note { font-size: 12px; color: #aaa; }
+  /* device */
+  .device{position:relative;z-index:2;max-width:560px;margin:clamp(48px,7vw,80px) auto 0;border-radius:12px;background:linear-gradient(180deg,var(--surface),var(--surface-2));border:1px solid var(--line-d);box-shadow:0 2px 0 rgba(255,255,255,.03) inset,0 40px 90px -40px rgba(0,0,0,.8),0 0 70px -30px rgba(43,214,164,.35);overflow:hidden}
+  .dev-head{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--line-d2)}
+  .dev-dots{display:flex;gap:6px}
+  .dev-dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.14)}
+  .dev-lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.5px;color:var(--t-faint)}
+  .dev-time{font-family:var(--f-mono);font-size:13px;font-weight:600;color:var(--green-br);letter-spacing:.5px;display:flex;align-items:center;gap:6px}
+  .dev-prog{display:flex;align-items:center;gap:12px;padding:14px 18px 0}
+  .dev-track{flex:1;height:3px;background:rgba(255,255,255,.1);border-radius:3px;overflow:hidden}
+  .dev-track i{display:block;height:100%;width:12%;background:linear-gradient(90deg,var(--green),var(--mint));border-radius:3px}
+  .dev-q{font-family:var(--f-mono);font-size:11px;color:var(--t-faint)}
+  .dev-body{padding:18px;text-align:left}
+  .dev-stem{font-size:13.5px;line-height:1.6;color:var(--t-hi);margin-bottom:15px}
+  .dev-opt{display:flex;align-items:center;gap:11px;padding:11px 13px;border:1px solid var(--line-d2);border-radius:7px;margin-bottom:8px;transition:border-color .2s,background .2s}
+  .dev-opt .k{font-family:var(--f-mono);font-size:11px;color:var(--t-faint)}
+  .dev-opt .t{font-size:12.5px;color:var(--t-dim)}
+  .dev-opt.on{border-color:var(--green);background:rgba(23,185,140,.1)}
+  .dev-opt.on .k{color:var(--green-br);font-weight:600}
+  .dev-opt.on .t{color:var(--t-hi)}
 
-.features { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 28px; }
-.feature-pill { display: flex; align-items: center; gap: 7px; background: #f7f7f5; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 20px; padding: 6px 14px; font-size: 12px; color: #333; }
-.feature-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: #185FA5; flex-shrink: 0; }
+  /* marquee */
+  .marq{border-top:1px solid var(--line-d2);border-bottom:1px solid var(--line-d2);padding:16px 0;overflow:hidden;position:relative;z-index:2;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+  .marq-tr{display:flex;gap:0;width:max-content;animation:scroll 40s linear infinite}
+  .marq-tr span{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.5px;color:var(--t-dim);text-transform:uppercase;padding:0 26px;display:flex;align-items:center;gap:26px;white-space:nowrap}
+  .marq-tr span::after{content:"";width:4px;height:4px;border-radius:50%;background:var(--green)}
+  @keyframes scroll{to{transform:translateX(-50%)}}
 
-.contact { font-size: 13px; color: #aaa; text-align: center; }
-.contact a { color: #185FA5; text-decoration: none; }
+  /* light sections */
+  .light{background:var(--paper);color:var(--ink)}
+  .sec{padding:clamp(72px,11vw,140px) 0}
+  .lead-eye{font-family:var(--f-mono);font-size:12px;letter-spacing:1px;color:var(--green-deep);text-transform:uppercase}
 
-footer { padding: 20px 32px; border-top: 0.5px solid rgba(0,0,0,0.08); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-footer p { font-size: 12px; color: #bbb; }
-footer a { font-size: 12px; color: #bbb; text-decoration: none; }
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(24px,4vw,56px);border-top:1px solid var(--line-l)}
+  .stat{padding-top:30px}
+  .stat .n{font-family:var(--f-gro);font-weight:600;font-size:clamp(40px,6vw,76px);letter-spacing:-.04em;line-height:1;background:linear-gradient(180deg,var(--ink),#2c3a33);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .l{font-family:var(--f-mono);font-size:12px;color:var(--ink-2);margin-top:12px;line-height:1.5}
+  .stats-head{max-width:620px;margin-bottom:46px}
+  .stats-head h2{font-family:var(--f-gro);font-weight:600;font-size:clamp(28px,4vw,46px);letter-spacing:-.03em;line-height:1.05;margin-top:16px}
 
-@media (max-width: 480px) {
-  h1 { font-size: 28px; }
-  .notify-form { flex-direction: column; }
-  .notify-form button { width: 100%; }
-  footer { flex-direction: column; align-items: flex-start; }
-}
+  /* steps */
+  .steps{margin-top:0}
+  .step{display:grid;grid-template-columns:120px 1fr;gap:clamp(16px,4vw,48px);padding:clamp(28px,4vw,42px) 0;border-top:1px solid var(--line-l);align-items:start}
+  .step:last-child{border-bottom:1px solid var(--line-l)}
+  .step .sn{font-family:var(--f-gro);font-weight:600;font-size:clamp(34px,5vw,60px);letter-spacing:-.04em;color:var(--green-deep);line-height:1}
+  .step h3{font-family:var(--f-gro);font-weight:600;font-size:clamp(20px,2.6vw,27px);letter-spacing:-.02em;margin-bottom:12px}
+  .step p{font-size:15.5px;color:var(--ink-2);line-height:1.7;max-width:560px}
+  .step .kw{font-family:var(--f-mono);font-size:11px;letter-spacing:.8px;color:var(--green-deep);text-transform:uppercase;margin-bottom:14px;display:block}
+
+  /* coverage */
+  .cov-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:40px}
+  .cov-head h2{font-family:var(--f-gro);font-weight:600;font-size:clamp(28px,4vw,46px);letter-spacing:-.03em;line-height:1.05;margin-top:16px}
+  .cov-head .note{font-family:var(--f-mono);font-size:12.5px;color:var(--ink-2)}
+  .cov-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-l);border-left:1px solid var(--line-l)}
+  .cov-cell{padding:22px 20px;border-bottom:1px solid var(--line-l);border-right:1px solid var(--line-l);display:flex;align-items:baseline;gap:12px;transition:background .2s}
+  .cov-cell:hover{background:var(--paper-2)}
+  .cov-cell .cn{font-family:var(--f-mono);font-size:11px;color:var(--green-deep)}
+  .cov-cell .cs{font-family:var(--f-gro);font-weight:500;font-size:16px}
+
+  /* closing */
+  .close{position:relative;overflow:hidden;padding:clamp(80px,12vw,150px) 0;text-align:center}
+  .close::before{content:"";position:absolute;bottom:-40%;left:50%;transform:translateX(-50%);width:110vw;height:80vh;background:radial-gradient(ellipse 50% 50% at 50% 70%,rgba(43,214,164,.16),transparent 65%);pointer-events:none}
+  .close .wrap{position:relative;z-index:2}
+  .close h2{font-family:var(--f-gro);font-weight:600;font-size:clamp(32px,6vw,68px);letter-spacing:-.035em;line-height:1;max-width:14ch;margin:16px auto 0}
+  .close p{color:var(--t-dim);font-size:clamp(15px,1.8vw,18px);margin:22px auto 0;max-width:460px}
+  .form{display:flex;gap:10px;max-width:460px;margin:34px auto 0}
+  .form input{flex:1;background:rgba(255,255,255,.04);border:1px solid var(--line-d);border-radius:3px;padding:15px 18px;font-family:var(--f-mono);font-size:14px;color:var(--t-hi);outline:none;transition:border-color .2s}
+  .form input::placeholder{color:var(--t-faint)}
+  .form input:focus{border-color:var(--green)}
+  .form button{font-family:var(--f-mono);font-size:14px;font-weight:500;background:var(--green);color:#04130D;border:none;border-radius:3px;padding:15px 24px;cursor:pointer;transition:background .18s,transform .18s}
+  .form button:hover{background:var(--green-br);transform:translateY(-1px)}
+  .fine{font-family:var(--f-mono);font-size:11.5px;color:var(--t-faint);margin-top:16px;letter-spacing:.3px}
+
+  /* footer */
+  footer{border-top:1px solid var(--line-d2);padding:48px 0 36px}
+  .foot-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;margin-bottom:40px}
+  .foot-brand{max-width:280px}
+  .foot-brand p{font-size:13px;color:var(--t-faint);line-height:1.6;margin-top:14px}
+  .foot-cols{display:flex;gap:clamp(40px,8vw,88px);flex-wrap:wrap}
+  .foot-col h4{font-family:var(--f-mono);font-size:11px;letter-spacing:.8px;color:var(--t-faint);text-transform:uppercase;margin-bottom:14px}
+  .foot-col a{display:block;font-size:14px;color:var(--t-dim);padding:5px 0;transition:color .18s}
+  .foot-col a:hover{color:var(--green-br)}
+  .foot-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;border-top:1px solid var(--line-d2);font-family:var(--f-mono);font-size:11px;color:var(--t-faint);letter-spacing:.3px}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1)}
+  .reveal.in{opacity:1;transform:none}
+  .d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.marq-tr{animation:none}.eyebrow .pulse{animation:none}}
+
+  @media(max-width:860px){
+    .nav-links,.nav-login{display:none}
+    .nav-tog{display:block}
+    .stats{grid-template-columns:1fr 1fr;gap:28px}
+    .cov-grid{grid-template-columns:1fr 1fr}
+    .step{grid-template-columns:1fr;gap:10px}
+    .step .sn{font-size:34px}
+  }
+  @media(max-width:480px){
+    .cov-grid{grid-template-columns:1fr}
+    .form{flex-direction:column}
+    .hero h1{letter-spacing:-.02em}
+  }
 </style>
 </head>
 <body>
 
+<div class="progress" id="progress"></div>
+
 <nav class="nav">
-  <div class="nav-inner">
-    <div class="nav-left">
-      <a href="index.html" class="logo">Mock<span>FRCS</span></a>
-      <div class="nav-links">
-        <a href="about.html" class="nav-link">How it works</a>
-        <a href="demo.html" class="nav-link">Try free demo</a>
-        <a href="revision.html" class="nav-link">Revision resources</a>
-      </div>
+  <div class="nav-in">
+    <a href="index.html" class="logo gro">
+      <svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/><path d="M8.5 12.5l2.2 2.2 4.3-4.6" stroke="#EcF2EE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"/></svg>
+      <span class="wm">Mock<em>FRCS</em></span>
+    </a>
+    <div class="nav-links">
+      <a href="about.html">How it works</a>
+      <a href="demo.html">Free paper</a>
+      <a href="revision.html">Revision</a>
+      <a href="pricing.html">Pricing</a>
     </div>
     <div class="nav-right" id="navRight">
-      <a href="login.html" class="nav-link">Log in</a>
-      <a href="#notify" class="nav-cta">Notify me</a>
+      <a href="login.html" class="nav-login">Log in</a>
+      <a href="#notify" class="btn btn-green btn-sm">Notify me <span class="ar">→</span></a>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" onclick="toggleNav()">&#9776;</button>
+    <button class="nav-tog" id="navTog" aria-label="Menu" onclick="document.getElementById('navMob').classList.toggle('open')">&#9776;</button>
   </div>
-  <div class="nav-mobile" id="navMobile">
+  <div class="nav-mob" id="navMob">
     <a href="about.html">How it works</a>
-    <a href="demo.html">Try free demo</a>
-    <a href="revision.html">Revision resources</a>
+    <a href="demo.html">Free paper</a>
+    <a href="revision.html">Revision</a>
+    <a href="pricing.html">Pricing</a>
     <a href="login.html">Log in</a>
     <a href="#notify">Notify me</a>
   </div>
 </nav>
 
-<main class="main">
-  <div class="content">
-
-    <div class="hero">
-      <div class="coming-label">Coming Soon</div>
-      <h1>Realistic <span>FRCS</span> prep<br>is on its way</h1>
-      <p class="subtitle">Five full mock exams for FRCS Part 1 General Surgery &mdash; two timed papers of 120 SBA questions each, written and reviewed by surgeons.</p>
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow reveal"><span class="pulse"></span>FRCS Part 1 · General Surgery · Launching 2026</span>
+    <h1 class="reveal d1">Five full rehearsals.<br><span class="g">Then the real thing.</span></h1>
+    <p class="lede reveal d2">Timed, surgeon-written mock papers for FRCS Part 1 General Surgery — mapped to the JCST curriculum and marked the moment you submit.</p>
+    <div class="hero-cta reveal d3">
+      <a href="#notify" class="btn btn-green">Get launch access <span class="ar">→</span></a>
+      <a href="demo.html" class="btn btn-ghost-d">Try a free paper</a>
     </div>
+    <div class="trust reveal d4">Written &amp; reviewed by <b>practising surgeons</b></div>
 
-    <div class="notify-section" id="notify">
-      <span class="notify-label">Be the first to know when we launch</span>
-      <span class="notify-sub">Sign up and we'll email you the moment MockFRCS goes live.</span>
-      <form action="https://mockfrcs.us2.list-manage.com/subscribe/post?u=f7ca65907234f835274a65b67&amp;id=9c974c11d8&amp;f_id=004ef4e3f0" method="post" target="_blank" novalidate>
-        <div class="notify-form">
-          <input type="email" name="EMAIL" placeholder="your@email.com" required />
-          <div aria-hidden="true" style="position:absolute;left:-5000px;"><input type="text" name="b_f7ca65907234f835274a65b67_9c974c11d8" tabindex="-1" value=""></div>
-          <button type="submit">Notify me</button>
-        </div>
-      </form>
-      <p class="notify-note">No spam. One email when MockFRCS goes live.</p>
+    <!-- device -->
+    <div class="device reveal d3">
+      <div class="dev-head">
+        <div class="dev-dots"><i></i><i></i><i></i></div>
+        <span class="dev-lbl">PAPER 1 · SBA</span>
+        <span class="dev-time"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#2BD6A4" stroke-width="2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 1h6"/></svg><span id="clock">02:14:58</span></span>
+      </div>
+      <div class="dev-prog"><div class="dev-track"><i></i></div><span class="dev-q">Q14 / 120</span></div>
+      <div class="dev-body">
+        <p class="dev-stem">A 68-year-old man presents with 3 days of colicky abdominal pain and absolute constipation. CT shows a sigmoid volvulus with no perforation or ischaemia. Most appropriate initial management?</p>
+        <div class="dev-opt"><span class="k">A</span><span class="t">Emergency laparotomy and sigmoid colectomy</span></div>
+        <div class="dev-opt on"><span class="k">B</span><span class="t">Endoscopic decompression and flatus tube</span></div>
+        <div class="dev-opt"><span class="k">C</span><span class="t">Hartmann's procedure</span></div>
+      </div>
     </div>
-
-    <div class="features">
-      <div class="feature-pill"><div class="dot"></div>5 full mock exams</div>
-      <div class="feature-pill"><div class="dot"></div>120 SBA questions per paper</div>
-      <div class="feature-pill"><div class="dot"></div>2h 15m timed conditions</div>
-      <div class="feature-pill"><div class="dot"></div>Surgeon-authored &amp; reviewed</div>
-    </div>
-
-    <p class="contact">Questions? <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a></p>
-
   </div>
-</main>
+</header>
+
+<!-- marquee -->
+<div class="marq">
+  <div class="marq-tr">
+    <span>Colorectal</span><span>Oesophago-gastric</span><span>HPB</span><span>Breast</span><span>Endocrine</span><span>Emergency GS</span><span>Trauma</span><span>Critical care</span><span>Anatomy</span><span>Vascular</span><span>Transplant</span><span>Paediatric</span><span>Hernia &amp; abdominal wall</span><span>Elective &amp; skin</span>
+    <span>Colorectal</span><span>Oesophago-gastric</span><span>HPB</span><span>Breast</span><span>Endocrine</span><span>Emergency GS</span><span>Trauma</span><span>Critical care</span><span>Anatomy</span><span>Vascular</span><span>Transplant</span><span>Paediatric</span><span>Hernia &amp; abdominal wall</span><span>Elective &amp; skin</span>
+  </div>
+</div>
+
+<!-- STATS + STEPS -->
+<section class="light">
+  <div class="wrap sec">
+    <div class="stats-head reveal">
+      <span class="lead-eye">// The papers</span>
+      <h2 class="gro">Built to the exam, down to the minute.</h2>
+    </div>
+    <div class="stats">
+      <div class="stat reveal"><div class="n gro">05</div><div class="l">full mock exams</div></div>
+      <div class="stat reveal d1"><div class="n gro">600</div><div class="l">SBA questions</div></div>
+      <div class="stat reveal d2"><div class="n gro">2×120</div><div class="l">questions per exam</div></div>
+      <div class="stat reveal d3"><div class="n gro">2:15</div><div class="l">hours per paper, timed</div></div>
+    </div>
+
+    <div class="steps" style="margin-top:clamp(56px,8vw,96px)">
+      <div class="step reveal">
+        <div class="sn gro">01</div>
+        <div><span class="kw">Sit</span><h3 class="gro">Exam conditions, exactly</h3><p>Two timed papers of 120 single-best-answer questions, 2 hours 15 minutes on the clock. No pausing, no second-guessing the format on the day.</p></div>
+      </div>
+      <div class="step reveal">
+        <div class="sn gro">02</div>
+        <div><span class="kw">Mark</span><h3 class="gro">Scored the moment you submit</h3><p>Instant results mapped to the pass standard and broken down by topic, so you know exactly where you stand against the real bar — not a vague percentage.</p></div>
+      </div>
+      <div class="step reveal">
+        <div class="sn gro">03</div>
+        <div><span class="kw">Review</span><h3 class="gro">Every answer, worked through</h3><p>A full explanation for each item — the reasoning and the guideline behind it, written by the surgeon who set the question.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COVERAGE -->
+<section class="light" style="background:var(--paper-2)">
+  <div class="wrap sec">
+    <div class="cov-head reveal">
+      <div>
+        <span class="lead-eye">// Coverage</span>
+        <h2 class="gro">Every section the JCST examines.</h2>
+      </div>
+      <span class="note">14 sections · weighted like the real paper</span>
+    </div>
+    <div class="cov-grid reveal d1">
+      <div class="cov-cell"><span class="cn">01</span><span class="cs gro">Colorectal</span></div>
+      <div class="cov-cell"><span class="cn">02</span><span class="cs gro">Oesophago-gastric</span></div>
+      <div class="cov-cell"><span class="cn">03</span><span class="cs gro">HPB</span></div>
+      <div class="cov-cell"><span class="cn">04</span><span class="cs gro">Breast</span></div>
+      <div class="cov-cell"><span class="cn">05</span><span class="cs gro">Endocrine</span></div>
+      <div class="cov-cell"><span class="cn">06</span><span class="cs gro">Emergency GS</span></div>
+      <div class="cov-cell"><span class="cn">07</span><span class="cs gro">Trauma</span></div>
+      <div class="cov-cell"><span class="cn">08</span><span class="cs gro">Critical care</span></div>
+      <div class="cov-cell"><span class="cn">09</span><span class="cs gro">Anatomy</span></div>
+      <div class="cov-cell"><span class="cn">10</span><span class="cs gro">Vascular</span></div>
+      <div class="cov-cell"><span class="cn">11</span><span class="cs gro">Transplant</span></div>
+      <div class="cov-cell"><span class="cn">12</span><span class="cs gro">Paediatric</span></div>
+      <div class="cov-cell"><span class="cn">13</span><span class="cs gro">Hernia &amp; abdo wall</span></div>
+      <div class="cov-cell"><span class="cn">14</span><span class="cs gro">Elective &amp; skin</span></div>
+      <div class="cov-cell" style="background:transparent"></div>
+      <div class="cov-cell" style="background:transparent"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING / NOTIFY -->
+<section class="close" id="notify">
+  <div class="wrap">
+    <span class="eyebrow reveal"><span class="pulse"></span>Launching 2026</span>
+    <h2 class="gro reveal d1">Be first to sit them.</h2>
+    <p class="reveal d2">Leave your email and we'll let you know the moment MockFRCS opens — one message, no spam.</p>
+    <form class="form reveal d2" action="https://mockfrcs.us2.list-manage.com/subscribe/post?u=f7ca65907234f835274a65b67&amp;id=9c974c11d8&amp;f_id=004ef4e3f0" method="post" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="you@hospital.nhs.uk" required>
+      <div aria-hidden="true" style="position:absolute;left:-5000px"><input type="text" name="b_f7ca65907234f835274a65b67_9c974c11d8" tabindex="-1" value=""></div>
+      <button type="submit">Notify me</button>
+    </form>
+    <div class="fine reveal d3">No spam · one message, the day MockFRCS goes live</div>
+  </div>
+</section>
 
 <footer>
-  <p>&copy; 2026 MockFRCS.co.uk</p>
-  <a href="mailto:hello@mockfrcs.co.uk">hello@mockfrcs.co.uk</a>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a href="index.html" class="logo gro"><svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="wm">Mock<em>FRCS</em></span></a>
+        <p>Realistic mock examinations for the FRCS Part 1 General Surgery exam. An independent educational resource.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Product</h4>
+          <a href="about.html">How it works</a>
+          <a href="demo.html">Free paper</a>
+          <a href="pricing.html">Pricing</a>
+        </div>
+        <div class="foot-col">
+          <h4>Revision</h4>
+          <a href="revision.html">Resources</a>
+          <a href="posters.html">Posters</a>
+        </div>
+        <div class="foot-col">
+          <h4>Account</h4>
+          <a href="login.html">Log in</a>
+          <a href="#notify">Notify me</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>© 2026 MOCKFRCS.CO.UK · FOR EDUCATIONAL PURPOSES ONLY</span>
+      <a href="mailto:hello@mockfrcs.co.uk" style="color:var(--green-br)">HELLO@MOCKFRCS.CO.UK</a>
+    </div>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="auth.js"></script>
 <script>
-function toggleNav() {
-  document.getElementById('navMobile').classList.toggle('open');
-}
-
-// If already logged in, keep them here but swap the nav to a dashboard link
-(async () => {
-  try {
-    const user = await getUser();
-    if (user) {
-      const nr = document.getElementById('navRight');
-      if (nr) nr.innerHTML = '<a href="dashboard.html" class="nav-cta">Go to dashboard</a>';
-      const nm = document.getElementById('navMobile');
-      if (nm) nm.innerHTML =
-        '<a href="about.html">How it works</a>' +
-        '<a href="demo.html">Try free demo</a>' +
-        '<a href="revision.html">Revision resources</a>' +
-        '<a href="dashboard.html">Go to dashboard</a>';
-    }
-  } catch (e) {}
-})();
+  // reveal on scroll
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  // scroll progress
+  var pr=document.getElementById('progress');
+  addEventListener('scroll',function(){var h=document.documentElement;var s=h.scrollTop/(h.scrollHeight-h.clientHeight);pr.style.width=(s*100)+'%';},{passive:true});
+  // ticking clock
+  (function(){var el=document.getElementById('clock');if(!el)return;var t=2*3600+14*60+58;setInterval(function(){t=t>0?t-1:0;var h=Math.floor(t/3600),m=Math.floor(t%3600/60),s=t%60;el.textContent=String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');},1000);})();
+  // logged-in swap
+  (async()=>{try{const u=await getUser();if(u){const nr=document.getElementById('navRight');if(nr)nr.innerHTML='<a href="dashboard.html" class="btn btn-green btn-sm">Dashboard <span class="ar">→</span></a>';}}catch(e){}})();
 </script>
-
 </body>
 </html>

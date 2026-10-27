@@ -3,50 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
 <title>MockFRCS — Set New Password</title>
-<style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
-.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
-.nav-inner { max-width: 480px; margin: 0 auto; display: flex; align-items: center; }
-.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
-.logo span { color: #185FA5; }
-.main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 24px; }
-.card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 36px; width: 100%; max-width: 420px; box-shadow: 0 2px 16px rgba(0,0,0,0.05); }
-.card-header { margin-bottom: 24px; }
-.card-header h1 { font-size: 22px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 6px; }
-.card-header p { font-size: 14px; color: #666; }
-.form-group { margin-bottom: 16px; }
-label { display: block; font-size: 13px; font-weight: 500; color: #333; margin-bottom: 6px; }
-input { width: 100%; padding: 11px 14px; font-size: 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; transition: border-color 0.15s; }
-input:focus { border-color: #185FA5; }
-input::placeholder { color: #bbb; }
-.btn-submit { width: 100%; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; margin-top: 8px; transition: background 0.15s; }
-.btn-submit:hover { background: #0C447C; }
-.btn-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
-.error-msg { display: none; background: #FCEBEB; color: #A32D2D; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
-.error-msg.show { display: block; }
-.success-msg { display: none; background: #EAF3DE; color: #3B6D11; border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
-.success-msg.show { display: block; }
-footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
-</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="brand.css">
 </head>
 <body>
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="logo">Mock<span>FRCS</span></a>
+
+<div class="auth-top">
+  <div class="in">
+    <a href="index.html" class="logo gro"><svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="wm">Mock<em>FRCS</em></span></a>
   </div>
-</nav>
-<main class="main">
-  <div class="card">
-    <div class="card-header">
-      <h1>Set a new password</h1>
-      <p>Choose a new password for your MockFRCS account.</p>
+</div>
+
+<main class="auth-main">
+  <div class="auth-card">
+    <div class="ah">
+      <h1 class="gro">Set a new password</h1>
+      <p class="sub">Choose a new password for your MockFRCS account.</p>
     </div>
     <div class="error-msg" id="errorMsg"></div>
     <div class="success-msg" id="successMsg"></div>
@@ -61,7 +39,9 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
     <button class="btn-submit" id="resetBtn" onclick="handleReset()">Set new password</button>
   </div>
 </main>
-<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+
+<div class="auth-foot">© 2026 MOCKFRCS.CO.UK · FOR EDUCATIONAL PURPOSES ONLY</div>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="auth.js"></script>
 <script>
@@ -71,16 +51,13 @@ async function handleReset() {
   const btn = document.getElementById('resetBtn');
   const errorMsg = document.getElementById('errorMsg');
   const successMsg = document.getElementById('successMsg');
-  errorMsg.classList.remove('show');
-  successMsg.classList.remove('show');
+  errorMsg.classList.remove('show'); successMsg.classList.remove('show');
   if (password.length < 8) { errorMsg.textContent = 'Password must be at least 8 characters.'; errorMsg.classList.add('show'); return; }
   if (password !== confirmPassword) { errorMsg.textContent = 'Passwords do not match.'; errorMsg.classList.add('show'); return; }
-  btn.disabled = true;
-  btn.textContent = 'Updating...';
+  btn.disabled = true; btn.textContent = 'Updating...';
   const { error } = await db.auth.updateUser({ password });
   if (error) { errorMsg.textContent = error.message; errorMsg.classList.add('show'); btn.disabled = false; btn.textContent = 'Set new password'; return; }
-  successMsg.textContent = 'Password updated successfully — redirecting to your dashboard...';
-  successMsg.classList.add('show');
+  successMsg.textContent = 'Password updated successfully — redirecting to your dashboard...'; successMsg.classList.add('show');
   setTimeout(() => window.location.href = 'dashboard.html', 2000);
 }
 </script>

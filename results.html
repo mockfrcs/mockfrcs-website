@@ -3,114 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
 <title>MockFRCS — Results</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="brand.css">
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
-.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); padding: 18px 24px; }
-.nav-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
-.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
-.logo span { color: #185FA5; }
-.nav-right { display: flex; gap: 10px; align-items: center; }
-.btn-dashboard { font-size: 13px; color: #888; text-decoration: none; }
-.btn-dashboard:hover { color: #1a1a18; }
-.btn-next-paper { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 8px 16px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block; }
-.main { max-width: 900px; margin: 0 auto; padding: 40px 24px; width: 100%; flex: 1; }
-.loading { text-align: center; padding: 60px; color: #888; font-size: 14px; }
+  .topbar{position:sticky;top:0;z-index:50;background:rgba(6,17,13,.9);backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line-d2)}
+  .topbar .in{max-width:920px;margin:0 auto;padding:14px var(--gut);display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .topbar .logo{font-size:18px}
+  .tb-right{display:flex;gap:14px;align-items:center}
+  .btn-dash{font-family:var(--f-mono);font-size:12.5px;color:var(--t-dim)}
+  .btn-dash:hover{color:var(--t-hi)}
+  .main{max-width:920px;margin:0 auto;padding:36px var(--gut) 72px;width:100%}
+  .loading{text-align:center;padding:70px;color:var(--t-dim);font-family:var(--f-mono)}
 
-/* Hero */
-.results-hero { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 28px; margin-bottom: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
-.results-hero-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 16px; }
-.result-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 20px; margin-bottom: 8px; }
-.result-badge.pass { background: #EAF3DE; color: #3B6D11; }
-.result-badge.fail { background: #FCEBEB; color: #A32D2D; }
-.results-hero h1 { font-size: 22px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 4px; }
-.results-hero .subtitle { font-size: 13px; color: #888; }
-.score-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-.score-card { background: #f7f7f5; border-radius: 8px; padding: 14px; }
-.score-label { font-size: 12px; color: #888; margin-bottom: 6px; }
-.score-val { font-size: 26px; font-weight: 600; letter-spacing: -0.5px; }
-.score-val.pass { color: #3B6D11; }
-.score-val.warn { color: #854F0B; }
-.score-sub { font-size: 11px; color: #aaa; margin-top: 2px; }
+  .results-hero{background:linear-gradient(180deg,var(--surface),var(--surface-2));border:1px solid var(--line-d);border-radius:14px;padding:28px;margin-bottom:20px;position:relative;overflow:hidden}
+  .results-hero::before{content:"";position:absolute;top:-60%;right:-10%;width:50%;height:200%;background:radial-gradient(ellipse 50% 50% at 70% 50%,rgba(43,214,164,.14),transparent 70%);pointer-events:none}
+  .results-hero>*{position:relative;z-index:2}
+  .result-badge{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-mono);font-size:11.5px;font-weight:600;padding:5px 12px;border-radius:40px;margin-bottom:10px}
+  .result-badge.pass{background:rgba(23,185,140,.14);color:var(--green-br)}
+  .result-badge.fail{background:rgba(208,73,62,.16);color:#e8928a}
+  .results-hero h1{font-family:var(--f-gro);font-size:22px;font-weight:600;letter-spacing:-.02em;margin-bottom:4px}
+  .results-hero .subtitle{font-family:var(--f-mono);font-size:12px;color:var(--t-dim)}
+  .score-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+  .score-card{background:rgba(255,255,255,.03);border:1px solid var(--line-d2);border-radius:10px;padding:16px}
+  .score-label{font-family:var(--f-mono);font-size:11px;color:var(--t-faint);margin-bottom:8px}
+  .score-val{font-family:var(--f-gro);font-size:28px;font-weight:600;letter-spacing:-.03em;color:var(--t-hi)}
+  .score-val.pass{color:var(--green-br)}
+  .score-val.warn{color:var(--amber)}
+  .score-sub{font-family:var(--f-mono);font-size:10.5px;color:var(--t-faint);margin-top:3px}
 
-/* Tabs */
-.tabs { display: flex; border-bottom: 0.5px solid rgba(0,0,0,0.1); background: #fff; margin-bottom: 20px; border-radius: 12px 12px 0 0; overflow: hidden; }
-.tab { font-size: 13px; color: #888; padding: 13px 20px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -0.5px; transition: all 0.15s; }
-.tab.active { color: #185FA5; border-bottom-color: #185FA5; font-weight: 500; }
-.tab-content { display: none; }
-.tab-content.active { display: block; }
+  .tabs{display:flex;border-bottom:1px solid var(--line-d2);margin-bottom:20px;gap:4px}
+  .tab{font-family:var(--f-mono);font-size:12.5px;color:var(--t-dim);padding:13px 18px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .15s}
+  .tab:hover{color:var(--t-hi)}
+  .tab.active{color:var(--green-br);border-bottom-color:var(--green-br)}
+  .tab-content{display:none}
+  .tab-content.active{display:block}
 
-/* Topic breakdown */
-.topic-section { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
-.section-heading { font-size: 14px; font-weight: 600; margin-bottom: 16px; }
-.topic-row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 0.5px solid rgba(0,0,0,0.06); }
-.topic-row:last-child { border-bottom: none; }
-.topic-name { font-size: 13px; width: 200px; flex-shrink: 0; }
-.topic-bar-wrap { flex: 1; height: 8px; background: rgba(0,0,0,0.07); border-radius: 4px; overflow: hidden; }
-.topic-bar { height: 100%; border-radius: 4px; }
-.topic-pct { font-size: 13px; font-weight: 500; width: 42px; text-align: right; flex-shrink: 0; }
-.topic-count { font-size: 12px; color: #888; width: 52px; text-align: right; flex-shrink: 0; }
+  .topic-section{background:var(--surface);border:1px solid var(--line-d);border-radius:14px;padding:22px}
+  .section-heading{font-family:var(--f-gro);font-size:15px;font-weight:600;margin-bottom:16px}
+  .topic-row{display:flex;align-items:center;gap:14px;padding:11px 0;border-bottom:1px solid var(--line-d2)}
+  .topic-row:last-child{border-bottom:none}
+  .topic-name{font-size:13px;color:var(--t-hi);width:200px;flex-shrink:0}
+  .topic-bar-wrap{flex:1;height:8px;background:rgba(255,255,255,.08);border-radius:4px;overflow:hidden}
+  .topic-bar{height:100%;border-radius:4px}
+  .topic-pct{font-family:var(--f-mono);font-size:12px;font-weight:600;width:42px;text-align:right;flex-shrink:0}
+  .topic-count{font-family:var(--f-mono);font-size:11px;color:var(--t-faint);width:52px;text-align:right;flex-shrink:0}
 
-/* Question review */
-.review-section { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
-.q-review-row { padding: 16px 20px; border-bottom: 0.5px solid rgba(0,0,0,0.06); }
-.q-review-row:last-child { border-bottom: none; }
-.q-review-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 8px; }
-.q-review-num { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0; margin-top: 2px; white-space: nowrap; }
-.q-review-text { font-size: 13px; line-height: 1.5; flex: 1; }
-.correct-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; padding: 3px 9px; border-radius: 20px; flex-shrink: 0; font-weight: 500; }
-.correct-badge.correct { background: #EAF3DE; color: #3B6D11; }
-.correct-badge.incorrect { background: #FCEBEB; color: #A32D2D; }
-.answer-row { display: flex; gap: 16px; font-size: 12px; margin-bottom: 8px; }
-.your-ans { color: #888; }
-.your-ans span { color: #A32D2D; font-weight: 500; }
-.correct-ans { color: #888; }
-.correct-ans span { color: #3B6D11; font-weight: 500; }
-.explanation-box { font-size: 13px; color: #444; line-height: 1.7; background: #f7f7f5; padding: 12px 14px; border-left: 3px solid #185FA5; margin-top: 4px; }
+  .review-section{background:var(--surface);border:1px solid var(--line-d);border-radius:14px;overflow:hidden}
+  .q-review-row{padding:18px 20px;border-bottom:1px solid var(--line-d2)}
+  .q-review-row:last-child{border-bottom:none}
+  .q-review-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
+  .q-review-num{font-family:var(--f-mono);font-size:11px;font-weight:600;color:var(--green-br);flex-shrink:0;margin-top:2px;white-space:nowrap}
+  .q-review-text{font-size:13px;line-height:1.55;flex:1;color:var(--t-hi)}
+  .correct-badge{font-family:var(--f-mono);display:inline-flex;align-items:center;gap:4px;font-size:10.5px;padding:3px 9px;border-radius:40px;flex-shrink:0;font-weight:600}
+  .correct-badge.correct{background:rgba(23,185,140,.14);color:var(--green-br)}
+  .correct-badge.incorrect{background:rgba(208,73,62,.16);color:#e8928a}
+  .answer-row{display:flex;gap:16px;font-size:12px;margin-bottom:10px;flex-wrap:wrap}
+  .your-ans,.correct-ans{color:var(--t-dim);font-family:var(--f-sans)}
+  .correct-ans span{color:var(--green-br);font-weight:500}
+  .explanation-box{font-size:13px;color:var(--t-dim);line-height:1.7;background:rgba(255,255,255,.03);padding:13px 15px;border-left:2px solid var(--green);border-radius:0 6px 6px 0;margin-top:4px}
 
-/* Review prompt */
-.review-prompt { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 28px; margin-top: 24px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
-.rp-header h3 { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
-.rp-header p { font-size: 13px; color: #666; line-height: 1.6; margin-bottom: 18px; }
-.rp-stars { display: flex; gap: 6px; margin-bottom: 16px; }
-.rp-star { font-size: 32px; color: rgba(0,0,0,0.12); cursor: pointer; transition: color 0.15s, transform 0.1s; user-select: none; }
-.rp-star:hover { transform: scale(1.15); }
-.rp-star.active { color: #EF9F27; }
-.rp-comment { width: 100%; padding: 12px 14px; font-size: 13px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; resize: vertical; margin-bottom: 12px; line-height: 1.6; }
-.rp-comment:focus { border-color: #185FA5; }
-.rp-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
-.rp-input { padding: 10px 14px; font-size: 13px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; outline: none; font-family: inherit; }
-.rp-input:focus { border-color: #185FA5; }
-.rp-permission { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; color: #666; line-height: 1.5; margin-bottom: 16px; cursor: pointer; }
-.rp-permission input { margin-top: 2px; flex-shrink: 0; }
-.rp-submit { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px 24px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: background 0.15s; }
-.rp-submit:hover { background: #0C447C; }
-.rp-submit:disabled { background: rgba(0,0,0,0.15); cursor: default; }
-.rp-thanks { font-size: 14px; color: #3B6D11; font-weight: 500; display: flex; align-items: center; gap: 8px; }
-@media (max-width: 600px) { .rp-fields { grid-template-columns: 1fr; } }
-
-footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
-
-@media (max-width: 600px) {
-  .score-cards { grid-template-columns: repeat(2,1fr); }
-  .topic-name { width: 120px; }
-}
+  .review-prompt{background:var(--surface);border:1px solid var(--line-d);border-radius:14px;padding:28px;margin-top:24px}
+  .rp-header h3{font-family:var(--f-gro);font-size:17px;font-weight:600;margin-bottom:6px}
+  .rp-header p{font-size:13px;color:var(--t-dim);line-height:1.6;margin-bottom:18px}
+  .rp-stars{display:flex;gap:6px;margin-bottom:16px}
+  .rp-star{font-size:32px;color:rgba(255,255,255,.14);cursor:pointer;transition:color .15s,transform .1s;user-select:none}
+  .rp-star:hover{transform:scale(1.15)}
+  .rp-star.active{color:var(--amber)}
+  .rp-comment{width:100%;padding:12px 14px;font-size:13px;border:1px solid var(--line-d);border-radius:8px;outline:none;font-family:var(--f-sans);resize:vertical;margin-bottom:12px;line-height:1.6;background:rgba(255,255,255,.04);color:var(--t-hi)}
+  .rp-comment:focus{border-color:var(--green)}
+  .rp-comment::placeholder{color:var(--t-faint)}
+  .rp-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+  .rp-input{padding:11px 14px;font-size:13px;border:1px solid var(--line-d);border-radius:8px;outline:none;font-family:var(--f-sans);background:rgba(255,255,255,.04);color:var(--t-hi)}
+  .rp-input:focus{border-color:var(--green)}
+  .rp-input::placeholder{color:var(--t-faint)}
+  .rp-permission{display:flex;align-items:flex-start;gap:10px;font-size:12px;color:var(--t-dim);line-height:1.5;margin-bottom:16px;cursor:pointer}
+  .rp-permission input{margin-top:2px;flex-shrink:0;accent-color:var(--green)}
+  .rp-submit{background:var(--green);color:#04130D;border:none;border-radius:8px;padding:12px 24px;font-family:var(--f-mono);font-size:14px;font-weight:500;cursor:pointer;transition:background .15s}
+  .rp-submit:hover{background:var(--green-br)}
+  .rp-submit:disabled{background:rgba(255,255,255,.12);color:var(--t-faint);cursor:default}
+  .rp-thanks{font-family:var(--f-mono);font-size:14px;color:var(--green-br);font-weight:500;display:flex;align-items:center;gap:8px}
+  @media(max-width:600px){.rp-fields{grid-template-columns:1fr}.score-cards{grid-template-columns:repeat(2,1fr)}.topic-name{width:120px}}
 </style>
 </head>
 <body>
 
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="dashboard.html" class="logo">Mock<span>FRCS</span></a>
-    <div class="nav-right">
-      <a href="dashboard.html" class="btn-dashboard">&larr; Dashboard</a>
-      <a href="dashboard.html" class="btn-next-paper" id="nextPaperBtn">Back to dashboard</a>
+<nav class="topbar">
+  <div class="in">
+    <a href="dashboard.html" class="logo gro"><svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="wm">Mock<em>FRCS</em></span></a>
+    <div class="tb-right">
+      <a href="dashboard.html" class="btn-dash">← Dashboard</a>
+      <a href="dashboard.html" class="btn btn-green btn-sm" id="nextPaperBtn">Back to dashboard</a>
     </div>
   </div>
 </nav>
@@ -120,12 +108,10 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
   <div id="resultsContent" style="display:none">
 
     <div class="results-hero">
-      <div class="results-hero-top">
-        <div>
-          <div class="result-badge" id="resultBadge">—</div>
-          <h1 id="resultsTitle">Results</h1>
-          <div class="subtitle" id="resultsSubtitle"></div>
-        </div>
+      <div>
+        <div class="result-badge" id="resultBadge">—</div>
+        <h1 class="gro" id="resultsTitle">Results</h1>
+        <div class="subtitle" id="resultsSubtitle"></div>
       </div>
       <div class="score-cards">
         <div class="score-card"><div class="score-label">Your score</div><div class="score-val" id="scoreVal">—</div><div class="score-sub" id="scoreSub"></div></div>
@@ -143,58 +129,42 @@ footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; b
 
     <div class="tab-content active" id="tab-topics">
       <div class="topic-section">
-        <div class="section-heading">Performance by topic</div>
+        <div class="section-heading gro">Performance by topic</div>
         <div id="topicBreakdown"></div>
       </div>
     </div>
 
-    <div class="tab-content" id="tab-review">
-      <div class="review-section" id="allQuestions"></div>
-    </div>
+    <div class="tab-content" id="tab-review"><div class="review-section" id="allQuestions"></div></div>
+    <div class="tab-content" id="tab-incorrect"><div class="review-section" id="incorrectQuestions"></div></div>
 
-    <div class="tab-content" id="tab-incorrect">
-      <div class="review-section" id="incorrectQuestions"></div>
-    </div>
-
-    <!-- Review prompt -->
     <div class="review-prompt" id="reviewPrompt" style="display:none">
       <div class="rp-header">
-        <h3>How was your exam experience?</h3>
+        <h3 class="gro">How was your exam experience?</h3>
         <p>Your feedback directly shapes MockFRCS — and helps other candidates decide if it's right for them.</p>
       </div>
       <div class="rp-stars" id="rpStars">
-        <span class="rp-star" data-val="1">&#9733;</span>
-        <span class="rp-star" data-val="2">&#9733;</span>
-        <span class="rp-star" data-val="3">&#9733;</span>
-        <span class="rp-star" data-val="4">&#9733;</span>
-        <span class="rp-star" data-val="5">&#9733;</span>
+        <span class="rp-star" data-val="1">&#9733;</span><span class="rp-star" data-val="2">&#9733;</span><span class="rp-star" data-val="3">&#9733;</span><span class="rp-star" data-val="4">&#9733;</span><span class="rp-star" data-val="5">&#9733;</span>
       </div>
       <textarea class="rp-comment" id="rpComment" placeholder="What did you think of the question quality and exam experience? What could be better?" rows="4"></textarea>
       <div class="rp-fields">
         <input type="text" class="rp-input" id="rpName" placeholder="First name + initial (e.g. James H.)" />
         <input type="text" class="rp-input" id="rpGrade" placeholder="Grade (e.g. ST5 General Surgery)" />
       </div>
-      <label class="rp-permission">
-        <input type="checkbox" id="rpPermission" />
-        <span>I'm happy for my review to be displayed publicly on MockFRCS with my name and grade</span>
-      </label>
+      <label class="rp-permission"><input type="checkbox" id="rpPermission" /><span>I'm happy for my review to be displayed publicly on MockFRCS with my name and grade</span></label>
       <button class="rp-submit" id="rpSubmitBtn" onclick="submitReview()">Submit review</button>
-      <div class="rp-thanks" id="rpThanks" style="display:none">
-        <span>&#10003;</span> Thank you — your review has been submitted!
-      </div>
+      <div class="rp-thanks" id="rpThanks" style="display:none"><span>&#10003;</span> Thank you — your review has been submitted!</div>
     </div>
 
   </div>
 </main>
 
-<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+<div class="auth-foot">© 2026 MOCKFRCS.CO.UK · FOR EDUCATIONAL PURPOSES ONLY</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="auth.js"></script>
 <script>
 const letters = ['A','B','C','D','E'];
 const PASS_MARK = 0.65;
-
 const params = new URLSearchParams(window.location.search);
 const attemptId = params.get('attempt');
 if (!attemptId) window.location.href = 'dashboard.html';
@@ -203,52 +173,18 @@ if (!attemptId) window.location.href = 'dashboard.html';
   const user = await requireAuth();
   if (!user) return;
 
-  // Load attempt
-  const { data: attempt } = await db
-    .from('exam_attempts')
-    .select('*')
-    .eq('id', attemptId)
-    .eq('user_id', user.id)
-    .single();
-
+  const { data: attempt } = await db.from('exam_attempts').select('*').eq('id', attemptId).eq('user_id', user.id).single();
   if (!attempt) { window.location.href = 'dashboard.html'; return; }
-
-  // Load exam
-  const { data: exam } = await db
-    .from('exams')
-    .select('*')
-    .eq('id', attempt.exam_id)
-    .single();
-
-  // Load answers
-  const { data: rawAnswers } = await db
-    .from('answers')
-    .select('*')
-    .eq('attempt_id', attemptId);
-
+  const { data: exam } = await db.from('exams').select('*').eq('id', attempt.exam_id).single();
+  const { data: rawAnswers } = await db.from('answers').select('*').eq('attempt_id', attemptId);
   if (!rawAnswers || rawAnswers.length === 0) {
-    document.getElementById('loadingState').innerHTML = '<p style="color:#888;text-align:center;padding:40px">No answers found for this attempt.</p>';
+    document.getElementById('loadingState').innerHTML = '<p style="color:var(--t-dim);text-align:center;padding:40px">No answers found for this attempt.</p>';
     return;
   }
-
-  // Load all questions for this exam
-  const { data: questions } = await db
-    .from('questions')
-    .select('*')
-    .eq('exam_id', attempt.exam_id)
-    .order('question_number');
-
+  const { data: questions } = await db.from('questions').select('*').eq('exam_id', attempt.exam_id).order('question_number');
   if (!questions) return;
-
-  // Merge answers with questions
-  const questionMap = {};
-  questions.forEach(q => { questionMap[q.id] = q; });
-
-  const answers = rawAnswers.map(a => ({
-    ...a,
-    questions: questionMap[a.question_id] || null
-  })).filter(a => a.questions !== null);
-
+  const questionMap = {}; questions.forEach(q => { questionMap[q.id] = q; });
+  const answers = rawAnswers.map(a => ({ ...a, questions: questionMap[a.question_id] || null })).filter(a => a.questions !== null);
   if (!answers.length) return;
 
   const total = attempt.total_questions;
@@ -260,57 +196,40 @@ if (!attemptId) window.location.href = 'dashboard.html';
   const timeUsedH = Math.floor(timeUsed / 3600);
   const timeUsedM = Math.floor((timeUsed % 3600) / 60);
 
-  // Hero
   document.getElementById('resultsTitle').textContent = `${exam ? exam.title : 'Results'}`;
   document.getElementById('resultsSubtitle').textContent = `Completed · ${timeUsedH}h ${timeUsedM}m used`;
-
   const badge = document.getElementById('resultBadge');
   badge.textContent = passed ? '✓ Pass' : '✗ Below pass mark';
   badge.className = `result-badge ${passed ? 'pass' : 'fail'}`;
-
   const scoreEl = document.getElementById('scoreVal');
   scoreEl.textContent = pct + '%';
   scoreEl.className = `score-val ${passed ? 'pass' : ''}`;
   document.getElementById('scoreSub').textContent = `${score} / ${total} correct`;
-
   const marginEl = document.getElementById('marginVal');
   marginEl.textContent = (margin >= 0 ? '+' : '') + margin + '%';
   marginEl.className = `score-val ${margin >= 0 ? 'pass' : ''}`;
   document.getElementById('marginSub').textContent = margin >= 0 ? `${Math.abs(margin * total / 100 | 0)} marks above pass` : `${Math.abs(margin * total / 100 | 0)} marks below pass`;
-
   document.getElementById('timeVal').textContent = `${timeUsedH}h ${timeUsedM}m`;
   document.getElementById('timeSub').textContent = `${attempt.time_remaining_seconds || 0}s remaining`;
 
-  // Topic breakdown
   const topicMap = {};
-  answers.forEach(a => {
-    if (!a.questions) return;
-    const topic = a.questions.topic;
-    if (!topicMap[topic]) topicMap[topic] = { correct: 0, total: 0 };
-    topicMap[topic].total++;
-    if (a.is_correct) topicMap[topic].correct++;
-  });
-
+  answers.forEach(a => { if (!a.questions) return; const t = a.questions.topic; if (!topicMap[t]) topicMap[t] = { correct: 0, total: 0 }; topicMap[t].total++; if (a.is_correct) topicMap[t].correct++; });
   const topicContainer = document.getElementById('topicBreakdown');
   Object.entries(topicMap).sort((a,b) => b[1].total - a[1].total).forEach(([topic, data]) => {
     const pctT = Math.round(data.correct / data.total * 100);
-    const color = pctT >= 75 ? '#3B6D11' : pctT >= 65 ? '#185FA5' : '#A32D2D';
+    const bar = pctT >= 75 ? '#2BD6A4' : pctT >= 65 ? '#17B98C' : '#D0493E';
+    const txt = pctT >= 65 ? bar : '#e8928a';
     topicContainer.innerHTML += `
       <div class="topic-row">
         <div class="topic-name">${topic}</div>
-        <div class="topic-bar-wrap"><div class="topic-bar" style="width:${pctT}%;background:${color}"></div></div>
-        <div class="topic-pct" style="color:${color}">${pctT}%</div>
+        <div class="topic-bar-wrap"><div class="topic-bar" style="width:${pctT}%;background:${bar}"></div></div>
+        <div class="topic-pct" style="color:${txt}">${pctT}%</div>
         <div class="topic-count">${data.correct}/${data.total}</div>
       </div>`;
   });
 
-  // Question review — sort by question number
   function buildReviewHTML(questionAnswers) {
-    const sorted = [...questionAnswers].sort((a, b) => {
-      const numA = a.questions ? a.questions.question_number : 0;
-      const numB = b.questions ? b.questions.question_number : 0;
-      return numA - numB;
-    });
+    const sorted = [...questionAnswers].sort((a, b) => ((a.questions?a.questions.question_number:0) - (b.questions?b.questions.question_number:0)));
     return sorted.map(a => {
       if (!a.questions) return '';
       const q = a.questions;
@@ -325,7 +244,7 @@ if (!attemptId) window.location.href = 'dashboard.html';
             <div class="correct-badge ${a.is_correct ? 'correct' : 'incorrect'}">${a.is_correct ? '&#10003; Correct' : '&#10007; Incorrect'}</div>
           </div>
           <div class="answer-row">
-            <div class="your-ans">Your answer: <span style="color:${a.is_correct ? '#3B6D11' : '#A32D2D'};font-weight:500">${yourAns}</span></div>
+            <div class="your-ans">Your answer: <span style="color:${a.is_correct ? '#2BD6A4' : '#e8928a'};font-weight:500">${yourAns}</span></div>
             ${!a.is_correct ? `<div class="correct-ans">Correct: <span>${correctAns}</span></div>` : ''}
           </div>
           <div class="explanation-box">${q.explanation}</div>
@@ -335,60 +254,34 @@ if (!attemptId) window.location.href = 'dashboard.html';
 
   document.getElementById('allQuestions').innerHTML = buildReviewHTML(answers);
   document.getElementById('incorrectQuestions').innerHTML = buildReviewHTML(answers.filter(a => !a.is_correct));
-
   document.getElementById('loadingState').style.display = 'none';
   document.getElementById('resultsContent').style.display = 'block';
 
-  // Find next paper
   if (exam) {
-    const { data: allExams } = await db
-      .from('exams')
-      .select('*')
-      .order('exam_number')
-      .order('paper_number');
-
+    const { data: allExams } = await db.from('exams').select('*').order('exam_number').order('paper_number');
     if (allExams) {
       const currentIndex = allExams.findIndex(e => e.id === exam.id);
       const nextExam = allExams[currentIndex + 1];
       const nextBtn = document.getElementById('nextPaperBtn');
-      if (nextExam) {
-        nextBtn.textContent = `${nextExam.title} →`;
-        nextBtn.href = `exam.html?exam=${nextExam.id}`;
-      } else {
-        nextBtn.textContent = 'Back to dashboard';
-        nextBtn.href = 'dashboard.html';
-      }
+      if (nextExam) { nextBtn.textContent = `${nextExam.title} →`; nextBtn.href = `exam.html?exam=${nextExam.id}`; }
+      else { nextBtn.textContent = 'Back to dashboard'; nextBtn.href = 'dashboard.html'; }
     }
   }
 
-  // Show review prompt if user hasn't reviewed yet
   try {
-    const { data: existingReview } = await db
-      .from('reviews')
-      .select('id')
-      .eq('user_id', user.id)
-      .maybeSingle();
-
+    const { data: existingReview } = await db.from('reviews').select('id').eq('user_id', user.id).maybeSingle();
     if (!existingReview) {
       document.getElementById('reviewPrompt').style.display = 'block';
-      // If they arrived via the dashboard review banner, scroll to the form
-      if (window.location.hash === '#reviewPrompt') {
-        setTimeout(() => document.getElementById('reviewPrompt').scrollIntoView({ behavior: 'smooth' }), 300);
-      }
+      if (window.location.hash === '#reviewPrompt') { setTimeout(() => document.getElementById('reviewPrompt').scrollIntoView({ behavior: 'smooth' }), 300); }
     }
-  } catch (e) {
-    // Reviews table may not exist yet — fail silently
-  }
+  } catch (e) {}
 })();
 
-// Review star rating
 let selectedRating = 0;
 document.querySelectorAll('.rp-star').forEach(star => {
   star.addEventListener('click', function() {
     selectedRating = parseInt(this.dataset.val);
-    document.querySelectorAll('.rp-star').forEach(s => {
-      s.classList.toggle('active', parseInt(s.dataset.val) <= selectedRating);
-    });
+    document.querySelectorAll('.rp-star').forEach(s => { s.classList.toggle('active', parseInt(s.dataset.val) <= selectedRating); });
   });
 });
 
@@ -398,35 +291,11 @@ async function submitReview() {
   const grade = document.getElementById('rpGrade').value.trim();
   const permission = document.getElementById('rpPermission').checked;
   const btn = document.getElementById('rpSubmitBtn');
-
-  if (selectedRating === 0) {
-    alert('Please select a star rating.');
-    return;
-  }
-
-  btn.disabled = true;
-  btn.textContent = 'Submitting...';
-
+  if (selectedRating === 0) { alert('Please select a star rating.'); return; }
+  btn.disabled = true; btn.textContent = 'Submitting...';
   const { data: { user } } = await db.auth.getUser();
-
-  const { error } = await db.from('reviews').upsert({
-    user_id: user.id,
-    attempt_id: attemptId,
-    rating: selectedRating,
-    comment: comment || null,
-    display_name: name || null,
-    training_grade: grade || null,
-    public_permission: permission
-  }, { onConflict: 'user_id' });
-
-  if (error) {
-    alert('Error submitting review: ' + error.message);
-    btn.disabled = false;
-    btn.textContent = 'Submit review';
-    return;
-  }
-
-  // Hide the form, show thanks
+  const { error } = await db.from('reviews').upsert({ user_id: user.id, attempt_id: attemptId, rating: selectedRating, comment: comment || null, display_name: name || null, training_grade: grade || null, public_permission: permission }, { onConflict: 'user_id' });
+  if (error) { alert('Error submitting review: ' + error.message); btn.disabled = false; btn.textContent = 'Submit review'; return; }
   document.querySelectorAll('.rp-stars, .rp-comment, .rp-fields, .rp-permission, .rp-submit').forEach(el => el.style.display = 'none');
   document.getElementById('rpThanks').style.display = 'flex';
 }

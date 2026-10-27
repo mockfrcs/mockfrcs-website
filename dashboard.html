@@ -3,393 +3,374 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
 <title>MockFRCS — Dashboard</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="brand.css">
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f5; color: #1a1a18; min-height: 100vh; display: flex; flex-direction: column; }
-.nav { background: #fff; border-bottom: 0.5px solid rgba(0,0,0,0.08); }
-.nav-inner { max-width: 900px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.nav-left { display: flex; align-items: center; gap: 28px; }
-.nav-links { display: flex; align-items: center; gap: 22px; }
-.nav-link { font-size: 13px; color: #555; text-decoration: none; transition: color 0.15s; white-space: nowrap; }
-.nav-link:hover { color: #1a1a18; }
-.nav-toggle { display: none; background: none; border: none; font-size: 22px; cursor: pointer; color: #1a1a18; line-height: 1; }
-.nav-mobile { display: none; flex-direction: column; max-width: 900px; margin: 0 auto; padding: 6px 24px 14px; border-top: 0.5px solid rgba(0,0,0,0.06); }
-.nav-mobile.open { display: flex; }
-.nav-mobile a { font-size: 15px; color: #444; padding: 11px 2px; border-bottom: 0.5px solid rgba(0,0,0,0.05); text-decoration: none; background: none; cursor: pointer; }
-.nav-mobile a:last-child { border-bottom: none; color: #185FA5; font-weight: 500; }
-@media (max-width: 640px) { .nav-links, .nav-email, .btn-signout { display: none; } .nav-toggle { display: block; } }
-.logo { font-size: 18px; font-weight: 600; text-decoration: none; color: #1a1a18; }
-.logo span { color: #185FA5; }
-.nav-right { display: flex; align-items: center; gap: 16px; }
-.nav-email { font-size: 13px; color: #888; }
-.btn-signout { font-size: 13px; color: #888; background: none; border: none; cursor: pointer; font-family: inherit; text-decoration: underline; }
-.btn-signout:hover { color: #1a1a18; }
-.main { flex: 1; max-width: 900px; margin: 0 auto; padding: 40px 24px; width: 100%; }
-.page-header { margin-bottom: 32px; }
-.page-header h1 { font-size: 26px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 6px; }
-.page-header p { font-size: 14px; color: #666; }
-.membership-banner { background: #EAF3DE; border: 0.5px solid #A8D57A; border-radius: 10px; padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; }
-.membership-banner.expired { background: #FCEBEB; border-color: #F5A8A8; }
-.membership-left { display: flex; align-items: center; gap: 10px; }
-.membership-dot { width: 8px; height: 8px; border-radius: 50%; background: #3B6D11; flex-shrink: 0; }
-.membership-banner.expired .membership-dot { background: #A32D2D; }
-.membership-text { font-size: 13px; font-weight: 500; color: #3B6D11; }
-.membership-banner.expired .membership-text { color: #A32D2D; }
-.membership-sub { font-size: 12px; color: #5a8a2a; margin-top: 1px; }
-.membership-banner.expired .membership-sub { color: #c44444; }
-.btn-renew { background: #185FA5; color: #fff; border: none; border-radius: 6px; padding: 7px 14px; font-size: 12px; font-weight: 500; cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block; }
-.section-label { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 16px; }
-.exams-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 40px; }
-.practice-banner { display:flex; align-items:center; justify-content:space-between; gap:18px; background:#fff; border:0.5px solid rgba(0,0,0,0.1); border-radius:12px; padding:20px; box-shadow:0 1px 8px rgba(0,0,0,0.04); text-decoration:none; color:inherit; margin-bottom:32px; transition:box-shadow .15s,border-color .15s; }
-.practice-banner:hover { border-color:rgba(0,0,0,0.2); box-shadow:0 6px 20px rgba(0,0,0,0.08); }
-.practice-banner h3 { font-size:15px; font-weight:600; margin-bottom:4px; }
-.practice-banner p { font-size:12.5px; color:#888; line-height:1.55; }
-.pb-go { font-size:13px; font-weight:600; color:#185FA5; white-space:nowrap; }
-@media (max-width:560px){ .practice-banner{flex-direction:column;align-items:flex-start;gap:10px;} }
-.exam-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
-.exam-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
-.exam-num { width: 36px; height: 36px; border-radius: 8px; background: #E6F1FB; color: #185FA5; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600; }
-.exam-status { font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; }
-.exam-status.available { background: #EAF3DE; color: #3B6D11; }
-.exam-status.in-progress { background: #FAEEDA; color: #854F0B; }
-.exam-status.completed { background: #E6F1FB; color: #185FA5; }
-.exam-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
-.exam-card p { font-size: 12px; color: #888; margin-bottom: 16px; }
-.papers { display: flex; flex-direction: column; gap: 8px; }
-.paper-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; background: #f7f7f5; border-radius: 8px; border: 0.5px solid rgba(0,0,0,0.07); }
-.paper-info h4 { font-size: 13px; font-weight: 500; }
-.paper-info p { font-size: 11px; color: #888; margin-top: 1px; }
-.btn-start { background: #185FA5; color: #fff; border: none; border-radius: 6px; padding: 7px 14px; font-size: 12px; font-weight: 500; cursor: pointer; font-family: inherit; white-space: nowrap; transition: background 0.15s; }
-.btn-start:hover { background: #0C447C; }
-.btn-review { background: #f0f0ee; color: #555; border: none; border-radius: 6px; padding: 7px 14px; font-size: 12px; font-weight: 500; cursor: pointer; font-family: inherit; white-space: nowrap; transition: background 0.15s; }
-.btn-review:hover { background: #e4e4e2; }
-.btn-resit { background: transparent; color: #185FA5; border: 1px solid #185FA5; border-radius: 6px; padding: 7px 14px; font-size: 12px; font-weight: 500; cursor: pointer; font-family: inherit; white-space: nowrap; transition: all 0.15s; }
-.btn-resit:hover { background: #E6F1FB; }
-.paper-btns { display: flex; gap: 6px; align-items: center; }
-.paper-score { font-size: 11px; font-weight: 600; color: #3B6D11; margin-right: 4px; }
-.paper-score.fail { color: #A32D2D; }
-.attempt-history { font-size: 11px; color: #aaa; margin-top: 3px; }
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-.stat-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 16px; }
-.stat-num { font-size: 24px; font-weight: 600; letter-spacing: -0.5px; margin-bottom: 4px; }
-.stat-num.blue { color: #185FA5; }
-.stat-num.green { color: #3B6D11; }
-.stat-label { font-size: 12px; color: #888; }
-.topic-breakdown-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 20px; margin-bottom: 40px; }
-.review-banner { display: none; background: #E6F1FB; border: 0.5px solid #B5D4F4; border-radius: 12px; padding: 18px 22px; margin-bottom: 28px; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
-.review-banner.show { display: flex; }
-.review-banner-text h4 { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
-.review-banner-text p { font-size: 13px; color: #555; }
-.btn-review-banner { background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; text-decoration: none; white-space: nowrap; transition: background 0.15s; }
-.btn-review-banner:hover { background: #0C447C; }
-.topic-row-db { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 0.5px solid rgba(0,0,0,0.06); }
-.topic-row-db:last-child { border-bottom: none; }
-.topic-name-db { font-size: 13px; color: #1a1a18; width: 200px; flex-shrink: 0; }
-.topic-bar-wrap-db { flex: 1; height: 7px; background: rgba(0,0,0,0.07); border-radius: 4px; overflow: hidden; }
-.topic-bar-db { height: 100%; border-radius: 4px; }
-.topic-pct-db { font-size: 12px; font-weight: 600; width: 40px; text-align: right; flex-shrink: 0; }
-.topic-count-db { font-size: 11px; color: #aaa; width: 52px; text-align: right; flex-shrink: 0; }
-.loading { text-align: center; padding: 60px 24px; color: #888; font-size: 14px; }
-footer { padding: 20px 24px; text-align: center; font-size: 12px; color: #bbb; border-top: 0.5px solid rgba(0,0,0,0.08); background: #fff; margin-top: auto; }
-@media (max-width: 600px) { .exams-grid { grid-template-columns: 1fr; } .stats-grid { grid-template-columns: repeat(2,1fr); } }
+  .app{display:flex;min-height:100vh}
+  .side{position:fixed;inset:0 auto 0 0;width:244px;border-right:1px solid var(--line-d2);background:var(--bg-2);display:flex;flex-direction:column;padding:22px 18px;z-index:40}
+  .side-head{display:flex;align-items:center;justify-content:space-between}
+  .side .logo{font-size:18px;margin:0 6px}
+  .side-tog{display:none;background:none;border:none;color:var(--t-hi);font-size:20px;cursor:pointer}
+  .side-lbl{font-family:var(--f-mono);font-size:10px;letter-spacing:.8px;color:var(--t-faint);text-transform:uppercase;margin:30px 12px 10px}
+  .side-nav{display:flex;flex-direction:column;gap:2px}
+  .side-nav a{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:8px;font-family:var(--f-mono);font-size:12.5px;letter-spacing:.3px;text-transform:uppercase;color:var(--t-dim);transition:all .15s}
+  .side-nav a svg{width:16px;height:16px;flex-shrink:0;opacity:.75}
+  .side-nav a:hover{color:var(--t-hi);background:rgba(255,255,255,.03)}
+  .side-nav a.on{color:var(--green-br);background:rgba(23,185,140,.08)}
+  .side-nav a.on svg{opacity:1}
+  .side-foot{margin-top:auto;display:flex;flex-direction:column;gap:12px;padding:16px 6px 0;border-top:1px solid var(--line-d2)}
+  .mem-chip{display:inline-flex;align-items:center;gap:7px;font-family:var(--f-mono);font-size:10px;letter-spacing:.4px;color:var(--green-br);border:1px solid rgba(23,185,140,.3);border-radius:40px;padding:5px 10px;align-self:flex-start}
+  .mem-chip.expired{color:#e8928a;border-color:rgba(208,73,62,.35)}
+  .mem-chip .dot{width:6px;height:6px;border-radius:50%;background:var(--green-br)}
+  .mem-chip.expired .dot{background:var(--red)}
+  .side-foot .email{font-family:var(--f-mono);font-size:11px;color:var(--t-faint);word-break:break-all}
+  .side-foot .so{font-family:var(--f-mono);font-size:11.5px;color:var(--t-dim);background:none;border:none;text-align:left;cursor:pointer;padding:0}
+  .side-foot .so:hover{color:var(--green-br)}
+
+  .content{margin-left:244px;flex:1;min-width:0;padding:34px clamp(20px,4vw,48px) 72px;max-width:1160px}
+  .loading{padding:80px 24px;text-align:center;font-family:var(--f-mono);color:var(--t-dim)}
+  .d-head{margin-bottom:26px}
+  .d-head .ey{font-family:var(--f-mono);font-size:12px;letter-spacing:.8px;color:var(--green-br);text-transform:uppercase}
+  .d-head h1{font-family:var(--f-gro);font-weight:600;font-size:28px;letter-spacing:-.03em;margin-top:8px}
+
+  .panel{background:var(--surface);border:1px solid var(--line-d);border-radius:14px;padding:26px}
+  .panel-lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.6px;color:var(--t-faint);text-transform:uppercase;margin-bottom:18px}
+
+  .readiness{position:relative;overflow:hidden;display:grid;grid-template-columns:1.25fr 1fr;gap:32px;align-items:center;margin-bottom:18px}
+  .readiness::before{content:"";position:absolute;top:-60%;right:-10%;width:60%;height:200%;background:radial-gradient(ellipse 50% 50% at 70% 50%,rgba(43,214,164,.16),transparent 70%);pointer-events:none}
+  .rd-l,.rd-r{position:relative;z-index:2}
+  .rd-score{font-family:var(--f-gro);font-weight:600;font-size:clamp(52px,8vw,82px);line-height:.9;letter-spacing:-.04em;color:var(--green-br)}
+  .rd-score.below{color:var(--amber)}
+  .rd-sub{font-family:var(--f-mono);font-size:12px;color:var(--t-dim);margin:12px 0 18px}
+  .gauge{height:8px;background:rgba(255,255,255,.08);border-radius:5px;position:relative;max-width:420px}
+  .gauge .fill{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,var(--green),var(--mint));border-radius:5px}
+  .gauge .mark{position:absolute;top:-5px;bottom:-5px;left:65%;width:2px;background:rgba(255,255,255,.5)}
+  .gauge-legend{display:flex;justify-content:space-between;max-width:420px;margin-top:9px;font-family:var(--f-mono);font-size:10.5px;color:var(--t-faint)}
+  .rd-r{border-left:1px solid var(--line-d2);padding-left:32px}
+  .rd-next-lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.5px;color:var(--t-faint);text-transform:uppercase;margin-bottom:12px}
+  .rd-next-name{font-family:var(--f-gro);font-size:18px;font-weight:600;margin-bottom:16px}
+  .rd-remaining{font-family:var(--f-mono);font-size:11.5px;color:var(--t-dim);margin-top:14px}
+
+  .grid2{display:grid;grid-template-columns:1.6fr 1fr;gap:18px;margin-bottom:18px}
+  .chart-cap{font-family:var(--f-mono);font-size:11px;color:var(--t-faint);margin-top:12px}
+  .chart-empty{display:flex;align-items:center;justify-content:center;height:160px;font-family:var(--f-mono);font-size:12px;color:var(--t-faint);text-align:center}
+  svg .pass-line{stroke:rgba(255,255,255,.25);stroke-dasharray:3 3;stroke-width:1}
+  .snap .row{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line-d2)}
+  .snap .row:last-child{border-bottom:none}
+  .snap .k{font-family:var(--f-mono);font-size:12px;color:var(--t-dim)}
+  .snap .v{font-family:var(--f-gro);font-size:22px;font-weight:600;color:var(--t-hi);letter-spacing:-.02em}
+  .snap .v.green{color:var(--green-br)}
+  .snap .v small{font-size:13px;color:var(--t-faint);font-family:var(--f-mono);font-weight:400}
+
+  .sec-h{font-family:var(--f-mono);font-size:11px;letter-spacing:.6px;color:var(--green-br);text-transform:uppercase;margin:34px 0 14px}
+  .ex-list{display:flex;flex-direction:column;gap:12px}
+  .ex-item{border:1px solid var(--line-d2);border-radius:12px;overflow:hidden;background:var(--surface)}
+  .ex-top{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--surface-2)}
+  .ex-top .l{display:flex;align-items:center;gap:12px}
+  .ex-n{width:30px;height:30px;border-radius:7px;background:rgba(23,185,140,.14);color:var(--green-br);display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:12px;font-weight:600}
+  .ex-top h3{font-family:var(--f-gro);font-size:15px;font-weight:600}
+  .ex-stat{font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;padding:4px 10px;border-radius:40px}
+  .ex-stat.done{background:rgba(255,255,255,.08);color:var(--t-dim)}
+  .ex-stat.avail{background:rgba(23,185,140,.14);color:var(--green-br)}
+  .ex-stat.prog{background:rgba(224,146,43,.16);color:#e0a85f}
+  .p-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 18px;border-top:1px solid var(--line-d2)}
+  .p-row .pn{font-size:13.5px;color:var(--t-hi)}
+  .p-sub{font-family:var(--f-mono);font-size:10.5px;color:var(--t-faint);margin-top:2px}
+  .score-pill{font-family:var(--f-mono);font-size:11px;font-weight:600;padding:3px 9px;border-radius:40px;background:rgba(23,185,140,.14);color:var(--green-br);margin-left:4px}
+  .score-pill.fail{background:rgba(208,73,62,.16);color:#e8928a}
+  .p-actions{display:flex;gap:7px}
+  .pa{font-family:var(--f-mono);font-size:11.5px;font-weight:500;border-radius:6px;padding:7px 13px;cursor:pointer;border:none;white-space:nowrap}
+  .pa.start{background:var(--green);color:#04130D}
+  .pa.start:hover{background:var(--green-br)}
+  .pa.resit{background:transparent;color:var(--green-br);border:1px solid var(--green-deep)}
+  .pa.results{background:rgba(255,255,255,.08);color:var(--t-hi)}
+
+  .tp-row{display:flex;align-items:center;gap:14px;padding:11px 0;border-bottom:1px solid var(--line-d2)}
+  .tp-row:last-child{border-bottom:none}
+  .tp-name{font-size:13px;color:var(--t-hi);width:190px;flex-shrink:0}
+  .tp-bar{flex:1;height:7px;background:rgba(255,255,255,.08);border-radius:4px;overflow:hidden}
+  .tp-bar i{display:block;height:100%;border-radius:4px}
+  .tp-pct{font-family:var(--f-mono);font-size:12px;font-weight:600;width:42px;text-align:right}
+  .tp-cnt{font-family:var(--f-mono);font-size:11px;color:var(--t-faint);width:52px;text-align:right}
+
+  .practice-banner{display:flex;align-items:center;justify-content:space-between;gap:18px;background:var(--surface);border:1px solid var(--line-d);border-radius:12px;padding:18px 22px;text-decoration:none;color:inherit;margin-top:12px;transition:border-color .15s,transform .15s}
+  .practice-banner:hover{border-color:var(--green);transform:translateY(-2px)}
+  .practice-banner h3{font-family:var(--f-gro);font-size:15px;font-weight:600;margin-bottom:3px}
+  .practice-banner p{font-size:12.5px;color:var(--t-dim)}
+  .pb-go{font-family:var(--f-mono);font-size:12.5px;color:var(--green-br);white-space:nowrap}
+  .review-banner{display:none;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:rgba(23,185,140,.07);border:1px solid rgba(23,185,140,.22);border-radius:12px;padding:16px 20px;margin-top:18px}
+  .review-banner.show{display:flex}
+  .review-banner h4{font-family:var(--f-gro);font-size:14px;font-weight:600;margin-bottom:2px}
+  .review-banner p{font-size:12.5px;color:var(--t-dim)}
+  .btn-review-banner{background:var(--green);color:#04130D;border:none;border-radius:7px;padding:9px 16px;font-family:var(--f-mono);font-size:12.5px;font-weight:500;text-decoration:none;white-space:nowrap}
+
+  @media(max-width:860px){
+    .side{position:sticky;top:0;width:auto;flex-direction:column;border-right:none;border-bottom:1px solid var(--line-d2);padding:14px 20px}
+    .side-tog{display:block}
+    .side-lbl{display:none}
+    .side-nav,.side-foot{display:none}
+    .side.open .side-nav{display:flex;margin-top:14px}
+    .side.open .side-foot{display:flex;margin-top:14px}
+    .content{margin-left:0;padding-top:26px}
+    .readiness{grid-template-columns:1fr;gap:24px}
+    .rd-r{border-left:none;border-top:1px solid var(--line-d2);padding-left:0;padding-top:24px}
+    .grid2{grid-template-columns:1fr}
+  }
+  @media(max-width:560px){
+    .tp-name{width:120px}
+    .p-row{flex-wrap:wrap}
+  }
 </style>
 </head>
 <body>
-
-<nav class="nav">
-  <div class="nav-inner">
-    <div class="nav-left">
-      <a href="dashboard.html" class="logo">Mock<span>FRCS</span></a>
-      <div class="nav-links">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="dashboard.html" class="nav-link">Dashboard</a>
-        <a href="practice.html" class="nav-link">Practice</a>
-        <a href="about.html" class="nav-link">How it works</a>
-        <a href="demo.html" class="nav-link">Try free demo</a>
-        <a href="revision.html" class="nav-link">Revision resources</a>
-      </div>
+<div class="app">
+  <aside class="side" id="side">
+    <div class="side-head">
+      <a href="dashboard.html" class="logo gro"><svg class="mk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#2BD6A4" stroke-width="1.6"/><path d="M12 6v6l4 2" stroke="#2BD6A4" stroke-width="1.6" stroke-linecap="round"/></svg><span class="wm">Mock<em>FRCS</em></span></a>
+      <button class="side-tog" aria-label="Menu" onclick="document.getElementById('side').classList.toggle('open')">&#9776;</button>
     </div>
-    <div class="nav-right">
-      <span class="nav-email" id="navEmail"></span>
-      <button class="btn-signout" onclick="signOut()">Sign out</button>
+    <div class="side-lbl">Menu</div>
+    <nav class="side-nav">
+      <a href="dashboard.html" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Dashboard</a>
+      <a href="revision.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 0-2 2z"/><path d="M8 7h7"/></svg>Revision</a>
+      <a href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+    </nav>
+    <div class="side-foot">
+      <span class="mem-chip" id="memChip"><span class="dot"></span><span id="memChipText">ACTIVE</span></span>
+      <span class="email" id="navEmail"></span>
+      <button class="so" onclick="signOut()">Sign out</button>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" onclick="toggleNav()">&#9776;</button>
-  </div>
-  <div class="nav-mobile" id="navMobile">
-    <a href="index.html">Home</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a href="practice.html">Practice</a>
-    <a href="about.html">How it works</a>
-    <a href="demo.html">Try free demo</a>
-    <a href="revision.html">Revision resources</a>
-    <a onclick="signOut();return false;">Sign out</a>
-  </div>
-</nav>
+  </aside>
 
-<main class="main">
-  <div id="loadingState" class="loading">Loading your dashboard...</div>
-  <div id="dashboardContent" style="display:none">
+  <main class="content">
+    <div id="loadingState" class="loading">Loading your dashboard...</div>
+    <div id="dashboardContent" style="display:none">
 
-    <div class="page-header">
-      <h1>Your mock exams</h1>
-      <p>FRCS Part 1 &middot; General Surgery</p>
-    </div>
+      <div class="d-head"><div class="ey">// Welcome back</div><h1 class="gro">Your progress</h1></div>
 
-    <div class="membership-banner" id="membershipBanner">
-      <div class="membership-left">
-        <div class="membership-dot"></div>
-        <div>
-          <div class="membership-text" id="membershipText">Membership active</div>
-          <div class="membership-sub" id="membershipSub"></div>
+      <div class="panel readiness">
+        <div class="rd-l">
+          <div class="panel-lbl" style="margin-bottom:10px">Exam readiness</div>
+          <div class="rd-score gro" id="rdScore">—</div>
+          <div class="rd-sub" id="rdSub">Sit your first paper to see your readiness.</div>
+          <div class="gauge"><div class="fill" id="rdFill" style="width:0%"></div><div class="mark"></div></div>
+          <div class="gauge-legend"><span>0%</span><span>65% PASS</span><span>100%</span></div>
+        </div>
+        <div class="rd-r">
+          <div class="rd-next-lbl" id="rdNextLbl">Start your first paper</div>
+          <div class="rd-next-name gro" id="rdNextName">Mock Exam 1 · Paper 1</div>
+          <a href="#" class="btn btn-green" id="rdNextBtn">Start paper <span class="ar">→</span></a>
+          <div class="rd-remaining" id="rdRemaining">10 of 10 papers remaining</div>
         </div>
       </div>
-    </div>
 
-    <div class="review-banner" id="reviewBanner">
-      <div class="review-banner-text">
-        <h4>Enjoying MockFRCS? Leave a quick review</h4>
-        <p>Your feedback shapes the platform and helps other candidates — it takes under a minute.</p>
+      <div class="grid2">
+        <div class="panel">
+          <div class="panel-lbl">Progress over time</div>
+          <div id="chartHost"><div class="chart-empty">Sit your first paper to start charting your scores.</div></div>
+          <div class="chart-cap" id="chartCap" style="display:none">Scores across your completed papers — most recent on the right.</div>
+        </div>
+        <div class="panel">
+          <div class="panel-lbl">Snapshot</div>
+          <div class="snap">
+            <div class="row"><span class="k">Papers completed</span><span class="v" id="snapPapers">0 <small>/ 10</small></span></div>
+            <div class="row"><span class="k">Best score</span><span class="v green" id="snapBest">—</span></div>
+            <div class="row"><span class="k">Practice answered</span><span class="v" id="snapPractice">—</span></div>
+          </div>
+        </div>
       </div>
-      <a href="#" class="btn-review-banner" id="reviewBannerBtn">Leave a review</a>
-    </div>
 
-    <div class="section-label">Practice by topic</div>
-    <a class="practice-banner" href="practice.html">
-      <div class="pb-text">
-        <h3>Practice questions by topic</h3>
-        <p id="practiceSub">Work through a topic at your own pace, with an explanation and source for every answer.</p>
+      <a class="practice-banner" href="practice.html">
+        <div><h3 class="gro">Practice questions by topic</h3><p id="practiceSub">Work through a topic at your own pace, with an explanation and source for every answer.</p></div>
+        <span class="pb-go">Open practice &rarr;</span>
+      </a>
+
+      <div class="sec-h">Mock exams</div>
+      <div class="ex-list" id="examsList"></div>
+
+      <div class="review-banner" id="reviewBanner">
+        <div><h4 class="gro">Enjoying MockFRCS? Leave a quick review</h4><p>Your feedback shapes the platform and helps other candidates — under a minute.</p></div>
+        <a href="#" class="btn-review-banner" id="reviewBannerBtn">Leave a review</a>
       </div>
-      <span class="pb-go">Open practice &rarr;</span>
-    </a>
 
-    <div class="section-label">Mock Exams</div>
-    <div class="exams-grid" id="examsGrid"></div>
-
-    <div class="section-label">Your progress</div>
-    <div class="stats-grid" style="margin-bottom:32px;">
-      <div class="stat-card"><div class="stat-num blue" id="statPapers">0</div><div class="stat-label">Papers completed</div></div>
-      <div class="stat-card"><div class="stat-num" id="statAvg">—</div><div class="stat-label">Average score</div></div>
-      <div class="stat-card"><div class="stat-num green" id="statBest">—</div><div class="stat-label">Best score</div></div>
-      <div class="stat-card"><div class="stat-num" id="statRemaining">10</div><div class="stat-label">Papers remaining</div></div>
-    </div>
-
-    <div id="topicBreakdownSection" style="display:none">
-      <div class="section-label">Topic breakdown — all attempts</div>
-      <div class="topic-breakdown-card">
-        <div id="topicBreakdownContent"></div>
+      <div id="topicSection" style="display:none">
+        <div class="sec-h">Topic performance · all attempts</div>
+        <div class="panel" id="topicHost"></div>
       </div>
+
     </div>
-
-  </div>
-</main>
-
-<footer>&copy; 2026 MockFRCS.co.uk &middot; For educational purposes only</footer>
+  </main>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="auth.js"></script>
 <script>
-function toggleNav() {
-  document.getElementById('navMobile').classList.toggle('open');
+function pctOf(a){ return Math.round(a.score / a.total_questions * 100); }
+
+function renderTrend(points){
+  const host = document.getElementById('chartHost');
+  if(!points.length){ return; }
+  document.getElementById('chartCap').style.display = 'block';
+  const W=560,H=160,L=40,R=520,T=20,B=140;
+  const y = p => B - (p/100)*(B-T);
+  const n = points.length;
+  const x = i => n===1 ? (L+R)/2 : L + (i/(n-1))*(R-L);
+  const passY = y(65);
+  let line = points.map((pt,i)=>`${i===0?'M':'L'}${x(i).toFixed(1)},${y(pt.pct).toFixed(1)}`).join(' ');
+  let dots = points.map((pt,i)=>`<circle cx="${x(i).toFixed(1)}" cy="${y(pt.pct).toFixed(1)}" r="4" fill="${i===n-1?'#2BD6A4':'#06110D'}" stroke="#2BD6A4" stroke-width="2"/>`).join('');
+  let labels = points.map((pt,i)=>{
+    const anchor = i===0?'start':i===n-1?'end':'middle';
+    return `<text x="${x(i).toFixed(1)}" y="150" fill="#5C6F66" font-family="IBM Plex Mono" font-size="10" text-anchor="${anchor}">${pt.label}</text>`;
+  }).join('');
+  let area = n>1 ? `<path d="${line} L${x(n-1).toFixed(1)},${B} L${x(0).toFixed(1)},${B} Z" fill="url(#g)"/>` : '';
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" height="160" preserveAspectRatio="none">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2BD6A4" stop-opacity="0.28"/><stop offset="1" stop-color="#2BD6A4" stop-opacity="0"/></linearGradient></defs>
+    <line class="pass-line" x1="0" y1="${passY}" x2="${W}" y2="${passY}"/>
+    <text x="4" y="${passY-6}" fill="#5C6F66" font-family="IBM Plex Mono" font-size="10">65% pass</text>
+    ${area}
+    ${n>1?`<path d="${line}" fill="none" stroke="#2BD6A4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>`:''}
+    ${dots}${labels}
+  </svg>`;
 }
 
 (async () => {
   const user = await requireAuth();
   if (!user) return;
-
   document.getElementById('navEmail').textContent = user.email;
 
-  // Practice progress (best effort - the banner still works without it)
-  (async () => {
-    try {
-      const [{ count: qTotal }, { data: done }] = await Promise.all([
-        db.from('practice_questions').select('id', { count: 'exact', head: true }),
-        db.from('practice_latest_attempts').select('is_correct').eq('user_id', user.id)
-      ]);
-      if (!qTotal) return;
-      const answered = (done || []).length;
+  let practiceAnswered = 0, practicePct = null;
+  try {
+    const [{ count: qTotal }, { data: done }] = await Promise.all([
+      db.from('practice_questions').select('id', { count: 'exact', head: true }),
+      db.from('practice_latest_attempts').select('is_correct').eq('user_id', user.id)
+    ]);
+    if (qTotal) {
+      practiceAnswered = (done || []).length;
       const correct = (done || []).filter(a => a.is_correct).length;
-      const pct = answered ? Math.round((correct / answered) * 100) : null;
-      document.getElementById('practiceSub').textContent =
-        answered
-          ? answered + ' of ' + qTotal + ' questions answered' + (pct === null ? '' : ' \u00b7 ' + pct + '% correct')
-          : qTotal + ' questions across the main topics, with an explanation and source for every answer.';
-    } catch (e) { /* leave the default text */ }
-  })();
+      practicePct = practiceAnswered ? Math.round((correct / practiceAnswered) * 100) : null;
+      document.getElementById('practiceSub').textContent = practiceAnswered
+        ? practiceAnswered + ' of ' + qTotal + ' questions answered' + (practicePct === null ? '' : ' · ' + practicePct + '% correct')
+        : qTotal + ' questions across the main topics, with an explanation and source for every answer.';
+    }
+  } catch (e) {}
 
-  // Check membership
-  const { data: membership } = await db
-    .from('memberships')
-    .select('*')
-    .eq('user_id', user.id)
-    .eq('active', true)
-    .gt('expires_at', new Date().toISOString())
-    .single();
-
-  if (!membership) {
-    window.location.href = 'pricing.html';
-    return;
-  }
-
-  // Show membership expiry
+  const { data: membership } = await db.from('memberships').select('*').eq('user_id', user.id).eq('active', true).gt('expires_at', new Date().toISOString()).single();
+  if (!membership) { window.location.href = 'pricing.html'; return; }
   const expiry = new Date(membership.expires_at);
   const daysLeft = Math.ceil((expiry - new Date()) / (1000 * 60 * 60 * 24));
-  document.getElementById('membershipSub').textContent = `Expires ${expiry.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })} — ${daysLeft} days remaining`;
+  document.getElementById('memChipText').textContent = `ACTIVE · ${daysLeft} DAYS`;
 
-  // Load exams
-  const { data: exams } = await db
-    .from('exams')
-    .select('*')
-    .order('exam_number')
-    .order('paper_number');
+  const { data: exams } = await db.from('exams').select('*').order('exam_number').order('paper_number');
+  const { data: attemptsDesc } = await db.from('exam_attempts').select('*').eq('user_id', user.id).eq('completed', true).order('submitted_at', { ascending: false });
+  const attempts = attemptsDesc || [];
+  const examById = {}; (exams||[]).forEach(e => examById[e.id] = e);
 
-  // Load all completed attempts
-  const { data: attempts } = await db
-    .from('exam_attempts')
-    .select('*')
-    .eq('user_id', user.id)
-    .eq('completed', true)
-    .order('submitted_at', { ascending: false });
+  // Snapshot + readiness
+  const completedPapers = attempts.length;
+  const scores = attempts.filter(a => a.score !== null).map(pctOf);
+  const avg = scores.length ? Math.round(scores.reduce((a,b)=>a+b,0)/scores.length) : null;
+  const best = scores.length ? Math.max(...scores) : null;
 
-  // Build stats
-  const completedPapers = attempts ? attempts.length : 0;
-  const scores = attempts ? attempts.filter(a => a.score !== null).map(a => Math.round(a.score / a.total_questions * 100)) : [];
-  const avgScore = scores.length ? Math.round(scores.reduce((a,b) => a+b, 0) / scores.length) + '%' : '—';
-  const bestScore = scores.length ? Math.max(...scores) + '%' : '—';
+  document.getElementById('snapPapers').innerHTML = `${completedPapers} <small>/ 10</small>`;
+  document.getElementById('snapBest').textContent = best === null ? '—' : best + '%';
+  document.getElementById('snapPractice').innerHTML = practiceAnswered ? `${practiceAnswered} <small>${practicePct===null?'':'· '+practicePct+'%'}</small>` : '—';
 
-  document.getElementById('statPapers').textContent = completedPapers;
-  document.getElementById('statAvg').textContent = avgScore;
-  document.getElementById('statBest').textContent = bestScore;
-  document.getElementById('statRemaining').textContent = 10 - completedPapers;
+  if (avg !== null) {
+    const el = document.getElementById('rdScore');
+    el.textContent = avg + '%';
+    if (avg < 65) el.classList.add('below');
+    document.getElementById('rdSub').textContent = `Average across ${completedPapers} completed paper${completedPapers===1?'':'s'} · pass standard 65%`;
+    document.getElementById('rdFill').style.width = avg + '%';
+  }
 
-  // Group exams by exam number
-  const examGroups = {};
-  exams.forEach(e => {
-    if (!examGroups[e.exam_number]) examGroups[e.exam_number] = [];
-    examGroups[e.exam_number].push(e);
+  // Trend (chronological)
+  const chrono = attempts.filter(a => a.score !== null).slice().reverse();
+  const points = chrono.map(a => {
+    const ex = examById[a.exam_id];
+    const label = ex ? `E${ex.exam_number}·P${ex.paper_number}` : '';
+    return { pct: pctOf(a), label };
   });
+  renderTrend(points);
 
-  const grid = document.getElementById('examsGrid');
-  Object.entries(examGroups).forEach(([examNum, papers]) => {
-    const card = document.createElement('div');
-    card.className = 'exam-card';
+  // Next action — first paper not yet completed
+  const completedIds = new Set(attempts.map(a => a.exam_id));
+  const nextPaper = (exams||[]).find(p => !completedIds.has(p.id));
+  const remaining = (exams||[]).length - completedIds.size;
+  document.getElementById('rdRemaining').textContent = `${remaining} of ${(exams||[]).length} papers remaining`;
+  if (nextPaper) {
+    document.getElementById('rdNextLbl').textContent = completedPapers ? 'Your next paper' : 'Start your first paper';
+    document.getElementById('rdNextName').textContent = `Mock Exam ${nextPaper.exam_number} · Paper ${nextPaper.paper_number}`;
+    document.getElementById('rdNextBtn').onclick = () => { window.location.href = `exam.html?exam=${nextPaper.id}`; return false; };
+  } else {
+    document.getElementById('rdNextLbl').textContent = 'All papers complete';
+    document.getElementById('rdNextName').textContent = 'Resit to keep sharp';
+    const firstId = (exams||[])[0] ? (exams||[])[0].id : '';
+    document.getElementById('rdNextBtn').innerHTML = 'Review results';
+    document.getElementById('rdNextBtn').onclick = () => { window.location.href = attempts[0] ? `results.html?attempt=${attempts[0].id}` : 'dashboard.html'; return false; };
+  }
 
-    const papersHtml = papers.map(paper => {
-      // Get all attempts for this paper, most recent first
-      const paperAttempts = attempts ? attempts.filter(a => a.exam_id === paper.id) : [];
-      const latestAttempt = paperAttempts[0] || null;
-      const attemptCount = paperAttempts.length;
-
-      let rightSide = '';
-      if (latestAttempt) {
-        const score = Math.round(latestAttempt.score / latestAttempt.total_questions * 100);
-        const passed = score >= 65;
-        const historyText = attemptCount > 1
-          ? `${attemptCount} attempts — best: ${Math.max(...paperAttempts.map(a => Math.round(a.score/a.total_questions*100)))}%`
-          : `1 attempt`;
-        rightSide = `
-          <div class="paper-btns">
-            <button class="btn-review" onclick="window.location.href='results.html?attempt=${latestAttempt.id}'">Results</button>
-            <button class="btn-resit" onclick="window.location.href='exam.html?exam=${paper.id}'">Resit</button>
-          </div>`;
-        return `
-          <div class="paper-row">
-            <div class="paper-info">
-              <h4>Paper ${paper.paper_number} <span class="paper-score ${passed ? '' : 'fail'}">${score}%</span></h4>
-              <p class="attempt-history">${historyText}</p>
-            </div>
-            ${rightSide}
-          </div>`;
-      } else {
-        return `
-          <div class="paper-row">
-            <div class="paper-info">
-              <h4>Paper ${paper.paper_number}</h4>
-              <p>120 questions &middot; 2h 15m</p>
-            </div>
-            <button class="btn-start" onclick="window.location.href='exam.html?exam=${paper.id}'">Start paper</button>
-          </div>`;
+  // Exams list
+  const groups = {};
+  (exams||[]).forEach(e => { (groups[e.exam_number] = groups[e.exam_number] || []).push(e); });
+  const list = document.getElementById('examsList');
+  Object.entries(groups).forEach(([num, papers]) => {
+    const rows = papers.map(paper => {
+      const pa = attempts.filter(a => a.exam_id === paper.id);
+      const latest = pa[0] || null;
+      if (latest) {
+        const sc = pctOf(latest); const passed = sc >= 65;
+        const hist = pa.length > 1 ? `${pa.length} attempts · best ${Math.max(...pa.map(pctOf))}%` : '1 attempt';
+        return `<div class="p-row"><div><div class="pn">Paper ${paper.paper_number} <span class="score-pill ${passed?'':'fail'}">${sc}%</span></div><div class="p-sub">${hist}</div></div>
+          <div class="p-actions"><button class="pa results" onclick="window.location.href='results.html?attempt=${latest.id}'">Results</button><button class="pa resit" onclick="window.location.href='exam.html?exam=${paper.id}'">Resit</button></div></div>`;
       }
+      return `<div class="p-row"><div><div class="pn">Paper ${paper.paper_number}</div><div class="p-sub">120 questions · 2h 15m</div></div>
+        <div class="p-actions"><button class="pa start" onclick="window.location.href='exam.html?exam=${paper.id}'">Start paper →</button></div></div>`;
     }).join('');
-
-    const allCompleted = papers.every(p => attempts && attempts.some(a => a.exam_id === p.id));
-    const anyStarted = papers.some(p => attempts && attempts.some(a => a.exam_id === p.id));
-    const statusClass = allCompleted ? 'completed' : anyStarted ? 'in-progress' : 'available';
-    const statusText = allCompleted ? 'Completed' : anyStarted ? 'In progress' : 'Available';
-
-    card.innerHTML = `
-      <div class="exam-card-header">
-        <div class="exam-num">${examNum}</div>
-        <span class="exam-status ${statusClass}">${statusText}</span>
-      </div>
-      <h3>Mock Exam ${examNum}</h3>
-      <p>2 papers &middot; 120 questions each &middot; 2h 15m per paper</p>
-      <div class="papers">${papersHtml}</div>`;
-    grid.appendChild(card);
+    const allDone = papers.every(p => completedIds.has(p.id));
+    const anyDone = papers.some(p => completedIds.has(p.id));
+    const sClass = allDone ? 'done' : anyDone ? 'prog' : 'avail';
+    const sText = allDone ? 'Completed' : anyDone ? 'In progress' : 'Available';
+    const item = document.createElement('div');
+    item.className = 'ex-item';
+    item.innerHTML = `<div class="ex-top"><div class="l"><div class="ex-n">${num}</div><h3 class="gro">Mock Exam ${num}</h3></div><span class="ex-stat ${sClass}">${sText}</span></div>${rows}`;
+    list.appendChild(item);
   });
 
   document.getElementById('loadingState').style.display = 'none';
   document.getElementById('dashboardContent').style.display = 'block';
 
-  // Show review banner if user has completed a paper but hasn't reviewed
-  if (attempts && attempts.length > 0) {
+  // Review prompt
+  if (attempts.length > 0) {
     try {
-      const { data: existingReview } = await db
-        .from('reviews')
-        .select('id')
-        .eq('user_id', user.id)
-        .maybeSingle();
-
+      const { data: existingReview } = await db.from('reviews').select('id').eq('user_id', user.id).maybeSingle();
       if (!existingReview) {
-        // Link to their most recent results page where the review form lives
         document.getElementById('reviewBannerBtn').href = `results.html?attempt=${attempts[0].id}#reviewPrompt`;
         document.getElementById('reviewBanner').classList.add('show');
       }
-    } catch (e) {
-      // Reviews table may not exist yet — fail silently
-    }
+    } catch (e) {}
   }
 
-  // Build cumulative topic breakdown if any papers completed
-  if (attempts && attempts.length > 0) {
-    // Load all answers for all completed attempts
+  // Topic performance
+  if (attempts.length > 0) {
     const attemptIds = attempts.map(a => a.id);
-    const { data: allAnswers } = await db
-      .from('answers')
-      .select('*, questions(topic, correct_answer)')
-      .in('attempt_id', attemptIds);
-
+    const { data: allAnswers } = await db.from('answers').select('*, questions(topic, correct_answer)').in('attempt_id', attemptIds);
     if (allAnswers && allAnswers.length > 0) {
       const topicMap = {};
-      allAnswers.forEach(a => {
-        if (!a.questions) return;
-        const topic = a.questions.topic;
-        if (!topicMap[topic]) topicMap[topic] = { correct: 0, total: 0 };
-        topicMap[topic].total++;
-        if (a.is_correct) topicMap[topic].correct++;
+      allAnswers.forEach(a => { if (!a.questions) return; const t = a.questions.topic; (topicMap[t] = topicMap[t] || {correct:0,total:0}); topicMap[t].total++; if (a.is_correct) topicMap[t].correct++; });
+      const host = document.getElementById('topicHost');
+      Object.entries(topicMap).sort((a,b)=>(b[1].correct/b[1].total)-(a[1].correct/a[1].total)).forEach(([topic,d])=>{
+        const pct = Math.round(d.correct/d.total*100);
+        const bar = pct>=75?'#2BD6A4':pct>=65?'#17B98C':'#D0493E';
+        const txt = pct>=65?bar:'#e8928a';
+        host.innerHTML += `<div class="tp-row"><div class="tp-name">${topic}</div><div class="tp-bar"><i style="width:${pct}%;background:${bar}"></i></div><div class="tp-pct" style="color:${txt}">${pct}%</div><div class="tp-cnt">${d.correct}/${d.total}</div></div>`;
       });
-
-      const container = document.getElementById('topicBreakdownContent');
-      Object.entries(topicMap)
-        .sort((a, b) => b[1].total - a[1].total)
-        .forEach(([topic, data]) => {
-          const pct = Math.round(data.correct / data.total * 100);
-          const color = pct >= 75 ? '#3B6D11' : pct >= 65 ? '#185FA5' : '#A32D2D';
-          container.innerHTML += `
-            <div class="topic-row-db">
-              <div class="topic-name-db">${topic}</div>
-              <div class="topic-bar-wrap-db"><div class="topic-bar-db" style="width:${pct}%;background:${color}"></div></div>
-              <div class="topic-pct-db" style="color:${color}">${pct}%</div>
-              <div class="topic-count-db">${data.correct}/${data.total}</div>
-            </div>`;
-        });
-
-      document.getElementById('topicBreakdownSection').style.display = 'block';
+      document.getElementById('topicSection').style.display = 'block';
     }
   }
 })();
