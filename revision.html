@@ -13,23 +13,30 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="brand.css">
 <style>
-  .hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
-  .rc{background:var(--white);border:1px solid var(--line-l);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:border-color .2s,transform .2s,box-shadow .2s}
-  a.rc:hover{border-color:var(--green);transform:translateY(-3px);box-shadow:0 20px 44px -30px rgba(10,20,15,.32)}
-  .rc-top{height:96px;display:flex;align-items:center;padding:0 24px}
-  .rc-top svg{width:30px;height:30px}
-  .rc-top.posters{background:var(--green-deep)}
-  .rc-top.stats{background:var(--bg)}
-  .rc-top.anatomy{background:var(--amber)} .rc-top.practice{background:var(--ink)}
-  .rc-body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
-  .rc-badge{align-self:flex-start;font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.6px;padding:4px 10px;border-radius:40px;text-transform:uppercase;margin-bottom:13px}
-  .rc-badge.free{background:rgba(23,185,140,.12);color:var(--green-deep)}
-  .rc-badge.mixed{background:rgba(10,20,15,.07);color:var(--ink)}
-  .rc-badge.soon{background:rgba(224,146,43,.14);color:#9a5d17} .rc-badge.members{background:rgba(10,20,15,.07);color:var(--ink)}
-  .rc h3{font-family:var(--f-gro);font-size:18px;font-weight:600;margin-bottom:9px;letter-spacing:-.2px}
-  .rc p{font-size:14px;color:var(--ink-2);line-height:1.6;flex:1;margin-bottom:16px}
-  .rc-go{font-family:var(--f-mono);font-size:12.5px;font-weight:500;color:var(--green-deep)}
-  .rc.soon{opacity:.72}
+    .hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+  .rc{position:relative;background:var(--white);border:1px solid var(--line-l);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .28s cubic-bezier(.2,.7,.2,1),box-shadow .28s,border-color .28s}
+  a.rc:hover{border-color:var(--green);transform:translateY(-6px);box-shadow:0 34px 64px -34px rgba(8,40,30,.5)}
+  .rc-top{position:relative;height:138px;display:flex;align-items:flex-end;padding:20px;overflow:hidden}
+  .rc-top::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.16) 1px,transparent 1.5px);background-size:13px 13px;opacity:.4;pointer-events:none}
+  .rc-top.practice{background:radial-gradient(130% 120% at 82% 6%,#154e3e 0%,transparent 56%),linear-gradient(140deg,#06110D,#0b241c)}
+  .rc-top.stats{background:radial-gradient(130% 120% at 82% 6%,#43e6bf 0%,transparent 60%),linear-gradient(140deg,#0a5248,#149080)}
+  .rc-top.posters{background:radial-gradient(130% 120% at 82% 6%,#9ff3d8 0%,transparent 60%),linear-gradient(140deg,#0f916c,#2bd6a4)}
+  .rc-top.anatomy{background:radial-gradient(130% 120% at 82% 6%,#f6cd8f 0%,transparent 60%),linear-gradient(140deg,#b5711c,#e0922b)}
+  .rc-ic{position:relative;z-index:1;width:54px;height:54px;border-radius:15px;display:grid;place-items:center;background:rgba(6,17,13,.22);border:1px solid rgba(255,255,255,.32);box-shadow:0 10px 22px -12px rgba(0,0,0,.55);transition:transform .28s cubic-bezier(.2,.7,.2,1)}
+  .rc:hover .rc-ic{transform:translateY(-3px) scale(1.07)}
+  .rc-ic svg{width:27px;height:27px}
+  .rc-badge{position:absolute;top:16px;right:16px;z-index:1;font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.6px;padding:5px 11px;border-radius:40px;text-transform:uppercase;background:rgba(255,255,255,.93);box-shadow:0 6px 16px -8px rgba(0,0,0,.45)}
+  .rc-badge.free{color:var(--green-deep)}
+  .rc-badge.mixed{color:var(--ink)}
+  .rc-badge.soon{color:#9a5d17}
+  .rc-badge.members{color:var(--ink)}
+  .rc-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
+  .rc h3{font-family:var(--f-gro);font-size:18.5px;font-weight:600;margin-bottom:6px;letter-spacing:-.3px}
+  .rc-meta{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.2px;color:var(--ink-3);margin-bottom:18px}
+  .rc-go{font-family:var(--f-mono);font-size:12.5px;font-weight:500;color:var(--green-deep);margin-top:auto;display:inline-flex;align-items:center;gap:7px}
+  .rc-go .arr{transition:transform .22s}
+  .rc:hover .rc-go .arr{transform:translateX(4px)}
+  .rc.soon{opacity:.82}
   .rc.soon .rc-go{color:var(--ink-3)}
 </style>
 </head>
@@ -51,7 +58,7 @@
   <div class="wrap">
     <span class="eyebrow reveal"><span class="pulse"></span>Revision resources</span>
     <h1 class="gro reveal d1">Everything you need<br>to <span class="g">revise</span>.</h1>
-    <p class="lede reveal d2">Surgeon-authored resources for the FRCS Part 1 General Surgery exam. Free samples throughout, with the full library unlocked for members.</p>
+    <p class="lede reveal d2">Free samples throughout — the full library unlocks with a MockFRCS membership.</p>
   </div>
 </header>
 
@@ -59,21 +66,17 @@
   <div class="wrap sec">
     <div class="hub-grid">
       <a class="rc reveal" href="practice.html">
-        <div class="rc-top practice"><svg viewBox="0 0 24 24" fill="none" stroke="#2BD6A4" stroke-width="1.75"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <div class="rc-body"><span class="rc-badge members">Members</span><h3 class="gro">Practice by topic</h3><p>Topic-by-topic question banks across the subspecialties — high-yield, exam-level single-best-answer questions, each marked the moment you answer with a full explanation and its source. Work a topic at your own pace.</p><span class="rc-go">Start practising →</span></div>
+        <div class="rc-top practice"><span class="rc-badge members">Members</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#5BE6BC" stroke-width="1.75"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></span></div>
+        <div class="rc-body"><h3 class="gro">Practice question bank</h3><div class="rc-meta">575 questions &middot; 14 topics</div><span class="rc-go">Start practising <span class="arr">&rarr;</span></span></div>
       </a>
-      <a class="rc reveal d1" href="posters.html">
-        <div class="rc-top posters"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M9 9v12"/></svg></div>
-        <div class="rc-body"><span class="rc-badge free">Free samples</span><h3 class="gro">Revision posters</h3><p>74 high-yield, one-page summaries across seven subspecialties — colorectal, oesophago-gastric, HPB, transplant, breast, endocrine and vascular. Free tasters in every section, the full set for members.</p><span class="rc-go">Browse posters →</span></div>
+      <a class="rc reveal d1" href="stats.html">
+        <div class="rc-top stats"><span class="rc-badge mixed">Sections 1&ndash;3 free</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75"><path d="M3 21h18"/><rect x="5" y="11" width="3.5" height="7"/><rect x="10.25" y="6" width="3.5" height="12"/><rect x="15.5" y="14" width="3.5" height="4"/></svg></span></div>
+        <div class="rc-body"><h3 class="gro">Statistics workbook</h3><div class="rc-meta">7 sections &middot; self-test quizzes</div><span class="rc-go">Open the workbook <span class="arr">&rarr;</span></span></div>
       </a>
-      <a class="rc reveal d2" href="stats.html">
-        <div class="rc-top stats"><svg viewBox="0 0 24 24" fill="none" stroke="#2BD6A4" stroke-width="1.75"><path d="M3 21h18"/><rect x="5" y="11" width="3.5" height="7"/><rect x="10.25" y="6" width="3.5" height="12"/><rect x="15.5" y="14" width="3.5" height="4"/></svg></div>
-        <div class="rc-body"><span class="rc-badge mixed">Sections 1–3 free</span><h3 class="gro">Statistics &amp; critical appraisal</h3><p>A plain-English workbook covering the whole statistics and critical appraisal syllabus, with a self-test after every section. The essentials made genuinely readable. Sections 1–3 free; the rest for members.</p><span class="rc-go">Open the workbook →</span></div>
+      <a class="rc reveal d2" href="posters.html">
+        <div class="rc-top posters"><span class="rc-badge free">Free samples</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M9 9v12"/></svg></span></div>
+        <div class="rc-body"><h3 class="gro">Revision posters</h3><div class="rc-meta">74 posters &middot; 7 subspecialties</div><span class="rc-go">Browse posters <span class="arr">&rarr;</span></span></div>
       </a>
-      <div class="rc soon reveal d3">
-        <div class="rc-top anatomy"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75"><circle cx="12" cy="5" r="2.5"/><path d="M12 7.5v7M12 9l-5 2M12 9l5 2M12 14.5l-3 6M12 14.5l3 6"/></svg></div>
-        <div class="rc-body"><span class="rc-badge soon">Coming soon</span><h3 class="gro">Anatomy label sheets</h3><p>Printable label-the-anatomy self-test sheets — a blank sheet to work through, plus a matching answer key with teaching notes. Starting with the inguinal canal.</p><span class="rc-go">In the works</span></div>
-      </div>
     </div>
   </div>
 </section>
