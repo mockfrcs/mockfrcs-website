@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="shortcut icon" href="favicon.ico">
 <title>MockFRCS &mdash; Realistic FRCS Part 1 mock exams</title>
-<meta name="description" content="Five full mock exams for FRCS Part 1 General Surgery — timed, surgeon-written SBA papers mapped to the JCST curriculum. Launching 2026.">
+<meta name="description" content="Mock exams and revision for FRCS Part 1 General Surgery: five timed mock exams, a practice question bank, revision posters and a statistics workbook. Launching 2026.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
   :root{
@@ -70,8 +70,9 @@
   .eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:var(--f-mono);font-size:12px;letter-spacing:1.5px;color:var(--green-br);text-transform:uppercase;border:1px solid var(--line-d);border-radius:40px;padding:7px 15px;background:rgba(43,214,164,.05)}
   .eyebrow .pulse{width:6px;height:6px;border-radius:50%;background:var(--green-br);box-shadow:0 0 0 0 rgba(43,214,164,.6);animation:pulse 2.4s infinite}
   @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(43,214,164,.5)}70%{box-shadow:0 0 0 7px rgba(43,214,164,0)}100%{box-shadow:0 0 0 0 rgba(43,214,164,0)}}
-  .hero h1{font-family:var(--f-gro);font-weight:600;font-size:clamp(44px,8.5vw,104px);line-height:.98;letter-spacing:-.035em;margin:30px auto 0;max-width:15ch}
-  .hero h1 .g{color:var(--green-br)}
+  .hero h1{font-family:var(--f-gro);font-weight:600;font-size:clamp(38px,6.4vw,82px);line-height:1.02;letter-spacing:-.035em;margin:30px auto 0;text-wrap:balance}
+  .hero h1 .g{color:var(--green-br);white-space:nowrap}
+  @media(max-width:760px){.hero h1 br{display:none}}
   .hero .lede{font-size:clamp(16px,2vw,20px);color:var(--t-dim);line-height:1.6;max-width:600px;margin:26px auto 0}
   .hero-cta{display:flex;gap:14px;justify-content:center;margin-top:38px;flex-wrap:wrap}
   .hero-cta .btn{padding:15px 26px;font-size:14px}
@@ -181,6 +182,29 @@
     .form{flex-direction:column}
     .hero h1{letter-spacing:-.02em}
   }
+  /* what's inside — four resource cards */
+  .inside-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:clamp(64px,9vw,112px)}
+  @media(max-width:1080px){.inside-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.inside-grid{grid-template-columns:1fr}}
+  .rc{position:relative;background:#fff;border:1px solid var(--line-l);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .28s cubic-bezier(.2,.7,.2,1),box-shadow .28s,border-color .28s}
+  a.rc:hover{border-color:var(--green);transform:translateY(-6px);box-shadow:0 34px 64px -34px rgba(8,40,30,.5)}
+  .rc-top{position:relative;height:128px;display:flex;align-items:flex-end;padding:18px;overflow:hidden}
+  .rc-top::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.16) 1px,transparent 1.5px);background-size:13px 13px;opacity:.4;pointer-events:none}
+  .rc-top.exams{background:radial-gradient(130% 120% at 82% 6%,#f6cd8f 0%,transparent 60%),linear-gradient(140deg,#b5711c,#e0922b)}
+  .rc-top.practice{background:radial-gradient(130% 120% at 82% 6%,#154e3e 0%,transparent 56%),linear-gradient(140deg,#06110D,#0b241c)}
+  .rc-top.stats{background:radial-gradient(130% 120% at 82% 6%,#43e6bf 0%,transparent 60%),linear-gradient(140deg,#0a5248,#149080)}
+  .rc-top.posters{background:radial-gradient(130% 120% at 82% 6%,#9ff3d8 0%,transparent 60%),linear-gradient(140deg,#0f916c,#2bd6a4)}
+  .rc-ic{position:relative;z-index:1;width:50px;height:50px;border-radius:14px;display:grid;place-items:center;background:rgba(6,17,13,.22);border:1px solid rgba(255,255,255,.32);box-shadow:0 10px 22px -12px rgba(0,0,0,.55);transition:transform .28s cubic-bezier(.2,.7,.2,1)}
+  .rc:hover .rc-ic{transform:translateY(-3px) scale(1.07)}
+  .rc-ic svg{width:25px;height:25px}
+  .rc-badge{position:absolute;top:14px;right:14px;z-index:1;font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.5px;padding:5px 10px;border-radius:40px;text-transform:uppercase;background:rgba(255,255,255,.93);color:var(--ink);box-shadow:0 6px 16px -8px rgba(0,0,0,.45)}
+  .rc-badge.free{color:var(--green-deep)}
+  .rc-body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+  .rc h3{font-family:var(--f-gro);font-size:18px;font-weight:600;margin-bottom:6px;letter-spacing:-.3px}
+  .rc-meta{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.2px;color:#6A776F;margin-bottom:18px}
+  .rc-go{font-family:var(--f-mono);font-size:12.5px;font-weight:500;color:var(--green-deep);margin-top:auto;display:inline-flex;align-items:center;gap:7px}
+  .rc-go .arr{transition:transform .22s}
+  .rc:hover .rc-go .arr{transform:translateX(4px)}
 </style>
 </head>
 <body>
@@ -219,8 +243,8 @@
 <header class="hero">
   <div class="wrap">
     <span class="eyebrow reveal"><span class="pulse"></span>FRCS Part 1 · General Surgery · Launching 2026</span>
-    <h1 class="reveal d1">Five full rehearsals.<br><span class="g">Then the real thing.</span></h1>
-    <p class="lede reveal d2">Timed, surgeon-written mock papers for FRCS Part 1 General Surgery — mapped to the JCST curriculum and marked the moment you submit.</p>
+    <h1 class="reveal d1">Mock exams and revision <br>for <span class="g">FRCS Part 1</span></h1>
+    <p class="lede reveal d2">Timed mock exams, a 575-question practice bank, revision posters and a statistics workbook</p>
     <div class="hero-cta reveal d3">
       <a href="#notify" class="btn btn-green">Get launch access <span class="ar">→</span></a>
       <a href="demo.html" class="btn btn-ghost-d">Try the free demo</a>
@@ -258,6 +282,29 @@
 <!-- STATS + STEPS -->
 <section class="light">
   <div class="wrap sec">
+    <div class="stats-head reveal">
+      <span class="lead-eye">// What's inside</span>
+      <h2 class="gro">Four ways to prepare</h2>
+    </div>
+    <div class="inside-grid">
+      <a class="rc reveal" href="about.html">
+        <div class="rc-top exams"><span class="rc-badge">All plans</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span></div>
+        <div class="rc-body"><h3>Mock exams</h3><div class="rc-meta">5 exams &middot; 2 timed papers each</div><span class="rc-go">How it works <span class="arr">&rarr;</span></span></div>
+      </a>
+      <a class="rc reveal d1" href="pricing.html">
+        <div class="rc-top practice"><span class="rc-badge">Standard &amp; Complete</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#5BE6BC" stroke-width="1.75"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></span></div>
+        <div class="rc-body"><h3>Practice question bank</h3><div class="rc-meta">575 questions &middot; 14 topics</div><span class="rc-go">See plans <span class="arr">&rarr;</span></span></div>
+      </a>
+      <a class="rc reveal d2" href="stats.html">
+        <div class="rc-top stats"><span class="rc-badge">Sections 1&ndash;3 free</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75"><path d="M3 21h18"/><rect x="5" y="11" width="3.5" height="7"/><rect x="10.25" y="6" width="3.5" height="12"/><rect x="15.5" y="14" width="3.5" height="4"/></svg></span></div>
+        <div class="rc-body"><h3>Statistics workbook</h3><div class="rc-meta">7 sections &middot; self-test quizzes</div><span class="rc-go">Open the workbook <span class="arr">&rarr;</span></span></div>
+      </a>
+      <a class="rc reveal d3" href="posters.html">
+        <div class="rc-top posters"><span class="rc-badge free">Free samples</span><span class="rc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F5F1" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M9 9v12"/></svg></span></div>
+        <div class="rc-body"><h3>Revision posters</h3><div class="rc-meta">74 posters &middot; 7 subspecialties</div><span class="rc-go">Browse posters <span class="arr">&rarr;</span></span></div>
+      </a>
+    </div>
+
     <div class="stats-head reveal">
       <span class="lead-eye">// The papers</span>
       <h2 class="gro">Built to the exam, down to the minute.</h2>
