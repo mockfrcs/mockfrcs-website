@@ -11,6 +11,11 @@
 <title>MockFRCS — Create Account</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="brand.css">
+<style>
+  .auth-card label.agree{display:flex;gap:10px;align-items:flex-start;margin:6px 0 12px;font-family:var(--f-sans);font-size:13px;font-weight:400;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--t-dim);cursor:pointer}
+  .auth-card label.agree input{margin:3px 0 0;padding:0;width:16px;height:16px;accent-color:#17B98C;flex:none}
+  .auth-card label.agree a{color:var(--green-br);text-decoration:underline;text-underline-offset:3px}
+</style>
 </head>
 <body>
 
@@ -25,7 +30,7 @@
   <div class="auth-card">
     <div class="ah">
       <h1 class="gro">Create your account</h1>
-      <p class="sub">Get access to all 5 mock exams from £29.99</p>
+      <p class="sub">Full timed FRCS Part 1 mock exams from £29.99</p>
     </div>
     <div class="error-msg" id="errorMsg"></div>
     <div class="success-msg" id="successMsg"></div>
@@ -41,13 +46,14 @@
       <label for="confirmPassword">Confirm password</label>
       <input type="password" id="confirmPassword" placeholder="Repeat your password" />
     </div>
+    <label class="agree"><input type="checkbox" id="agree"><span>I agree to the <a href="terms.html" target="_blank">Terms &amp; Conditions</a> and have read the <a href="privacy.html" target="_blank">Privacy Notice</a>.</span></label>
     <button class="btn-submit" id="signupBtn" onclick="handleSignup()">Create account</button>
     <div class="divider"><div class="divider-line"></div><div class="divider-text">already have an account?</div><div class="divider-line"></div></div>
     <div class="footer-link"><a href="login.html">Log in to your account</a></div>
   </div>
 </main>
 
-<div class="auth-foot">© 2026 MOCKFRCS.CO.UK · FOR EDUCATIONAL PURPOSES ONLY</div>
+<div class="auth-foot">© 2026 MOCKFRCS.CO.UK · FOR EDUCATIONAL PURPOSES ONLY · <a href="terms.html" style="color:inherit;text-decoration:underline">TERMS</a> · <a href="privacy.html" style="color:inherit;text-decoration:underline">PRIVACY</a></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="auth.js"></script>
@@ -65,6 +71,7 @@ async function handleSignup() {
   if (!email || !password || !confirmPassword) { errorMsg.textContent = 'Please fill in all fields.'; errorMsg.classList.add('show'); return; }
   if (password.length < 8) { errorMsg.textContent = 'Password must be at least 8 characters.'; errorMsg.classList.add('show'); return; }
   if (password !== confirmPassword) { errorMsg.textContent = 'Passwords do not match.'; errorMsg.classList.add('show'); return; }
+  if (!document.getElementById('agree').checked) { errorMsg.textContent = 'Please agree to the Terms & Conditions to continue.'; errorMsg.classList.add('show'); return; }
   btn.disabled = true; btn.textContent = 'Creating account...';
   const { data, error } = await db.auth.signUp({ email, password });
   if (error) { errorMsg.textContent = error.message; errorMsg.classList.add('show'); btn.disabled = false; btn.textContent = 'Create account'; return; }
